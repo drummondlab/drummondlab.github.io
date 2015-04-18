@@ -10,6 +10,8 @@ CONFIG = {
   'layouts' => File.join(SOURCE, "_layouts"),
   'posts' => File.join(SOURCE, "_posts"),
   'post_ext' => "md",
+  'protocols' => File.join(SOURCE, "protocols/_posts"),
+  'protocol_ext' => "md",
   'theme_package_version' => "0.1.0"
 }
 
@@ -79,9 +81,42 @@ task :post do
   end
 end # task :post
 
+# Usage: rake protocol title="Protocol Title" [date="2015-05-01"] [tags=[tag1,tag2]] [category="category"]
+desc "Begin a new protocol in #{CONFIG['protocols']}"
+task :protocol do
+  abort("rake aborted: '#{CONFIG['protocols']}' directory not found.") unless FileTest.directory?(CONFIG['protocols'])
+  title = ENV["title"] || "new-protocol"
+  tags = ENV["tags"] || "[]"
+  category = ENV["category"] || ""
+  category = "\"#{category.gsub(/-/,' ')}\"" if !category.empty?
+  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  begin
+    date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
+  rescue => e
+    puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
+    exit -1
+  end
+  filename = File.join(CONFIG['protocols'], "#{date}-#{slug}.#{CONFIG['protocol_ext']}")
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+  
+  puts "Creating new protocol: #{filename}"
+  open(filename, 'w') do |post|
+    post.puts "---"
+    post.puts "layout: protocol"
+    post.puts "title: \"#{title.gsub(/-/,' ')}\""
+    post.puts 'description: ""'
+    post.puts "category: #{category}"
+    post.puts "tags: #{tags}"
+    post.puts "---"
+    post.puts "{% include JB/setup %}"
+  end
+end # task :protocol
+
 # Usage: rake page name="about.html"
 # You can also specify a sub-directory path.
-# If you don't specify a file extention we create an index.html at the path specified
+# If you don't specify a file extension we create an index.html at the path specified
 desc "Create a new page."
 task :page do
   name = ENV["name"] || "new-page.md"
@@ -124,7 +159,7 @@ namespace :theme do
   #   rake theme:switch name="the-program"
   #
   # Returns Success/failure messages.
-  desc "Switch between Jekyll-bootstrap themes."
+  desc "Switch between Jekyll-Bootstrap themes."
   task :switch do
     theme_name = ENV["name"].to_s
     theme_path = File.join(CONFIG['themes'], theme_name)
