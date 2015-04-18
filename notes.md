@@ -42,18 +42,34 @@ You're welcome to borrow / repurpose code to build your own site, but I would ve
 		* Join
 		* Contact
 
-Each of the major areas is structured like a blog. That is:
+Each of the major areas is structured like a blog. For example:
 
+	research/
+		_posts/
+			2015-04-18-heat-shock-aggregation.md
 	papers/
 		_posts/
 			2014-12-09-queuosine.md
 			2015-04-18-mrna-protein.md
 	protocols/
 		_posts/
+			2015-04-18-yeast-lysis.md
+	team/
+		_posts/
+			2011-10-01-allan-drummond.md
+			2011-10-01-edward-wallace.md
+	news/
+		_posts/
+			2015-04-09-pg-paper-accepted.md
+
+For team, use a tag to indicate 'current' vs 'alumni'?
 
 ## To do
 
 * Home page
+	* Text
+	* Picture
+	* Links to About, Join, Contact
 * Font
 * Centering
 * Blog post on what is happening here, experiences getting up and running.
