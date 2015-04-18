@@ -40,6 +40,12 @@ module JB
   end #Path
 end #JB
 
+# Usage: rake build
+desc "Build the site"
+task :build do
+  system "bundle exec jekyll build"
+end # task :build
+
 # Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]] [category="category"]
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
@@ -100,7 +106,7 @@ end # task :page
 
 desc "Launch preview environment"
 task :preview do
-  system "jekyll serve -w"
+  system "bundle exec jekyll serve -w"
 end # task :preview
 
 # Public: Alias - Maintains backwards compatability for theme switching.
