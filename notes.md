@@ -25,6 +25,8 @@
 
 ## Layout
 
+I'm inspired by [Trevor Bedford]'s clean, functional [site][1]. I intend to copy it---presumably part of Trevor's intent---and here make a note by way of crediting him.
+
 * Home
 	* Research
 	* Papers
@@ -36,4 +38,5 @@
 	* Protocols
 	* Contact
 
-
+[Trevor Bedford]: http://bedford.io/team/trevor-bedford/
+[1]: http://bedford.io
