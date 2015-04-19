@@ -25,8 +25,7 @@
 
 ## Layout
 
-I'm inspired by [Trevor Bedford]'s clean, functional [site][1]. I intend to copy it---part of Trevor's intent---and here make a note by way of crediting him.
-You're welcome to borrow / repurpose code to build your own site, but I would very much appreciate attribution and a link back to bedford.io from your about page.
+I'm inspired by [Trevor Bedford]'s clean, functional [site][1]. I intend to copy it---part of Trevor's intent.
 
 * Home
 	* Research
@@ -45,20 +44,25 @@ You're welcome to borrow / repurpose code to build your own site, but I would ve
 Each of the major areas is structured like a blog. For example:
 
 	research/
+		index.html
 		_posts/
 			2015-04-18-heat-shock-aggregation.md
 	papers/
+		index.html
 		_posts/
 			2014-12-09-queuosine.md
 			2015-04-18-mrna-protein.md
 	protocols/
+		index.html
 		_posts/
 			2015-04-18-yeast-lysis.md
 	team/
+		index.html
 		_posts/
 			2011-10-01-allan-drummond.md
 			2011-10-01-edward-wallace.md
 	news/
+		index.html
 		_posts/
 			2015-04-09-pg-paper-accepted.md
 
@@ -73,9 +77,12 @@ For team, use a tag to indicate 'current' vs 'alumni'?
 * Font
 * Centering
 * Blog post on what is happening here, experiences getting up and running.
+* About page
 
 
 ## Done
+
+* Figure out how top navbar works
 
 
 

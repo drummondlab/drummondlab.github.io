@@ -8,8 +8,10 @@ CONFIG = {
   'version' => "0.3.0",
   'themes' => File.join(SOURCE, "_includes", "themes"),
   'layouts' => File.join(SOURCE, "_layouts"),
-  'posts' => File.join(SOURCE, "_posts"),
+  'posts' => File.join(SOURCE, "blog/_posts"),
   'post_ext' => "md",
+  'papers' => File.join(SOURCE, "papers/_posts"),
+  'paper_ext' => "md",
   'protocols' => File.join(SOURCE, "protocols/_posts"),
   'protocol_ext' => "md",
   'theme_package_version' => "0.1.0"
@@ -48,14 +50,14 @@ task :build do
   system "bundle exec jekyll build"
 end # task :build
 
-# Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]] [category="category"]
+# Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]]
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
   title = ENV["title"] || "new-post"
   tags = ENV["tags"] || "[]"
-  category = ENV["category"] || ""
-  category = "\"#{category.gsub(/-/,' ')}\"" if !category.empty?
+  #category = ENV["category"] || ""
+  #category = "\"#{category.gsub(/-/,' ')}\"" if !category.empty?
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   begin
     date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
@@ -74,14 +76,54 @@ task :post do
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts 'description: ""'
-    post.puts "category: #{category}"
+    post.puts "category: blog" # #{category}"
     post.puts "tags: #{tags}"
     post.puts "---"
     post.puts "{% include JB/setup %}"
   end
 end # task :post
 
-# Usage: rake protocol title="Protocol Title" [date="2015-05-01"] [tags=[tag1,tag2]] [category="category"]
+# Usage: rake paper title="Paper title" [date="2012-02-09"] [tags=[tag1,tag2]]
+desc "Post a new paper in #{CONFIG['papers']}"
+task :paper do
+  abort("rake aborted: '#{CONFIG['papers']}' directory not found.") unless FileTest.directory?(CONFIG['papers'])
+  title = ENV["title"] || "new-post"
+  tags = ENV["tags"] || "[]"
+  #category = ENV["category"] || ""
+  #category = "\"#{category.gsub(/-/,' ')}\"" if !category.empty?
+  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  begin
+    date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
+  rescue => e
+    puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
+    exit -1
+  end
+  filename = File.join(CONFIG['papers'], "#{date}-#{slug}.#{CONFIG['paper_ext']}")
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+  
+  puts "Creating new paper entry: #{filename}"
+  open(filename, 'w') do |paper|
+    paper.puts "---"
+    paper.puts "layout: paper"
+    paper.puts "title: \"#{title.gsub(/-/,' ')}\""
+    paper.puts 'year: ""'
+    paper.puts 'ref: ""'
+    paper.puts 'journal: ""'
+    paper.puts 'authors: ""'
+    paper.puts 'image: /images/papers/default-paper.png'
+    paper.puts 'pdf: '
+    paper.puts 'doi: ""'
+    paper.puts "category: paper" # #{category}"
+    paper.puts "tags: #{tags}"
+    paper.puts "---"
+    paper.puts "{% include JB/setup %}"
+  end
+end # task :paper
+
+
+# Usage: rake protocol title="Protocol Title" [date="2015-05-01"] [tags=[tag1,tag2]]
 desc "Begin a new protocol in #{CONFIG['protocols']}"
 task :protocol do
   abort("rake aborted: '#{CONFIG['protocols']}' directory not found.") unless FileTest.directory?(CONFIG['protocols'])
@@ -107,7 +149,7 @@ task :protocol do
     post.puts "layout: protocol"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts 'description: ""'
-    post.puts "category: #{category}"
+    post.puts "category: protocol"
     post.puts "tags: #{tags}"
     post.puts "---"
     post.puts "{% include JB/setup %}"
