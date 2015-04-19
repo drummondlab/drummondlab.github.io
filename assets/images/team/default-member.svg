@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="162"
+   id="svg63873"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="New document 6">
+  <defs
+     id="defs63875" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="56.620901"
+     inkscape:cy="278.0864"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1388"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata63878">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-890.36218)">
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.8;fill:#999999;fill-opacity:1;stroke:none"
+       id="path63881"
+       sodipodi:cx="369.28571"
+       sodipodi:cy="378.79074"
+       sodipodi:rx="119.28571"
+       sodipodi:ry="119.28571"
+       d="m 488.57142,378.79074 a 119.28571,119.28571 0 1 1 -238.57143,0 119.28571,119.28571 0 1 1 238.57143,0 z"
+       transform="matrix(0.18840582,0,0,0.18840582,-18.86127,872.12932)" />
+    <rect
+       style="opacity:0.8;fill:#999999;fill-opacity:1;stroke:none"
+       id="rect63885"
+       width="55.714294"
+       height="65.942039"
+       x="22.857159"
+       y="967.84875"
+       ry="16.687372" />
+  </g>
+</svg>
