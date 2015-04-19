@@ -23,7 +23,7 @@ with gratitude.
 				</div>
 			</div>
 		</div>
-	</div>				
+	</div>
 </div>
 
 <div class="bigspacer"></div>
@@ -31,8 +31,8 @@ with gratitude.
 <div class="row">
 	<div class="col-md-3">
 		<div class="bigspacer"></div>
-		<div class="glyphbox note">
-			{% if page.pdf %}		
+		<div class="glyphbox note"> <!-- DAD: what is this class? -->
+			{% if page.pdf %}
 			<div class="smallhead">
 				PDF
 			</div>	
@@ -40,9 +40,9 @@ with gratitude.
 				<div class="smallspacer"></div>
 				<i class="fa fa-file-text-o fa-fw"></i>
 				<a class="off" href="{{ page.pdf }}">{{ page.pdf | split: '/' | last }}</a>
-			</div>		
-			<div class="bigspacer"></div>							
-			{% endif %}		
+			</div>
+			<div class="bigspacer"></div>			
+			{% endif %}
 			{% if page.supplement %}
 			<div class="smallhead">
 				Supplement
@@ -51,20 +51,20 @@ with gratitude.
 				<div class="smallspacer"></div>
 				<i class="fa fa-paperclip fa-fw"></i>
 				<a class="off" href="{{ page.supplement }}">{{ page.supplement | split: '/' | last }}</a>
-			</div>		
-			<div class="bigspacer"></div>							
+			</div>
+			<div class="bigspacer"></div>			
 			{% endif %}	
 			{% if page.doi %}
 			<div class="smallhead">
 				DOI
-			</div>	
+			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-external-link fa-fw"></i>
 				<a class="off" href="http://dx.doi.org/{{ page.doi }}">{{ page.doi }}</a>
-			</div>		
-			<div class="bigspacer"></div>							
-			{% endif %}				
+			</div>
+			<div class="bigspacer"></div>			
+			{% endif %}
 			{% if page.github %}
 			<div class="smallhead">
 				Source code
@@ -73,23 +73,25 @@ with gratitude.
 				<div class="smallspacer"></div>
 				<i class="fa fa-cog fa-fw"></i>
 				<a class="off" href="{{ page.github }}">{{ page.github | remove: 'http://' | remove: 'https://' }}</a>
-			</div>		
-			<div class="bigspacer"></div>				
+			</div>
+			<div class="bigspacer"></div>
 			{% endif %}
 			<div class="smallhead">
 				Share
-			</div>			
+			</div>
+			
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				{% tweet {{page.url}} {{page.title}} %}
-				{% trackback {{page.url}} %}					
-			</div>					
+				{% trackback {{page.url}} %}	
 			</div>
+			
+		</div>
 	</div>
 	<div class="col-md-8">	
 		<div class="post">
 			{{ content }}
 		</div>	
-	</div>			
-	<div class="col-md-1"></div>
+	</div>	
+<div class="col-md-1"></div>
 </div>	

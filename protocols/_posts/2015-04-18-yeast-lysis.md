@@ -2,7 +2,7 @@
 layout: protocol
 title: "Yeast Lysis"
 description: ""
-category: 
+category: protocol
 tags: []
 ---
 {% include JB/setup %}
