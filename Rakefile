@@ -26,7 +26,9 @@ module JB
       :themes => "_includes/themes",
       :theme_assets => "assets/themes",
       :theme_packages => "_theme_packages",
-      :posts => "_posts"
+      :posts => "_posts",
+      :papers => "papers/_posts",
+      :protocols => "protocols/_posts"
     }
     
     def self.base
@@ -112,7 +114,7 @@ task :paper do
     paper.puts 'ref: ""'
     paper.puts 'journal: ""'
     paper.puts 'authors: ""'
-    paper.puts 'image: /images/papers/default-paper.png'
+    paper.puts 'image: /assets/images/papers/default-paper.png'
     paper.puts 'pdf: '
     paper.puts 'doi: ""'
     paper.puts "category: paper" # #{category}"

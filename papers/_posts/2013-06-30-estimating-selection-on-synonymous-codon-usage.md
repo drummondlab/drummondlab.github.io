@@ -5,7 +5,7 @@ year: "2013"
 shortref: "Wallace et al. Mol. Biol. Evol. 2015"
 journal: "Molecular Biology & Evolution"
 authors: "Wallace EWJ, Airoldi EM, and Drummond DA"
-image: /images/papers/default-paper.png
+image: /assets/images/papers/default-paper.png
 pdf: 
 doi: "10.1093/molbev/mst051"
 category: paper
