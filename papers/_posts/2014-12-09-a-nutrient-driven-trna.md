@@ -2,7 +2,7 @@
 layout: paper
 title: "A nutrient-driven tRNA modification alters translational fidelity and genome-wide protein coding across an animal genus"
 year: "2014"
-ref: "Zaborske et al. PLoS Biology, 12(12):e1002015 2014"
+shortref: "Zaborske et al. PLoS Biology 2014"
 journal: "PLoS Biology"
 authors: "Zaborske J, Bauer-DuMont VL, Wallace EWJ, Pan T, Aquadro CF, and Drummond DA"
 image: /images/papers/default-paper.png

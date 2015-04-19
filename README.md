@@ -46,7 +46,7 @@ You might want to run 0.3.0 in a branch to make sure you are ok with the theme d
 
 ### TODOS
 
-Review existing pull requests against plusjake/jekyll-bootstrap:master. Merge or close each.
+Review existing pull requests against plusjade/jekyll-bootstrap:master. Merge or close each.
 
 * Create twitter account. Add link / icon on jekyllbootstrap.com.
 * Create blog posts under plusjade/gh-pages, expose on jekyllbootstrap.com, feed to twitter account.

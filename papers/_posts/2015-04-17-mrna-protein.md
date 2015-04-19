@@ -2,13 +2,14 @@
 layout: paper
 title: "Accounting for experimental noise reveals that mRNA levels, amplified by post-transcriptional processes, largely determine steady-state protein levels in yeast"
 year: "2015"
-ref: "Csárdi G, Franks AM, Choi DS, Airoldi EM, and Drummond DA, PLoS Genetics 2015"
+shortref: "Csárdi, Franks et al. PLoS Genetics 2015"
 journal: "PLoS Genetics"
 authors: "Csárdi G, Franks AM, Choi DS, Airoldi EM, Drummond DA"
-image: /images/papers/default-paper.png
+image: /assets/images/papers/mrna-prot.png
 pdf: 
 doi: ""
 category: paper
+published: true
 tags: [yeast, translation, gene expression]
 ---
 {% include JB/setup %}
