@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: member
 title: "D. Allan Drummond"
 position: Principal Investigator
 email: dadrummond@uchicago.edu
