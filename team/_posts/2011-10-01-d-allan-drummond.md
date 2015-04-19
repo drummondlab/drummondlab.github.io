@@ -2,6 +2,7 @@
 layout: member
 title: "D. Allan Drummond"
 position: Principal Investigator
+handle: dad
 email: dadrummond@uchicago.edu
 twitter: dadrummond
 github: dad

@@ -25,3 +25,90 @@ body {
 .smallspacer {
 	height: 5px;
 }
+
+// logo
+.logo {
+	width: 60px;
+	height: 60px;
+	padding: 5px;
+}
+
+.biglogo {
+	width: 180px;
+	height: 180px;
+	padding: 5px;
+}
+
+.logobox {
+	height: 180px;
+	display: table-cell; 
+	vertical-align: middle;
+}
+
+// navbar
+.navbar-brand { 
+	font-size: 30px; 
+	font-weight: 100;
+	/* Museo */	
+}
+.navbar-nav { 
+	font-size: 30px; 
+	font-weight: 100;
+	/* Museo */	
+}
+.navbar-text {
+	font-size: 15px;
+	font-weight: 300;	
+	/* Museo */		
+}
+
+// headings
+
+.bigtitle {
+	font-size: 60px; 
+	line-height: 65px;	
+	font-weight: 100;
+	/* Museo */	
+}
+
+.title {
+	font-size: 45px; 
+	line-height: 50px;	
+	font-weight: 100;
+	/* Museo */	
+}
+
+.bighead {
+	font-size: 32px;
+	font-weight: 300;
+	line-height:36px;
+	/* Museo */	
+}
+
+.head {
+	font-size: 26px;
+	font-weight: 300;
+	line-height:30px;
+	/* Museo */	
+}
+
+.smallhead {
+	font-size: 19px;
+	font-weight: 300;
+	line-height: 23px;
+	/* Museo */	
+}
+
+.note {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 18px;
+	/* Museo */	
+}
+
+.smallnote {
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 16px;
+	/* Museo */	
+}

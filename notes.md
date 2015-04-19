@@ -59,7 +59,7 @@ Each of the major areas is structured like a blog. For example:
 	team/
 		index.html
 		_posts/
-			2011-10-01-allan-drummond.md
+			2011-10-01-d-allan-drummond.md
 			2011-10-01-edward-wallace.md
 	news/
 		index.html
@@ -74,10 +74,10 @@ For team, use a tag to indicate 'current' vs 'alumni'?
 	* Text
 	* Picture
 	* Links to About, Join, Contact
-* Font
-* Centering
+* Styles -- Sass
 * Blog post on what is happening here, experiences getting up and running.
 * About page
+* Twitter/Disqus...
 
 
 ## Done

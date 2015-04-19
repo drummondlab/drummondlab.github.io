@@ -1,7 +1,8 @@
 ---
 layout: member
-title: "Jamie L. Scott, Ph.D."
+title: "Jamie L. Scott"
 position: Laboratory Manager
+handle: jls
 email: 
 twitter: 
 github: 

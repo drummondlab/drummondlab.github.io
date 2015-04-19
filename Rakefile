@@ -191,6 +191,11 @@ end # task :preview
 # Public: Alias - Maintains backwards compatability for theme switching.
 task :switch_theme => "theme:switch"
 
+# DAD: would like to be able to refresh theme.
+# Presently requires 'rake theme:switch name="lab"' to update current theme.
+# Barrier is code to discover the current theme.
+#task :refresh_theme => "theme:switch"
+
 namespace :theme do
   
   # Public: Switch from one theme to another for your blog.

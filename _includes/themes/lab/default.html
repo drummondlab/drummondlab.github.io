@@ -81,6 +81,32 @@
 
     </div>
 
+    <!-- Static bottom navbar -->
+    <div class="navbar navbar-default navbar-fixed-bottom">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".bottom-collapse"> <!-- NOTE! data-target was changed to .bottom-collapse -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Bottom Bar</a>
+        </div>
+        <div class="navbar-collapse collapse bottom-collapse"> <!-- NOTE! The extra bottom-collapse class put on here -->
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">More</a></li>
+            <li><a href="#about">Bottom</a></li>
+            <li><a href="#contact">Menus</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Default</a></li>
+            <li><a href="../navbar-fixed-top/">Fixed Bottom</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    {% comment %}
     <div id="footer">
       <div class="container">
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
@@ -89,6 +115,7 @@
         </p>
       </div>
     </div>
+    {% endcomment %}
 
     {% include JB/analytics %}
 
