@@ -5,7 +5,7 @@ year: "2014"
 shortref: "Zaborske et al. PLoS Biology 2014"
 journal: "PLoS Biology"
 authors: "Zaborske J, Bauer-DuMont VL, Wallace EWJ, Pan T, Aquadro CF, and Drummond DA"
-image: /assets/images/papers/default-paper.png
+image: /assets/images/papers/default-paper.svg
 pdf: /assets/pdfs/zaborske-etal-plosbiology-2014.pdf
 doi: "10.1371/journal.pbio.1002015"
 category: paper
