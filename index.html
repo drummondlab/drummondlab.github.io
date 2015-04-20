@@ -43,7 +43,7 @@ categories:
 			{% for news in site.categories.news limit:8 %}
 			
 				{% for member in site.categories.team %}
-					{% if member.title == news.author %}
+					{% if member.handle == news.author_handle %}
 						{% assign author = member %}
 					{% endif %}
 				{% endfor %}		
