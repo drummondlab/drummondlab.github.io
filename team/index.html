@@ -1,29 +1,52 @@
 ---
-layout: page
+layout: default
 title: "Team"
 description: "People in the lab"
-categories:
- - team
 group: navigation
 navorder: 2
 ---
 {% include JB/setup %}
 
-<div class="bigspacer"></div>	
+<div class="bigspacer"></div>
 {% for member in site.categories.team reversed %}
-    {% cycle 'add rows': '<div class="row">', nil, nil %}
-		<div class="col-md-4 memberbox">
-			<div class="media">
-  				<a class="pull-left" href="{{ member.url }}">
-    				<img width=170 class="media-object" src="{{ member.image }}">
-  				</a>
- 			 	<div class="media-body">
-    				<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-    				<p class="note">{{ member.position }}</p>
-  				</div>
-			</div>
-        </div>	  
-    {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
+	{% if member.alum == false %}
+	    {% cycle 'add rows': '<div class="row">', nil, nil %}
+			<div class="col-md-4 memberbox">
+				<div class="media">
+	  				<a class="pull-left" href="{{ member.url }}">
+	    				<img width=170 class="media-object" src="{{ member.image }}">
+	  				</a>
+	 			 	<div class="media-body">
+	    				<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+	    				<p class="note">{{ member.position }}</p>
+	  				</div>
+				</div>
+	        </div>	  
+	    {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
+	{% endif %}
+{% endfor %}
+{% cycle 'close rows': nil, '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
+
+<div class="bigspacer"></div>
+<div class="head">Alumni</div>
+<div class="bigspacer"></div>
+
+{% for member in site.categories.team reversed %}
+	{% if member.alum == true %}
+	    {% cycle 'add rows': '<div class="row">', nil, nil %}
+			<div class="col-md-4 memberbox">
+				<div class="media">
+	  				<a class="pull-left" href="{{ member.url }}">
+	    				<img width=170 class="media-object" src="{{ member.image }}">
+	  				</a>
+	 			 	<div class="media-body">
+	    				<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+	    				<p class="note">{{ member.position }}</p>
+	  				</div>
+				</div>
+	        </div>	  
+	    {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
+	{% endif %}
 {% endfor %}
 {% cycle 'close rows': nil, '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
 
