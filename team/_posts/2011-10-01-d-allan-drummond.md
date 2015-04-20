@@ -8,6 +8,7 @@ twitter: dallandrummond
 github: dad
 scholar: -YZ5mIIAAAAJ
 image: /assets/images/team/d-allan-drummond.png
+cv: /assets/pdfs/drummond-cv.pdf
 alum: false
 ---
 I'm an Assistant Professor at the [University of Chicago] in the Department of [Biochemistry & Molecular Biology], with a secondary appointment in the [Department of Human Genetics].

@@ -21,7 +21,23 @@
 ## Approach
 
 * GitHub Pages
-* Jekyll Bootstrap
+* Jekyll + Bootstrap (and Jekyll Bootstrap)
+* Sass support for CSS
+* Google Fonts
+
+## What I'm Currently Blocked On
+
+Issues are tracked at GitHub [github-issues].
+
+[github-issues]: https://github.com/drummondlab/drummondlab.github.io/issues
+
+* Many style choices need to be updated.
+	* Font size on Team and Papers pages are particularly egregious.
+* Blog posts not appearing.
+* Content
+	* Lab members
+	* Publications
+	* Protocols
 
 ## Layout
 
