@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Protocols"
 description: ""
 group: navigation
@@ -30,7 +30,7 @@ navorder: 4
     
 </div>
 
-{% for protocol in paginator.posts %}
+{% for protocol in site.categories.protocol %}
 
 		{% for member in site.categories.team %}
 			{% if member.title == protocol.author %}

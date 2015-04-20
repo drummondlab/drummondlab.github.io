@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Blog"
 description: "The Drummond Lab blog"
 group: navigation
@@ -30,38 +30,38 @@ navorder: 3
     
 </div>
 
-{% for post in paginator.posts %}
+{% for post in site.categories.blog %}
 
-		{% for member in site.categories.team %}
-			{% if member.handle == post.author_handle %}
-				{% assign author = member %}
-			{% endif %}
-		{% endfor %}
-	
-		<div class="bigspacer"></div>
-		<div class="row">
-			<div class="col-md-3">
-				<div class="head">
-					<a href="{{ post.url }}" class="off">{{ post.title }}</a>
-				</div>
-				<div class="smallnote">
-					{{ post.date | date_to_string }}
-					{% if author %}
-					by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
-					{% endif %}				
-				</div>	
+	{% for member in site.categories.team %}
+		{% if member.handle == post.author_handle %}
+			{% assign author = member %}
+		{% endif %}
+	{% endfor %}
+
+	<div class="bigspacer"></div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="head">
+				<a href="{{ post.url }}" class="off">{{ post.title }}</a>
 			</div>
-			<div class="col-md-8">		
-				<div style="height:5px;"></div>			
-				{% if post.image %}
-				<a href="{{ post.url }}"><img class="offset" src="{{ post.image }}"></a>
-				{% endif %}
-				<div class="post">
-					{{ post.content }}
-				</div>
-			</div>			
-			<div class="col-md-1"></div>
-		</div>		
+			<div class="smallnote">
+				{{ post.date | date_to_string }}
+				{% if author %}
+				by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
+				{% endif %}				
+			</div>	
+		</div>
+		<div class="col-md-8">		
+			<div style="height:5px;"></div>			
+			{% if post.image %}
+			<a href="{{ post.url }}"><img class="offset" src="{{ post.image }}"></a>
+			{% endif %}
+			<div class="post">
+				{{ post.content }}
+			</div>
+		</div>			
+		<div class="col-md-1"></div>
+	</div>		
 
 {% endfor %}
 

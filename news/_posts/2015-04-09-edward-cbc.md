@@ -1,7 +1,8 @@
 ---
 layout: news
-title: "New PLoS Genetics paper"
+title: "Edward awarded CBC postdoc grant"
 author: "D. Allan Drummond"
+nickname: "Allan"
 author_handle: "dad"
 image: /assets/images/news/default-news.png
 category: news
