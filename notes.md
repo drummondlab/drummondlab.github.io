@@ -123,7 +123,10 @@ For team, use a tag to indicate 'current' vs 'alumni'?
 
 * Figure out how top navbar works
 
+## Hosting
 
+Name registration at [NameCheap]. Custom domain via [GitHub Pages]
+[NameCheap]: https://www.namecheap.com
 
 [Trevor Bedford]: http://bedford.io/team/trevor-bedford/
 [1]: http://bedford.io

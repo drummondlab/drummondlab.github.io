@@ -7,7 +7,8 @@ image: /assets/images/news/default-news.png
 category: news
 tags: [publication]
 ---
-Our paper on how a nutrient drives changes in protein encoding at the genome scale is out in [PLoS Biology] ([full text]).
+Our [paper] on how a nutrient drives changes in protein encoding at the genome scale is out in [PLoS Biology] ([full text]).
 
+[paper]: http://drummondlab.org/papers/paper/2015/04/17/mrna-protein/
 [PLoS Biology]: http://www.plosbiology.org
 [full text]: http://www.plosbiology.org/article/info:doi/10.1371/journal.pbio.1002015

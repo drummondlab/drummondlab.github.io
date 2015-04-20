@@ -11,4 +11,4 @@ scholar:
 image: /assets/images/team/jamie-scott.jpg
 alum: false
 ---
-I'm the lab manager for the Drummond Lab.
+Dr. Scott is the lab manager for the Drummond Lab.

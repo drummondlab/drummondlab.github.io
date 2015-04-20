@@ -4,10 +4,12 @@
 // start content
 // font-family: 'Open Sans', sans-serif;
 $font-stack:    'Open Sans', sans-serif;
-// $primary-color: #333;
+$font-size-base: 12;
+$primary-color: #000000;
 
 body {
 	font-family: $font-stack;
+	color: $primary-color;
 }
 
 // body {
@@ -15,7 +17,48 @@ body {
 //  color: $primary-color;
 // }
 
-// spacers
+
+h1, .h1 { font-size: floor($font-size-base * 2.60); } /* ~36px */
+h2, .h2 { font-size: floor($font-size-base * 2.15); } /* ~30px */
+h3, .h3 { font-size: ceil($font-size-base * 1.70); }  /* ~24px */
+h4, .h4 { font-size: ceil($font-size-base * 1.25); }  /* ~18px */
+h5, .h5 { font-size:  $font-size-base; }
+h6, .h6 { font-size: ceil($font-size-base * 0.85); }  /* ~12px */
+
+.container {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 300;
+}
+
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.text-center {
+     text-align: center;
+}
+
+
+// other
+
+body {
+	font-weight: 300;
+}
+
+p {
+	font-weight: 300;
+}
 
 .hugespacer {
 	height: 50px;
@@ -32,6 +75,12 @@ body {
 .smallspacer {
 	height: 5px;
 }
+
+
+a.off { 
+	color: inherit; 
+}
+
 
 // emphases
 
@@ -67,17 +116,14 @@ strong {
 .navbar-brand { 
 	font-size: 30px; 
 	font-weight: 100;
-	/* Museo */	
 }
 .navbar-nav { 
 	font-size: 30px; 
 	font-weight: 100;
-	/* Museo */	
 }
 .navbar-text {
 	font-size: 15px;
 	font-weight: 300;	
-	/* Museo */		
 }
 
 // headings
@@ -86,49 +132,50 @@ strong {
 	font-size: 60px; 
 	line-height: 65px;	
 	font-weight: 100;
-	/* Museo */	
 }
 
 .title {
 	font-size: 45px; 
 	line-height: 50px;	
 	font-weight: 100;
-	/* Museo */	
 }
 
 .bighead {
 	font-size: 32px;
 	font-weight: 300;
 	line-height:36px;
-	/* Museo */	
 }
 
 .head {
 	font-size: 26px;
 	font-weight: 300;
 	line-height:30px;
-	/* Museo */	
 }
 
 .smallhead {
 	font-size: 19px;
 	font-weight: 300;
 	line-height: 23px;
-	/* Museo */	
 }
 
 .note {
 	font-size: 15px;
 	font-weight: 300;
 	line-height: 18px;
-	/* Museo */	
+
+	a {
+		color: black;
+	}
+
+	h1 {
+
+	}
 }
 
 .smallnote {
 	font-size: 13px;
 	font-weight: 300;
 	line-height: 16px;
-	/* Museo */	
 }
 
 journal {
