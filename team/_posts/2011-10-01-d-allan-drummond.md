@@ -4,7 +4,7 @@ title: "D. Allan Drummond"
 position: Principal Investigator
 handle: dad
 email: dadrummond@uchicago.edu
-twitter: dadrummond
+twitter: dallandrummond
 github: dad
 scholar: -YZ5mIIAAAAJ
 image: /assets/images/team/d-allan-drummond.png

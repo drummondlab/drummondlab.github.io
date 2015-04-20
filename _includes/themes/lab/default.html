@@ -24,6 +24,9 @@
     <!-- Custom fonts and icons via Font Awesome, http://fortawesome.github.io/Font-Awesome/ -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
+    <!-- Fonts via Google -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300' rel='stylesheet' type='text/css'>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -63,7 +66,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="jb-navbar-collapse">
           <ul class="nav navbar-nav">
-            {% assign pages_list = site.pages %}
+            {% assign pages_list = (site.pages | sort: 'navorder') %}
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
           </ul>

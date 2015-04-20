@@ -2,7 +2,8 @@
 ---
 
 // start content
-$font-stack:    Helvetica, sans-serif;
+// font-family: 'Open Sans', sans-serif;
+$font-stack:    'Open Sans', sans-serif;
 $primary-color: #333;
 
 body {
@@ -111,4 +112,8 @@ body {
 	font-weight: 300;
 	line-height: 16px;
 	/* Museo */	
+}
+
+journal {
+	font-style: italic;
 }
