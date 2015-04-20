@@ -11,6 +11,8 @@ body {
   color: $primary-color;
 }
 
+// spacers
+
 .hugespacer {
 	height: 50px;
 }
@@ -27,7 +29,18 @@ body {
 	height: 5px;
 }
 
+// emphases
+
+term {
+	font-style: italic;
+}
+
+strong {
+	font-style: bold;
+}
+
 // logo
+
 .logo {
 	width: 60px;
 	height: 60px;
