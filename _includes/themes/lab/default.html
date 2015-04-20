@@ -89,6 +89,7 @@
     </div>
     </div>
 
+    {% comment %}
     <!-- Static bottom navbar -->
     <div class="navbar navbar-default navbar-fixed-bottom">
       <div class="container">
@@ -113,17 +114,32 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
+    {% endcomment %}
 
-    {% comment %}
     <div id="footer">
-      <div class="container">
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
+      <div class="note">
+        <div class='row'>
+        <div class="col-xs-6"> 
+        &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+        </div>
+          <i class="fa fa-comment-o fa-fw"></i>
+          <a class="off" href="#about">About</a>
+        <div class="note">
+          <i class="fa fa-comment-o fa-fw"></i>
+          <a class="off" href="#about">
+          Join
+          </a>
+        </div>
+        <div class="note">
+          <i class="fa fa-comment-o fa-fw"></i>
+          <a class="off" href="#about">
+          Contact
+          </a>
+        </div>
+        </div>
       </div>
     </div>
-    {% endcomment %}
+
 
     {% include JB/analytics %}
 

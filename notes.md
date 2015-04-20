@@ -39,6 +39,12 @@ Issues are tracked at GitHub [github-issues].
 	* Publications
 	* Protocols
 
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+
+
 This site has useful stuff on social media links etc.
 http://erjjones.github.io/blog/How-I-built-my-blog-in-one-day/
 
