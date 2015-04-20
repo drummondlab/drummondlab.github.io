@@ -33,7 +33,7 @@ navorder: 3
 {% for post in paginator.posts %}
 
 		{% for member in site.categories.team %}
-			{% if member.title == post.author %}
+			{% if member.handle == post.author_handle %}
 				{% assign author = member %}
 			{% endif %}
 		{% endfor %}
