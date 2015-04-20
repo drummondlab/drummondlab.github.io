@@ -3,6 +3,7 @@ layout: member
 title: "Jamie L. Scott"
 position: Laboratory Manager
 handle: jls
+nickname: Jamie
 email: 
 twitter: 
 github: 

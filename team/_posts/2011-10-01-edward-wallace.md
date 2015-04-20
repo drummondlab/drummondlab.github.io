@@ -2,6 +2,7 @@
 layout: member
 title: "Edward W. J. Wallace"
 position: Postdoc
+nickname: Edward
 handle: ewjw
 email: ewallace@uchicago.edu
 twitter: 

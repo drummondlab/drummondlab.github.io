@@ -3,6 +3,7 @@ layout: member
 title: "Kerry Geiler-Samerotte"
 position: Graduate student
 handle: kgs
+nickname: Kerry
 email: 
 twitter: 
 github: 
