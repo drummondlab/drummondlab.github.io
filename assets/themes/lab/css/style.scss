@@ -4,12 +4,16 @@
 // start content
 // font-family: 'Open Sans', sans-serif;
 $font-stack:    'Open Sans', sans-serif;
-$primary-color: #333;
+// $primary-color: #333;
 
 body {
-  font: 100% $font-stack;
-  color: $primary-color;
+	font-family: $font-stack;
 }
+
+// body {
+//   font: 100% $font-stack;
+//  color: $primary-color;
+// }
 
 // spacers
 
