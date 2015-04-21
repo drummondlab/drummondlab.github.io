@@ -234,7 +234,7 @@ namespace :theme do
     end
     
     puts "=> Theme successfully switched!"
-    puts "=> Reload your web-page to check it out =)"
+    puts "=> Reload your page to check it out"
   end # task :switch
   
   # Public: Install a theme using the theme packager.

@@ -90,6 +90,7 @@
       </div>
 
     </div>
+
     </div>
 
     {% comment %}
@@ -117,31 +118,55 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
-    {% endcomment %}
 
-    <div id="footer">
-      <div class="note">
+    <footer class="footer">
+    <div class='container'>
+      <nav class="navbar navbar-default navbar-fixed-bottom">
         <div class='row'>
-        <div class="col-xs-6"> 
-        &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+          <div class="col-md-9">
+            <a href='http://bmb.uchospitals.edu'>Biochemistry & Molecular Biology</a> | 
+            <a href='http://uchicago.edu'>The University of Chicago</a>
+          </div>
+          <div class="col-md-1">
+            <a href="">About</a>
+          </div>
+          <div class="col-md-1">
+            <a href="">Join</a>
+          </div>
+          <div class="col-md-1">
+            <a href="">Contact</a>
+          </div>
         </div>
-          <i class="fa fa-comment-o fa-fw"></i>
-          <a class="off" href="#about">About</a>
-        <div class="note">
-          <i class="fa fa-comment-o fa-fw"></i>
-          <a class="off" href="#about">
-          Join
-          </a>
-        </div>
-        <div class="note">
-          <i class="fa fa-comment-o fa-fw"></i>
-          <a class="off" href="#about">
-          Contact
-          </a>
-        </div>
-        </div>
+      </nav>
       </div>
     </div>
+    {% endcomment %}
+
+    <!-- Static navbar -->
+<div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Project name</a>
+  </div>
+  <div class="navbar-collapse collapse">
+
+    <!-- Left nav -->
+    <ul class="nav navbar-nav">
+      <li><a href="#">Link</a></li>
+    </ul>
+
+    <!-- Right nav -->
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="bootstrap-navbar.html">Default</a></li>
+    </ul>
+
+  </div><!--/.nav-collapse -->
+</div>
 
 
     {% include JB/analytics %}
