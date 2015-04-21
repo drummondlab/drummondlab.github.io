@@ -2,7 +2,7 @@
 layout: paper
 title: "Estimating selection on synonymous codon usage from noisy experimental data"
 year: "2013"
-shortref: "Wallace et al. Mol. Biol. Evol. 2015"
+shortref: "Wallace et al. Mol. Biol. Evol. 2013"
 nickname: syn-noise
 journal: "Molecular Biology & Evolution"
 authors: "Wallace EWJ, Airoldi EM, and Drummond DA"
