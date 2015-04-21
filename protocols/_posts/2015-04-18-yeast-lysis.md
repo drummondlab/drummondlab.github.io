@@ -16,7 +16,9 @@ tags: []
 * 20% SDS (w/v) (store at RT)
 * 1M Tris-HCl, pH 8.5 (store at RT)
 * 50mM Tris-HCl, pH 8.5 (store at 4°C)
+
 For protease inhibitors, we use:
+
 * AEBSF, HCl, MW=239.5, targets serine proteases, 100 mM
 * E-64, MW=357.4, targets cysteine proteases, 1.5 mM
 * Pepstatin A, MW=685.9, targets aspartic proteases, 2 mM
@@ -52,7 +54,11 @@ Start by making 50 mL WB stock solution:
 Then mix 9.8 mL of WB stock solution with 100 µL 100mM PMSF and 100µL protease inhibitors to make 10mL WB.
 
 ## Insoluble Protein Buffer, pH 8.5 (IPB)
-(50mM Tris-HCl, 150mM NaCl, 8M urea, 2% SDS, 1mM PMSF, 2mM DTT, 1:1000 protease inhibitors) Make fresh just before each use. Note that at 8M, urea occupies ~72% of the solution volume, so that 4.8g urea occupies 7.2mL of a 10mL solution. Do not use 500mM NaCl in this solution, as it loosens pellets and causes sample loss.
+
+(50mM Tris-HCl, 150mM NaCl, 8M urea, 2% SDS, 1mM PMSF, 2mM DTT, 1:1000 protease inhibitors) 
+
+Make fresh just before each use. Note that at 8M, urea occupies ~72% of the solution volume, so that 4.8g urea occupies 7.2mL of a 10mL solution. Do not use 500mM NaCl in this solution, as it loosens pellets and causes sample loss.
+
 * 8M urea
 * 2% SDS
 * 50mM Tris pH 8.5
@@ -60,48 +66,57 @@ Then mix 9.8 mL of WB stock solution with 100 µL 100mM PMSF and 100µL protease
 * 1mM PMSF
 * 20 μL 200mM DTT
 * 1:1000 protease inhibitors (see above. higher concentrations may crash out.)
+
 Use 500μL IPB per sample, and note that foaming will make ~25% of the solution unusable.
 
-2mL IPB (~2 samples)	13mL IPB (~10 samples)
-0.96g urea
-683 μL H2O
-200 μL 20% SDS (w/v)
-100 μL 1M Tris pH 8.5
-75 μL 4M NaCl
-20 μL 100mM PMSF
-20 μL 200mM DTT
-2 μL protease inhibitors
-6.24g urea
-5.58 mL H2O
-1.3 mL 20% SDS (w/v)
-650 μL 1M Tris pH 8.5
-488 μL 4M NaCl
-130 μL 100mM PMSF
-130 μL 200mM DTT
-13 μL protease inhibitors
+| 2mL IPB (~2 samples)  |  13mL IPB (~10 samples) |
+|:-:|:-:|
+| 0.96g urea                 | 6.24g urea |
+| 683 μL H2O                 | 5.58 mL H2O |
+| 200 μL 20% SDS (w/v)       | 1.3 mL 20% SDS (w/v) |
+| 100 μL 1M Tris pH 8.5    | 650 μL 1M Tris pH 8.5 |
+| 75 μL 4M NaCl | 488 μL 4M NaCl |
+| 20 μL 100mM PMSF | 130 μL 100mM PMSF |
+| 20 μL 200mM DTT | 130 μL 200mM DTT |
+| 2 μL protease inhibitors | 13 μL protease inhibitors |
+
 ## 6x Soluble Protein Loading Buffer, pH 6.8 (SPLB)
+
 (50 mM Tris-HCl pH 6.8, 10% SDS, 0.05% bromophenol blue, 30% glycerol, 5% β-mercaptoethanol [βME])
+
 Start by making 9 mL 6x SPLB Stock Solution:
-0.5 mL 1M Tris-HCl, pH 6.8
-1 g SDS
-5 mg bromophenol blue
-3 mL glycerol
-5.5 mL protease-free water
+
+* 0.5 mL 1M Tris-HCl, pH 6.8
+* 1 g SDS
+* 5 mg bromophenol blue
+* 3 mL glycerol
+* 5.5 mL protease-free water
+
 Then mix 712.5 µL of 6x SPLB stock solution with 37.5 µL of 14.3M βME immediately before use.
-6x Soluble Protein Storage Buffer, pH 8.5 (SPSB)
+
+## 6x Soluble Protein Storage Buffer, pH 8.5 (SPSB)
+
 (50 mM Tris-HCl pH 8.5, 12% SDS, 5% β-mercaptoethanol [βME])
+
 Start by making 10 mL 6x SPSB Stock Solution:
-0.5 mL 1M Tris-HCl, pH 8.5
-6 mL 20% SDS
-3.5 mL protease-free water
+
+* 0.5 mL 1M Tris-HCl, pH 8.5
+* 6 mL 20% SDS
+* 3.5 mL protease-free water
+
 Then mix 712.5 µL of 6x SPSB stock solution with 37.5 µL of 14.3M βME immediately before use.
-6x Insoluble Protein Loading Buffer, pH 6.8 (IPLB)
+
+## 6x Insoluble Protein Loading Buffer, pH 6.8 (IPLB)
+
 (50 mM Tris-HCl, 0.05% bromophenol blue, 30% glycerol, 5% βME)
+
 Start by making 9 mL 6x IPLB Stock Solution (nearly the same as SPLB stock, but
-0.5 mL 1M Tris-HCl, pH 6.8
-5 mg bromophenol blue
-3 mL glycerol
-5.5 mL protease-free water
+
+* 0.5 mL 1M Tris-HCl, pH 6.8
+* 5 mg bromophenol blue
+* 3 mL glycerol
+* 5.5 mL protease-free water
+
 Then mix 475 µL of 6x IPLB stock solution with 25 µL 14.3M βME immediately before use.
 
 # Protocol
@@ -113,6 +128,7 @@ For each strain, inoculate a 3 mL YPD pre-culture of YPD with a single yeast col
 Inoculate 50 mL of synthetic complete medium (SC) with labeled amino acids with 3 µL of the overnight pre-culture and incubate for 18 h at 30⁰ C with shaking in a 500 mL baffled flask.
 
 ## Day 0
+
 ### Cell preparation
 
 Grow 50mL culture of cells to a density of 4×106 cells/mL (OD600 ≈ 0.4).
@@ -144,7 +160,7 @@ Add 450 μL SPB to each tube, and extract ball with a magnet. We rinse balls in 
 
 Move 500 μL sample to a fresh 1.5mL microcentrifuge tube.
 
-Soluble fraction extraction
+### Soluble fraction extraction
 
 Spin at 3000g for 30 seconds (clarification step).
 
@@ -154,7 +170,7 @@ Spin at 100,000g for 20 minutes (fixed-angle TLA-55 rotor at 40,309 rpm in a Bec
 
 Decant supernatant into a 1.5mL microcentrifuge tube: this is the soluble fraction.
 
-Insoluble fraction extraction
+### Insoluble fraction extraction
 
 Violently snap pellet to clear remaining liquid.
 
@@ -172,7 +188,7 @@ Spin at 20,000g for 5 minutes.
 
 Decant supernatant into a 1.5mL microcentrifuge tube: this is the insoluble fraction.
 
-Lysis for total protein extraction
+### Lysis for total protein extraction
 
 For each strain, rack a 2mL flat or round-bottom microcentrifuge tube in LN2 and place a 7mm stainless-steel ball (Retsch #05.368.0035) inside. Put some LN2 in tube to speed cooling of ball (ultimately we want all the LN2 to boil away).
 
@@ -194,6 +210,7 @@ Spin at 20,000g for 5 minutes.
 
 Decant supernatant into a 1.5mL microcentrifuge tube: this is the total protein fraction.
 
-Storage
+### Storage
+
 For insoluble and total-protein fractions, make 100μL aliquots and store at -80°C.
 For soluble fractions, mix 5:1 with fresh 6x soluble protein storage buffer (SPSB), denature for 5 minutes at 95°C, make 100μL aliquots and store at -80°C.
