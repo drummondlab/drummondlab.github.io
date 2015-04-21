@@ -1,11 +1,114 @@
 ---
 layout: protocol
-title: "Supernatant/pellet fractionation of budding yeast cells"
+title: "Supernatant/pellet fractionation of budding yeast cells by cryogenic lysis"
 description: ""
 category: protocol
 tags: []
 ---
 {% include JB/setup %}
+
+For studies of protein aggregation, few techniques are simpler than two-phase fractionation by centrifugation: big stuff (aggregates) pellets, small stuff (unaggregated proteins) stays in the supernatant. Breaking open cells (lysis) can alter or even cause protein aggregation. For yeast cells, which have a tough cell wall, lysis requires a lot of force. We and others find that cryogenic milling does a good job in lysing most cells without causing aggregation.
+
+# Protocol
+
+## Day -2
+For each strain, inoculate a 3 mL YPD pre-culture of YPD with a single yeast colony and incubate overnight at 30⁰C with shaking or rotation.
+
+## Day -1
+Inoculate 50 mL of synthetic complete medium (SC) with labeled amino acids with 3 µL of the overnight pre-culture and incubate for 18 h at 30⁰ C with shaking in a 500 mL baffled flask.
+
+## Day 0
+
+### Cell preparation
+
+Grow 50mL culture of cells to a density of 4×10<sup>6</sup> cells/mL (OD<sub>600</sub> ≈ 0.4).
+While cells are growing, make buffer solutions: SPB, WB, IPB (recipes below). Put 1.1 mL × number of samples' worth of 50mM Tris-HCl pH 8.5 on ice.
+
+1. Transfer 1.4×10<sup>8</sup> cells to a 50mL conical tube (35 mL of a 4×10<sup>6</sup> cells/mL culture)
+1. Spin at 3000g for 1 minute.
+1. Gently decant and discard supernatant.
+1. Resuspend cell pellet in 1.4mL ice-cold Tris (50mM, pH 8.5) and transfer to 1.5mL microcentrifuge tube.
+1. Spin at 20,000g for 15 seconds.
+1. Discard supernatant, clear residual liquid with a hard snap.
+1. Freeze pellet in liquid nitrogen.
+
+
+Now decide whether you want total protein extraction or soluble/insoluble fractionation.
+
+#### Lysis for soluble/insoluble fractionation
+For each strain, rack a 2mL flat or round-bottom microcentrifuge tube in LN2 and place a 7mm stainless-steel ball (Retsch #05.368.0035) inside. Put some LN2 in tube to speed cooling of ball and to catch the incoming sample. Label the sides as well as the tops of the tubes, as lysis will often crack off the tube cap.
+
+Resuspend frozen pellet in 50 µL SPB.
+
+Drip resuspended pellet onto upper wall of tube containing ball. Goal is to get a nugget of frozen material on the wall, and to avoid dripping the material around the ball and thus freezing the ball to the bottom of the tube; having some LN2 remaining in the tube helps.
+
+When all LN2 has boiled out of tube (listen -- if any popping or hissing, keep waiting), snap tube closed. Keep in LN2. (Any remaining LN2 in tube will cause tube to explode open and fire the stainless steel ball into your iPad, brain, colleague, or other important equipment.)
+
+Rack the tube into the PTFE 2mL tube adaptor for the Retsch Mixer Mill MM400 (Retsch #22.008.0005) and submerge the entire assembly in LN2.
+
+Agitate for 4×90 seconds at 30 Hz in a Retsch Mixer Mill MM400, returning sample holder to LN2 between sessions. Complete lysis produces fine snowy powder in the tube.
+
+Remove sample tubes from LN2 and pop the caps to relieve pressure.
+
+Add 450 μL SPB to each tube, and extract ball with a magnet. We rinse balls in methanol and store in 50% ethanol.
+
+Move 500 μL sample to a fresh 1.5mL microcentrifuge tube.
+
+##### Soluble fraction extraction
+
+Spin at 3000g for 30 seconds (clarification step).
+
+Decant clarified liquid into a 1.5mL polyallomer conical centrifuge tube (Beckman Coulter).
+
+Spin at 100,000g for 20 minutes (fixed-angle TLA-55 rotor at 40,309 rpm in a Beckman Coulter Optimax tabletop ultracentrifuge).
+
+Decant supernatant into a 1.5mL microcentrifuge tube: this is the soluble fraction.
+
+##### Insoluble fraction extraction
+
+Violently snap pellet to clear remaining liquid.
+
+Add 500 μL wash buffer (WB) and vortex violently. (The pellet may not resuspend; that's fine.)
+
+Spin at 100,000g for 20 minutes.
+
+Discard supernatant, clear residual liquid with a hard snap.
+
+Add 500 μL insoluble protein buffer (IPB).
+
+Vortex until pellet dissolves, 10-15 minutes for clarified samples.
+
+Spin at 20,000g for 5 minutes.
+
+Decant supernatant into a 1.5mL microcentrifuge tube: this is the insoluble fraction.
+
+#### Lysis for total protein extraction
+
+For each strain, rack a 2mL flat or round-bottom microcentrifuge tube in LN2 and place a 7mm stainless-steel ball (Retsch #05.368.0035) inside. Put some LN2 in tube to speed cooling of ball (ultimately we want all the LN2 to boil away).
+
+Resuspend frozen pellet in 50 µL insoluble protein buffer (IPB).
+
+Drip resuspended pellet onto upper wall of tube containing ball. Goal is to get a nugget of frozen material on the wall, and to avoid dripping the material around the ball and thus freezing the ball to the bottom of the tube.
+
+When all LN2 has boiled out of tube (listen -- if any popping or hissing, keep waiting), snap tube closed. Keep in LN2. (Any remaining LN2 in tube will cause tube to explode open and fire the stainless steel ball into your iPad, brain, colleague, or other important equipment.)
+
+Rack the tube into the PTFE 2mL tube adaptor for the Retsch Mixer Mill MM400 (Retsch #22.008.0005) and submerge the entire assembly in LN2.
+
+Agitate for 4×90 seconds at 30 Hz in a Retsch Mixer Mill MM400, returning sample holder to LN2 between sessions. Complete lysis produces fine snowy powder in the tube.
+
+Add 450 μL IPB to tube, and extract ball with a magnet.
+
+Move 500 μL sample to a fresh 1.5mL microcentrifuge tube.
+
+Spin at 20,000g for 5 minutes.
+
+Decant supernatant into a 1.5mL microcentrifuge tube: this is the total protein fraction.
+
+### Storage
+
+For insoluble and total-protein fractions, make 100μL aliquots and store at -80°C.
+For soluble fractions, mix 5:1 with fresh 6x soluble protein storage buffer (SPSB), denature for 5 minutes at 95°C, make 100μL aliquots and store at -80°C.
+
 
 # Buffers
 
@@ -118,99 +221,3 @@ Start by making 9 mL 6x IPLB Stock Solution (nearly the same as SPLB stock, but
 * 5.5 mL protease-free water
 
 Then mix 475 µL of 6x IPLB stock solution with 25 µL 14.3M βME immediately before use.
-
-# Protocol
-
-## Day -2
-For each strain, inoculate a 3 mL YPD pre-culture of YPD with a single yeast colony and incubate overnight at 30⁰C with shaking or rotation.
-
-## Day -1
-Inoculate 50 mL of synthetic complete medium (SC) with labeled amino acids with 3 µL of the overnight pre-culture and incubate for 18 h at 30⁰ C with shaking in a 500 mL baffled flask.
-
-## Day 0
-
-### Cell preparation
-
-Grow 50mL culture of cells to a density of 4×106 cells/mL (OD600 ≈ 0.4).
-While cells are growing, make solutions: SPB, WB, IPB. Put 1.1 mL × number of samples' worth of 50mM Tris-HCl pH 8.5 on ice.
-Transfer 1.4×108 cells to a 50mL conical tube (35 mL of a 4×106 cells/mL culture)
-Spin at 3000g for 1 minute.
-Gently decant and discard supernatant.
-Resuspend cell pellet in 1.4mL ice-cold Tris (50mM, pH 8.5) and transfer to 1.5mL microcentrifuge tube.
-Spin at 20,000g for 15 seconds.
-Discard supernatant, clear residual liquid with a hard snap.
-Freeze pellet in liquid nitrogen.
-Now decide whether you want total protein extraction or soluble/insoluble fractionation.
-Lysis for soluble/insoluble fractionation
-For each strain, rack a 2mL flat or round-bottom microcentrifuge tube in LN2 and place a 7mm stainless-steel ball (Retsch #05.368.0035) inside. Put some LN2 in tube to speed cooling of ball and to catch the incoming sample. Label the sides as well as the tops of the tubes, as lysis will often crack off the tube cap.
-
-Resuspend frozen pellet in 50 µL SPB.
-
-Drip resuspended pellet onto upper wall of tube containing ball. Goal is to get a nugget of frozen material on the wall, and to avoid dripping the material around the ball and thus freezing the ball to the bottom of the tube; having some LN2 remaining in the tube helps.
-
-When all LN2 has boiled out of tube (listen -- if any popping or hissing, keep waiting), snap tube closed. Keep in LN2. (Any remaining LN2 in tube will cause tube to explode open and fire the stainless steel ball into your iPad, brain, colleague, or other important equipment.)
-
-Rack the tube into the PTFE 2mL tube adaptor for the Retsch Mixer Mill MM400 (Retsch #22.008.0005) and submerge the entire assembly in LN2.
-
-Agitate for 4×90 seconds at 30 Hz in a Retsch Mixer Mill MM400, returning sample holder to LN2 between sessions. Complete lysis produces fine snowy powder in the tube.
-
-Remove sample tubes from LN2 and pop the caps to relieve pressure.
-
-Add 450 μL SPB to each tube, and extract ball with a magnet. We rinse balls in methanol and store in 50% ethanol.
-
-Move 500 μL sample to a fresh 1.5mL microcentrifuge tube.
-
-### Soluble fraction extraction
-
-Spin at 3000g for 30 seconds (clarification step).
-
-Decant clarified liquid into a 1.5mL polyallomer conical centrifuge tube (Beckman Coulter).
-
-Spin at 100,000g for 20 minutes (fixed-angle TLA-55 rotor at 40,309 rpm in a Beckman Coulter Optimax tabletop ultracentrifuge).
-
-Decant supernatant into a 1.5mL microcentrifuge tube: this is the soluble fraction.
-
-### Insoluble fraction extraction
-
-Violently snap pellet to clear remaining liquid.
-
-Add 500 μL wash buffer (WB) and vortex violently. (The pellet may not resuspend; that's fine.)
-
-Spin at 100,000g for 20 minutes.
-
-Discard supernatant, clear residual liquid with a hard snap.
-
-Add 500 μL insoluble protein buffer (IPB).
-
-Vortex until pellet dissolves, 10-15 minutes for clarified samples.
-
-Spin at 20,000g for 5 minutes.
-
-Decant supernatant into a 1.5mL microcentrifuge tube: this is the insoluble fraction.
-
-### Lysis for total protein extraction
-
-For each strain, rack a 2mL flat or round-bottom microcentrifuge tube in LN2 and place a 7mm stainless-steel ball (Retsch #05.368.0035) inside. Put some LN2 in tube to speed cooling of ball (ultimately we want all the LN2 to boil away).
-
-Resuspend frozen pellet in 50 µL insoluble protein buffer (IPB).
-
-Drip resuspended pellet onto upper wall of tube containing ball. Goal is to get a nugget of frozen material on the wall, and to avoid dripping the material around the ball and thus freezing the ball to the bottom of the tube.
-
-When all LN2 has boiled out of tube (listen -- if any popping or hissing, keep waiting), snap tube closed. Keep in LN2. (Any remaining LN2 in tube will cause tube to explode open and fire the stainless steel ball into your iPad, brain, colleague, or other important equipment.)
-
-Rack the tube into the PTFE 2mL tube adaptor for the Retsch Mixer Mill MM400 (Retsch #22.008.0005) and submerge the entire assembly in LN2.
-
-Agitate for 4×90 seconds at 30 Hz in a Retsch Mixer Mill MM400, returning sample holder to LN2 between sessions. Complete lysis produces fine snowy powder in the tube.
-
-Add 450 μL IPB to tube, and extract ball with a magnet.
-
-Move 500 μL sample to a fresh 1.5mL microcentrifuge tube.
-
-Spin at 20,000g for 5 minutes.
-
-Decant supernatant into a 1.5mL microcentrifuge tube: this is the total protein fraction.
-
-### Storage
-
-For insoluble and total-protein fractions, make 100μL aliquots and store at -80°C.
-For soluble fractions, mix 5:1 with fresh 6x soluble protein storage buffer (SPSB), denature for 5 minutes at 95°C, make 100μL aliquots and store at -80°C.

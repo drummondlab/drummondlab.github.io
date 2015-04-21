@@ -125,7 +125,7 @@ For team, use a tag to indicate 'current' vs 'alumni'?
 
 ## Hosting
 
-Name registration at [NameCheap]. Custom domain via [GitHub Pages]
+Name registration at [NameCheap]. Custom domain via [GitHub Pages].
 [NameCheap]: https://www.namecheap.com
 
 [Trevor Bedford]: http://bedford.io/team/trevor-bedford/

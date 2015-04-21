@@ -6,14 +6,15 @@ $font-size-base: 12px;
 $primary-color: #000000;
 
 body {
+	padding-top: 50px; /* to prevent navbar overlap */
 	font-family: $font-stack;
 	color: $primary-color;
+	font-weight: 300;
+	margin-bottom: 60px;
 }
-
-// body {
-//   font: 100% $font-stack;
-//  color: $primary-color;
-// }
+@media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
+}
 
 
 h1, .h1 { font-size: floor($font-size-base * 2.60); } /* ~36px */
@@ -50,11 +51,6 @@ h6 {
 
 
 // other
-
-body {
-	font-weight: 300;
-	margin-bottom: 60px;
-}
 
 p {
 	font-weight: 300;
