@@ -76,7 +76,6 @@ p {
 	height: 5px;
 }
 
-
 a.off { 
 	color: inherit; 
 }
@@ -117,9 +116,19 @@ strong {
 	font-size: 30px; 
 	font-weight: 100;
 }
+.navbar-footer { 
+	font-size: 20px; 
+	font-weight: 100;
+	a {
+		color: black;
+	}
+}
 .navbar-nav { 
 	font-size: 30px; 
 	font-weight: 100;
+	a {
+		color: black;
+	}
 }
 .navbar-text {
 	font-size: 15px;

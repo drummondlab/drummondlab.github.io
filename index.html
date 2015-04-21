@@ -9,7 +9,7 @@ categories:
 
 <div class="row">
 	<div class="col-md-12">
-		<object class="pull-left biglogo" data="/assets/images/logo.svg" type="image/svg+xml"></object>
+		<object class="pull-left biglogo" data="/assets/images/logo.svg" type="image/svg+xml" width='100'></object>
 		<div class="bigtitle logobox">
 			The Drummond Lab
 		</div>
@@ -22,7 +22,7 @@ categories:
 	<div class="col-md-12">
 		<div class="smallhead">
 			<p>
-			We study <strong>how cells adapt</strong> at the molecular level, focusing on <strong><term>translation</term></strong>, the process by which cells produce proteins using genetic information. Our analyses extend from the <strong>near-instantaneous cellular responses</strong> to environmental stress to the <strong>multi-million-year evolutionary divergence</strong> of species.
+			We study <strong>how cells adapt</strong> at the molecular level, focusing on the process of <strong>translation</strong> of cellular genetic information into protein molecules. Our analyses extend from the <strong>near-instantaneous cellular responses</strong> to environmental stress to the <strong>multi-million-year evolutionary divergence</strong> of species.
 			</p>
 			<p>
 			Our overarching goal is to build and integrate biochemical, biophysical, cell-biological, and evolutionary data into a coherent, mechanistic picture of cellular adaptation. We test and exploit useful findings by <strong>engineering molecules</strong> using our biological discoveries.
@@ -80,7 +80,7 @@ categories:
 			{% for post in site.categories.blog limit:8 %}
 			
 				{% for member in site.categories.team %}
-					{% if member.title == post.author %}
+					{% if member.handle == post.author_handle %}
 						{% assign author = member %}
 					{% endif %}
 				{% endfor %}		

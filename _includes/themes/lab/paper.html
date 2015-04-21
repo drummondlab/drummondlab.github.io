@@ -34,14 +34,19 @@ with gratitude.
 	<div class="col-md-3">
 		<div class="bigspacer"></div>
 		<div class="glyphbox note"> <!-- DAD: what is this class? -->
-			{% if page.pdf %}
+			{% if page.pdf or page.pdflink %}
 			<div class="smallhead">
 				PDF
 			</div>	
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				<i class="fa fa-file-text-o fa-fw"></i>
+				{% if page.pdflink %}
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="{{ page.pdflink }}">[offsite PDF]</a>
+				{% else %}
+				<i class="fa fa-file-pdf-o fa-fw"></i>
 				<a class="off" href="{{ page.pdf }}">{{ page.pdf | split: '/' | last }}</a>
+				{% endif %}
 			</div>
 			<div class="bigspacer"></div>			
 			{% endif %}

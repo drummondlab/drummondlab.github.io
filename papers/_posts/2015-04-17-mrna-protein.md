@@ -8,6 +8,7 @@ journal: "PLoS Genetics"
 authors: "Csárdi G, Franks AM, Choi DS, Airoldi EM, Drummond DA"
 image: /assets/images/papers/mrna-prot.png
 pdf: 
+pdflink: http://biorxiv.org/content/early/2014/12/26/009472.full-text.pdf
 github: https://github.com/dad/mrna-prot
 doi: ""
 category: paper
@@ -33,7 +34,7 @@ protein levels. Protein levels are not proportional to mRNA levels, but rise muc
 
 # Source code
 
-Code is available on [GitHub] (mrna-prot).
+Code is available on [GitHub] (see sidebar).
 
 `
 git clone git@github.com:dad/mrna-prot.git
