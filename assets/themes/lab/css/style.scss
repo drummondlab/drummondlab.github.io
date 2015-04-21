@@ -126,9 +126,17 @@ strong {
 		color: black;
 	}
 }
-.navbar-text {
+.navbar-small {
 	font-size: 15px;
 	font-weight: 300;	
+}
+
+.navbar-fixed-bottom {
+	font-size: 20px;
+	font-weight: 200;
+	a {
+		color: black;
+	}
 }
 
 // headings

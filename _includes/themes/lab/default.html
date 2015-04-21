@@ -66,8 +66,19 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
+        <a href="{{ HOME_PATH }}">
         <object class="pull-left logo" data="{{ ASSET_PATH }}/images/logo/logo-light.svg" type="image/svg+xml"></object>
+        </a>
+        <!-- Don't put site title on home page -- there's already a big title there. -->
+        {% assign make_title = true %}
+        {% for pc in page.categories %}
+        {% if pc == "home" %}
+        {% assign make_title = false %}
+        {% endif %}
+        {% endfor %}
+        {% if make_title == true %}
         <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+        {% endif %}
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -86,7 +97,7 @@
 
 
   <!-- Static bottom navbar -->
-  <div class="navbar navbar-default navbar-fixed-bottom">
+  <nav class="navbar navbar-footer navbar-fixed-bottom">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".bottom-collapse"> <!-- NOTE! data-target was changed to .bottom-collapse -->
@@ -94,15 +105,21 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-footer" href='http://bmb.uchospitals.edu'>Biochemistry & Molecular Biology</a>
-        <div class='navbar-footer'>|</div>
-        <a class="navbar-footer" href='http://uchicago.edu'>The University of Chicago</a>
       </div>
-      <div class="nav navbar-nav navbar-right">
-        <a href="misc/">More</a
-      </div><!--/.nav-collapse -->
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+        <ul class="nav navbar-nav navbar-left navbar-small">
+          <li><a href='http://bmb.uchospitals.edu'>Biochemistry & Molecular Biology</a></li>
+          <li><a href='http://uchicago.edu'>The University of Chicago</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right navbar-small">
+          <li><a href=''>About</a></li>
+          <li><a href=''>Join</a></li>
+          <li><a href=''>Contact</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
     </div>
-  </div>
+  </nav>
  
 
 

@@ -25,7 +25,7 @@ categories:
 			We study <strong>how cells adapt</strong> at the molecular level, focusing on the process of <strong>translation</strong> of cellular genetic information into protein molecules. Our analyses extend from the <strong>near-instantaneous cellular responses</strong> to environmental stress to the <strong>multi-million-year evolutionary divergence</strong> of species.
 			</p>
 			<p>
-			Our overarching goal is to build and integrate biochemical, biophysical, cell-biological, and evolutionary data into a coherent, mechanistic picture of cellular adaptation. We test and exploit useful findings by <strong>engineering molecules</strong> using our biological discoveries.
+			We're particularly interested in <strong>massive assembly</strong> of proteins and RNA in response to changes in the cellular environment. We exploit our biological discoveries by <strong>engineering self-assembling molecules</strong> to do useful work.
 			</p>
 		</div>
 	</div>				
@@ -40,7 +40,7 @@ categories:
 		</div>
 		<div class="bigspacer"></div>
 		<div class="feedbox pad-left">
-			{% for news in site.categories.news limit:8 %}
+			{% for news in site.categories.news limit:4 %}
 			
 				{% for member in site.categories.team %}
 					{% if member.handle == news.author_handle %}
@@ -77,7 +77,7 @@ categories:
 		</div>
 		<div class="bigspacer"></div>
 		<div class="feedbox pad-left">
-			{% for post in site.categories.blog limit:8 %}
+			{% for post in site.categories.blog limit:4 %}
 			
 				{% for member in site.categories.team %}
 					{% if member.handle == post.author_handle %}
@@ -112,7 +112,7 @@ categories:
 		</div>
 		<div class="bigspacer"></div>
 		<div class="feedbox pad-left">		
-			{% for paper in site.categories.papers limit:8 %}
+			{% for paper in site.categories.papers limit:4 %}
 				<div class="note">
 					<i class="fa fa-file-text-o fa-fw"></i>
 					<a class="off" href="{{ paper.url }}">
