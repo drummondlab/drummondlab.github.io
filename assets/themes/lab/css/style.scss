@@ -105,6 +105,7 @@ strong {
 	height: 180px;
 	display: table-cell; 
 	vertical-align: middle;
+	text-shadow: 1.5px 1.5px #ffffff;
 }
 
 // navbar
@@ -112,13 +113,7 @@ strong {
 	font-size: 30px; 
 	font-weight: 100;
 }
-.navbar-footer { 
-	font-size: 20px; 
-	font-weight: 100;
-	a {
-		color: black;
-	}
-}
+
 .navbar-nav { 
 	font-size: 30px; 
 	font-weight: 100;
@@ -126,17 +121,10 @@ strong {
 		color: black;
 	}
 }
+
 .navbar-small {
 	font-size: 15px;
 	font-weight: 300;	
-}
-
-.navbar-fixed-bottom {
-	font-size: 20px;
-	font-weight: 200;
-	a {
-		color: black;
-	}
 }
 
 // carousel
@@ -149,6 +137,7 @@ strong {
 .carousel-fade .carousel-inner .item {
   opacity: 0;
   transition-property: opacity;
+  transition-duration: 2s;
 }
 
 .carousel-fade .carousel-inner .active {
