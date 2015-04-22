@@ -10,6 +10,8 @@ image: /assets/images/papers/queuosine.svg
 pdf:
 pdflink: "http://www.plosbiology.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pbio.1002015&representation=PDF"
 doi: "10.1371/journal.pbio.1002015"
+dryad_doi: "10.5061/dryad.1jn88"
+figshare: 
 category: paper
 tags: [drosophila, codon usage, translation, mistranslation]
 ---
