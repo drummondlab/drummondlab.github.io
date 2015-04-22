@@ -11,6 +11,7 @@ pdf:
 pdflink: http://biorxiv.org/content/early/2014/12/26/009472.full-text.pdf
 github: https://github.com/dad/mrna-prot
 doi: ""
+dryad_doi: "10.5061/dryad.d644f"
 category: paper
 published: true
 tags: [yeast, translation, gene expression]

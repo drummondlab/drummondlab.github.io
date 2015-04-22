@@ -6,7 +6,7 @@ shortref: "Zaborske et al. PLoS Biology 2014"
 nickname: queuosine
 journal: "PLoS Biology"
 authors: "Zaborske J, Bauer-DuMont VL, Wallace EWJ, Pan T, Aquadro CF, and Drummond DA"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/queuosine.svg
 pdf:
 pdflink: "http://www.plosbiology.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pbio.1002015&representation=PDF"
 doi: "10.1371/journal.pbio.1002015"

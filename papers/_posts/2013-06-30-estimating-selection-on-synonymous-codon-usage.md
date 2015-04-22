@@ -9,6 +9,8 @@ authors: "Wallace EWJ, Airoldi EM, and Drummond DA"
 image: /assets/images/papers/default-paper.svg
 pdf: 
 pdflink: "http://mbe.oxfordjournals.org/content/30/6/1438.full.pdf"
+figshare: 
+dryad_doi: 
 doi: "10.1093/molbev/mst051"
 category: paper
 tags: [yeast, codon usage, translation, selection]

@@ -4,7 +4,7 @@ title: "Jamie L. Scott"
 position: Laboratory Manager
 handle: jls
 nickname: Jamie
-email: 
+email: jkear@uchicago.edu
 twitter: 
 github: 
 scholar: 
