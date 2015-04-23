@@ -72,9 +72,9 @@
         <!-- Don't put site title on home page -- there's already a big title there. -->
         {% assign make_title = true %}
         {% for pc in page.categories %}
-        {% if pc == "home" %}
-        {% assign make_title = false %}
-        {% endif %}
+          {% if pc == "home" %}
+           {% assign make_title = false %}
+          {% endif %}
         {% endfor %}
         {% if make_title == true %}
         <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
@@ -97,12 +97,11 @@
       {{ content }}
     </div>
 
-
   <!-- Static bottom navbar -->
   <nav class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-bottom-collapse"> <!-- NOTE! data-target was changed to .bottom-collapse -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-bottom-collapse"> <!-- NOTE! data-target was changed to jb-bottom-collapse -->
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
