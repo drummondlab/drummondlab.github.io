@@ -7,7 +7,7 @@ nickname: syn-noise
 journal: "Journal of the American Statistical Association"
 authors: "Franks AM, Csárdi G, Drummond AD, Airoldi EM"
 image: /assets/images/papers/default-paper.svg
-pdf: franks-etal-jasa-2014.pdf
+pdf: /assets/pdfs/franks-etal-jasa-2014.pdf
 pdflink: 
 figshare: 
 dryad_doi: 
