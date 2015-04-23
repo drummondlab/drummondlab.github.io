@@ -5,6 +5,8 @@ $font-stack:    'Open Sans', sans-serif;
 $font-size-base: 12px;
 $primary-color: #000000;
 
+$carousel-height: 350px;
+
 body {
 	padding-top: 50px; /* to prevent navbar overlap */
 	font-family: $font-stack;
@@ -103,8 +105,11 @@ strong {
 
 .logobox {
 	height: 180px;
+	line-height: 65px;	
+	font-weight: 100;
 	display: table-cell; 
 	vertical-align: middle;
+	text-align: center;
 	text-shadow: 1.5px 1.5px #ffffff;
 }
 
@@ -138,8 +143,18 @@ strong {
               transition: opacity .4s;
 }
 .carousel-control {
-    background-image: none !important; /* remove background gradients on controls */
+    background-image: none; /* remove background gradients on controls */
+//    color: #ffffff;
 }
+
+.carousel-indicators li {
+    background-color: #ffffff;
+}
+
+.carousel-indicators .active {
+    background-color: #ffffff;
+}
+
 /* Fade controls with items */
 .next.left,
 .prev.right {
@@ -153,13 +168,12 @@ strong {
 }
 
 .overlay { 
-	color: black;
-  position:absolute;
-  z-index:12;
-  top:50%;
-  left:0;
-  width:100%;
-  text-align:center;
+	position:absolute;
+	z-index:12;
+	top:50%;
+	left:0;
+	width:100%;
+	text-align:center;
 }
 
 // headings
