@@ -5,11 +5,17 @@ categories:
  - home
 ---
 {% include JB/setup %}
+{% for page in site.categories.misc %}
+{% if page.homepage %}
+	{% assign homepage = page %}
+{% endif %}
+{% endfor %}
+
 <div class="bigspacer"></div>
 
 <div class="row">
 	<div class="col-md-12">
-	<div class="overlay bigtitle logobox">The Drummond Lab</div>
+	<div class="overlay bigtitle logobox">{{ homepage.title }}</div>
 	<div id="carousel" class="carousel carousel-fade">
 	  <ol class="carousel-indicators">
 	    <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -38,11 +44,6 @@ categories:
 	    <span class="sr-only">Next</span>
 	  </a>
 	</div>
-	<!--	<object class="pull-left biglogo" data="/assets/images/logo.svg" type="image/svg+xml" width='100'></object> -->
-	<!--	<div class="bigtitle logobox">
-			The Drummond Lab
-		</div>
-	-->
 	</div>				
 </div>
 
@@ -51,12 +52,7 @@ categories:
 <div class="row">
 	<div class="col-md-12">
 		<div class="smallhead">
-			<p>
-			We study <strong>how cells adapt</strong> at the molecular level, focusing on the process of <strong>translation</strong> of cellular genetic information into protein molecules. Our analyses extend from the <strong>near-instantaneous cellular responses</strong> to environmental stress to the <strong>multi-million-year evolutionary divergence</strong> of species.
-			</p>
-			<p>
-			We're particularly interested in <strong>massive assembly</strong> of proteins and RNA in response to changes in the cellular environment. We exploit our biological discoveries by <strong>engineering self-assembling molecules</strong> to do useful work.
-			</p>
+			{{ homepage.content }}
 		</div>
 	</div>				
 </div>
