@@ -14,7 +14,7 @@ navorder: 2
 			<div class="col-md-4 memberbox">
 				<div class="media">
 	  				<a class="pull-left" href="{{ member.url }}">
-	    				<img width=170 class="media-object" src="{{ member.image }}">
+	    				<img class="media-object member-photo" src="{{ member.image }}">
 	  				</a>
 	 			 	<div class="media-body">
 	    				<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
@@ -28,7 +28,8 @@ navorder: 2
 {% cycle 'close rows': nil, '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
 
 <div class="bigspacer"></div>
-<div class="head">Alumni</div>
+<hr/>
+<div class="bigtitle">Alumni</div>
 <div class="bigspacer"></div>
 
 {% for member in site.categories.team reversed %}
@@ -37,7 +38,7 @@ navorder: 2
 			<div class="col-md-4 memberbox">
 				<div class="media">
 	  				<a class="pull-left" href="{{ member.url }}">
-	    				<img width=170 class="media-object" src="{{ member.image }}">
+	    				<img class="media-object member-photo" src="{{ member.image }}">
 	  				</a>
 	 			 	<div class="media-body">
 	    				<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
