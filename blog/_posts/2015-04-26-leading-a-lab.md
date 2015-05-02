@@ -81,5 +81,6 @@ Like many scientific endeavors, your first foray into leadership.
 * HHMI's resources for early-career scientists
 ** Especially [Chapter 3](http://www.hhmi.org/sites/default/files/Educational%20Materials/Lab%20Management/Making%20the%20Right%20Moves/moves2_ch3.pdf)
 * Uri Alon's 
+* Angela DePace's [page on lab culture](https://depace.med.harvard.edu/?page_id=408)
 
 [Alon 2010]: http://www.sciencedirect.com/science/article/pii/S1097276510000407
