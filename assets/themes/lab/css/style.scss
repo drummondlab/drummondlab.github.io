@@ -79,6 +79,10 @@ a.off {
 }
 
 
+.member-photo {
+	height: 200px;
+}
+
 // emphases
 
 term {
@@ -131,6 +135,13 @@ strong {
 .navbar-small {
 	font-size: 15px;
 	font-weight: 300;	
+}
+
+// projects pages
+
+.project-image {
+	width: 600px;
+	background-color: #FFFFCC;
 }
 
 // carousel

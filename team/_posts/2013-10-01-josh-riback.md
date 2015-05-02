@@ -8,7 +8,7 @@ email:
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/default-member.svg
+image: /assets/images/team/josh-riback.png
 alum: false
 ---
 Josh is a graduate student in the [Biophysics program][1] at the [University of Chicago][2].

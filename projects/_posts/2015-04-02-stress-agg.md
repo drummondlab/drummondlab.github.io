@@ -2,7 +2,7 @@
 layout: project
 title: "Stress-induced protein aggregation"
 handle: stress-agg
-image: /assets/images/projects/stress-agg.svg
+image: /assets/images/projects/assembly-invivo-invitro.svg
 category: project
 tags: [yeast, translation, selection]
 ---

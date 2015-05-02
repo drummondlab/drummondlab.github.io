@@ -27,8 +27,7 @@ As someone who's been keeping his head down for more than a decade, waiting to f
 
 # My bona fides
 
-I've been running my own academic research group since October of 2006, when I started my lab as a Bauer Fellow at Harvard. I've graduated one student with a Ph.D., co-advised by Dan Hartl.
-
+I've been running my own academic research group since October of 2006 (8.5 years, as of now), when I started my lab as a Bauer Fellow at Harvard. I've graduated one student with a Ph.D., co-advised by Dan Hartl.
 
 
 # Goals for this post
@@ -42,9 +41,13 @@ I've been running my own academic research group since October of 2006, when I s
 
 Why do so many successful scientists display disinterest, disdain, or extreme skepticism about the role of leadership in science? I'm not sure, but I do have some strong hypotheses.
 
+## The Natural
+
+
+
 ## The Fallacy of Implicit Perfection
 
-"I've never given a minute's thought to 'principles of leadership,' and I've done just fine," says the Nobel laureate. 
+"I've never given a minute's thought to your so-called 'principles of leadership,' and I've done just fine," says the Nobel laureate. 
 
 I'm sure both of those statements are true. They're not at issue. The question is whether thinking about 
 
