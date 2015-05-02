@@ -10,4 +10,4 @@ tags: [publication]
 Our [paper][1] on the relationship between mRNA and protein levels was accepted at [PLoS Genetics].
 
 [PLoS Genetics]: http://www.plosgenetics.org
-[1]: http://biorxiv.org/content/early/2014/12/26/009472
+[1]: {{ site.baseurl }}/papers/paper/mrna-protein
