@@ -97,9 +97,15 @@ with gratitude.
 			</div>
 			<div class="bigspacer"></div>			
 			{% endif %}
+			{% comment %}
 			<div class="smallhead">
 				Share
 			</div>
+			{% endcomment %}
+		    <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
+		    <div class="post-sharing">
+		     {% include JB/sharing %}
+		    </div>
 
 		</div>
 	</div>
@@ -107,6 +113,7 @@ with gratitude.
 		<div class="post">
 			{{ content }}
 		</div>	
-	</div>	
+	</div>
+
 <div class="col-md-1"></div>
-</div>	
+</div>

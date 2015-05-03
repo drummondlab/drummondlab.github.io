@@ -12,10 +12,13 @@ body {
 	font-family: $font-stack;
 	color: $primary-color;
 	font-weight: 300;
-	margin-bottom: 60px;
+	padding-bottom: 100px;
 }
 @media screen and (max-width: 768px) {
-    body { padding-top: 0px; }
+    body { 
+    	padding-top: 0px; 
+    	padding-bottom: 60px; 
+    }
 }
 
 
