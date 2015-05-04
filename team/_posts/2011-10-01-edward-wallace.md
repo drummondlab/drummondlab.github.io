@@ -11,4 +11,4 @@ scholar:
 image: /assets/images/team/edward-wallace.png
 alum: false
 ---
-Edward is a postdoctoral scholar.
+Dr. Wallace is a postdoctoral scholar.

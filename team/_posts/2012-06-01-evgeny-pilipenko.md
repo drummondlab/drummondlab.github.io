@@ -11,4 +11,4 @@ scholar:
 image: /assets/images/team/pilipenko.jpg
 alum: false
 ---
-Dr. Pilipenko joined the group in 2012. 
+Dr. Pilipenko joined the group in 2012.
