@@ -8,7 +8,7 @@ email:
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/default-member.svg
+image: /assets/images/team/rohan-goyal.png
 alum: false
 ---
-Eliza is a U.Chicago freshman who joined the group in 2014.
+Rohan is a U.Chicago freshman who joined the group in 2014.

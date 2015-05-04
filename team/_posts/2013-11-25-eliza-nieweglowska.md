@@ -8,7 +8,7 @@ email: elizan@uchicago.edu
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/default-member.svg
+image: /assets/images/team/eliza-nieweglowska.png
 alum: false
 ---
 Eliza is a U.Chicago senior who joined the group in 2013. She did her honors thesis research in the lab.

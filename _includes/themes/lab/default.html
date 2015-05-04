@@ -95,10 +95,12 @@
    <!-- Content -->
    <div class="container">
       {{ content }}
-  </div>
+   </div>
 
-
-  <div class="bigspacer"></div>
+        <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
+        <div class="post-sharing">
+         {% include JB/sharing %}
+        </div>
 
 
   <!-- Static bottom navbar -->

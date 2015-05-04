@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "D. Allan Drummond"
-position: Principal Investigator
+position: Principal investigator
 nickname: Allan
 handle: dad
 email: dadrummond@uchicago.edu

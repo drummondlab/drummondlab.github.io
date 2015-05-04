@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Evgeny Pilipenko"
-position: Senior Scientist
+position: Senior scientist
 handle: ep
 nickname: Evgeny
 email: 

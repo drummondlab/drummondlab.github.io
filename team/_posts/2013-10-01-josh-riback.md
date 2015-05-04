@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Joshua Riback"
-position: Graduate Student
+position: Graduate student
 handle: jar
 nickname: Josh
 email: 

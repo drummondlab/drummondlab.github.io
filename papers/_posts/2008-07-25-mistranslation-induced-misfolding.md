@@ -3,6 +3,7 @@ layout: paper
 title: "Mistranslation-induced protein misfolding as a dominant constraint on coding-sequence evolution"
 year: "2008"
 shortref: "Drummond and Wilke Cell 2008"
+shorttitle: "Mistranslation-induced protein misfolding constrains evolution"
 nickname: mistranslation-dominant
 journal: "Cell"
 authors: "Drummond DA and Wilke CO"

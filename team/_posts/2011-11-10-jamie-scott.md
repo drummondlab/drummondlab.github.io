@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Jamie L. Scott"
-position: Laboratory Manager
+position: Laboratory manager
 handle: jls
 nickname: Jamie
 email: jkear@uchicago.edu
