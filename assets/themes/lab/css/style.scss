@@ -7,6 +7,11 @@ $primary-color: #000000;
 
 $carousel-height: 350px;
 
+body {
+	font-family: $font-stack;
+	color: $primary-color;	
+}
+
 body > .container {
 	padding-top: 50px; /* to prevent navbar overlap */
 	font-family: $font-stack;
