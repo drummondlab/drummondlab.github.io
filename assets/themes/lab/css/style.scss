@@ -7,17 +7,17 @@ $primary-color: #000000;
 
 $carousel-height: 350px;
 
-body {
+body > .container {
 	padding-top: 50px; /* to prevent navbar overlap */
 	font-family: $font-stack;
 	color: $primary-color;
 	font-weight: 300;
-	padding-bottom: 100px;
+	padding-bottom: 50px; /* to prevent navbar overlap */
 }
 @media screen and (max-width: 768px) {
     body { 
-    	padding-top: 0px; 
-    	padding-bottom: 60px; 
+    	padding-top: 50px; 
+    	padding-bottom: 70px; 
     }
 }
 
