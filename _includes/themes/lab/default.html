@@ -67,7 +67,7 @@
           <span class="icon-bar"></span>
         </button>
         <a href="{{ HOME_PATH }}">
-        <object class="pull-left logo" data="{{ ASSET_PATH }}/images/logo/logo-v2.svg" type="image/svg+xml"></object>
+        <object class="pull-left logo" data="{{ ASSET_PATH }}/images/logo/lab-logo.svg" type="image/svg+xml"></object>
         </a>
         <!-- Don't put site title on home page -- there's already a big title there. -->
         {% assign make_title = true %}
@@ -95,7 +95,8 @@
    <!-- Content -->
    <div class="container">
       {{ content }}
-    </div>
+   </div>
+
 
   <!-- Static bottom navbar -->
   <nav class="navbar navbar-default navbar-fixed-bottom">
@@ -110,8 +111,8 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="jb-bottom-collapse">
         <ul class="nav navbar-nav navbar-left navbar-small">
-          <li><a href='http://bmb.uchospitals.edu'>Biochemistry & Molecular Biology</a></li>
-          <li><a href='http://uchicago.edu'>The University of Chicago</a></li>
+          <li><a href={{ site.department.url }}>{{ site.department.name }}</a></li>
+          <li><a href={{ site.institution.url }}>{{ site.institution.name }}</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right navbar-small">
           <li><a href=''>About</a></li>

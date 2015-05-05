@@ -9,16 +9,24 @@ navorder: 1
 <div class="bigspacer"></div> 
 {% for project in site.categories.projects %}
     <div class='row'>
-    <div class="col-md-4 paperbox">
-      <div class="media">
-          <a class="pull-right" href="{{ project.url }}">
-            <img width=100 class="media-object" src="{{ project.image }}">
+      <div class='row'>
+        <div class='col-md-12'>
+        <div class="media">
+          <a class="project-image" href="{{ project.url }}">
+            <img class="media-object" src="{{ project.image }}">
           </a>
+        </div>
+      </div>
+      <div class='row'>
+        <div class="col-md-4 paperbox">
+          <div class="smallhead media-heading"><a href="{{ project.url }}" class="off">{{ project.title }}</a></div>
+        </div>
+        <div class='col-md-8'>
+          {{ project.content }}
+        </div>
       </div>
     </div>
-    <div class="col-md-8">
-     <div class="smallhead media-heading"><a href="{{ project.url }}" class="off">{{ project.title }}</a></div>
-      {{ project.content }}
-    </div>
-    </div>
+  </div>
 {% endfor %}
+
+<div class="bigspacer"></div>

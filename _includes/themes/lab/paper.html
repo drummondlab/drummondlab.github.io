@@ -6,23 +6,26 @@ with gratitude.
 <div class="bigspacer"></div>
 
 <div class="row">
-	<div class="col-md-12">
+	<div class="col-md-3">
 		<div class="media">
 			{% if page.image %}
-			<img class="pull-left pad-right media-object" src="{{ page.image }}">
+			<img class="pull-left pad-right media-object paper-image" src="{{ page.image }}">
 			{% endif %}
-			<div class="media-body titlebox">
-				<div class="title media-heading">
-					{{ page.title }}
-				</div>
-				<p>
-				<div class="smallhead">
-					{{ page.authors }}
-					({{ page.year }}).
-					<journal>
-					{{ page.journal }}
-					</journal>
-				</div>
+		</div>
+	</div>
+
+	<div class="col-md-9">
+		<div class="media-body titlebox">
+			<div class="title media-heading">
+				{{ page.title }}
+			</div>
+			<p>
+			<div class="smallhead">
+				{{ page.authors }}
+				({{ page.year }}).
+				<journal>
+				{{ page.journal }}
+				</journal>
 			</div>
 		</div>
 	</div>
@@ -100,6 +103,10 @@ with gratitude.
 			<div class="smallhead">
 				Share
 			</div>
+		    <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
+		    <div class="post-sharing">
+		     {% include JB/sharing %}
+		    </div>
 
 		</div>
 	</div>
@@ -107,6 +114,10 @@ with gratitude.
 		<div class="post">
 			{{ content }}
 		</div>	
-	</div>	
-<div class="col-md-1"></div>
-</div>	
+	</div>
+
+	<div class="col-md-1"></div>
+</div>
+
+<div class="bigspacer"></div>
+

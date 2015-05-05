@@ -1,5 +1,8 @@
 <div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+  <div class="title media-heading">{{ page.title }}</div>
+  {% if page.tagline %}
+    <div class="tagline">{{page.tagline}}</div>
+  {% endif %}
 </div>
 
 <div class="row post-full">

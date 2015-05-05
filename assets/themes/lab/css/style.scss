@@ -8,14 +8,22 @@ $primary-color: #000000;
 $carousel-height: 350px;
 
 body {
+	font-family: $font-stack;
+	color: $primary-color;	
+}
+
+body > .container {
 	padding-top: 50px; /* to prevent navbar overlap */
 	font-family: $font-stack;
 	color: $primary-color;
 	font-weight: 300;
-	margin-bottom: 60px;
+	padding-bottom: 50px; /* to prevent navbar overlap */
 }
 @media screen and (max-width: 768px) {
-    body { padding-top: 0px; }
+    body { 
+    	padding-top: 50px; 
+    	padding-bottom: 70px; 
+    }
 }
 
 
@@ -79,6 +87,10 @@ a.off {
 }
 
 
+.member-photo {
+	height: 200px;
+}
+
 // emphases
 
 term {
@@ -131,6 +143,17 @@ strong {
 .navbar-small {
 	font-size: 15px;
 	font-weight: 300;	
+}
+
+// projects pages
+
+.project-image {
+	width: 600px;
+	background-color: #FFFFCC;
+}
+
+.paper-image {
+	width: 200px;
 }
 
 // carousel

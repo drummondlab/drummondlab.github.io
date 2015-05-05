@@ -69,6 +69,7 @@
     </ul>
   {% endunless %}  
   
+  {% comment %}
     <hr>
     <ul class="pagination">
     {% if page.previous %}
@@ -83,6 +84,7 @@
       <li class="next disabled"><a>Next &rarr;</a>
     {% endif %}
     </ul>
+  {% endcomment %}
     <hr>
     {% include JB/comments %}
   </div>

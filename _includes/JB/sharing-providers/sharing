@@ -9,8 +9,6 @@
   		{% include JB/sharing-providers/googleplus %}
 	{% when 'linkedin' %}
   		{% include JB/sharing-providers/linkedin %}
-	{% when 'hn' %}
-  		{% include JB/sharing-providers/hn %}
 	{% when 'all' %}
   		{% include JB/sharing-providers/global %}
   {% endcase %}
