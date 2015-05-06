@@ -158,36 +158,33 @@ strong {
 
 // carousel
 
+.carousel-fade {
+  opacity: 1;
+}
 .carousel-fade .item {
-    left: 0 !important;
-      -webkit-transition: opacity .4s; /*adjust timing here */
-         -moz-transition: opacity .4s;
-           -o-transition: opacity .4s;
-              transition: opacity .4s;
+  -moz-transition: opacity ease-in-out .7s;
+  -o-transition: opacity ease-in-out .7s;
+  -webkit-transition: opacity ease-in-out .7s;
+  transition: opacity ease-in-out .7s;
+  left: 0 !important;
+  opacity: 0;
+  top:0;
+  position:absolute;
+  width: 100%;
+  display:block !important;
+  z-index:1;
 }
-.carousel-control {
-    background-image: none; /* remove background gradients on controls */
-//    color: #ffffff;
+.carousel-fade .item:first-child {
+  top:auto;
+  position:relative;
 }
-
-.carousel-indicators li {
-    background-color: #ffffff;
-}
-
-.carousel-indicators .active {
-    background-color: #ffffff;
-}
-
-/* Fade controls with items */
-.next.left,
-.prev.right {
-    opacity: 1;
-    z-index: 1;
-}
-.active.left,
-.active.right {
-    opacity: 0;
-    z-index: 2;
+.carousel-fade .item.active {
+  opacity: 1;
+  -moz-transition: opacity ease-in-out .7s;
+  -o-transition: opacity ease-in-out .7s;
+  -webkit-transition: opacity ease-in-out .7s;
+  transition: opacity ease-in-out .7s;
+  z-index:2;
 }
 
 .overlay { 
@@ -198,6 +195,7 @@ strong {
 	width:100%;
 	text-align:center;
 }
+
 
 // headings
 
