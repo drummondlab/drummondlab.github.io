@@ -36,11 +36,10 @@ protein levels. Protein levels are not proportional to mRNA levels, but rise muc
 
 # Source code
 
-Code is available on [GitHub] (see sidebar).
+Code is available on [GitHub](http://github.com) (see sidebar).
 
-`
+```
 git clone git@github.com:dad/mrna-prot.git
-`
+```
 
-[GitHub]: http://github.com
 
