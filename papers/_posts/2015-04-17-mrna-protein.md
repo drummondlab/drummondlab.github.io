@@ -3,7 +3,7 @@ layout: paper
 title: "Accounting for experimental noise reveals that mRNA levels, amplified by post-transcriptional processes, largely determine steady-state protein levels in yeast"
 year: "2015"
 shortref: "Csárdi, Franks et al. PLoS Genetics 2015"
-shorttitle: "mRNA levels amplified to determine protein levels"
+shorttitle: "mRNA levels amplified to set protein levels"
 nickname: mrna-prot
 journal: "PLoS Genetics"
 authors: "Csárdi G, Franks AM, Choi DS, Airoldi EM, Drummond DA"
@@ -38,7 +38,7 @@ protein levels. Protein levels are not proportional to mRNA levels, but rise muc
 
 Code is available on [GitHub](http://github.com) (see sidebar).
 
-```
+```sh
 git clone git@github.com:dad/mrna-prot.git
 ```
 
