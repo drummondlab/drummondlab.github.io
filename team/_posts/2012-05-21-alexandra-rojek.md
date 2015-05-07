@@ -4,7 +4,7 @@ title: "Alexandra Rojek"
 position: Undergraduate
 nickname: Alexandra
 handle: aer
-email: arojek@college.harvard.edu
+email: arojek@post.harvard.edu
 twitter: AlexandraRojek
 github: 
 scholar: 
