@@ -12,7 +12,7 @@ fulltext: http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.
 pdf: 
 pdflink: http://www.plosgenetics.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pgen.1005206&representation=PDF
 github: https://github.com/dad/mrna-prot
-doi: ""
+doi: "doi/10.1371/journal.pgen.1005206"
 dryad_doi: "10.5061/dryad.d644f"
 category: paper
 published: true
