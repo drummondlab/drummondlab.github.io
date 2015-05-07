@@ -1,0 +1,14 @@
+---
+layout: default
+title: The Drummond Lab
+categories:
+ - home
+---
+{% include JB/setup %}
+{% for page in site.categories.misc %}
+{% if page.about %}
+	{% assign aboutpage = page %}
+{% endif %}
+{% endfor %}
+
+{{ aboutpage.content }}
