@@ -8,8 +8,9 @@ nickname: mrna-prot
 journal: "PLoS Genetics"
 authors: "Csárdi G, Franks AM, Choi DS, Airoldi EM, Drummond DA"
 image: /assets/images/papers/mrna-prot.png
+fulltext: http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005206
 pdf: 
-pdflink: http://biorxiv.org/content/early/2014/12/26/009472.full-text.pdf
+pdflink: http://www.plosgenetics.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pgen.1005206&representation=PDF
 github: https://github.com/dad/mrna-prot
 doi: ""
 dryad_doi: "10.5061/dryad.d644f"
