@@ -2,10 +2,10 @@
 layout: paper
 title: "Accounting for experimental noise reveals that mRNA levels, amplified by post-transcriptional processes, largely determine steady-state protein levels in yeast"
 year: "2015"
-shortref: "Csárdi, Franks et al. PLoS Genetics 2015"
+shortref: "Csárdi, Franks et al. PLOS Genetics 2015"
 shorttitle: "mRNA levels amplified to set protein levels"
 nickname: mrna-prot
-journal: "PLoS Genetics"
+journal: "PLOS Genetics"
 authors: "Csárdi G, Franks AM, Choi DS, Airoldi EM, Drummond DA"
 image: /assets/images/papers/mrna-prot.png
 fulltext: http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005206
