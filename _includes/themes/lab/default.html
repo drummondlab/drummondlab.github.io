@@ -69,20 +69,22 @@
         <a href="/">
         <img class="pull-left logo" src="{{ ASSET_PATH }}/images/logo/lab-logo.svg" type="image/svg+xml">
         </a>
-        <!-- Don't put site title on home page -- there's already a big title there. -->
-        {% assign make_title = true %}
-        {% for pc in page.categories %}
-          {% if pc == "home" %}
-           {% assign make_title = false %}
-          {% endif %}
-        {% endfor %}
-        {% if make_title == true %}
-        <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-        {% endif %}
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+        <ul class="nav navbar-nav navbar-left">
+          <!-- Don't put site title on home page -- there's already a big title there. -->
+          {% assign make_title = true %}
+          {% for pc in page.categories %}
+            {% if pc == "home" %}
+             {% assign make_title = false %}
+            {% endif %}
+          {% endfor %}
+          {% if make_title == true %}
+          <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          {% endif %}
+        </ul>
         <ul class="nav navbar-nav navbar-right">
           {% assign pages_list = (site.pages | sort: 'navorder') %}
           {% assign group = 'navigation' %}
