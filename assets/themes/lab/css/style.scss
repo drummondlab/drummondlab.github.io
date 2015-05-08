@@ -80,6 +80,11 @@ a.off {
 }
 
 
+.big-member-photo {
+	height: 15vw;
+	min-height: 200px;
+}
+
 .member-photo {
 	height: 15vw;
 	min-height: 100px;
@@ -199,7 +204,7 @@ strong {
 
 .logotitle {
 	font-size: 30px;
-	font-size: 8vw;
+	font-size: 7vw;
 	line-height: 30px;
 	line-height: 4vw;
 	font-weight: 100;
@@ -215,6 +220,15 @@ strong {
 	font-size: 60px; 
 	line-height: 65px;	
 	font-weight: 100;
+}
+
+@media all and (max-width: 500px) {
+	.bigtitle {
+		font-size: 40px;
+	}
+	.title {
+		font-size: 30px;
+	}
 }
 
 .bighead {

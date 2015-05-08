@@ -4,19 +4,21 @@
 <div class="bigspacer"></div>
 
 <div class="row">
-	<div class="col-md-12">
+	<div class="col-md-3">
 		<div class="media">
 			{% if member.image %}
-			<img class="pull-left pad-right media-object" width=120 src="{{ member.image }}">
+			<img class="pull-left pad-right big-member-photo" src="{{ member.image }}">
 			{% endif %}
-			<div class="media-body titlebox">
-				<div class="title media-heading">
-					{{ member.title }}
-				</div>
-				<p>
-				<div class="smallhead">
-					{{ member.position }}
-				</div>
+		</div>
+	</div>
+	<div class="col-md-9">
+		<div class="pull-left pad-right media-body titlebox">
+			<div class="title media-heading">
+				{{ member.title }}
+			</div>
+			<br/>
+			<div class="smallhead">
+				{{ member.position }}
 			</div>
 		</div>
 	</div>				
