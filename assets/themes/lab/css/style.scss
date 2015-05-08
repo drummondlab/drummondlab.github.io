@@ -197,7 +197,7 @@ strong {
 
 // headings
 
-.bigtitle {
+.logotitle {
 	font-size: 30px;
 	font-size: 8vw;
 	line-height: 30px;
@@ -208,6 +208,12 @@ strong {
 .title {
 	font-size: 45px; 
 	line-height: 50px;	
+	font-weight: 100;
+}
+
+.bigtitle {
+	font-size: 60px; 
+	line-height: 65px;	
 	font-weight: 100;
 }
 
@@ -229,6 +235,17 @@ strong {
 	line-height: 23px;
 }
 
+.note-title {
+	font-weight: 600;
+	a {
+		color: black;
+		border-bottom: false;
+	}
+
+	h1 {
+
+	}	
+}
 .note {
 	font-size: 15px;
 	font-weight: 300;
@@ -236,6 +253,7 @@ strong {
 
 	a {
 		color: black;
+		border-bottom: 1px dotted;
 	}
 
 	h1 {
@@ -249,7 +267,11 @@ strong {
 	line-height: 16px;
 }
 
-journal {
+.journal-title {
+	
+}
+
+.journal {
 	font-style: italic;
 }
 

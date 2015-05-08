@@ -15,7 +15,7 @@ categories:
 
 <div class="row">
 	<div class="col-md-12">
-	<div class="carousel-overlay bigtitle logobox">
+	<div class="carousel-overlay logotitle logobox">
 		{{ homepage.title }}
 	</div>
 	<div id="carousel" class="carousel carousel-fade" data-ride="carousel">
@@ -77,7 +77,7 @@ categories:
 					{% endif %}
 				{% endfor %}		
 				
-				<div class="note">
+				<div class="note-title">
 					<i class="fa fa-bullhorn fa-fw"></i>
 					<a class="off" href="{{ news.url }}">
 					{{ news.title }}
@@ -114,7 +114,7 @@ categories:
 					{% endif %}
 				{% endfor %}		
 				
-				<div class="note">
+				<div class="note-title">
 					<i class="fa fa-comment-o fa-fw"></i>
 					<a class="off" href="{{ post.url }}">
 					{{ post.title }}
@@ -142,16 +142,15 @@ categories:
 		<div class="bigspacer"></div>
 		<div class="feedbox pad-left">		
 			{% for paper in site.categories.papers limit:4 %}
-				<div class="note">
+				<div class="note-title">
 					<i class="fa fa-file-text-o fa-fw"></i>
 					<a class="off" href="{{ paper.url }}">
 					{{ paper.title }}
 					</a>
-					<p>
-						<div class='shortref'>
-						{{ paper.shortref }}
-						</div>
-					</p>
+					<br/>
+					<div class='shortref note'>
+					{{ paper.shortref }}
+					</div>
 				</div>
 				<div class="smallspacer"></div>
 				<div class="smallnote">
