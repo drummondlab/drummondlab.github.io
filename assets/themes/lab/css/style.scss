@@ -118,29 +118,6 @@ strong {
 	text-shadow: 1.5px 1.5px #ffffff;
 }
 
-@media all and (max-width: 480px) {
-	logobox {
-		font-size: 30px;
-		line-height: 30px;
-	}
-	body {
-		font-size: 30px;
-		line-height: 30px;
-	}
-	font-size: 16px;
-}
-@media all and (max-width: 768px) {
-	logobox {
-		font-size: 30px;
-		line-height: 30px;
-	}
-	bigtitle {
-		font-size: 30px;
-		line-height: 30px;
-	}
-	font-size: 6px;
-}
-
 // navbar
 
 .navbar-brand { 
@@ -203,7 +180,11 @@ strong {
   z-index:2;
 }
 
-.overlay { 
+.carousel-indicators {
+  bottom:0px;
+}
+
+.carousel-overlay { 
 	position:absolute;
 	z-index:12;
 	top:50%;
