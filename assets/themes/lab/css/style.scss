@@ -2,7 +2,7 @@
 ---
 
 $font-stack:    'Open Sans', sans-serif;
-$font-size-base: 10px;
+$font-size-base: 12px;
 $primary-color: #000000;
 
 $carousel-height: 350px;
@@ -19,13 +19,6 @@ body > .container {
 	font-weight: 300;
 	padding-bottom: 50px; /* to prevent navbar overlap */
 }
-@media screen and (max-width: 768px) {
-    body { 
-    	padding-top: 50px; 
-    	padding-bottom: 70px; 
-    }
-}
-
 
 h1, .h1 { font-size: floor($font-size-base * 2.60); } /* ~36px */
 h2, .h2 { font-size: floor($font-size-base * 2.15); } /* ~30px */
@@ -125,6 +118,29 @@ strong {
 	text-shadow: 1.5px 1.5px #ffffff;
 }
 
+@media all and (max-width: 480px) {
+	logobox {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	body {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	font-size: 16px;
+}
+@media all and (max-width: 768px) {
+	logobox {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	bigtitle {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	font-size: 6px;
+}
+
 // navbar
 
 .navbar-brand { 
@@ -200,8 +216,10 @@ strong {
 // headings
 
 .bigtitle {
-	font-size: 60px; 
-	line-height: 65px;	
+	font-size: 30px;
+	font-size: 8vw;
+	line-height: 30px;
+	line-height: 4vw;
 	font-weight: 100;
 }
 
