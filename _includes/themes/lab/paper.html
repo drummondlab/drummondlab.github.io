@@ -37,18 +37,25 @@ with gratitude.
 	<div class="col-md-3">
 		<div class="bigspacer"></div>
 		<div class="glyphbox note"> <!-- DAD: what is this class? -->
-			{% if page.pdf or page.pdflink %}
+			{% if page.pdf or page.pdflink or page.fulltext %}
 			<div class="smallhead">
-				PDF
+				Full text
 			</div>	
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				{% if page.pdflink %}
+					<i class="fa fa-file-pdf-o fa-fw"></i>
+					<a class="off" href="{{ page.pdflink }}">Journal PDF</a>
+					<br/>
+				{% endif %}
+				{% if page.pdf %}
+					<i class="fa fa-file-pdf-o fa-fw"></i>
+					<a class="off" href="{{ page.pdf }}">{{ page.pdf | split: '/' | last }}</a>
+					<br/>
+				{% endif %}
+				{% if page.fulltext %}
 				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="{{ page.pdflink }}">Journal PDF</a>
-				{% else %}
-				<i class="fa fa-file-pdf-o fa-fw"></i>
-				<a class="off" href="{{ page.pdf }}">{{ page.pdf | split: '/' | last }}</a>
+				<a class="off" href="{{ page.fulltext }}">Journal HTML</a>
 				{% endif %}
 			</div>
 			<div class="bigspacer"></div>			

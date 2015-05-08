@@ -9,6 +9,6 @@ tags: [publication]
 ---
 [Edward][1] wins the [ASBMB] Best Thematic Poster prize in the theme area "Protein Nonfolding as a Regulatory Phenomenon" at the [2015 ASBMB annual meeting][meeting].
 
-[1]: team/2011/10/01/edward-wallace/
+[1]: /team/edward-wallace/
 [ASBMB]: http://asbmb.org
 [meeting]: http://asbmb.org/meeting2015/
