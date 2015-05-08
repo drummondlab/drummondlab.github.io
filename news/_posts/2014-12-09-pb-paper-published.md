@@ -11,4 +11,3 @@ Our [paper] on how a nutrient drives changes in protein encoding at the genome s
 
 [paper]: /papers/paper/a-nutrient-driven-trna/
 [PLOS Biology]: http://www.plosbiology.org
-[full text]: http://www.plosbiology.org/article/info:doi/10.1371/journal.pbio.1002015
