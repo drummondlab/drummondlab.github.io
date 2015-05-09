@@ -6,7 +6,7 @@ shortref: "Franks, Csárdi et al. J. Amer. Stat. Assoc. 2014"
 shorttitle: "Estimating a structured covariance matrix"
 nickname: syn-noise
 journal: "Journal of the American Statistical Association"
-authors: "Franks AM, Csárdi G, Drummond AD, Airoldi EM"
+authors: "Franks AM, Csárdi G, Drummond DA, Airoldi EM"
 image: /assets/images/papers/default-paper.svg
 pdf: /assets/pdfs/franks-etal-jasa-2014.pdf
 pdflink: 
