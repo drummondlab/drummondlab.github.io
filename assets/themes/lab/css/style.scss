@@ -4,19 +4,22 @@
 $font-stack:    'Open Sans', sans-serif;
 $font-size-base: 12px;
 $primary-color: #000000;
+$font-weight: 300;
+$heavy-font-weight: 400;
 
 $carousel-height: 350px;
 
 body {
 	font-family: $font-stack;
-	color: $primary-color;	
+	font-weight: $font-weight;
+	color: $primary-color;
 }
 
 body > .container {
 	padding-top: 50px; /* to prevent navbar overlap */
 	font-family: $font-stack;
 	color: $primary-color;
-	font-weight: 300;
+	font-weight: $font-weight;
 	padding-bottom: 50px; /* to prevent navbar overlap */
 }
 
@@ -39,7 +42,7 @@ h4,
 h5,
 h6 {
 	font-family: $font-stack;
-	font-weight: 300;
+	font-weight: $heavy-font-weight;
 }
 
 .center {
@@ -56,7 +59,7 @@ h6 {
 // other
 
 p {
-	font-weight: 300;
+	font-weight: $font-weight;
 }
 
 .hugespacer {
@@ -117,7 +120,7 @@ strong {
 .logobox {
 	height: 180px;
 	line-height: 65px;	
-	font-weight: 100;
+	font-weight: $heavy-font-weight;
 	display: table-cell; 
 	vertical-align: middle;
 	text-align: center;
@@ -128,20 +131,29 @@ strong {
 
 .navbar-brand { 
 	font-size: 30px; 
-	font-weight: 100;
+	font-weight: $font-weight;
 }
 
 .navbar-nav { 
 	font-size: 30px; 
-	font-weight: 100;
+	font-weight: $font-weight;
 	a {
 		color: black;
 	}
 }
 
+.dropdown-menu {
+	font-size: 25px;
+	font-weight: $font-weight;
+}
+
+.dropdown {
+	font-weight: $font-weight
+}
+
 .navbar-small {
 	font-size: 15px;
-	font-weight: 300;	
+	font-weight: $font-weight;	
 }
 
 // projects pages
