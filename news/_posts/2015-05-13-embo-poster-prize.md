@@ -1,6 +1,6 @@
 ---
 layout: news
-title: "Allan wins EMBO poster prize"
+title: "EMBO poster prize"
 author: "D. Allan Drummond"
 author_handle: "dad"
 image: /assets/images/news/default-news.png
