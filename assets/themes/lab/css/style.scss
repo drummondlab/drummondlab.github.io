@@ -1,15 +1,16 @@
 ---
 ---
 
-$font-stack:    'Open Sans', sans-serif;
-$font-size-base: 12px;
+$font-stack:    14px/1.5 Lato, "Helvetica Neue", "Open Sans", Helvetica, Arial, sans-serif;
+$font-size-base: 14px;
 $primary-color: #000000;
 $font-weight: 300;
-$heavy-font-weight: 400;
+$heavy-font-weight: 700;
 
 $carousel-height: 350px;
 
 body {
+	font: $font-stack;
 	font-family: $font-stack;
 	font-weight: $font-weight;
 	color: $primary-color;
