@@ -231,6 +231,13 @@ strong {
 	font-weight: 100;
 }
 
+@media all and (min-width: 1024px) {
+	.logotitle {
+		font-size: 80px;
+		line-height: 80px;
+	}
+}
+
 .title {
 	font-size: 45px; 
 	line-height: 50px;	
