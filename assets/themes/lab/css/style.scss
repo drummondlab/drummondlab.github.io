@@ -92,6 +92,7 @@ a.off {
 .member-photo {
 	height: 15vw;
 	min-height: 100px;
+	max-height: 250px;
 }
 
 .construction {
@@ -229,6 +230,14 @@ strong {
 	line-height: 30px;
 	line-height: 4vw;
 	font-weight: 100;
+}
+
+@media all and (min-width: 1024px) {
+	.logotitle {
+		font-size: 50px;
+		line-height: 50px;
+		font-weight: 100;
+	}
 }
 
 .title {
