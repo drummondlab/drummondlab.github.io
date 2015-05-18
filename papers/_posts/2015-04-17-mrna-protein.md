@@ -6,6 +6,9 @@ shortref: "Csárdi, Franks et al. PLOS Genetics 2015"
 shorttitle: "mRNA levels amplified to set protein levels"
 nickname: mrna-prot
 journal: "PLOS Genetics"
+volume: 11
+issue: 5
+pages: e1005206
 authors: "Csárdi G, Franks AM, Choi DS, Airoldi EM, Drummond DA"
 image: /assets/images/papers/mrna-prot.png
 fulltext: http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005206
@@ -13,6 +16,7 @@ pdf:
 pdflink: http://www.plosgenetics.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pgen.1005206&representation=PDF
 github: https://github.com/dad/mrna-prot
 doi: "doi/10.1371/journal.pgen.1005206"
+f1000: 
 dryad_doi: "10.5061/dryad.d644f"
 category: paper
 published: true
