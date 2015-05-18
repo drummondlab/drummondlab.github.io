@@ -90,8 +90,19 @@ a.off {
 }
 
 .member-photo {
-	height: 15vw;
+	height: 20vw;
 	min-height: 100px;
+	max-height: 225px;
+}
+
+.member-name {
+	font-size: 24px;
+}
+
+@media all and (max-width: 800) {
+	.member-name {
+		font-size: 14px;
+	}
 }
 
 .construction {
