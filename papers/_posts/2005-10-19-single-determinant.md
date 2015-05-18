@@ -6,6 +6,9 @@ shortref: "Drummond et al. MBE 2006"
 nickname: single-determinant
 journal: "Mol. Biol. Evol."
 authors: "Drummond DA, Raval A, and Wilke CO"
+volume: 23
+issue: 2
+pages: 327--37
 image: /assets/images/papers/default-paper.svg
 pdf: 
 pdflink: http://mbe.oxfordjournals.org/content/23/2/327.full.pdf

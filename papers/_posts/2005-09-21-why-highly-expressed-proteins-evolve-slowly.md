@@ -16,7 +16,7 @@ pdflink: "http://www.pnas.org/content/102/40/14338.full.pdf?with-ds=yes"
 github: 
 pmid: 16176987
 pmcid: PMC1242296
-f1000: 
+f1000: http://f1000.com/prime/1029543
 figshare: 
 doi: "10.1073/pnas.0504070102"
 category: paper

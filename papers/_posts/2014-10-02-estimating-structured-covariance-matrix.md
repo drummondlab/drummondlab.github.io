@@ -7,6 +7,9 @@ shorttitle: "Estimating a structured covariance matrix"
 nickname: syn-noise
 journal: "Journal of the American Statistical Association"
 authors: "Franks AM, Csárdi G, Drummond DA, Airoldi EM"
+volume: 110
+issue: 509
+pages: 27--44
 image: /assets/images/papers/default-paper.svg
 pdf: /assets/pdfs/franks-etal-jasa-2014.pdf
 pdflink: 

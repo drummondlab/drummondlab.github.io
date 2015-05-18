@@ -21,11 +21,20 @@ with gratitude.
 			</div>
 			<p>
 			<div class="smallhead">
-				{{ page.authors }}
-				({{ page.year }}).
-				<journal>
+				{{ page.authors }}, 
+				<span class="journal">
 				{{ page.journal }}
-				</journal>
+				</span>
+				{% if page.volume %}
+				 {{ page.volume }}
+				{% endif %}
+				{% if page.issue %}
+				({{ page.issue }})
+				{% endif %}
+				{% if page.pages %}
+				:{{ page.pages }} 
+				{% endif %}
+				({{ page.year }}).
 			</div>
 		</div>
 	</div>
@@ -50,7 +59,7 @@ with gratitude.
 				{% endif %}
 				{% if page.pdf %}
 					<i class="fa fa-file-pdf-o fa-fw"></i>
-					<a class="off" href="{{ page.pdf }}">{{ page.pdf | split: '/' | last }}</a>
+					<a class="off" href="{{ page.pdf }}">PDF</a>
 					<br/>
 				{% endif %}
 				{% if page.fulltext %}
