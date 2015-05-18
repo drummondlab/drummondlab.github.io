@@ -6,16 +6,16 @@ shortref: "Drummond et al. PNAS 2005b"
 nickname: why-highly-expressed
 journal: "Proc. Nat'l. Acad. Sci. USA"
 volume: 102
-issue: 15
-pages: 5380--5
+issue: 40
+pages: 14338--43
 
 authors: "Drummond DA, Bloom JD, Adami C, Wilke CO, and Arnold FH"
 image: /assets/images/papers/default-paper.svg
 pdf: 
 pdflink: "http://www.pnas.org/content/102/40/14338.full.pdf?with-ds=yes"
 github: 
-pmid: 15809422 
-pmcid: PMC556249
+pmid: 16176987
+pmcid: PMC1242296
 f1000: 
 figshare: 
 doi: "10.1073/pnas.0504070102"
