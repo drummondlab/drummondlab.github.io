@@ -12,7 +12,7 @@ authors: "Drummond DA"
 image: /assets/images/papers/default-paper.svg
 fulltext: http://www.sciencedirect.com/science/article/pii/S1097276512009811
 pdf: 
-pdflink: http://www.sciencedirect.com/science/article/pii/S1097276512009811/pdfft?md5=cabbbc8881debf5e82a52f98c768d4cd&pid=1-s2.0-S1097276512009811-main.pdf
+pdflink: http://ac.els-cdn.com/S1097276512009811/1-s2.0-S1097276512009811-main.pdf?_tid=cbbd92ae-fddd-11e4-bd49-00000aab0f6c&acdnat=1432009157_9f34425e6ce470b126483f5f5add8f2d
 github: 
 pmid: 23244760
 pmcid: PMC3534835
