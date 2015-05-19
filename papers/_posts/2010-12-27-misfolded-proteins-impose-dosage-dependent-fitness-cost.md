@@ -13,6 +13,8 @@ pdflink: "http://www.pnas.org/content/108/2/680.full.pdf?with-ds=yes"
 github: 
 doi: "10.1073/pnas.1017570108"
 category: paper
+peerreview: true
+review: false
 published: true
 tags: [gene expression, misfolding, aggregation, toxicity]
 ---

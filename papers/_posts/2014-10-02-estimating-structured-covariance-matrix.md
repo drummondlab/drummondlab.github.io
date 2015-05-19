@@ -17,6 +17,8 @@ figshare:
 dryad_doi: 
 doi: "10.1080/01621459.2014.964404"
 category: paper
+peerreview: true
+review: false
 tags: [yeast, mRNA, protein, expression, correlation, Spearman, attenuation, RMA]
 ---
 {% include JB/setup %}

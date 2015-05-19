@@ -1,8 +1,8 @@
 ---
 layout: paper
 title: "Structural determinants of the rate of protein evolution in yeast"
-year: "2005"
-shortref: "Bloom et al. MBE 2005"
+year: "2006"
+shortref: "Bloom et al. MBE 2006"
 nickname: structural-determinants
 journal: "Mol. Biol. Evol."
 volume: 23
@@ -18,8 +18,10 @@ pmid: 16782762
 pmcid: 
 f1000: 
 figshare: 
-doi: 
+doi: 10.1093/molbev/msl040
 category: paper
+peerreview: true
+review: false
 published: true
 tags: [designability, structure, evolutionary rate, yeast]
 ---

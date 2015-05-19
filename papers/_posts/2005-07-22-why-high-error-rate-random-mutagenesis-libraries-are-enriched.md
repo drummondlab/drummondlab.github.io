@@ -21,6 +21,8 @@ f1000: http://f1000.com/prime/1021960
 doi: "10.1016/j.jmb.2005.05.023"
 category: paper
 published: true
+peerreview: true
+review: false
 tags: [error-prone PCR, mutagenesis, library, directed evolution]
 ---
 {% include JB/setup %}

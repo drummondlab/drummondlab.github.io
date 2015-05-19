@@ -18,6 +18,9 @@ dryad_doi:
 doi: "10.1007/s00239-008-9094-4"
 pmid: 18379715
 category: paper
+published: true
+peerreview: true
+review: false
 tags: [selection, evolutionary rate, stability]
 ---
 {% include JB/setup %}

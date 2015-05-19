@@ -18,6 +18,8 @@ doi: 10.1534/genetics.105.051300
 pmcid: PMC1461446
 pmid: 16489231
 category: paper
+peerreview: true
+review: false
 published: true
 tags: [translation, gene expression, evolutionary rate, translational robustness, mistranslation]
 ---

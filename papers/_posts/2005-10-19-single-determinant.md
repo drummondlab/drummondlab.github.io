@@ -16,6 +16,8 @@ github:
 figshare: 
 doi: "10.1093/molbev/msj038"
 category: paper
+peerreview: true
+review: false
 published: true
 tags: [translation, yeast, E. coli, gene expression, evolutionary rate, codon usage, regression, noise]
 ---

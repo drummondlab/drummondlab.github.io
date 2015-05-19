@@ -16,7 +16,7 @@ pdflink: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2696314/pdf/nihms61423.pdf
 github: 
 pmid: 18662548
 pmcid: PMC2696314
-f1000: 
+f1000: http://f1000.com/prime/1122806
 figshare: 
 doi: "10.1016/j.cell.2008.05.042"
 category: paper

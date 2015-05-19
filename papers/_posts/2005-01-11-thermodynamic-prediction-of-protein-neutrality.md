@@ -15,12 +15,13 @@ pdflink: http://www.pnas.org/content/102/3/606.full.pdf
 github: 
 pmid: 15644440
 pmcid: PMC545518
-f1000: 
+f1000: http://f1000.com/prime/1030269
 figshare: 
 doi: 10.1073/pnas.0406744102
 category: paper
 published: true
 peerreview: true
+review: false
 tags: [stability, neutrality, lattice model, protein]
 ---
 {% include JB/setup %}

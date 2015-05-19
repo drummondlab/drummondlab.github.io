@@ -6,6 +6,9 @@ shortref: "Zaborske et al. PLOS Biology 2014"
 shorttitle: "A tRNA modification causes genome recoding"
 nickname: queuosine
 journal: "PLOS Biology"
+volume: 13
+issue: 4
+pages: e1002150
 authors: "Zaborske J, Bauer-DuMont VL, Wallace EWJ, Pan T, Aquadro CF, and Drummond DA"
 image: /assets/images/papers/queuosine.svg
 pdf:
@@ -14,6 +17,8 @@ doi: "10.1371/journal.pbio.1002015"
 dryad_doi: "10.5061/dryad.1jn88"
 figshare: 
 category: paper
+peerreview: true
+review: false
 tags: [drosophila, codon usage, translation, mistranslation]
 ---
 {% include JB/setup %}

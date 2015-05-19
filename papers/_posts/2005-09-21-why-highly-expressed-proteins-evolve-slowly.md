@@ -19,6 +19,8 @@ f1000: http://f1000.com/prime/1029543
 figshare: 
 doi: "10.1073/pnas.0504070102"
 category: paper
+peerreview: true
+review: false
 published: true
 tags: [translation, yeast, translational robustness, gene expression, evolutionary rate, codon usage]
 ---
