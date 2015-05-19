@@ -18,7 +18,7 @@ pmid: 23244760
 pmcid: PMC3534835
 f1000: 
 figshare: 
-doi: 10.1073/pnas.0406744102
+doi: 10.1016/j.molcel.2012.11.024
 category: paper
 published: true
 peerreview: false
