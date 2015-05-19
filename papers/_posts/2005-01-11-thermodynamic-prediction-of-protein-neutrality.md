@@ -1,5 +1,3 @@
-Thermodynamic prediction of protein neutrality. Bloom JD, Silberg JJ, Wilke CO, Drummond DA, Adami C, Arnold FH. Proc Natl Acad Sci U S A. 2005 Jan 18;102(3):606-11. Epub 2005 Jan 11.
-
 ---
 layout: paper
 title: "Thermodynamic prediction of protein neutrality"
