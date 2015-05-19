@@ -8,7 +8,6 @@ journal: "Proc. Nat'l. Acad. Sci. USA"
 volume: 102
 issue: 40
 pages: 14338--43
-
 authors: "Drummond DA, Bloom JD, Adami C, Wilke CO, and Arnold FH"
 image: /assets/images/papers/default-paper.svg
 pdf: 

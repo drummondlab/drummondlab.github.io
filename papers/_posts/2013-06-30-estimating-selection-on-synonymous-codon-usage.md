@@ -13,6 +13,7 @@ pdflink: "http://mbe.oxfordjournals.org/content/30/6/1438.full.pdf"
 figshare: 
 dryad_doi: 
 doi: "10.1093/molbev/mst051"
+f1000: http://f1000.com/prime/718042321
 category: paper
 tags: [yeast, codon usage, translation, selection]
 ---
