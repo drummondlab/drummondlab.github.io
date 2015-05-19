@@ -20,6 +20,7 @@ figshare:
 doi: 10.1073/pnas.0406744102
 category: paper
 published: true
+peerreview: true
 tags: [stability, neutrality, lattice model, protein]
 ---
 {% include JB/setup %}

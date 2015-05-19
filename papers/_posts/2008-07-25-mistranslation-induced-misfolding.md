@@ -6,14 +6,22 @@ shortref: "Drummond and Wilke Cell 2008"
 shorttitle: "Mistranslation-induced protein misfolding constrains evolution"
 nickname: mistranslation-dominant
 journal: "Cell"
+volume: 134
+issue: 2
+pages: 341--352
 authors: "Drummond DA and Wilke CO"
 image: /assets/images/papers/default-paper.svg
 pdf: 
 pdflink: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2696314/pdf/nihms61423.pdf
 github: 
+pmid: 18662548
+pmcid: PMC2696314
+f1000: 
+figshare: 
 doi: "10.1016/j.cell.2008.05.042"
 category: paper
 published: true
+peerreview: true
 tags: [translation, mistranslation, gene expression, translational fidelity, codon usage]
 ---
 {% include JB/setup %}
