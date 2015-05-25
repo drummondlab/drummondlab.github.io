@@ -11,8 +11,8 @@ volume: 110
 issue: 509
 pages: 27--44
 image: /assets/images/papers/default-paper.svg
-pdf: /assets/pdfs/franks-etal-jasa-2014.pdf
-pdflink: 
+% pdf: /assets/pdfs/franks-etal-jasa-2014.pdf
+pdflink: http://www.tandfonline.com/eprint/W8GeJRrSbfZQC6hxQbVz/full
 figshare: 
 dryad_doi: 
 doi: "10.1080/01621459.2014.964404"
