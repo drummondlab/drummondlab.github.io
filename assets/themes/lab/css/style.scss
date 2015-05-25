@@ -1,18 +1,19 @@
 ---
 ---
 
-$font-stack:    14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-size-base: 18px;
+$font-size-base: 16px;
+$font-stack:    Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $primary-color: #000000;
-$font-weight: 300;
+$font-weight-base: 300;
 $heavy-font-weight: 700;
 
 $carousel-height: 350px;
 
 body {
+	font-size: $font-size-base;
 	font: $font-stack;
 	font-family: $font-stack;
-	font-weight: $font-weight;
+	font-weight: $font-weight-base;
 	color: $primary-color;
 }
 
@@ -20,7 +21,7 @@ body > .container {
 	padding-top: 50px; /* to prevent navbar overlap */
 	font-family: $font-stack;
 	color: $primary-color;
-	font-weight: $font-weight;
+	font-weight: $font-weight-base;
 	padding-bottom: 50px; /* to prevent navbar overlap */
 }
 
@@ -60,7 +61,7 @@ h6 {
 // other
 
 p {
-	font-weight: $font-weight;
+	font-weight: $font-weight-base;
 }
 
 .hugespacer {
@@ -87,6 +88,7 @@ a.off {
 .big-member-photo {
 	height: 15vw;
 	min-height: 200px;
+	width: auto;
 }
 
 .member-photo {
@@ -96,12 +98,12 @@ a.off {
 }
 
 .member-name {
-	font-size: 24px;
+	font-size: ceil($font-size-base*1.6);
 }
 
 @media all and (max-width: 800) {
 	.member-name {
-		font-size: 14px;
+		font-size: $font-size-base;
 	}
 }
 
@@ -139,7 +141,7 @@ strong {
 
 .logobox {
 	height: 180px;
-	line-height: 65px;	
+	line-height: 65px;
 	font-weight: $heavy-font-weight;
 	display: table-cell; 
 	vertical-align: middle;
@@ -151,12 +153,12 @@ strong {
 
 .navbar-brand { 
 	font-size: 30px; 
-	font-weight: $font-weight;
+	font-weight: $font-weight-base;
 }
 
 .navbar-nav { 
 	font-size: 30px; 
-	font-weight: $font-weight;
+	font-weight: $font-weight-base;
 	a {
 		color: black;
 	}
@@ -164,16 +166,16 @@ strong {
 
 .dropdown-menu {
 	font-size: 25px;
-	font-weight: $font-weight;
+	font-weight: $font-weight-base;
 }
 
 .dropdown {
-	font-weight: $font-weight
+	font-weight: $font-weight-base;
 }
 
 .navbar-small {
 	font-size: 15px;
-	font-weight: $font-weight;	
+	font-weight: $font-weight-base;
 }
 
 // projects pages
@@ -251,13 +253,13 @@ strong {
 
 .title {
 	font-size: 45px; 
-	line-height: 50px;	
+	line-height: 50px;
 	font-weight: 100;
 }
 
 .bigtitle {
 	font-size: 60px; 
-	line-height: 65px;	
+	line-height: 65px;
 	font-weight: 100;
 }
 
@@ -273,20 +275,20 @@ strong {
 }
 
 .bighead {
-	font-size: 32px;
-	font-weight: 300;
+	font-size: ceil($font-size-base*2.5);
+	font-weight: $font-weight-base;
 	line-height:36px;
 }
 
 .head {
-	font-size: 26px;
-	font-weight: 300;
+	font-size: $font-size-base*2;
+	font-weight: $font-weight-base;
 	line-height:30px;
 }
 
 .smallhead {
 	font-size: 19px;
-	font-weight: 300;
+	font-weight: $font-weight-base;
 	line-height: 23px;
 }
 
@@ -302,9 +304,9 @@ strong {
 	}	
 }
 .note {
-	font-size: 15px;
-	font-weight: 300;
-	line-height: 18px;
+	font-size: $font-size-base;
+	font-weight: $font-weight-base;
+	line-height: ceil($font-size-base*1.2);
 
 	a {
 		color: black;
@@ -317,9 +319,9 @@ strong {
 }
 
 .smallnote {
-	font-size: 13px;
-	font-weight: 300;
-	line-height: 16px;
+	font-size: floor($font-size-base*0.9);
+	font-weight: $font-weight-base;
+	line-height: $font-size-base;
 }
 
 .journal-title {
