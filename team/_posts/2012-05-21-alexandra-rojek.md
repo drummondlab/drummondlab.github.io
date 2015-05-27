@@ -11,4 +11,8 @@ scholar:
 image: /assets/images/team/alexandra-rojek.png
 alum: true
 ---
-Alexandra is a Harvard senior who did research with the lab starting in 2012, culminating in her honors thesis, which won the [Hoopes Prize](http://isites.harvard.edu/icb/icb.do?keyword=k78478&tabgroupid=icb.tabgroup122123) for "outstanding scholarship or research."
+Alexandra is a Harvard senior who did research with the lab starting in 2012, culminating in her honors thesis, which won a 2015 [Thomas Temple Hoopes Prize](http://isites.harvard.edu/icb/icb.do?keyword=k78478&tabgroupid=icb.tabgroup122123) for "outstanding scholarship or research" (Harvard-wide, ~65 winners) and the 2015 Lawrence J. Henderson Prize (biochemical sciences, sole winner).
+
+She plans to start medical studies at [UCSF](http://ucsf.edu) in the fall of 2015.
+
+
