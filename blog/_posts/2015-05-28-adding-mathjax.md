@@ -16,8 +16,8 @@ Here is an example MathJax inline rendering --- \\( 1/x^{2} \\). And here is a b
 
 Now, if we'd like to get serious we'd do something involving multiline aligned equations, like \\[
 \begin{align}
-\mathcal{N}(\mu, \sigma) &= \mathrm{normal} \newline
- &= \frac{1}{\sqrt{2 \pi \sigma^2}} e^{\frac{(t-\mu)^2}{2 \sigma^2}}
+\mathcal{N}(t, \mu, \sigma) &= \mathrm{normal} \newline
+ &= \frac{1}{\sqrt{2 \pi} \sigma} e^{-\frac{(t-\mu)^2}{2 \sigma^2}}
 \end{align}
 \\]
 or even an inline formula like \\( \sum_{t=0}^{\infty} \frac{x^t}{t!} = e^x\\).
