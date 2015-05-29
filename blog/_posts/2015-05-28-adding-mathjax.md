@@ -11,18 +11,18 @@ tags: []
 
 We do plenty of math, so I'd like to test out [MathJax](https://www.mathjax.org/).;
 
-Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering: 
-\\[ \frac{1}{n^{2}} \\]
+Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering:
+\\[ r_{XY} = \frac{\mathrm{cov}(X,Y)}{\sqrt{\mathrm{var}(X)\mathrm{var}(Y)}} \\]
 
-Now, if we'd like to get serious we'd do something like \\[
+Now, if we'd like to get serious we'd do something involving multiline aligned equations, like \\[
 \begin{align}
 \mathcal{N}(\mu, \sigma) &= \mathrm{normal} \\\
  &= \frac{1}{\sqrt{2 \pi \sigma^2}} e^{\frac{(t-\mu)^2}{2 \sigma^2}}
 \end{align}
 \\]
-or even a complicated inline formula like \\( \sum_{t=0}^{\infty} \frac{x^t}{t!} = e^x\\).
+or even an inline formula like \\( \sum_{t=0}^{\infty} \frac{x^t}{t!} = e^x\\).
 
-Or we could try defining a command, like this. \\( 	\newcommand{\water}{H_{2}O} \\)
+Or we could try defining a command, like this. \\( 	\newcommand{\water}{\mathrm{H}_{2}\mathrm{O}} \\)
 
-\\(\water\\) is like \\(\water\\).
+Buffer slides off the sides of our tubes like \\(\water\\) off a duck's back.
 
