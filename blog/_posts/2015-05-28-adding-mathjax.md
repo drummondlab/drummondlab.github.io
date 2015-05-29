@@ -16,11 +16,11 @@ Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block
 
 Now, if we'd like to get serious we'd do something like \\[
 \begin{align}
-\mathcal{N}(\mu, \sigma) &= \mathrm{normal distribution}\newline
+\mathcal{N}(\mu, \sigma) &= \mathrm{normal} \\\
  &= \frac{1}{\sqrt{2 \pi \sigma^2}} e^{\frac{(t-\mu)^2}{2 \sigma^2}}
 \end{align}
 \\]
-or even \\( \sum_{t=0}^{\infty} \frac{x^t}{t!} = e^x\\).
+or even a complicated inline formula like \\( \sum_{t=0}^{\infty} \frac{x^t}{t!} = e^x\\).
 
 Or we could try defining a command, like this. \\( 	\newcommand{\water}{H_{2}O} \\)
 
