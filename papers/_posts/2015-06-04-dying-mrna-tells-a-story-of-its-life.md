@@ -10,7 +10,7 @@ issue:
 pages: 
 authors: "Wallace EWJ and Drummond DA"
 image: /assets/images/papers/default-paper.svg
-fulltext:
+fulltext: http://www.sciencedirect.com/science/article/pii/S0092867415006339
 pdf: 
 pdflink: 
 github: 
@@ -20,7 +20,7 @@ f1000:
 figshare: 
 doi: 10.1016/j.cell.2015.05.043
 category: paper
-published: false
+published: true
 peerreview: false
 review: true
 tags: [translation, elongation, high-throughput sequencing, 5PSeq, perspective]
