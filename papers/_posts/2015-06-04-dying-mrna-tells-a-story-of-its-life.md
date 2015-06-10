@@ -7,7 +7,7 @@ nickname: dying-mrna
 journal: "Cell"
 volume: 161
 issue: 6
-pages: 1246--1248
+pages: 1246—1248
 authors: "Wallace EWJ and Drummond DA"
 image: /assets/images/papers/default-paper.svg
 fulltext: http://www.sciencedirect.com/science/article/pii/S0092867415006339
