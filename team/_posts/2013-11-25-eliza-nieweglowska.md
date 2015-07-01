@@ -9,6 +9,6 @@ twitter:
 github: 
 scholar: 
 image: /assets/images/team/eliza-nieweglowska.png
-alum: false
+alum: true
 ---
-Eliza is a U.Chicago senior who joined the group in 2013. She did her honors thesis research in the lab.
+Eliza joined the group in 2013, did her honors thesis research in the lab, and graduated in the spring of 2015. She will start graduate studies at [UCSF][http://graduate.ucsf.edu/] in the fall of 2015.
