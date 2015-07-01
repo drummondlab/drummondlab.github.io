@@ -32,7 +32,7 @@ navorder: 2
 <div class="bigtitle text-center">Alumni</div>
 <div class="bigspacer"></div>
 
-{% for member in site.categories.team reversed %}
+{% for member in site.categories.team %}
 	{% if member.alum == true %}
 	    {% cycle 'add rows': '<div class="row">', nil, nil %}
 			<div class="col-md-4 memberbox">
