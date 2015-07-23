@@ -3,7 +3,7 @@ layout: member
 title: "Edward W. J. Wallace"
 position: Postdoc
 nickname: Edward
-handle: ewjw
+handle: ew
 email: ewallace@uchicago.edu
 twitter: 
 github: 

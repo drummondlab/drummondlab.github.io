@@ -23,7 +23,7 @@ category: paper
 published: true
 peerreview: true
 review: false
-tags: [aggregation, heat shock, disaggregation, protein, translation]
+tags: [aggregation, heat shock, disaggregation, protein, translation, yeast]
 ---
 {% include JB/setup %}
 
@@ -41,9 +41,9 @@ Heat causes protein misfolding and aggregation, and in eukaryotic cells triggers
 
 ## Processed data
 
-Processed data is shared on [Datadryad](http://datadryad.org/)
+Processed data is shared on [Dryad](http://datadryad.org/)
 
-Some data is also held on [sgd](http://www.yeastgenome.org/)
+Some data is also held on [SGD](http://www.yeastgenome.org/)
 
 ## Raw data
 
