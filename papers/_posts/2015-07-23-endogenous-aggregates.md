@@ -10,7 +10,7 @@ issue:
 pages: 
 authors: "Wallace EWJ, Kear-Scott JL, Pilipenko EV, Schwartz MH, Laskowski PR, Rojek AE, Katanski CD, Riback JA, Dion MF, Franks AM, Airoldi EM, Pan T, Budnik BA, Drummond DA"
 image: /assets/images/papers/default-paper.svg
-redirect_from: /heat-agg-yeast/
+redirect_from: /endogenous-aggregates/
 fulltext: 
 pdf: 
 pdflink: 
