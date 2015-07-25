@@ -4,11 +4,11 @@ title: "Catherine Triandafillou"
 position: Graduate student
 handle: cat
 nickname: Cat
-email: 
+email: ctriandafillou@uchicago.edu
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/default-member.svg
+image: /assets/images/team/cat-triandafillou.png
 alum: false
 ---
 Cat is a graduate student in the [Biophysics program][1] at the [University of Chicago][2].
