@@ -9,7 +9,7 @@ volume:
 issue: 
 pages: 
 authors: "Wallace EWJ, Kear-Scott JL, Pilipenko EV, Schwartz MH, Laskowski PR, Rojek AE, Katanski CD, Riback JA, Dion MF, Franks AM, Airoldi EM, Pan T, Budnik BA, Drummond DA"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/endogenous-aggregates.svg
 redirect_from: /endogenous-aggregates/
 fulltext: 
 pdf: 
@@ -49,10 +49,6 @@ Some data is also held on [SGD](http://www.yeastgenome.org/)
 ## Raw data
 
 Raw mass spectrometry data is shared on [Chorus](https://chorusproject.org/)
-
-## Code
-
-?Github?
 
 
 [1]: /data/heat-aggregation-yeast-visualization
