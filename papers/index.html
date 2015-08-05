@@ -15,7 +15,13 @@ navorder: 3
             <img width=100 class="media-object" src="{{ paper.image }}">
           </a>
         <div class="media-body">
-            <div class="smallhead media-heading"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
+            <div class="smallhead media-heading">
+            {% if paper.embargo == 'true' %}
+            {{ paper.title }}
+            {% else %}
+            <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+            {% endif %}
+            </div>
             <p class="note">{{ paper.shortref }}</p>
           </div>
       </div>

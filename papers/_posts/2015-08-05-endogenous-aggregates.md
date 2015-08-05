@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Reversible, specific, functional aggregates of endogenous proteins form upon heat stress"
+title: "Reversible, specific, active aggregates of endogenous proteins assemble upon heat stress"
 year: "2015"
 shortref: "Wallace et al. Cell 2015"
 nickname: aggregates-heat-stress
@@ -22,6 +22,7 @@ figshare:
 doi: 
 category: paper
 published: false
+embargo: true
 peerreview: true
 review: false
 tags: [aggregation, heat shock, disaggregation, protein, translation, yeast]
