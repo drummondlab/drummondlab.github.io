@@ -2,7 +2,7 @@
 layout: paper
 title: "Estimating a structured covariance matrix from multi-lab measurements in high-throughput biology"
 year: "2014"
-shortref: "Franks, Csárdi et al. J. Amer. Stat. Assoc. 2014"
+shortref: "Franks, Csárdi <i>et al. JASA</i> 2014"
 shorttitle: "Estimating a structured covariance matrix"
 nickname: syn-noise
 journal: "Journal of the American Statistical Association"

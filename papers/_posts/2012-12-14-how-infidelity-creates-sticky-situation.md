@@ -2,7 +2,7 @@
 layout: paper
 title: "How infidelity creates a sticky situation"
 year: "2012"
-shortref: "Drummond Mol. Cell 2012"
+shortref: "Drummond <i>Mol. Cell</i> 2012"
 nickname: infidelity-sticky
 journal: "Molecular Cell"
 volume: 48

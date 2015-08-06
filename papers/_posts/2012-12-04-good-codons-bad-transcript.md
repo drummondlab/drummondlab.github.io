@@ -2,7 +2,7 @@
 layout: paper
 title: "Good codons, bad transcript: large reductions in gene expression and fitness arising from synonymous mutations in a key enzyme"
 year: "2013"
-shortref: "Agashe et al. MBE 2013"
+shortref: "Agashe <i>et al. Mol Biol Evol</i> 2013"
 shorttitle: "Good codons, bad transcript"
 nickname: good-codons
 journal: "Mol Biol Evol"
