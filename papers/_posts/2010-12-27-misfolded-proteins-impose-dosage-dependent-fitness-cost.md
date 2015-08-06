@@ -2,7 +2,7 @@
 layout: paper
 title: "Misfolded proteins impose a dosage-dependent fitness cost and trigger a cytosolic unfolded protein response in yeast"
 year: "2011"
-shortref: "Geiler-Samerotte et al. PNAS 2011"
+shortref: "Geiler-Samerotte <i>et al. PNAS</i> 2011"
 shorttitle: "Misfolded proteins impose a fitness cost"
 nickname: upr-cyto
 journal: "Proc. Nat'l. Acad. Sci. USA"

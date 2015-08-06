@@ -2,7 +2,7 @@
 layout: paper
 title: "Protein evolution: innovative chaps"
 year: "2009"
-shortref: "Drummond Curr. Biol. 2009"
+shortref: "Drummond <i>Curr Biol</i> 2009"
 nickname: innovative-chaps
 journal: "Current Biology"
 volume: 19

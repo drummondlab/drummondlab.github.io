@@ -2,7 +2,7 @@
 layout: paper
 title: "Signatures of protein biophysics in coding sequence evolution"
 year: "2010"
-shortref: "Wilke and Drummond Curr Opin Struct Biol 2010"
+shortref: "Wilke and Drummond <i>Curr Opin Struct Biol</i> 2010"
 nickname: signatures-of-biophysics
 journal: "Current Opinion in Structural Biology"
 volume: 20

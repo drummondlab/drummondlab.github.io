@@ -2,7 +2,7 @@
 layout: paper
 title: "Why highly expressed proteins evolve slowly"
 year: "2005"
-shortref: "Drummond et al. PNAS 2005b"
+shortref: "Drummond <i>et al. PNAS</i> 2005b"
 nickname: why-highly-expressed
 journal: "Proc. Nat'l. Acad. Sci. USA"
 volume: 102

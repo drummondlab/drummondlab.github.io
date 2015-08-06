@@ -126,11 +126,19 @@ with gratitude.
 
 		</div>
 	</div>
+	{% if page.embargo %}
+	<div class="col-md-8">
+		<div class="post">
+		In press...watch this space!
+		</div>
+	</div>
+	{% else %}
 	<div class="col-md-8">	
 		<div class="post">
 			{{ content }}
 		</div>	
 	</div>
+	{% endif %}
 
 	<div class="col-md-1"></div>
 </div>

@@ -2,7 +2,7 @@
 layout: paper
 title: "The evolutionary consequences of erroneous protein synthesis"
 year: "2009"
-shortref: "Drummond and Wilke Nat. Rev. Genet. 2009"
+shortref: "Drummond and Wilke <i>Nat Rev Genet</i> 2009"
 nickname: evolutionary-consequences
 journal: "Nature Reviews Genetics"
 volume: 10
