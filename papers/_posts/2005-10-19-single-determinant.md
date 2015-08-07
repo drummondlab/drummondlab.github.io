@@ -2,7 +2,7 @@
 layout: paper
 title: "A single determinant dominates the rate of yeast protein evolution"
 year: "2006"
-shortref: "Drummond et al. MBE 2006"
+shortref: "Drummond <i>et al. Mol Biol Evol</i> 2006"
 nickname: single-determinant
 journal: "Mol. Biol. Evol."
 authors: "Drummond DA, Raval A, and Wilke CO"

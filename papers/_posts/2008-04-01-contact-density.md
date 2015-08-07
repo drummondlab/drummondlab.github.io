@@ -2,7 +2,7 @@
 layout: paper
 title: "Contact density affects protein evolutionary rate from bacteria to animals"
 year: "2008"
-shortref: "Zhou et al. J. Mol. Evol. 2008"
+shortref: "Zhou <i>et al. J Mol Evol</i> 2008"
 nickname: contact-density
 journal: "J. Mol. Evol"
 volume: 66

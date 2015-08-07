@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Regulation by massive assembly"
+title: "Regulation by massive molecular assembly"
 tagline: "Proteins and RNA self-assemble and coassemble into massive, heterogeneous structures, with widespread regulatory consequences"
 handle: massive-assembly
 image: /assets/images/projects/assembly-invivo-invitro.svg

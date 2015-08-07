@@ -2,7 +2,7 @@
 layout: paper
 title: "Quantifying condition-dependent intracellular protein levels enables high-precision fitness estimates"
 year: "2013"
-shortref: "Geiler-Samerotte et al. PLOS One. 2013"
+shortref: "Geiler-Samerotte <i>et al. PLOS One</i> 2013"
 nickname: ms-fitness
 journal: "PLOS One"
 authors: "Geiler-Samerotte KA, Hashimoto T, Dion MF, Budnik BA, Airoldi EM, and Drummond DA"
