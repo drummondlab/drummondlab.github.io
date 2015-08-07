@@ -2,7 +2,7 @@
 layout: paper
 title: "Dying mRNA tells a story of its life"
 year: "2015"
-shortref: "Wallace and Drummond Cell 2015"
+shortref: "Wallace and Drummond <i>Cell</i> 2015"
 nickname: dying-mrna
 journal: "Cell"
 volume: 161
