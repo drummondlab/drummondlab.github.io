@@ -11,9 +11,9 @@ issue: 3
 pages: 549--60
 authors: "Agashe D, Martinez-Gomez NC, Drummond DA, Marx CJ"
 image: /assets/images/papers/default-paper.svg
-fulltext: 
+fulltext: http://mbe.oxfordjournals.org/content/30/3/549.full
 pdf: 
-pdflink: 
+pdflink: http://mbe.oxfordjournals.org/content/30/3/549.full.pdf
 github: 
 doi: 10.1093/molbev/mss273
 pmid: 23223712
