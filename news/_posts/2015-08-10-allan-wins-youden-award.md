@@ -7,7 +7,7 @@ image: /assets/images/news/default-news.png
 category: news
 tags: [award]
 ---
-[Allan][1] is awarded a [W.J. Youden Award in Interlaboratory Testing][2] from the American Statistical Association.
+With collaborators in the [Airoldi Lab](http://airoldilab.fas.harvard.edu/), [Allan][1] receives the 2015 [W.J. Youden Award in Interlaboratory Testing][2] from the American Statistical Association for a [paper on gene regulation](papers/paper/estimating-structured-covariance-matrix/).
 
 [1]: /team/d-allan-drummond/
 [2]: http://www.amstat.org/awards/wjyoudenaward.cfm
