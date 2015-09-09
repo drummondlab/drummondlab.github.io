@@ -19,7 +19,7 @@ pmid:
 pmcid: 
 f1000: 
 figshare: 
-doi: 
+doi: "10.1016/j.cell.2015.08.041"
 category: paper
 published: true
 embargo: true
