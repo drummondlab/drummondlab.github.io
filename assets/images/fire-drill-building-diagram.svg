@@ -42,8 +42,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="553.90229"
-     inkscape:cy="639.55869"
+     inkscape:cx="513.40269"
+     inkscape:cy="158.72609"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -81,7 +81,10 @@
        height="166.8772"
        x="406.44626"
        y="195.61272"
-       transform="matrix(1,0,-0.70710678,0.70710678,0,0)" />
+       transform="matrix(1,0,-0.70710678,0.70710678,0,0)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <rect
        y="272.86414"
        x="479.03369"
@@ -89,7 +92,10 @@
        width="27.125"
        id="rect6992"
        style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:1.18920708;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="matrix(1,0,-0.70710678,0.70710678,0,0)" />
+       transform="matrix(1,0,-0.70710678,0.70710678,0,0)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <rect
        transform="matrix(1,0,-0.70710678,0.70710678,0,0)"
        y="-210.38724"
@@ -119,7 +125,10 @@
        height="166.8772"
        width="180"
        id="rect9821"
-       style="fill:#44aa00;fill-opacity:1;stroke:#000000;stroke-width:1.18920708;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="fill:#44aa00;fill-opacity:1;stroke:#000000;stroke-width:1.18920708;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <rect
        transform="matrix(1,0,-0.70710678,0.70710678,0,0)"
        style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:1.18920708;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -127,7 +136,10 @@
        width="27.125"
        height="89.603813"
        x="689.24335"
-       y="272.86414" />
+       y="272.86414"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <rect
        transform="matrix(1,0,-0.70710678,0.70710678,0,0)"
        y="577.2229"
@@ -135,7 +147,10 @@
        height="166.8772"
        width="180"
        id="rect10781"
-       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:#000000;stroke-width:1.18920708;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:#000000;stroke-width:1.18920708;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <rect
        transform="matrix(1,0,-0.70710678,0.70710678,0,0)"
        style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:1.18920708;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -143,7 +158,10 @@
        width="27.125"
        height="89.603813"
        x="749.16455"
-       y="654.4743" />
+       y="654.4743"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <rect
        style="fill:#44aa00;fill-opacity:1;stroke:#000000;stroke-width:1.18920708;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect11743"
@@ -151,7 +169,10 @@
        height="166.8772"
        x="886.78674"
        y="577.2229"
-       transform="matrix(1,0,-0.70710678,0.70710678,0,0)" />
+       transform="matrix(1,0,-0.70710678,0.70710678,0,0)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <rect
        y="654.4743"
        x="959.37427"
@@ -159,10 +180,16 @@
        width="27.125"
        id="rect11745"
        style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:1.18920708;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="matrix(1,0,-0.70710678,0.70710678,0,0)" />
+       transform="matrix(1,0,-0.70710678,0.70710678,0,0)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        id="g5775"
-       transform="translate(-214.05004,13.435025)">
+       transform="translate(-214.05004,13.435025)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <rect
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.19745302;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect5770"
@@ -181,7 +208,10 @@
     </g>
     <g
        transform="translate(-315.51986,13.435025)"
-       id="g5779">
+       id="g5779"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <rect
          transform="matrix(1,0,-0.71668045,0.6974017,0,0)"
          y="287.29501"
@@ -206,7 +236,10 @@
      transform="translate(231.04937,-134.19936)">
     <g
        id="g8053"
-       transform="translate(-117.68716,183.38061)">
+       transform="translate(-117.68716,183.38061)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle8055"
@@ -221,7 +254,10 @@
     </g>
     <g
        transform="translate(-162.4779,231.11069)"
-       id="g8047">
+       id="g8047"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="7.3031249"
          cy="379.52823"
@@ -236,7 +272,10 @@
     </g>
     <g
        transform="translate(-243.7279,196.86069)"
-       id="g8034">
+       id="g8034"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="7.3031249"
          cy="379.52823"
@@ -254,51 +293,78 @@
        inkscape:connector-curvature="0"
        id="path6986"
        d="m 164.4089,251.91049 c 0,0 -3.2316,-0.10723 -7.65102,-12.12805 -4.41941,-12.02081 -0.86538,-8.97408 -6.96967,-19.4632 -6.17078,-10.60337 -4.29197,-21.68273 -1.81954,-25.33084 l 0,0 c 0,0 0.70711,7.07106 4.06586,10.42982 3.35876,3.35876 6.89352,11.71339 6.34588,7.96536 -2.38934,-16.3525 5.91804,-15.62697 2.83395,-23.61422 -3.2872,-8.51326 16.38972,-20.13693 16.38972,-20.13693 0,0 -6.47766,6.08731 -2.94213,14.92614 3.53553,8.83884 -0.53033,19.62221 -4.41942,24.74874 -3.88908,5.12652 0.17678,11.49048 0.17678,11.49048 0,0 9.72272,-9.72271 9.01561,-15.55635 -0.70711,-5.83363 -2.12132,-6.89429 -2.12132,-6.89429 0,0 7.77818,9.54594 5.83363,14.14214 -1.94454,4.59619 -2.2981,4.77297 -2.2981,4.77297"
-       style="fill:#ff6600;fill-rule:evenodd;stroke:none" />
+       style="fill:#ff6600;fill-rule:evenodd;stroke:none"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:#d40000;fill-rule:evenodd;stroke:none"
        d="m 169.14508,236.81739 c 2.67287,-7.27022 1.98395,-5.48175 3.83727,-7.84018 3.72056,-4.73456 4.02794,-8.98755 3.92102,-13.5849 -0.10691,-4.59735 -2.44255,-5.66649 -2.44255,-5.66649 l 0,0 c 0,0 -0.17766,4.90159 -2.20905,6.93298 -2.03139,2.03139 -4.41922,6.4593 -4.08801,4.19248 1.44509,-9.89005 -3.97664,-9.13494 -2.71398,-14.15696 2.36311,-9.39884 -8.91255,-12.30388 -8.91255,-12.30388 0,0 3.91771,3.68163 1.77941,9.02738 -2.1383,5.34576 0.32074,11.86758 2.67288,14.96812 2.35212,3.10053 -0.10692,6.94948 -0.10692,6.94948 0,0 -5.88033,-5.88033 -5.45267,-9.40853 0.42766,-3.5282 1.28298,-4.16969 1.28298,-4.16969 0,0 -6.28173,4.70657 -3.4032,11.05321 3.79051,8.35742 4.78769,22.15238 10.34651,21.11744 1.99929,-0.37223 2.81598,0.15973 5.48886,-7.11046 z"
        id="path6988"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="sssccssscsscscsss" />
+       sodipodi:nodetypes="sssccssscsscscsss"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 166.96596,308.04723 0,-70.75 30.49999,-30.5 43.5,0 0,72 -29,29.25 z"
        id="path6994"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccc" />
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:#999999;fill-opacity:1;stroke:#4d4d4d;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 164.82729,235.74166 0,72.65625 47.06639,0 0,-72.65625 z m 3.92382,6.55469 17.5,0 0,17.5 -17.5,0 z m 21,0 17.49999,0 0,17.5 -17.49999,0 z m -21,21.375 17.5,0 0,17.5 -17.5,0 z m 21,0 17.49999,0 0,17.5 -17.49999,0 z m -15.30078,23.25 27.12499,0 0,21.375 -27.12499,0 z"
        id="path7026"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccccccccccccccccccccccc" />
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccc"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 242.91907,204.894 -31.15624,31.03321 0,72.4707 31.15624,-31.0332 0,-72.47071 z m -3.32812,10.71485 0,17.5 -10.9668,10.96679 0,-17.5 10.9668,-10.96679 z m -13.1582,13.16015 0,17.5 -10.9668,10.96485 0,-17.5 10.9668,-10.96485 z m 13.1582,8.21485 0,17.5 -10.9668,10.96679 0,-17.5 10.9668,-10.96679 z m -13.1582,13.16015 0,17.5 -10.9668,10.96485 0,-17.5 10.9668,-10.96485 z"
        id="path7028"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:#ececec;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 164.84861,235.70437 30.80965,-30.80965 46.97209,0 -30.80966,30.80965 z"
        id="path7030"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 174.54092,286.69341 -11.3125,5.5 0,21.375 11.3125,-5.5 z"
        id="rect7034"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 206.70455,292.06841 -5.3125,-5.375 0,21.375 5.3125,5.375 z"
        id="rect7036"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        transform="matrix(-1,0,0,1,617.82797,-180.81497)"
-       id="g7346">
+       id="g7346"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(0.77051721,-0.6374192,0.6374192,0.77051721,3.8454734,434.68935)"
          style="stroke:#000000"
@@ -360,7 +426,10 @@
     </g>
     <g
        id="g7368"
-       transform="translate(-319.80943,-174.62747)">
+       transform="translate(-319.80943,-174.62747)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g7370"
          style="stroke:#000000"
@@ -423,7 +492,10 @@
     </g>
     <g
        id="g10579"
-       transform="translate(-125.17262,13.435025)">
+       transform="translate(-125.17262,13.435025)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(0.47663438,-0.87910163,0.87910163,0.47663438,-80.747104,414.994)"
          style="stroke:#000000"
@@ -491,7 +563,10 @@
     </g>
     <g
        transform="matrix(0.72049155,0.69346371,-0.69346371,0.72049155,235.07889,-266.73044)"
-       id="g7710">
+       id="g7710"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g7712">
         <circle
@@ -537,7 +612,10 @@
     </g>
     <g
        id="g7730"
-       transform="matrix(0.85904812,-0.51189483,0.51189483,0.85904812,-349.8948,144.0377)">
+       transform="matrix(0.85904812,-0.51189483,0.51189483,0.85904812,-349.8948,144.0377)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g7732">
         <circle
@@ -583,7 +661,10 @@
     </g>
     <g
        transform="matrix(0.19464124,0.9808745,-0.9808745,0.19464124,560.21542,-133.05899)"
-       id="g7750">
+       id="g7750"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(0.33702773,-0.94149472,0.94149472,0.33702773,37.002409,641.4827)"
          style="stroke:#000000"
@@ -664,7 +745,10 @@
     </g>
     <g
        id="g7671"
-       transform="matrix(0.95236525,0.30495971,-0.30495971,0.95236525,11.416482,-255.57986)">
+       transform="matrix(0.95236525,0.30495971,-0.30495971,0.95236525,11.416482,-255.57986)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g7689">
         <circle
@@ -710,7 +794,10 @@
     </g>
     <g
        transform="matrix(0.57343921,-0.81924811,0.81924811,0.57343921,-389.43955,403.9255)"
-       id="g7800">
+       id="g7800"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g7802">
         <circle
@@ -758,7 +845,10 @@
        transform="matrix(0.65625763,-0.75453689,0.75453689,0.65625763,-349.17706,362.11778)"
        id="g7820"
        inkscape:transform-center-x="2.0048262"
-       inkscape:transform-center-y="3.5000763">
+       inkscape:transform-center-y="3.5000763"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g7822"
          style="stroke:#000000;stroke-width:1"
@@ -836,7 +926,10 @@
     </g>
     <g
        transform="matrix(-0.72049155,0.69346371,0.69346371,0.72049155,66.63575,-253.11864)"
-       id="g7970">
+       id="g7970"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g7972">
         <circle
@@ -882,7 +975,10 @@
     </g>
     <g
        id="g7850"
-       transform="matrix(-0.72049155,0.69346371,0.69346371,0.72049155,73.35326,-250.99732)">
+       transform="matrix(-0.72049155,0.69346371,0.69346371,0.72049155,73.35326,-250.99732)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g7852">
         <circle
@@ -928,7 +1024,10 @@
     </g>
     <g
        transform="matrix(-0.85904812,-0.51189483,-0.51189483,0.85904812,657.61977,161.00826)"
-       id="g7870">
+       id="g7870"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g7872">
         <circle
@@ -974,7 +1073,10 @@
     </g>
     <g
        id="g7890"
-       transform="matrix(-0.89443695,-0.44719407,-0.44719407,0.89443695,639.64857,142.71235)">
+       transform="matrix(-0.89443695,-0.44719407,-0.44719407,0.89443695,639.64857,142.71235)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          inkscape:transform-center-y="0.48107817"
          inkscape:transform-center-x="2.8311893"
@@ -1055,7 +1157,10 @@
     </g>
     <g
        id="g7920"
-       transform="matrix(-0.57343921,-0.81924811,-0.81924811,0.57343921,697.87167,418.95152)">
+       transform="matrix(-0.57343921,-0.81924811,-0.81924811,0.57343921,697.87167,418.95152)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g7922">
         <circle
@@ -1103,7 +1208,10 @@
        inkscape:transform-center-y="1.3617964"
        inkscape:transform-center-x="-2.3421834"
        id="g7940"
-       transform="matrix(-0.9154853,-0.40235142,-0.40235142,0.9154853,608.33067,131.11834)">
+       transform="matrix(-0.9154853,-0.40235142,-0.40235142,0.9154853,608.33067,131.11834)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(-0.57656445,-0.81705167,0.81705167,-0.57656445,357.53076,822.02645)"
          style="stroke:#000000;stroke-width:1"
@@ -1181,7 +1289,10 @@
     </g>
     <g
        id="g7990"
-       transform="matrix(-0.72049155,0.69346371,0.69346371,0.72049155,110.12281,-302.08579)">
+       transform="matrix(-0.72049155,0.69346371,0.69346371,0.72049155,110.12281,-302.08579)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g7992">
         <circle
@@ -1227,7 +1338,10 @@
     </g>
     <g
        transform="matrix(-0.72049155,0.69346371,0.69346371,0.72049155,116.84032,-299.96447)"
-       id="g8010">
+       id="g8010"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g8012">
         <circle
@@ -1273,7 +1387,10 @@
     </g>
     <g
        id="g8030"
-       transform="matrix(-0.85904812,-0.51189483,-0.51189483,0.85904812,701.10687,112.04112)">
+       transform="matrix(-0.85904812,-0.51189483,-0.51189483,0.85904812,701.10687,112.04112)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g8032">
         <circle
@@ -1319,7 +1436,10 @@
     </g>
     <g
        transform="matrix(-0.57343921,-0.81924811,-0.81924811,0.57343921,721.91337,367.68627)"
-       id="g8080">
+       id="g8080"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g8082">
         <circle
@@ -1365,7 +1485,10 @@
     </g>
     <g
        id="g7641"
-       transform="translate(-245.9111,-126.74889)">
+       transform="translate(-245.9111,-126.74889)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          inkscape:transform-center-y="0.48107817"
          inkscape:transform-center-x="2.8311893"
@@ -1446,7 +1569,10 @@
     </g>
     <g
        transform="matrix(0.87870927,-0.47735733,0.47735733,0.87870927,-320.93289,87.562745)"
-       id="g8130">
+       id="g8130"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g8132">
         <circle
@@ -1495,16 +1621,25 @@
        d="m 215.95157,255.79158 c 0,0 2.61687,1.12725 10.12145,-6.47953 7.50457,-7.60678 3.75359,-6.51855 12.00961,-12.38047 8.34594,-5.92578 10.74129,-14.99038 10.12179,-18.61468 l 0,0 c 0,0 -2.97679,5.12753 -6.68709,6.52017 -3.71029,1.39264 -9.27794,6.51964 -7.5688,3.86141 7.45695,-11.59773 0.89596,-13.91278 5.99452,-18.91619 5.43432,-5.33291 -5.50279,-20.95165 -5.50279,-20.95165 0,0 2.8205,6.8591 -2.9148,12.35365 -5.7353,5.49456 -6.36713,15.08889 -5.18155,20.32504 1.18558,5.23613 -4.0987,8.66769 -4.0987,8.66769 0,0 -4.03131,-10.74032 -1.48146,-14.92783 2.54985,-4.18753 3.9901,-4.50534 3.9901,-4.50534 0,0 -9.20217,4.69292 -9.56077,12.23032 -0.19787,4.15908 0.70255,11.70202 0.70255,11.70202"
        id="path8150"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cssccssscsscscsc" />
+       sodipodi:nodetypes="cssccssscsscscsc"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="sssccssscsscscsccs"
        inkscape:connector-curvature="0"
        id="path8152"
        d="m 225.19351,248.31162 c 3.70976,-4.33988 2.77448,-3.28084 4.69058,-4.41917 3.8466,-2.28516 5.10902,-5.16723 6.15631,-8.40268 1.04728,-3.23545 -0.37894,-4.61936 -0.37894,-4.61936 l 0,0 c 0,0 -1.32734,3.36986 -3.29212,4.23143 -1.96477,0.86157 -4.77333,3.29709 -3.97951,1.8067 3.4634,-6.50249 -0.63907,-7.45752 1.50175,-10.61486 4.00663,-5.90902 -3.43061,-11.01645 -3.43061,-11.01645 0,0 1.93039,3.63823 -0.92236,6.78205 -2.85276,3.14382 -2.67113,8.36421 -1.72987,11.16934 0.94123,2.80512 -1.77716,4.8174 -1.77716,4.8174 0,0 -2.81077,-5.70796 -1.63872,-8.05168 1.17205,-2.34373 1.94701,-2.55737 1.94701,-2.55737 0,0 -5.69042,1.56573 -5.16284,6.77858 0.27788,2.74563 -0.45569,6.42926 -1.24959,9.83729 0,5.39403 0,6.43275 0,10.22379 1.53574,0.28677 5.5563,-1.62516 9.26607,-5.96501 z"
-       style="fill:#d40000;fill-rule:evenodd;stroke:none" />
+       style="fill:#d40000;fill-rule:evenodd;stroke:none"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        id="g10567"
-       transform="translate(-125.17262,13.435025)">
+       transform="translate(-125.17262,13.435025)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          inkscape:transform-center-y="1.783495"
          inkscape:transform-center-x="2.8903764"
@@ -1572,7 +1707,10 @@
     </g>
     <g
        id="g7611"
-       transform="translate(-145.20436,-112.14697)">
+       transform="translate(-145.20436,-112.14697)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(-0.57656445,-0.81705167,0.81705167,-0.57656445,357.53076,822.02645)"
          style="stroke:#000000"
@@ -1650,7 +1788,10 @@
     </g>
     <g
        id="g7780"
-       transform="matrix(0.4026999,-0.91533207,0.91533207,0.4026999,-437.78516,484.74283)">
+       transform="matrix(0.4026999,-0.91533207,0.91533207,0.4026999,-437.78516,484.74283)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g7782">
         <circle
@@ -1757,7 +1898,10 @@
     </g>
     <g
        id="g8776"
-       transform="matrix(0.97653939,-0.21533885,0.21533885,0.97653939,-346.66058,0.98966491)">
+       transform="matrix(0.97653939,-0.21533885,0.21533885,0.97653939,-346.66058,0.98966491)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g8778"
          style="stroke:#000000"
@@ -1820,7 +1964,10 @@
     </g>
     <g
        transform="matrix(0.97149321,0.23706738,-0.23706738,0.97149321,-129.92784,-194.39594)"
-       id="g8798">
+       id="g8798"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(0.77051721,-0.6374192,0.6374192,0.77051721,3.8454734,434.68935)"
          style="stroke:#000000;stroke-width:1"
@@ -1882,7 +2029,10 @@
     </g>
     <g
        id="g8820"
-       transform="matrix(0.79548489,-0.60597342,0.60597342,0.79548489,-392.58502,220.44509)">
+       transform="matrix(0.79548489,-0.60597342,0.60597342,0.79548489,-392.58502,220.44509)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(-0.57656445,-0.81705167,0.81705167,-0.57656445,357.53076,822.02645)"
          style="stroke:#000000"
@@ -1960,7 +2110,10 @@
     </g>
     <g
        transform="matrix(-0.9951508,0.09836099,0.09836099,0.9951508,656.52897,-191.74822)"
-       id="g8850">
+       id="g8850"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(0.3671495,-0.93016195,0.93016195,0.3671495,152.89037,648.46107)"
          style="stroke:#000000"
@@ -2715,7 +2868,10 @@
     </g>
     <g
        transform="matrix(0.95236525,0.30495971,-0.30495971,0.95236525,-85.083524,-200.07985)"
-       id="g9514">
+       id="g9514"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g9516">
         <circle
@@ -2761,7 +2917,10 @@
     </g>
     <g
        transform="matrix(0.97185561,-0.23557731,0.23557731,0.97185561,-344.08944,7.2182749)"
-       id="g9564">
+       id="g9564"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g9566">
         <circle
@@ -2807,7 +2966,10 @@
     </g>
     <g
        transform="translate(-241.70436,-56.646971)"
-       id="g9534">
+       id="g9534"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g9536"
          style="stroke:#000000"
@@ -2888,34 +3050,52 @@
        inkscape:connector-curvature="0"
        id="path9825"
        d="m 377.17558,308.04723 0,-70.75 30.5,-30.5 43.5,0 0,72 -29,29.25 z"
-       style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="cccccccccccccccccccccccccccccc"
        inkscape:connector-curvature="0"
        id="path9827"
        d="m 375.03691,235.74166 0,72.65625 47.0664,0 0,-72.65625 z m 3.92382,6.55469 17.5,0 0,17.5 -17.5,0 z m 21,0 17.5,0 0,17.5 -17.5,0 z m -21,21.375 17.5,0 0,17.5 -17.5,0 z m 21,0 17.5,0 0,17.5 -17.5,0 z m -15.30078,23.25 27.125,0 0,21.375 -27.125,0 z"
-       style="fill:#999999;fill-opacity:1;stroke:#4d4d4d;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="fill:#999999;fill-opacity:1;stroke:#4d4d4d;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path9831"
        d="m 375.05823,235.70437 30.80966,-30.80965 46.97209,0 -30.80966,30.80965 z"
-       style="fill:#ececec;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:#ececec;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path9833"
        d="m 384.75054,286.69341 -11.3125,5.5 0,21.375 11.3125,-5.5 z"
-       style="fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path9835"
        d="m 416.91418,292.06841 -5.3125,-5.375 0,21.375 5.3125,5.375 z"
-       style="fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        id="g9919"
-       transform="matrix(0.72049155,0.69346371,-0.69346371,0.72049155,448.82405,-255.94707)">
+       transform="matrix(0.72049155,0.69346371,-0.69346371,0.72049155,448.82405,-255.94707)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g9921">
         <circle
@@ -2961,7 +3141,10 @@
     </g>
     <g
        transform="matrix(0.85904812,-0.51189483,0.51189483,0.85904812,-138.27095,151.28554)"
-       id="g9939">
+       id="g9939"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g9941">
         <circle
@@ -3007,7 +3190,10 @@
     </g>
     <g
        id="g9959"
-       transform="matrix(0.88791181,-0.4600137,0.4600137,0.88791181,-123.27522,140.84731)">
+       transform="matrix(0.88791181,-0.4600137,0.4600137,0.88791181,-123.27522,140.84731)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          inkscape:transform-center-y="0.48107817"
          inkscape:transform-center-x="2.8311893"
@@ -3088,7 +3274,10 @@
     </g>
     <g
        transform="matrix(0.95236525,0.30495971,-0.30495971,0.95236525,221.62611,-255.57986)"
-       id="g9989">
+       id="g9989"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g9991">
         <circle
@@ -3134,7 +3323,10 @@
     </g>
     <g
        id="g10009"
-       transform="matrix(0.57343921,-0.81924811,0.81924811,0.57343921,-177.8157,411.17334)">
+       transform="matrix(0.57343921,-0.81924811,0.81924811,0.57343921,-177.8157,411.17334)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g10011">
         <circle
@@ -3182,7 +3374,10 @@
        inkscape:transform-center-y="-1.5775535"
        inkscape:transform-center-x="2.9747033"
        id="g10029"
-       transform="matrix(0.99924241,-0.03891788,0.03891788,0.99924241,24.386842,-57.592212)">
+       transform="matrix(0.99924241,-0.03891788,0.03891788,0.99924241,24.386842,-57.592212)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(-0.57656445,-0.81705167,0.81705167,-0.57656445,357.53076,822.02645)"
          style="stroke:#000000;stroke-width:1"
@@ -3260,7 +3455,10 @@
     </g>
     <g
        transform="matrix(-0.57343921,-0.81924811,-0.81924811,0.57343921,922.48859,392.03727)"
-       id="g10149">
+       id="g10149"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g10151">
         <circle
@@ -3307,7 +3505,10 @@
     <g
        id="g5785"
        clip-path="url(#clipPath5880)"
-       transform="translate(-147.97681,12.993085)">
+       transform="translate(-147.97681,12.993085)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(-0.72049155,0.69346371,0.69346371,0.72049155,435.47299,-268.58659)"
          id="g10059">
@@ -3610,7 +3811,10 @@
     </g>
     <g
        transform="matrix(-0.72049155,0.69346371,0.69346371,0.72049155,320.33244,-302.08579)"
-       id="g10199">
+       id="g10199"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g10201">
         <circle
@@ -3656,7 +3860,10 @@
     </g>
     <g
        id="g10219"
-       transform="matrix(-0.72049155,0.69346371,0.69346371,0.72049155,327.04995,-299.96447)">
+       transform="matrix(-0.72049155,0.69346371,0.69346371,0.72049155,327.04995,-299.96447)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g10221">
         <circle
@@ -3702,7 +3909,10 @@
     </g>
     <g
        transform="matrix(-0.85904812,-0.51189483,-0.51189483,0.85904812,911.31649,112.04112)"
-       id="g10239">
+       id="g10239"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g10241">
         <circle
@@ -3748,7 +3958,10 @@
     </g>
     <g
        id="g10259"
-       transform="matrix(-0.57343921,-0.81924811,-0.81924811,0.57343921,932.12299,367.68627)">
+       transform="matrix(-0.57343921,-0.81924811,-0.81924811,0.57343921,932.12299,367.68627)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g10261">
         <circle
@@ -3794,7 +4007,10 @@
     </g>
     <g
        transform="translate(-35.70147,-126.74889)"
-       id="g10279">
+       id="g10279"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(0.33702773,-0.94149472,0.94149472,0.33702773,37.002409,641.4827)"
          style="stroke:#000000"
@@ -3875,7 +4091,10 @@
     </g>
     <g
        id="g10309"
-       transform="matrix(0.87870927,-0.47735733,0.47735733,0.87870927,-110.72326,87.562745)">
+       transform="matrix(0.87870927,-0.47735733,0.47735733,0.87870927,-110.72326,87.562745)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g10311">
         <circle
@@ -3921,7 +4140,10 @@
     </g>
     <g
        transform="translate(65.005272,-112.14697)"
-       id="g10335">
+       id="g10335"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g10337"
          style="stroke:#000000"
@@ -3999,7 +4221,10 @@
     </g>
     <g
        transform="matrix(0.4026999,-0.91533207,0.91533207,0.4026999,-227.57553,484.74283)"
-       id="g10365">
+       id="g10365"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g10367">
         <circle
@@ -4045,7 +4270,10 @@
     </g>
     <g
        transform="matrix(0.79548489,-0.60597342,0.60597342,0.79548489,-182.37539,220.44509)"
-       id="g10429">
+       id="g10429"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g10431"
          style="stroke:#000000"
@@ -4123,7 +4351,10 @@
     </g>
     <g
        id="g10481"
-       transform="matrix(0.95236525,0.30495971,-0.30495971,0.95236525,125.12612,-200.07985)">
+       transform="matrix(0.95236525,0.30495971,-0.30495971,0.95236525,125.12612,-200.07985)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g10483">
         <circle
@@ -4169,7 +4400,10 @@
     </g>
     <g
        id="g10501"
-       transform="matrix(0.97185561,-0.23557731,0.23557731,0.97185561,-133.87981,7.2182749)">
+       transform="matrix(0.97185561,-0.23557731,0.23557731,0.97185561,-133.87981,7.2182749)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g10503">
         <circle
@@ -4215,7 +4449,10 @@
     </g>
     <g
        id="g10521"
-       transform="translate(-31.49473,-56.646971)">
+       transform="translate(-31.49473,-56.646971)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(-0.57656445,-0.81705167,0.81705167,-0.57656445,357.53076,822.02645)"
          style="stroke:#000000"
@@ -4293,7 +4530,10 @@
     </g>
     <g
        id="g10611"
-       transform="translate(-150.80524,-30.493975)">
+       transform="translate(-150.80524,-30.493975)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle10613"
@@ -4308,7 +4548,10 @@
     </g>
     <g
        transform="translate(-243.96656,-56.74532)"
-       id="g10617">
+       id="g10617"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="7.3031249"
          cy="379.52823"
@@ -4323,7 +4566,10 @@
     </g>
     <g
        id="g10623"
-       transform="translate(-232.12252,-74.069436)">
+       transform="translate(-232.12252,-74.069436)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle10625"
@@ -4338,7 +4584,10 @@
     </g>
     <g
        id="g10635"
-       transform="translate(-230.17798,-19.268665)">
+       transform="translate(-230.17798,-19.268665)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle10637"
@@ -4353,7 +4602,10 @@
     </g>
     <g
        transform="translate(-131.18303,-76.01398)"
-       id="g10641">
+       id="g10641"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="7.3031249"
          cy="379.52823"
@@ -4368,7 +4620,10 @@
     </g>
     <g
        id="g10647"
-       transform="translate(-192.68303,-67.01398)">
+       transform="translate(-192.68303,-67.01398)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle10649"
@@ -4383,7 +4638,10 @@
     </g>
     <g
        transform="translate(-194.80435,-106.96551)"
-       id="g10665">
+       id="g10665"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="7.3031249"
          cy="379.52823"
@@ -4398,7 +4656,10 @@
     </g>
     <g
        id="g10671"
-       transform="translate(-173.80435,-128.46551)">
+       transform="translate(-173.80435,-128.46551)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle10673"
@@ -4413,7 +4674,10 @@
     </g>
     <g
        transform="translate(-152.05435,-134.46551)"
-       id="g10677">
+       id="g10677"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="7.3031249"
          cy="379.52823"
@@ -4428,7 +4692,10 @@
     </g>
     <g
        id="g10683"
-       transform="translate(-138.05435,-147.21551)">
+       transform="translate(-138.05435,-147.21551)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle10685"
@@ -4445,10 +4712,16 @@
        inkscape:connector-curvature="0"
        id="path9829"
        d="m 453.1287,204.894 -31.15624,31.03321 0,72.4707 31.15624,-31.0332 0,-72.47071 z m -3.32812,10.71485 0,17.5 -10.9668,10.96679 0,-17.5 10.9668,-10.96679 z m -13.1582,13.16015 0,17.5 -10.9668,10.96485 0,-17.5 10.9668,-10.96485 z m 13.1582,8.21485 0,17.5 -10.9668,10.96679 0,-17.5 10.9668,-10.96679 z m -13.1582,13.16015 0,17.5 -10.9668,10.96485 0,-17.5 10.9668,-10.96485 z"
-       style="fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        id="g10733"
-       transform="translate(19.969932,-157.18481)">
+       transform="translate(19.969932,-157.18481)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g10735"
          style="stroke:#000000"
@@ -4510,7 +4783,10 @@
     </g>
     <g
        transform="translate(40.969932,-135.62231)"
-       id="g10755">
+       id="g10755"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(0.75761943,-0.65269656,-0.65269656,-0.75761943,303.42244,814.53201)"
          style="stroke:#000000"
@@ -4575,93 +4851,141 @@
        d="m 164.70062,521.74964 c 0,0 -3.2316,-0.10723 -7.65102,-12.12805 -4.4194,-12.02081 -0.86538,-8.97408 -6.96966,-19.4632 -6.17078,-10.60337 -4.29197,-21.68273 -1.81954,-25.33084 l 0,0 c 0,0 0.70711,7.07106 4.06586,10.42982 3.35875,3.35876 6.89351,11.71339 6.34587,7.96536 -2.38934,-16.3525 5.91804,-15.62697 2.83395,-23.61422 -3.2872,-8.51326 16.38973,-20.13693 16.38973,-20.13693 0,0 -6.47767,6.08731 -2.94213,14.92614 3.53553,8.83884 -0.53033,19.62221 -4.41943,24.74874 -3.88908,5.12652 0.17678,11.49048 0.17678,11.49048 0,0 9.72273,-9.72271 9.01562,-15.55635 -0.70711,-5.83363 -2.12132,-6.89429 -2.12132,-6.89429 0,0 7.77818,9.54594 5.83363,14.14214 -1.94454,4.59619 -2.2981,4.77297 -2.2981,4.77297"
        id="path10777"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cssccssscsscscsc" />
+       sodipodi:nodetypes="cssccssscsscscsc"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="sssccssscsscscsss"
        inkscape:connector-curvature="0"
        id="path10779"
        d="m 169.4368,506.65654 c 2.67288,-7.27022 1.98395,-5.48175 3.83728,-7.84018 3.72056,-4.73456 4.02794,-8.98755 3.92102,-13.5849 -0.10691,-4.59735 -2.44255,-5.66649 -2.44255,-5.66649 l 0,0 c 0,0 -0.17766,4.90159 -2.20905,6.93298 -2.0314,2.03139 -4.41923,6.4593 -4.08802,4.19248 1.44509,-9.89005 -3.97664,-9.13494 -2.71398,-14.15696 2.36311,-9.39884 -8.91255,-12.30388 -8.91255,-12.30388 0,0 3.91771,3.68163 1.77941,9.02738 -2.1383,5.34576 0.32074,11.86758 2.67288,14.96812 2.35212,3.10053 -0.10692,6.94948 -0.10692,6.94948 0,0 -5.88033,-5.88033 -5.45267,-9.40853 0.42766,-3.5282 1.28298,-4.16969 1.28298,-4.16969 0,0 -6.28172,4.70657 -3.4032,11.05321 3.79051,8.35742 4.78769,22.15238 10.34651,21.11744 1.99929,-0.37223 2.81598,0.15973 5.48886,-7.11046 z"
-       style="fill:#d40000;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:#d40000;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="ccccccc"
        inkscape:connector-curvature="0"
        id="path10785"
        d="m 167.25768,577.88638 0,-70.75 30.50001,-30.5 43.5,0 0,72 -29,29.25 z"
-       style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="cccccccccccccccccccccccccccccc"
        inkscape:connector-curvature="0"
        id="path10787"
        d="m 165.11901,505.58081 0,72.65625 47.06641,0 0,-72.65625 z m 3.92382,6.55469 17.50001,0 0,17.5 -17.50001,0 z m 21.00001,0 17.5,0 0,17.5 -17.5,0 z m -21.00001,21.375 17.50001,0 0,17.5 -17.50001,0 z m 21.00001,0 17.5,0 0,17.5 -17.5,0 z m -15.30078,23.25 27.125,0 0,21.375 -27.125,0 z"
-       style="opacity:1;fill:#999999;fill-opacity:1;stroke:#4d4d4d;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#999999;fill-opacity:1;stroke:#4d4d4d;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        inkscape:connector-curvature="0"
        id="path10789"
        d="m 243.21081,474.73315 -31.15624,31.03321 0,72.4707 31.15624,-31.0332 0,-72.47071 z m -3.32812,10.71485 0,17.5 -10.9668,10.96679 0,-17.5 10.9668,-10.96679 z m -13.1582,13.16015 0,17.5 -10.9668,10.96485 0,-17.5 10.9668,-10.96485 z m 13.1582,8.21485 0,17.5 -10.9668,10.96679 0,-17.5 10.9668,-10.96679 z m -13.1582,13.16015 0,17.5 -10.9668,10.96485 0,-17.5 10.9668,-10.96485 z"
-       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path10791"
        d="m 165.14033,505.54352 30.80967,-30.80965 46.97209,0 -30.80966,30.80965 z"
-       style="fill:#ececec;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:#ececec;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path10793"
        d="m 174.83265,556.53256 -11.31251,5.5 0,21.375 11.31251,-5.5 z"
-       style="opacity:1;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path10795"
        d="m 206.99629,561.90756 -5.3125,-5.375 0,21.375 5.3125,5.375 z"
-       style="opacity:1;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="cssccssscsscscsc"
        inkscape:connector-curvature="0"
        id="path11273"
        d="m 216.24331,525.63073 c 0,0 2.61687,1.12725 10.12145,-6.47953 7.50457,-7.60678 3.75359,-6.51855 12.00961,-12.38047 8.34594,-5.92578 10.74129,-14.99038 10.12179,-18.61468 l 0,0 c 0,0 -2.97679,5.12753 -6.68709,6.52017 -3.71029,1.39264 -9.27794,6.51964 -7.5688,3.86141 7.45695,-11.59773 0.89596,-13.91278 5.99452,-18.91619 5.43432,-5.33291 -5.50279,-20.95165 -5.50279,-20.95165 0,0 2.8205,6.8591 -2.9148,12.35365 -5.7353,5.49456 -6.36713,15.08889 -5.18155,20.32504 1.18558,5.23613 -4.0987,8.66769 -4.0987,8.66769 0,0 -4.03131,-10.74032 -1.48146,-14.92783 2.54985,-4.18753 3.9901,-4.50534 3.9901,-4.50534 0,0 -9.20217,4.69292 -9.56077,12.23032 -0.19787,4.15908 0.70255,11.70202 0.70255,11.70202"
-       style="fill:#ff6600;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:#ff6600;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:#d40000;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 225.48525,518.15077 c 3.70976,-4.33988 2.77448,-3.28084 4.69058,-4.41917 3.8466,-2.28516 5.10902,-5.16723 6.15631,-8.40268 1.04728,-3.23545 -0.37894,-4.61936 -0.37894,-4.61936 l 0,0 c 0,0 -1.32734,3.36986 -3.29212,4.23143 -1.96477,0.86157 -4.77333,3.29709 -3.97951,1.8067 3.4634,-6.50249 -0.63907,-7.45752 1.50175,-10.61486 4.00663,-5.90902 -3.43061,-11.01645 -3.43061,-11.01645 0,0 1.93039,3.63823 -0.92236,6.78205 -2.85276,3.14382 -2.67113,8.36421 -1.72987,11.16934 0.94123,2.80512 -1.77716,4.8174 -1.77716,4.8174 0,0 -2.81077,-5.70796 -1.63872,-8.05168 1.17205,-2.34373 1.94701,-2.55737 1.94701,-2.55737 0,0 -5.69042,1.56573 -5.16284,6.77858 0.27788,2.74563 -0.45569,6.42926 -1.24959,9.83729 0,5.39403 0,6.43275 0,10.22379 1.53574,0.28677 5.5563,-1.62516 9.26607,-5.96501 z"
        id="path11275"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="sssccssscsscscsccs" />
+       sodipodi:nodetypes="sssccssscsscscsccs"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 377.46732,577.88638 0,-70.75 30.5,-30.5 43.5,0 0,72 -29,29.25 z"
        id="path11747"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccc" />
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:#999999;fill-opacity:1;stroke:#4d4d4d;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 375.32865,505.58081 0,72.65625 47.0664,0 0,-72.65625 z m 3.92382,6.55469 17.5,0 0,17.5 -17.5,0 z m 21,0 17.5,0 0,17.5 -17.5,0 z m -21,21.375 17.5,0 0,17.5 -17.5,0 z m 21,0 17.5,0 0,17.5 -17.5,0 z m -15.30078,23.25 27.125,0 0,21.375 -27.125,0 z"
        id="path11749"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccccccccccccccccccccccc" />
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccc"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:#ececec;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 375.34997,505.54352 30.80966,-30.80965 46.97209,0 -30.80966,30.80965 z"
        id="path11751"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 385.04228,556.53256 -11.3125,5.5 0,21.375 11.3125,-5.5 z"
        id="path11753"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 417.20592,561.90756 -5.3125,-5.375 0,21.375 5.3125,5.375 z"
        id="path11755"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        id="g12577"
-       transform="translate(-124.88088,57)">
+       transform="translate(-124.88088,57)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle12547"
@@ -4721,7 +5045,10 @@
     </g>
     <g
        id="g12589"
-       transform="translate(-109.58969,57)">
+       transform="translate(-109.58969,57)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -4781,7 +5108,10 @@
     </g>
     <g
        transform="translate(-94.47529,57)"
-       id="g12611">
+       id="g12611"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle12613"
@@ -4841,7 +5171,10 @@
     </g>
     <g
        id="g12633"
-       transform="translate(-130.1233,62.816942)">
+       transform="translate(-130.1233,62.816942)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -4901,7 +5234,10 @@
     </g>
     <g
        transform="translate(-114.83211,62.816942)"
-       id="g12655">
+       id="g12655"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle12657"
@@ -4961,7 +5297,10 @@
     </g>
     <g
        id="g12677"
-       transform="translate(-99.7177,62.816942)">
+       transform="translate(-99.7177,62.816942)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -5021,7 +5360,10 @@
     </g>
     <g
        id="g12527"
-       transform="matrix(-1,0,0,1,359.25446,56.25)">
+       transform="matrix(-1,0,0,1,359.25446,56.25)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(-0.75761943,-0.65269656,0.65269656,-0.75761943,316.19984,941.85606)"
          style="stroke:#000000"
@@ -5083,7 +5425,10 @@
     </g>
     <g
        id="g12515"
-       transform="translate(-116.88088,57.125)">
+       transform="translate(-116.88088,57.125)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g12495"
          style="stroke:#000000"
@@ -5143,7 +5488,10 @@
     </g>
     <g
        transform="translate(-106.00588,70.125)"
-       id="g12699">
+       id="g12699"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle12701"
@@ -5203,7 +5551,10 @@
     </g>
     <g
        transform="translate(-40.14667,89.369796)"
-       id="g12743">
+       id="g12743"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle12745"
@@ -5263,7 +5614,10 @@
     </g>
     <g
        id="g12765"
-       transform="translate(-28.74458,92.375)">
+       transform="translate(-28.74458,92.375)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -5323,7 +5677,10 @@
     </g>
     <g
        transform="translate(-33.27988,98.368719)"
-       id="g12831">
+       id="g12831"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle12833"
@@ -5383,7 +5740,10 @@
     </g>
     <g
        transform="translate(-116.88088,57.125)"
-       id="g12875">
+       id="g12875"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(0.75761943,-0.65269656,-0.65269656,-0.75761943,174.59988,941.73106)"
          style="stroke:#000000"
@@ -5443,7 +5803,10 @@
     </g>
     <g
        transform="translate(-173.88297,142.02186)"
-       id="g12968">
+       id="g12968"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="7.3031249"
          cy="379.52823"
@@ -5458,7 +5821,10 @@
     </g>
     <g
        id="g13212"
-       transform="translate(-7.206477,43.921944)">
+       transform="translate(-7.206477,43.921944)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -5518,7 +5884,10 @@
     </g>
     <g
        transform="translate(5.2562827,41.800624)"
-       id="g13234">
+       id="g13234"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle13236"
@@ -5578,7 +5947,10 @@
     </g>
     <g
        id="g13256"
-       transform="translate(15.244163,45.689711)">
+       transform="translate(15.244163,45.689711)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -5638,7 +6010,10 @@
     </g>
     <g
        transform="translate(-15.277327,49.738886)"
-       id="g13278">
+       id="g13278"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle13280"
@@ -5698,7 +6073,10 @@
     </g>
     <g
        id="g13300"
-       transform="translate(-3.521667,49.738886)">
+       transform="translate(-3.521667,49.738886)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -5758,7 +6136,10 @@
     </g>
     <g
        transform="translate(8.4107627,50.269216)"
-       id="g13322">
+       id="g13322"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle13324"
@@ -5818,7 +6199,10 @@
     </g>
     <g
        transform="matrix(-1,0,0,1,484.53026,43.171944)"
-       id="g13344">
+       id="g13344"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g13346"
          style="stroke:#000000"
@@ -5880,7 +6264,10 @@
     </g>
     <g
        id="g13388"
-       transform="translate(16.795043,54.925624)">
+       transform="translate(16.795043,54.925624)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -5940,7 +6327,10 @@
     </g>
     <g
        id="g13410"
-       transform="translate(8.3949127,44.046944)">
+       transform="translate(8.3949127,44.046944)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g13412"
          style="stroke:#000000"
@@ -6000,7 +6390,10 @@
     </g>
     <g
        transform="translate(-339.01769,73.9375)"
-       id="g13432">
+       id="g13432"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(0.77051721,-0.6374192,0.6374192,0.77051721,102.13332,449.80376)"
          style="stroke:#000000"
@@ -6063,7 +6456,10 @@
     </g>
     <g
        id="g13474"
-       transform="translate(-299.00593,159.79566)">
+       transform="translate(-299.00593,159.79566)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="429.60883"
@@ -6091,7 +6487,10 @@
     </g>
     <g
        transform="translate(-304.66278,164.92218)"
-       id="g13464">
+       id="g13464"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle13466"
@@ -6122,63 +6521,96 @@
        id="circle13456"
        cx="164.35472"
        cy="599.61334"
-       r="4.9497476" />
+       r="4.9497476"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="sssss"
        inkscape:connector-curvature="0"
        id="path13458"
        d="m 161.12898,599.11668 c 0,1.68275 1.36413,3.04688 3.04688,3.04688 1.68275,0 3.04688,-1.36413 3.04688,-3.04688 0,-1.68274 -1.36413,-0.18708 -3.04688,-0.18708 -1.68275,0 -3.04688,-1.49566 -3.04688,0.18708 z"
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <circle
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle13460"
        cx="163.06827"
        cy="597.08606"
-       r="1" />
+       r="1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <circle
        r="1"
        cy="597.08606"
        cx="165.27797"
        id="circle13462"
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <circle
        style="fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle14168"
        cx="338.30707"
        cy="623.44342"
-       r="4.9497476" />
+       r="4.9497476"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path14170"
        d="m 340.1075,622.83625 c 0.48664,0.48664 1.43355,1.14905 2.85052,1.14905"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        inkscape:connector-curvature="0"
        id="path14174"
        d="m 339.834,621.18898 c 0,0 0.375,-0.3125 0.6875,-0.3125 0.3125,0 0.625,0.3125 0.625,0.3125"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <circle
        r="4.9497476"
        cy="609.21991"
        cx="365.88373"
        id="circle14290"
-       style="fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <circle
        style="fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle14302"
        cx="360.69623"
        cy="614.40741"
-       r="4.9497476" />
+       r="4.9497476"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <circle
        r="4.9497476"
        cy="620.34491"
        cx="354.60339"
        id="circle14304"
-       style="fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        id="g14318"
-       transform="translate(345.69868,57)">
+       transform="translate(345.69868,57)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="translate(-279.03217,207.58051)"
          id="g14320"
@@ -6239,7 +6671,10 @@
     </g>
     <g
        id="g14363"
-       transform="translate(346.75934,57)">
+       transform="translate(346.75934,57)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(-0.75761943,-0.65269656,0.65269656,-0.75761943,127.34621,892.14668)"
          style="stroke:#000000"
@@ -6305,7 +6740,10 @@
     </g>
     <g
        id="g14387"
-       transform="translate(-151.76261,135.66284)">
+       transform="translate(-151.76261,135.66284)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle14389"
@@ -6320,7 +6758,10 @@
     </g>
     <g
        transform="translate(-137.76261,122.28784)"
-       id="g14393">
+       id="g14393"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="7.3031249"
          cy="379.52823"
@@ -6337,11 +6778,17 @@
        style="fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 453.42044,474.73315 -31.15624,31.03321 0,72.4707 31.15624,-31.0332 0,-72.47071 z m -3.32812,10.71485 0,17.5 -10.9668,10.96679 0,-17.5 10.9668,-10.96679 z m -13.1582,13.16015 0,17.5 -10.9668,10.96485 0,-17.5 10.9668,-10.96485 z m 13.1582,8.21485 0,17.5 -10.9668,10.96679 0,-17.5 10.9668,-10.96679 z m -13.1582,13.16015 0,17.5 -10.9668,10.96485 0,-17.5 10.9668,-10.96485 z"
        id="path12389"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        style="stroke:#000000"
        transform="matrix(-0.27901115,-0.96028786,0.96028786,-0.27901115,17.592359,966.40486)"
-       id="g14423">
+       id="g14423"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <path
          sodipodi:nodetypes="ccc"
          inkscape:connector-curvature="0"
@@ -6358,7 +6805,10 @@
     <g
        id="g14447"
        transform="matrix(-0.27901115,-0.96028786,0.96028786,-0.27901115,11.802919,971.48719)"
-       style="stroke:#000000">
+       style="stroke:#000000"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <path
          style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
          d="m 315.56379,260.15271 -1.61309,-3.69021 0.95933,-0.87002"
@@ -6419,7 +6869,10 @@
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Open Sans Light';-inkscape-font-specification:'Open Sans Light,  Light';text-align:center;text-anchor:middle">(disassembly &amp; resumption)</tspan></text>
     <g
        id="g5884"
-       transform="translate(-147.80004,13.435025)">
+       transform="translate(-147.80004,13.435025)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <path
          id="rect4985"
          d="m 579.28204,295.88797 c -3.5899,0 -6.5,2.86028 -6.5,6.375 0,0.0548 0,0.1018 0,0.15625 l 0,9.90625 13,0 0,-9.90625 c 0,-0.0545 0,-0.10147 0,-0.15625 0,-3.51472 -2.9102,-6.375 -6.5,-6.375 z"
@@ -6438,7 +6891,10 @@
     </g>
     <g
        id="g12721"
-       transform="translate(-52.255876,92.375)">
+       transform="translate(-52.255876,92.375)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -6498,7 +6954,10 @@
     </g>
     <g
        transform="translate(-57.498286,98.191942)"
-       id="g12787">
+       id="g12787"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle12789"
@@ -6558,7 +7017,10 @@
     </g>
     <g
        id="g12809"
-       transform="translate(-45.56587,100.84359)">
+       transform="translate(-45.56587,100.84359)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -6618,7 +7080,10 @@
     </g>
     <g
        transform="translate(-157.72685,89.90128)"
-       id="g6051">
+       id="g6051"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle6053"
@@ -6678,7 +7143,10 @@
     </g>
     <g
        transform="translate(-135.27622,91.669047)"
-       id="g6073">
+       id="g6073"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle6075"
@@ -6738,7 +7206,10 @@
     </g>
     <g
        transform="translate(-154.04204,95.718223)"
-       id="g6117">
+       id="g6117"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle6119"
@@ -6798,7 +7269,10 @@
     </g>
     <g
        id="g6139"
-       transform="translate(-142.10962,96.248553)">
+       transform="translate(-142.10962,96.248553)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -6858,7 +7332,10 @@
     </g>
     <g
        id="g6161"
-       transform="matrix(-1,0,0,1,329.23691,83.406038)">
+       transform="matrix(-1,0,0,1,329.23691,83.406038)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(-0.75761943,-0.65269656,0.65269656,-0.75761943,316.19984,941.85606)"
          style="stroke:#000000"
@@ -6920,7 +7397,10 @@
     </g>
     <g
        transform="translate(-133.72534,100.90496)"
-       id="g6183">
+       id="g6183"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle6185"
@@ -6980,7 +7460,10 @@
     </g>
     <g
        transform="translate(-142.12547,90.02628)"
-       id="g6205">
+       id="g6205"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(0.75761943,-0.65269656,-0.65269656,-0.75761943,174.59988,941.73106)"
          style="stroke:#000000"
@@ -7040,7 +7523,10 @@
     </g>
     <g
        id="g6095"
-       transform="translate(-159.43374,102.7009)">
+       transform="translate(-159.43374,102.7009)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -7103,10 +7589,16 @@
        id="path6227"
        cx="64.872543"
        cy="273.49918"
-       r="44.5" />
+       r="44.5"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        id="g12577-5"
-       transform="translate(85.541725,57.023339)">
+       transform="translate(85.541725,57.023339)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle12547-2"
@@ -7166,7 +7658,10 @@
     </g>
     <g
        id="g12589-7"
-       transform="translate(100.83292,57.023339)">
+       transform="translate(100.83292,57.023339)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -7226,7 +7721,10 @@
     </g>
     <g
        transform="translate(115.94731,57.023339)"
-       id="g12611-2">
+       id="g12611-2"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle12613-0"
@@ -7286,7 +7784,10 @@
     </g>
     <g
        id="g12633-7"
-       transform="translate(80.299304,62.840278)">
+       transform="translate(80.299304,62.840278)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -7346,7 +7847,10 @@
     </g>
     <g
        transform="translate(95.590495,62.840278)"
-       id="g12655-4">
+       id="g12655-4"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle12657-9"
@@ -7406,7 +7910,10 @@
     </g>
     <g
        id="g12677-9"
-       transform="translate(110.7049,62.840278)">
+       transform="translate(110.7049,62.840278)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -7466,7 +7973,10 @@
     </g>
     <g
        id="g12527-1"
-       transform="matrix(-1,0,0,1,569.67707,56.273339)">
+       transform="matrix(-1,0,0,1,569.67707,56.273339)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(-0.75761943,-0.65269656,0.65269656,-0.75761943,316.19984,941.85606)"
          style="stroke:#000000"
@@ -7528,7 +8038,10 @@
     </g>
     <g
        id="g12515-9"
-       transform="translate(93.541725,57.148339)">
+       transform="translate(93.541725,57.148339)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g12495-0"
          style="stroke:#000000"
@@ -7588,7 +8101,10 @@
     </g>
     <g
        transform="translate(104.41673,70.148338)"
-       id="g12699-0">
+       id="g12699-0"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle12701-0"
@@ -7648,7 +8164,10 @@
     </g>
     <g
        transform="translate(170.27593,89.393138)"
-       id="g12743-6">
+       id="g12743-6"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle12745-6"
@@ -7708,7 +8227,10 @@
     </g>
     <g
        id="g12765-5"
-       transform="translate(181.67802,92.398338)">
+       transform="translate(181.67802,92.398338)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -7768,7 +8290,10 @@
     </g>
     <g
        transform="translate(177.14272,98.392058)"
-       id="g12831-7">
+       id="g12831-7"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle12833-5"
@@ -7828,7 +8353,10 @@
     </g>
     <g
        transform="translate(93.541725,57.148339)"
-       id="g12875-5">
+       id="g12875-5"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(0.75761943,-0.65269656,-0.65269656,-0.75761943,174.59988,941.73106)"
          style="stroke:#000000"
@@ -7888,7 +8416,10 @@
     </g>
     <g
        id="g12721-5"
-       transform="translate(158.16672,92.398338)">
+       transform="translate(158.16672,92.398338)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -7948,7 +8479,10 @@
     </g>
     <g
        transform="translate(152.92431,98.215288)"
-       id="g12787-8">
+       id="g12787-8"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle12789-8"
@@ -8008,7 +8542,10 @@
     </g>
     <g
        id="g12809-6"
-       transform="translate(164.85673,100.86694)">
+       transform="translate(164.85673,100.86694)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -8071,10 +8608,16 @@
        id="circle8065"
        cx="396.20093"
        cy="577.93042"
-       r="4.9497476" />
+       r="4.9497476"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        id="g12974"
-       transform="translate(-193.2279,203.86069)">
+       transform="translate(-193.2279,203.86069)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle12976"
@@ -8089,7 +8632,10 @@
     </g>
     <g
        transform="translate(202.45068,43.921944)"
-       id="g8067">
+       id="g8067"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle8069"
@@ -8149,7 +8695,10 @@
     </g>
     <g
        id="g8089"
-       transform="translate(214.91344,41.800624)">
+       transform="translate(214.91344,41.800624)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -8209,7 +8758,10 @@
     </g>
     <g
        transform="translate(224.90132,45.689711)"
-       id="g8111">
+       id="g8111"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle8113"
@@ -8269,7 +8821,10 @@
     </g>
     <g
        id="g8133"
-       transform="translate(194.37983,49.738886)">
+       transform="translate(194.37983,49.738886)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -8329,7 +8884,10 @@
     </g>
     <g
        transform="translate(206.13549,49.738886)"
-       id="g8155">
+       id="g8155"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle8157"
@@ -8389,7 +8947,10 @@
     </g>
     <g
        id="g8177"
-       transform="translate(218.06792,50.269216)">
+       transform="translate(218.06792,50.269216)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -8449,7 +9010,10 @@
     </g>
     <g
        id="g8199"
-       transform="matrix(-1,0,0,1,694.18742,43.171944)">
+       transform="matrix(-1,0,0,1,694.18742,43.171944)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(-0.75761943,-0.65269656,0.65269656,-0.75761943,316.19984,941.85606)"
          style="stroke:#000000"
@@ -8511,7 +9075,10 @@
     </g>
     <g
        transform="translate(226.4522,54.925624)"
-       id="g8221">
+       id="g8221"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle8223"
@@ -8571,7 +9138,10 @@
     </g>
     <g
        transform="translate(218.05207,44.046944)"
-       id="g8243">
+       id="g8243"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(0.75761943,-0.65269656,-0.65269656,-0.75761943,174.59988,941.73106)"
          style="stroke:#000000"
@@ -8631,7 +9201,10 @@
     </g>
     <g
        id="g8265"
-       transform="translate(-157.72685,89.90128)">
+       transform="translate(-157.72685,89.90128)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -8691,7 +9264,10 @@
     </g>
     <g
        id="g8287"
-       transform="translate(-135.27622,91.669047)">
+       transform="translate(-135.27622,91.669047)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -8751,7 +9327,10 @@
     </g>
     <g
        id="g8309"
-       transform="translate(-154.04204,95.718223)">
+       transform="translate(-154.04204,95.718223)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -8811,7 +9390,10 @@
     </g>
     <g
        transform="translate(-142.10962,96.248553)"
-       id="g8331">
+       id="g8331"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle8333"
@@ -8871,7 +9453,10 @@
     </g>
     <g
        transform="matrix(-1,0,0,1,329.23691,83.406038)"
-       id="g8353">
+       id="g8353"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g8355"
          style="stroke:#000000"
@@ -8933,7 +9518,10 @@
     </g>
     <g
        id="g8375"
-       transform="translate(-133.72534,100.90496)">
+       transform="translate(-133.72534,100.90496)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -8993,7 +9581,10 @@
     </g>
     <g
        id="g8397"
-       transform="translate(-142.12547,90.02628)">
+       transform="translate(-142.12547,90.02628)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g8399"
          style="stroke:#000000"
@@ -9053,7 +9644,10 @@
     </g>
     <g
        transform="translate(-159.43374,102.7009)"
-       id="g8419">
+       id="g8419"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle8421"
@@ -9113,7 +9707,10 @@
     </g>
     <g
        id="g8441"
-       transform="translate(55.273144,89.90128)">
+       transform="translate(55.273144,89.90128)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -9173,7 +9770,10 @@
     </g>
     <g
        id="g8463"
-       transform="translate(77.723774,91.669047)">
+       transform="translate(77.723774,91.669047)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -9233,7 +9833,10 @@
     </g>
     <g
        id="g8485"
-       transform="translate(58.957954,95.718223)">
+       transform="translate(58.957954,95.718223)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -9293,7 +9896,10 @@
     </g>
     <g
        transform="translate(70.890374,96.248553)"
-       id="g8507">
+       id="g8507"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle8509"
@@ -9353,7 +9959,10 @@
     </g>
     <g
        transform="matrix(-1,0,0,1,542.2369,83.406038)"
-       id="g8529">
+       id="g8529"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g8531"
          style="stroke:#000000"
@@ -9415,7 +10024,10 @@
     </g>
     <g
        id="g8573"
-       transform="translate(70.874524,90.02628)">
+       transform="translate(70.874524,90.02628)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g8575"
          style="stroke:#000000"
@@ -9475,7 +10087,10 @@
     </g>
     <g
        transform="translate(53.566254,102.7009)"
-       id="g8595">
+       id="g8595"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle8597"
@@ -9535,7 +10150,10 @@
     </g>
     <g
        transform="translate(55.273144,89.90128)"
-       id="g8617">
+       id="g8617"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle8619"
@@ -9595,7 +10213,10 @@
     </g>
     <g
        transform="translate(77.723774,91.669047)"
-       id="g8639">
+       id="g8639"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle8641"
@@ -9655,7 +10276,10 @@
     </g>
     <g
        transform="translate(58.957954,95.718223)"
-       id="g8661">
+       id="g8661"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle8663"
@@ -9715,7 +10339,10 @@
     </g>
     <g
        id="g8683"
-       transform="translate(70.890374,96.248553)">
+       transform="translate(70.890374,96.248553)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -9775,7 +10402,10 @@
     </g>
     <g
        id="g8705"
-       transform="matrix(-1,0,0,1,542.2369,83.406038)">
+       transform="matrix(-1,0,0,1,542.2369,83.406038)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(-0.75761943,-0.65269656,0.65269656,-0.75761943,316.19984,941.85606)"
          style="stroke:#000000"
@@ -9837,7 +10467,10 @@
     </g>
     <g
        transform="translate(70.874524,90.02628)"
-       id="g8749">
+       id="g8749"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(0.75761943,-0.65269656,-0.65269656,-0.75761943,174.59988,941.73106)"
          style="stroke:#000000"
@@ -9897,7 +10530,10 @@
     </g>
     <g
        id="g8771"
-       transform="translate(53.566254,102.7009)">
+       transform="translate(53.566254,102.7009)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -9957,7 +10593,10 @@
     </g>
     <g
        id="g8041"
-       transform="translate(-257.7279,247.36069)">
+       transform="translate(-257.7279,247.36069)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle8043"
@@ -10011,10 +10650,16 @@
        d="M 88.999883,339.49914 39.675857,307.96125 107.45729,282.15587 Z"
        id="path8795"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        id="g6359"
-       transform="matrix(-1.2900857,1.2527019,1.2416906,1.3015261,18.865724,-817.6855)">
+       transform="matrix(-1.2900857,1.2527019,1.2416906,1.3015261,18.865724,-817.6855)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g6361">
         <circle
@@ -10060,7 +10705,10 @@
     </g>
     <g
        transform="matrix(-1.2900857,1.2527019,1.2416906,1.3015261,30.89385,-813.85345)"
-       id="g6379">
+       id="g6379"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g6381">
         <circle
@@ -10106,7 +10754,10 @@
     </g>
     <g
        id="g6399"
-       transform="matrix(-1.5381799,-0.92470822,-0.91658007,1.5518205,1077.0601,-69.589288)">
+       transform="matrix(-1.5381799,-0.92470822,-0.91658007,1.5518205,1077.0601,-69.589288)"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g6401">
         <circle
@@ -10152,7 +10803,10 @@
     </g>
     <g
        transform="matrix(-1.601546,-0.8078301,-0.80072932,1.6157483,1044.8815,-102.63979)"
-       id="g6419">
+       id="g6419"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(0.33702773,-0.94149472,0.94149472,0.33702773,37.002409,641.4827)"
          style="stroke:#000000;stroke-width:0.55602354"
@@ -10233,7 +10887,10 @@
     </g>
     <g
        transform="matrix(-1.0267792,-1.4799242,-1.4669156,1.0358846,1149.1336,396.37022)"
-       id="g6449">
+       id="g6449"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g6451">
         <circle
@@ -10281,7 +10938,10 @@
        transform="matrix(-1.6392343,-0.72682446,-0.72043569,1.653771,988.80483,-123.58369)"
        id="g6469"
        inkscape:transform-center-x="-4.1939051"
-       inkscape:transform-center-y="2.4600099">
+       inkscape:transform-center-y="2.4600099"
+       inkscape:export-filename="./heat-shock-damage.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g6471"
          style="stroke:#000000;stroke-width:0.55602354"
@@ -10364,16 +11024,25 @@
        d="M 85.558651,606.32756 36.234625,574.78967 104.01606,548.98429 Z"
        inkscape:transform-center-y="2.6143663"
        inkscape:transform-center-x="2.4076866"
-       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <circle
        r="44.5"
        cy="539.82758"
        cx="60.931309"
        id="circle6499"
-       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        id="g6699"
-       transform="matrix(1.8108792,0,0,1.8291269,-390.66195,-435.79248)">
+       transform="matrix(1.8108792,0,0,1.8291269,-390.66195,-435.79248)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -10437,27 +11106,42 @@
        cx="85.708252"
        cy="529.51575"
        rx="8.9633951"
-       ry="9.0537167" />
+       ry="9.0537167"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="csc"
        inkscape:connector-curvature="0"
        id="path6725"
        d="m 80.245282,528.48596 c 0.881247,0.89013 2.595986,2.10176 5.161947,2.10176 2.676607,0 4.335879,-1.26737 5.161948,-2.10176"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 81.870836,525.31124 c 0,0 0.67908,-0.5716 1.244979,-0.5716 0.5659,0 1.1318,0.5716 1.1318,0.5716"
        id="path6727"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        inkscape:connector-curvature="0"
        id="path6729"
        d="m 86.47257,525.31124 c 0,0 0.67908,-0.5716 1.244979,-0.5716 0.5659,0 1.1318,0.5716 1.1318,0.5716"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        transform="matrix(1.7844158,-0.31156167,-0.30845346,-1.8023969,-408.98273,1095.5691)"
        id="g6731"
-       style="stroke:#000000;stroke-width:0.54945654">
+       style="stroke:#000000;stroke-width:0.54945654"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <path
          sodipodi:nodetypes="cccc"
          inkscape:connector-curvature="0"
@@ -10473,7 +11157,10 @@
     </g>
     <g
        id="g6743"
-       transform="matrix(1.8108792,0,0,1.8291269,-383.9892,-425.15255)">
+       transform="matrix(1.8108792,0,0,1.8291269,-383.9892,-425.15255)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="525.97485"
@@ -10537,27 +11224,42 @@
        id="circle6767"
        style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        rx="8.9633951"
-       ry="9.0537167" />
+       ry="9.0537167"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 67.870825,536.86246 c 0.881246,0.89012 2.595986,2.10175 5.161947,2.10175 2.676606,0 4.335879,-1.26736 5.161947,-2.10175"
        id="path6769"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        inkscape:connector-curvature="0"
        id="path6771"
        d="m 69.496379,533.68774 c 0,0 0.679079,-0.57161 1.244979,-0.57161 0.5659,0 1.1318,0.57161 1.1318,0.57161"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 74.098112,533.68774 c 0,0 0.67908,-0.57161 1.24498,-0.57161 0.5659,0 1.131799,0.57161 1.131799,0.57161"
        id="path6773"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        transform="matrix(-1.7844158,-0.31156167,0.30845346,-1.8023969,568.05656,1104.1073)"
        id="g6781"
-       style="stroke:#000000;stroke-width:0.54945654">
+       style="stroke:#000000;stroke-width:0.54945654"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <path
          sodipodi:nodetypes="cccc"
          inkscape:connector-curvature="0"
@@ -10573,7 +11275,10 @@
     </g>
     <g
        transform="matrix(-1.8108792,0,0,1.8291269,491.17058,-447.6731)"
-       id="g6787">
+       id="g6787"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          id="g6789"
          style="stroke:#000000;stroke-width:0.54945654"
@@ -10639,27 +11344,42 @@
        cx="88.516716"
        cy="546.40948"
        rx="8.9633951"
-       ry="9.0537167" />
+       ry="9.0537167"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="csc"
        inkscape:connector-curvature="0"
        id="path6813"
        d="m 83.053742,545.37962 c 0.881246,0.89013 2.595986,2.10176 5.161947,2.10176 2.676606,0 4.335879,-1.26736 5.161947,-2.10176"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 84.679296,542.2049 c 0,0 0.679079,-0.5716 1.244979,-0.5716 0.5659,0 1.1318,0.5716 1.1318,0.5716"
        id="path6815"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        inkscape:connector-curvature="0"
        id="path6817"
        d="m 89.28103,542.2049 c 0,0 0.679079,-0.5716 1.244979,-0.5716 0.5659,0 1.131799,0.5716 1.131799,0.5716"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        transform="matrix(1.7844158,-0.31156167,-0.30845346,-1.8023969,-406.17427,1112.4628)"
        id="g6819"
-       style="stroke:#000000;stroke-width:0.54945654">
+       style="stroke:#000000;stroke-width:0.54945654"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <path
          sodipodi:nodetypes="cccc"
          inkscape:connector-curvature="0"
@@ -10676,7 +11396,10 @@
     <g
        transform="matrix(1.3719572,-1.1938649,-1.1819546,-1.3857821,-49.362987,1286.9818)"
        style="stroke:#000000;stroke-width:0.54945654"
-       id="g6833">
+       id="g6833"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <path
          style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.54945654px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
          d="m 315.56379,260.15271 -1.61309,-3.69021 0.63852,-1.94552"
@@ -10693,7 +11416,10 @@
     <g
        style="stroke:#000000;stroke-width:0.54945654"
        id="g6863"
-       transform="matrix(1.7844158,-0.31156167,-0.30845346,-1.8023969,-449.59653,1115.7478)">
+       transform="matrix(1.7844158,-0.31156167,-0.30845346,-1.8023969,-449.59653,1115.7478)"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <path
          style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.54945654px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
          d="m 316.75129,259.02771 -2.02842,-0.79875 -0.77217,-1.76646 0.92808,-0.93252"
@@ -10712,53 +11438,80 @@
        d="m 59.728989,550.44868 -3.583187,-1.68422 -3.327891,1.17789 -0.103623,2.38512"
        id="path6927"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <ellipse
        style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle6839"
        cx="66.96701"
        cy="549.83234"
        rx="8.9633951"
-       ry="9.0537167" />
+       ry="9.0537167"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 63.129595,545.62777 c 0,0 0.679079,-0.57159 1.244979,-0.57159 0.5659,0 1.1318,0.57159 1.1318,0.57159"
        id="path6843"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        inkscape:connector-curvature="0"
        id="path6845"
        d="m 67.731328,545.62777 c 0,0 0.67908,-0.57159 1.24498,-0.57159 0.5659,0 1.131799,0.57159 1.131799,0.57159"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <ellipse
        cy="549.6944"
        cx="45.094452"
        id="circle6855"
        style="opacity:1;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        rx="8.9633951"
-       ry="9.0537167" />
+       ry="9.0537167"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 39.631481,548.66462 c 0.881246,0.89013 2.595986,2.10176 5.161947,2.10176 2.676607,0 4.335879,-1.26736 5.161948,-2.10176"
        id="path6857"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        inkscape:connector-curvature="0"
        id="path6859"
        d="m 41.257035,545.4899 c 0,0 0.67908,-0.5716 1.244979,-0.5716 0.5659,0 1.1318,0.5716 1.1318,0.5716"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 45.858769,545.4899 c 0,0 0.67908,-0.5716 1.244979,-0.5716 0.5659,0 1.1318,0.5716 1.1318,0.5716"
        id="path6861"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="csc"
        inkscape:connector-curvature="0"
        id="path8793"
        d="m 61.375015,548.66462 c 0.881246,0.89013 2.595986,2.10176 5.161947,2.10176 2.676607,0 4.335879,-1.26736 5.161948,-2.10176"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="./heat-shock-assembly.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:'Open Sans Light';-inkscape-font-specification:'Open Sans Light,  Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
