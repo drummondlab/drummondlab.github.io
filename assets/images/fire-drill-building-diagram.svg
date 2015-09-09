@@ -42,8 +42,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="460.67543"
-     inkscape:cy="102.15755"
+     inkscape:cx="553.90229"
+     inkscape:cy="639.55869"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -97,7 +97,10 @@
        height="166.8772"
        width="180"
        id="rect8200"
-       style="fill:#44aa00;fill-opacity:1;stroke:#000000;stroke-width:1.18920708;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="fill:#44aa00;fill-opacity:1;stroke:#000000;stroke-width:1.18920708;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <rect
        transform="matrix(1,0,-0.70710678,0.70710678,0,0)"
        style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:1.18920708;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -105,7 +108,10 @@
        width="27.125"
        height="89.603813"
        x="332.6774"
-       y="-133.13583" />
+       y="-133.13583"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <rect
        transform="matrix(1,0,-0.70710678,0.70710678,0,0)"
        y="195.61272"
@@ -1693,23 +1699,35 @@
        inkscape:connector-curvature="0"
        id="path8204"
        d="m 307.69491,20.96189 0,-70.75 30.5,-30.5 43.5,0 0,71.9999999 -29,29.2500001 z"
-       style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="cccccccccccccccccccccccccccccc"
        inkscape:connector-curvature="0"
        id="path8206"
        d="m 305.55624,-51.34368 0,72.65625 47.0664,0 0,-72.65625 z m 3.92382,6.55469 17.5,0 0,17.5 -17.5,0 z m 21,0 17.5,0 0,17.5 -17.5,0 z m -21,21.375 17.5,0 0,17.4999999 -17.5,0 z m 21,0 17.5,0 0,17.4999999 -17.5,0 z m -15.30078,23.2499999 27.125,0 0,21.3750001 -27.125,0 z"
-       style="fill:#999999;fill-opacity:1;stroke:#4d4d4d;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="fill:#999999;fill-opacity:1;stroke:#4d4d4d;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path8210"
        d="m 305.57756,-51.38097 30.80966,-30.80965 46.97209,0 -30.80966,30.80965 z"
-       style="fill:#ececec;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:#ececec;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        style="fill:#666666"
        id="g8212"
-       transform="translate(83.575071,-273.65032)">
+       transform="translate(83.575071,-273.65032)"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <rect
          y="273.25839"
          x="231.69482"
@@ -2006,7 +2024,10 @@
     <g
        id="g8874"
        style="stroke:#000000"
-       transform="matrix(-0.75761943,-0.65269656,0.65269656,-0.75761943,403.11785,392.22219)">
+       transform="matrix(-0.75761943,-0.65269656,0.65269656,-0.75761943,403.11785,392.22219)"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <path
          sodipodi:nodetypes="ccc"
          inkscape:connector-curvature="0"
@@ -2023,7 +2044,10 @@
     <g
        id="g8880"
        transform="matrix(-1,0,0,1,658.70048,-273.77826)"
-       style="stroke:#000000">
+       style="stroke:#000000"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <path
          style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
          d="m 315.56379,260.15271 -1.61309,-3.69021 0.92808,-0.93252"
@@ -2039,7 +2063,10 @@
     </g>
     <g
        id="g9430"
-       transform="translate(-564.97828,-273.65032)">
+       transform="translate(-564.97828,-273.65032)"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle8886"
@@ -2068,7 +2095,10 @@
     <g
        transform="matrix(-0.75761943,-0.65269656,0.65269656,-0.75761943,424.53908,446.62522)"
        style="stroke:#000000"
-       id="g8896">
+       id="g8896"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <path
          style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
          d="m 315.56379,260.15271 -1.61309,-3.69021 0.63852,-1.94552"
@@ -2085,7 +2115,10 @@
     <g
        style="stroke:#000000"
        transform="matrix(-1,0,0,1,681.49668,-216.96898)"
-       id="g9476">
+       id="g9476"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <path
          sodipodi:nodetypes="cccc"
          inkscape:connector-curvature="0"
@@ -2102,7 +2135,10 @@
     <g
        style="stroke:#000000"
        id="g9480"
-       transform="translate(-3.2605285,-292.34398)">
+       transform="translate(-3.2605285,-292.34398)"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <path
          style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
          d="m 316.75129,259.02771 -2.02842,-0.79875 -0.77217,-1.76646 0.92808,-0.93252"
@@ -2121,29 +2157,44 @@
        id="circle8908"
        cx="359.90656"
        cy="43.494026"
-       r="4.9497476" />
+       r="4.9497476"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <circle
        style="fill:#000000;fill-opacity:1;stroke:none"
        id="circle8910"
        cx="358.62006"
        cy="40.966774"
-       r="1" />
+       r="1"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <circle
        r="1"
        cy="40.966774"
        cx="360.82977"
        id="circle8912"
-       style="fill:#000000;fill-opacity:1;stroke:none" />
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="csc"
        inkscape:connector-curvature="0"
        id="path8914"
        d="m 356.88982,42.93101 c 0.48664,0.48664 1.43355,1.14905 2.85052,1.14905 1.47807,0 2.39435,-0.69288 2.85052,-1.14905"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        id="g8940"
        style="stroke:#000000"
-       transform="matrix(0.75761943,-0.65269656,-0.65269656,-0.75761943,253.95981,370.72736)">
+       transform="matrix(0.75761943,-0.65269656,-0.65269656,-0.75761943,253.95981,370.72736)"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <path
          sodipodi:nodetypes="ccc"
          inkscape:connector-curvature="0"
@@ -2163,11 +2214,17 @@
        cx="-318.59229"
        id="circle8952"
        style="fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="scale(-1,1)" />
+       transform="scale(-1,1)"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        style="stroke:#000000"
        transform="translate(19.855021,-294.11545)"
-       id="g8968">
+       id="g8968"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <path
          sodipodi:nodetypes="ccc"
          inkscape:connector-curvature="0"
@@ -2186,42 +2243,66 @@
        id="circle8974"
        cx="340.33087"
        cy="-32.371208"
-       r="4.9497476" />
+       r="4.9497476"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="csc"
        inkscape:connector-curvature="0"
        id="path8976"
        d="m 337.31418,-32.93421 c 0.48664,0.48664 1.43355,1.14905 2.85052,1.14905 1.47807,0 2.39435,-0.69288 2.85052,-1.14905"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        inkscape:connector-curvature="0"
        id="path8978"
        d="m 338.27212,-34.65819 c 0,0 0.375,-0.3125 0.6875,-0.3125 0.3125,0 0.625,0.3125 0.625,0.3125"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 340.81328,-34.65819 c 0,0 0.375,-0.3125 0.6875,-0.3125 0.3125,0 0.625,0.3125 0.625,0.3125"
        id="path8980"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        sodipodi:nodetypes="sssss"
        inkscape:connector-curvature="0"
        id="path9198"
        d="m 315.82212,-33.53064 c 0,1.68275 1.36413,3.04688 3.04688,3.04688 1.68275,0 3.04688,-1.36413 3.04688,-3.04688 0,-1.68274 -1.36413,-0.18708 -3.04688,-0.18708 -1.68275,0 -3.04688,-1.49566 -3.04688,0.18708 z"
-       style="fill:#000000;fill-opacity:1;stroke:none" />
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        inkscape:connector-curvature="0"
        id="path9200"
        d="m 316.95962,-35.34569 c 0,0 0.375,-0.3125 0.6875,-0.3125 0.3125,0 0.625,0.3125 0.625,0.3125"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 319.50078,-35.34569 c 0,0 0.375,-0.3125 0.6875,-0.3125 0.3125,0 0.625,0.3125 0.625,0.3125"
        id="path9202"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        id="g9355"
-       transform="translate(-566.03898,-273.38516)">
+       transform="translate(-566.03898,-273.38516)"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <g
          transform="matrix(0.75761943,-0.65269656,-0.65269656,-0.75761943,819.96395,665.1557)"
          style="stroke:#000000"
@@ -2289,7 +2370,10 @@
     </g>
     <g
        id="g9303"
-       transform="translate(-200.11121,-408.70771)">
+       transform="translate(-200.11121,-408.70771)"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle9305"
@@ -2317,7 +2401,10 @@
     </g>
     <g
        id="g9335"
-       transform="translate(-428.83819,-308.6908)">
+       transform="translate(-428.83819,-308.6908)"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="291.80463"
@@ -2344,7 +2431,10 @@
     </g>
     <g
        transform="translate(-97.878349,-463.08639)"
-       id="g9345">
+       id="g9345"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="429.60883"
@@ -2373,7 +2463,10 @@
     <g
        id="g9370"
        style="stroke:#000000"
-       transform="matrix(0.75761943,-0.65269656,-0.65269656,-0.75761943,282.93913,446.50022)">
+       transform="matrix(0.75761943,-0.65269656,-0.65269656,-0.75761943,282.93913,446.50022)"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <path
          sodipodi:nodetypes="ccc"
          inkscape:connector-curvature="0"
@@ -2392,26 +2485,41 @@
        cy="43.494026"
        cx="347.17865"
        id="circle9382"
-       style="fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 344.1619,42.93101 c 0.48664,0.48664 1.43355,1.14905 2.85052,1.14905 1.47807,0 2.39435,-0.69288 2.85052,-1.14905"
        id="path9388"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        inkscape:connector-curvature="0"
        id="path9331"
        d="m 345.05956,41.19536 c 0,0 0.375,-0.3125 0.6875,-0.3125 0.3125,0 0.625,0.3125 0.625,0.3125"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 347.60072,41.19536 c 0,0 0.375,-0.3125 0.6875,-0.3125 0.3125,0 0.625,0.3125 0.625,0.3125"
        id="path9333"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        id="g9410"
-       transform="translate(-100.97213,-498.81431)">
+       transform="translate(-100.97213,-498.81431)"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="442.69028"
@@ -2437,7 +2545,10 @@
     </g>
     <g
        transform="translate(-540.10328,-303.90032)"
-       id="g9446">
+       id="g9446"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle9448"
@@ -2465,7 +2576,10 @@
     </g>
     <g
        id="g9456"
-       transform="translate(-531.35332,-289.27532)">
+       transform="translate(-531.35332,-289.27532)"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="262.7413"
@@ -2493,7 +2607,10 @@
     </g>
     <g
        id="g9436"
-       transform="translate(-545.97828,-297.27532)">
+       transform="translate(-545.97828,-297.27532)"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          r="4.9497476"
          cy="262.7413"
@@ -2521,7 +2638,10 @@
     </g>
     <g
        transform="translate(-104.59713,-493.81431)"
-       id="g9263">
+       id="g9263"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <circle
          style="fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="circle9265"
@@ -2549,11 +2669,17 @@
        inkscape:connector-curvature="0"
        id="path8208"
        d="m 383.64803,-82.19134 -31.15624,31.03321 0,72.4707 31.15624,-31.0332001 0,-72.4707099 z m -3.32811,10.71485 0,17.5 -10.96681,10.96679 0,-17.5 10.96681,-10.96679 z m -13.15821,13.16015 0,17.5 -10.9668,10.96485 0,-17.5 10.9668,-10.96485 z m 13.15821,8.21485 0,17.5 -10.96681,10.96679 0,-17.5 10.96681,-10.96679 z m -13.15821,13.16015 0,17.5 -10.9668,10.9648499 0,-17.4999999 10.9668,-10.96485 z"
-       style="fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077" />
     <g
        transform="matrix(-1,0,0,1,662.36538,-292.32882)"
        id="g9502"
-       style="stroke:#000000">
+       style="stroke:#000000"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <path
          sodipodi:nodetypes="cccc"
          inkscape:connector-curvature="0"
@@ -2570,7 +2696,10 @@
     <g
        style="stroke:#000000"
        id="g9508"
-       transform="matrix(0.98538646,-0.17033354,-0.17033354,-0.98538646,74.001401,352.96046)">
+       transform="matrix(0.98538646,-0.17033354,-0.17033354,-0.98538646,74.001401,352.96046)"
+       inkscape:export-filename="./cellular-institute.png"
+       inkscape:export-xdpi="300.01077"
+       inkscape:export-ydpi="300.01077">
       <path
          style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
          d="m 316.75129,259.02771 -2.02842,-0.79875 -0.77217,-1.76646 0.92808,-0.93252"
@@ -6246,14 +6375,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:'Open Sans Light';-inkscape-font-specification:'Open Sans Light,  Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       x="447.54324"
-       y="35.423187"
+       x="225.54324"
+       y="115.42319"
        id="text14453"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan14455"
-         x="447.54324"
-         y="35.423187">pre-shock</tspan></text>
+         x="225.54324"
+         y="115.42319">pre-shock</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:'Open Sans Light';-inkscape-font-specification:'Open Sans Light,  Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
