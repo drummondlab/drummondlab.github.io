@@ -2,34 +2,35 @@
 layout: paper
 title: "Reversible, specific, active aggregates of endogenous proteins assemble upon heat stress"
 year: "2015"
-shortref: "Wallace <i>et al. Cell</i> 2015 (in press)"
+shortref: "Wallace <i>et al. Cell</i> 2015"
 nickname: aggregates-heat-stress
 journal: "Cell"
-volume: 
-issue: 
+volume: 162
+issue: 6
 pages: 
 authors: "Wallace EWJ, Kear-Scott JL, Pilipenko EV, Schwartz MH, Laskowski PR, Rojek AE, Katanski CD, Riback JA, Dion MF, Franks AM, Airoldi EM, Pan T, Budnik BA, Drummond DA"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/endogenous-aggregates-graphical-abstract.svg
 redirect_from: /endogenous-aggregates/
-fulltext: 
+fulltext: http://authors.elsevier.com/a/1Rh6nL7PXI6vs
 pdf: 
 pdflink: 
 github: 
 pmid: 
 pmcid: 
 f1000: 
+doi: "10.1016/j.cell.2015.08.041"
+dryad_doi: "10.5061/dryad.hn16c"
 figshare: 
-doi: 
 category: paper
 published: true
-embargo: true
+embargo: false
 peerreview: true
 review: false
 tags: [aggregation, heat shock, disaggregation, protein, translation, yeast]
 ---
 {% include JB/setup %}
 
-# Summary 
+# Abstract 
 
 Heat causes protein misfolding and aggregation, and in eukaryotic cells triggers aggregation of proteins and RNA into stress granules. We have carried out extensive proteomic studies to quantify heat-triggered aggregation and subsequent disaggregation in budding yeast, identifying more than 170 endogenous proteins aggregating within minutes of heat shock in multiple subcellular compartments.  We demonstrate that these aggregated proteins are not misfolded and destined for degradation.  Stable-isotope labeling reveals that even severely aggregated endogenous proteins are disaggregated without degradation during recovery from shock, contrasting with the rapid degradation observed for exogenous thermolabile proteins. Although aggregation likely inactivates many cellular proteins, in the case of a heterotrimeric aminoacyl-tRNA synthetase complex, the aggregated proteins remain active with unaltered fidelity. We propose that most heat-induced aggregation of mature proteins reflects the operation of an adaptive, autoregulatory process of functionally significant aggregate assembly and disassembly that aids cellular adaptation to thermal stress.
 
@@ -43,13 +44,14 @@ Heat causes protein misfolding and aggregation, and in eukaryotic cells triggers
 
 ## Processed data
 
-Processed data is shared on [Dryad](http://datadryad.org/).
+Processed data is shared on [Dryad](http://dx.doi.org/10.5061/dryad.hn16c).
 
 Some data is also held on [SGD](http://www.yeastgenome.org/).
 
 ## Raw data
 
 Raw mass spectrometry data is shared on [Chorus](https://chorusproject.org/).
+
 
 
 [1]: /data/heat-aggregation-yeast-visualization
