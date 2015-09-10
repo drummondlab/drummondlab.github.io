@@ -9,9 +9,9 @@ volume: 162
 issue: 6
 pages: 
 authors: "Wallace EWJ, Kear-Scott JL, Pilipenko EV, Schwartz MH, Laskowski PR, Rojek AE, Katanski CD, Riback JA, Dion MF, Franks AM, Airoldi EM, Pan T, Budnik BA, Drummond DA"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/endogenous-aggregates-graphical-abstract.svg
 redirect_from: /endogenous-aggregates/
-fulltext: 
+fulltext: http://authors.elsevier.com/a/1Rh6nL7PXI6vs
 pdf: 
 pdflink: 
 github: 
@@ -23,7 +23,7 @@ dryad_doi: "10.5061/dryad.hn16c"
 figshare: 
 category: paper
 published: true
-embargo: true
+embargo: false
 peerreview: true
 review: false
 tags: [aggregation, heat shock, disaggregation, protein, translation, yeast]
@@ -51,6 +51,7 @@ Some data is also held on [SGD](http://www.yeastgenome.org/).
 ## Raw data
 
 Raw mass spectrometry data is shared on [Chorus](https://chorusproject.org/).
+
 
 
 [1]: /data/heat-aggregation-yeast-visualization
