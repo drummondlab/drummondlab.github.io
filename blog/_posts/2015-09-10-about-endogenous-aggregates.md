@@ -2,6 +2,7 @@
 layout: post
 title: "Rethinking heat-induced aggregation"
 description: ""
+author: "D. Allan Drummond"
 author_handle: dad
 category: blog
 published: true
@@ -15,6 +16,8 @@ We've just published a [paper][1] on how cells respond to heat stress.
 ### What did we do?
 
 We measured heat-induced protein aggregation and disaggregation in budding yeast, a beautiful and hardy free-living unicellular organism that grows happily at 30°C, gets stressed out starting around 37°C, and dies pretty fast at 50°C.
+
+### What did we find?
 
 We discovered that aggregates of endogenous proteins that form after heat stress are fully reversible, form rapidly at specific locations, and in certain cases retain function and fidelity in vitro.
 
