@@ -25,7 +25,13 @@
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
     </ul>
-  {% endunless %}  
+  {% endunless %}
+
+    <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
+  <div class="post-sharing">
+   {% include JB/sharing %}
+  </div>
+
   
   {% comment %}
     <hr>
