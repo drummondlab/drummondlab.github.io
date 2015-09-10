@@ -21,7 +21,7 @@ We measured heat-induced protein aggregation and disaggregation in budding yeast
 
 We discovered that aggregates of endogenous proteins that form after heat stress are fully reversible, form rapidly at specific locations, and in certain cases retain function and fidelity in vitro.
 
-The behavior of endogenous, mature proteins in vivo does not match expectations from studies that use exogenous/reporter proteins or that focus on newly synthesized proteins. In those studies, proteins are often degraded, and aggregated proteins lose their function.
+The behavior of endogenous, mature proteins in vivo does not match expectations from studies that use exogenous/reporter proteins or that focus on newly synthesized proteins. In those studies, aggregated proteins are often (but not always) degraded and generally lose their function.
 
 ### Ideas
 
