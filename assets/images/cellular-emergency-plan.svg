@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="cellular-emergency-plan.svg"
-   inkscape:export-filename="./emergency-plan.png"
+   inkscape:export-filename="./cellular-emergency-plan.png"
    inkscape:export-xdpi="300.01099"
    inkscape:export-ydpi="300.01099">
   <defs
@@ -94,22 +94,25 @@
          y="251.81757"
          x="145.17696"
          sodipodi:role="line"
-         id="tspan9704">and hold their hands.</tspan></text>
+         id="tspan9704">and hold hands.</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="145.17696"
        y="276.81757"
        id="text9669"
-       sodipodi:linespacing="100%"><tspan
-         id="tspan9673"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="./text9669.png"
+       inkscape:export-xdpi="300.01099"
+       inkscape:export-ydpi="300.01099"><tspan
          sodipodi:role="line"
          x="145.17696"
-         y="276.81757">Proceed to your assigned</tspan><tspan
+         y="276.81757"
+         id="tspan9677">Proceed to your designated</tspan><tspan
          sodipodi:role="line"
          x="145.17696"
          y="291.81757"
-         id="tspan9677">gathering points. </tspan></text>
+         id="tspan12312">assembly point. </tspan></text>
     <text
        sodipodi:linespacing="100%"
        id="text9679"
@@ -120,11 +123,11 @@
          id="tspan9683"
          y="316.81757"
          x="145.17696"
-         sodipodi:role="line">Calmly await instructions from</tspan><tspan
+         sodipodi:role="line">Return to work only when </tspan><tspan
          y="331.81757"
          x="145.17696"
          sodipodi:role="line"
-         id="tspan9687">emergency crews.</tspan></text>
+         id="tspan9687">directed by emergency crew.</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -149,12 +152,12 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.75348091px;line-height:100%;font-family:'Open Sans Light';-inkscape-font-specification:'Open Sans Light, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="128.25684"
+       x="128.58612"
        y="145.9532"
        id="text9655"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         x="128.25684"
+         x="128.58612"
          y="145.9532"
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Light';fill:#ffffff"
          id="tspan9729">The Cellular Institute</tspan></text>
@@ -217,13 +220,13 @@
        sodipodi:linespacing="100%"
        id="text9749"
        y="171.9532"
-       x="128.25684"
+       x="128.09898"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.75348091px;line-height:100%;font-family:'Open Sans Light';-inkscape-font-specification:'Open Sans Light, ';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          id="tspan9751"
          style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Ultra-Bold';fill:#ffffff"
          y="171.9532"
-         x="128.25684"
+         x="128.09898"
          sodipodi:role="line">EMERGENCY PLAN</tspan></text>
   </g>
 </svg>

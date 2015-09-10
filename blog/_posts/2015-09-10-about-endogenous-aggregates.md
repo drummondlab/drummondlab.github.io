@@ -42,7 +42,7 @@ Here is the idyllic campus of the Cellular Institute with its manicured grounds 
 
 When suddenly: *catastrophe*. A fire breaks out. (Heat shock!) What happens?
 
-What has long been observed---blurrily, as if from orbit, because our  aren't so great---is that suddenly the workers move to particular places and gather together in big groups.
+What has long been observed---blurrily, as if from orbit, because our instruments aren't so great---is that suddenly the workers move to particular places and gather together in big groups.
 
 <center>
 <img src="/assets/images/fire-drill-blurry.png" width=300px>
@@ -52,7 +52,7 @@ Then after a little while, emergency crews show up, and some time after that, ev
 
 So what's going on? 
 
-Most previous work has guessed, for many good empirical reasons, that mainly what's going on is that the workers are distressed, damaged, even dying. The clumping together is because---gruesomely---heat partially melts them and makes them sticky. Of course, these workers stop working. Some injured workers can be rescued; many of them are beyond saving. The emergency crews triage victims, rescue some, and dispose of the bodies of the rest.
+Most previous work has guessed, for many good empirical reasons, that mainly what's going on is that the workers are distressed, damaged, even dying. Workers clump together because---gruesomely---heat partially melts them and makes them sticky. Of course, these workers stop working. Some injured workers can be rescued; many of them are beyond saving. The emergency crews triage victims, rescue some, and dispose of the bodies of the rest.
 
 <center>
 <img src="/assets/images/heat-shock-damage.png" width=550px>
@@ -62,10 +62,10 @@ Most previous work has guessed, for many good empirical reasons, that mainly wha
 The alternative is that the institute has in place disaster-preparedness plans. What we observe is those plans being carried out to the letter, and the plans for heat shock look like the plans for a wide range of other emergencies:
 
 <center>
-<img src="/assets/images/emergency-plan.png" width=350px>
+<img src="/assets/images/cellular-emergency-plan.png" width=350px>
 </center>
 
-Some workers stop working, but not because they're damaged, just because the emergency crew needs room. Others continue to go about their business. Those clumps are groups of emergency buddies holding on to each other and collecting at [designated assembly points](http://www.potsdam.edu/about/physicalplant/evacuationplans/procedures.cfm). The emergency crew shows up and tends to the few workers who are actually injured. When they're done, the crew helps the assembled workers back to their original jobs.
+Some workers stop working, but not because they're damaged, just to clear the way for the emergency crew. Others continue to go about their business. Those clumps are groups of workers calmly holding on to each other and collecting at [designated assembly points](http://www.potsdam.edu/about/physicalplant/evacuationplans/procedures.cfm). The emergency crew shows up and tends to the few workers who are actually injured. When they're done, the crew helps the assembled workers let go of each other and return to their original jobs.
 
 <center>
 <img src="/assets/images/heat-shock-assembly.png" width=550px>
@@ -77,15 +77,17 @@ Our study provides evidence that this latter set of activities describes the beh
 <img src="/assets/images/fire-drill-building-diagram.png" width=750px>
 </center>
 
+The "emergency crew" here is, naturally, the team of heat-induced molecular chaperones.
+
 ## How the study unfolded
 
-Way back in the day, we spent a lot of time developing cryogenic lysis and cellular fractionation (total, supernatant, pellet) methods for budding yeast. Mike Dion did careful and exhaustive studies on cell lysis by all sorts of methods.
+Way back in the day, we spent a lot of time developing cryogenic lysis and cellular fractionation (total, supernatant, pellet) methods for budding yeast. Mike Dion did exquisite, exhaustive, exhausting studies on cell lysis by all sorts of methods.
 
-We'd also developed our mass spectrometry (MS) capabilities to be able to do proteomics. We wanted to know what proteins formed aggregates under normal conditions in yeast cells. But we needed a positive control, a condition where aggregation would be obvious. Mike did what we thought was a simple study: proteome-scale in vivo thermal denaturation. The idea was to heat cells fast (50°C for two to eight minutes, a lethal shock for the vast majority of cells), then watch proteins misfold and aggregate, measuring aggregation by MS.
+We'd also developed our mass spectrometry (MS) capabilities to be able to do proteomics. We wanted to know what proteins formed aggregates under normal conditions in yeast cells. But we needed a positive control, a condition where aggregation would be obvious. Mike did what we thought was a simple but cool experiment: proteome-scale in vivo thermal denaturation. The idea was to heat cells fast (50°C for two to eight minutes, a lethal shock for the vast majority of cells), then watch proteins misfold and aggregate, measuring aggregation by MS.
 
 Well, lots of proteins formed aggregates, but we couldn't see any rhyme or reason to which ones did or didn't. I'd thought, based on [previous][2] [work][3], that low-expression proteins would be more prone to aggregate. Nope. What we had was data but no insight.
 
-The next big step came when [Alexandra Rojek](/team/alexandra-rojek/) joined the group as a summer undergraduate researcher. She recombinantly purified a few proteins we'd found to be heat-sensitive in cells, heated them in vitro, and found that they aggregated. So the proteins themselves were sensitive to heat. And then she and [Jamie Scott](/team/jamie-scott/) found the this heat-sensitive aggregation-prone behavior was specific to certain protein domains, like the N-terminal domain of a protein called Gus1. Oddly, Gus1N didn't show much structural change when it aggregated. And graduate student [Josh Riback] 
+The next big step came when [Alexandra Rojek](/team/alexandra-rojek/) joined the group as a summer undergraduate researcher. She recombinantly purified a few proteins we'd found to be heat-sensitive in cells, heated them in vitro, and found that they aggregated. So the proteins themselves were sensitive to heat. And then she and [Jamie Scott](/team/jamie-scott/) found the this heat-sensitive aggregation-prone behavior was specific to certain protein domains, like the N-terminal domain of a protein called Gus1. Oddly, Gus1N didn't show much structural change when it aggregated. And graduate student [Josh Riback](/team/josh-riback/) showed that the onset of aggregation closely tracked the 
 
 We realized we'd been thinking about the problem all wrong. We'd tried to thermally denature proteins---physics---but we had instead stumbled upon a stress-triggered molecular assembly process---biology. This point of view locked in when we found the literature on [heat-shock granules](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC370018/), which were discovered in 1983 and studied by many groups since but which we'd been perfectly ignorant of. But studying a stress response using a lethal stress is obviously insane. We had to redo our entire study. What a terrible, necessary, awful realization!
 
@@ -95,17 +97,18 @@ Then a master's student on a one-year exchange program, [Pawel Laskowski], recon
 
 Jamie and Alexandra, with help from grad student [Chris Katanski](/team/chris-katanski/), built a bunch of strains to look at colocalization between aggregating proteins in live cells. They found all sorts of interesting stuff, most obviously new heat-shock granule components and new types of aggregates in the nucleus and nucleolus.
 
-We took the show on the road. The critical addition came when Edward and I talked about the work at the FASEB meeting _Protein Folding in the Cell_ in Vermont, he at his poster and I in a 12-minute talk. People kept asking, So, is the aggregation reversible? Turns out that for various reasons, this basic question had not been answered for anything but artificial reporter proteins. 
+We took the show on the road. The critical addition came when Edward and I talked about the work at the FASEB meeting _Protein Folding in the Cell_ in Vermont, he at his poster and I in a 12-minute talk. People kept asking, So, is the aggregation reversible? Turns out that for various reasons, this basic question had not been answered for cellular . 
 
-But we work with stable isotopes, which are perfect for this kind of question. In the back of the auditorium after my (pretty awful) talk, I sketched out the experiment. Actually, I made Figure 6A, the bottom experimental-design part, and showed it to Edward, who said, "Yep, I can do that." And he did, and in a gift from the universe and Edward's careful hands, it worked on the first try. Most importantly, it showed us what we'd not even dared hope: all the aggregates we could detect were fully reversible!
+But we work with stable isotopes, which are perfect for answering questions about . In the back of the auditorium after my (pretty awful) talk, I sketched out the experiment. Actually, I made Figure 6A, the bottom experimental-design part, and showed it to Edward, who said, "Yep, I can do that." And he did, and in a gift from the universe, it worked on the first try. Most importantly, the results showed us what we'd not even dared hope: all the aggregates we could detect were fully reversible!
 
-We wrote it up. While in Boston for the ASBMB annual meeting, we set up a meeting with Karen Carniol, who'd handled my 2008 [paper][2], and told her the story. She was interested---and suddenly formatting and edits that seemed like they would take weeks took two days. The reviews came back, some glowing, some positive but with many detailed criticisms and requests for additional experiments.
+We wrote it up. While in Boston for the ASBMB annual meeting, we set up a meeting with Karen Carniol, the editor at _Cell_ who'd handled my 2008 [paper][2], and told her the story. She was interested---and suddenly formatting and edits that seemed like they might take weeks took two days. The reviews came back, some quite heartwarming, one in particular supportive but with many detailed criticisms and requests for additional experiments.
 
 Most criticized were our experiments on activity in aggregated proteins. 
 
 ### Little things
 
-Our graphical abstract has no words.
+1. Our graphical abstract has no words.
+2. 
 	
 
 
