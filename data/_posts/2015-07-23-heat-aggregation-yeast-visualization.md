@@ -14,6 +14,6 @@ Choose detected proteins by official yeast name, from [SGD](http://www.yeastgeno
 
 Y-axis is proportion of protein in 100,000g supernatant, X-axis is either time or temperature of shock. 
 
-<iframe width="900" height="720" src="https://ewjwallace.shinyapps.io/psup_shiny/" frameborder="0"> </iframe>
+<iframe width="900" height="720" src="https://dadrummond.shinyapps.io/psup_shiny/" frameborder="0"> </iframe>
 
 [1]: /papers/aggregates-of-endogenous-proteins-form-upon-heat-stress
