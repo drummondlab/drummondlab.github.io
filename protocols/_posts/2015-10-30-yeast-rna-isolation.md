@@ -1,4 +1,5 @@
 ---
+layout: protocol
 title: "Yeast total RNA isolation protocol"
 author: "Edward Wallace & Evgeny Pilipenko"
 date: "28 October 2015"
@@ -7,7 +8,12 @@ tags: [RNA]
 output: html_document
 html_typeset: pandoc RNA_Isolation_Protocol.md -f markdown -t html -o RNA_Isolation_Protocol.html -s
 pdf_typeset: pandoc -V geometry:margin=0.5in RNA_Isolation_Protocol.md -f markdown -t latex -o RNA_Isolation_Protocol.pdf -s
+description: ""
+published: true
+category: protocol
 ---
+{% include JB/setup %}
+
 
 This is a yeast total RNA isolation protocol that works very well and reliably. It takes a couple of hours.
 We have also had success with the Zymo Direct-Zol columns which are faster but can be less clean if overloaded.
