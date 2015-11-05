@@ -9,6 +9,7 @@ tags: [yeast,RNA]
 ---
 {% include JB/setup %}
 
+
 This is a yeast total RNA isolation protocol that works very well and reliably. It takes a couple of hours.
 We have also had success with the Zymo Direct-Zol columns which are faster but can be less clean if overloaded.
 For general advice working with RNA consult *RNA: A Laboratory Manual*, from Cold Spring Harbor Press.
@@ -70,13 +71,13 @@ Use RNase-free water, reagents, and equipment throughout.
 13. Dry pellets thoroughly, i.e., pipette off ethanol, removing
     all liquid. If necessary, dry with the tubes open on a 37 heat block
     (if the RNA sample is pure, this should not degrade the RNA).
-    Resuspend pellet in 50  ul H$_2$O.
+    Resuspend pellet in 50  ul H<sub>2</sub>O.
 
 14. To check the quality of the RNA, pour a 1% agarose gel on RNA-free
     equipment, and run using RNA loading dye supplied with a ladder (RiboRuler High Range, 
     ThermoFisher #SM1821, or ssRNA Ladder, NEB #N0362S). Heat loading dye and
-    H$_2$O to 95 for 5 minutes, and then cool, to reduce the possibility
-    of contamination. Mix 1 ul sample, 5 ul H$_2$O, and 6 ul 2X loading dye for
+    H<sub>2</sub>O to 95 for 5 minutes, and then cool, to reduce the possibility
+    of contamination. Mix 1 ul sample, 5 ul H<sub>2</sub>O, and 6 ul 2X loading dye for
     each well. You should see clear ~4000nt and ~2000 nt bands corresponding to 
     ribosomal RNA (25S/18S), also a blur at ~80nt for tRNA, and good gels 
     show the 5S and 5.8S rRNAs at ~150nt.
