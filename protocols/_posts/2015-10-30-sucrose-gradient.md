@@ -1,13 +1,13 @@
 ---
-title: "Sucrose Gradient Protocol for Polysome Profiles"
+layout: protocol
+category: protocol
+published: false
+title: "Sucrose gradient protocol for polysome profiles"
 author: "Edward Wallace"
-date: "28 October 2015"
-nickname: RNAtagseq
-tags: [RNA, Ribosome, Polysome, Gradient ]
-output: html_document
-html_typeset: pandoc Sucrose_Gradient_Protocol.md -f markdown -t html -o Sucrose_Gradient_Protocol.html -s
-pdf_typeset: pandoc -V geometry:margin=0.5in Sucrose_Gradient_Protocol.md -f markdown -t latex -o Sucrose_Gradient_Protocol.pdf -s
+nickname: SucroseGradient
+tags: [RNA, Ribosome, Polysome, Gradient]
 ---
+{% include JB/setup %}
 
 This protocol is for polysome fractionation by sucrose gradient, to view
 translational status of cells and ribosome-association of mRNAs and
