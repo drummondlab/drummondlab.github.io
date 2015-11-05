@@ -1,7 +1,7 @@
 ---
 layout: protocol
 category: protocol
-published: false
+published: true
 title: "Sucrose gradient protocol for polysome profiles"
 author: "Edward Wallace"
 nickname: SucroseGradient

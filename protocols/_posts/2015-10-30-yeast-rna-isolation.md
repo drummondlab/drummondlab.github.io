@@ -1,7 +1,7 @@
 ---
 layout: protocol
 category: protocol
-published: false
+published: true
 title: "Yeast total RNA isolation protocol"
 author: "Edward Wallace & Evgeny Pilipenko"
 nickname: YeastRNAIsolation
