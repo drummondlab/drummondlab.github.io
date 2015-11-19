@@ -46,15 +46,6 @@ with gratitude.
 	<div class="col-md-3">
 		<div class="bigspacer"></div>
 		<div class="glyphbox note"> <!-- DAD: what is this class? -->
-			{% if page.altmetric_id %}
-			<div class="smallhead">
-				Altmetrics
-			</div>	
-			<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-			<div class="altmetric-embed" data-badge-popover="right" data-doi={{ page.doi }} data-badge-type="donut" data-altmetric-id={{ page.altmetric_id }} data-hide-no-mentions="true">
-			</div>
-			{% endif %}
-			<div class="bigspacer"></div>			
 			{% if page.pdf or page.pdflink or page.fulltext %}
 			<div class="smallhead subtle">
 				Full text
@@ -122,6 +113,15 @@ with gratitude.
 				<div class="smallspacer"></div>
 				<i class="fa fa-database fa-fw"></i>
 				<a class="off" href="http://dx.doi.org/{{ page.dryad_doi }}">Dryad</a>
+			</div>
+			<div class="bigspacer"></div>			
+			{% endif %}
+			{% if page.altmetric_id %}
+			<div class="smallhead subtle">
+				Altmetrics
+			</div>	
+			<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+			<div class="altmetric-embed" data-badge-popover="right" data-doi={{ page.doi }} data-badge-type="donut" data-altmetric-id={{ page.altmetric_id }} data-hide-no-mentions="true">
 			</div>
 			<div class="bigspacer"></div>			
 			{% endif %}
