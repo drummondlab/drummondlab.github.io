@@ -310,7 +310,9 @@ strong {
 
 	a {
 		color: black;
-		border-bottom: 1px dotted;
+		hover {
+			border-bottom: 1px dotted;	
+		}
 	}
 
 	h1 {
