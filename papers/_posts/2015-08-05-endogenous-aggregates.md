@@ -11,8 +11,8 @@ pages:
 authors: "Wallace EWJ, Kear-Scott JL, Pilipenko EV, Schwartz MH, Laskowski PR, Rojek AE, Katanski CD, Riback JA, Dion MF, Franks AM, Airoldi EM, Pan T, Budnik BA, Drummond DA"
 image: /assets/images/papers/endogenous-aggregates-graphical-abstract.svg
 redirect_from: /endogenous-aggregates/
-fulltext: http://authors.elsevier.com/a/1Rh6nL7PXI6vs
-pdf: 
+fulltext: 
+pdf: /assets/pdfs/Wallace2015-ReversibleSpecificActiveAggregatesOfEndogenousProteinsAssembleUponHeatStress.pdf
 pdflink: 
 github: 
 pmid: 26359986
@@ -20,6 +20,7 @@ pmcid: PMC4567705
 f1000: 
 doi: "10.1016/j.cell.2015.08.041"
 dryad_doi: "10.5061/dryad.hn16c"
+altmetric_id: 4494424
 figshare: 
 category: paper
 published: true

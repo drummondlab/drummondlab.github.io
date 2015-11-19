@@ -33,7 +33,7 @@ Heat-induced protein aggregation has been seen as mostly _physics_, but (for pro
 
 Primary among those functions: focusing cellular protein synthesis on mRNAs encoding stress-responsive proteins.
 
-## Picture, please?
+### Picture, please?
 
 For the science, there's no substitute for reading the [paper][1]. Here, I want to talk a little bit about how to think about what's going on in the cell, given our study and everything else we know.
 
