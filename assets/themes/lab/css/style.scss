@@ -4,6 +4,7 @@
 $font-size-base: 16px;
 $font-stack:    Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $primary-color: #000000;
+$subtle-color: #95a5a6;
 $font-weight-base: 300;
 $heavy-font-weight: 700;
 
@@ -292,6 +293,10 @@ strong {
 	line-height: 23px;
 }
 
+.subtle {
+	color: $subtle-color;
+}
+
 .note-title {
 	font-weight: 600;
 	a {
@@ -310,7 +315,7 @@ strong {
 
 	a {
 		color: black;
-		hover {
+		&:hover {
 			border-bottom: 1px dotted;	
 		}
 	}
