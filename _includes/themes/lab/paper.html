@@ -46,6 +46,10 @@ with gratitude.
 	<div class="col-md-3">
 		<div class="bigspacer"></div>
 		<div class="glyphbox note"> <!-- DAD: what is this class? -->
+			{% if page.altmetric_id %}
+			<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="donut" data-altmetric-id={{ page.altmetric_id }}>
+			</div>
+			{% endif %}
 			{% if page.pdf or page.pdflink or page.fulltext %}
 			<div class="smallhead">
 				Full text
