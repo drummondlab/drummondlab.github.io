@@ -17,6 +17,7 @@ pdflink: "http://www.plosbiology.org/article/fetchObject.action?uri=info%3Adoi%2
 doi: "10.1371/journal.pbio.1002015"
 dryad_doi: "10.5061/dryad.1jn88"
 figshare: 
+altmetric_id: 2967920
 category: paper
 peerreview: true
 review: false

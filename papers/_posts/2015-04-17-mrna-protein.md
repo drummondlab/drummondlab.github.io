@@ -18,6 +18,7 @@ github: https://github.com/dad/mrna-prot
 doi: "10.1371/journal.pgen.1005206"
 f1000: 
 dryad_doi: "10.5061/dryad.d644f"
+altmetric_id: 3976460
 category: paper
 peerreview: true
 review: false
