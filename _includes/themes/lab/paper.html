@@ -80,8 +80,20 @@ with gratitude.
 				<a class="off" href="{{ page.supplement }}">{{ page.supplement | split: '/' | last }}</a>
 			</div>
 			<div class="bigspacer"></div>			
-			{% endif %}	
-			
+			{% endif %}
+
+			{% if page.pmid %}
+			<div class="smallhead subtle">
+				Pubmed
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ page.pmid }}">{{ page.pmid }}</a>
+			</div>
+			<div class="bigspacer"></div>			
+			{% endif %}
+						
 			{% if page.doi %}
 			<div class="smallhead subtle">
 				DOI
