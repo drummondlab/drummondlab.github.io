@@ -55,7 +55,7 @@ Raw mass spectrometry data is shared on [Chorus](https://chorusproject.org/).
 
 # Perspectives
 
-We [blogged] about the study. It's also been featured by [Chemical & Engineering News][CandEN] and [Nature Structural and Molecular Biology][NSMB], and UChicago's [ScienceLife] blog.
+We [blogged] about the study. It's also been featured by [The Scientist][TheScientist], [Chemical & Engineering News][CandEN] and [Nature Structural and Molecular Biology][NSMB], and UChicago's [ScienceLife] blog.
 
 [1]: /data/heat-aggregation-yeast-visualization
 [2]: /data/postheat-disaggregation-yeast-visualization
@@ -63,4 +63,5 @@ We [blogged] about the study. It's also been featured by [Chemical & Engineering
 [CandEN]: /assets/pdfs/arnaud15-chem-and-eng-news-aggregation-story.pdf
 [NSMB]: /assets/pdfs/nsmb-news-and-views-re-wallace-etal-2015.pdf
 [ScienceLife]: http://sciencelife.uchospitals.edu/2015/09/10/protein-aggregation-after-heat-shock-is-an-organized-reversible-cellular-response/
+[TheScientist]: http://www.the-scientist.com/?articles.view/articleNo/44506/title/Getting-Back-in-Shape/
 
