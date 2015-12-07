@@ -83,11 +83,12 @@ p {
 
 a.off { 
 	color: inherit; 
+	border-bottom: none;
 }
 
-a:hover {
-	border-bottom: 1px dotted;
-}
+/*a {
+	border-bottom: thin dotted;
+}*/
 
 
 .big-member-photo {
@@ -305,7 +306,7 @@ strong {
 	font-weight: 600;
 	a {
 		color: black;
-		border-bottom: false;
+		border-bottom: none;
 	}
 
 	h1 {
@@ -319,9 +320,10 @@ strong {
 
 	a {
 		color: black;
-		&:hover {
-			border-bottom: 1px dotted;	
-		}
+		border-bottom: thin dotted;
+		/*&:hover {
+			border-bottom: thin solid;	
+		}*/
 	}
 
 	h1 {
