@@ -5,7 +5,7 @@ published: true
 title: "RNATagSeq: multiplexed library preparation for Illumina RNA sequencing"
 author: "Edward Wallace & Evgeny Pilipenko"
 nickname: YeastRNAIsolation
-tags: [yeast,RNA]
+tags: [yeast, RNA, sequencing, chemistry]
 ---
 {% include JB/setup %}
 

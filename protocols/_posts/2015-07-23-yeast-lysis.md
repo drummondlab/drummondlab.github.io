@@ -3,7 +3,7 @@ layout: protocol
 title: "Supernatant/pellet fractionation of budding yeast cells by cryogenic lysis"
 published: true
 category: protocol
-tags: [yeast, aggregation]
+tags: [yeast, aggregation, biochemistry]
 ---
 {% include JB/setup %}
 

@@ -4,7 +4,7 @@ title: "Chloroform-methanol extraction of proteins"
 description: ""
 published: true
 category: protocol
-tags: []
+tags: [chemistry, mass spectrometry]
 ---
 {% include JB/setup %}
 

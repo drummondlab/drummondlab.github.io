@@ -5,7 +5,7 @@ published: true
 title: "Sucrose gradient protocol for polysome profiles"
 author: "Edward Wallace"
 nickname: SucroseGradient
-tags: [RNA, Ribosome, Polysome, Gradient]
+tags: [RNA, ribosome, polysome, gradient]
 ---
 {% include JB/setup %}
 
