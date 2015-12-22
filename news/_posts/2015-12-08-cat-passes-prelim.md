@@ -7,7 +7,7 @@ image: /assets/images/news/default-news.png
 category: news
 tags: [publication]
 ---
-She's official: [Cat][1] passed her prelim in the [Biophysics][2] program.
+She's official! [Cat][1] passed her prelim in the [Biophysics][2] program.
 
 [1]: /team/cat-triandafillou/
 [2]: http://biophysics.uchicago.edu/
