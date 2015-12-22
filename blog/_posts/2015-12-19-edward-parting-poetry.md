@@ -11,7 +11,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-> _Note: [Edward][1], an accomplished fiddler and novice singer, sang the ditty below to his labmates at his going-away party. He was the group's first postdoc, a mathematician who mastered computational molecular evolution, then experimental protein biochemistry, during his tenure. He is greatly admired, and will be deeply missed. -- Allan_
+> _Note: [Edward][1], an accomplished fiddler and novice singer, sang the ditty below to us at his going-away party. He was the group's first postdoc, a mathematician who mastered computational molecular evolution, then experimental protein biochemistry, during his tenure. He is greatly admired, and will be deeply missed. -- Allan_
 
 O Drummond Lab
 ==============
