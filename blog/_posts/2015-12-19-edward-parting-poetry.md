@@ -1,7 +1,6 @@
-
 ---
 layout: post
-title: "Rethinking heat-induced aggregation"
+title: "Parting poetry from a profound postdoc"
 description: ""
 author: "D. Allan Drummond"
 author_handle: dad
@@ -11,6 +10,8 @@ theme: lab
 tags: []
 ---
 {% include JB/setup %}
+
+[Allan's note: Edward, an accomplished fiddler and novice singer, sang this to the lab at his going-away party. He was the lab's first postdoc, a mathematician who mastered computational molecular evolution, then experimental protein biochemistry, during his tenuure. He is greatly admired, and will be deeply missed. ]
 
 O Drummond Lab
 ==============
