@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Parting poetry from a profound postdoc"
+title: "Parting poetry from a peerless postdoc"
 description: ""
 author: "D. Allan Drummond"
 author_handle: dad
