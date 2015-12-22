@@ -11,7 +11,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-> _Note: [Edward][1], an accomplished fiddler and novice singer, sang the ditty below to us at his going-away party. He was the group's first postdoc, a mathematician who mastered computational molecular evolution, then experimental protein biochemistry, during his tenure. He is greatly admired, and will be deeply missed. -- Allan_
+> _Note: [Edward][1] sang the ditty below to us at his going-away party. He was the group's first postdoc, a scientist of tremendous range, who was trained as a mathematician and mastered [computational molecular evolution][2], then [experimental biochemistry][3], during his tenure. Now he's off to start his Marie Curie fellowship in Edinburgh. He is greatly admired, and already deeply missed. -- Allan_
 
 O Drummond Lab
 ==============
@@ -42,3 +42,5 @@ Away, I must away, across the vast Atlantic.
 _--[Edward Wallace][1], December 2015._
 
 [1]: /team/edward-wallace
+[2]: papers/paper/estimating-selection-on-synonymous-codon-usage/
+[3]: /papers/paper/endogenous-aggregates/
