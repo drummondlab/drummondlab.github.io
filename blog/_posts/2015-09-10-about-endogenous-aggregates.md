@@ -39,7 +39,7 @@ For the science, there's no substitute for reading the [paper][1]. Here, I want 
 
 Here is the idyllic campus of the Cellular Institute with its manicured grounds and main building. Happy workers (proteins) go about their often inscrutable business.
 
-![institute](/assets/images/cellular-institute.png){:width="300px" margin-left="auto" margin-right="auto"}
+![institute](/assets/images/cellular-institute.png){:width="300px" style=".center"}
 
 When suddenly: *catastrophe*. A fire breaks out. (Heat shock!) What happens?
 
