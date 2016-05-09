@@ -163,3 +163,4 @@ JB :
 # allow page redirection
 gems:
   - jekyll-redirect-from
+  
