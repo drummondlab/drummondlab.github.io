@@ -9,6 +9,6 @@ twitter:
 github: 
 scholar: 
 image: /assets/images/team/rohan-goyal.png
-alum: false
+alum: true
 ---
-Rohan is a U.Chicago freshman who joined the group in 2014.
+Rohan is a U.Chicago junior who worked with the group from 2014--2016.

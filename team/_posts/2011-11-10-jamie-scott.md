@@ -8,7 +8,7 @@ email: jkear@uchicago.edu
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/jamie-scott.jpg
+image: /assets/images/team/jamie-scott.png
 alum: false
 ---
 Dr. Scott is the lab manager for the Drummond Lab.

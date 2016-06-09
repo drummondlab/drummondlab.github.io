@@ -1,14 +1,14 @@
 ---
 layout: member
 title: "Weronika Danecka"
-position: Graduate student
+position: Graduate exchange student
 handle: weronika
 nickname: Weronika
 email: 
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/default-member.svg
+image: /assets/images/team/weronika-danecka.png
 alum: false
 ---
-Weronika is a masters student on an exchange program from Poland.
+Weronika is a masters student on a Fulbright-sponsored exchange program from Poland.
