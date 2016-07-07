@@ -9,7 +9,7 @@ volume: 63
 issue: 1
 pages: 1—2
 authors: "Triandafillou CG and Drummond DA"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/hsf1-perspective.svg
 fulltext: http://authors.elsevier.com/a/1TKxv3vVUO~N-w
 pdf: 
 pdflink: http://authors.elsevier.com/a/1TKxv3vVUO~N-w
