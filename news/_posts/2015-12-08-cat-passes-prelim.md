@@ -5,7 +5,7 @@ author: "D. Allan Drummond"
 author_handle: "dad"
 image: /assets/images/news/default-news.png
 category: news
-tags: [publication]
+tags: [team]
 ---
 She's official! [Cat][1] passed her prelim in the [Biophysics][2] program.
 
