@@ -8,8 +8,10 @@ nickname: syn-noise
 journal: "Molecular Biology & Evolution"
 authors: "Wallace EWJ, Airoldi EM, and Drummond DA"
 image: /assets/images/papers/default-paper.svg
+fulltext: "http://mbe.oxfordjournals.org/content/30/6/1438.full"
 pdf: 
 pdflink: "http://mbe.oxfordjournals.org/content/30/6/1438.full.pdf"
+<!-- data: http://mbe.oxfordjournals.org/content/suppl/2013/03/24/mst051.DC1/orf-xObs-SCU-CAI-bygene.txt -->
 figshare: 
 dryad_doi: 
 doi: "10.1093/molbev/mst051"

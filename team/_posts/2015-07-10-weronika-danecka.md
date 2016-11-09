@@ -9,6 +9,6 @@ twitter:
 github: 
 scholar: 
 image: /assets/images/team/weronika-danecka.png
-alum: false
+alum: true
 ---
-Weronika is a masters student on a Fulbright-sponsored exchange program from Poland.
+Weronika joined us as part of a Fulbright-sponsored exchange program from Poland.

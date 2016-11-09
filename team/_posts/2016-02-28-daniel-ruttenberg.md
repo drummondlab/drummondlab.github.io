@@ -11,4 +11,4 @@ scholar:
 image: /assets/images/team/daniel-ruttenberg.png
 alum: false
 ---
-Daniel is a U.Chicago freshman who joined the group in 2016. He is working on how stress granules stabilize mRNA.
+Daniel is a U.Chicago sophomore who joined the group in 2016. He is working on how stress granules stabilize mRNA.
