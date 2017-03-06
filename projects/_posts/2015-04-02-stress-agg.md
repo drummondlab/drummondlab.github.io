@@ -5,7 +5,7 @@ tagline: "Proteins and RNA self-assemble and coassemble into massive, heterogene
 handle: massive-assembly
 image: /assets/images/projects/assembly-invivo-invitro.svg
 category: project
-tags: [yeast, translation, selection]
+tags: [yeast, translation, selection, quinary]
 ---
 {% include JB/setup %}
 
