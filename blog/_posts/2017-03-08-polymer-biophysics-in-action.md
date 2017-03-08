@@ -9,5 +9,5 @@
 \#|Expectation|Reality|Expectation~Reality
 ---|---|---|---
 1|Pab1 has IDR | P domain conserved in eukaryotes|Yes
-2|Demixing requires RNA:Pab1 interactions and IDR:IDR interactions | Demixing requires only folded domains|No 3|IDR promotes demixing with charge, aromatic, or polar residues | Hydrophobicity of amino acid   residues promoted|No4|IDR would be collapsed. Extent of IDR collapse would correlate with enhancing demixing|YesSincerely,
+2|Demixing requires RNA:Pab1 interactions and IDR:IDR interactions | Demixing requires only folded domains|No 3|IDR promotes demixing with charge, aromatic, or polar residues | Hydrophobicity of amino acid   residues promoted|No4|IDR would be collapsed. Extent of IDR collapse would correlate with enhancing demixing|Size of IDR correlates with the temperature of demixing *in vivo* and *in vitro*|YesSincerely,
 Josh   
