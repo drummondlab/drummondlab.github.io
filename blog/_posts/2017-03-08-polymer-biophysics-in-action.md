@@ -6,9 +6,10 @@
 ![IDRCOLLAPSEANDAGG](https://github.com/drummondlab/drummondlab.github.io/blob/staging/assets/images/JAR_IDRcollapseANDagg.png)- [x] The P domain is collapsed. It behaves as expected for a polymer weakly packed, dynamic globule. Crazy mutations such as changing the 15% of the sequence that is glycine to either alanine or proline maintains its collapse. Even randomly changing the order of the residues in the domain maintains collapse. 
 - [x] The extent of P domain collapse correlates with the enhancement of Pab1 demixing *in vivo*, *in vitro*, and survival during stress.   # Expectation vs. Reality Summary
 
-Expectation|Reality
----|---
-Pab1 has IDR | P domain conserved in eukaryotes
+Expectation|Reality|Overlap?
+---|---|---
+Pab1 has IDR | P domain conserved in eukaryotes|[x]
 Demixing requires RNA:Pab1 interactions and IDR:IDR interactions | Demixing requires only folded domains IDR promotes demixing with charge, aromatic, or polar residues | Hydrophobicity of amino acid   residues promoted4. Pab1’s IDR would be collapsed. When demixed Pab1’s IDR would interact with other Pab1 molecules but when monomeric (‘mixed’)  Pab1’s IDR would have self-interactions yielding collapse of Pab1.That is my two cents on how Pab1 has advanced my understanding of polymer biophysics. More biologically important quinary assemblies will be needed to understand the exact selection principles that yielded the dynamic Pab1 and its P domain.
 
-Sincerely,Josh   
+Sincerely,
+Josh   
