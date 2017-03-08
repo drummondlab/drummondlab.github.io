@@ -77,7 +77,4 @@ There's much more to do, and we're incredibly excited to share the stories comin
 
 
 
-[1]: /papers/paper/endogenous-aggregates/
-[2]: /papers/paper/mistranslation-induced-misfolding/
-[3]: /papers/paper/why-highly-expressed-proteins-evolve-slowly/
-
+[1]: /papers/paper/adaptive-phase-separation/
