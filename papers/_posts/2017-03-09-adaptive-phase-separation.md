@@ -21,7 +21,7 @@ f1000:
 doi: ""
 dryad_doi:
 altmetric_id: 
-figshare: 
+figshare: https://doi.org/10.6084/m9.figshare.c.3704284
 category: paper
 published: true
 embargo: false

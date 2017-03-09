@@ -74,7 +74,7 @@ Cells with Pab1 molecules that didn't stick together during stress couldn't grow
 
 ### Ultimately, it's about fitness
 
-There's been a ton of beautiful work on phase separation, hydrogel formation, and other quinary phenomena. (**Quinary**, a term introduced by Stuart Edelstein, refers to a step beyond traditional quaternary structures to structures involving undefined numbers of molecules.) But showing that these phenomena are actually good for cells, as opposed to just gorgeous curiosities, has been challenging. Pab1 delivered for us!
+There's been a bunch of beautiful work on phase separation, hydrogel formation, and other quinary phenomena. (**Quinary**, a term introduced by Stuart Edelstein, refers to a step beyond traditional quaternary structures to structures involving undefined numbers of molecules.) But showing that these phenomena are actually good for cells, as opposed to just gorgeous curiosities, has been challenging. Pab1 delivered for us!
 
 <p align="center">
 <img src="/assets/images/quinary-academy-certificate.png" width="75%">
@@ -83,11 +83,18 @@ There's been a ton of beautiful work on phase separation, hydrogel formation, an
 
 ### Dive in!
 
-This [paper][1] was five years from initial discovery to publication. There's a lot in there (though the reviewers wanted oh so much more!). For experts, our results are full of surprises. First author [Josh] has blogged about some of the [biophysical aspects].
+This [paper][1] was five years from initial discovery to publication. There's a lot in there (though the reviewers wanted oh so much more!). For experts, our results are full of surprises. First author [Josh] has blogged about some of the [biophysical aspects] and co-first author [Chris] has blogged about the [in vivo aspects].
 
 And there's much more to do. How, exactly, does Pab1's phase separation help the cell? We share some ideas in the paper. How, exactly, does Pab1 sense temperature and pH? Watch this space as the story continues to, well, come together.
 
 [1]: /papers/paper/adaptive-phase-separation/
 [agg]: /papers/paper/endogenous-aggregates/
 [agg-blog]: /blog/about-endogenous-aggregates/
+[Josh]: /team/josh-riback
 [biophysical aspects]: /blog/polymer-biophysics-in-action/
+[Chris]: /team/chris-katanski
+[in vivo aspects]: /blog/Pab1-Demixing-FAQ
+
+
+
+
