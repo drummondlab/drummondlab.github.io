@@ -18,9 +18,9 @@ github: https://github.com/dad/pab1-phase-2017
 pmid: 
 pmcid:
 f1000: 
-doi: ""
+doi: "10.1016/j.cell.2017.02.027"
 dryad_doi:
-altmetric_id: 
+altmetric_id: 17166424
 figshare: https://doi.org/10.6084/m9.figshare.c.3704284
 category: paper
 published: true
@@ -37,11 +37,15 @@ In eukaryotic cells, diverse stresses trigger coalescence of RNA-binding protein
 
 # Perspectives
 
-A nice [perspective][alberti-perspective] accompanies the paper, by [Simon Alberti]. On our blog, we [described] the study. First author [Josh][josh] wrote about [biophysical aspects][josh-blog] of the work.
+A terrific [perspective][alberti-perspective] ("Gel or Die") accompanies the paper, by [Simon Alberti]. On our blog, we [described] the study. First author [Josh] wrote about [biophysical aspects][josh-blog] of the work, and co-first author [Chris] blogged about other aspects of the [biology].
 
 [blogged]: /blog/about-adaptive-phase-separation
-[josh]: /team/josh-riback
+[Josh]: /team/josh-riback
 [josh-blog]: /blog/polymer-biophysics-in-action
-[alberti-perspective]: na
+[alberti-perspective]: http://www.cell.com/cell/fulltext/S0092-8674(17)30244-1
 [Simon Alberti]: https://www.mpi-cbg.de/en/research-groups/current-groups/simon-alberti/group-leader/
+[biophysical aspects]: /blog/polymer-biophysics-in-action/
+[Chris]: /team/chris-katanski
+[biology]: /blog/Pab1-Demixing-FAQ
+
 

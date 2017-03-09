@@ -11,7 +11,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-We've just published a [paper][1] on how cells respond to heat stress.
+We've just published a [paper][1] on how a protein's ability to form hydrogels allow cells to sense and respond to stress.
 
 ### A bit of background
 
