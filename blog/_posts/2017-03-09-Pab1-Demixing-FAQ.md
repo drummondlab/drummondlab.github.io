@@ -1,10 +1,16 @@
 ---
-title: "FAQ"
+layout: post
+title: "Behind the scenes of Pab1 demixing"
+description: ""
 author: "Chris Katanski"
-date: "3/8/2017"
+author_handle: cdk
+category: blog
+published: true
+theme: lab
+tags: []
 ---
 
-Hi, I’m Chris. I’m a student in the Drummond lab and coauthor on the [paper](/papers/paper/adaptive-phase-separation/) “*Stress-Triggered Phase Separation Is an Adaptive, Evolutionarily Tuned Response*.” When presenting this work, I’ve been asked a few questions repeatedly that I will answer in a **FAQ** section. I’ll also share an anecdote about the challenges of delineating Pab1’s role in the stress response from its many other functions. I hope the story emphasizes the importance of **endogenous protein expression**. 
+Hi, I’m Chris. I’m a student in the Drummond lab and coauthor on the [paper](/papers/paper/adaptive-phase-separation/) “*Stress-Triggered Phase Separation Is an Adaptive, Evolutionarily Tuned Response*.” When presenting this work, I’ve been asked a few questions repeatedly that I will answer in a **FAQ** section. I’ll also share an anecdote about the challenges of delineating Pab1’s role in the stress response from its many other functions. I hope the story emphasizes the importance of **endogenous protein expression levels**. 
 
 
 #FAQs:
