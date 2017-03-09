@@ -41,7 +41,7 @@ Prior to obtaining data and based on my reading of the literature in the field, 
 ## Expectation: #2
 > Demixing would require multivalent interactions between RNA and Pab1 and/or between IDRs on different Pab1 molecules.
 
-- [ ] *In vitro*, Pab1 demixing does not require RNA; RNA destabilizes demixing. How does this work in cells? Chris considers this further in his [FAQ section](/blog/Pab1-demixing-FAQ)
+- [ ] *In vitro*, Pab1 demixing does not require RNA; RNA destabilizes demixing. How does this work in cells? Chris considers this further in his [FAQ section](/blog/Pab1-Demixing-FAQ)
 
 - [ ] Although the P domain is the strongest single domain enhancer of demixing, it is not required for demixing. Multivalent interactions between Pab1's folded domains are required for demixing and govern the salt and pH sensitivity of demixing. When splitting the protein in half, only the half **without** the IDR can demix.
 
