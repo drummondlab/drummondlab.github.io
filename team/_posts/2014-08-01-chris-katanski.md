@@ -2,7 +2,7 @@
 layout: member
 title: "Chris Katanski"
 position: Graduate student
-handle: ck
+handle: cdk
 nickname: Chris
 email: 
 twitter: 
