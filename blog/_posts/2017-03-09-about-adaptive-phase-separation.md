@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stress causes aggregation, and that's a good thing"
+title: "Sticking together to survive stress"
 description: ""
 author: "D. Allan Drummond"
 author_handle: dad
