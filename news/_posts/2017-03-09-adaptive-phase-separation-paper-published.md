@@ -9,4 +9,4 @@ tags: [publication]
 ---
 Our [paper] on adaptive phase separation is out!
 
-[paper]: /papers/paper/adaptive-phase-separation/
+[paper]: /papers/paper/adaptive-phase-separation
