@@ -54,7 +54,7 @@ Yeast cells like to live in acidic (low-pH) environments, but keep their insides
 
 First, we discovered that Pab1 "clumping" was something rather specific and wonderful: **phase separation** into hydrogel droplets.
 
-Phase separation is like a flash crowd. Under certain conditions, suddenly a mixture of two kinds of molecules separates ("demixes") like oil and water. Bunches of recent studies have shown proteins doing this trick, usually under exotic conditions.
+Phase separation is like a flash mob. Under certain conditions, suddenly, from a mixture of two kinds of molecules, one group surges together, separating ("demixing") like oil droplets in water. Bunches of recent studies have shown proteins doing this trick, usually under exotic conditions.
 
 <p align="center">
 <img src="/assets/images/phase-separation-cartoon.png" width="75%">
