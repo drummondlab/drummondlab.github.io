@@ -1,6 +1,6 @@
 ---
 layout: news
-title: "New paper on stress-induced protein aggregation"
+title: "New paper on stress-triggered phase separation"
 author: "D. Allan Drummond"
 author_handle: "dad"
 image: /assets/images/news/default-news.png
