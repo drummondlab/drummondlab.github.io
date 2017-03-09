@@ -11,9 +11,9 @@ pages:
 authors: "Riback JA, Katanski CD, Kear-Scott JL, Pilipenko EV, Rojek AE, Sosnick TR, Drummond DA"
 image: /assets/images/papers/pab1-phase-separation.svg
 redirect_from: /adaptive-phase-separation/
-fulltext: 
+fulltext: http://www.cell.com/cell/fulltext/S0092-8674(17)30242-8
 pdf: 
-pdflink: 
+pdflink: http://www.cell.com/cell/pdf/S0092-8674(17)30242-8.pdf
 github: https://github.com/dad/pab1-phase-2017
 pmid: 
 pmcid:
