@@ -9,13 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="556.99542"
+   height="507.23172"
+   viewBox="0 0 147.3717 134.20506"
    version="1.1"
    id="svg28734"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="heat-starvation-ph-at-cell-institute.svg">
+   sodipodi:docname="heat-starvation-ph-at-cell-institute.svg"
+   inkscape:export-filename="./heat-starvation-ph-at-cell-institute.png"
+   inkscape:export-xdpi="300.01077"
+   inkscape:export-ydpi="300.01077">
   <defs
      id="defs28728" />
   <sodipodi:namedview
@@ -25,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="409.48629"
-     inkscape:cy="487.69851"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="-37.401695"
+     inkscape:cy="127.72266"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,7 +38,12 @@
      inkscape:window-height="1377"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     units="px"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5" />
   <metadata
      id="metadata28731">
     <rdf:RDF>
@@ -51,17 +59,18 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-51.802246,-49.224848)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.38666677px;line-height:0%;font-family:'Open Sans Light';-inkscape-font-specification:'Open Sans Light, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28222224"
-       x="138.68491"
+       x="154.18193"
        y="180.9205"
        id="text14729"><tspan
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.93888903px;line-height:1;font-family:'Open Sans Light';-inkscape-font-specification:'Open Sans Light,  Light';text-align:center;text-anchor:middle;stroke-width:0.28222224"
          id="tspan14727"
          sodipodi:role="line"
-         x="138.68491"
+         x="154.18193"
          y="180.9205">starvation</tspan></text>
     <rect
        transform="matrix(1,0,-0.70710678,0.70710678,0,0)"
@@ -1231,11 +1240,11 @@
     <text
        id="text14723"
        y="180.9205"
-       x="78.265015"
+       x="93.762039"
        style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.38666677px;line-height:0%;font-family:'Open Sans Light';-inkscape-font-specification:'Open Sans Light, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28222224"
        xml:space="preserve"><tspan
          y="180.9205"
-         x="78.265015"
+         x="93.762039"
          sodipodi:role="line"
          id="tspan14721"
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.93888903px;line-height:1;font-family:'Open Sans Light';-inkscape-font-specification:'Open Sans Light,  Light';text-align:center;text-anchor:middle;stroke-width:0.28222224">plenty of food</tspan></text>
@@ -6806,24 +6815,24 @@
     <text
        id="text20705"
        y="116.37492"
-       x="138.68491"
+       x="154.18193"
        style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.38666677px;line-height:0%;font-family:'Open Sans Light';-inkscape-font-specification:'Open Sans Light, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28222224"
        xml:space="preserve"><tspan
          y="116.37492"
-         x="138.68491"
+         x="154.18193"
          sodipodi:role="line"
          id="tspan20703"
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.93888903px;line-height:1;font-family:'Open Sans Light';-inkscape-font-specification:'Open Sans Light,  Light';text-align:center;text-anchor:middle;stroke-width:0.28222224">heat shock</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.38666677px;line-height:0%;font-family:'Open Sans Light';-inkscape-font-specification:'Open Sans Light, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28222224"
-       x="78.265015"
+       x="93.762039"
        y="116.37492"
        id="text20709"><tspan
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.93888903px;line-height:1;font-family:'Open Sans Light';-inkscape-font-specification:'Open Sans Light,  Light';text-align:center;text-anchor:middle;stroke-width:0.28222224"
          id="tspan20707"
          sodipodi:role="line"
-         x="78.265015"
+         x="93.762039"
          y="116.37492">normal growth</tspan></text>
   </g>
 </svg>
