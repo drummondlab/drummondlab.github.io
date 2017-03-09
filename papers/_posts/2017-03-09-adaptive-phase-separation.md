@@ -9,7 +9,7 @@ volume: 168
 issue: 6
 pages: 
 authors: "Riback JA, Katanski CD, Kear-Scott JL, Pilipenko EV, Rojek AE, Sosnick TR, Drummond DA"
-image: /assets/images/papers/adaptive-phase-separation-graphical-abstract.svg
+image: /assets/images/papers/pab1-phase-separation.svg
 redirect_from: /adaptive-phase-separation/
 fulltext: 
 pdf: 
