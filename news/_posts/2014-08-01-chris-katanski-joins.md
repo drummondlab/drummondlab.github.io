@@ -7,7 +7,7 @@ image: /assets/images/news/default-news.png
 category: news
 tags: [publication]
 ---
-[Chris] is a graduate student in the [Biochemistry & Molecular Biophysics][1].
+[Chris] is a graduate student in [Biochemistry & Molecular Biophysics][1].
 
 [Chris]: /team/chris-katanski
 [1]: http://bmb.uchospitals.edu/
