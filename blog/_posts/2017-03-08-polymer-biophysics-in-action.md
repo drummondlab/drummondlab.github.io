@@ -12,9 +12,9 @@ tags: []
 {% include JB/setup %}
 Hi, I am Joshua Riback, a student in the [Biophysical Sciences graduate program](http://biophysics.uchicago.edu/) co-advised in both the Drummond and [Sosnick]( http://sosnick.uchicago.edu/) Labs. 
 
-Recently we have published a paper characterizing an intersection between polymer (bio)physics and cell biology. Polymer biophysics elucidates the principles governing the organized demixing of molecules inside of cells. Protein and RNA can demix into massive assemblies such as gels, liquids, and fibers. They lack a fixed stoichiometry so we refer to them as quinary assemblies. We focus on the properties of assemblies composed of poly(A)-binding protein (Pab1) that form in eukaryotic cells in response to cellular stress.  We find that the demixing of Pab1 has been tuned for rapid response to stress and is beneficial for surviving that stress. For a little more background, see [Allan's post](/blog/about-adaptive-phase-separation/) on our paper.
+Recently we have published a paper characterizing an intersection between polymer (bio)physics and cell biology. Polymer biophysics elucidates the principles governing the organized demixing of molecules inside of cells. Protein and RNA can demix into massive assemblies such as gels, liquids, and fibers. They lack a fixed stoichiometry so we refer to them as quinary assemblies. We focus on the properties of assemblies composed of poly(A)-binding protein (Pab1) that form in eukaryotic cells in response to cellular stress.  We find that the demixing of Pab1 has been tuned for rapid response to stress and is beneficial for surviving that stress. For a little more background, see [Allan's post](/blog/about-adaptive-phase-separation) on our paper.
 
-For those who wish to dive into the paper, please proceed [here](/papers/paper/adaptive-phase-separation/). Since our story differs significantly from the current results in the field, I have focused this blog post on the polymer biophysics I expected would govern Pab1 demixing vs. reality. 
+For those who wish to dive into the paper, please proceed [here](/papers/paper/adaptive-phase-separation). Since our story differs significantly from the current results in the field, I have focused this blog post on the polymer biophysics I expected would govern Pab1 demixing vs. reality. 
 
 # Polymer biophysics of Pab1: Expectations
 
@@ -41,7 +41,7 @@ Prior to obtaining data and based on my reading of the literature in the field, 
 ## Expectation: #2
 > Demixing would require multivalent interactions between RNA and Pab1 and/or between IDRs on different Pab1 molecules.
 
-- [ ] *In vitro*, Pab1 demixing does not require RNA; RNA destabilizes demixing. How does this work in cells? Chris considers this further in his [FAQ section](/papers/paper/Pab1-demixing-FAQ/)
+- [ ] *In vitro*, Pab1 demixing does not require RNA; RNA destabilizes demixing. How does this work in cells? Chris considers this further in his [FAQ section](/papers/paper/Pab1-demixing-FAQ)
 
 - [ ] Although the P domain is the strongest single domain enhancer of demixing, it is not required for demixing. Multivalent interactions between Pab1's folded domains are required for demixing and govern the salt and pH sensitivity of demixing. When splitting the protein in half, only the half **without** the IDR can demix.
 

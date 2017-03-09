@@ -87,11 +87,11 @@ This [paper][1] was five years from initial discovery to publication. There's a 
 
 And there's much more to do. How, exactly, does Pab1's phase separation help the cell? We share some ideas in the paper. How, exactly, does Pab1 sense temperature and pH? Watch this space as the story continues to, well, come together.
 
-[1]: /papers/paper/adaptive-phase-separation/
-[agg]: /papers/paper/endogenous-aggregates/
-[agg-blog]: /blog/about-endogenous-aggregates/
+[1]: /papers/paper/adaptive-phase-separation
+[agg]: /papers/paper/endogenous-aggregates
+[agg-blog]: /blog/about-endogenous-aggregates
 [Josh]: /team/josh-riback
-[biophysical aspects]: /blog/polymer-biophysics-in-action/
+[biophysical aspects]: /blog/polymer-biophysics-in-action
 [Chris]: /team/chris-katanski
 [in vivo aspects]: /blog/Pab1-Demixing-FAQ
 

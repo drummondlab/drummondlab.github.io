@@ -44,7 +44,7 @@ A terrific [perspective][alberti-perspective] ("Gel or Die") accompanies the pap
 [josh-blog]: /blog/polymer-biophysics-in-action
 [alberti-perspective]: http://www.cell.com/cell/fulltext/S0092-8674(17)30244-1
 [Simon Alberti]: https://www.mpi-cbg.de/en/research-groups/current-groups/simon-alberti/group-leader/
-[biophysical aspects]: /blog/polymer-biophysics-in-action/
+[biophysical aspects]: /blog/polymer-biophysics-in-action
 [Chris]: /team/chris-katanski
 [biology]: /blog/Pab1-Demixing-FAQ
 
