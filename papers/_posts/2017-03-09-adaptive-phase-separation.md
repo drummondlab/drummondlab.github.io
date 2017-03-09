@@ -19,12 +19,12 @@ pmid:
 pmcid:
 f1000: 
 doi: ""
-dryad_doi: ""
+dryad_doi:
 altmetric_id: 
 figshare: 
 category: paper
-published: false
-embargo: true
+published: true
+embargo: false
 peerreview: true
 review: false
 tags: [phase separation, heat shock, aggregation, protein, Pab1, poly(A)-binding protein, yeast]
@@ -37,9 +37,11 @@ In eukaryotic cells, diverse stresses trigger coalescence of RNA-binding protein
 
 # Perspectives
 
-A nice [perspective] accompanies the paper, by [Simon Alberti]. On our blog, we [described] the study. First author [Josh] wrote about [biophysical aspects][josh-blog] of the work.
+A nice [perspective][alberti-perspective] accompanies the paper, by [Simon Alberti]. On our blog, we [described] the study. First author [Josh][josh] wrote about [biophysical aspects][josh-blog] of the work.
 
 [blogged]: /blog/about-adaptive-phase-separation
+[josh]: /team/josh-riback
 [josh-blog]: /blog/polymer-biophysics-in-action
+[alberti-perspective]: na
 [Simon Alberti]: https://www.mpi-cbg.de/en/research-groups/current-groups/simon-alberti/group-leader/
 
