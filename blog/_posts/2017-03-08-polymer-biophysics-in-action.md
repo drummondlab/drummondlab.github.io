@@ -55,13 +55,13 @@ IDRs are understood by their compositional properties. Based on known IDRs that 
 <img src="/assets/images/JAR_compositionPDOMandRGGDOM.png" width="75%">
 </p>
 
-For clarity, the compositional plots are fraction residues of each type, and for the evolutionary composition plot, each row is a different species. The hydrophobicity of the residue groups are roughly aromatic, aliphatic, small, polar, and ionizable from most to least hydrophobic.  
+For clarity, the compositional plots are fraction residues of each type, and for the evolutionary composition plot, each row is a different species. The hydrophobicity of the residue groups are roughly aromatic, aliphatic, small, polar, and ionizable from most to least hydrophobic.
 
--[ ] The P domain is strongly depleted for ionizable residues. This composition feature is conserved.
+- [ ] The P domain is strongly depleted for ionizable residues. This composition feature is conserved.
 
--[ ] The P domain does not have unusual polar or aromatic content. This is conserved.
+- [ ] The P domain does not have unusual polar or aromatic content. This is conserved.
 
--[ ] The P domain is unusually hydrophobic; these hydrophobic residues are interacting and stabilize demixing. 
+- [ ] The P domain is unusually hydrophobic; these hydrophobic residues are interacting and stabilize demixing. 
 
 
 ## Expectation: #4
@@ -74,7 +74,7 @@ This is a concept drawn from polymer physics 101. If IDR-IDR interactions are su
 </p>
 
 -[x] The P domain is collapsed. It behaves as expected for a weakly packed, dynamic globule. Extreme mutations in the P domain, such as changing the 15% of the sequence that is glycine to proline or randomly changing the order of ALL the residues in the domain, do not perturb P domain collapse. 
-- [x] The extent of P domain collapse correlates with the enhancement of Pab1 demixing *in vivo*, *in vitro*, and survival during stress.   
+- [x] The extent of P domain collapse correlates with the enhancement of Pab1 demixing *in vivo*, *in vitro*, and survival during stress.
 
 
 # Expectation vs. Reality Summary
