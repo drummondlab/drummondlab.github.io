@@ -37,12 +37,15 @@ In eukaryotic cells, diverse stresses trigger coalescence of RNA-binding protein
 
 # Perspectives
 
-A terrific [perspective][alberti-perspective] ("Gel or Die") accompanies the paper, by [Simon Alberti]. On our blog, we [described] the study. First author [Josh] wrote about [biophysical aspects][josh-blog] of the work, and co-first author [Chris] blogged about other aspects of the [biology]. 
+A terrific [perspective][alberti-perspective] ("Gel or Die") accompanies the paper, by [Simon Alberti] and [Sonja Kroschwald]. 
+
+[Allan][al] [blogged about][1] the general ideas. First author [Josh] wrote about [biophysical aspects][josh-blog] of the work, and co-first author [Chris] gave an [inside look] into the study. 
 
 # Coverage
 1. UChicago [ScienceLife]
 
-[blogged]: /blog/about-adaptive-phase-separation
+[al]: /team/d-allan-drummond
+[1]: /blog/about-adaptive-phase-separation
 [Josh]: /team/josh-riback
 [josh-blog]: /blog/polymer-biophysics-in-action
 [alberti-perspective]: http://www.cell.com/cell/fulltext/S0092-8674(17)30244-1
