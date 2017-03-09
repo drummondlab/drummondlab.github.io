@@ -73,7 +73,7 @@ This is a concept drawn from polymer physics 101. If IDR-IDR interactions are su
 <img src="/assets/images/JAR_IDRcollapseANDagg.png" width="75%">
 </p>
 
--[x] The P domain is collapsed. It behaves as expected for a weakly packed, dynamic globule. Extreme mutations in the P domain, such as changing the 15% of the sequence that is glycine to proline or randomly changing the order of ALL the residues in the domain, do not perturb P domain collapse. 
+- [x] The P domain is collapsed. It behaves as expected for a weakly packed, dynamic globule. Extreme mutations in the P domain, such as changing the 15% of the sequence that is glycine to proline or randomly changing the order of ALL the residues in the domain, do not perturb P domain collapse. 
 - [x] The extent of P domain collapse correlates with the enhancement of Pab1 demixing *in vivo*, *in vitro*, and survival during stress.
 
 
