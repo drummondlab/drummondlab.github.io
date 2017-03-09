@@ -20,8 +20,8 @@ pmcid:
 f1000: 
 doi: "10.1016/j.cell.2017.02.027"
 dryad_doi:
+figshare_doi: "10.6084/m9.figshare.c.3704284"
 altmetric_id: 17166424
-figshare: https://doi.org/10.6084/m9.figshare.c.3704284
 category: paper
 published: true
 embargo: false
