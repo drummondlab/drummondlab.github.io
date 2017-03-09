@@ -37,7 +37,10 @@ In eukaryotic cells, diverse stresses trigger coalescence of RNA-binding protein
 
 # Perspectives
 
-A terrific [perspective][alberti-perspective] ("Gel or Die") accompanies the paper, by [Simon Alberti]. On our blog, we [described] the study. First author [Josh] wrote about [biophysical aspects][josh-blog] of the work, and co-first author [Chris] blogged about other aspects of the [biology].
+A terrific [perspective][alberti-perspective] ("Gel or Die") accompanies the paper, by [Simon Alberti]. On our blog, we [described] the study. First author [Josh] wrote about [biophysical aspects][josh-blog] of the work, and co-first author [Chris] blogged about other aspects of the [biology]. 
+
+# Coverage
+1. UChicago [ScienceLife]
 
 [blogged]: /blog/about-adaptive-phase-separation
 [Josh]: /team/josh-riback
@@ -47,5 +50,6 @@ A terrific [perspective][alberti-perspective] ("Gel or Die") accompanies the pap
 [biophysical aspects]: /blog/polymer-biophysics-in-action
 [Chris]: /team/chris-katanski
 [biology]: /blog/Pab1-Demixing-FAQ
+[ScienceLife]: https://sciencelife.uchospitals.edu/2017/03/09/molecules-form-gels-to-help-cells-sense-and-respond-to-stress/
 
 
