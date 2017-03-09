@@ -21,7 +21,9 @@ How can a few point mutations in the P-domain have a greater fitness effect than
 
 ### *How do mutations to the P-domain affect stress granule formation?*
 I don’t know. The stress used in **figure 6D** to trigger Pab1 demixing is too mild to elicit Pab1-marked stress granules in wild type cells (**figure 1A**). Moreover, while stress granules are easily observed, it is not clear that they are the physiologically functional species. Here, we make the case that perturbing demixing of Pab1 is sufficient to affect physiology. In fact, I favor the hypothesis that quinary assemblies and stress granules are related, but separable phenomena. Pab1 forms sedimentable quinary assemblies in the absence of visible focus formation. Conversely, HSP104 is an example of a protein that colocalizes with stress granules, but isn’t sedimentable. 
-![blueprint](/assets/images/CK_demix_then_SG_blueprint.png){:style=".center"}
+<p align="center">
+<img src="/assets/images/CK_demix_then_SG_blueprint.png" width="75%">
+</p>
 
 ### *Is the assembly of other proteins perturbed?*
 Yef3 is another protein that forms sedimentable species during mild stress conditions. **Figure S5** indicates that demixing of Yef3 does not vary between P-domain mutants. However, it is possible that demixing of one of the other ~150 heat-assembling proteins is affected. At its core, this question is about the mechanism of formation of large cellular assemblies. Are all proteins demixing autonomously, or can one protein recruit another to these structures? Is RNA binding sufficient to recruit some proteins? Is recruitment stress specific?
@@ -35,4 +37,7 @@ If you’re curious about the mechanism by which Pab1 demixing affects stress to
 
 # Make happy yeast:
 Pab1 is an essential gene with a role in many cellular processes. If one wishes to make mutations, delete then replace isn’t an option. Other work has successfully expressed Pab1 from a plasmid. However, cells are very sensitive to Pab1 expression levels – consistent with its known autoregulatory expression mechanism. My first attempt to modify the Pab1 P-domain was with a construct that replaced the native genomic 3’ UTR with a KanMX selectable marker. I also made the control strain with the same marker, but preserved P-domain. The control strain grew slowly and at 30° C and expressed Pab1 at ~20% the wild type. Reduced expression is problematic because demxing is concentration dependent; similarly, over-expression can lead to demixing artifacts. Worse, the proteome of this control strain resembled that of stressed wild type cells, including high chaperone expression. Ultimately, I developed the serial transformation strategy described in the methods (and another blog post). The resulting strains have no selectable markers, native 3’ UTRs, and no extra nucleotide scars. This manor of strain construction solved the reduced Pab1 expression and slow growth problems. Now, I am able to discern the relation of assembly and the stress response, without conflation of growth rate effects. 
-![Cool yeast](/assets/images/CK_cool_yeast.png){:style=".center"}
+<p align="center">
+<img src="/assets/images/CK_cool_yeast.png" width="75%">
+</p>
+
