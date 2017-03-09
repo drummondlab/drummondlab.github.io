@@ -7,7 +7,6 @@ image: /assets/images/news/default-news.png
 category: news
 tags: [publication]
 ---
-Our [paper] on adaptive phase separation is [out][Cell]!
+Our [paper] on adaptive phase separation is out!
 
 [paper]: /papers/paper/adaptive-phase-separation/
-[Cell]: link-tbd
