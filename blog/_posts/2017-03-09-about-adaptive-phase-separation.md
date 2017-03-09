@@ -29,11 +29,15 @@ The Institute is constantly dealing with awful changes in its environment. The m
 <img src="/assets/images/environmental-and-growth-reports.png" width="50%">
 </p>
 
-Is clumping damage or response? A key test is to see what happens when you stop the clumping during stress. Stopping damage during stress should make cells healthier. Stopping a stress response, on the other hand, would make cells sicker.
+The picture that came out of our [earlier study][agg-blog] suggested that, overall, the clumping in cells was an organized, reversible process, consistent with a coordinated effort to survive tough times.
+
+But what about for specific proteins? How can you tell if clumping is stress-inflicted damage or an adaptive response? A key test is to see what happens when you stop the clumping during stress. Stopping damage during stress should make cells healthier. Stopping an adaptive stress response, on the other hand, would make cells sicker.
 
 ### Doesn't sound too complicated
 
-Easy for you to say, headline! In our study, we had to first find a protein that formed clumps during stress, then figure out how to control its clumping without screwing up a bunch of other stuff (which involved quite a bit of figuring out why it formed clumps, physically, and which bits of the molecule were responsible). Doing all that required working on the protein in isolation in a test tube, so then we had to put the protein back into cells and check to see if it worked the same way as it did in the tube. Finally, we could expose those cells to stress and see how they responded.
+Easy for you to say, headline! In our study, we had to first find a protein that formed clumps during stress, then figure out how to control its clumping without screwing up a bunch of other stuff (which involved quite a bit of figuring out why it formed clumps, physically, and which bits of the molecule were responsible). 
+
+Doing all that required working on the protein in isolation in a test tube, so then we had to put the protein back into cells  to see if it worked the same way. Finally, we could expose those cells to stress and see how they responded.
 
 ### What did we do?
 
@@ -79,7 +83,7 @@ There's been a ton of beautiful work on phase separation, hydrogel formation, an
 
 ### Dive in!
 
-This [paper][1] was five years from initial discovery (by Alexandra Rojek, an undergraduate summer researcher) to publication. There's a lot in there (though the reviewers wanted oh so much more!). For experts, our results are full of surprises. First author [Josh] has blogged about some of the [biophysical aspects].
+This [paper][1] was five years from initial discovery to publication. There's a lot in there (though the reviewers wanted oh so much more!). For experts, our results are full of surprises. First author [Josh] has blogged about some of the [biophysical aspects].
 
 And there's much more to do. How, exactly, does Pab1's phase separation help the cell? We share some ideas in the paper. How, exactly, does Pab1 sense temperature and pH? Watch this space as the story continues to, well, come together.
 
