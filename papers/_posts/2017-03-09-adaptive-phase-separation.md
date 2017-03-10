@@ -7,7 +7,7 @@ nickname: adaptive-phase-separation
 journal: "Cell"
 volume: 168
 issue: 6
-pages: 
+pages: 1028–1040
 authors: "Riback JA, Katanski CD, Kear-Scott JL, Pilipenko EV, Rojek AE, Sosnick TR, Drummond DA"
 image: /assets/images/papers/pab1-phase-separation.svg
 redirect_from: /adaptive-phase-separation/
