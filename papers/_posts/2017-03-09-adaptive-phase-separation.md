@@ -37,24 +37,27 @@ In eukaryotic cells, diverse stresses trigger coalescence of RNA-binding protein
 
 This work was a productive collaboration with the [Sosnick Lab](http://sosnick.uchicago.edu/).
 
-# Perspectives
+# Perspective
 
 A terrific [perspective][alberti-perspective] ("Gel or Die") accompanies the paper, by [Simon Alberti] and [Sonja Kroschwald]. 
 
-[Allan][al] [blogged about][1] the general ideas. Co-first author [Josh] wrote about [biophysical aspects][josh-blog] of the work, and co-first author [Chris] gave an [inside look] into the study. 
+# Posts
+1. [Allan][al] gave a [light-hearted introduction]
+1. Co-first author [Josh] wrote about [biophysical aspects][josh-blog] of the work
+1. Co-first author [Chris] gave an [inside look] into biological and genetic aspects. 
 
-# Coverage
-1. UChicago [ScienceLife]
+# Other 
+1. UChicago [ScienceLife], ["Molecules form gels to help cells sense and respond to stress"][ScienceLife]
 
 [al]: /team/d-allan-drummond
-[1]: /blog/about-adaptive-phase-separation
+[light-hearted introduction]: /blog/about-adaptive-phase-separation
 [Josh]: /team/josh-riback
 [josh-blog]: /blog/polymer-biophysics-in-action
 [alberti-perspective]: https://authors.elsevier.com/a/1UhPyL7PXQsMS
 [Simon Alberti]: https://www.mpi-cbg.de/en/research-groups/current-groups/simon-alberti/group-leader/
 [biophysical aspects]: /blog/polymer-biophysics-in-action
 [Chris]: /team/chris-katanski
-[biology]: /blog/Pab1-Demixing-FAQ
+[inside look]: /blog/Pab1-Demixing-FAQ
 [ScienceLife]: https://sciencelife.uchospitals.edu/2017/03/09/molecules-form-gels-to-help-cells-sense-and-respond-to-stress/
 
 
