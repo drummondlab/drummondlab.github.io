@@ -13,7 +13,7 @@ image: /assets/images/papers/pab1-phase-separation.svg
 redirect_from: /adaptive-phase-separation/
 fulltext: https://authors.elsevier.com/a/1UhPyL7PXQsMS
 pdf: 
-pdflink: <!-- http://www.cell.com/cell/pdf/S0092-8674(17)30242-8.pdf -->
+pdflink: 
 github: https://github.com/dad/pab1-phase-2017
 pmid: 
 pmcid:
@@ -30,6 +30,8 @@ review: false
 tags: [phase separation, heat shock, aggregation, protein, Pab1, poly(A)-binding protein, yeast, stress, starvation]
 ---
 {% include JB/setup %}
+
+<!-- http://www.cell.com/cell/pdf/S0092-8674(17)30242-8.pdf -->
 
 # Abstract 
 
