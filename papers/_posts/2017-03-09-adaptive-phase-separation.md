@@ -45,8 +45,8 @@ A terrific [perspective][alberti-perspective] ("Gel or Die") accompanies the pap
 
 # Posts
 1. [Allan][al] gave a [light-hearted introduction]
-1. Co-first author [Josh] wrote about [biophysical aspects][josh-blog] of the work
-1. Co-first author [Chris] gave an [inside look] into biological and genetic aspects. 
+1. [Josh] wrote about [biophysical aspects][josh-blog] of the work
+1. [Chris] gave an [inside look] into biological and genetic aspects. 
 
 # Other 
 1. UChicago [ScienceLife], ["Molecules form gels to help cells sense and respond to stress"][ScienceLife]
