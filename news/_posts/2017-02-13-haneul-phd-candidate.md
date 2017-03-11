@@ -9,4 +9,4 @@ tags: [publication]
 ---
 [Haneul][1] passed her first committee meeting with colors a-flying, so she's on her way to a doctorate!
 
-[1]: /team/haneul-yoo/
+[1]: /team/haneul-yoo
