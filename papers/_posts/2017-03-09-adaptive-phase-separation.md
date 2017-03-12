@@ -41,7 +41,7 @@ This work was a productive collaboration with the [Sosnick Lab](http://sosnick.u
 
 # Perspective
 
-A terrific [perspective][alberti-perspective] ("Gel or Die") accompanies the paper, by Sonja Kroschwald abd [Simon Alberti]. 
+A terrific [perspective][alberti-perspective] ("Gel or Die") accompanies the paper, by Sonja Kroschwald and [Simon Alberti]. 
 
 # Posts
 1. [Allan][al] gave a [light-hearted introduction]
