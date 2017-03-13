@@ -15,7 +15,7 @@ fulltext: https://authors.elsevier.com/a/1UhPyL7PXQsMS
 pdf: 
 pdflink: 
 github: https://github.com/dad/pab1-phase-2017
-pmid: 
+pmid: 28283059
 pmcid:
 f1000: 
 doi: "10.1016/j.cell.2017.02.027"
