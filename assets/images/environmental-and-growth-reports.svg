@@ -17,8 +17,8 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="environmental-and-growth-reports.svg"
    inkscape:export-filename="./environmental-and-growth-reports.png"
-   inkscape:export-xdpi="134.27"
-   inkscape:export-ydpi="134.27">
+   inkscape:export-xdpi="299.90997"
+   inkscape:export-ydpi="299.90997">
   <defs
      id="defs36420">
     <marker
@@ -61,7 +61,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.2293615"
-     inkscape:cx="245.22775"
+     inkscape:cx="104.09758"
      inkscape:cy="38.662881"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -84,7 +84,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

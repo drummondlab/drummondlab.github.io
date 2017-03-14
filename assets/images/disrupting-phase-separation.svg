@@ -27,7 +27,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="106.54004"
+     inkscape:cx="205.2341"
      inkscape:cy="344.47278"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -85,7 +85,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -3018,11 +3018,11 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.83771753px;line-height:0.01%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21967502px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          id="tspan11686"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:100%;font-family:'Open Sans Light';-inkscape-font-specification:'Open Sans Light, ';text-align:center;text-anchor:middle;stroke-width:0.21967502px"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:100%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Light';text-align:center;text-anchor:middle;stroke-width:0.21967502px"
          y="36.782578"
          x="116.23222"
          sodipodi:role="line">Growth </tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:100%;font-family:'Open Sans Light';-inkscape-font-specification:'Open Sans Light, ';text-align:center;text-anchor:middle;stroke-width:0.21967502px"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:100%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Light';text-align:center;text-anchor:middle;stroke-width:0.21967502px"
          y="41.620296"
          x="115.60389"
          sodipodi:role="line"
@@ -3253,13 +3253,13 @@
          sodipodi:role="line"
          x="116.23222"
          y="102.36645"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:100%;font-family:'Open Sans Light';-inkscape-font-specification:'Open Sans Light, ';text-align:center;text-anchor:middle;stroke-width:0.21967502px"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:100%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Light';text-align:center;text-anchor:middle;stroke-width:0.21967502px"
          id="tspan44797">Growth </tspan><tspan
          id="tspan44799"
          sodipodi:role="line"
          x="115.60389"
          y="107.20416"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:100%;font-family:'Open Sans Light';-inkscape-font-specification:'Open Sans Light, ';text-align:center;text-anchor:middle;stroke-width:0.21967502px">Report</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:100%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Light';text-align:center;text-anchor:middle;stroke-width:0.21967502px">Report</tspan></text>
     <path
        inkscape:connector-curvature="0"
        id="path44803"
