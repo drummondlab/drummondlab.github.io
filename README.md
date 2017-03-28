@@ -1,11 +1,11 @@
-# The Drummond Lab main website
+# The Niemeyer Research Group main website
 
 ##
 
 
 ### TODOS
 
-See Issues on [the site](https://github.com/drummondlab/drummondlab.github.io).
+See Issues on [the site](https://github.com/Niemeyer-Research-Group/niemeyer-research-group.github.io).
 
 ## How to add content
 
