@@ -11,8 +11,8 @@ pages: 1760–1770
 authors: "KE Niemeyer, CJ Sung, and MP Raju"
 image: /assets/images/papers/skeletal-reduction-paper-abstract.svg
 fulltext:
-pdf:
-pdflink: https://arxiv.org/abs/1607.05079
+pdf: https://arxiv.org/abs/1607.05079
+pdflink:
 arxiv: "1607.05079 [physics.chem-ph]"
 github:
 pmid:

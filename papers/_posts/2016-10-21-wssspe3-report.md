@@ -1,0 +1,36 @@
+---
+layout: paper
+title: "Report on the Third Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE3)"
+year: 2016
+shortref: "Katz et al. <i>J Open Research Software</i> 2016"
+nickname: wssspe3-report
+journal: "Journal of Open Research Software"
+volume: 7
+issue: 4
+pages: 16
+authors: "DS Katz, ST Choi, KE Niemeyer, J Hetherington, F Löffler, D Gunter, R Idaszak, SR Brandt, MA Miller, S Gesing, ND Jones, N Weber, S Marru, G Allen, B Penzenstadler, CC Venters, E Davis, L Hwang, I Todorov, A Patra, and M de Val-Borro"
+image: /assets/images/papers/wssspe3-report-abstract.svg
+fulltext: http://openresearchsoftware.metajnl.com/article/10.5334/jors.118/
+pdf: http://openresearchsoftware.metajnl.com/articles/10.5334/jors.118/galley/194/download/
+pdflink:
+arxiv: 1602.02296 [cs.SE]
+github: https://github.com/WSSSPE/meetings/tree/master/WSSSPE3/report
+pmid:
+pmcid:
+f1000:
+doi: "10.5334/jors.118"
+dryad_doi:
+altmetric_id:
+figshare:
+category: paper
+published: true
+embargo: false
+peerreview: true
+review: false
+tags: [research software, software sustainability, software metrics, software citation, software credit]
+---
+{% include JB/setup %}
+
+# Abstract
+
+This report records and discusses the Third Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE3). The report includes a description of the keynote presentation of the workshop, which served as an overview of sustainable scientific software. It also summarizes a set of lightning talks in which speakers highlighted to-the-point lessons and challenges pertaining to sustaining scientific software. The final and main contribution of the report is a summary of the discussions, future steps, and future organization for a set of self-organized working groups on topics including developing pathways to funding scientific software; constructing useful common metrics for crediting software stakeholders; identifying principles for sustainable software engineering design; reaching out to research software organizations around the world; and building communities for software sustainability. For each group, we include a point of contact and a landing page that can be used by those who want to join that group's future activities. The main challenge left by the workshop is to see if the groups will execute these activities that they have scheduled, and how the WSSSPE community can encourage this to happen.

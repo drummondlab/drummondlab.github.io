@@ -10,8 +10,8 @@ issue: 8
 pages: 1439–1443
 authors: "KE Niemeyer and CJ Sung"
 image: /assets/images/papers/skeletal-reduction-graph-search-abstract.svg
-fulltext: https://arxiv.org/abs/1606.07802
-pdf:
+fulltext:
+pdf: https://arxiv.org/abs/1606.07802
 pdflink:
 arxiv: "1606.07802 [cs.DS]"
 github:
