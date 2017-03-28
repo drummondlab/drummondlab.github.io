@@ -1,6 +1,6 @@
 ---
 layout: member
-title: "Kyle E. Niemeyer"
+title: "Kyle Niemeyer"
 position: Principal investigator
 nickname: Kyle
 handle: kyle
