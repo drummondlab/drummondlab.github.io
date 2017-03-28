@@ -7,7 +7,7 @@ nickname: bone-tissue-imaging
 journal: "Journal of Microscopy"
 volume: 236
 issue: 1
-pages: 52--59
+pages: 52–59
 authors: "CR Slyfield Jr., KE Niemeyer, EV Tkachenko, RE Tomlinson, GG Steyer, CG Patthanacharoenphon, GJ Kazakia, DL Wilson, and CJ Hernandez"
 image: /assets/images/papers/bone-tissue-imaging-abstract.png
 fulltext: http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2818.2009.03204.x/full
