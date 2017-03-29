@@ -23,7 +23,7 @@ dryad_doi:
 altmetric_id:
 figshare: 10.6084/m9.figshare.4578010
 category: paper
-published: false
+published: true
 embargo: false
 peerreview: true
 review: false
