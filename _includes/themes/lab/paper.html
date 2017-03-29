@@ -117,14 +117,19 @@ with gratitude.
 			</div>
 			<div class="bigspacer"></div>
 			{% endif %}
-			{% if page.dryad_doi %}
+			{% if page.dryad_doi or page.figshare %}
 			<div class="smallhead subtle">
 				Data
 			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-database fa-fw"></i>
-				<a class="off" href="https://doi.org/{{ page.dryad_doi }}">Dryad</a>
+                {% if page.dryad_doi %}
+                <a class="off" href="https://doi.org/{{ page.dryad_doi }}">Dryad</a>
+                {% endif %}
+                {% if page.figshare %}
+                <a class="off" href="https://doi.org/{{ page.figshare }}">Figshare</a>
+                {% endif %}
 			</div>
 			<div class="bigspacer"></div>
 			{% endif %}
