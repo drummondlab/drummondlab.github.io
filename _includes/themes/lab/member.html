@@ -104,9 +104,9 @@
 			{% for paper in site.categories.papers %}
 				{% if paper.authors contains lastname %}
 					{% if paper.embargo %}
-					<p>{{ paper.title }}
+					<p><i class="fa fa-file-text-o" aria-hidden="true"></i>{{ paper.title }}
 					{% else %}
-					<p><a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+					<p><i class="fa fa-file-text-o" aria-hidden="true"></i><a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
 					{% endif %}
 				{% endif %}
 			{% endfor %}
