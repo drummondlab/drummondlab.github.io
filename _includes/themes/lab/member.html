@@ -104,9 +104,9 @@
 			{% for paper in site.categories.papers %}
 				{% if paper.authors contains lastname %}
 					{% if paper.embargo %}
-					<p><i class="fa fa-file-text-o" aria-hidden="true"></i>{{ paper.title }}
+					<p><i class="fa fa-file-text-o" aria-hidden="true"></i> {{ paper.title }}
 					{% else %}
-					<p><i class="fa fa-file-text-o" aria-hidden="true"></i><a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+					<p><a href="{{ paper.url }}" class="off"><i class="fa fa-file-text-o" aria-hidden="true"></i> {{ paper.title }}</a>
 					{% endif %}
 				{% endif %}
 			{% endfor %}
@@ -124,7 +124,7 @@
 			<div class="spacer"></div>
 			{% for post in site.categories.blog %}
 				{% if member.handle == post.author_handle %}
-					<p><a href="{{ post.url }}" class="off">{{ post.title }}</a>
+					<p><a href="{{ post.url }}" class="off"><i class="fa fa-rss" aria-hidden="true"></i> {{ post.title }}</a>
 				{% endif %}
 			{% endfor %}
 		{% endif %}
