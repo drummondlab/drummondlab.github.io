@@ -46,29 +46,36 @@ with gratitude.
 	<div class="col-md-3">
 		<div class="bigspacer"></div>
 		<div class="glyphbox note"> <!-- DAD: what is this class? -->
-			{% if page.pdf or page.pdflink or page.fulltext %}
-			<div class="smallhead subtle">
-				Full text
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				{% if page.pdflink %}
-					<i class="fa fa-file-pdf-o fa-fw"></i>
-					<a class="off" href="{{ page.pdflink }}">Journal PDF</a>
-					<br/>
-				{% endif %}
-				{% if page.pdf %}
-					<i class="fa fa-file-pdf-o fa-fw"></i>
-					<a class="off" href="{{ page.pdf }}">PDF</a>
-					<br/>
-				{% endif %}
-				{% if page.fulltext %}
-				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="{{ page.fulltext }}">Journal HTML</a>
-				{% endif %}
-			</div>
-			<div class="bigspacer"></div>
-			{% endif %}
+            <div class="smallhead subtle">
+                Full text
+            </div>
+            {% if page.pdf or page.pdflink or page.fulltext %}
+            <div class="pad-left note">
+                <div class="smallspacer"></div>
+                {% if page.fulltext %}
+                <i class="fa fa-external-link fa-fw"></i>
+                <a class="off" href="{{ page.fulltext }}">Journal HTML</a>
+                {% endif %}
+                {% if page.pdflink %}
+                    <i class="fa fa-file-pdf-o fa-fw"></i>
+                    <a class="off" href="{{ page.pdflink }}">Journal PDF</a>
+                    <br/>
+                {% endif %}
+                {% if page.pdf %}
+                <i class="fa fa-file-pdf-o fa-fw"></i>
+                    <a class="off" href="{{ page.pdf }}">PDF</a>
+                    <br/>
+                {% endif %}
+                {% if page.arxiv %}
+                <i class="ai ai-arxiv fa-fw"></i>
+                <a class="off" href="{{ page.eprint }}"><code>arXiv:{{ page.arxiv }}</code></a>
+                {% elsif page.eprint %}
+                <i class="ai ai-open-access fa-fw"></i>
+                <a class="off" href="{{ page.eprint }}">{{ page.eprint }}</a>
+                {% endif %}
+            </div>
+            {% endif %}
+            <div class="bigspacer"></div>
 
 			{% if page.supplement %}
 			<div class="smallhead subtle">
