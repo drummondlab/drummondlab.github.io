@@ -11,9 +11,10 @@ pages: 16
 authors: "KE Niemeyer, AM Smith, and DS Katz"
 image: /assets/images/papers/default-paper.svg
 fulltext:
-pdf: https://arxiv.org/abs/1601.04734
+pdf:
 pdflink:
 arxiv: 1601.04734 [cs.CY]
+eprint: https://arxiv.org/abs/1601.04734
 github:
 doi: 10.1145/2968452
 dryad_doi:

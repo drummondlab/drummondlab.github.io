@@ -13,7 +13,7 @@ image: /assets/images/papers/wssspe3-report-abstract.svg
 fulltext: http://openresearchsoftware.metajnl.com/article/10.5334/jors.118/
 pdf: http://openresearchsoftware.metajnl.com/articles/10.5334/jors.118/galley/194/download/
 pdflink:
-arxiv: 1602.02296 [cs.SE]
+arxiv:
 github: https://github.com/WSSSPE/meetings
 pmid:
 pmcid:

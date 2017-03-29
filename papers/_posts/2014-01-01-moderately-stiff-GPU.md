@@ -11,9 +11,10 @@ pages: 854–871
 authors: "KE Niemeyer and CJ Sung"
 image: /assets/images/papers/default-paper.svg
 fulltext:
-pdf: https://arxiv.org/abs/1309.2710
+pdf:
 pdflink:
 arxiv: "1309.2710 [physics.comp-ph]"
+eprint: https://arxiv.org/abs/1309.2710
 github:
 doi: "10.1016/j.jcp.2013.09.025"
 dryad_doi:

@@ -14,8 +14,8 @@ fulltext: http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2818.2009.03204.x/fu
 pdf:
 pdflink: http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2818.2009.03204.x/epdf
 github:
-pmid: 19772536
-pmcid: PMC2978811
+pmid: "19772536"
+pmcid: "PMC2978811"
 f1000:
 doi: "10.1111/j.1365-2818.2009.03204.x"
 dryad_doi:

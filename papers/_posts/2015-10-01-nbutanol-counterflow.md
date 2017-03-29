@@ -11,10 +11,11 @@ pages: 3596–3611
 authors: "KB Brady, X Hui, KE Niemeyer, and CJ Sung"
 image: /assets/images/papers/nbutanol-counterflow-abstract.png
 fulltext: http://www.sciencedirect.com/science/article/pii/S0010218015001984
-pdf: http://hdl.handle.net/1957/58775
+pdf:
 pdflink:
 arxiv:
 github:
+eprint: http://hdl.handle.net/1957/58775
 doi: "10.1016/j.combustflame.2015.06.017"
 dryad_doi:
 altmetric_id:

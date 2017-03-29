@@ -11,9 +11,10 @@ pages: 1172–1185
 authors: "KE Niemeyer and CJ Sung"
 image: /assets/images/papers/reduced-gasoline-surrogate-abstract.svg
 fulltext: http://pubs.acs.org/doi/abs/10.1021/ef5022126
-pdf: http://arxiv.org/abs/1410.0401
+pdf:
 pdflink:
 arxiv: "1410.0401 [physics.chem-ph]"
+eprint: http://arxiv.org/abs/1410.0401
 github:
 doi: "10.1021/ef5022126"
 dryad_doi:

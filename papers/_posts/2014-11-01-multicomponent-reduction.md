@@ -11,9 +11,10 @@ pages: 2752–2764
 authors: "KE Niemeyer and CJ Sung"
 image: /assets/images/papers/multicomponent-reduction-abstract.png
 fulltext:
-pdf: https://arxiv.org/abs/1405.3745
+pdf:
 pdflink:
 arxiv: "1405.3745 [physics.chem-ph]"
+eprint: https://arxiv.org/abs/1405.3745
 github:
 doi: "10.1016/j.combustflame.2014.05.001"
 dryad_doi:

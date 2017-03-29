@@ -11,9 +11,10 @@ pages: 312–324
 authors: "NJ Curtis, KE Niemeyer, and CJ Sung"
 image: /assets/images/papers/default-paper.svg
 fulltext: http://www.sciencedirect.com/science/article/pii/S0010218017300354
-pdf: https://arxiv.org/abs/1607.03884
+pdf:
 pdflink:
 arxiv: "1607.03884 [physics.comp-ph]"
+eprint: https://arxiv.org/abs/1607.03884
 github: https://github.com/arghdos/GPU-Integration-Paper
 doi: 10.1016/j.combustflame.2017.02.005
 dryad_doi:

@@ -11,13 +11,12 @@ pages: 14–24
 authors: "KE Niemeyer, SR Daly, WJ Cannella, and CL Hagen"
 image: /assets/images/papers/LTC-index-oxygenated-abstract.png
 fulltext: http://www.sciencedirect.com/science/article/pii/S0016236115003932
-pdf: https://osf.io/f9tm8/
+pdf:
 pdflink:
 arxiv:
+eprint: https://osf.io/f9tm8/
 github:
 doi: "10.1016/j.fuel.2015.04.010"
-dryad_doi:
-altmetric_id:
 figshare:
 category: paper
 published: true

@@ -11,9 +11,10 @@ pages:
 authors: "KE Niemeyer, NJ Curtis, and CJ Sung"
 image: /assets/images/papers/pyjac-paper-abstract.svg
 fulltext: http://www.sciencedirect.com/science/article/pii/S0010465517300462
-pdf: https://arxiv.org/abs/1605.03262
+pdf:
 pdflink:
 arxiv: "1605.03262 [physics.comp-ph]"
+eprint: https://arxiv.org/abs/1605.03262
 github: https://github.com/Niemeyer-Research-Group/pyJac-paper
 f1000:
 doi: 10.1016/j.cpc.2017.02.004
