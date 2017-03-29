@@ -15,9 +15,6 @@ pdf: /assets/pdfs/Zhong_etal_Acta_Mech_Sin_2015.pdf
 pdflink:
 arxiv:
 github:
-pmid:
-pmcid:
-f1000:
 doi: "10.1007/s10409-015-0434-5"
 dryad_doi:
 altmetric_id:
@@ -28,6 +25,17 @@ embargo: false
 peerreview: true
 review: false
 tags: [Mechanism reduction, model reduction, skeletal model, hydrocarbons, directed relation graph, kerosene]
+bibtex: >
+  @article{Zhong:2015,
+    Author = {Fengquan Zhong and Sugang Ma and Xinyu Zhang and Chih-Jen Sung and Kyle E Niemeyer},
+    Title = {Development of efficient and accurate skeletal mechanisms for hydrocarbon fuels and kerosene surrogate},
+    Journal = {Acta Mech. Sin.},
+    Volume = {31},
+    Number = {5},
+    Pages = {732--740},
+    Doi = {10.1007/s10409-015-0434-5},
+    Year = 2015
+  }
 ---
 {% include JB/setup %}
 

@@ -15,9 +15,6 @@ pdf: https://osf.io/f9tm8/
 pdflink:
 arxiv:
 github:
-pmid:
-pmcid:
-f1000:
 doi: "10.1016/j.fuel.2015.04.010"
 dryad_doi:
 altmetric_id:
@@ -28,6 +25,16 @@ embargo: false
 peerreview: true
 review: false
 tags: [low-temperature combustion, HCCI engines, gasoline, octane number]
+bibtex: >
+  @article{Niemeyer:2015c,
+    Author = {Kyle E Niemeyer and Shane R. Daly and William J. Cannella and Christopher L. Hagen},
+    Title = {Investigation of the LTC fuel performance index for oxygenated reference fuel blends},
+    Year = 2015,
+    Journal = {Fuel},
+    Volume = {155},
+    Pages = {14--24},
+    doi = {10.1016/j.fuel.2015.04.010}
+  }
 ---
 {% include JB/setup %}
 

@@ -4,7 +4,7 @@ title: "pyJac: Analytical Jacobian generator for chemical kinetics"
 year: 2017
 shortref: "Niemeyer et al. <i>Comput Phys Comm</i> 2017"
 nickname: pyjac-paper
-journal: "Computer Physics Communication"
+journal: "Computer Physics Communications"
 volume:
 issue:
 pages:
@@ -15,8 +15,6 @@ pdf: https://arxiv.org/abs/1605.03262
 pdflink:
 arxiv: "1605.03262 [physics.comp-ph]"
 github: https://github.com/Niemeyer-Research-Group/pyJac-paper
-pmid:
-pmcid:
 f1000:
 doi: 10.1016/j.cpc.2017.02.004
 dryad_doi:
@@ -28,6 +26,16 @@ embargo: false
 peerreview: true
 review: false
 tags: [chemical kinetics, Jacobian, SIMD, GPU]
+bibtex: >
+  @article{Niemeyer:2017py,
+    Author = {Kyle E. Niemeyer and Nicholas J. Curtis and Chih-Jen Sung},
+    Title = {\texttt{pyJac}: analytical Jacobian generator for chemical kinetics},
+    Journal = {Computer Physics Communications},
+    Pages = {},
+    Volume = {},
+    Year = 2017,
+    doi = {10.1016/j.cpc.2017.02.004}
+  }
 ---
 {% include JB/setup %}
 

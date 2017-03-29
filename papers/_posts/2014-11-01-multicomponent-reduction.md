@@ -15,9 +15,6 @@ pdf: https://arxiv.org/abs/1405.3745
 pdflink:
 arxiv: "1405.3745 [physics.chem-ph]"
 github:
-pmid:
-pmcid:
-f1000:
 doi: "10.1016/j.combustflame.2014.05.001"
 dryad_doi:
 altmetric_id:
@@ -28,6 +25,16 @@ embargo: false
 peerreview: true
 review: false
 tags: [mechanism reduction, model reduction, multicomponent fuels, surrogate fuels, skeletal mechanism, directed relation graph methods]
+bibtex: >
+  @article{Niemeyer:2014,
+    Author = {Kyle E Niemeyer and Chih-Jen Sung},
+    Title = {Mechanism reduction for multicomponent surrogates: a case study using toluene reference fuels},
+    Journal = {Combust. Flame},
+    Pages = {2752--2764},
+    Volume = {161},
+    Number = {11},
+    Year = 2014
+  }
 ---
 {% include JB/setup %}
 

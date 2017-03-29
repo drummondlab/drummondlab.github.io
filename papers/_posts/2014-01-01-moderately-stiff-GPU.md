@@ -15,9 +15,6 @@ pdf: https://arxiv.org/abs/1309.2710
 pdflink:
 arxiv: "1309.2710 [physics.comp-ph]"
 github:
-pmid:
-pmcid:
-f1000:
 doi: "10.1016/j.jcp.2013.09.025"
 dryad_doi:
 altmetric_id:
@@ -28,6 +25,15 @@ embargo: false
 peerreview: true
 review: false
 tags: [reactive-flow modeling, GPU, chemical kinetics, stiff chemistry, CUDA]
+bibtex: >
+  @article{Niemeyer:2014jcp,
+    Author = {Kyle E Niemeyer and Chih-Jen Sung},
+    Title = {Accelerating moderately stiff chemical kinetics in reactive-flow simulations using GPUs},
+    Journal = {J. Comput. Phys.},
+    Pages = {854--871},
+    Volume = {256},
+    Year = 2014
+  }
 ---
 {% include JB/setup %}
 

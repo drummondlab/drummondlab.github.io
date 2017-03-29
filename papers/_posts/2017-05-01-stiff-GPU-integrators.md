@@ -15,9 +15,6 @@ pdf: https://arxiv.org/abs/1607.03884
 pdflink:
 arxiv: "1607.03884 [physics.comp-ph]"
 github: https://github.com/arghdos/GPU-Integration-Paper
-pmid:
-pmcid:
-f1000:
 doi: 10.1016/j.combustflame.2017.02.005
 dryad_doi:
 altmetric_id:
@@ -28,6 +25,16 @@ embargo: false
 peerreview: true
 review: false
 tags: [chemical kinetics, stiff chemistry, integration algorithms, GPU, SIMT]
+bibtex: >
+  @article{Curtis:2017cf,
+    Author = {Nicholas J. Curtis and Kyle E. Niemeyer and Chih-Jen Sung},
+    Title = {An investigation of {GPU}-based stiff chemical kinetics integration methods},
+    Journal = {Combustion and Flame},
+    Pages = {312--324},
+    Volume = {179},
+    Year = 2017,
+    doi = {10.1016/j.combustflame.2017.02.005}
+  }
 ---
 {% include JB/setup %}
 

@@ -15,10 +15,7 @@ pdf: https://arxiv.org/abs/1601.04734
 pdflink:
 arxiv: 1601.04734 [cs.CY]
 github:
-pmid:
-pmcid:
-f1000:
-doi: "10.1145/2968452"
+doi: 10.1145/2968452
 dryad_doi:
 altmetric_id:
 figshare:
@@ -28,6 +25,17 @@ embargo: false
 peerreview: true
 review: false
 tags: [software citation, software credit, attribution]
+bibtex: >
+  @article{Niemeyer:2016sc,
+    Author = {Kyle E. Niemeyer and Arfon M. Smith and Daniel S. Katz},
+    Title = {The challenge and promise of software citation for credit, identification, discovery, and reuse},
+    Journal = {Journal of Data and Information Quality},
+    Pages = {16},
+    Volume = {7},
+    Number = {4},
+    Year = 2016,
+    doi = {10.1145/2968452}
+  }
 ---
 {% include JB/setup %}
 

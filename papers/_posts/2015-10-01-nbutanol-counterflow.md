@@ -15,9 +15,6 @@ pdf: http://hdl.handle.net/1957/58775
 pdflink:
 arxiv:
 github:
-pmid:
-pmcid:
-f1000:
 doi: "10.1016/j.combustflame.2015.06.017"
 dryad_doi:
 altmetric_id:
@@ -28,6 +25,17 @@ embargo: false
 peerreview: true
 review: false
 tags: [counterflow ignition, butanol, non-premixed, skeletal model]
+bibtex: >
+  @article{Brady:2015bu,
+    Author = {Kyle B Brady and Xin Hui and Chih-Jen Sung and Kyle E Niemeyer},
+    Title = {Counterflow ignition of n-butanol at atmospheric and elevated pressures},
+    Journal = {Combust. Flame},
+    Volume = {162},
+    Number = {10},
+    Pages = {3596--3611},
+    doi = {10.1016/j.combustflame.2015.06.017},
+    Year = 2015
+  }
 ---
 {% include JB/setup %}
 

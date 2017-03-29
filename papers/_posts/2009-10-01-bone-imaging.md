@@ -27,6 +27,18 @@ embargo: false
 peerreview: true
 review: false
 tags: [bone remodeling, cancellous bone, epifluorescence microscopy, fluorescence imaging, histomorphometry, image processing]
+bibtex: >
+  @article{SlyfieldJr:2009,
+    Author = {Slyfield Jr, CR and Niemeyer, Kyle Evan and Tkachenko, EV and Tomlinson, RE and Steyer, GG and Patthanacharoenphon, CG and Kazakia, GJ and Wilson, DL and Hernandez, CJ},
+    Title = {Three-dimensional surface texture visualization of bone tissue through epifluorescence-based serial block face imaging},
+    Journal = {J. Microscopy},
+    Volume = {236},
+    Number = {1},
+    Month = oct,
+    Pages = {52--59},
+    Year = 2009,
+    Doi = {10.1111/j.1365-2818.2009.03204.x}
+  }
 ---
 {% include JB/setup %}
 

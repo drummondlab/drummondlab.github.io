@@ -15,9 +15,6 @@ pdf: https://arxiv.org/abs/1606.07802
 pdflink:
 arxiv: "1606.07802 [cs.DS]"
 github:
-pmid:
-pmcid:
-f1000:
 doi: "10.1016/j.combustflame.2010.12.010"
 dryad_doi:
 altmetric_id:
@@ -28,6 +25,17 @@ embargo: false
 peerreview: true
 review: false
 tags: [Mechanism reduction, model reduction, skeletal mechanism, DRG, DRGEP, graph search algorithm, Dijkstra's algorithm]
+bibtex: >
+  @article{Niemeyer:2011,
+    Author = {Kyle E Niemeyer and Chih-Jen Sung},
+    Title = {On the importance of graph search algorithms for {DRGEP}-based mechanism reduction methods},
+    Journal = {Combust. Flame},
+    Number = {8},
+    Pages = {1439--1443},
+    Volume = {158},
+    Year = 2011,
+    Doi = {10.1016/j.combustflame.2010.12.010}
+  }
 ---
 {% include JB/setup %}
 

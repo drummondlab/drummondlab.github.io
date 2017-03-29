@@ -15,9 +15,6 @@ pdf: https://arxiv.org/abs/1309.3018
 pdflink:
 arxiv: "1309.3018 [physics.flu-dyn]"
 github:
-pmid:
-pmcid:
-f1000:
 doi: "10.1007/s11227-013-1015-7"
 dryad_doi:
 altmetric_id:
@@ -28,6 +25,17 @@ embargo: false
 peerreview: true
 review: false
 tags: [graphics processing unit (GPU), computational fluid dynamics (CFD), laminar flows, turbulent flow, reactive flow, CUDA]
+bibtex: >
+  @article{Niemeyer:2014js,
+    Author = {Kyle E Niemeyer and Chih-Jen Sung},
+    Title = {Recent progress and challenges in exploiting graphics processors in computational fluid dynamics},
+    Journal = {J. Supercomput.},
+    Pages = {528--564},
+    Volume = {67},
+    Number = {2},
+    doi = {10.1007/s11227-013-1015-7},
+    Year = 2014
+  }
 ---
 {% include JB/setup %}
 

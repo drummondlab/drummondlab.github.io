@@ -15,9 +15,6 @@ pdf:
 pdflink:
 arxiv:
 github:
-pmid:
-pmcid:
-f1000:
 doi: "10.1016/j.combustflame.2014.11.004"
 dryad_doi:
 altmetric_id:
@@ -28,6 +25,16 @@ embargo: false
 peerreview: true
 review: false
 tags: [mechanism reduction, dynamic adaptive chemistry, directed relation graph with error propagation, target species selection]
+bibtex: >
+  @article{Curtis:2015,
+    Author = {Nicholas J Curtis and Kyle E Niemeyer and Chih-Jen Sung},
+    Title = {An automated target species selection method for dynamic adaptive chemistry simulations},
+    Journal = {Combust. Flame},
+    Volume = {162},
+    Number = {4},
+    Pages = {1358--1374}
+    Year = 2015
+  }
 ---
 {% include JB/setup %}
 

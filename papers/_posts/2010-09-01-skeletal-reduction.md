@@ -15,9 +15,6 @@ pdf: https://arxiv.org/abs/1607.05079
 pdflink:
 arxiv: "1607.05079 [physics.chem-ph]"
 github:
-pmid:
-pmcid:
-f1000:
 doi: "10.1016/j.combustflame.2009.12.022"
 dryad_doi:
 altmetric_id:
@@ -28,6 +25,18 @@ embargo: false
 peerreview: true
 review: false
 tags: [Mechanism reduction, model reduction, directed relation graph, skeletal mechanism, surrogate fuels, n-heptane, iso-octane, n-decane]
+bibtex: >
+  @article{Niemeyer:2010a,
+    Author = {Kyle E Niemeyer and Chih Jen Sung and Mandhapati P Raju},
+    Title = {Skeletal mechanism generation for surrogate fuels using directed relation graph with error propagation and sensitivity analysis},
+    Journal = {Combust. Flame},
+    Month = sep,
+    Number = {9},
+    Pages = {1760--1770},
+    Volume = {157},
+    Year = 2010,
+    Doi = {10.1016/j.combustflame.2009.12.022}
+  }
 ---
 {% include JB/setup %}
 

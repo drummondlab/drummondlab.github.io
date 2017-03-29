@@ -28,6 +28,17 @@ embargo: false
 peerreview: true
 review: false
 tags: [research software, software sustainability, software metrics, software citation, software credit]
+bibtex: >
+  @article{Katz2016:ws,
+   author = {Daniel S. Katz and Sou-Cheng T. Choi and Kyle E. Niemeyer and James Hetherington and Frank Löffler and Dan Gunter and Ray Idaszak and Steven R. Brandt and Mark A. Miller and Sandra Gesing and Nick D. Jones and Nic Weber and Suresh Marru and Gabrielle Allen and Birgit Penzenstadler and Colin C. Venters and Ethan Davis and Lorraine Hwang and Ilian Todorov and Abani Patra and Miguel de Val-Borro},
+   title = {Report on the Third Workshop on Sustainable Software for Science: Practice and Experiences ({WSSSPE3})},
+   journal = {Journal of Open Research Software},
+   year = 2016,
+   volume = 7,
+   number = 4
+   pages = {16}
+   doi = {10.5334/jors.118}
+  }
 ---
 {% include JB/setup %}
 

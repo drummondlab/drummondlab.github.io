@@ -15,8 +15,6 @@ pdf: https://peerj.com/articles/cs-86.pdf
 pdflink:
 arxiv:
 github: https://github.com/force11/force11-scwg/tree/master/sc-principles
-pmid:
-pmcid:
 f1000:
 doi: "10.7717/peerj-cs.86"
 dryad_doi:
@@ -28,6 +26,16 @@ embargo: false
 peerreview: true
 review: false
 tags: [software citation, software credit, attribution]
+bibtex: >
+  @article{Smith:2016sc,
+    Author = {Arfon M. Smith and Daniel S. Katz and Kyle E. Niemeyer and {FORCE11 Software Citation Working Group}},
+    Title = {Software citation principles},
+    Journal = {PeerJ CS},
+    Pages = {e86},
+    Volume = {2},
+    Year = 2016,
+    doi = {10.7717/peerj-cs.86}
+  }
 ---
 {% include JB/setup %}
 
