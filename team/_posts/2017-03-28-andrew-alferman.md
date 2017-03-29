@@ -8,7 +8,7 @@ email: alfermaa@oregonstate.edu
 twitter:
 github: andrewalferman
 scholar:
-image: /assets/images/team/default-member.svg
+image: /assets/images/team/andrew-alferman.jpg
 cv:
 alum: false
 ---
