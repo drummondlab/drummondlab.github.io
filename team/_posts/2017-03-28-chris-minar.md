@@ -8,6 +8,7 @@ email: minarc@oregonstate.edu
 twitter:
 github: chrisminar
 scholar:
+orcid: 0000-0002-8163-5758
 image: /assets/images/team/chris_minar.jpg
 cv:
 alum: true

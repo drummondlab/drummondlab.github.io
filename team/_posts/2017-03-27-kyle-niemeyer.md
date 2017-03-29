@@ -8,6 +8,7 @@ email: kyle.niemeyer@oregonstate.edu
 twitter: kyleniemeyer
 github: kyleniemeyer
 scholar: dt0KRYoAAAAJ
+orcid: 0000-0003-4425-7097
 image: /assets/images/team/kyle-niemeyer-web.jpg
 cv: https://github.com/kyleniemeyer/cv/raw/gh-pages/KE_Niemeyer_CV.pdf
 alum: false

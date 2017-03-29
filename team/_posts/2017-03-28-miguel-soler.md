@@ -8,6 +8,7 @@ email: solerm@oregonstate.edu
 twitter:
 github: solerm
 scholar:
+orcid: 0000-0003-1398-5171
 image: /assets/images/team/soler-miguel.jpg
 cv:
 alum: true
