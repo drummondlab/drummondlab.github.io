@@ -14,7 +14,7 @@ fulltext: http://openresearchsoftware.metajnl.com/article/10.5334/jors.118/
 pdf: http://openresearchsoftware.metajnl.com/articles/10.5334/jors.118/galley/194/download/
 pdflink:
 arxiv: 1602.02296 [cs.SE]
-github: https://github.com/WSSSPE/meetings/tree/master/WSSSPE3/report
+github: https://github.com/WSSSPE/meetings
 pmid:
 pmcid:
 f1000:
