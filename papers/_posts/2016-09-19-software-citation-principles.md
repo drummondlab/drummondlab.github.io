@@ -9,7 +9,7 @@ volume: 2
 issue:
 pages: e86
 authors: "AM Smith, DS Katz, KE Niemeyer, and FORCE11 Software Citation Working Group"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/software-citation-principles-abstract.svg
 fulltext: https://peerj.com/articles/cs-86/
 pdf: https://peerj.com/articles/cs-86.pdf
 pdflink:
