@@ -13,7 +13,7 @@
 		* Themes separate
 * Nice to have
 	* Mobile-friendly
-	* Tags for papers, protocols
+	* Tags for papers, software
 	* Share
 	* Search
 	* Analytics
@@ -37,7 +37,7 @@ Issues are tracked at GitHub [github-issues].
 * Content
 	* Lab members
 	* Publications
-	* Protocols
+	* software
 
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
@@ -74,7 +74,7 @@ I'm inspired by [Trevor Bedford]'s clean, functional [site][1]. I intend to copy
 		* Heat triggers reversible...
 	* Team
 	* Blog
-	* Protocols
+	* software
 	* Misc
 		* About
 		* Join
@@ -91,7 +91,7 @@ Each of the major areas is structured like a blog. For example:
 		_posts/
 			2014-12-09-queuosine.md
 			2015-04-18-mrna-protein.md
-	protocols/
+	software/
 		index.html
 		_posts/
 			2015-04-18-yeast-lysis.md
@@ -130,4 +130,3 @@ Name registration at [NameCheap]. Custom domain via [GitHub Pages].
 
 [Trevor Bedford]: http://bedford.io/team/trevor-bedford/
 [1]: http://bedford.io
-

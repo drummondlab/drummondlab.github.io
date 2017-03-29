@@ -12,8 +12,8 @@ CONFIG = {
   'post_ext' => "md",
   'papers' => File.join(SOURCE, "papers/_posts"),
   'paper_ext' => "md",
-  'protocols' => File.join(SOURCE, "protocols/_posts"),
-  'protocol_ext' => "md",
+  'software' => File.join(SOURCE, "software/_posts"),
+  'software_ext' => "md",
   'theme_package_version' => "0.1.0"
 }
 
@@ -28,9 +28,9 @@ module JB
       :theme_packages => "_theme_packages",
       :posts => "_posts",
       :papers => "papers/_posts",
-      :protocols => "protocols/_posts"
+      :software => "software/_posts"
     }
-    
+
     def self.base
       SOURCE
     end
@@ -42,7 +42,7 @@ module JB
       path.compact!
       File.__send__ :join, path
     end
-  
+
   end #Path
 end #JB
 
@@ -71,7 +71,7 @@ task :post do
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
-  
+
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
@@ -104,7 +104,7 @@ task :paper do
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
-  
+
   puts "Creating new paper entry: #{filename}"
   open(filename, 'w') do |paper|
     paper.puts "---"
@@ -125,11 +125,11 @@ task :paper do
 end # task :paper
 
 
-# Usage: rake protocol title="Protocol Title" [date="2015-05-01"] [tags=[tag1,tag2]]
-desc "Begin a new protocol in #{CONFIG['protocols']}"
-task :protocol do
-  abort("rake aborted: '#{CONFIG['protocols']}' directory not found.") unless FileTest.directory?(CONFIG['protocols'])
-  title = ENV["title"] || "new-protocol"
+# Usage: rake software title="Software Title" [date="2015-05-01"] [tags=[tag1,tag2]]
+desc "Begin a new software in #{CONFIG['software']}"
+task :software do
+  abort("rake aborted: '#{CONFIG['software']}' directory not found.") unless FileTest.directory?(CONFIG['software'])
+  title = ENV["title"] || "new-software"
   tags = ENV["tags"] || "[]"
   category = ENV["category"] || ""
   category = "\"#{category.gsub(/-/,' ')}\"" if !category.empty?
@@ -140,23 +140,23 @@ task :protocol do
     puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
     exit -1
   end
-  filename = File.join(CONFIG['protocols'], "#{date}-#{slug}.#{CONFIG['protocol_ext']}")
+  filename = File.join(CONFIG['software'], "#{date}-#{slug}.#{CONFIG['software_ext']}")
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
-  
-  puts "Creating new protocol: #{filename}"
+
+  puts "Creating new software: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
-    post.puts "layout: protocol"
+    post.puts "layout: software"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts 'description: ""'
-    post.puts "category: protocol"
+    post.puts "category: software"
     post.puts "tags: #{tags}"
     post.puts "---"
     post.puts "{% include JB/setup %}"
   end
-end # task :protocol
+end # task :software
 
 # Usage: rake page name="about.html"
 # You can also specify a sub-directory path.
@@ -170,7 +170,7 @@ task :page do
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
-  
+
   mkdir_p File.dirname(filename)
   puts "Creating new page: #{filename}"
   open(filename, 'w') do |post|
@@ -197,7 +197,7 @@ task :switch_theme => "theme:switch"
 #task :refresh_theme => "theme:switch"
 
 namespace :theme do
-  
+
   # Public: Switch from one theme to another for your blog.
   #
   # name - String, Required. name of the theme you want to switch to.
@@ -229,14 +229,14 @@ namespace :theme do
         page.puts "layout: default" unless File.basename(filename, ".html").downcase == "default"
         page.puts "---"
         page.puts "{% include JB/setup %}"
-        page.puts "{% include themes/#{theme_name}/#{File.basename(filename)} %}" 
+        page.puts "{% include themes/#{theme_name}/#{File.basename(filename)} %}"
       end
     end
-    
+
     puts "=> Theme successfully switched!"
     puts "=> Reload your page to check it out"
   end # task :switch
-  
+
   # Public: Install a theme using the theme packager.
   # Version 0.1.0 simple 1:1 file matching.
   #
@@ -260,28 +260,28 @@ namespace :theme do
     end
 
     packaged_theme_path = JB::Path.build(:theme_packages, :node => name)
-    
+
     abort("rake aborted!
       => ERROR: 'name' cannot be blank") if name.empty?
-    abort("rake aborted! 
+    abort("rake aborted!
       => ERROR: '#{packaged_theme_path}' directory not found.
       => Installable themes can be added via git. You can find some here: http://github.com/jekyllbootstrap
       => To download+install run: `rake theme:install git='[PUBLIC-CLONE-URL]'`
       => example : rake theme:install git='git@github.com:jekyllbootstrap/theme-the-program.git'
     ") unless FileTest.directory?(packaged_theme_path)
-    
+
     manifest = verify_manifest(packaged_theme_path)
-    
+
     # Get relative paths to packaged theme files
     # Exclude directories as they'll be recursively created. Exclude meta-data files.
     packaged_theme_files = []
     FileUtils.cd(packaged_theme_path) {
-      Dir.glob("**/*.*") { |f| 
+      Dir.glob("**/*.*") { |f|
         next if ( FileTest.directory?(f) || f =~ /^(manifest|readme|packager)/i )
-        packaged_theme_files << f 
+        packaged_theme_files << f
       }
     }
-    
+
     # Mirror each file into the framework making sure to prompt if already exists.
     packaged_theme_files.each do |filename|
       file_install_path = File.join(JB::Path.base, filename)
@@ -292,7 +292,7 @@ namespace :theme do
         cp_r File.join(packaged_theme_path, filename), file_install_path
       end
     end
-    
+
     puts "=> #{name} theme has been installed!"
     puts "=> ---"
     if ask("=> Want to switch themes now?", ['y', 'n']) == 'y'
@@ -305,7 +305,7 @@ namespace :theme do
   # In other words packaging is essentially the reverse of installing.
   #
   # name - String, Required name of the theme you want to package.
-  #        
+  #
   # Examples
   #
   #   rake theme:package name="twitter"
@@ -320,12 +320,12 @@ namespace :theme do
     abort("rake aborted: name cannot be blank") if name.empty?
     abort("rake aborted: '#{theme_path}' directory not found.") unless FileTest.directory?(theme_path)
     abort("rake aborted: '#{asset_path}' directory not found.") unless FileTest.directory?(asset_path)
-    
+
     ## Mirror theme's template directory (_includes)
     packaged_theme_path = JB::Path.build(:themes, :root => JB::Path.build(:theme_packages, :node => name))
     mkdir_p packaged_theme_path
     cp_r theme_path, packaged_theme_path
-    
+
     ## Mirror theme's asset directory
     packaged_theme_assets_path = JB::Path.build(:theme_assets, :root => JB::Path.build(:theme_packages, :node => name))
     mkdir_p packaged_theme_assets_path
@@ -336,10 +336,10 @@ namespace :theme do
     open(JB::Path.build(:theme_packages, :node => "#{name}/packager.yml"), "w") do |page|
       page.puts packager.to_yaml
     end
-    
+
     puts "=> '#{name}' theme is packaged and available at: #{JB::Path.build(:theme_packages, :node => name)}"
   end
-  
+
 end # end namespace :theme
 
 # Internal: Download and process a theme from a git url.
@@ -347,7 +347,7 @@ end # end namespace :theme
 # So we'll have to change the folder name once we get the name.
 #
 # url - String, Required url to git repository.
-#        
+#
 # Returns theme manifest hash
 def theme_from_git_url(url)
   tmp_path = JB::Path.build(:theme_packages, :node => "_tmp")
@@ -367,7 +367,7 @@ end
 # Internal: Process theme package manifest file.
 #
 # theme_path - String, Required. File path to theme package.
-#        
+#
 # Returns theme manifest hash
 def verify_manifest(theme_path)
   manifest_path = File.join(theme_path, "manifest.yml")
