@@ -82,8 +82,8 @@ p {
 	height: 5px;
 }
 
-a.off { 
-	color: inherit; 
+a.off {
+	color: inherit;
 	border-bottom: none;
 }
 
@@ -162,7 +162,7 @@ strong {
 	height: 180px;
 	line-height: 65px;
 	font-weight: $heavy-font-weight;
-	display: table-cell; 
+	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
 	text-shadow: 1.5px 1.5px #ffffff;
@@ -170,13 +170,13 @@ strong {
 
 // navbar
 
-.navbar-brand { 
-	font-size: 30px; 
+.navbar-brand {
+	font-size: 30px;
 	font-weight: $font-weight-base;
 }
 
-.navbar-nav { 
-	font-size: 30px; 
+.navbar-nav {
+	font-size: 30px;
 	font-weight: $font-weight-base;
 	a {
 		color: black;
@@ -243,7 +243,7 @@ strong {
   bottom:0px;
 }
 
-.carousel-overlay { 
+.carousel-overlay {
 	position:absolute;
 	z-index:12;
 	top:50%;
@@ -271,13 +271,13 @@ strong {
 }
 
 .title {
-	font-size: 45px; 
+	font-size: 45px;
 	line-height: 50px;
 	font-weight: 100;
 }
 
 .bigtitle {
-	font-size: 60px; 
+	font-size: 60px;
 	line-height: 65px;
 	font-weight: 100;
 }
@@ -324,7 +324,7 @@ strong {
 
 	h1 {
 
-	}	
+	}
 }
 .note {
 	font-size: $font-size-base;
@@ -335,7 +335,7 @@ strong {
 		color: black;
 		border-bottom: thin dotted;
 		/*&:hover {
-			border-bottom: thin solid;	
+			border-bottom: thin solid;
 		}*/
 	}
 
@@ -351,7 +351,7 @@ strong {
 }
 
 .journal-title {
-	
+
 }
 
 .journal {
@@ -390,4 +390,29 @@ strong {
 .tag_box a span{
   vertical-align:super;
   font-size:0.8em;
+}
+
+/* Responsive iframes, from http://benmarshall.me/responsive-iframes/ */
+.intrinsic-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+
+/* 16x9 Aspect Ratio */
+.intrinsic-container-16x9 {
+  padding-bottom: 56.25%;
+}
+
+/* 4x3 Aspect Ratio */
+.intrinsic-container-4x3 {
+  padding-bottom: 75%;
+}
+
+.intrinsic-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
