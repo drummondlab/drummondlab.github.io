@@ -5,9 +5,9 @@ year: 2017
 shortref: "Niemeyer et al. <i>Comput Phys Comm</i> 2017"
 nickname: pyjac-paper
 journal: "Computer Physics Communications"
-volume:
+volume: 215
 issue:
-pages:
+pages: 188–203
 authors: "KE Niemeyer, NJ Curtis, and CJ Sung"
 image: /assets/images/papers/pyjac-paper-abstract.svg
 fulltext: http://www.sciencedirect.com/science/article/pii/S0010465517300462
@@ -32,8 +32,8 @@ bibtex: >
     Author = {Kyle E. Niemeyer and Nicholas J. Curtis and Chih-Jen Sung},
     Title = {\texttt{pyJac}: analytical Jacobian generator for chemical kinetics},
     Journal = {Computer Physics Communications},
-    Pages = {},
-    Volume = {},
+    Pages = {188--203},
+    Volume = {215},
     Year = 2017,
     doi = {10.1016/j.cpc.2017.02.004}
   }
