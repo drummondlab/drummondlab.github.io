@@ -8,7 +8,7 @@ email: pachecol@oregonstate.edu
 twitter:
 github: pachecoluz
 scholar:
-image: /assets/images/team/default-member.svg
+image: /assets/images/team/luz-pacheco.jpg
 cv:
 alum: false
 ---

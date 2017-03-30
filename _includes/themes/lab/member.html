@@ -100,6 +100,8 @@
         <div class="post">
             {{ content }}
         </div>
+        
+        <div class="bigspacer"></div>
 
         {% assign lastname = member.title | split: ' ' | last %}
         {% for paper in site.categories.papers %}
