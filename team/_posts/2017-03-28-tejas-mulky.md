@@ -8,11 +8,11 @@ email: mulkyt@oregonstate.edu
 twitter:
 github:
 scholar:
-image: /assets/images/team/default-member.svg
+image: /assets/images/team/tejas-mulky.jpg
 cv:
 alum: false
 ---
-Tejas is a graduate student studying smoldering combustion.
+Tejas is a graduate student studying smoldering combustion. He received his bachelors degree in Mechanical Engineering from University of Mumbai in 2016.
 
 
 [Oregon State University]: http://oregonstate.edu/
