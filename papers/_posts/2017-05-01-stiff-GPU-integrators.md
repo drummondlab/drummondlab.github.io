@@ -39,15 +39,16 @@ bibtex: >
 ---
 {% include JB/setup %}
 
+# Brief description
+
 The differential equations governing the time change of chemical kinetics are
 typically stiff, meaning they present challenges to solve that require
-specialized algorithms.
-accelerInt is an open-source library ODE (ordinary differential equation)
-solvers tested and verified for these applications. This paper focuses
-on three particular algorithms, comparing and contrasting them both with each
-other and a representative algorithm used commonly in computer simulations of
-combustion. We showed that, under some conditions, one method (implicit,
-fifth-order Runge–Kutta) can perform 12–38 times faster on a graphics processing
+specialized algorithms. accelerInt is an open-source library of ordinary
+differential equation solvers, tested and verified for these applications.
+This paper focuses on three particular algorithms, comparing and contrasting them
+both with each other and a representative algorithm used commonly in computer
+simulations of combustion. We showed that, under some conditions, one method (implicit,
+fifth-order Runge-Kutta) can perform 12-38 times faster on a graphics processing
 unit compared with a standard method on a central processing unit.
 
 # Abstract

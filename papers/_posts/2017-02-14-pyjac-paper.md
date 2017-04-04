@@ -40,6 +40,8 @@ bibtex: >
 ---
 {% include JB/setup %}
 
+# Brief description
+
 pyJac is an open-source Python-based tool that produces analytical Jacobian
 matrices for chemical kinetics differential equations. This paper describes the
 theory behind pyJac, including derivation of the chemical kinetic Jacobian and
