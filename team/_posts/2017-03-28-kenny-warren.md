@@ -8,7 +8,7 @@ email: warrenk@oregonstate.edu
 twitter:
 github:
 scholar:
-image: /assets/images/team/default-member.svg
+image: /assets/images/team/kenny-warren.jpg
 cv:
 alum: false
 ---
