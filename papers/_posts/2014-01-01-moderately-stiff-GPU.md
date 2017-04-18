@@ -9,7 +9,7 @@ volume: 256
 issue:
 pages: 854–871
 authors: "KE Niemeyer and CJ Sung"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/integrator-abstract.png
 fulltext:
 pdf:
 pdflink:

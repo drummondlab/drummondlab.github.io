@@ -9,7 +9,7 @@ volume: 179
 issue:
 pages: 312–324
 authors: "NJ Curtis, KE Niemeyer, and CJ Sung"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/integrator-abstract.png
 fulltext: http://www.sciencedirect.com/science/article/pii/S0010218017300354
 pdf:
 pdflink:
