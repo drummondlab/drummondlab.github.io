@@ -10,7 +10,7 @@ issue:
 pages: 854–871
 authors: "KE Niemeyer and CJ Sung"
 image: /assets/images/papers/integrator-abstract.png
-fulltext:
+fulltext: http://www.sciencedirect.com/science/article/pii/S0021999113006396
 pdf:
 pdflink:
 arxiv: "1309.2710 [physics.comp-ph]"
