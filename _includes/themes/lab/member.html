@@ -28,6 +28,17 @@
 
 <div class="row">
     <div class="col-md-3">
+        {% if member.homepage %}
+        <div class="smallhead">
+            Homepage
+        </div>
+        <div class="pad-left note">
+            <div class="smallspacer"></div>
+            <i class="fa fa-home fa-fw"></i>
+            <a class="off" href="{{ member.homepage }}">{{ member.homepage }}</a>
+        </div>
+        <div class="bigspacer"></div>
+        {% endif %}
         {% if member.cv %}
         <div class="smallhead">
             CV
@@ -100,7 +111,7 @@
         <div class="post">
             {{ content }}
         </div>
-        
+
         <div class="bigspacer"></div>
 
         {% assign lastname = member.title | split: ' ' | last %}
