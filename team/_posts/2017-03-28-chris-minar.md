@@ -18,5 +18,7 @@ Chris graduated with his MS in Mechanical Engineering in December 2016. His rese
 
 <i class="fa fa-book" aria-hidden="true"></i> MS thesis: [GPU-Based Fluid-Structure Interaction using Immersed Boundary Methods](http://hdl.handle.net/1957/60147)
 
+Current position: Algorithm development engineer, for advanced driver's assistance systems, at Continental AG.
+
 [Oregon State University]: http://oregonstate.edu/
 [School of Mechanical, Industrial, and Manufacturing Engineering]: http://mime.oregonstate.edu
