@@ -12,7 +12,7 @@ authors: "Riback JA, Katanski CD, Kear-Scott JL, Pilipenko EV, Rojek AE, Sosnick
 image: /assets/images/papers/pab1-phase-separation.svg
 redirect_from: /adaptive-phase-separation/
 fulltext: https://authors.elsevier.com/a/1UhPyL7PXQsMS
-pdf: 
+pdf: /assets/pdfs/RibackKatanski2017-StressTriggeredPhaseSeparationIsAnAdaptiveEvolutionarilyTunedResponse.pdf
 pdflink: 
 github: https://github.com/dad/pab1-phase-2017
 pmid: 28283059
