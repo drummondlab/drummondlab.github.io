@@ -9,7 +9,7 @@ github: jimweldev
 scholar:
 image: /assets/images/team/jimwel.jpg
 cv:
-alum: false
+alum: true
 ---
 
 Jimwel is currently an Undergraduate student studying Computer Science (Computer Systems option) at [Oregon State University]. He is a recipient the [URSA Engage] award and is working with Cantera, an open-source software tool for chemical kinetics.

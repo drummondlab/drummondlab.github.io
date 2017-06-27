@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Chris Minar"
-position: MS student
+position: MS graduate
 nickname: Chris
 handle: minar
 email: minarc@oregonstate.edu

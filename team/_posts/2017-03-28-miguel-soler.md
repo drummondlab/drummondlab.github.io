@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Miguel Soler"
-position: MS student
+position: MS graduate
 nickname: Miguel
 handle: soler
 email: solerm@oregonstate.edu
