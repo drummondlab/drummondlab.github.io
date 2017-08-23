@@ -10,7 +10,7 @@ issue: 11
 pages: 2752–2764
 authors: "KE Niemeyer and CJ Sung"
 image: /assets/images/papers/multicomponent-reduction-abstract.png
-fulltext:
+fulltext: http://www.sciencedirect.com/science/article/pii/S001021801400131X
 pdf:
 pdflink:
 arxiv: "1405.3745 [physics.chem-ph]"
