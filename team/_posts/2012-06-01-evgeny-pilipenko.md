@@ -9,6 +9,6 @@ twitter:
 github: 
 scholar: 
 image: /assets/images/team/pilipenko.jpg
-alum: false
+alum: true
 ---
 Dr. Pilipenko joined the group in 2012.
