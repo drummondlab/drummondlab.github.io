@@ -17,7 +17,7 @@ dryad_doi:
 figshare_doi:
 altmetric_id:
 category: poster
-tags: [poster]
+tags: []
 projects: [physics-learning]
 ---
 {% include JB/setup %}

@@ -17,7 +17,7 @@ dryad_doi:
 figshare_doi:
 altmetric_id:
 category: presentation
-tags: [presentation]
+tags: []
 ---
 {% include JB/setup %}
 

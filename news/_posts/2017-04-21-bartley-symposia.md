@@ -1,8 +1,7 @@
 ---
 layout: news
 title: Congratulations to Jessica Bartley!
-author: Katherine Bottenhorn
-author_handle: kbottenhorn
+author: kbottenhorn
 category: news
 tags: [awards]
 

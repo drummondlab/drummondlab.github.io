@@ -33,7 +33,7 @@ navorder: 4
 {% for post in site.categories.news %}
 
 	{% for member in site.categories.team %}
-		{% if member.handle == post.author_handle %}
+		{% if member.handle == post.author %}
 			{% assign author = member %}
 		{% endif %}
 	{% endfor %}
