@@ -69,10 +69,10 @@ categories:
 		</div>
 		<div class="bigspacer"></div>
 		<div class="feedbox">
-			{% for news in site.categories.news limit:5 %}
+			{% for news in site.categories.news limit:4 %}
 
 				{% for member in site.categories.team %}
-					{% if member.handle == news.author_handle %}
+					{% if member.handle == news.author %}
 						{% assign author = member %}
 					{% endif %}
 				{% endfor %}
