@@ -10,26 +10,37 @@ Because the website code is hosted on GitHub, any lab member can contribute to t
 
 In order to contribute, you must have a GitHub account and you must set up Jekyll on your laptop (in order to demo your changes).
 
+Essentially, follow the instructions [here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#step-2-install-jekyll-using-bundler). Namely, do the **Requirements**, **Step 2.5**, and **Step 4**. The rest of the steps are extraneous, I think (as long as you have your fork cloned locally).
+
 ## 1. Set up Jekyll on your machine
 ** Need to check this
 
 ```bash
+# Install Ruby, if you don't have it
 \curl -sSL https://get.rvm.io | bash -s stable
 rvm install ruby-2.4.1
 rvm use ruby-2.4.1 --default
+
+# Install bundler
 gem install bundler
 ```
 
-## 2. Make your changes
-
-## 3. Serve the site locally
+## 2. Install Jekyll and other dependencies from the GitHub Pages gem
 ```bash
 cd /location/of/repository/
 bundle install
+```
+
+## 3. Make your changes
+Just edit the files to make the changes you want.
+
+## 4. Build your local Jekyll site
+```bash
+cd /location/of/repository/
 bundle exec jekyll serve
 ```
 
-## 4. Open the local site and check your changes
+## 5. Open the local site and check your changes
 Open a browser and go to `localhost:4000/`. Any changes you make to any of the repository's files, except `_config.yml` will be reflected on the site after refreshing the page.
 
 # How the site is set up
