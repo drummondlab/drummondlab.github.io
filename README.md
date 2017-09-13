@@ -12,9 +12,7 @@ In order to contribute, you must have a GitHub account and you must set up Jekyl
 
 Essentially, follow the instructions [here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#step-2-install-jekyll-using-bundler). Namely, do the **Requirements**, **Step 2.5**, and **Step 4**. The rest of the steps are extraneous, I think (as long as you have your fork cloned locally).
 
-## 1. Set up Jekyll on your machine
-** Need to check this
-
+## 1. Download Ruby and install bundler
 ```bash
 # Install Ruby, if you don't have it
 \curl -sSL https://get.rvm.io | bash -s stable
