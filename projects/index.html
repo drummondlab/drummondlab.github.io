@@ -12,12 +12,12 @@ navorder: 1
 <div class='row'>
   <div class='row'>
     <div class='col-md-12'>
-    <div class="media">
-      <a class="project-image" href="{{ project.url }}">
-        <img class="media-object" src="{{ project.image }}">
-      </a>
+      <div class="media">
+        <a class="project-image" href="{{ project.url }}">
+          <img class="media-object" src="{{ project.image }}">
+        </a>
+      </div>
     </div>
-  </div>
   <div class='row'>
     <div class="col-md-4 paperbox">
       <div class="smallhead media-heading"><a href="{{ project.url }}" class="off">{{ project.title }}</a></div>
@@ -25,6 +25,7 @@ navorder: 1
     <div class='col-md-8'>
       {{ project.tagline }}
     </div>
+  </div>
   </div>
 </div>
 {% endfor %}
