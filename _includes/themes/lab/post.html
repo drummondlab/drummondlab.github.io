@@ -12,18 +12,18 @@
 <div class="row post-full">
   <div class="col-md-2">
     <div class="bigspacer"></div>
-    <div class="glyphbox note"> <!-- DAD: what is this--> 
+    <div class="glyphbox note"> <!-- DAD: what is this-->
         <div class="smallhead">
           {{ page.date | date_to_string }}
           {% if author %}
           <div class="bigspacer"></div>
           by <a class="off" href="{{ author.url }}">{{ author.nickname }}</a>
-          {% endif %}           
+          {% endif %}
         </div>
         <div class="bigspacer"></div>
-       <div class="smallhead">
+        <div class="smallhead">
         Share
-      </div>
+        </div>
         <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
         <div class="post-sharing">
          {% include JB/sharing %}
@@ -32,7 +32,7 @@
   </div>
   <div class="col-md-10">
     <div class="bigspacer"></div>
-    <div class="glyphbox note"> <!-- DAD: what is this--> 
+    <div class="glyphbox note"> <!-- DAD: what is this-->
       <div class="content">
         {{ content }}
       </div>
@@ -45,7 +45,7 @@
       {% assign categories_list = page.categories %}
       {% include JB/categories_list %}
     </ul>
-  {% endunless %}  
+  {% endunless %}
   {% unless page.tags == empty %}
     <ul class="tag_box inline">
       <li><i class="glyphicon glyphicon-tags"></i></li>

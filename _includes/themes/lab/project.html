@@ -1,35 +1,113 @@
 <div class="page-header">
   <div class="title media-heading">{{ page.title }}</div>
   {% if page.tagline %}
-    <div class="tagline">{{page.tagline}}</div>
+    <div class="tagline">{{ page.tagline }}</div>
   {% endif %}
 </div>
 
-<div class="row post-full">
-  <div class="col-xs-12">
-    <div class="date">
-      <span>{{ page.date | date_to_long_string }}</span>
+<div class="row">
+	<div class="col-md-3">
+    {% if page.grant %}
+      <div class="smallhead">
+        Funding
+      </div>
+      <div class="pad-left note">
+      <a class="off" href="{{ page.grant_url }}">{{ page.grant }}</a>
+      </div>
+      <div class="bigspacer"></div>
+    {% endif %}
+    <div class="smallhead">
+      Contributors
     </div>
+    <div class="smallspacer"></div>
+    {% for contributor in page.contributors %}
+      {% for member in site.categories.team %}
+        {% if contributor == member.handle %}
+          <div class="pad-left note">
+          <a class="off" href="{{ member.url }}">{{ member.title }}</a>
+          <div class="smallspacer"></div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    <div class="bigspacer"></div>
+    </div>
+  <div class="col-md-9">
     <div class="content">
       {{ content }}
     </div>
 
-  {% unless page.categories == empty %}
+    {% for paper in site.categories.papers %}
+      {% if paper.projects contains page.handle %}
+        {% assign papersq = true %}
+      {% endif %}
+    {% endfor %}
+
+    {% if papersq == true %}
+      <div class="bigspacer"></div>
+      <div class="head">Papers</div>
+      <div class="spacer"></div>
+      {% for paper in site.categories.papers %}
+        {% if paper.projects contains page.handle %}
+          {% if paper.embargo %}
+          <p>{{ paper.title }}
+          {% else %}
+          <p><a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% for pres in site.categories.presentations %}
+      {% if pres.projects contains page.handle %}
+        {% assign presentationsq = true %}
+      {% endif %}
+    {% endfor %}
+
+    {% if presentationsq == true %}
+      <div class="bigspacer"></div>
+      <div class="head">Presentations</div>
+      <div class="spacer"></div>
+      {% for pres in site.categories.presentations %}
+        {% if pres.projects contains page.handle %}
+          <p><a href="{{ pres.url }}" class="off">{{ pres.title }}</a>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% for poster in site.categories.posters %}
+      {% if poster.projects contains page.handle %}
+        {% assign postersq = true %}
+      {% endif %}
+    {% endfor %}
+
+    {% if postersq == true %}
+      <div class="bigspacer"></div>
+      <div class="head">Posters</div>
+      <div class="spacer"></div>
+      {% for poster in site.categories.posters %}
+        {% if poster.projects contains page.handle %}
+          <p><a href="{{ poster.url }}" class="off">{{ poster.title }}</a>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% unless page.categories == empty %}
     <ul class="tag_box inline">
       <li><i class="glyphicon glyphicon-open"></i></li>
       {% assign categories_list = page.categories %}
       {% include JB/categories_list %}
     </ul>
-  {% endunless %}  
+    {% endunless %}
 
-  {% unless page.tags == empty %}
+    {% unless page.tags == empty %}
     <ul class="tag_box inline">
       <li><i class="glyphicon glyphicon-tags"></i></li>
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
     </ul>
-  {% endunless %}  
-  
+    {% endunless %}
+
     <hr>
     {% include JB/comments %}
   </div>

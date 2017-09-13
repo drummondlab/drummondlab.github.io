@@ -1,19 +1,19 @@
 ---
 layout: default
 title: "Papers"
-description: "Research papers from the lab"
+description: "Research product from the lab"
 group: navigation
 navorder: 3
 ---
 {% include JB/setup %}
-<div class="bigspacer"></div> 
+<div class="bigspacer"></div>
 {% for paper in site.categories.papers %}
     {% cycle 'add rows': '<div class="row">', nil, nil %}
     <div class="col-md-4 paperbox">
       {% if paper.embargo %}
       <div class="media">
            <img width=100 class="media-object pull-right" src="{{ paper.image }}"/>
-          <div class="media-body">
+            <div class="media-body">
             <div class="smallhead media-heading">
             {{ paper.title }}
             </div>

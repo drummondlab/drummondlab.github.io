@@ -1,4 +1,4 @@
-<!-- 
+<!--
 Branched from Trevor Bedford's source, https://github.com/blab/blotter/blob/master/_layouts/paper.html
 with gratitude.
 -->
@@ -17,11 +17,29 @@ with gratitude.
 	<div class="col-md-9">
 		<div class="media-body titlebox">
 			<div class="title media-heading">
+				{% if page.category == "preprint" %}
+				[PREPRINT] {{page.title}}
+				{% else %}
 				{{ page.title }}
+				{% endif %}
 			</div>
 			<p>
 			<div class="smallhead">
-				{{ page.authors }}, 
+				<!-- This took a while, but it links the name of each author from the lab
+				to their page and keeps collaborators' names as strings -->
+				{% assign split_authors = page.authors | split: ", " %}
+				{% for author in split_authors %}
+				    {% assign author_in_lab = "false" %}
+				    {% for member in site.categories.team %}
+					      {% if author == member.science_name %}
+    								{% assign author_in_lab = "true" %}
+						        <a class="off" href="{{ member.url }}">{{ member.science_name }}</a>,
+						    {% endif %}
+				    {% endfor %}
+					  {% if author_in_lab != "true" %}
+					      {{ author }},
+					  {% endif %}
+				{% endfor %}
 				<span class="journal">
 				{{ page.journal }}
 				</span>
@@ -32,7 +50,7 @@ with gratitude.
 				({{ page.issue }})
 				{% endif %}
 				{% if page.pages %}
-				:{{ page.pages }} 
+				:{{ page.pages }}
 				{% endif %}
 				({{ page.year }}).
 			</div>
@@ -49,7 +67,7 @@ with gratitude.
 			{% if page.pdf or page.pdflink or page.fulltext %}
 			<div class="smallhead subtle">
 				Full text
-			</div>	
+			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				{% if page.pdflink %}
@@ -67,19 +85,19 @@ with gratitude.
 				<a class="off" href="{{ page.fulltext }}">Journal HTML</a>
 				{% endif %}
 			</div>
-			<div class="bigspacer"></div>			
+			<div class="bigspacer"></div>
 			{% endif %}
 
 			{% if page.supplement %}
 			<div class="smallhead subtle">
 				Supplement
-			</div>	
+			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-paperclip fa-fw"></i>
 				<a class="off" href="{{ page.supplement }}">{{ page.supplement | split: '/' | last }}</a>
 			</div>
-			<div class="bigspacer"></div>			
+			<div class="bigspacer"></div>
 			{% endif %}
 
 			{% if page.pmid %}
@@ -91,9 +109,9 @@ with gratitude.
 				<i class="fa fa-external-link fa-fw"></i>
 				<a class="off" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ page.pmid }}">{{ page.pmid }}</a>
 			</div>
-			<div class="bigspacer"></div>			
+			<div class="bigspacer"></div>
 			{% endif %}
-						
+
 			{% if page.doi %}
 			<div class="smallhead subtle">
 				DOI
@@ -103,13 +121,13 @@ with gratitude.
 				<i class="fa fa-external-link fa-fw"></i>
 				<a class="off" href="http://dx.doi.org/{{ page.doi }}">{{ page.doi }}</a>
 			</div>
-			<div class="bigspacer"></div>			
+			<div class="bigspacer"></div>
 			{% endif %}
-			
+
 			{% if page.github %}
 			<div class="smallhead subtle">
 				Source code
-			</div>	
+			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-cog fa-fw"></i>
@@ -126,7 +144,7 @@ with gratitude.
 				<i class="fa fa-database fa-fw"></i>
 				<a class="off" href="http://dx.doi.org/{{ page.dryad_doi }}">Dryad</a>
 			</div>
-			<div class="bigspacer"></div>			
+			<div class="bigspacer"></div>
 			{% endif %}
 			{% if page.figshare_doi %}
 			<div class="smallhead subtle">
@@ -137,16 +155,16 @@ with gratitude.
 				<i class="fa fa-database fa-fw"></i>
 				<a class="off" href="http://doi.org/{{ page.figshare_doi }}">Figshare</a>
 			</div>
-			<div class="bigspacer"></div>			
+			<div class="bigspacer"></div>
 			{% endif %}
 			{% if page.altmetric_id %}
 			<div class="smallhead subtle">
 				Altmetrics
-			</div>	
+			</div>
 			<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 			<div class="altmetric-embed" data-badge-popover="right" data-doi={{ page.doi }} data-badge-type="donut" data-altmetric-id={{ page.altmetric_id }} data-hide-no-mentions="true">
 			</div>
-			<div class="bigspacer"></div>			
+			<div class="bigspacer"></div>
 			{% endif %}
 			<div class="smallhead subtle">
 				Share
@@ -165,10 +183,10 @@ with gratitude.
 		</div>
 	</div>
 	{% else %}
-	<div class="col-md-8">	
+	<div class="col-md-8">
 		<div class="post">
 			{{ content }}
-		</div>	
+		</div>
 	</div>
 	{% endif %}
 
@@ -176,4 +194,3 @@ with gratitude.
 </div>
 
 <div class="bigspacer"></div>
-

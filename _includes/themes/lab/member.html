@@ -16,80 +16,93 @@
 			<div class="title media-heading">
 				{{ member.title }}
 			</div>
-			<br/>
 			<div class="smallhead">
 				{{ member.position }}
 			</div>
+			<div class="smallhead">
+				{{ member.department }}
+			</div>
+			<div class="bigspacer"></div>
+			<div class="post">
+				{{ content }}
+			</div>
 		</div>
-	</div>				
+	</div>
 </div>
 
 <div class="bigspacer"></div>
 
 <div class="row">
-	<div class="col-md-3">  			
-		{% if member.cv %}		
+	<div class="col-md-3">
+		{% if member.site %}
 		<div class="smallhead">
-			CV
-		</div>	
+			Personal Site
+		</div>
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
-			<i class="fa fa-file-text-o fa-fw"></i>			
+			<i class="fa fa-user fa-fw"></i>
+			<a class="off" href="{{ member.site }}">{{ member.site }}</a>
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
+		{% if member.cv %}
+		<div class="smallhead">
+			CV
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-file-text-o fa-fw"></i>
 			<a class="off" href="{{ member.cv }}">{{ member.cv | split: '/' | last }}</a>
-		</div>		
-		<div class="bigspacer"></div>		
-		{% endif %}	  		
-		{% if member.twitter %}		
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
+		{% if member.twitter %}
 		<div class="smallhead">
 			Twitter
-		</div>	
+		</div>
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
 			<i class="fa fa-twitter fa-fw"></i>
 			<a class="off" href="https://twitter.com/{{ member.twitter }}">{{ member.twitter }}</a>
-		</div>		
-		<div class="bigspacer"></div>				
-		{% endif %}	
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
 		{% if member.github %}
 		<div class="smallhead">
 			GitHub
-		</div>	
+		</div>
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
 			<i class="fa fa-github-alt fa-fw"></i>
 			<a class="off" href="https://github.com/{{ member.github }}">{{ member.github }}</a>
-		</div>		
-		<div class="bigspacer"></div>	
-		{% endif %}		
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
 		{% if member.scholar %}
 		<div class="smallhead">
 			Google Scholar
-		</div>	
+		</div>
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
 			<i class="fa fa-book fa-fw"></i>
 			<a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }}">{{ member.title }}</a>
-		</div>		
-		<div class="bigspacer"></div>	
-		{% endif %}				   	
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
 		{% if member.email %}
 		{% assign emailarray = member.email | split: '@' %}
 		<div class="smallhead">
 			Email
-		</div>	
+		</div>
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
 			<i class="fa fa-inbox fa-fw"></i>
 			{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
-		</div>		
-		<div class="bigspacer"></div>			
-		{% endif %}						
-	</div>
-	<div class="col-md-8">	
-		<div class="post">
-			{{ content }}
 		</div>
-		
+		<div class="bigspacer"></div>
+		{% endif %}
+	</div>
+	<div class="col-md-8">
 		{% assign lastname = member.title | split: ' ' | last %}
 		{% for paper in site.categories.papers %}
 			{% if paper.authors contains lastname %}
@@ -110,25 +123,49 @@
 					{% endif %}
 				{% endif %}
 			{% endfor %}
-		{% endif %}		
-		
-		{% for post in site.categories.blog %}
-			{% if member.handle == post.author_handle %}
-				{% assign postsq = true %}
+		{% endif %}
+
+		<!-- Only show presentations on first author's page -->
+		{% for pres in site.categories.presentations %}
+			{% assign split_authors = pres.authors | split: ", " %}
+			{% if split_authors[0] contains lastname %}
+				{% assign presentationsq = true %}
 			{% endif %}
 		{% endfor %}
-		
-		{% if postsq == true %}
+
+		{% if presentationsq == true %}
 			<div class="bigspacer"></div>
-			<div class="head">Posts</div>
+			<div class="head">Presentations</div>
 			<div class="spacer"></div>
-			{% for post in site.categories.blog %}
-				{% if member.handle == post.author_handle %}
-					<p><a href="{{ post.url }}" class="off">{{ post.title }}</a>
+			{% for pres in site.categories.presentations %}
+				{% assign split_authors = pres.authors | split: ", " %}
+				{% if split_authors[0] contains lastname %}
+					<p><a href="{{ pres.url }}" class="off">{{ pres.title }}</a>
 				{% endif %}
 			{% endfor %}
-		{% endif %}	
-		
-	</div>			
+		{% endif %}
+
+		<!-- Only show posters on first author's page -->
+		{% for poster in site.categories.posters %}
+			{% assign split_authors = poster.authors | split: ", " %}
+			{% if split_authors[0] contains lastname %}
+				{% assign postersq = true %}
+			{% endif %}
+		{% endfor %}
+
+		{% if postersq == true %}
+			<div class="bigspacer"></div>
+			<div class="head">Posters</div>
+			<div class="spacer"></div>
+			{% for poster in site.categories.posters %}
+				{% assign split_authors = poster.authors | split: ", " %}
+				{% if split_authors[0] contains lastname %}
+					<p><a href="{{ poster.url }}" class="off">{{ poster.title }}</a>
+				{% endif %}
+			{% endfor %}
+		{% endif %}
+
+
+	</div>
 	<div class="col-md-1"></div>
-</div>	
+</div>

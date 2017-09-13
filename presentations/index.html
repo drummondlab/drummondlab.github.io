@@ -1,0 +1,30 @@
+---
+layout: default
+title: "Presentations"
+description: "Research product from the lab"
+group: subnavigation
+navorder: 1
+---
+{% include JB/setup %}
+<div class="bigspacer"></div>
+{% for presentation in site.categories.presentations %}
+    {% cycle 'add rows': '<div class="row">', nil, nil %}
+    <div class="col-md-4 paperbox">
+     <div class="media">
+          <a class="pull-right" href="{{ presentation.url }}">
+            <img width=100 class="media-object" src="{{ presentation.image }}">
+          </a>
+        <div class="media-body">
+            <div class="smallhead media-heading">
+            <a href="{{ presentation.url }}" class="off">{{ presentation.title }}</a>
+            </div>
+            <p class="note">{{ presentation.shortref }}</p>
+        </div>
+      </div>
+    </div>
+    {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
+{% endfor %}
+{% cycle 'close rows': nil, '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
+
+
+<div class="bigspacer"></div>

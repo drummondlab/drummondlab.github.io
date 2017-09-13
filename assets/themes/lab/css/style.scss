@@ -38,6 +38,10 @@ h6, .h6 { font-size: ceil($font-size-base * 0.85); }  /* ~12px */
   padding-right: 25px;
 }
 
+.pad-left {
+  padding-left: 10px;
+}
+
 h1,
 h2,
 h3,
@@ -82,8 +86,8 @@ p {
 	height: 5px;
 }
 
-a.off { 
-	color: inherit; 
+a.off {
+	color: inherit;
 	border-bottom: none;
 }
 
@@ -105,15 +109,14 @@ a.off {
 }
 
 .big-member-photo {
-	// width: 300px;
-	max-width: 300px;
-	// height: 400px;
+	height: 400px;
+	width: 267;
+	// max-width: 300px;
 }
 
 .member-photo {
-	height: 20vw;
-	min-height: 100px;
-	max-height: 225px;
+	height: 150px;
+	width: 100px;
 }
 
 .member-name {
@@ -162,7 +165,7 @@ strong {
 	height: 180px;
 	line-height: 65px;
 	font-weight: $heavy-font-weight;
-	display: table-cell; 
+	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
 	text-shadow: 1.5px 1.5px #ffffff;
@@ -170,13 +173,13 @@ strong {
 
 // navbar
 
-.navbar-brand { 
-	font-size: 30px; 
+.navbar-brand {
+	font-size: 30px;
 	font-weight: $font-weight-base;
 }
 
-.navbar-nav { 
-	font-size: 30px; 
+.navbar-nav {
+	font-size: 30px;
 	font-weight: $font-weight-base;
 	a {
 		color: black;
@@ -243,7 +246,7 @@ strong {
   bottom:0px;
 }
 
-.carousel-overlay { 
+.carousel-overlay {
 	position:absolute;
 	z-index:12;
 	top:50%;
@@ -271,13 +274,13 @@ strong {
 }
 
 .title {
-	font-size: 45px; 
+	font-size: 45px;
 	line-height: 50px;
 	font-weight: 100;
 }
 
 .bigtitle {
-	font-size: 60px; 
+	font-size: 60px;
 	line-height: 65px;
 	font-weight: 100;
 }
@@ -324,7 +327,7 @@ strong {
 
 	h1 {
 
-	}	
+	}
 }
 .note {
 	font-size: $font-size-base;
@@ -335,7 +338,7 @@ strong {
 		color: black;
 		border-bottom: thin dotted;
 		/*&:hover {
-			border-bottom: thin solid;	
+			border-bottom: thin solid;
 		}*/
 	}
 
@@ -351,7 +354,7 @@ strong {
 }
 
 .journal-title {
-	
+
 }
 
 .journal {

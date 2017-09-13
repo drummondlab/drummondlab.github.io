@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Drummond Lab
+title: The Neuroinformatics and Brain Connectivity Lab
 categories:
  - home
 ---
@@ -47,7 +47,7 @@ categories:
 	    <!-- <span class="sr-only">Next</span> -->
 	  </a>
 	</div>
-	</div>				
+	</div>
 </div>
 
 <div class="hugespacer"></div>
@@ -57,7 +57,7 @@ categories:
 		<div class="smallhead">
 			{{ homepage.content }}
 		</div>
-	</div>				
+	</div>
 </div>
 
 <div class="hugespacer"></div>
@@ -68,15 +68,15 @@ categories:
 			<a class="off" href="/news/">News</a>
 		</div>
 		<div class="bigspacer"></div>
-		<div class="feedbox pad-left">
-			{% for news in site.categories.news limit:4 %}
-			
+		<div class="feedbox">
+			{% for news in site.categories.news limit:5 %}
+
 				{% for member in site.categories.team %}
 					{% if member.handle == news.author_handle %}
 						{% assign author = member %}
 					{% endif %}
-				{% endfor %}		
-				
+				{% endfor %}
+
 				<div class="note-title">
 					<i class="fa fa-bullhorn fa-fw"></i>
 					<a class="off" href="{{ news.url }}">
@@ -84,7 +84,7 @@ categories:
 					</a>
 				</div>
 				<div class="note">
-					{{ news.content }}
+					{{ news.excerpt }}
 				</div>
 				<div class="smallspacer"></div>
 				<div class="smallnote">
@@ -92,56 +92,42 @@ categories:
 					{{ news.date | date_to_string }}
 					{% if author %}
 					by <a class="off" href="{{ author.url }}">{{ author.nickname }}</a>
-					{% endif %}						
-				</div>
-				<div class="spacer"></div>	
-				<div class="spacer"></div>				
-			{% endfor %}
-		</div>
-		<div class="bigspacer"></div>		
-	</div>
-	<div class="col-md-4">
-		<div class="head">
-			<a class="off" href="/blog/">Posts</a>
-		</div>
-		<div class="bigspacer"></div>
-		<div class="feedbox pad-left">
-			{% for post in site.categories.blog limit:4 %}
-			
-				{% for member in site.categories.team %}
-					{% if member.handle == post.author_handle %}
-						{% assign author = member %}
 					{% endif %}
-				{% endfor %}		
-				
-				<div class="note-title">
-					<i class="fa fa-comment-o fa-fw"></i>
-					<a class="off" href="{{ post.url }}">
-					{{ post.title }}
-					</a>
 				</div>
-				<div class="smallspacer"></div>
-				<div class="smallnote">
-					Posted
-					{{ post.date | date_to_string }}
-					{% if author %}
-					by <a class="off" href="{{ author.url }}">{{ author.nickname }}</a>
-					{% endif %}						
-				</div>
-				<div class="spacer"></div>	
-				<div class="spacer"></div>				
+				<div class="spacer"></div>
+				<div class="spacer"></div>
 			{% endfor %}
 		</div>
-		<div class="bigspacer"></div>		
+		<div class="bigspacer"></div>
 	</div>
+  <div class="col-md-4">
+    <div class="head">
+      <a class="off" href="/research/">Projects</a>
+    </div>
+    <div class="bigspacer"></div>
+    <div class="feedbox">
+      {% for project in site.categories.projects limit: 5 %}
+        <div class="note-title">
+          <i class="fa fa-database fa-fw"></i>
+          <a class="off" href="{{ project.url }}">{{ project.title }}</a>
+          <br/>
+        </div>
+        <div class="smallspacer"></div>
+        <div class="smallnote">
+					{{ project.excerpt }}
+				</div>
+        <div class="spacer"></div>
+      {% endfor %}
+    </div>
+    <div class="bigspacer"></div>
+  </div>
 	<div class="col-md-4">
 		<div class="head">
-			<a class="off" href="/papers/">Papers
-			</a>
+			<a class="off" href="/papers/">Papers</a>
 		</div>
 		<div class="bigspacer"></div>
-		<div class="feedbox pad-left">		
-			{% for paper in site.categories.papers limit:4 %}
+		<div class="feedbox">
+			{% for paper in site.categories.papers limit: 5 %}
 				<div class="note-title">
 					<i class="fa fa-file-text-o fa-fw"></i>
 					<a class="off" href="{{ paper.url }}">
@@ -157,13 +143,12 @@ categories:
 					Published
 					{{ paper.date | date_to_string }}
 				</div>
-				<div class="spacer"></div>	
-				<div class="spacer"></div>				
+				<div class="spacer"></div>
+				<div class="spacer"></div>
 			{% endfor %}
 		</div>
-		<div class="bigspacer"></div>		
+		<div class="bigspacer"></div>
 	</div>
 </div>
 
 <div class="bigspacer"></div>
-
