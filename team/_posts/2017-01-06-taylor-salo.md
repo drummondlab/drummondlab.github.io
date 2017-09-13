@@ -10,7 +10,7 @@ email: tsalo006@fiu.edu
 twitter: taylor_salo
 github: tsalo
 image: /assets/images/team/taylor-salo.jpg
-site: tsalo.github.io
+site: https://tsalo.github.io
 ---
 
 Taylor is a second-year graduate student in the Department of Psychology at Florida International University, specializing in Cognitive Neuroscience. He graduated from Cornell University (Ithaca, New York) with a B.A. in Psychology, before spending two years as a research assistant at the Translational Cognitive and Affective Neuroscience lab at University of California, Davis. He is interested in meta-analysis of neuroimaging studies, the improvement and standardization of statistical methods in cognitive neuroscience, optimal management of large datasets, and large-scale network dynamics.
