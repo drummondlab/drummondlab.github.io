@@ -5,7 +5,7 @@ year: "2017"
 shortref: "Poudel <i>et al. OHBM</i> 2017"
 nickname: poudel-cue-reactivity-poster
 conference: "HBM"
-authors: "Poudel R, Riedel MC, Hill LD, Flannery JS, Salo T, Laird AR, Sutherland MT""
+authors: "Poudel R, Riedel MC, Hill LD, Flannery JS, Salo T, Laird AR, Sutherland MT"
 image: /assets/images/posters/poudel-cue-reactivity-poster.png
 redirect_from:
 pdf: https://files.aievolution.com/hbm1701/abstracts/37102/1098_Poudel.pdf
