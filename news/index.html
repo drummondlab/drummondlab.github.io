@@ -3,7 +3,8 @@ layout: default
 title: News
 description: News from the NBC lab
 group: navigation
-navorder: 4
+navorder: 6
+category: news
 ---
 {% include JB/setup %}
 
@@ -30,7 +31,7 @@ navorder: 4
 
 </div>
 
-{% for post in site.categories.news %}
+{% for post in site.categories.news limit: 10 %}
 
 	{% for member in site.categories.team %}
 		{% if member.handle == post.author %}

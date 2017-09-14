@@ -2,29 +2,30 @@
 layout: default
 title: "Presentations"
 description: "Research product from the lab"
-group: subnavigation
-navorder: 1
+group: navigation
+navorder: 4
 ---
 {% include JB/setup %}
 <div class="bigspacer"></div>
-{% for presentation in site.categories.presentations %}
-    {% cycle 'add rows': '<div class="row">', nil, nil %}
-    <div class="col-md-4 paperbox">
-     <div class="media">
-          <a class="pull-right" href="{{ presentation.url }}">
-            <img width=100 class="media-object" src="{{ presentation.image }}">
-          </a>
-        <div class="media-body">
-            <div class="smallhead media-heading">
-            <a href="{{ presentation.url }}" class="off">{{ presentation.title }}</a>
-            </div>
-            <p class="note">{{ presentation.shortref }}</p>
-        </div>
-      </div>
-    </div>
-    {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
-{% endfor %}
-{% cycle 'close rows': nil, '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
 
+<table align="center"; width=1250px>
+	{% tablerow pres in site.categories.presentations cols:2 %}
+		<div class="col-md-2.5 paperbox">
+			<div class="media">
+        <div class="media">
+            <a class="pull-left" href="{{ pres.url }}">
+            <img width=100 class="media-object" src="{{ pres.image }}">
+            </a>
+            <div class="media-body">
+                <div class="smallhead media-heading">
+                    <a href="{{ pres.url }}" class="off">{{ pres.title }}</a>
+                </div>
+                <p class="note">{{ pres.shortref }}</p>
+            </div>
+        </div>
+			</div>
+		</div>
+	{% endtablerow %}
+</table>
 
 <div class="bigspacer"></div>

@@ -5,7 +5,7 @@ position: PhD Student
 department: Department of Physics
 handle: jbartley
 nickname: JB
-science_name: Bartley J
+science_name: Bartley JE
 email: jbart047@fiu.edu
 twitter: jessicabartley
 github: jessicabartley

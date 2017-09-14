@@ -17,8 +17,10 @@ with gratitude.
 	<div class="col-md-9">
 		<div class="media-body titlebox">
 			<div class="title media-heading">
-				{% if page.category == "preprint" %}
-				[PREPRINT] {{page.title}}
+				{% if page.tags contains "preprint" %}
+				[PREPRINT] {{ page.title }}
+				{% elsif page.tags contains "chapter" %}
+				[CHAPTER] {{ page.title }}
 				{% else %}
 				{{ page.title }}
 				{% endif %}

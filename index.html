@@ -127,12 +127,16 @@ categories:
 		</div>
 		<div class="bigspacer"></div>
 		<div class="feedbox">
-			{% for paper in site.categories.papers limit: 5 %}
+			{% for paper in site.categories.papers limit: 4 %}
 				<div class="note-title">
 					<i class="fa fa-file-text-o fa-fw"></i>
-					<a class="off" href="{{ paper.url }}">
-					{{ paper.title }}
-					</a>
+          {% if paper.tags contains "preprint" %}
+              <a href="{{ paper.url }}" class="off">[PREPRINT] {{ paper.title }}</a>
+          {% elsif paper.tags contains "chapter" %}
+              <a href="{{ paper.url }}" class="off">[CHAPTER] {{ paper.title }}</a>
+          {% else %}
+              <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+          {% endif %}
 					<br/>
 					<div class='shortref note'>
 					{{ paper.shortref }}

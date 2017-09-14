@@ -5,7 +5,7 @@ year: "2017"
 shortref: "Salo <i>et al. OHBM</i> 2017"
 nickname: salo-neurosynth-presentation
 conference: "HBM"
-authors: "Salo T, Riedel MC, Bartley J, Bottenhorn KL, Yarkoni T, Turner MD, Turner JA, Sutherland MT, Laird AR"
+authors: "Salo T, Riedel MC, Bartley JE, Bottenhorn KL, Yarkoni T, Turner MD, Turner JA, Sutherland MT, Laird AR"
 image: /assets/images/presentations/salo-neurosynth-presentation.png
 redirect_from:
 pdf:

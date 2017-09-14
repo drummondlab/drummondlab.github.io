@@ -22,7 +22,7 @@ doi: "10.1101/165951"
 dryad_doi:
 figshare_doi:
 altmetric_id:
-category: preprint
+category: paper
 published: true
 embargo: false
 peerreview: false
