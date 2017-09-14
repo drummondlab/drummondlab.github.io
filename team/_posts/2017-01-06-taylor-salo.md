@@ -9,6 +9,8 @@ science_name: Salo T
 email: tsalo006@fiu.edu
 twitter: taylor_salo
 github: tsalo
+orcid: 0000-0001-9813-3167
+osf: iwpvm
 image: /assets/images/team/taylor-salo.jpg
 site: "https://tsalo.github.io"
 ---

@@ -16,10 +16,10 @@ repository: NBCLab/nbclab.io
 title : NBC Lab
 tagline: Neuroinformatics and brain connectivity
 institution:
-  url: http://www.fiu.edu
+  url: http://fiu.edu
   name: Florida International University
 department:
-  url: http://www.cn.fiu.edu
+  url: http://cn.fiu.edu
   name: Cognitive Neuroscience
 author :
   name : Taylor Salo

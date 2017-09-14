@@ -34,61 +34,6 @@
 
 <div class="row">
 	<div class="col-md-3">
-		{% if member.site %}
-		<div class="smallhead">
-			Personal Site
-		</div>
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-user fa-fw"></i>
-			<a class="off" href="{{ member.site }}">{{ member.site }}</a>
-		</div>
-		<div class="bigspacer"></div>
-		{% endif %}
-		{% if member.cv %}
-		<div class="smallhead">
-			CV
-		</div>
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-file-text-o fa-fw"></i>
-			<a class="off" href="{{ member.cv }}">{{ member.cv | split: '/' | last }}</a>
-		</div>
-		<div class="bigspacer"></div>
-		{% endif %}
-		{% if member.twitter %}
-		<div class="smallhead">
-			Twitter
-		</div>
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-twitter fa-fw"></i>
-			<a class="off" href="https://twitter.com/{{ member.twitter }}">{{ member.twitter }}</a>
-		</div>
-		<div class="bigspacer"></div>
-		{% endif %}
-		{% if member.github %}
-		<div class="smallhead">
-			GitHub
-		</div>
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-github-alt fa-fw"></i>
-			<a class="off" href="https://github.com/{{ member.github }}">{{ member.github }}</a>
-		</div>
-		<div class="bigspacer"></div>
-		{% endif %}
-		{% if member.scholar %}
-		<div class="smallhead">
-			Google Scholar
-		</div>
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-book fa-fw"></i>
-			<a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }}">{{ member.title }}</a>
-		</div>
-		<div class="bigspacer"></div>
-		{% endif %}
 		{% if member.email %}
 		{% assign emailarray = member.email | split: '@' %}
 		<div class="smallhead">
@@ -101,6 +46,117 @@
 		</div>
 		<div class="bigspacer"></div>
 		{% endif %}
+
+		{% if member.site %}
+		{% assign split_site = member.site | split: "//" %}
+		{% assign pretty_site = split_site[1] %}
+		<div class="smallhead">
+			Personal Site
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-user fa-fw"></i>
+			<a class="off" href="{{ member.site }}">{{ pretty_site }}</a>
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
+
+		{% if member.cv %}
+		<div class="smallhead">
+			CV
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-file-text-o fa-fw"></i>
+			<a class="off" href="{{ member.cv }}">{{ member.cv | split: '/' | last }}</a>
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
+
+		{% if member.github %}
+		<div class="smallhead">
+			GitHub
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-github-alt fa-fw"></i>
+			<a class="off" href="https://github.com/{{ member.github }}">{{ member.github }}</a>
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
+
+		{% if member.twitter %}
+		<div class="smallhead">
+			Twitter
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-twitter fa-fw"></i>
+			<a class="off" href="https://twitter.com/{{ member.twitter }}">{{ member.twitter }}</a>
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
+
+		{% if member.scholar %}
+		<div class="smallhead">
+			Google Scholar
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="ai ai-google-scholar"></i>
+			<a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }}">{{ member.title }}</a>
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
+
+		{% if member.osf %}
+		<div class="smallhead">
+			Open Science Framework
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="ai ai-osf"></i>
+			<a class="off" href="http://osf.io/{{ member.osf }}">{{ member.title }}</a>
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
+
+		{% if member.researchgate %}
+		<div class="smallhead">
+			ResearchGate
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="ai ai-researchgate"></i>
+			<a class="off" href="https://www.researchgate.net/profile/{{ member.researchgate }}">{{ member.researchgate }}</a>
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
+
+		{% if member.orcid %}
+		<div class="smallhead">
+			ORCID
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="ai ai-orcid"></i>
+			<a class="off" href="http://orcid.org/{{ member.orcid }}">{{ member.orcid }}</a>
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
+
+		{% if member.publons %}
+		<div class="smallhead">
+			Publons
+		</div>
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="ai ai-publons"></i>
+			<a class="off" href="https://publons.com/author/{{ member.publons }}">{{ member.title }}</a>
+		</div>
+		<div class="bigspacer"></div>
+		{% endif %}
+
 	</div>
 	<div class="col-md-8">
 

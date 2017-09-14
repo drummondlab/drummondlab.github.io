@@ -7,6 +7,7 @@ nickname: Kim
 science_name: Ray KL
 email: kimray@ucdavis.edu
 github: kimberlylray
+scholar: Qt6OuAkAAAAJ
 image: /assets/images/team/kimberly-ray.jpg
 alumni: true
 ---

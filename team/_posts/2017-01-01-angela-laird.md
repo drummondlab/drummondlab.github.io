@@ -7,6 +7,8 @@ nickname: Angie
 science_name: Laird AR
 email: alaird@fiu.edu
 github: angielaird
+researchgate: Angela_Laird
+scholar: qgU89nQAAAAJ
 image: /assets/images/team/angela-laird.jpg
 ---
 

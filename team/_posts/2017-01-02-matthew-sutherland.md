@@ -7,6 +7,9 @@ nickname: Matt
 science_name: Sutherland MT
 email: msutherland@fiu.edu
 github: masuther
+publons: 433968
+scholar: UbZp1KgAAAAJ
+researchgate: Matthew_Sutherland2
 image: /assets/images/team/matthew-sutherland.jpg
 ---
 
