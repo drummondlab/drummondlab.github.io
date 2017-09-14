@@ -41,6 +41,17 @@ navorder: 2
 
 <div class="bigspacer"></div>
 <hr/>
+<div class="bigtitle text-center">Undergraduate Research Assistants</div>
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<img class="team-photo" src="/assets/images/team/nbclab-undergrads-20170913.png"/>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+<hr/>
 <div class="bigtitle text-center">Alumni</div>
 <div class="bigspacer"></div>
 
@@ -61,74 +72,5 @@ navorder: 2
 	{% endtablerow %}
 </table>
 
-<!--
-<div class="bigspacer"></div>
-{% for member in other reversed %}
-	{% if member.alumni != true %}
-    {% cycle 'add rows': '<div class="row">', nil, nil %}
-		<div class="col-md-6 memberbox">
-			<div class="media">
-  				<a class="pull-left" href="{{ member.url }}">
-    				<img class="media-object member-photo" src="{{ member.image }}">
-  				</a>
- 			 	<div class="media-body">
-    				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-    				<p class="note">{{ member.position }}</p>
-            <p class="note">{{ member.department }}</p>
-  				</div>
-			</div>
-    </div>
-    {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
-	{% endif %}
-{% endfor %}
--->
-<!-- {% comment %}
-{% cycle 'close rows': nil, '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
-{% endcomment %}
--->
-
-<!-- comment out this next line if there are multiples of three members -->
-<!-- </div> -->
-
-<!--
-<div class="bigspacer"></div>
-<hr/>
-
-<div class="row">
-	<div class="col-md-12">
-		<img class="team-photo" src="/assets/images/team/drummond-lab-20170726.png"/>
-	</div>
-</div>
-
-
-<div class="bigspacer"></div>
-<hr/>
-<div class="bigtitle text-center">Alumni</div>
-<div class="bigspacer"></div>
-
-{% for member in site.categories.team %}
-	{% if member.alumni == true %}
-    {% cycle 'add rows': '<div class="row">', nil, nil %}
-    <div class="col-md-6 memberbox">
-      <div class="media">
-          <a class="pull-left" href="{{ member.url }}">
-            <img class="media-object member-photo" src="{{ member.image }}">
-          </a>
-        <div class="media-body">
-            <div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-            <p class="note">{{ member.position }}</p>
-            <p class="note">{{ member.department }}</p>
-          </div>
-      </div>
-    </div>
-    {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
-{% endif %}
-{% endfor %}
-{% comment %}
-{% cycle 'close rows': nil, '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
-{% endcomment %}
-
-<!-- comment out this next line if there are multiples of three alumni -->
-<!-- </div> -->
 
 <div class="bigspacer"></div>
