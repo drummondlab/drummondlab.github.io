@@ -16,7 +16,8 @@ doi:
 dryad_doi:
 figshare_doi:
 altmetric_id:
-category: poster
+category: posters
+projects: []
 tags: []
 ---
 {% include JB/setup %}

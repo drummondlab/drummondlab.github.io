@@ -22,11 +22,12 @@ doi:
 dryad_doi:
 figshare_doi:
 altmetric_id:
-category: paper
+category: papers
 published: true
 embargo: false
 peerreview: false
 review: false
+projects: []
 tags: [chapter]
 ---
 {% include JB/setup %}

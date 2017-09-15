@@ -8,15 +8,14 @@ conference: "BrainHack Global"
 authors: "Salo T, Renfro AG"
 image: /assets/images/talks/salo-renfro-open-science.png
 redirect_from:
-pdf:
-fulltext: https://osf.io/557vf/
+slides: https://osf.io/557vf/
 github:
 f1000:
 doi:
 dryad_doi:
 figshare_doi:
 altmetric_id:
-category: presentation
+category: presentations
 tags: []
 ---
 {% include JB/setup %}

@@ -3,9 +3,9 @@ Branched from Trevor Bedford's source, https://github.com/blab/blotter/blob/mast
 with gratitude.
 -->
 
-{% if page.category == "poster" %}
+{% if page.category == "posters" %}
   {% assign type = "Poster" %}
-{% elsif page.category == "presentation" %}
+{% elsif page.category == "presentations" %}
   {% assign type = "Talk" %}
 {% endif %}
 
@@ -24,20 +24,35 @@ with gratitude.
 		</div>
     <div class="bigspacer"></div>
     <div class="glyphbox note"> <!-- DAD: what is this class? -->
-      {% if page.pdf or page.fulltext %}
+      {% if page.pdf or page.fulltext or page.slides or page.video %}
       <div class="smallhead subtle">
         {{ type }}
       </div>
       <div class="pad-left note">
         <div class="smallspacer"></div>
+        <!-- for posters -->
         {% if page.pdf %}
           <i class="fa fa-file-pdf-o fa-fw"></i>
           <a class="off" href="{{ page.pdf }}">PDF</a>
           <br/>
         {% endif %}
+
         {% if page.fulltext %}
-        <i class="fa fa-external-link fa-fw"></i>
-        <a class="off" href="{{ page.fulltext }}">Link</a>
+          <i class="fa fa-external-link fa-fw"></i>
+          <a class="off" href="{{ page.fulltext }}">Link</a>
+        {% endif %}
+
+        <!-- for talks -->
+        {% if page.slides %}
+          <i class="fa fa-file-powerpoint-o"></i>
+          <a class="off" href="{{ page.slides }}">Slides</a>
+          <br/>
+        {% endif %}
+
+        {% if page.video %}
+          <i class="fa fa-file-video-o"></i>
+          <a class="off" href="{{ page.video }}">Video</a>
+          <br/>
         {% endif %}
       </div>
       <div class="bigspacer"></div>
@@ -141,8 +156,27 @@ with gratitude.
       <div class="post">
         {{ content }}
       </div>
-
 		</div>
+    <!-- comment out unless we want the categories and tags
+    {% unless page.categories == empty %}
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-open"></i></li>
+      {% assign categories_list = page.categories %}
+      {% include JB/categories_list %}
+    </ul>
+    {% endunless %}
+
+    {% unless page.tags == empty %}
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-tags"></i></li>
+      {% assign tags_list = page.tags %}
+      {% include JB/tags_list %}
+    </ul>
+    {% endunless %}
+
+    <hr>
+    {% include JB/comments %}
+    -->
 	</div>
 </div>
 

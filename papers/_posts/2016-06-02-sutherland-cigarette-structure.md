@@ -22,11 +22,12 @@ doi: "10.1186/s12993-016-0100-5"
 dryad_doi:
 figshare_doi:
 altmetric_id:
-category: paper
+category: papers
 published: true
 embargo: false
 peerreview: false
 review: false
+projects: []
 tags: [meta-analysis]
 ---
 {% include JB/setup %}

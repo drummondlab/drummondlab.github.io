@@ -16,7 +16,7 @@ doi:
 dryad_doi:
 figshare_doi:
 altmetric_id:
-category: poster
+category: posters
 tags: []
 projects: [physics-learning]
 ---
