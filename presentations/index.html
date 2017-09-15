@@ -18,11 +18,11 @@ navorder: 4
 		{% else %}
 			{% assign image = "/assets/images/placeholder.png" %}
 		{% endif %}
-		<div class="col-md-2.5 paperbox">
+		<div class="col-md-2.5 paperbox" style="min-width: 575px">
 			<div class="media">
         <div class="media">
             <a class="pull-left" href="{{ pres.url }}">
-            <img width=100 class="media-object" src="{{ image }}">
+            <img width=100 class="media-object" style="min-height: 100px" src="{{ image }}">
             </a>
             <div class="media-body">
                 <div class="smallhead media-heading">

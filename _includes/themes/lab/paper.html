@@ -16,58 +16,6 @@ with gratitude.
 		<div class="media">
 			<img class="pull-left pad-right media-object paper-image" src="{{ image }}">
 		</div>
-	</div>
-
-	<div class="col-md-9">
-		<div class="media-body titlebox">
-			<div class="title media-heading">
-				{% if page.tags contains "preprint" %}
-				[PREPRINT] {{ page.title }}
-				{% elsif page.tags contains "chapter" %}
-				[CHAPTER] {{ page.title }}
-				{% else %}
-				{{ page.title }}
-				{% endif %}
-			</div>
-			<p>
-			<div class="smallhead">
-				<!-- This took a while, but it links the name of each author from the lab
-				to their page and keeps collaborators' names as strings -->
-				{% assign split_authors = page.authors | split: ", " %}
-				{% for author in split_authors %}
-				    {% assign author_in_lab = "false" %}
-				    {% for member in site.categories.team %}
-					      {% if author == member.science_name %}
-    								{% assign author_in_lab = "true" %}
-						        <a class="off" href="{{ member.url }}">{{ member.science_name }}</a>,
-						    {% endif %}
-				    {% endfor %}
-					  {% if author_in_lab != "true" %}
-					      {{ author }},
-					  {% endif %}
-				{% endfor %}
-				<span class="journal">
-				{{ page.journal }}
-				</span>
-				{% if page.volume %}
-				 {{ page.volume }}
-				{% endif %}
-				{% if page.issue %}
-				({{ page.issue }})
-				{% endif %}
-				{% if page.pages %}
-				:{{ page.pages }}
-				{% endif %}
-				({{ page.year }}).
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="bigspacer"></div>
-
-<div class="row">
-	<div class="col-md-3">
 		<div class="bigspacer"></div>
 		<div class="glyphbox note"> <!-- DAD: what is this class? -->
 			{% if page.pdf or page.pdflink or page.fulltext %}
@@ -189,21 +137,62 @@ with gratitude.
 			</div>
 		</div>
 	</div>
-	{% if page.embargo %}
-	<div class="col-md-8">
-		<div class="post">
-			In press...watch this space!
-		</div>
-	</div>
-	{% else %}
-	<div class="col-md-8">
-		<div class="post">
-			{{ content }}
-		</div>
-	</div>
-	{% endif %}
 
-	<div class="col-md-1"></div>
+	<div class="col-md-9">
+		<div class="media-body titlebox">
+			<div class="title media-heading">
+				{% if page.tags contains "preprint" %}
+				[PREPRINT] {{ page.title }}
+				{% elsif page.tags contains "chapter" %}
+				[CHAPTER] {{ page.title }}
+				{% else %}
+				{{ page.title }}
+				{% endif %}
+			</div>
+			<p>
+			<div class="smallhead">
+				<!-- This took a while, but it links the name of each author from the lab
+				to their page and keeps collaborators' names as strings -->
+				{% assign split_authors = page.authors | split: ", " %}
+				{% for author in split_authors %}
+				    {% assign author_in_lab = "false" %}
+				    {% for member in site.categories.team %}
+					      {% if author == member.science_name %}
+    								{% assign author_in_lab = "true" %}
+						        <a class="off" href="{{ member.url }}">{{ member.science_name }}</a>,
+						    {% endif %}
+				    {% endfor %}
+					  {% if author_in_lab != "true" %}
+					      {{ author }},
+					  {% endif %}
+				{% endfor %}
+				<span class="journal">
+				{{ page.journal }}
+				</span>
+				{% if page.volume %}
+				 {{ page.volume }}
+				{% endif %}
+				{% if page.issue %}
+				({{ page.issue }})
+				{% endif %}
+				{% if page.pages %}
+				:{{ page.pages }}
+				{% endif %}
+				({{ page.year }}).
+			</div>
+
+			<hr/>
+			{% if page.embargo %}
+				<div class="post">
+					In press...watch this space!
+				</div>
+			{% else %}
+				<div class="post">
+					{{ content }}
+				</div>
+			{% endif %}
+		</div>
+	</div>
 </div>
 
 <div class="bigspacer"></div>
