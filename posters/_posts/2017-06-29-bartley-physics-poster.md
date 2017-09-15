@@ -6,9 +6,9 @@ shortref: "Bartley <i>et al. OHBM</i> 2017"
 nickname: bartley-physics-poster
 conference: "HBM"
 authors: "Bartley JE, Riedel MC, Salo T, Boeving ER, Odean R, Bravo E, Laird R, Pruden S, Brewe E, Sutherland MT, Laird AR"
-image:
+image: /assets/pdfs/posters/bartley-physics-learning-poster.pdf
 redirect_from:
-pdf:
+pdf: /assets/pdfs/posters/bartley-physics-learning-poster.pdf
 fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=3266
 github:
 f1000:
