@@ -3,6 +3,12 @@ Branched from Trevor Bedford's source, https://github.com/blab/blotter/blob/mast
 with gratitude.
 -->
 
+{% if page.category == "poster" %}
+  {% assign type = "Poster" %}
+{% elsif page.category == "presentation" %}
+  {% assign type = "Talk" %}
+{% endif %}
+
 <div class="bigspacer"></div>
 
 <div class="row">
@@ -51,13 +57,13 @@ with gratitude.
 		<div class="glyphbox note"> <!-- DAD: what is this class? -->
 			{% if page.pdf or page.pdflink or page.fulltext %}
 			<div class="smallhead subtle">
-				Poster
+				{{ type }}
 			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				{% if page.pdflink %}
 					<i class="fa fa-file-pdf-o fa-fw"></i>
-					<a class="off" href="{{ page.pdflink }}">Poster PDF</a>
+					<a class="off" href="{{ page.pdflink }}">{{ type }} PDF</a>
 					<br/>
 				{% endif %}
 				{% if page.pdf %}
@@ -67,7 +73,7 @@ with gratitude.
 				{% endif %}
 				{% if page.fulltext %}
 				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="{{ page.fulltext }}">Poster Link</a>
+				<a class="off" href="{{ page.fulltext }}">{{ type }} Link</a>
 				{% endif %}
 			</div>
 			<div class="bigspacer"></div>
@@ -133,11 +139,12 @@ with gratitude.
 			<div class="smallhead subtle">
 				Share
 			</div>
-		    <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
-		    <div class="post-sharing">
-		     {% include JB/sharing %}
-		    </div>
-
+			  <div class="pad-left note">
+			    <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
+			    <div class="post-sharing">
+			     {% include JB/sharing %}
+			    </div>
+				</div>
 		</div>
 	</div>
 

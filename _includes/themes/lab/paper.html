@@ -77,11 +77,13 @@ with gratitude.
 					<a class="off" href="{{ page.pdflink }}">Journal PDF</a>
 					<br/>
 				{% endif %}
+
 				{% if page.pdf %}
 					<i class="fa fa-file-pdf-o fa-fw"></i>
 					<a class="off" href="{{ page.pdf }}">PDF</a>
 					<br/>
 				{% endif %}
+				
 				{% if page.fulltext %}
 				<i class="fa fa-external-link fa-fw"></i>
 				<a class="off" href="{{ page.fulltext }}">Journal HTML</a>
@@ -137,6 +139,7 @@ with gratitude.
 			</div>
 			<div class="bigspacer"></div>
 			{% endif %}
+
 			{% if page.dryad_doi %}
 			<div class="smallhead subtle">
 				Data
@@ -148,6 +151,7 @@ with gratitude.
 			</div>
 			<div class="bigspacer"></div>
 			{% endif %}
+
 			{% if page.figshare_doi %}
 			<div class="smallhead subtle">
 				Data
@@ -159,6 +163,7 @@ with gratitude.
 			</div>
 			<div class="bigspacer"></div>
 			{% endif %}
+
 			{% if page.altmetric_id %}
 			<div class="smallhead subtle">
 				Altmetrics
@@ -168,20 +173,22 @@ with gratitude.
 			</div>
 			<div class="bigspacer"></div>
 			{% endif %}
+
 			<div class="smallhead subtle">
 				Share
 			</div>
-		    <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
+			<div class="pad-left note">
+	    	<!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
 		    <div class="post-sharing">
 		     {% include JB/sharing %}
 		    </div>
-
+			</div>
 		</div>
 	</div>
 	{% if page.embargo %}
 	<div class="col-md-8">
 		<div class="post">
-		In press...watch this space!
+			In press...watch this space!
 		</div>
 	</div>
 	{% else %}

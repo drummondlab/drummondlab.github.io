@@ -6,7 +6,7 @@ shortref: "Flannery <i>et al. OHBM</i> 2017"
 nickname: flannery-reward-processing-poster
 conference: "HBM"
 authors: "Flannery JS, Riedel MC, Poudel R, Salo T, Bottenhorn KL, Hill LD, Laird AR, Sutherland MT"
-image: /assets/images/posters/flannery-reward-processing-poster.png
+image: https://files.aievolution.com/hbm1701/abstracts/37911/1428_Flannery.pdf
 redirect_from:
 pdf: https://files.aievolution.com/hbm1701/abstracts/37911/1428_Flannery.pdf
 pdflink: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=2885
