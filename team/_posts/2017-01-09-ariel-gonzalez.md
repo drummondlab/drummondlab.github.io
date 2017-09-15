@@ -7,5 +7,5 @@ handle: agonzalez
 nickname: Ariel
 email: aag93@cornell.edu
 github: Gariel022591
-image: /assets/images/team/placeholder-user.png
+image:
 ---

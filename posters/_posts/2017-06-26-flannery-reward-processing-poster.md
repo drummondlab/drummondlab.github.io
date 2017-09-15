@@ -9,7 +9,7 @@ authors: "Flannery JS, Riedel MC, Poudel R, Salo T, Bottenhorn KL, Hill LD, Lair
 image: https://files.aievolution.com/hbm1701/abstracts/37911/1428_Flannery.pdf
 redirect_from:
 pdf: https://files.aievolution.com/hbm1701/abstracts/37911/1428_Flannery.pdf
-pdflink: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=2885
+fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=2885
 github:
 f1000:
 doi:

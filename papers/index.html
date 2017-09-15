@@ -13,11 +13,17 @@ navorder: 3
 
 <table align="center"; width=1250px>
 	{% tablerow paper in site.categories.papers cols:2 %}
+		{% if paper.image %}
+		  {% assign image = paper.image %}
+		{% else %}
+		  {% assign image = "/assets/images/placeholder.png" %}
+		{% endif %}
+
 		<div class="col-md-2.5 paperbox">
 			<div class="media">
         {% if paper.embargo %}
             <div class="media">
-                <img width=100 class="media-object pull-right" src="{{ paper.image }}"/>
+                <img width=100 class="media-object pull-right" src="{{ image }}"/>
                 <div class="media-body">
                     <div class="smallhead media-heading">
                         {{ paper.title }}
@@ -28,7 +34,7 @@ navorder: 3
         {% else %}
             <div class="media">
                 <a class="pull-left" href="{{ paper.url }}">
-                <img width=100 class="media-object" src="{{ paper.image }}">
+                <img width=100 class="media-object" src="{{ image }}">
                 </a>
                 <div class="media-body">
                     <div class="smallhead media-heading">
@@ -46,6 +52,7 @@ navorder: 3
         {% endif %}
 			</div>
 		</div>
+		<div class="smallspacer"></div>
 	{% endtablerow %}
 </table>
 <div class="bigspacer"></div>

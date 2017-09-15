@@ -9,7 +9,7 @@ authors: "Poudel R, Riedel MC, Hill LD, Flannery JS, Salo T, Laird AR, Sutherlan
 image: https://files.aievolution.com/hbm1701/abstracts/37102/1098_Poudel.pdf
 redirect_from:
 pdf: https://files.aievolution.com/hbm1701/abstracts/37102/1098_Poudel.pdf
-pdflink: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=2944
+fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=2944
 github:
 f1000:
 doi:

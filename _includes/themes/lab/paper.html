@@ -3,14 +3,18 @@ Branched from Trevor Bedford's source, https://github.com/blab/blotter/blob/mast
 with gratitude.
 -->
 
+{% if page.image %}
+	{% assign image = page.image %}
+{% else %}
+	{% assign image = "/assets/images/placeholder.png" %}
+{% endif %}
+
 <div class="bigspacer"></div>
 
 <div class="row">
 	<div class="col-md-3">
 		<div class="media">
-			{% if page.image %}
-			<img class="pull-left pad-right media-object paper-image" src="{{ page.image }}">
-			{% endif %}
+			<img class="pull-left pad-right media-object paper-image" src="{{ image }}">
 		</div>
 	</div>
 
@@ -83,7 +87,7 @@ with gratitude.
 					<a class="off" href="{{ page.pdf }}">PDF</a>
 					<br/>
 				{% endif %}
-				
+
 				{% if page.fulltext %}
 				<i class="fa fa-external-link fa-fw"></i>
 				<a class="off" href="{{ page.fulltext }}">Journal HTML</a>

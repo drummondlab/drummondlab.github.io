@@ -1,3 +1,9 @@
+{% if page.image %}
+	{% assign image = page.image %}
+{% else %}
+	{% assign image = "/assets/images/placeholder.png" %}
+{% endif %}
+
 <div class="page-header">
   <div class="title media-heading">{{ page.title }}</div>
   {% if page.tagline %}
@@ -7,6 +13,10 @@
 
 <div class="row">
 	<div class="col-md-3">
+    <div class="media">
+      <img class="pull-left pad-right media-object paper-image" src="{{ image }}">
+    </div>
+    <div class="bigspacer"></div>
     {% if page.grant %}
       <div class="smallhead">
         Funding

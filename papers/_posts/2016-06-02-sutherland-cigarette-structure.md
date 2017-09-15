@@ -9,7 +9,7 @@ volume:
 issue:
 pages:
 authors: "Sutherland MT, Riedel MC, Flannery JS, Yanes JA, Fox PT, Stein EA, Laird AR"
-image: /assets/images/papers/sutherland-cigarette-structure.png
+image:
 redirect_from:
 fulltext: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4890474/
 pdf:

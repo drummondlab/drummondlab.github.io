@@ -9,14 +9,18 @@ with gratitude.
   {% assign type = "Talk" %}
 {% endif %}
 
+{% if page.image %}
+  {% assign image = page.image %}
+{% else %}
+  {% assign image = "/assets/images/placeholder.png" %}
+{% endif %}
+
 <div class="bigspacer"></div>
 
 <div class="row">
 	<div class="col-md-3">
 		<div class="media">
-			{% if page.image %}
-			<img class="pull-left pad-right media-object paper-image" src="{{ page.image }}">
-			{% endif %}
+			<img class="pull-left pad-right media-object paper-image" src="{{ image }}">
 		</div>
 	</div>
 
@@ -55,17 +59,12 @@ with gratitude.
 	<div class="col-md-3">
 		<div class="bigspacer"></div>
 		<div class="glyphbox note"> <!-- DAD: what is this class? -->
-			{% if page.pdf or page.pdflink or page.fulltext %}
+			{% if page.pdf or page.fulltext %}
 			<div class="smallhead subtle">
 				{{ type }}
 			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				{% if page.pdflink %}
-					<i class="fa fa-file-pdf-o fa-fw"></i>
-					<a class="off" href="{{ page.pdflink }}">{{ type }} PDF</a>
-					<br/>
-				{% endif %}
 				{% if page.pdf %}
 					<i class="fa fa-file-pdf-o fa-fw"></i>
 					<a class="off" href="{{ page.pdf }}">PDF</a>
@@ -73,7 +72,7 @@ with gratitude.
 				{% endif %}
 				{% if page.fulltext %}
 				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="{{ page.fulltext }}">{{ type }} Link</a>
+				<a class="off" href="{{ page.fulltext }}">Link</a>
 				{% endif %}
 			</div>
 			<div class="bigspacer"></div>

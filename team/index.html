@@ -24,10 +24,15 @@ navorder: 2
 
 <table align="center"; width=1000px>
 	{% tablerow member in current cols:2 %}
+    {% if member.image %}
+      {% assign image = member.image %}
+    {% else %}
+      {% assign image = "/assets/images/placeholder-user.png" %}
+    {% endif %}
 		<div class="col-md-1.25 memberbox">
 			<div class="media">
 					<a class="pull-left" href="{{ member.url }}">
-						<img class="media-object member-photo" src="{{ member.image }}">
+						<img class="media-object member-photo" src="{{ image }}">
 					</a>
 				<div class="media-body">
 						<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>

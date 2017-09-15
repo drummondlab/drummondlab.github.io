@@ -9,7 +9,7 @@ authors: "Salo T, Riedel MC, Bartley JE, Bottenhorn KL, Yarkoni T, Turner MD, Tu
 image: https://files.aievolution.com/hbm1701/abstracts/36156/1674_Salo.pdf
 redirect_from:
 pdf: https://files.aievolution.com/hbm1701/abstracts/36156/1674_Salo.pdf
-pdflink: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=3219
+fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=3219
 github:
 f1000:
 doi:

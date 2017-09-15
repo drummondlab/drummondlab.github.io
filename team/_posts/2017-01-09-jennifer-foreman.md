@@ -7,5 +7,5 @@ handle: jforeman
 nickname: Jenn
 email: jforeman@fiu.edu
 github: jennforeman
-image: /assets/images/team/placeholder-user.png
+image:
 ---

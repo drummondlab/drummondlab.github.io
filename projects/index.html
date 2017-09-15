@@ -12,27 +12,31 @@ navorder: 1
 <div class="bigspacer"></div>
 
 {% for project in site.categories.projects %}
-<div class='row'>
+  {% if project.image %}
+    {% assign image = project.image %}
+  {% else %}
+    {% assign image = "/assets/images/placeholder.png" %}
+  {% endif %}
   <div class='row'>
-    <div class="media">
+    <div class='row'>
       <div class="media">
-          <a class="pull-left" href="{{ project.url }}">
-          <img width=100 class="media-object" src="{{ project.image }}">
-          </a>
-          <div class="media-body">
-              <div class="smallhead media-heading">
-                  <a href="{{ project.url }}" class="off">{{ project.title }}</a>
-              </div>
-
-          </div>
-          <div class="media-body">
-            {{ project.tagline }}
-          </div>
+        <div class="media">
+            <a class="pull-left" href="{{ project.url }}">
+            <img width=100 class="media-object" src="{{ image }}">
+            </a>
+            <div class="media-body">
+                <div class="smallhead media-heading">
+                    <a href="{{ project.url }}" class="off">{{ project.title }}</a>
+                </div>
+            </div>
+            <div class="media-body">
+              {{ project.tagline }}
+            </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<div class="bigspacer"></div>
+  <div class="bigspacer"></div>
 {% endfor %}
 
 <div class="bigspacer"></div>

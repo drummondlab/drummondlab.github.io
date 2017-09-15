@@ -13,11 +13,16 @@ navorder: 5
 
 <table align="center"; width=1250px>
 	{% tablerow poster in site.categories.posters cols:2 %}
+		{% if poster.image %}
+			{% assign image = poster.image %}
+		{% else %}
+			{% assign image = "/assets/images/placeholder.png" %}
+		{% endif %}
 		<div class="col-md-2.5 paperbox">
 			<div class="media">
         <div class="media">
             <a class="pull-left" href="{{ poster.url }}">
-            <img width=100 class="media-object" src="{{ poster.image }}">
+            <img width=100 class="media-object" src="{{ image }}">
             </a>
             <div class="media-body">
                 <div class="smallhead media-heading">
@@ -28,6 +33,7 @@ navorder: 5
         </div>
 			</div>
 		</div>
+		<div class="smallspacer"></div>
 	{% endtablerow %}
 </table>
 

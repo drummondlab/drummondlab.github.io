@@ -8,7 +8,7 @@ nickname: Ben
 science_name: Sheler B
 email: bshel009@fiu.edu
 github: benshe3
-image: /assets/images/team/placeholder-user.png
+image:
 ---
 
 Ben is a third-year graduate student in the Department of Psychology at Florida International University, specializing in Cognitive Neuroscience.

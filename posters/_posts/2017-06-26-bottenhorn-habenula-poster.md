@@ -6,10 +6,10 @@ shortref: "Bottenhorn <i>et al. OHBM</i> 2017"
 nickname: bottenhorn-habenula-poster
 conference: "HBM"
 authors: "Bottenhorn KL, Flannery JS, Boeving ER, Riedel MC, Eickhoff SB, Sutherland MT, Laird AR"
-image: /assets/images/posters/bottenhorn-habenula-poster.png
+image: /assets/pdfs/posters/bottenhorn-habenula-poster.pdf
 redirect_from:
-pdf:
-pdflink: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=4059
+pdf: /assets/pdfs/posters/bottenhorn-habenula-poster.pdf
+fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=4059
 github:
 f1000:
 doi:

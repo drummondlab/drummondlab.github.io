@@ -7,5 +7,5 @@ handle: calvarez
 nickname: Cary
 email: malva331@fiu.edu
 github: caryalvrz
-image: /assets/images/team/placeholder-user.png
+image:
 ---

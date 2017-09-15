@@ -9,7 +9,7 @@ volume:
 issue:
 pages:
 authors: "Laird AR, Riedel MC, Okoe M, Jianu R, Ray KL, Eickhoff SB, Smith SM, Fox PT, Sutherland MT"
-image: /assets/images/papers/laird-macm-profiles.png
+image:
 redirect_from:
 fulltext: http://www.sciencedirect.com/science/article/pii/S1053811916307595?via%3Dihub
 pdf:

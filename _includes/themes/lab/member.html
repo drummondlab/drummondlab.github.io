@@ -1,14 +1,18 @@
 
 {% assign member = page %}
 
+{% if member.image %}
+	{% assign image = member.image %}
+{% else %}
+	{% assign image = "/assets/images/placeholder-user.png" %}
+{% endif %}
+
 <div class="bigspacer"></div>
 
 <div class="row">
 	<div class="col-md-3">
 		<div class="media">
-			{% if member.image %}
-			<img class="pull-left pad-right big-member-photo" src="{{ member.image }}">
-			{% endif %}
+			<img class="pull-left pad-right big-member-photo" src="{{ image }}">
 		</div>
 	</div>
 	<div class="col-md-9">

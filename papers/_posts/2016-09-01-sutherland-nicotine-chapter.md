@@ -9,7 +9,7 @@ volume:
 issue:
 pages:
 authors: "Sutherland MT, Yanes JA, Stein, EA"
-image: /assets/images/papers/sutherland-nicotine-chapter.png
+image:
 redirect_from:
 fulltext: https://www.elsevier.com/books/negative-affective-states-and-cognitive-impairments-in-nicotine-dependence/hall/978-0-12-802574-1
 pdf:
