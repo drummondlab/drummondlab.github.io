@@ -47,26 +47,12 @@
       {{ content }}
     </div>
 
+		<!-- Show papers, then presentations, then posters -->
     {% for paper in site.categories.papers %}
       {% if paper.projects contains page.handle %}
         {% assign papersq = true %}
       {% endif %}
     {% endfor %}
-
-    {% if papersq == true %}
-      <div class="bigspacer"></div>
-      <div class="head">Papers</div>
-      <div class="spacer"></div>
-      {% for paper in site.categories.papers %}
-        {% if paper.projects contains page.handle %}
-          {% if paper.embargo %}
-          <p>{{ paper.title }}
-          {% else %}
-          <p><a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
 
     {% for pres in site.categories.presentations %}
       {% if pres.projects contains page.handle %}
@@ -74,6 +60,34 @@
       {% endif %}
     {% endfor %}
 
+    {% for poster in site.categories.posters %}
+      {% if poster.projects contains page.handle %}
+        {% assign postersq = true %}
+      {% endif %}
+    {% endfor %}
+
+		<!-- Add section divider -->
+		{% if papersq or presentationsq or postersq %}
+			<hr/>
+		{% endif %}
+
+		<!-- Papers -->
+    {% if papersq == true %}
+      <div class="bigspacer"></div>
+      <div class="head">Papers</div>
+      <div class="spacer"></div>
+      {% for paper in site.categories.papers %}
+        {% if paper.projects contains page.handle %}
+          {% if paper.embargo %}
+            <p>{{ paper.title }}
+          {% else %}
+            <p><a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+		<!-- Talks -->
     {% if presentationsq == true %}
       <div class="bigspacer"></div>
       <div class="head">Presentations</div>
@@ -85,12 +99,7 @@
       {% endfor %}
     {% endif %}
 
-    {% for poster in site.categories.posters %}
-      {% if poster.projects contains page.handle %}
-        {% assign postersq = true %}
-      {% endif %}
-    {% endfor %}
-
+		<!-- Posters -->
     {% if postersq == true %}
       <div class="bigspacer"></div>
       <div class="head">Posters</div>
@@ -101,6 +110,7 @@
         {% endif %}
       {% endfor %}
     {% endif %}
+		
 		<!-- comment out unless we want the categories and tags
     {% unless page.categories == empty %}
     <ul class="tag_box inline">
