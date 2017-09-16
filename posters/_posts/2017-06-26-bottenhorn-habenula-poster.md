@@ -5,7 +5,7 @@ year: "2017"
 shortref: "Bottenhorn <i>et al. OHBM</i> 2017"
 nickname: bottenhorn-habenula-poster
 conference: "HBM"
-authors: "Bottenhorn KL, Flannery JS, Boeving ER, Riedel MC, Eickhoff SB, Sutherland MT, Laird AR"
+authors: "Bottenhorn KL, Robinson JL, Flannery JS, Boeving ER, Salo T, Riedel MC, Eickhoff SB, Yanes JA, Sutherland MT, Laird AR"
 image: /assets/pdfs/posters/bottenhorn-habenula-poster.pdf
 redirect_from:
 pdf: /assets/pdfs/posters/bottenhorn-habenula-poster.pdf
