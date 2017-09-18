@@ -2,8 +2,8 @@
 layout: project
 title: Exploring the Neural Mechanisms of Physics Learning
 handle: physics-learning
-image:
-contributors: [jbartley, eboeving, alaird]
+image: /assets/images/projects/physics_learning/physics_learning_logo.png
+contributors: [alaird, jbartley, eboeving]
 grant: NSF-1420627
 grant_url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1420627
 category: projects

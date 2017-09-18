@@ -8,7 +8,7 @@ journal: "Negative Affective States and Cognitive Impairments in Nicotine Depend
 volume:
 issue:
 pages:
-authors: "Sutherland MT, Yanes JA, Stein, EA"
+authors: "Sutherland MT, Yanes JA, Stein EA"
 image:
 redirect_from:
 fulltext: https://www.elsevier.com/books/negative-affective-states-and-cognitive-impairments-in-nicotine-dependence/hall/978-0-12-802574-1
