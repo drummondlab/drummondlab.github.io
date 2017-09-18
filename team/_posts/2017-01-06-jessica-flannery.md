@@ -6,7 +6,7 @@ department: Department of Psychology
 handle: jflannery
 nickname: Flannery
 science_name: Flannery JS
-email: tsalo006@fiu.edu
+email: jflan008@fiu.edu
 twitter: JessFlannery2
 github: Flanneryg3
 image: /assets/images/team/jessica-flannery.jpg
