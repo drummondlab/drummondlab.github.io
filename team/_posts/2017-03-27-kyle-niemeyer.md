@@ -10,7 +10,7 @@ github: kyleniemeyer
 scholar: dt0KRYoAAAAJ
 orcid: 0000-0003-4425-7097
 image: /assets/images/team/kyle-niemeyer-web.jpg
-cv: https://github.com/kyleniemeyer/cv/raw/gh-pages/KE_Niemeyer_CV.pdf
+cv: https://www.dropbox.com/s/dk3ez7w231j22n9/KE_Niemeyer_CV.pdf?raw=1
 alum: false
 ---
 Kyle is an Assistant Professor at the [Oregon State University] in the [School of Mechanical, Industrial, and Manufacturing Engineering].
