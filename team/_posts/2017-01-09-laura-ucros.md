@@ -2,7 +2,7 @@
 layout: member
 title: Laura Ucros
 position: Research Assistant
-department: ABCD Study
+department:
 handle: lucros
 nickname: Laura
 email: lucros@fiu.edu

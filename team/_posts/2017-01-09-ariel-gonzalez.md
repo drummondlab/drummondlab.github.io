@@ -2,7 +2,7 @@
 layout: member
 title: Ariel Gonzalez
 position: Research Assistant
-department: ABCD Study
+department:
 handle: agonzalez
 nickname: Ariel
 email: aag93@cornell.edu

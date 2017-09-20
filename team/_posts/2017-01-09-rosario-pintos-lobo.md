@@ -2,7 +2,7 @@
 layout: member
 title: Rosario Pintos Lobo
 position: Research Assistant
-department: ABCD Study
+department:
 handle: rpintos
 nickname: Rosario
 email: rpintosl@fiu.edu

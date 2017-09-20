@@ -2,7 +2,7 @@
 layout: member
 title: Cary Alvarez
 position: Research Assistant
-department: ABCD Study
+department:
 handle: calvarez
 nickname: Cary
 email: malva331@fiu.edu

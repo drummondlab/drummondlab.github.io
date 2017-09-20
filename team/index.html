@@ -4,6 +4,17 @@ title: Team
 description: "People in the lab"
 group: navigation
 navorder: 2
+
+undergrads:
+  - Vanessa Rodriguez
+  - Diego Sanchez
+  - Ilan Garcia
+  - Sharieka Savage
+  - Abigail Martinez
+  - Javier Perez
+  - Salman Zubair
+  - Deborah Pulido
+
 ---
 {% include JB/setup %}
 
@@ -50,10 +61,12 @@ navorder: 2
 <div class="bigspacer"></div>
 
 <div class="row">
-	<div class="col-md-12">
-		<img class="team-photo" src="/assets/images/team/nbclab-undergrads-20170913.png"/>
+	<div class="col-md-12" align="center">
+    <!-- team-photo definition in assets/themes/lab/css/style.scss -->
+		<img class="team-photo" src="/assets/images/placeholder.png"/>
 	</div>
 </div>
+From left to right: {{ page.undergrads | join: ", "}}.
 
 <div class="bigspacer"></div>
 <hr/>
@@ -61,7 +74,7 @@ navorder: 2
 <div class="bigspacer"></div>
 
 <table align="center"; width=1000px>
-	{% tablerow member in alumni cols:2 %}
+	{% tablerow member in alumni cols:3 %}
 		<div class="col-md-1.5 memberbox">
 			<div class="media">
 					<a class="pull-left" href="{{ member.url }}">
