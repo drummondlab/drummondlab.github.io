@@ -218,10 +218,10 @@ strong {
   opacity: 1;
 }
 .carousel-fade .item {
-  -moz-transition: opacity ease-in-out .7s;
-  -o-transition: opacity ease-in-out .7s;
-  -webkit-transition: opacity ease-in-out .7s;
-  transition: opacity ease-in-out .7s;
+  -moz-transition: opacity ease-in-out 3s;
+  -o-transition: opacity ease-in-out 3s;
+  -webkit-transition: opacity ease-in-out 3s;
+  transition: opacity ease-in-out 3s;
   left: 0 !important;
   opacity: 0;
   top:0;
@@ -236,10 +236,10 @@ strong {
 }
 .carousel-fade .item.active {
   opacity: 1;
-  -moz-transition: opacity ease-in-out .7s;
-  -o-transition: opacity ease-in-out .7s;
-  -webkit-transition: opacity ease-in-out .7s;
-  transition: opacity ease-in-out .7s;
+  -moz-transition: opacity ease-in-out 3s;
+  -o-transition: opacity ease-in-out 3s;
+  -webkit-transition: opacity ease-in-out 3s;
+  transition: opacity ease-in-out 3s;
   z-index:2;
 }
 
