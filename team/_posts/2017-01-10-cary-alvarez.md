@@ -2,7 +2,7 @@
 layout: member
 title: Cary Alvarez
 position: Research Assistant
-department:Department of Psychology 
+department: Department of Psychology 
 handle: calvarez
 nickname: Cary
 email: malva331@fiu.edu
