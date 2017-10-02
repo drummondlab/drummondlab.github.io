@@ -155,7 +155,7 @@
 			</div>
 
 			<!-- Show projects, then papers, then presentations, then posters -->
-			{% for project in site.categories.project %}
+			{% for project in site.categories.projects %}
 				{% if project.contributors contains member.handle %}
 					{% assign projectsq = true %}
 				{% endif %}
@@ -190,7 +190,7 @@
 			<!-- Projects -->
 			{% if projectsq == true %}
 				<div class="bigspacer"></div>
-				<div class="head">Projects</div>
+				<div class="head">Research</div>
 				<div class="spacer"></div>
 				{% for project in site.categories.projects %}
 					{% if project.contributors contains member.handle %}
