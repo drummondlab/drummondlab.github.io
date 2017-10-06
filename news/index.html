@@ -14,12 +14,6 @@ category: news
 
 {% for post in site.categories.news limit: 10 %}
 
-	{% for member in site.categories.team %}
-		{% if member.handle == post.author %}
-			{% assign author = member %}
-		{% endif %}
-	{% endfor %}
-
 	<div class="bigspacer"></div>
 	<div class="row">
 		<div class="col-md-3">
@@ -28,9 +22,6 @@ category: news
 			</div>
 			<div class="smallnote">
 				{{ post.date | date_to_string }}
-				{% if author %}
-				by <a class="off" href="{{ author.url }}">{{ author.nickname }}</a>
-				{% endif %}
 			</div>
 		</div>
 		<div class="col-md-8">
