@@ -12,4 +12,4 @@ github: Flanneryg3
 image: /assets/images/team/jessica-flannery.jpg
 ---
 
-Jessica is a second-year graduate student in the Department of Psychology at Florida International University, specializing in Cognitive Neuroscience. She graduated from Grinnell College (Grinnell, Iowa) with a B.A. in Psychology and a concentration in neuroscience. Jessica is interested in substance abuse and addiction. She is currently researching the neural correlates of reward processing in chronic cigarette smokers.
+Jessica is a third-year graduate student in the Department of Psychology at Florida International University, specializing in Cognitive Neuroscience. She graduated from Grinnell College (Grinnell, Iowa) with a B.A. in Psychology and a concentration in neuroscience. Jessica is interested in substance abuse and addiction. She is currently researching the neural correlates of reward processing in chronic cigarette smokers.
