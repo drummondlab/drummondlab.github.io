@@ -16,4 +16,4 @@ Funded by the National Institute on Drug Abuse of the NIH, this project utilizes
 
 ## Participate
 
-You do not need to have HIV or use marijuana/cannabis to be in this study. This study includes people with and without HIV and people who use or don’t use marijuana. Recruitment for this project is coordinated through the Substance Use and HIV Neuropsychology (SUHN) Laboratory at FIU ([click here to learn more about participating in this project](http://suhn.fiu.edu/participants)).
+You do not need to have HIV or use marijuana/cannabis to be in this study. This study includes people with and without HIV and people who use or don’t use marijuana. Recruitment for this project is coordinated through the Substance Use and HIV Neuropsychology (SUHN) Laboratory's Mind Matters study at FIU. [Click here to learn more about participating in this project](http://suhn.fiu.edu/participants).
