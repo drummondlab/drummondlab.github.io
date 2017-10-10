@@ -1,0 +1,14 @@
+---
+layout: default
+title: Contact Us
+categories:
+ - home
+---
+{% include JB/setup %}
+{% for page in site.categories.misc %}
+{% if page.contact %}
+	{% assign contactpage = page %}
+{% endif %}
+{% endfor %}
+
+{{ contactpage.content }}

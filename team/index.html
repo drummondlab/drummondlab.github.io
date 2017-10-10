@@ -1,74 +1,100 @@
 ---
 layout: default
-title: "Team"
+title: Team
 description: "People in the lab"
 group: navigation
 navorder: 2
+
+undergrads:
+  - Over Acuna
+  - Chelsy Fraga
+  - Kevin Garcia
+  - Nathaline Germain
+  - Tiana Lanier
+  - Abigail Martinez
+  - Aleymi Perez
+  - Javier Perez
+  - Vanessa Rodriguez
+  - Diego Sanchez
+  - Sharieka Savage
+  - Amelia Vega
+  - Kathleen Won
+  - Salman Zubair
+
 ---
 {% include JB/setup %}
 
-<div class="bigspacer"></div>
-{% for member in site.categories.team reversed %}
-	{% if member.alum == false %}
-	    {% cycle 'add rows': '<div class="row">', nil, nil %}
-			<div class="col-md-4 memberbox">
-				<div class="media">
-	  				<a class="pull-left" href="{{ member.url }}">
-	    				<img class="media-object member-photo" src="{{ member.image }}">
-	  				</a>
-	 			 	<div class="media-body">
-	    				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-	    				<p class="note">{{ member.position }}</p>
-	  				</div>
-				</div>
-	        </div>	  
-	    {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
-	{% endif %}
+{% assign temp = site.categories.team | reverse %}
+{% assign current = "" | split: "" %}
+{% assign alumni = "" | split: "" %}
+{% for member in temp %}
+    {% if member.alumni != true %}
+		    {% assign current = current | push: member %}
+		{% else %}
+		    {% assign alumni = alumni | push: member %}
+		{% endif %}
 {% endfor %}
-{% comment %}
-{% cycle 'close rows': nil, '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
-{% endcomment %}
 
-<!-- comment out this next line if there are multiples of three members -->
-<!-- </div> -->
+<div class="bigspacer"></div>
+<div class="bigtitle text-center">The Team</div>
+<div class="bigspacer"></div>
+
+<table align="center"; width=1000px>
+	{% tablerow member in current cols:2 %}
+    {% if member.image %}
+      {% assign image = member.image %}
+    {% else %}
+      {% assign image = "/assets/images/placeholder-user.png" %}
+    {% endif %}
+		<div class="col-md-1.25 memberbox">
+			<div class="media">
+					<a class="pull-left" href="{{ member.url }}">
+						<img class="media-object member-photo" src="{{ image }}">
+					</a>
+				<div class="media-body">
+						<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+						<p class="note">{{ member.position }}</p>
+						<p class="note">{{ member.department }}</p>
+					</div>
+			</div>
+		</div>
+	{% endtablerow %}
+</table>
 
 <div class="bigspacer"></div>
 <hr/>
+<div class="bigtitle text-center">Undergraduate Research Assistants</div>
+<div class="bigspacer"></div>
 
 <div class="row">
-	<div class="col-md-12">
-		<img class="team-photo" src="/assets/images/team/drummond-lab-20170726.png"/>
+	<div class="col-md-12" align="center">
+    <!-- team-photo definition in assets/themes/lab/css/style.scss -->
+		<img class="team-photo" src="/assets/images/team/undergrads.png"/>
 	</div>
 </div>
+Undergraduate research assistants (in alphabetical order): {{ page.undergrads | join: ", "}}.
 
 <div class="bigspacer"></div>
 <hr/>
 <div class="bigtitle text-center">Alumni</div>
 <div class="bigspacer"></div>
 
-{% for member in site.categories.team %}
-	{% if member.alum == true %}
-	    {% cycle 'add alum rows': '<div class="row">', nil, nil %}
-			<div class="col-md-4 memberbox">
-				<div class="media">
-	  				<a class="pull-left" href="{{ member.url }}">
-	    				<img class="media-object member-photo" src="{{ member.image }}">
-	  				</a>
-	 			 	<div class="media-body">
-	    				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-	    				<p class="note">{{ member.position }}</p>
-	  				</div>
-				</div>
-	        </div>	  
-	    {% cycle 'close alum rows': nil, nil, '</div><div class="bigspacer"></div>' %}
-	{% endif %}
-{% endfor %}
-{% comment %}
-{% cycle 'close alum rows': nil, '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
-{% endcomment %}
-
-<!-- comment out this next line if there are multiples of three alumni -->
-</div>
+<table align="center"; width=1000px>
+	{% tablerow member in alumni cols:3 %}
+		<div class="col-md-1.5 memberbox">
+			<div class="media">
+					<a class="pull-left" href="{{ member.url }}">
+						<img class="media-object member-photo" src="{{ member.image }}">
+					</a>
+				<div class="media-body">
+						<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+						<p class="note">{{ member.position }}</p>
+						<p class="note">{{ member.department }}</p>
+					</div>
+			</div>
+		</div>
+	{% endtablerow %}
+</table>
 
 
 <div class="bigspacer"></div>

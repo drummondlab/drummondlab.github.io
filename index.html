@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Drummond Lab
+title: The Neuroinformatics and Brain Connectivity Lab
 categories:
  - home
 ---
@@ -18,23 +18,24 @@ categories:
 	<div class="carousel-overlay logotitle logobox">
 		{{ homepage.title }}
 	</div>
-	<div id="carousel" class="carousel carousel-fade" data-ride="carousel">
+  <!-- data-interval says how long to spend on each image: 10000 = 10s -->
+	<div id="carousel" class="carousel carousel-fade" data-interval="10000" data-ride="carousel">
 	  <ol class="carousel-indicators">
 	    <li data-target="#carousel" data-slide-to="0" class="active"></li>
 	    <li data-target="#carousel" data-slide-to="1"></li>
 	    <li data-target="#carousel" data-slide-to="2"></li>
 	  </ol>
 	  <!-- Carousel items -->
-	  <!-- DAD: this should be dynamically populated. -->
+	  <!-- See https://bootsnipp.com/tags/carousel for possible approaches -->
 	  <div class="carousel-inner">
 	    <div class="active item">
-	    	<img src="/assets/themes/lab/images/banner/pab-30min.png" width='1200px' alt="">
+	    	<img src="/assets/images/banners/Picture1a.png" width='1200px' alt="">
 	    </div>
 	    <div class="item">
-	    	<img src="/assets/themes/lab/images/banner/hsp104-30min.png" width='1200px' alt="">
+	    	<img src="/assets/images/banners/Picture4a.png" width='1200px' alt="">
 	    </div>
 	    <div class="item">
-	    	<img src="/assets/themes/lab/images/banner/yeast-dic.png" width='1200px' alt="">
+	    	<img src="/assets/images/banners/Picture6a.png" width='1200px' alt="">
 	    </div>
 	  </div>
 	  <!-- Carousel nav -->
@@ -47,7 +48,7 @@ categories:
 	    <!-- <span class="sr-only">Next</span> -->
 	  </a>
 	</div>
-	</div>				
+	</div>
 </div>
 
 <div class="hugespacer"></div>
@@ -57,7 +58,7 @@ categories:
 		<div class="smallhead">
 			{{ homepage.content }}
 		</div>
-	</div>				
+	</div>
 </div>
 
 <div class="hugespacer"></div>
@@ -68,15 +69,15 @@ categories:
 			<a class="off" href="/news/">News</a>
 		</div>
 		<div class="bigspacer"></div>
-		<div class="feedbox pad-left">
+		<div class="feedbox">
 			{% for news in site.categories.news limit:4 %}
-			
+
 				{% for member in site.categories.team %}
-					{% if member.handle == news.author_handle %}
+					{% if member.handle == news.author %}
 						{% assign author = member %}
 					{% endif %}
-				{% endfor %}		
-				
+				{% endfor %}
+
 				<div class="note-title">
 					<i class="fa fa-bullhorn fa-fw"></i>
 					<a class="off" href="{{ news.url }}">
@@ -84,7 +85,7 @@ categories:
 					</a>
 				</div>
 				<div class="note">
-					{{ news.content }}
+					{{ news.excerpt }}
 				</div>
 				<div class="smallspacer"></div>
 				<div class="smallnote">
@@ -92,61 +93,53 @@ categories:
 					{{ news.date | date_to_string }}
 					{% if author %}
 					by <a class="off" href="{{ author.url }}">{{ author.nickname }}</a>
-					{% endif %}						
-				</div>
-				<div class="spacer"></div>	
-				<div class="spacer"></div>				
-			{% endfor %}
-		</div>
-		<div class="bigspacer"></div>		
-	</div>
-	<div class="col-md-4">
-		<div class="head">
-			<a class="off" href="/blog/">Posts</a>
-		</div>
-		<div class="bigspacer"></div>
-		<div class="feedbox pad-left">
-			{% for post in site.categories.blog limit:4 %}
-			
-				{% for member in site.categories.team %}
-					{% if member.handle == post.author_handle %}
-						{% assign author = member %}
 					{% endif %}
-				{% endfor %}		
-				
-				<div class="note-title">
-					<i class="fa fa-comment-o fa-fw"></i>
-					<a class="off" href="{{ post.url }}">
-					{{ post.title }}
-					</a>
 				</div>
-				<div class="smallspacer"></div>
-				<div class="smallnote">
-					Posted
-					{{ post.date | date_to_string }}
-					{% if author %}
-					by <a class="off" href="{{ author.url }}">{{ author.nickname }}</a>
-					{% endif %}						
-				</div>
-				<div class="spacer"></div>	
-				<div class="spacer"></div>				
+				<div class="spacer"></div>
+				<div class="spacer"></div>
 			{% endfor %}
 		</div>
-		<div class="bigspacer"></div>		
+		<div class="bigspacer"></div>
 	</div>
+
+  <div class="col-md-4">
+    <div class="head">
+      <a class="off" href="/projects/">Projects</a>
+    </div>
+    <div class="bigspacer"></div>
+    <div class="feedbox">
+      {% for project in site.categories.projects limit: 5 %}
+        <div class="note-title">
+          <i class="fa fa-database fa-fw"></i>
+          <a class="off" href="{{ project.url }}">{{ project.title }}</a>
+          <br/>
+        </div>
+        <div class="smallspacer"></div>
+        <div class="smallnote">
+					{{ project.excerpt }}
+				</div>
+        <div class="spacer"></div>
+      {% endfor %}
+    </div>
+    <div class="bigspacer"></div>
+  </div>
+
 	<div class="col-md-4">
 		<div class="head">
-			<a class="off" href="/papers/">Papers
-			</a>
+			<a class="off" href="/papers/">Papers</a>
 		</div>
 		<div class="bigspacer"></div>
-		<div class="feedbox pad-left">		
-			{% for paper in site.categories.papers limit:4 %}
+		<div class="feedbox">
+			{% for paper in site.categories.papers limit: 4 %}
 				<div class="note-title">
 					<i class="fa fa-file-text-o fa-fw"></i>
-					<a class="off" href="{{ paper.url }}">
-					{{ paper.title }}
-					</a>
+          {% if paper.tags contains "preprint" %}
+              <a href="{{ paper.url }}" class="off">[PREPRINT] {{ paper.title }}</a>
+          {% elsif paper.tags contains "chapter" %}
+              <a href="{{ paper.url }}" class="off">[CHAPTER] {{ paper.title }}</a>
+          {% else %}
+              <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+          {% endif %}
 					<br/>
 					<div class='shortref note'>
 					{{ paper.shortref }}
@@ -157,13 +150,12 @@ categories:
 					Published
 					{{ paper.date | date_to_string }}
 				</div>
-				<div class="spacer"></div>	
-				<div class="spacer"></div>				
+				<div class="spacer"></div>
+				<div class="spacer"></div>
 			{% endfor %}
 		</div>
-		<div class="bigspacer"></div>		
+		<div class="bigspacer"></div>
 	</div>
 </div>
 
 <div class="bigspacer"></div>
-

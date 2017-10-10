@@ -17,15 +17,18 @@
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet"/>
     <!-- Sticky Footer -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bs-sticky-footer.css" rel="stylesheet"/>
-    
+
     <!-- Custom styles -->
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all"/>
 
     <!-- icon -->
     <link rel="shortcut icon" href="{{ ASSET_PATH }}/images/logo/favicon.ico"/>
 
-    <!-- Custom fonts and icons via Font Awesome, http://fortawesome.github.io/Font-Awesome/ -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+    <!-- Custom fonts and icons via Font Awesome, http://jpswalsh.github.io/academicons/ -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.css"/>
+
+    <!-- Custom fonts and icons via Academicons, http://fortawesome.github.io/Font-Awesome/ -->
+   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
 
     <!-- Fonts via Google -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700' rel='stylesheet' type='text/css'/>
@@ -71,7 +74,7 @@
           <span class="icon-bar"></span>
         </button>
         <a href="/">
-        <img class="pull-left logo" src="{{ ASSET_PATH }}/images/logo/lab-logo.svg" type="image/svg+xml">
+        <img class="pull-left" src="{{ ASSET_PATH }}/images/logo/logo.png">
         </a>
       </div>
 
@@ -79,13 +82,14 @@
       <div class="collapse navbar-collapse" id="jb-navbar-collapse">
         <ul class="nav navbar-nav navbar-left hidden-sm">
           <!-- Don't put site title on home page -- there's already a big title there. -->
-          {% assign make_title = true %}
+          {% assign make_title = false %} <!-- CHANGED TO FALSE BY TS -->
           {% for pc in page.categories %}
             {% if pc == "home" %}
              {% assign make_title = false %}
             {% endif %}
           {% endfor %}
           {% if make_title == true %}
+          <!-- <img class="pull-left logo" src="{{ ASSET_PATH }}/images/banner/lab-banner.png"> -->
           <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           {% endif %}
         </ul>
@@ -93,7 +97,7 @@
           {% assign pages_list = (site.pages | sort: 'navorder') %}
           {% assign group = 'navigation' %}
           {% include JB/pages_list %}
-          <li class="dropdown nav navbar-nav">
+          <!-- <li class="dropdown nav navbar-nav">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
               More <span class="caret"></span>
             </a>
@@ -103,7 +107,7 @@
               {% assign group = 'subnavigation' %}
               {% include JB/pages_list %}
             </ul>
-            </li>
+          </li> -->
         </ul>
       </div><!-- /.navbar-collapse -->
     </nav>
@@ -132,14 +136,15 @@
           <li><a href={{ site.institution.url }}>{{ site.institution.name }}</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right navbar-small">
-          <li><a href='/about.html#purpose'>About</a></li>
-          <li><a href='/about.html#join'>Join</a></li>
-          <li><a href='/about.html#contact'>Contact</a></li>
+          <li><a href='https://drive.google.com/drive/u/0/folders/0B543K-QXbp21WERUMkc5SVhjODg'>For Lab Members</a></li>
+          <li><a href='/about.html#about-the-site'>About the Site</a></li>
+          <li><a href='/contact.html#join'>Join</a></li>
+          <li><a href='/contact.html#contact'>Contact</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div>
   </nav>
- 
+
 
 
     {% include JB/analytics %}

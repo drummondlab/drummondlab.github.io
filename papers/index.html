@@ -1,42 +1,58 @@
 ---
 layout: default
 title: "Papers"
-description: "Research papers from the lab"
+description: "Publications from members of the lab"
 group: navigation
 navorder: 3
 ---
 {% include JB/setup %}
-<div class="bigspacer"></div> 
-{% for paper in site.categories.papers %}
-    {% cycle 'add rows': '<div class="row">', nil, nil %}
-    <div class="col-md-4 paperbox">
-      {% if paper.embargo %}
-      <div class="media">
-           <img width=100 class="media-object pull-right" src="{{ paper.image }}"/>
-          <div class="media-body">
-            <div class="smallhead media-heading">
-            {{ paper.title }}
-            </div>
-            <p class="note">{{ paper.shortref }}</p>
-          </div>
-      </div>
-      {% else %}
-     <div class="media">
-          <a class="pull-right" href="{{ paper.url }}">
-            <img width=100 class="media-object" src="{{ paper.image }}">
-          </a>
-        <div class="media-body">
-            <div class="smallhead media-heading">
-            <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
-            </div>
-            <p class="note">{{ paper.shortref }}</p>
-        </div>
-      </div>
-      {% endif %}
-    </div>
-    {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
-{% endfor %}
-{% cycle 'close rows': nil, '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
 
+<div class="bigspacer"></div>
+<div class="bigtitle text-center">Publications</div>
+<div class="bigspacer"></div>
 
+<table align="center"; width=1250px>
+	{% tablerow paper in site.categories.papers cols:2 %}
+		{% if paper.image %}
+		  {% assign image = paper.image %}
+		{% else %}
+		  {% assign image = "/assets/images/placeholder.png" %}
+		{% endif %}
+
+		<div class="col-md-2.5 paperbox">
+			<div class="media">
+        {% if paper.embargo %}
+            <div class="media">
+                <img width=100 class="media-object pull-right" src="{{ image }}"/>
+                <div class="media-body">
+                    <div class="smallhead media-heading">
+                        {{ paper.title }}
+                    </div>
+                    <p class="note">{{ paper.shortref }}</p>
+                </div>
+            </div>
+        {% else %}
+            <div class="media">
+                <a class="pull-left" href="{{ paper.url }}">
+                <img width=100 class="media-object" src="{{ image }}">
+                </a>
+                <div class="media-body">
+                    <div class="smallhead media-heading">
+                        {% if paper.tags contains "preprint" %}
+                            <a href="{{ paper.url }}" class="off">[PREPRINT] {{ paper.title }}</a>
+                        {% elsif paper.tags contains "chapter" %}
+                            <a href="{{ paper.url }}" class="off">[CHAPTER] {{ paper.title }}</a>
+                        {% else %}
+                            <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+                        {% endif %}
+                    </div>
+                    <p class="note">{{ paper.shortref }}</p>
+                </div>
+            </div>
+        {% endif %}
+			</div>
+		</div>
+		<div class="smallspacer"></div>
+	{% endtablerow %}
+</table>
 <div class="bigspacer"></div>

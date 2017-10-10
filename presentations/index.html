@@ -1,0 +1,40 @@
+---
+layout: default
+title: "Talks"
+description: "Presentations by members of the lab"
+group: navigation
+navorder: 4
+---
+{% include JB/setup %}
+
+<div class="bigspacer"></div>
+<div class="bigtitle text-center">Talks</div>
+<div class="bigspacer"></div>
+
+<table align="center"; width=1250px>
+	{% tablerow pres in site.categories.presentations cols:2 %}
+		{% if pres.image %}
+			{% assign image = pres.image %}
+		{% else %}
+			{% assign image = "/assets/images/placeholder.png" %}
+		{% endif %}
+		<div class="col-md-2.5 paperbox" style="min-width: 575px">
+			<div class="media">
+        <div class="media">
+            <a class="pull-left" href="{{ pres.url }}">
+            <img width=100 class="media-object" style="min-height: 100px" src="{{ image }}">
+            </a>
+            <div class="media-body">
+                <div class="smallhead media-heading">
+                    <a href="{{ pres.url }}" class="off">{{ pres.title }}</a>
+                </div>
+                <p class="note">{{ pres.shortref }}</p>
+            </div>
+        </div>
+			</div>
+		</div>
+		<div class="smallspacer"></div>
+	{% endtablerow %}
+</table>
+
+<div class="bigspacer"></div>

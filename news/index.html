@@ -1,42 +1,18 @@
 ---
 layout: default
-title: "News"
-description: "The Drummond Lab blog"
-group: subnavigation
+title: News
+description: News from the NBC lab
+group: navigation
 navorder: 6
+category: news
 ---
 {% include JB/setup %}
 
+<div class="bigspacer"></div>
+<div class="bigtitle text-center">News from the Lab</div>
+<div class="bigspacer"></div>
 
-<div class="pager">
-  
-	{% if paginator.previous_page %}
-		{% if paginator.previous_page == 1 %}
-		<a class="prev" href="/{{ page.category }}/">
-			<i class="fa fa-chevron-left fa-lg"></i>
-		</a>
-		{% else %}
-		<a class="prev" href="/{{ page.category }}/page{{ paginator.previous_page }}">
-			<i class="fa fa-chevron-left fa-lg"></i>
-		</a>
-		{% endif %}  		
-	{% endif %}  
-  
-	{% if paginator.next_page %}  
-	<a class="next" href="/{{ page.category }}/page{{ paginator.next_page }}">
-		<i class="fa fa-chevron-right fa-lg"></i>
-	</a>	
-	{% endif %}  	
-    
-</div>
-
-{% for post in site.categories.news %}
-
-	{% for member in site.categories.team %}
-		{% if member.handle == post.author_handle %}
-			{% assign author = member %}
-		{% endif %}
-	{% endfor %}
+{% for post in site.categories.news limit: 10 %}
 
 	<div class="bigspacer"></div>
 	<div class="row">
@@ -46,26 +22,23 @@ navorder: 6
 			</div>
 			<div class="smallnote">
 				{{ post.date | date_to_string }}
-				{% if author %}
-				by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
-				{% endif %}				
-			</div>	
+			</div>
 		</div>
-		<div class="col-md-8">		
-			<div style="height:5px;"></div>			
+		<div class="col-md-8">
+			<div style="height:5px;"></div>
 			{% if post.image %}
 			<a href="{{ post.url }}"><img class="offset" src="{{ post.image }}"></a>
 			{% endif %}
 			<div class="post">
 				{{ post.content }}
 			</div>
-		</div>			
+		</div>
 		<div class="col-md-1"></div>
-	</div>		
+	</div>
 
 {% endfor %}
 
-<div class="bigspacer"></div>	
+<div class="bigspacer"></div>
 <div class="row">
 	<div class="col-md-12 text-center">
 		<a class="off" href="/{{ page.category }}/archive/">

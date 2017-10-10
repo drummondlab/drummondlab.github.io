@@ -1,0 +1,183 @@
+<!--
+Branched from Trevor Bedford's source, https://github.com/blab/blotter/blob/master/_layouts/paper.html
+with gratitude.
+-->
+
+{% if page.category == "posters" %}
+  {% assign type = "Poster" %}
+{% elsif page.category == "presentations" %}
+  {% assign type = "Talk" %}
+{% endif %}
+
+{% if page.image %}
+  {% assign image = page.image %}
+{% else %}
+  {% assign image = "/assets/images/placeholder.png" %}
+{% endif %}
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-3">
+		<div class="media">
+			<img class="pull-left pad-right media-object paper-image" src="{{ image }}">
+		</div>
+    <div class="bigspacer"></div>
+    <div class="glyphbox note"> <!-- DAD: what is this class? -->
+      {% if page.pdf or page.fulltext or page.slides or page.video %}
+      <div class="smallhead subtle">
+        {{ type }}
+      </div>
+      <div class="pad-left note">
+        <div class="smallspacer"></div>
+        <!-- for posters -->
+        {% if page.pdf %}
+          <i class="fa fa-file-pdf-o fa-fw"></i>
+          <a class="off" href="{{ page.pdf }}">PDF</a>
+          <br/>
+        {% endif %}
+
+        {% if page.fulltext %}
+          <i class="fa fa-external-link fa-fw"></i>
+          <a class="off" href="{{ page.fulltext }}">Link</a>
+        {% endif %}
+
+        <!-- for talks -->
+        {% if page.slides %}
+          <i class="fa fa-file-powerpoint-o"></i>
+          <a class="off" href="{{ page.slides }}">Slides</a>
+          <br/>
+        {% endif %}
+
+        {% if page.video %}
+          <i class="fa fa-file-video-o"></i>
+          <a class="off" href="{{ page.video }}">Video</a>
+          <br/>
+        {% endif %}
+      </div>
+      <div class="bigspacer"></div>
+      {% endif %}
+
+      {% if page.doi %}
+      <div class="smallhead subtle">
+        DOI
+      </div>
+      <div class="pad-left note">
+        <div class="smallspacer"></div>
+        <i class="fa fa-external-link fa-fw"></i>
+        <a class="off" href="http://dx.doi.org/{{ page.doi }}">{{ page.doi }}</a>
+      </div>
+      <div class="bigspacer"></div>
+      {% endif %}
+
+      {% if page.github %}
+      <div class="smallhead subtle">
+        Source code
+      </div>
+      <div class="pad-left note">
+        <div class="smallspacer"></div>
+        <i class="fa fa-cog fa-fw"></i>
+        <a class="off" href="{{ page.github }}">{{ page.github | remove: 'http://' | remove: 'https://' }}</a>
+      </div>
+      <div class="bigspacer"></div>
+      {% endif %}
+
+      {% if page.dryad_doi %}
+      <div class="smallhead subtle">
+        Data
+      </div>
+      <div class="pad-left note">
+        <div class="smallspacer"></div>
+        <i class="fa fa-database fa-fw"></i>
+        <a class="off" href="http://dx.doi.org/{{ page.dryad_doi }}">Dryad</a>
+      </div>
+      <div class="bigspacer"></div>
+      {% endif %}
+
+      {% if page.figshare_doi %}
+      <div class="smallhead subtle">
+        Data
+      </div>
+      <div class="pad-left note">
+        <div class="smallspacer"></div>
+        <i class="fa fa-database fa-fw"></i>
+        <a class="off" href="http://doi.org/{{ page.figshare_doi }}">Figshare</a>
+      </div>
+      <div class="bigspacer"></div>
+      {% endif %}
+
+      {% if page.altmetric_id %}
+      <div class="smallhead subtle">
+        Altmetrics
+      </div>
+      <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+      <div class="altmetric-embed" data-badge-popover="right" data-doi={{ page.doi }} data-badge-type="donut" data-altmetric-id={{ page.altmetric_id }} data-hide-no-mentions="true">
+      </div>
+      <div class="bigspacer"></div>
+      {% endif %}
+      <div class="smallhead subtle">
+        Share
+      </div>
+        <div class="pad-left note">
+          <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
+          <div class="post-sharing">
+           {% include JB/sharing %}
+          </div>
+        </div>
+    </div>
+	</div>
+
+	<div class="col-md-9">
+		<div class="media-body titlebox">
+			<div class="title media-heading">
+				{{ page.title }}
+			</div>
+			<p>
+			<div class="smallhead">
+				{% assign split_authors = page.authors | split: ", " %}
+				{% for author in split_authors %}
+				    {% assign author_in_lab = "false" %}
+				    {% for member in site.categories.team %}
+					      {% if author == member.science_name %}
+    								{% assign author_in_lab = "true" %}
+						        <a class="off" href="{{ member.url }}">{{ member.science_name }}</a>,
+						    {% endif %}
+				    {% endfor %}
+					  {% if author_in_lab != "true" %}
+					      {{ author }},
+					  {% endif %}
+				{% endfor %}
+				<span class="conference">
+				{{ page.conference }}
+				</span>
+				({{ page.year }}).
+			</div>
+      <hr/>
+      <div class="post">
+        {{ content }}
+      </div>
+		</div>
+    <!-- comment out unless we want the categories and tags
+    {% unless page.categories == empty %}
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-open"></i></li>
+      {% assign categories_list = page.categories %}
+      {% include JB/categories_list %}
+    </ul>
+    {% endunless %}
+
+    {% unless page.tags == empty %}
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-tags"></i></li>
+      {% assign tags_list = page.tags %}
+      {% include JB/tags_list %}
+    </ul>
+    {% endunless %}
+
+    <hr>
+    {% include JB/comments %}
+    -->
+	</div>
+</div>
+
+<div class="bigspacer"></div>
