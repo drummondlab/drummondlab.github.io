@@ -3,10 +3,10 @@ layout: presentation
 title: "A quantitative evaluation of Neurosynth's annotation methods"
 year: "2017"
 shortref: "Salo <i>et al. OHBM</i> 2017"
-nickname: salo-neurosynth-presentation
+nickname: 2017-06-26-salo-neurosynth-presentation
 conference: "HBM"
 authors: "Salo T, Riedel MC, Bartley JE, Bottenhorn KL, Yarkoni T, Turner MD, Turner JA, Sutherland MT, Laird AR"
-image: /assets/images/talks/salo-neurosynth-presentation.png
+image: /assets/images/talks/2017-06-26-salo-neurosynth-presentation.png
 redirect_from:
 slides:
 video: https://www.pathlms.com/ohbm/courses/5158/sections/7806/video_presentations/76061

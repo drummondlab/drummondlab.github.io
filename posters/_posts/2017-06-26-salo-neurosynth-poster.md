@@ -3,10 +3,10 @@ layout: poster
 title: "A quantitative evaluation of Neurosynth's annotation methods"
 year: "2017"
 shortref: "Salo <i>et al. OHBM</i> 2017"
-nickname: salo-neurosynth-poster
+nickname: 2017-06-26-salo-neurosynth-poster
 conference: "HBM"
 authors: "Salo T, Riedel MC, Bartley JE, Bottenhorn KL, Yarkoni T, Turner MD, Turner JA, Sutherland MT, Laird AR"
-image: https://files.aievolution.com/hbm1701/abstracts/36156/1674_Salo.pdf
+image: /assets/images/posters/2017-06-26-salo-neurosynth-poster.png
 redirect_from:
 pdf: https://files.aievolution.com/hbm1701/abstracts/36156/1674_Salo.pdf
 fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=3219

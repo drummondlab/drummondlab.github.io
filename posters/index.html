@@ -10,31 +10,54 @@ navorder: 5
 <div class="bigspacer"></div>
 <div class="bigtitle text-center">Posters</div>
 <div class="bigspacer"></div>
+<hr/>
 
-<table align="center"; width=1250px>
-	{% tablerow poster in site.categories.posters cols:2 %}
-		{% if poster.image %}
-			{% assign image = poster.image %}
-		{% else %}
-			{% assign image = "/assets/images/placeholder.png" %}
+{% assign years = "" | split: "" %}
+{% for product in site.categories.posters %}
+  {% assign years = years | push: product.year %}
+{% endfor %}
+{% assign years = years | uniq %}
+
+{% for year in years %}
+	<div class="title text-center">{{ year }}</div>
+	<div class="bigspacer"></div>
+	{% assign year_products = "" | split: "" %}
+	{% for product in site.categories.posters %}
+		{% if product.year == year %}
+		  {% assign year_products = year_products | push: product %}
 		{% endif %}
-		<div class="col-md-2.5 paperbox">
-			<div class="media">
-        <div class="media">
-            <a class="pull-left" href="{{ poster.url }}">
-            <img width=100 class="media-object" src="{{ image }}">
-            </a>
-            <div class="media-body">
-                <div class="smallhead media-heading">
-                    <a href="{{ poster.url }}" class="off">{{ poster.title }}</a>
-                </div>
-                <p class="note">{{ poster.shortref }}</p>
-            </div>
-        </div>
-			</div>
-		</div>
-		<div class="smallspacer"></div>
-	{% endtablerow %}
-</table>
+	{% endfor %}
 
-<div class="bigspacer"></div>
+	<table align="center"; width=1250px>
+		{% tablerow product in year_products cols:2 %}
+			{% if product.image %}
+				{% assign image = product.image %}
+			{% else %}
+				{% assign image = "/assets/images/placeholder.png" %}
+			{% endif %}
+      
+			<div class="col-md-2.5 paperbox">
+				<div class="media"  style="width:525px">
+	        <div class="media">
+	            <a class="pull-left" href="{{ product.url }}">
+	            <img width=100 class="media-object" src="{{ image }}">
+	            </a>
+	            <div class="media-body">
+	                <div class="smallhead media-heading">
+	                    <a href="{{ product.url }}" class="off">{{ product.title }}</a>
+	                </div>
+	                <p class="note">{{ product.shortref }}</p>
+	            </div>
+	        </div>
+				</div>
+			</div>
+			<div class="smallspacer"></div>
+		{% endtablerow %}
+	</table>
+
+	<div class="bigspacer"></div>
+
+	{% if year != years[-1] %}
+		<hr/>
+	{% endif %}
+{% endfor %}

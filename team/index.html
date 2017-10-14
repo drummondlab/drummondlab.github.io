@@ -47,7 +47,7 @@ undergrads:
       {% assign image = "/assets/images/placeholder-user.png" %}
     {% endif %}
 		<div class="col-md-1.25 memberbox">
-			<div class="media">
+			<div class="media" style="width:500px">
 					<a class="pull-left" href="{{ member.url }}">
 						<img class="media-object member-photo" src="{{ image }}">
 					</a>
@@ -82,7 +82,7 @@ Undergraduate research assistants (in alphabetical order): {{ page.undergrads | 
 <table align="center"; width=1000px>
 	{% tablerow member in alumni cols:3 %}
 		<div class="col-md-1.5 memberbox">
-			<div class="media">
+			<div class="media" style="width:333px">
 					<a class="pull-left" href="{{ member.url }}">
 						<img class="media-object member-photo" src="{{ member.image }}">
 					</a>

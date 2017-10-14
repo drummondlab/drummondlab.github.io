@@ -176,8 +176,13 @@
 			{% endfor %}
 
 			{% for poster in site.categories.posters %}
+			<!-- Disabling first-author check for now
 				{% assign split_authors = poster.authors | split: ", " %}
 				{% if split_authors[0] contains lastname %}
+					{% assign postersq = true %}
+				{% endif %}
+			-->
+				{% if poster.authors contains lastname %}
 					{% assign postersq = true %}
 				{% endif %}
 			{% endfor %}
@@ -226,12 +231,13 @@
 			{% endif %}
 
 			<!-- Only show presentations on first author's page -->
+			<!-- Disabling for now -->
 			{% if presentationsq == true %}
 				<div class="bigspacer"></div>
 				<div class="head">Presentations</div>
 				<div class="spacer"></div>
 				{% for pres in site.categories.presentations %}
-					{% assign split_authors = pres.authors | split: ", " %}
+				  {% assign split_authors = pres.authors | split: ", " %}
 					{% if split_authors[0] contains lastname %}
 					  <div class="pad-left note"><p>
 						<a href="{{ pres.url }}" class="off">{{ pres.title }}</a>
@@ -246,8 +252,7 @@
 				<div class="head">Posters</div>
 				<div class="spacer"></div>
 				{% for poster in site.categories.posters %}
-					{% assign split_authors = poster.authors | split: ", " %}
-					{% if split_authors[0] contains lastname %}
+					{% if poster.authors contains lastname %}
 					  <div class="pad-left note"><p>
 						<a href="{{ poster.url }}" class="off">{{ poster.title }}</a>
 						</p></div>
