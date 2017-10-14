@@ -20,4 +20,4 @@ tags: []
 ---
 {% include JB/setup %}
 
-Taylor and Amanda Renfro gave a talk at the Miami BrainHack Global event about open science tools for neuroimagers.
+Taylor and [Amanda Renfro](https://github.com/neuroumbrage) gave a talk at the Miami BrainHack Global event about open science tools for neuroimagers.
