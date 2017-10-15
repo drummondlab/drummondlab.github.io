@@ -3,7 +3,7 @@ layout: member
 title: Karina Falcone
 position: Research Assistant
 handle: kfalcone
-science_name: Falcone K
+science_name: Falcone KE
 researchgate: Karina_Falcone
 image: /assets/images/team/karina-falcone.jpg
 alumni: true

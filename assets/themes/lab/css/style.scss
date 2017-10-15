@@ -38,6 +38,13 @@ h6, .h6 { font-size: ceil($font-size-base * 0.85); }  /* ~12px */
   padding-right: 25px;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -45px;
+    visibility: hidden;
+}
+
 .pad-left {
   padding-left: 10px;
 }
