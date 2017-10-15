@@ -9,6 +9,7 @@ science_name: Bartley JE
 email: jbart047@fiu.edu
 twitter: jessicabartley
 github: jessicabartley
+osf: 8uh7g
 image: /assets/images/team/jessica-bartley.jpg
 ---
 

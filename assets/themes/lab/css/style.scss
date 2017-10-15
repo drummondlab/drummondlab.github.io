@@ -38,11 +38,59 @@ h6, .h6 { font-size: ceil($font-size-base * 0.85); }  /* ~12px */
   padding-right: 25px;
 }
 
+/* some hyperlink stuff */
 a.anchor {
     display: block;
     position: relative;
     top: -45px;
     visibility: hidden;
+}
+
+a.social {
+	color: #666;
+	-webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+/* hover colors from darjeeling limited palettes:
+https://github.com/karthik/wesanderson/blob/master/R/colors.R
+*/
+
+a.site:hover {
+	color:#FF0000;
+}
+
+a.cv:hover {
+	color:#00A08A;
+}
+
+a.github:hover {
+  color: #F2AD00;
+}
+
+a.scholar:hover {
+  color: #F98400;
+}
+
+a.twitter:hover {
+  color: #5BBCD6;
+}
+
+a.orcid:hover {
+	color: #ECCBAE;
+}
+
+a.osf:hover {
+	color: #046C9A;
+}
+
+a.researchgate:hover {
+  color: #D69C4E;
+}
+
+a.publons:hover {
+  color: #ABDDDE;
 }
 
 .pad-left {

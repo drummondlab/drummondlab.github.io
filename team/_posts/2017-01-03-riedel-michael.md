@@ -8,6 +8,7 @@ nickname: Cody
 science_name: Riedel MC
 email: miriedel@fiu.edu
 github: mriedel56
+osf: jx85k
 image: /assets/images/team/michael-riedel.jpg
 ---
 

@@ -9,6 +9,7 @@ science_name: Flannery JS
 email: jflan008@fiu.edu
 twitter: JessFlannery2
 github: Flanneryg3
+osf: fq7db
 image: /assets/images/team/jessica-flannery.jpg
 ---
 

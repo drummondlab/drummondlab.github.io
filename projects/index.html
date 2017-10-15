@@ -10,33 +10,35 @@ navorder: 1
 <div class="bigspacer"></div>
 <div class="bigtitle text-center">Our Projects</div>
 <div class="bigspacer"></div>
+<hr/>
 
-{% for project in site.categories.projects %}
-  {% if project.image %}
-    {% assign image = project.image %}
-  {% else %}
-    {% assign image = "/assets/images/placeholder.png" %}
-  {% endif %}
-  <div class='row'>
-    <div class='row'>
-      <div class="media">
+<table align="center"; width=1250px>
+  {% tablerow product in site.categories.projects cols:2 %}
+    {% if product.image %}
+      {% assign image = product.image %}
+    {% else %}
+      {% assign image = "/assets/images/placeholder.png" %}
+    {% endif %}
+
+    <div class="col-md-2.5 paperbox" style="min-width: 575px">
+      <div class="media" style="width:525px; height:150px">
         <div class="media">
-            <a class="pull-left" href="{{ project.url }}">
-            <img width=100 class="media-object" src="{{ image }}">
+            <a class="pull-left" href="{{ product.url }}">
+            <img width=100 class="media-object" src="{{ image }}" style="border:1px solid #021a40;">
             </a>
             <div class="media-body">
                 <div class="smallhead media-heading">
-                    <a href="{{ project.url }}" class="off">{{ project.title }}</a>
+                    <a href="{{ product.url }}" class="off">{{ product.title }}</a>
                 </div>
-            </div>
-            <div class="media-body">
-              {{ project.tagline }}
+                <div class="media-body">
+                  {{ product.tagline }}
+                </div>
             </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="bigspacer"></div>
-{% endfor %}
+    <div class="smallspacer"></div>
+  {% endtablerow %}
+</table>
 
 <div class="bigspacer"></div>

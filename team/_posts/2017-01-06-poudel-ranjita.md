@@ -9,6 +9,7 @@ science_name: Poudel R
 email: rpoud001@fiu.edu
 twitter: ranzita1
 github: rpoudel1
+osf: v9uf3
 image: /assets/images/team/ranjita-poudel.jpg
 ---
 

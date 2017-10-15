@@ -3,7 +3,7 @@ layout: news
 title: Dr. Sutherland top scholar
 author: kbottenhorn
 category: news
-tags: [award]
+tags: [awards]
 
 excerpt: Dr. Matthew Sutherland has been named an FIU Top Scholar!
 ---

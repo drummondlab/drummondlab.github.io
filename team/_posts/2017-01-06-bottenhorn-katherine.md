@@ -9,6 +9,7 @@ science_name: Bottenhorn KL
 email: kbott006@fiu.edu
 twitter: 62442katieb
 github: 62442katieb
+osf: fq7db
 image: /assets/images/team/katherine-bottenhorn.jpg
 ---
 

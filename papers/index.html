@@ -37,10 +37,10 @@ navorder: 3
 			{% endif %}
 
 			<div class="col-md-2.5 paperbox">
-				<div class="media" style="width:525px; height:125px">
+				<div class="media" style="width:525px; height:140px">
 	        {% if product.embargo %}
 	            <div class="media">
-	                <img width=100 class="media-object pull-right" src="{{ image }}"/>
+	                <img width=100 class="media-object pull-right" src="{{ image }}" style="border:1px solid #021a40;">
 	                <div class="media-body">
 	                    <div class="smallhead media-heading">
 	                        {{ product.title }}
@@ -51,7 +51,7 @@ navorder: 3
 	        {% else %}
 	            <div class="media">
 	                <a class="pull-left" href="{{ product.url }}">
-	                <img width=100 class="media-object" src="{{ image }}">
+	                <img width=100 class="media-object" src="{{ image }}" style="border:1px solid #021a40;">
 	                </a>
 	                <div class="media-body">
 	                    <div class="smallhead media-heading">
