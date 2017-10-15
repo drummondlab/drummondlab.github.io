@@ -221,6 +221,8 @@
 		              <a href="{{ paper.url }}" class="off">[PREPRINT] {{ paper.title }}</a>
 		            {% elsif paper.tags contains "chapter" %}
 		              <a href="{{ paper.url }}" class="off">[CHAPTER] {{ paper.title }}</a>
+								{% elsif paper.tags contains "correspondence" %}
+			              <a href="{{ paper.url }}" class="off">[CORRESPONDENCE] {{ paper.title }}</a>
 		            {% else %}
 		              <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
 		            {% endif %}

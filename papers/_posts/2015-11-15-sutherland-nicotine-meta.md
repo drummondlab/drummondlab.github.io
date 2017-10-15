@@ -9,7 +9,7 @@ volume:
 issue:
 pages:
 authors: "Sutherland MT, Ray KL, Riedel MC, Yanes JA, Stein EA, Laird AR"
-image:
+image: /assets/images/papers/2015-11-15-sutherland-nicotine-meta.png
 redirect_from:
 fulltext: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4494985/
 pdf:

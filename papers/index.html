@@ -59,6 +59,8 @@ navorder: 3
 	                            <a href="{{ product.url }}" class="off">[PREPRINT] {{ product.title }}</a>
 	                        {% elsif product.tags contains "chapter" %}
 	                            <a href="{{ product.url }}" class="off">[CHAPTER] {{ product.title }}</a>
+                          {% elsif product.tags contains "correspondence" %}
+                              <a href="{{ product.url }}" class="off">[CORRESPONDENCE] {{ product.title }}</a>
 	                        {% else %}
 	                            <a href="{{ product.url }}" class="off">{{ product.title }}</a>
 	                        {% endif %}

@@ -142,11 +142,13 @@ with gratitude.
 		<div class="media-body titlebox">
 			<div class="title media-heading">
 				{% if page.tags contains "preprint" %}
-				[PREPRINT] {{ page.title }}
+				  [PREPRINT] {{ page.title }}
 				{% elsif page.tags contains "chapter" %}
-				[CHAPTER] {{ page.title }}
+				  [CHAPTER] {{ page.title }}
+				{% elsif page.tags contains "correspondence" %}
+					[CORRESPONDENCE] {{ page.title }}
 				{% else %}
-				{{ page.title }}
+				  {{ page.title }}
 				{% endif %}
 			</div>
 			<p>
