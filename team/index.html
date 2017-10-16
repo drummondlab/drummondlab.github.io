@@ -22,12 +22,13 @@ navorder: 2
 	  				</div>
 				</div>
 	        </div>
-	    {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
+            <div class="bigspacer"></div>
+            <div class="bigspacer"></div>
+            </div>
+        {% cycle 'close rows': nil, nil, '</div>' %}
 	{% endif %}
 {% endfor %}
-{% comment %}
-{% cycle 'close rows': nil, '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
-{% endcomment %}
+{% cycle 'close rows': nil, '</div>', '</div>' %}
 
 <!-- comment out this next line if there are multiples of three members -->
 </div>
