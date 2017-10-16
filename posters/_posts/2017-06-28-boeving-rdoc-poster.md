@@ -6,9 +6,9 @@ shortref: "Boeving <i>et al. OHBM</i> 2017"
 nickname: 2017-06-28-boeving-rdoc-poster
 conference: "HBM"
 authors: "Boeving ER, Toma A, Riedel MC, Bartley JE, Bottenhorn KL, Bzdok D, Eickhoff SB, Sutherland MT, Glahn D, Laird AR"
-image:
+image: /assets/images/posters/2017-06-28-boeving-rdoc-poster.png
 redirect_from:
-pdf:
+pdf: /assets/pdfs/posters/2017-06-28-boeving-rdoc-poster.pdf
 fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=3733
 github:
 f1000:
