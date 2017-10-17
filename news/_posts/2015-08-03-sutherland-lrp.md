@@ -3,7 +3,7 @@ layout: news
 title: Dr. Sutherland receives award!
 author: kbottenhorn
 category: news
-tags: [award]
+tags: [awards]
 
 excerpt: Dr. Matthew Sutherland receives NIH LRP award!
 ---

@@ -3,10 +3,10 @@ layout: poster
 title: "Behavioral decoding of functionally related brain areas consistently linked to drug cue reactivity"
 year: "2017"
 shortref: "Poudel <i>et al. OHBM</i> 2017"
-nickname: poudel-cue-reactivity-poster
+nickname: 2017-06-26-poudel-cue-reactivity-poster
 conference: "HBM"
 authors: "Poudel R, Riedel MC, Hill LD, Flannery JS, Salo T, Laird AR, Sutherland MT"
-image: https://files.aievolution.com/hbm1701/abstracts/37102/1098_Poudel.pdf
+image: /assets/images/posters/2017-06-26-poudel-cue-reactivity-poster.png
 redirect_from:
 pdf: https://files.aievolution.com/hbm1701/abstracts/37102/1098_Poudel.pdf
 fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=2944

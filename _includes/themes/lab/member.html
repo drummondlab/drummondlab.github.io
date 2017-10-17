@@ -12,7 +12,7 @@
 <div class="row">
 	<div class="col-md-3">
 		<div class="media">
-			<img class="pull-left pad-right big-member-photo" src="{{ image }}">
+			<img class="pull-left pad-right big-member-photo" src="{{ image }}" style="width:250px; height:auto; padding:1px; border:1px solid #021a40;">
 		</div>
 		<div class="bigspacer"></div>
 
@@ -36,7 +36,9 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-user fa-fw"></i>
-				<a class="off" href="{{ member.site }}">{{ member.site | remove: 'http://' | remove: 'https://' }}</a>
+				<a class="social site" href="{{ member.site }}">
+					{{ member.site | remove: 'http://' | remove: 'https://' }}
+				</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
@@ -48,7 +50,9 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-file-text-o fa-fw"></i>
-				<a class="off" href="{{ member.cv }}">{{ member.cv | split: '/' | last }}</a>
+				<a class="social cv" href="{{ member.cv }}">
+					{{ member.cv | split: '/' | last }}
+				</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
@@ -60,7 +64,9 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-github-alt fa-fw"></i>
-				<a class="off" href="https://github.com/{{ member.github }}">{{ member.github }}</a>
+				<a class="social github" href="https://github.com/{{ member.github }}">
+					{{ member.github }}
+				</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
@@ -72,7 +78,9 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-twitter fa-fw"></i>
-				<a class="off" href="https://twitter.com/{{ member.twitter }}">{{ member.twitter }}</a>
+				<a class="social twitter" href="https://twitter.com/{{ member.twitter }}">
+					{{ member.twitter }}
+				</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
@@ -84,7 +92,9 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="ai ai-google-scholar"></i>
-				<a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }}">{{ member.title }}</a>
+				<a class="social scholar" href="http://scholar.google.com/citations?user={{ member.scholar }}">
+					{{ member.title }}
+				</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
@@ -96,7 +106,9 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="ai ai-osf"></i>
-				<a class="off" href="http://osf.io/{{ member.osf }}">{{ member.title }}</a>
+				<a class="social osf" href="http://osf.io/{{ member.osf }}">
+					{{ member.title }}
+				</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
@@ -107,8 +119,10 @@
 			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				<i class="ai ai-researchgate"></i>
-				<a class="off" href="https://www.researchgate.net/profile/{{ member.researchgate }}">{{ member.researchgate }}</a>
+					<i class="ai ai-researchgate"></i>
+					<a class="social researchgate" href="https://www.researchgate.net/profile/{{ member.researchgate }}">
+						{{ member.researchgate }}
+					</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
@@ -120,7 +134,9 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="ai ai-orcid"></i>
-				<a class="off" href="http://orcid.org/{{ member.orcid }}">{{ member.orcid }}</a>
+				<a class="social orcid" href="http://orcid.org/{{ member.orcid }}">
+					{{ member.orcid }}
+				</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
@@ -132,7 +148,9 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="ai ai-publons"></i>
-				<a class="off" href="https://publons.com/author/{{ member.publons }}">{{ member.title }}</a>
+				<a class="social publons" href="https://publons.com/author/{{ member.publons }}">
+					{{ member.title }}
+				</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
@@ -176,8 +194,13 @@
 			{% endfor %}
 
 			{% for poster in site.categories.posters %}
+			<!-- Disabling first-author check for now
 				{% assign split_authors = poster.authors | split: ", " %}
 				{% if split_authors[0] contains lastname %}
+					{% assign postersq = true %}
+				{% endif %}
+			-->
+				{% if poster.authors contains lastname %}
 					{% assign postersq = true %}
 				{% endif %}
 			{% endfor %}
@@ -216,6 +239,8 @@
 		              <a href="{{ paper.url }}" class="off">[PREPRINT] {{ paper.title }}</a>
 		            {% elsif paper.tags contains "chapter" %}
 		              <a href="{{ paper.url }}" class="off">[CHAPTER] {{ paper.title }}</a>
+								{% elsif paper.tags contains "correspondence" %}
+			              <a href="{{ paper.url }}" class="off">[CORRESPONDENCE] {{ paper.title }}</a>
 		            {% else %}
 		              <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
 		            {% endif %}
@@ -226,12 +251,13 @@
 			{% endif %}
 
 			<!-- Only show presentations on first author's page -->
+			<!-- Disabling for now -->
 			{% if presentationsq == true %}
 				<div class="bigspacer"></div>
 				<div class="head">Presentations</div>
 				<div class="spacer"></div>
 				{% for pres in site.categories.presentations %}
-					{% assign split_authors = pres.authors | split: ", " %}
+				  {% assign split_authors = pres.authors | split: ", " %}
 					{% if split_authors[0] contains lastname %}
 					  <div class="pad-left note"><p>
 						<a href="{{ pres.url }}" class="off">{{ pres.title }}</a>
@@ -246,8 +272,7 @@
 				<div class="head">Posters</div>
 				<div class="spacer"></div>
 				{% for poster in site.categories.posters %}
-					{% assign split_authors = poster.authors | split: ", " %}
-					{% if split_authors[0] contains lastname %}
+					{% if poster.authors contains lastname %}
 					  <div class="pad-left note"><p>
 						<a href="{{ poster.url }}" class="off">{{ poster.title }}</a>
 						</p></div>

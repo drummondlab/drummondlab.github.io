@@ -3,13 +3,13 @@ layout: paper
 title: "Neuroimaging Insights Into the Multifaceted Nature of the Nicotine Withdrawal Syndrome"
 year: "2016"
 shortref: "Sutherland <i>et al.</i> 2016"
-nickname: sutherland-nicotine-chapter
+nickname: 2016-09-01-sutherland-nicotine-chapter
 journal: "Negative Affective States and Cognitive Impairments in Nicotine Dependence"
 volume:
 issue:
 pages:
 authors: "Sutherland MT, Yanes JA, Stein EA"
-image:
+image: /assets/images/papers/2016-09-01-sutherland-nicotine-chapter.png
 redirect_from:
 fulltext: https://www.elsevier.com/books/negative-affective-states-and-cognitive-impairments-in-nicotine-dependence/hall/978-0-12-802574-1
 pdf:

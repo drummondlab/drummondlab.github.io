@@ -85,15 +85,12 @@ categories:
 					</a>
 				</div>
 				<div class="note">
-					{{ news.excerpt }}
+					{{ news.excerpt | markdownify }}
 				</div>
 				<div class="smallspacer"></div>
 				<div class="smallnote">
 					Posted
 					{{ news.date | date_to_string }}
-					{% if author %}
-					by <a class="off" href="{{ author.url }}">{{ author.nickname }}</a>
-					{% endif %}
 				</div>
 				<div class="spacer"></div>
 				<div class="spacer"></div>
@@ -137,6 +134,8 @@ categories:
               <a href="{{ paper.url }}" class="off">[PREPRINT] {{ paper.title }}</a>
           {% elsif paper.tags contains "chapter" %}
               <a href="{{ paper.url }}" class="off">[CHAPTER] {{ paper.title }}</a>
+          {% elsif paper.tags contains "correspondence" %}
+              <a href="{{ paper.url }}" class="off">[CORRESPONDENCE] {{ paper.title }}</a>
           {% else %}
               <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
           {% endif %}
