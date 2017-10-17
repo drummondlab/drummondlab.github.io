@@ -8,29 +8,28 @@ navorder: 2
 {% include JB/setup %}
 
 <div class="bigspacer"></div>
-{% for member in site.categories.team reversed %}
-	{% if member.alum == false %}
-	    {% cycle 'add rows': '<div class="row">', nil, nil %}
-			<div class="col-md-4 memberbox">
-				<div class="media">
-	  				<a class="pull-left" href="{{ member.url }}">
-	    				<img class="media-object member-photo" src="{{ member.image }}">
-	  				</a>
-	 			 	<div class="media-body">
-	    				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-	    				<p class="note">{{ member.position }}</p>
-	  				</div>
-				</div>
-	        </div>	  
-	    {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
-	{% endif %}
+{% assign current_team = site.categories.team | where: "alum","false"%}
+{% for member in current_team reversed %}
+    {% cycle 'add rows': '<div class="row">', nil, nil %}
+		<div class="col-md-4 memberbox">
+			<div class="media">
+  				<a class="pull-left" href="{{ member.url }}">
+    				<img class="media-object member-photo" src="{{ member.image }}">
+  				</a>
+ 			 	<div class="media-body">
+    				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+    				<p class="note">{{ member.position }}</p>
+  				</div>
+			</div>
+        </div>	  
+    {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
 {% endfor %}
 {% comment %}
 {% cycle 'close rows': nil, '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
 {% endcomment %}
 
 <!-- comment out this next line if there are multiples of three members -->
-<!-- </div> -->
+</div>
 
 <div class="bigspacer"></div>
 <hr/>
@@ -46,8 +45,8 @@ navorder: 2
 <div class="bigtitle text-center">Alumni</div>
 <div class="bigspacer"></div>
 
-{% for member in site.categories.team %}
-	{% if member.alum == true %}
+{% assign alumni = site.categories.team | where: "alum","true"%}
+{% for member in alumni %}
 	    {% cycle 'add alum rows': '<div class="row">', nil, nil %}
 			<div class="col-md-4 memberbox">
 				<div class="media">
@@ -61,7 +60,6 @@ navorder: 2
 				</div>
 	        </div>	  
 	    {% cycle 'close alum rows': nil, nil, '</div><div class="bigspacer"></div>' %}
-	{% endif %}
 {% endfor %}
 {% comment %}
 {% cycle 'close alum rows': nil, '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
