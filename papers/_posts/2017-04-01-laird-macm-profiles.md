@@ -3,13 +3,13 @@ layout: paper
 title: "Heterogeneous fractionation profiles of meta-analytic coactivation networks."
 year: "2017"
 shortref: "Laird <i>et al. Neuroimage</i> 2017"
-nickname: laird-macm-profiles
+nickname: 2017-04-01-laird-macm-profiles
 journal: "Neuroimage"
 volume:
 issue:
 pages:
 authors: "Laird AR, Riedel MC, Okoe M, Jianu R, Ray KL, Eickhoff SB, Smith SM, Fox PT, Sutherland MT"
-image:
+image: /assets/images/papers/2017-04-01-laird-macm-profiles.png
 redirect_from:
 fulltext: http://www.sciencedirect.com/science/article/pii/S1053811916307595?via%3Dihub
 pdf:

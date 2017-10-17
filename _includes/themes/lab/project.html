@@ -14,7 +14,7 @@
 <div class="row">
 	<div class="col-md-3">
     <div class="media">
-      <img class="pull-left pad-right media-object paper-image" src="{{ image }}">
+      <img class="pull-left pad-right media-object paper-image" src="{{ image }}" style="border:1px solid #021a40;">
     </div>
     <div class="bigspacer"></div>
     {% if page.grant %}
@@ -110,7 +110,7 @@
         {% endif %}
       {% endfor %}
     {% endif %}
-		
+
 		<!-- comment out unless we want the categories and tags
     {% unless page.categories == empty %}
     <ul class="tag_box inline">

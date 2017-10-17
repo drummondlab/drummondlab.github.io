@@ -37,7 +37,8 @@ undergrads:
 
 <div class="bigspacer"></div>
 <div class="bigtitle text-center">The Team</div>
-<div class="bigspacer"></div>
+<div class="smallspacer"></div>
+<hr/>
 
 <table align="center"; width=1000px>
 	{% tablerow member in current cols:2 %}
@@ -47,14 +48,69 @@ undergrads:
       {% assign image = "/assets/images/placeholder-user.png" %}
     {% endif %}
 		<div class="col-md-1.25 memberbox">
-			<div class="media">
+			<div class="media" style="width:500px; height:250px">
 					<a class="pull-left" href="{{ member.url }}">
-						<img class="media-object member-photo" src="{{ image }}">
+						<img class="media-object member-photo" src="{{ image }}" style="width:125px; height:auto; border:1px solid #021a40;">
 					</a>
 				<div class="media-body">
 						<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
 						<p class="note">{{ member.position }}</p>
 						<p class="note">{{ member.department }}</p>
+            <p>
+              {% if member.site %}
+          			<a class="social site" href="{{ member.site }}">
+                  <i class="fa fa-user fa-lg"></i>
+                </a>
+          		{% endif %}
+
+          		{% if member.cv %}
+          			<a class="social cv" href="{{ member.cv }}">
+                  <i class="fa fa-file-text-o fa-lg"></i>
+                </a>
+          		{% endif %}
+
+          		{% if member.github %}
+          			<a class="social github" href="https://github.com/{{ member.github }}">
+                  <i class="fa fa-github-square fa-lg"></i>
+                </a>
+          		{% endif %}
+
+          		{% if member.twitter %}
+          			<a class="social twitter" href="https://twitter.com/{{ member.twitter }}">
+                  <i class="fa fa-twitter-square fa-lg"></i>
+                </a>
+          		{% endif %}
+
+          		{% if member.scholar %}
+        				<a class="social scholar" href="http://scholar.google.com/citations?user={{ member.scholar }}">
+                  <i class="ai ai-google-scholar-square ai-lg"></i>
+                </a>
+          		{% endif %}
+
+          		{% if member.osf %}
+          			<a class="social osf" href="http://osf.io/{{ member.osf }}">
+          				<i class="ai ai-osf-square ai-lg"></i>
+                </a>
+          		{% endif %}
+
+          		{% if member.researchgate %}
+                <a class="social researchgate" href="https://www.researchgate.net/profile/{{ member.researchgate }}">
+          				<i class="ai ai-researchgate-square ai-lg"></i>
+          			</a>
+          		{% endif %}
+
+          		{% if member.orcid %}
+          			<a class="social orcid" href="http://orcid.org/{{ member.orcid }}">
+          				<i class="ai ai-orcid-square ai-lg"></i>
+          			</a>
+          		{% endif %}
+
+          		{% if member.publons %}
+          			<a class="social publons" href="https://publons.com/author/{{ member.publons }}">
+          				<i class="ai ai-publons-square ai-lg"></i>
+          			</a>
+          		{% endif %}
+            </p>
 					</div>
 			</div>
 		</div>
@@ -82,14 +138,69 @@ Undergraduate research assistants (in alphabetical order): {{ page.undergrads | 
 <table align="center"; width=1000px>
 	{% tablerow member in alumni cols:3 %}
 		<div class="col-md-1.5 memberbox">
-			<div class="media">
+			<div class="media" style="width:333px">
 					<a class="pull-left" href="{{ member.url }}">
-						<img class="media-object member-photo" src="{{ member.image }}">
+						<img class="media-object member-photo" src="{{ member.image }}" style="width:100px; height:auto; border:1px solid #021a40;">
 					</a>
 				<div class="media-body">
 						<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
 						<p class="note">{{ member.position }}</p>
 						<p class="note">{{ member.department }}</p>
+            <p>
+              {% if member.site %}
+          			<a class="social site" href="{{ member.site }}">
+                  <i class="fa fa-user fa-lg"></i>
+                </a>
+          		{% endif %}
+
+          		{% if member.cv %}
+          			<a class="social cv" href="{{ member.cv }}">
+                  <i class="fa fa-file-text-o fa-lg"></i>
+                </a>
+          		{% endif %}
+
+          		{% if member.github %}
+          			<a class="social github" href="https://github.com/{{ member.github }}">
+                  <i class="fa fa-github-square fa-lg"></i>
+                </a>
+          		{% endif %}
+
+          		{% if member.twitter %}
+          			<a class="social twitter" href="https://twitter.com/{{ member.twitter }}">
+                  <i class="fa fa-twitter-square fa-lg"></i>
+                </a>
+          		{% endif %}
+
+          		{% if member.scholar %}
+        				<a class="social scholar" href="http://scholar.google.com/citations?user={{ member.scholar }}">
+                  <i class="ai ai-google-scholar-square ai-lg"></i>
+                </a>
+          		{% endif %}
+
+          		{% if member.osf %}
+          			<a class="social osf" href="http://osf.io/{{ member.osf }}">
+          				<i class="ai ai-osf-square ai-lg"></i>
+                </a>
+          		{% endif %}
+
+          		{% if member.researchgate %}
+                <a class="social researchgate" href="https://www.researchgate.net/profile/{{ member.researchgate }}">
+          				<i class="ai ai-researchgate-square ai-lg"></i>
+          			</a>
+          		{% endif %}
+
+          		{% if member.orcid %}
+          			<a class="social orcid" href="http://orcid.org/{{ member.orcid }}">
+          				<i class="ai ai-orcid-square ai-lg"></i>
+          			</a>
+          		{% endif %}
+
+          		{% if member.publons %}
+          			<a class="social publons" href="https://publons.com/author/{{ member.publons }}">
+          				<i class="ai ai-publons-square ai-lg"></i>
+          			</a>
+          		{% endif %}
+            </p>
 					</div>
 			</div>
 		</div>

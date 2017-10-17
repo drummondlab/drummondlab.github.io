@@ -7,7 +7,7 @@ contributors: [alaird, jbartley, eboeving, agonzalez, jforeman, calvarez]
 grant: NSF-1420627
 grant_url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1420627
 category: projects
-tags: [fMRI]
+tags: [fmri]
 tagline: How does learning physics affect brains?
 ---
 {% include JB/setup %}
