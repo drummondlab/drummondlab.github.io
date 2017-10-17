@@ -9,27 +9,31 @@ navorder: 2
 
 <div class="bigspacer"></div>
 {% assign current_team = site.categories.team | where: "alum","false"%}
+{% assign memberindex = 0 %}
 {% for member in current_team reversed %}
-    {% cycle 'add rows': '<div class="row">', nil, nil %}
-		<div class="col-md-4 memberbox">
-			<div class="media">
-  				<a class="pull-left" href="{{ member.url }}">
-    				<img class="media-object member-photo" src="{{ member.image }}">
-  				</a>
- 			 	<div class="media-body">
-    				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-    				<p class="note">{{ member.position }}</p>
-  				</div>
-			</div>
-        </div>	  
-    {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
+	{% assign memberindex = memberindex | plus: 1 %}
+	{% assign colindex = memberindex | modulo: 3 %}
+	{% if colindex == 1 %} <!-- opening of a new row -->
+	<div class="row">
+	{% endif %}
+	<div class="col-md-4 memberbox">
+		<div class="media">
+				<a class="pull-left" href="{{ member.url }}">
+				<img class="media-object member-photo" src="{{ member.image }}">
+				</a>
+			 	<div class="media-body">
+				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+				<p class="note">{{ member.position }}</p>
+				</div>
+		</div>
+    </div>	  
+	{% if colindex == 0 %} <!-- closing a row -->
+	</div><div class="bigspacer"></div>
+	{% endif %}
 {% endfor %}
-{% comment %}
-{% cycle 'close rows': nil, '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
-{% endcomment %}
-
-<!-- comment out this next line if there are multiples of three members -->
-</div>
+{% if colindex != 0 %} <!-- close last open row -->
+</div><div class="bigspacer"></div>
+{% endif %}
 
 <div class="bigspacer"></div>
 <hr/>
@@ -46,27 +50,28 @@ navorder: 2
 <div class="bigspacer"></div>
 
 {% assign alumni = site.categories.team | where: "alum","true"%}
+{% assign memberindex = 0 %}
 {% for member in alumni %}
-	    {% cycle 'add alum rows': '<div class="row">', nil, nil %}
-			<div class="col-md-4 memberbox">
-				<div class="media">
-	  				<a class="pull-left" href="{{ member.url }}">
-	    				<img class="media-object member-photo" src="{{ member.image }}">
-	  				</a>
-	 			 	<div class="media-body">
-	    				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-	    				<p class="note">{{ member.position }}</p>
-	  				</div>
+	{% assign memberindex = memberindex | plus: 1 %}
+	{% assign colindex = memberindex | modulo: 3 %}
+	{% if colindex == 1 %} <!-- opening of a new row -->
+	<div class="row">
+	{% endif %}
+	<div class="col-md-4 memberbox">
+		<div class="media">
+				<a class="pull-left" href="{{ member.url }}">
+				<img class="media-object member-photo" src="{{ member.image }}">
+				</a>
+			 	<div class="media-body">
+				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+				<p class="note">{{ member.position }}</p>
 				</div>
-	        </div>	  
-	    {% cycle 'close alum rows': nil, nil, '</div><div class="bigspacer"></div>' %}
+		</div>
+    </div>	  
+	{% if colindex == 0 %} <!-- closing a row -->
+	</div><div class="bigspacer"></div>
+	{% endif %}
 {% endfor %}
-{% comment %}
-{% cycle 'close alum rows': nil, '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
-{% endcomment %}
-
-<!-- comment out this next line if there are multiples of three alumni -->
-</div>
-
-
-<div class="bigspacer"></div>
+{% if colindex != 0 %} <!-- close last open row -->
+</div><div class="bigspacer"></div>
+{% endif %}
