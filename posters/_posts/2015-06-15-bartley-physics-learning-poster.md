@@ -2,20 +2,19 @@
 layout: poster
 title: "Physics Learning Facilitates Enhanced Resting State Connectivity in Problem Solving Network"
 year: "2015"
-shortref: "Bartley <i>et al. OHBM</i> 2015"
 nickname: 2015-06-15-bartley-physics-learning-poster
 conference: "HBM"
 authors: "Bartley JB, Sutherland MT, Falcone KE, Nazareth A, Riedel MC, Laird RW, Marguglio D, MacNamara K, Pruden SM, Brewe E, Laird AR"
 image: /assets/images/posters/2015-06-15-bartley-physics-learning-poster.png
 redirect_from:
 pdf: https://osf.io/98gcq/
-fulltext: https://osf.io/tajkx/
+fulltext:
+osf: https://osf.io/tajkx/
 github:
 f1000:
 doi:
 dryad_doi:
 figshare_doi:
-altmetric_id:
 category: posters
 tags: []
 projects: [physics-learning]

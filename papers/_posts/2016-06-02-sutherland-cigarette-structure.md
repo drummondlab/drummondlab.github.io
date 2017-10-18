@@ -2,7 +2,6 @@
 layout: paper
 title: "Chronic cigarette smoking is linked with structural alterations in brain regions showing acute nicotinic drug-induced functional modulations."
 year: "2016"
-shortref: "Sutherland <i>et al. Behav Brain Funct.</i> 2016"
 nickname: sutherland-cigarette-structure
 journal: "Behavioral and brain functions"
 volume:
@@ -21,12 +20,8 @@ f1000:
 doi: "10.1186/s12993-016-0100-5"
 dryad_doi:
 figshare_doi:
-altmetric_id:
+is_published: true
 category: papers
-published: true
-embargo: false
-peerreview: false
-review: false
 projects: []
 tags: [meta-analysis]
 ---

@@ -2,7 +2,6 @@
 layout: poster
 title: "Functional and structural neurobiological consequences of mindfulness meditation"
 year: "2016"
-shortref: "Falcone <i>et al. OHBM</i> 2016"
 nickname: 2016-06-27-falcone-mindfulness-poster
 conference: "HBM"
 authors: "Falcone KE, Poudel R, Laird AR, Sutherland MT"
@@ -15,7 +14,6 @@ f1000:
 doi:
 dryad_doi:
 figshare_doi:
-altmetric_id:
 category: posters
 tags: []
 ---

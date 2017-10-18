@@ -2,7 +2,6 @@
 layout: poster
 title: "Meta-analytic clustering dissociates activation and behavior profiles across reward processing data"
 year: "2017"
-shortref: "Flannery <i>et al. OHBM</i> 2017"
 nickname: 2017-06-26-flannery-reward-processing-poster
 conference: "HBM"
 authors: "Flannery JS, Riedel MC, Poudel R, Salo T, Bottenhorn KL, Hill LD, Laird AR, Sutherland MT"
@@ -10,12 +9,12 @@ image: /assets/images/posters/2017-06-26-flannery-reward-processing-poster.png
 redirect_from:
 pdf: https://files.aievolution.com/hbm1701/abstracts/37911/1428_Flannery.pdf
 fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=2885
+osf:
 github:
 f1000:
 doi:
 dryad_doi:
 figshare_doi:
-altmetric_id:
 category: posters
 projects: []
 tags: []

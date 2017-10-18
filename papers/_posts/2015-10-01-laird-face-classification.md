@@ -2,7 +2,6 @@
 layout: paper
 title: "Neural architecture underlying classification of face perception paradigms."
 year: "2015"
-shortref: "Laird <i>et al. Neuroimage</i> 2015"
 nickname: 2015-10-01-laird-face-classification
 journal: "Neuroimage"
 volume:
@@ -21,12 +20,8 @@ f1000:
 doi: "10.1016/j.neuroimage.2015.06.044"
 dryad_doi:
 figshare_doi:
-altmetric_id:
+is_published: true
 category: papers
-published: true
-embargo: false
-peerreview: false
-review: false
 projects: []
 tags: [meta-analysis]
 ---

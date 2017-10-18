@@ -25,96 +25,99 @@ with gratitude.
     <div class="bigspacer"></div>
     <div class="glyphbox note"> <!-- DAD: what is this class? -->
       {% if page.pdf or page.fulltext or page.slides or page.video %}
-      <div class="smallhead subtle">
-        {{ type }}
-      </div>
-      <div class="pad-left note">
-        <div class="smallspacer"></div>
-        <!-- for posters -->
-        {% if page.pdf %}
-          <i class="fa fa-file-pdf-o fa-fw"></i>
-          <a class="off" href="{{ page.pdf }}">PDF</a>
-          <br/>
-        {% endif %}
+        <div class="smallhead subtle">
+          {{ type }}
+        </div>
+        <div class="pad-left note">
+          <div class="smallspacer"></div>
+          <!-- for posters -->
+          {% if page.pdf %}
+            <i class="fa fa-file-pdf-o fa-fw"></i>
+            <a class="off" href="{{ page.pdf }}">PDF</a>
+            <br/>
+          {% endif %}
 
-        {% if page.fulltext %}
-          <i class="fa fa-external-link fa-fw"></i>
-          <a class="off" href="{{ page.fulltext }}">Link</a>
-        {% endif %}
+          {% if page.fulltext %}
+            <i class="fa fa-external-link fa-fw"></i>
+            <a class="off" href="{{ page.fulltext }}">Link</a>
+          {% endif %}
 
-        <!-- for talks -->
-        {% if page.slides %}
-          <i class="fa fa-file-powerpoint-o"></i>
-          <a class="off" href="{{ page.slides }}">Slides</a>
-          <br/>
-        {% endif %}
+          <!-- for talks -->
+          {% if page.slides %}
+            <i class="fa fa-file-powerpoint-o"></i>
+            <a class="off" href="{{ page.slides }}">Slides</a>
+            <br/>
+          {% endif %}
 
-        {% if page.video %}
-          <i class="fa fa-file-video-o"></i>
-          <a class="off" href="{{ page.video }}">Video</a>
-          <br/>
-        {% endif %}
-      </div>
-      <div class="bigspacer"></div>
+          {% if page.video %}
+            <i class="fa fa-file-video-o"></i>
+            <a class="off" href="{{ page.video }}">Video</a>
+            <br/>
+          {% endif %}
+        </div>
+        <div class="bigspacer"></div>
       {% endif %}
 
       {% if page.doi %}
-      <div class="smallhead subtle">
-        DOI
-      </div>
-      <div class="pad-left note">
-        <div class="smallspacer"></div>
-        <i class="fa fa-external-link fa-fw"></i>
-        <a class="off" href="http://dx.doi.org/{{ page.doi }}">{{ page.doi }}</a>
-      </div>
-      <div class="bigspacer"></div>
+        <div class="smallhead subtle">
+          DOI
+        </div>
+        <div class="pad-left note">
+          <div class="smallspacer"></div>
+          <i class="fa fa-external-link fa-fw"></i>
+          <a class="off" href="http://dx.doi.org/{{ page.doi }}">{{ page.doi }}</a>
+        </div>
+        <div class="bigspacer"></div>
       {% endif %}
 
       {% if page.github %}
-      <div class="smallhead subtle">
-        Source code
-      </div>
-      <div class="pad-left note">
-        <div class="smallspacer"></div>
-        <i class="fa fa-cog fa-fw"></i>
-        <a class="off" href="{{ page.github }}">{{ page.github | remove: 'http://' | remove: 'https://' }}</a>
-      </div>
-      <div class="bigspacer"></div>
+        <div class="smallhead subtle">
+          Source Code
+        </div>
+        <div class="pad-left note">
+          <div class="smallspacer"></div>
+          <i class="fa fa-cog fa-fw"></i>
+          <a class="off" href="{{ page.github }}">{{ page.github | remove: 'http://' | remove: 'https://' }}</a>
+        </div>
+        <div class="bigspacer"></div>
       {% endif %}
 
-      {% if page.dryad_doi %}
-      <div class="smallhead subtle">
-        Data
-      </div>
-      <div class="pad-left note">
-        <div class="smallspacer"></div>
-        <i class="fa fa-database fa-fw"></i>
-        <a class="off" href="http://dx.doi.org/{{ page.dryad_doi }}">Dryad</a>
-      </div>
-      <div class="bigspacer"></div>
+      {% if page.osf %}
+        <div class="smallhead subtle">
+          Additional Resources
+        </div>
+        <div class="pad-left note">
+          <div class="smallspacer"></div>
+          <i class="fa fa-database fa-fw"></i>
+          <a class="off" href="{{ page.osf }}">Open Science Framework</a>
+        </div>
+        <div class="bigspacer"></div>
       {% endif %}
 
-      {% if page.figshare_doi %}
-      <div class="smallhead subtle">
-        Data
-      </div>
-      <div class="pad-left note">
-        <div class="smallspacer"></div>
-        <i class="fa fa-database fa-fw"></i>
-        <a class="off" href="http://doi.org/{{ page.figshare_doi }}">Figshare</a>
-      </div>
-      <div class="bigspacer"></div>
+      {% if page.openfmri %}
+        <div class="smallhead subtle">
+          OpenfMRI
+        </div>
+        <div class="pad-left note">
+          <div class="smallspacer"></div>
+          <i class="fa fa-database fa-fw"></i>
+          <a class="off" href="https://openfmri.org/dataset/{{ page.openfmri }}">{{ page.openfmri }}</a>
+        </div>
+        <div class="bigspacer"></div>
       {% endif %}
 
-      {% if page.altmetric_id %}
-      <div class="smallhead subtle">
-        Altmetrics
-      </div>
-      <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-      <div class="altmetric-embed" data-badge-popover="right" data-doi={{ page.doi }} data-badge-type="donut" data-altmetric-id={{ page.altmetric_id }} data-hide-no-mentions="true">
-      </div>
-      <div class="bigspacer"></div>
+      {% if page.neurovault %}
+        <div class="smallhead subtle">
+          Statistical Maps
+        </div>
+        <div class="pad-left note">
+          <div class="smallspacer"></div>
+          <i class="fa fa-database fa-fw"></i>
+          <a class="off" href="https://neurovault.org/collections/{{ page.neurovault }}">{{ page.neurovault }}</a>
+        </div>
+        <div class="bigspacer"></div>
       {% endif %}
+
       <div class="smallhead subtle">
         Share
       </div>

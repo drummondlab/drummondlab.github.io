@@ -2,20 +2,19 @@
 layout: poster
 title: "Functional Specificity of Rest and Task-Based Modules: A Graph Theoretical Analysis"
 year: "2015"
-shortref: "Ray <i>et al. OHBM</i> 2015"
 nickname: 2015-06-15-ray-functional-specificity-poster
 conference: "HBM"
 authors: "Ray KL, Riedel MC, Fox MP, Uecker A, Yanes J, Fox PT, Laird AR"
 image: /assets/images/posters/2015-06-15-ray-functional-specificity-poster.png
 redirect_from:
 pdf: https://osf.io/uc827/
-fulltext: https://osf.io/gq8wj/
+fulltext:
+osf: https://osf.io/gq8wj/
 github:
 f1000:
 doi:
 dryad_doi:
 figshare_doi:
-altmetric_id:
 category: posters
 tags: []
 ---

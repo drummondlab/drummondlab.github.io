@@ -2,7 +2,6 @@
 layout: paper
 title: "Meta-analytic connectivity and behavioral parcellation of the human cerebellum."
 year: "2015"
-shortref: "Riedel <i>et al. Neuroimage</i> 2015"
 nickname: 2015-08-15-riedel-cerebellum-parcellation
 journal: "Neuroimage"
 volume:
@@ -21,12 +20,8 @@ f1000:
 doi: "10.1016/j.neuroimage.2015.05.008"
 dryad_doi:
 figshare_doi:
-altmetric_id:
+is_published: true
 category: papers
-published: true
-embargo: false
-peerreview: false
-review: false
 projects: []
 tags: [meta-analysis]
 ---

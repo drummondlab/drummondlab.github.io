@@ -4,7 +4,6 @@ title: Congratulations to Ranjita Poudel!
 author: benshe3
 category: news
 tags: [paper]
-
 excerpt: Ranjita Poudel's [correspondence](/papers/poudel-correspondence) published in Psychiatry Research.
 ---
 

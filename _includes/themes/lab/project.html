@@ -17,6 +17,7 @@
       <img class="pull-left pad-right media-object paper-image" src="{{ image }}" style="border:1px solid #021a40;">
     </div>
     <div class="bigspacer"></div>
+
     {% if page.grant %}
       <div class="smallhead">
         Funding
@@ -26,6 +27,19 @@
       </div>
       <div class="bigspacer"></div>
     {% endif %}
+
+		{% if page.osf %}
+			<div class="smallhead subtle">
+				Additional Resources
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-database fa-fw"></i>
+				<a class="off" href="{{ page.osf }}">Open Science Framework</a>
+			</div>
+			<div class="bigspacer"></div>
+		{% endif %}
+
     <div class="smallhead">
       Contributors
     </div>
@@ -41,7 +55,8 @@
       {% endfor %}
     {% endfor %}
     <div class="bigspacer"></div>
-    </div>
+  </div>
+
   <div class="col-md-9">
     <div class="content">
       {{ content }}

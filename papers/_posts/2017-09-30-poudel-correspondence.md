@@ -2,7 +2,6 @@
 layout: paper
 title: "Gender differences in stress hormone response regulates effects of mindfulness in stress related disorder"
 year: "2017"
-shortref: "Poudel. <i>Psychiatry Research</i> 2017"
 nickname: 2017-09-30-poudel-correspondence
 journal: "Psychiatry Research"
 volume:
@@ -21,12 +20,8 @@ f1000:
 doi: "10.1016/j.psychres.2017.07.042"
 dryad_doi:
 figshare_doi:
-altmetric_id:
+is_published: true
 category: papers
-published: true
-embargo: false
-peerreview: false
-review: true
 projects: []
 tags: [correspondence]
 ---

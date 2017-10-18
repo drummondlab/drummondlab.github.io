@@ -2,7 +2,6 @@
 layout: paper
 title: "Neurobiological impact of nicotinic acetylcholine receptor agonists: an activation likelihood estimation meta-analysis of pharmacologic neuroimaging studies."
 year: "2015"
-shortref: "Sutherland <i>et al. Biol. Psychiatry</i> 2015"
 nickname: sutherland-nicotine-meta
 journal: "Biological psychiatry"
 volume:
@@ -21,12 +20,8 @@ f1000:
 doi: "10.1016/j.biopsych.2014.12.021"
 dryad_doi:
 figshare_doi:
-altmetric_id:
+is_published: true
 category: papers
-published: true
-embargo: false
-peerreview: false
-review: false
 projects: []
 tags: [meta-analysis]
 ---

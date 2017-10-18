@@ -2,7 +2,6 @@
 layout: paper
 title: "Heterogeneous fractionation profiles of meta-analytic coactivation networks."
 year: "2017"
-shortref: "Laird <i>et al. Neuroimage</i> 2017"
 nickname: 2017-04-01-laird-macm-profiles
 journal: "Neuroimage"
 volume:
@@ -21,12 +20,8 @@ f1000:
 doi: "10.1016/j.neuroimage.2016.12.037"
 dryad_doi:
 figshare_doi:
-altmetric_id:
+is_published: true
 category: papers
-published: true
-embargo: false
-peerreview: false
-review: false
 projects: []
 tags: [meta-analysis]
 ---

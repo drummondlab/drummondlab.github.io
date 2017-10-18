@@ -2,7 +2,6 @@
 layout: poster
 title: "Habenula activity following positive and negative feedback among abstinent cigarette smokers"
 year: "2016"
-shortref: "Flannery <i>et al. OHBM</i> 2016"
 nickname: 2016-06-27-flannery-habenula-poster
 conference: "HBM"
 authors: "Flannery JS, Sutherland MT, Riedel MC, Laird AR, Salmeron BJ, Ross TJ, Stein EA"
@@ -15,7 +14,6 @@ f1000:
 doi:
 dryad_doi:
 figshare_doi:
-altmetric_id:
 category: posters
 tags: []
 ---
