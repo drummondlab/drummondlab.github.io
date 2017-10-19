@@ -59,28 +59,53 @@ with gratitude.
       {% endif %}
 
       {% if page.doi %}
-        <div class="smallhead subtle">
-          DOI
-        </div>
-        <div class="pad-left note">
-          <div class="smallspacer"></div>
-          <i class="fa fa-external-link fa-fw"></i>
-          <a class="off" href="http://dx.doi.org/{{ page.doi }}">{{ page.doi }}</a>
-        </div>
-        <div class="bigspacer"></div>
-      {% endif %}
+				<div class="smallhead subtle">
+					DOI
+				</div>
+				<div class="pad-left note">
+					<div class="smallspacer"></div>
+					<i class="ai ai-doi ai-fw"></i>
+					<a class="off" href="http://dx.doi.org/{{ page.doi }}">{{ page.doi }}</a>
+				</div>
+				<div class="bigspacer"></div>
+			{% endif %}
 
-      {% if page.github %}
-        <div class="smallhead subtle">
-          Source Code
-        </div>
-        <div class="pad-left note">
-          <div class="smallspacer"></div>
-          <i class="fa fa-cog fa-fw"></i>
-          <a class="off" href="{{ page.github }}">{{ page.github | remove: 'http://' | remove: 'https://' }}</a>
-        </div>
-        <div class="bigspacer"></div>
-      {% endif %}
+			{% if page.github %}
+				<div class="smallhead subtle">
+					Source Code
+				</div>
+				<div class="pad-left note">
+					<div class="smallspacer"></div>
+					{% for repo in page.github %}
+						<i class="fa fa-github-alt fa-fw"></i>
+						<a class="off" href="{{ repo }}">{{ repo | remove: 'https://github.com/' }}</a>
+						<div class="smallspacer"></div>
+					{% endfor %}
+				</div>
+				<div class="bigspacer"></div>
+			{% endif %}
+
+			{% if page.openfmri or page.neurovault %}
+				<div class="smallhead subtle">
+					Data
+				</div>
+
+				<div class="pad-left note">
+					<div class="smallspacer"></div>
+					{% for dset in page.openfmri %}
+						<i class="fa fa-database fa-fw"></i>
+						<a class="off" href="https://openfmri.org/dataset/{{ dset }}">OpenfMRI: {{ dset }}</a>
+						<div class="smallspacer"></div>
+					{% endfor %}
+
+					{% for coll in page.neurovault %}
+						<i class="fa fa-database fa-fw"></i>
+						<a class="off" href="https://neurovault.org/collections/{{ coll }}">Neurovault: {{ coll }}</a>
+						<div class="smallspacer"></div>
+					{% endfor %}
+				</div>
+				<div class="bigspacer"></div>
+			{% endif %}
 
       {% if page.osf %}
         <div class="smallhead subtle">
@@ -88,32 +113,8 @@ with gratitude.
         </div>
         <div class="pad-left note">
           <div class="smallspacer"></div>
-          <i class="fa fa-database fa-fw"></i>
+          <i class="ai ai-osf ai-fw"></i>
           <a class="off" href="{{ page.osf }}">Open Science Framework</a>
-        </div>
-        <div class="bigspacer"></div>
-      {% endif %}
-
-      {% if page.openfmri %}
-        <div class="smallhead subtle">
-          OpenfMRI
-        </div>
-        <div class="pad-left note">
-          <div class="smallspacer"></div>
-          <i class="fa fa-database fa-fw"></i>
-          <a class="off" href="https://openfmri.org/dataset/{{ page.openfmri }}">{{ page.openfmri }}</a>
-        </div>
-        <div class="bigspacer"></div>
-      {% endif %}
-
-      {% if page.neurovault %}
-        <div class="smallhead subtle">
-          Statistical Maps
-        </div>
-        <div class="pad-left note">
-          <div class="smallspacer"></div>
-          <i class="fa fa-database fa-fw"></i>
-          <a class="off" href="https://neurovault.org/collections/{{ page.neurovault }}">{{ page.neurovault }}</a>
         </div>
         <div class="bigspacer"></div>
       {% endif %}

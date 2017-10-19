@@ -18,8 +18,8 @@ with gratitude.
 		</div>
 		<div class="bigspacer"></div>
 
-		<div class="glyphbox note"> <!-- DAD: what is this class? -->
-			{% if page.pdf or page.pdflink or page.fulltext or page.preprint %}
+		<div class="glyphbox note">
+			{% if page.pdf or page.pdflink or page.fulltext or page.preprint or page.supplement %}
 				<div class="smallhead subtle">
 					Full text
 				</div>
@@ -28,48 +28,46 @@ with gratitude.
 					{% if page.pdflink %}
 						<i class="fa fa-file-pdf-o fa-fw"></i>
 						<a class="off" href="{{ page.pdflink }}">Journal PDF</a>
-						<br/>
+						<div class="smallspacer"></div>
 					{% elsif page.pdf %}
 						<i class="fa fa-file-pdf-o fa-fw"></i>
 						<a class="off" href="{{ page.pdf }}">PDF</a>
-						<br/>
+						<div class="smallspacer"></div>
 					{% endif %}
 
 					{% if page.fulltext %}
 						<i class="fa fa-external-link fa-fw"></i>
 						<a class="off" href="{{ page.fulltext }}">Journal HTML</a>
-						<br/>
+						<div class="smallspacer"></div>
+					{% endif %}
+
+					{% if page.supplement %}
+						<i class="fa fa-paperclip fa-fw"></i>
+						<a class="off" href="{{ page.supplement }}">Supplement</a>
+						<div class="smallspacer"></div>
 					{% endif %}
 
 					{% if page.preprint %}
-						<i class="fa fa-external-link fa-fw"></i>
+						<i class="ai ai-open-access ai-fw"></i>
 						<a class="off" href="{{ page.preprint }}">Preprint</a>
-						<br/>
+						<div class="smallspacer"></div>
 					{% endif %}
 				</div>
 				<div class="bigspacer"></div>
 			{% endif %}
 
-			{% if page.supplement %}
-				<div class="smallhead subtle">
-					Supplement
-				</div>
-				<div class="pad-left note">
-					<div class="smallspacer"></div>
-					<i class="fa fa-paperclip fa-fw"></i>
-					<a class="off" href="{{ page.supplement }}">{{ page.supplement | split: '/' | last }}</a>
-				</div>
-				<div class="bigspacer"></div>
-			{% endif %}
-
-			{% if page.pmid %}
+			{% if page.pmid or page.pmcid %}
 				<div class="smallhead subtle">
 					Pubmed
 				</div>
 				<div class="pad-left note">
 					<div class="smallspacer"></div>
-					<i class="fa fa-external-link fa-fw"></i>
-					<a class="off" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ page.pmid }}">{{ page.pmid }}</a>
+					<i class="ai ai-pubmed ai-fw"></i>
+					{% if page.pmcid %}
+						<a class="off" href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ page.pmcid }}">{{ page.pmcid }}</a>
+					{% else %}
+						<a class="off" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ page.pmid }}">{{ page.pmid }}</a>
+					{% endif %}
 				</div>
 				<div class="bigspacer"></div>
 			{% endif %}
@@ -80,7 +78,7 @@ with gratitude.
 				</div>
 				<div class="pad-left note">
 					<div class="smallspacer"></div>
-					<i class="fa fa-external-link fa-fw"></i>
+					<i class="ai ai-doi ai-fw"></i>
 					<a class="off" href="http://dx.doi.org/{{ page.doi }}">{{ page.doi }}</a>
 				</div>
 				<div class="bigspacer"></div>
@@ -92,8 +90,33 @@ with gratitude.
 				</div>
 				<div class="pad-left note">
 					<div class="smallspacer"></div>
-					<i class="fa fa-cog fa-fw"></i>
-					<a class="off" href="{{ page.github }}">{{ page.github | remove: 'https://github.com/' }}</a>
+					{% for repo in page.github %}
+						<i class="fa fa-github-alt fa-fw"></i>
+						<a class="off" href="{{ repo }}">{{ repo | remove: 'https://github.com/' }}</a>
+						<div class="smallspacer"></div>
+					{% endfor %}
+				</div>
+				<div class="bigspacer"></div>
+			{% endif %}
+
+			{% if page.openfmri or page.neurovault %}
+				<div class="smallhead subtle">
+					Data
+				</div>
+
+				<div class="pad-left note">
+					<div class="smallspacer"></div>
+					{% for dset in page.openfmri %}
+						<i class="fa fa-database fa-fw"></i>
+						<a class="off" href="https://openfmri.org/dataset/{{ dset }}">OpenfMRI: {{ dset }}</a>
+						<div class="smallspacer"></div>
+					{% endfor %}
+
+					{% for coll in page.neurovault %}
+						<i class="fa fa-database fa-fw"></i>
+						<a class="off" href="https://neurovault.org/collections/{{ coll }}">Neurovault: {{ coll }}</a>
+						<div class="smallspacer"></div>
+					{% endfor %}
 				</div>
 				<div class="bigspacer"></div>
 			{% endif %}
@@ -104,35 +127,11 @@ with gratitude.
         </div>
         <div class="pad-left note">
           <div class="smallspacer"></div>
-          <i class="fa fa-database fa-fw"></i>
+          <i class="ai ai-osf ai-fw"></i>
           <a class="off" href="{{ page.osf }}">Open Science Framework</a>
         </div>
         <div class="bigspacer"></div>
       {% endif %}
-
-			{% if page.openfmri %}
-				<div class="smallhead subtle">
-					OpenfMRI
-				</div>
-				<div class="pad-left note">
-					<div class="smallspacer"></div>
-					<i class="fa fa-database fa-fw"></i>
-					<a class="off" href="https://openfmri.org/dataset/{{ page.openfmri }}">{{ page.openfmri }}</a>
-				</div>
-				<div class="bigspacer"></div>
-			{% endif %}
-
-			{% if page.neurovault %}
-				<div class="smallhead subtle">
-					Statistical Maps
-				</div>
-				<div class="pad-left note">
-					<div class="smallspacer"></div>
-					<i class="fa fa-database fa-fw"></i>
-					<a class="off" href="https://neurovault.org/collections/{{ page.neurovault }}">{{ page.neurovault }}</a>
-				</div>
-				<div class="bigspacer"></div>
-			{% endif %}
 
 			<div class="smallhead subtle">
 				Share
@@ -199,17 +198,10 @@ with gratitude.
 				{% endif %}
 				({{ page.year }}).
 			</div>
-
-			<hr/>
-			{% if page.embargo %}
-				<div class="post">
-					In press...watch this space!
-				</div>
-			{% else %}
-				<div class="post">
-					{{ content }}
-				</div>
-			{% endif %}
+		</div>
+		<hr/>
+		<div class="post">
+			{{ content }}
 		</div>
 		<!-- comment out unless we want the categories and tags
 		{% unless page.categories == empty %}
