@@ -1,22 +1,26 @@
 ---
 layout: poster
 title: "Intrinsic connectivity and behavioral parcellation of the cerebellum through meta-analytic modeling"
-year: "2013"
 nickname: 2013-06-17-riedel-cerebellum-poster
-conference: "HBM"
 authors: "Riedel MC, Ray KL, Hernandez Z, Fox PM, Uecker A, Eickhoff SB, Fox PT, Laird AR"
+year: "2013"
+conference: "HBM"
 image: /assets/images/posters/2013-06-17-riedel-cerebellum-poster.png
-redirect_from:
-pdf: https://osf.io/n8r2t/
+projects: []
+tags: [meta-analysis]
+
+# Content
 fulltext:
-osf: https://osf.io/hfs8p/
-github:
-f1000:
+pdf: https://osf.io/n8r2t/
+
+# Links
 doi:
-dryad_doi:
-figshare_doi:
-category: posters
-tags: []
+
+# Data and code
+github:
+neurovault:
+openfmri:
+osf: https://osf.io/hfs8p/
 ---
 {% include JB/setup %}
 

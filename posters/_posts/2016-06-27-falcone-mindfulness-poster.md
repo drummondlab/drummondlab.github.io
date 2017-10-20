@@ -1,21 +1,26 @@
 ---
 layout: poster
 title: "Functional and structural neurobiological consequences of mindfulness meditation"
-year: "2016"
 nickname: 2016-06-27-falcone-mindfulness-poster
-conference: "HBM"
 authors: "Falcone KE, Poudel R, Laird AR, Sutherland MT"
+year: "2016"
+conference: "HBM"
 image: /assets/images/posters/2016-06-27-falcone-mindfulness-poster.png
-redirect_from:
-pdf: /assets/pdfs/posters/2016-06-27-falcone-mindfulness-poster.pdf
+projects: []
+tags: [meta-analysis]
+
+# Content
 fulltext:
-github:
-f1000:
+pdf: /assets/pdfs/posters/2016-06-27-falcone-mindfulness-poster.pdf
+
+# Links
 doi:
-dryad_doi:
-figshare_doi:
-category: posters
-tags: []
+
+# Data and code
+github:
+neurovault:
+openfmri:
+osf:
 ---
 {% include JB/setup %}
 

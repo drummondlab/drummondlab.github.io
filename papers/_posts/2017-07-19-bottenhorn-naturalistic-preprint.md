@@ -1,30 +1,35 @@
 ---
 layout: paper
 title: "Cooperating yet distinct brain networks engaged during naturalistic paradigms: A meta-analysis of functional MRI results"
-year: "2017"
 nickname: 2017-07-19-bottenhorn-naturalistic-preprint
+authors: "Bottenhorn KL, Flannery JS, Boeving ER, Riedel MC, Eickhoff SB, Sutherland MT, Laird AR"
+year: "2017"
 journal: "bioRxiv"
 volume:
 issue:
 pages:
-authors: "Bottenhorn KL, Flannery JS, Boeving ER, Riedel MC, Eickhoff SB, Sutherland MT, Laird AR"
-image: /assets/images/papers/2017-07-19-bottenhorn-naturalistic-preprint.png
-redirect_from:
-fulltext:
-preprint: http://www.biorxiv.org/content/early/2017/07/19/165951
-pdf:
-pdflink:
-pmid:
-pmcid:
-f1000:
-doi: "10.1101/165951"
-github:
-dryad_doi:
-figshare_doi:
 is_published: false
-category: papers
+image: /assets/images/papers/2017-07-19-bottenhorn-naturalistic-preprint.png
 projects: []
 tags: [preprint, meta-analysis]
+
+# Text
+fulltext:
+pdf:
+pdflink:
+pmcid:
+preprint: http://www.biorxiv.org/content/early/2017/07/19/165951
+supplement:
+
+# Links
+doi: "10.1101/165951"
+pmid:
+
+# Data and code
+github:
+neurovault:
+openfmri:
+osf:
 ---
 {% include JB/setup %}
 

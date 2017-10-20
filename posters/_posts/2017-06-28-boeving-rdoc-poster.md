@@ -1,23 +1,26 @@
 ---
 layout: poster
 title: "Social Neuroimaging Meta-Analysis through the RDoC Lens Yields Distinct Context-Driven Cliques"
-year: "2017"
 nickname: 2017-06-28-boeving-rdoc-poster
-conference: "HBM"
 authors: "Boeving ER, Toma A, Riedel MC, Bartley JE, Bottenhorn KL, Bzdok D, Eickhoff SB, Sutherland MT, Glahn D, Laird AR"
+year: "2017"
+conference: "HBM"
 image: /assets/images/posters/2017-06-28-boeving-rdoc-poster.png
-redirect_from:
-pdf: /assets/pdfs/posters/2017-06-28-boeving-rdoc-poster.pdf
-fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=3733
-osf:
-github:
-f1000:
-doi:
-dryad_doi:
-figshare_doi:
-category: posters
-tags: []
 projects: [physics-learning]
+tags: [fmri]
+
+# Content
+fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=3733
+pdf: /assets/pdfs/posters/2017-06-28-boeving-rdoc-poster.pdf
+
+# Links
+doi:
+
+# Data and code
+github: 
+neurovault:
+openfmri:
+osf:
 ---
 {% include JB/setup %}
 

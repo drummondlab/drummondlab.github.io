@@ -1,22 +1,26 @@
 ---
 layout: presentation
 title: "Exploring the Neural Mechanisms of Physics Learning"
-year: "2015"
 nickname: 2015-10-23-bartley-physics-learning-presentation
-conference: "BrainHack Global"
 authors: "Bartley JB"
+year: "2015"
+conference: "BrainHack Global"
 image: /assets/images/talks/2015-10-23-bartley-physics-learning-presentation.png
-redirect_from:
+projects: []
+tags: [physics-learning]
+
+# Content
 slides:
-osf: https://osf.io/xc6uq/
-github:
-f1000:
+video:
+
+# Links
 doi:
-dryad_doi:
-figshare_doi:
-category: presentations
-tags: []
-projects: [physics-learning]
+
+# Data and code
+github:
+neurovault:
+openfmri:
+osf: https://osf.io/xc6uq/
 ---
 {% include JB/setup %}
 

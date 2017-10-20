@@ -1,21 +1,26 @@
 ---
 layout: presentation
 title: "Brain activity following positive and negative performance feedback among abstinent smokers"
-year: "2017"
 nickname: 2017-03-08-flannery-colloquium-presentation
-conference: "FIU Cognitive Neuroscience Colloquium Series"
 authors: "Flannery JS"
+year: "2017"
+conference: "FIU Cognitive Neuroscience Colloquium Series"
 image: /assets/images/talks/2017-03-08-flannery-colloquium-presentation.png
-redirect_from:
-slides:
-osf:
-github:
-f1000:
-doi:
-dryad_doi:
-figshare_doi:
-category: presentations
+projects: []
 tags: []
+
+# Content
+slides:
+video:
+
+# Links
+doi:
+
+# Data and code
+github: 
+neurovault:
+openfmri:
+osf:
 ---
 {% include JB/setup %}
 

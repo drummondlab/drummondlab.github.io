@@ -39,6 +39,10 @@ with gratitude.
 						<i class="fa fa-external-link fa-fw"></i>
 						<a class="off" href="{{ page.fulltext }}">Journal HTML</a>
 						<div class="smallspacer"></div>
+					{% elsif page.pmcid %}
+						<i class="ai ai-pubmed ai-fw"></i>
+						<a class="off" href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ page.pmcid }}">Pubmed Central</a>
+						<div class="smallspacer"></div>
 					{% endif %}
 
 					{% if page.supplement %}
@@ -56,18 +60,15 @@ with gratitude.
 				<div class="bigspacer"></div>
 			{% endif %}
 
-			{% if page.pmid or page.pmcid %}
+			{% if page.pmcid %}
+			{% elsif page.pmid %}
 				<div class="smallhead subtle">
 					Pubmed
 				</div>
 				<div class="pad-left note">
 					<div class="smallspacer"></div>
 					<i class="ai ai-pubmed ai-fw"></i>
-					{% if page.pmcid %}
-						<a class="off" href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ page.pmcid }}">{{ page.pmcid }}</a>
-					{% else %}
-						<a class="off" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ page.pmid }}">{{ page.pmid }}</a>
-					{% endif %}
+					<a class="off" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ page.pmid }}">{{ page.pmid }}</a>
 				</div>
 				<div class="bigspacer"></div>
 			{% endif %}
@@ -150,7 +151,11 @@ with gratitude.
 			{% if page.doi %}
 				<!-- a small section for the almetric badge if one is available -->
 				<div class="col-md-2.5" style="float:right">
-				<div data-badge-type="large-donut" data-doi="{{ page.doi }}" data-hide-no-mentions="true" class="altmetric-embed" data-badge-popover='left' style="float:right;clear:both">
+				  <div data-badge-type="large-donut" data-doi="{{ page.doi }}" data-hide-no-mentions="true" class="altmetric-embed" data-badge-popover='left' style="float:right;clear:both">
+				</div>
+			{% else %}
+				<div class="col-md-2.5" style="float:right">
+					<div data-badge-type="large-donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" data-badge-popover='left' style="float:right;clear:both">
 				</div>
 			{% endif %}
 		  </div>
@@ -198,8 +203,8 @@ with gratitude.
 				{% endif %}
 				({{ page.year }}).
 			</div>
+			<hr/>
 		</div>
-		<hr/>
 		<div class="post">
 			{{ content }}
 		</div>

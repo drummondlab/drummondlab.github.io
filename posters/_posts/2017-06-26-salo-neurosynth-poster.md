@@ -1,23 +1,26 @@
 ---
 layout: poster
 title: "A quantitative evaluation of Neurosynth's annotation methods"
-year: "2017"
 nickname: 2017-06-26-salo-neurosynth-poster
-conference: "HBM"
 authors: "Salo T, Riedel MC, Bartley JE, Bottenhorn KL, Yarkoni T, Turner MD, Turner JA, Sutherland MT, Laird AR"
+year: "2017"
+conference: "HBM"
 image: /assets/images/posters/2017-06-26-salo-neurosynth-poster.png
-redirect_from:
-pdf: https://files.aievolution.com/hbm1701/abstracts/36156/1674_Salo.pdf
-fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=3219
-osf:
-github:
-f1000:
-doi:
-dryad_doi:
-figshare_doi:
-category: posters
 projects: [athena]
-tags: []
+tags: [meta-analysis]
+
+# Content
+fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=3219
+pdf: https://files.aievolution.com/hbm1701/abstracts/36156/1674_Salo.pdf
+
+# Links
+doi:
+
+# Data and code
+github: ["https://github.com/NBCLab/neurosynth-annotation-hbm2017"]
+neurovault:
+openfmri:
+osf:
 ---
 {% include JB/setup %}
 

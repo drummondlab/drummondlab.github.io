@@ -1,21 +1,26 @@
 ---
 layout: presentation
 title: "Functional connectivity of the human striatum during smoking abstinence and pharmacologic administration"
-year: "2017"
 nickname: 2017-02-07-poudel-colloquium-presentation
-conference: "FIU Cognitive Neuroscience Colloquium Series"
 authors: "Poudel R"
+year: "2017"
+conference: "FIU Cognitive Neuroscience Colloquium Series"
 image: /assets/images/talks/2017-02-07-poudel-colloquium-presentation.png
-redirect_from:
-slides:
-osf: 
-github:
-f1000:
-doi:
-dryad_doi:
-figshare_doi:
-category: presentations
+projects: []
 tags: []
+
+# Content
+slides:
+video:
+
+# Links
+doi:
+
+# Data and code
+github: 
+neurovault:
+openfmri:
+osf:
 ---
 {% include JB/setup %}
 

@@ -1,29 +1,35 @@
 ---
 layout: paper
 title: "Heterogeneous fractionation profiles of meta-analytic coactivation networks."
-year: "2017"
 nickname: 2017-04-01-laird-macm-profiles
-journal: "Neuroimage"
-volume:
-issue:
-pages:
 authors: "Laird AR, Riedel MC, Okoe M, Jianu R, Ray KL, Eickhoff SB, Smith SM, Fox PT, Sutherland MT"
+year: "2017"
+journal: "Neuroimage"
+volume: 149
+issue:
+pages: 424-435
+is_published: true
 image: /assets/images/papers/2017-04-01-laird-macm-profiles.png
-redirect_from:
+projects: []
+tags: [meta-analysis]
+
+# Text
 fulltext: http://www.sciencedirect.com/science/article/pii/S1053811916307595?via%3Dihub
 pdf:
 pdflink:
-github:
-pmid:
 pmcid:
-f1000:
+preprint:
+supplement:
+
+# Links
 doi: "10.1016/j.neuroimage.2016.12.037"
-dryad_doi:
-figshare_doi:
-is_published: true
-category: papers
-projects: []
-tags: [meta-analysis]
+pmid: 28222386
+
+# Data and code
+github:
+neurovault:
+openfmri:
+osf:
 ---
 {% include JB/setup %}
 

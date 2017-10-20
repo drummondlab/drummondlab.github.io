@@ -1,7 +1,6 @@
 ---
 layout: news
 title: Funding for new research center.
-category: news
 tags: [projects]
 image: /assets/images/news/cis_building.png
 excerpt: FIU scientists awarded $13.1 million to build health disparities research center.

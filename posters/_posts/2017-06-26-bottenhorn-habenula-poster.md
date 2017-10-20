@@ -1,22 +1,26 @@
 ---
 layout: poster
 title: "Connectivity of the human habenula using 7T resting state and meta-analytic coactivation modeling"
-year: "2017"
 nickname: 2017-06-26-bottenhorn-habenula-poster
-conference: "HBM"
 authors: "Bottenhorn KL, Robinson JL, Flannery JS, Boeving ER, Salo T, Riedel MC, Eickhoff SB, Yanes JA, Sutherland MT, Laird AR"
+year: "2017"
+conference: "HBM"
 image: /assets/images/posters/2017-06-26-bottenhorn-habenula-poster.png
-redirect_from:
-pdf: /assets/pdfs/posters/2017-06-26-bottenhorn-habenula-poster.pdf
-fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=4059
-osf:
-github:
-f1000:
-doi:
-dryad_doi:
-figshare_doi:
-category: posters
+projects: []
 tags: []
+
+# Content
+fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=4059
+pdf: /assets/pdfs/posters/2017-06-26-bottenhorn-habenula-poster.pdf
+
+# Links
+doi:
+
+# Data and code
+github:
+neurovault:
+openfmri:
+osf:
 ---
 {% include JB/setup %}
 

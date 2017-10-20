@@ -1,22 +1,26 @@
 ---
 layout: poster
 title: "Common and distinct functional alterations across anxiety disorders: An ALE meta-analysis"
-year: "2014"
 nickname: 2014-06-09-sutherland-anxiety-poster
-conference: "HBM"
 authors: "Sutherland MT, Rasgon A, Frangou S, Glahn DC, Laird AR"
+year: "2014"
+conference: "HBM"
 image: /assets/images/posters/2014-06-09-sutherland-anxiety-poster.png
-redirect_from:
-pdf: https://osf.io/bjnkx/
-fulltext:
-osf: https://osf.io/6jvqn/
-github:
-f1000:
-doi:
-dryad_doi:
-figshare_doi:
-category: posters
+projects: []
 tags: []
+
+# Content
+fulltext:
+pdf: https://osf.io/bjnkx/
+
+# Links
+doi:
+
+# Data and code
+github:
+neurovault:
+openfmri:
+osf: https://osf.io/6jvqn/
 ---
 {% include JB/setup %}
 

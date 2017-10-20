@@ -1,21 +1,26 @@
 ---
 layout: poster
 title: "Habenula activity following positive and negative feedback among abstinent cigarette smokers"
-year: "2016"
 nickname: 2016-06-27-flannery-habenula-poster
-conference: "HBM"
 authors: "Flannery JS, Sutherland MT, Riedel MC, Laird AR, Salmeron BJ, Ross TJ, Stein EA"
+year: "2016"
+conference: "HBM"
 image: /assets/images/posters/2016-06-27-flannery-habenula-poster.png
-redirect_from:
-pdf: /assets/pdfs/posters/2016-06-27-flannery-habenula-poster.pdf
-fulltext:
-github:
-f1000:
-doi:
-dryad_doi:
-figshare_doi:
-category: posters
+projects: []
 tags: []
+
+# Content
+fulltext:
+pdf: /assets/pdfs/posters/2016-06-27-flannery-habenula-poster.pdf
+
+# Links
+doi:
+
+# Data and code
+github:
+neurovault:
+openfmri:
+osf:
 ---
 {% include JB/setup %}
 

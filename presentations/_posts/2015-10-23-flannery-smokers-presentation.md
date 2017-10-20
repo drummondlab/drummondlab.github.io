@@ -1,21 +1,26 @@
 ---
 layout: presentation
 title: "Brain activity following positive and negative performance feedback among abstinent smokers"
-year: "2015"
 nickname: 2015-10-23-flannery-smokers-presentation
-conference: "BrainHack Global"
 authors: "Flannery JS"
+year: "2015"
+conference: "BrainHack Global"
 image: /assets/images/talks/2015-10-23-flannery-smokers-presentation.png
-redirect_from:
-slides:
-osf: https://osf.io/2nghk/
-github:
-f1000:
-doi:
-dryad_doi:
-figshare_doi:
-category: presentations
+projects: []
 tags: []
+
+# Content
+slides:
+video:
+
+# Links
+doi:
+
+# Data and code
+github: 
+neurovault:
+openfmri:
+osf: https://osf.io/2nghk/
 ---
 {% include JB/setup %}
 

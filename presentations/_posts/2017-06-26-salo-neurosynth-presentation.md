@@ -1,23 +1,26 @@
 ---
 layout: presentation
 title: "A quantitative evaluation of Neurosynth's annotation methods"
-year: "2017"
 nickname: 2017-06-26-salo-neurosynth-presentation
-conference: "HBM"
 authors: "Salo T, Riedel MC, Bartley JE, Bottenhorn KL, Yarkoni T, Turner MD, Turner JA, Sutherland MT, Laird AR"
+year: "2017"
+conference: "HBM"
 image: /assets/images/talks/2017-06-26-salo-neurosynth-presentation.png
-redirect_from:
-slides:
+projects: []
+tags: [athena]
+
+# Content
+slides: https://www.slideshare.net/secret/jYR30eneeZMhJs
 video: https://www.pathlms.com/ohbm/courses/5158/sections/7806/video_presentations/76061
-osf:
-github:
-f1000:
+
+# Links
 doi:
-dryad_doi:
-figshare_doi:
-category: presentations
-projects: [athena]
-tags: []
+
+# Data and code
+github: ["https://github.com/NBCLab/neurosynth-annotation-hbm2017"]
+neurovault:
+openfmri:
+osf:
 ---
 {% include JB/setup %}
 

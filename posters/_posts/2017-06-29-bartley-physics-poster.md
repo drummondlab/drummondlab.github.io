@@ -1,23 +1,26 @@
 ---
 layout: poster
 title: "Uncovering the Neural Substrates of Physics Problem Solving: A New Paradigm with Behavior Correlates"
-year: "2017"
 nickname: 2017-06-29-bartley-physics-poster
-conference: "HBM"
 authors: "Bartley JE, Riedel MC, Salo T, Boeving ER, Odean R, Bravo E, Laird R, Pruden S, Brewe E, Sutherland MT, Laird AR"
+year: "2017"
+conference: "HBM"
 image: /assets/images/posters/2017-06-29-bartley-physics-learning-poster.png
-redirect_from:
-pdf: /assets/pdfs/posters/2017-06-29-bartley-physics-learning-poster.pdf
-fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=3266
-osf:
-github:
-f1000:
-doi:
-dryad_doi:
-figshare_doi:
-category: posters
-tags: []
 projects: [physics-learning]
+tags: []
+
+# Content
+fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=3266
+pdf: /assets/pdfs/posters/2017-06-29-bartley-physics-learning-poster.pdf
+
+# Links
+doi:
+
+# Data and code
+github:
+neurovault:
+openfmri:
+osf:
 ---
 {% include JB/setup %}
 

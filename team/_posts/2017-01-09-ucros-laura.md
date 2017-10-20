@@ -5,6 +5,19 @@ position: Research Assistant
 department:
 handle: lucros
 nickname: Laura
-email: lucros@fiu.edu
+science_name: Ucros L
 image:
+alumni: false
+
+# social
+cv:
+email: lucros@fiu.edu
+github:
+orcid:
+osf:
+publons:
+researchgate:
+scholar:
+site:
+twitter:
 ---

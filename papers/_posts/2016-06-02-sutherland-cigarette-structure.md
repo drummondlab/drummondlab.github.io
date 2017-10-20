@@ -1,29 +1,35 @@
 ---
 layout: paper
 title: "Chronic cigarette smoking is linked with structural alterations in brain regions showing acute nicotinic drug-induced functional modulations."
-year: "2016"
 nickname: sutherland-cigarette-structure
-journal: "Behavioral and brain functions"
-volume:
-issue:
-pages:
 authors: "Sutherland MT, Riedel MC, Flannery JS, Yanes JA, Fox PT, Stein EA, Laird AR"
-image: /assets/images/papers/2016-06-02-sutherland-cigarette-structure.png
-redirect_from:
-fulltext: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4890474/
-pdf:
-pdflink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4890474/pdf/12993_2016_Article_100.pdf
-github:
-pmid:
-pmcid:
-f1000:
-doi: "10.1186/s12993-016-0100-5"
-dryad_doi:
-figshare_doi:
+year: "2016"
+journal: "Behavioral and brain functions"
+volume: 12
+issue: 1
+pages: 16
 is_published: true
-category: papers
+image: /assets/images/papers/2016-06-02-sutherland-cigarette-structure.png
 projects: []
 tags: [meta-analysis]
+
+# Text
+fulltext:
+pdf:
+pdflink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4890474/pdf/12993_2016_Article_100.pdf
+pmcid: PMC4890474
+preprint:
+supplement: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4890474/bin/12993_2016_100_MOESM1_ESM.pdf
+
+# Links
+doi: "10.1186/s12993-016-0100-5"
+pmid:
+
+# Data and code
+github:
+neurovault:
+openfmri:
+osf:
 ---
 {% include JB/setup %}
 

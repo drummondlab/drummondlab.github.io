@@ -3,9 +3,9 @@ Branched from Trevor Bedford's source, https://github.com/blab/blotter/blob/mast
 with gratitude.
 -->
 
-{% if page.category == "posters" %}
+{% if page.layout == "poster" %}
   {% assign type = "Poster" %}
-{% elsif page.category == "presentations" %}
+{% elsif page.layout == "presentation" %}
   {% assign type = "Talk" %}
 {% endif %}
 
