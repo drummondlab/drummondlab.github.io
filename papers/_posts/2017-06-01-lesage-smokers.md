@@ -9,7 +9,7 @@ volume: 74
 issue: 6
 pages: 632-640
 is_published: true
-image: /assets/images/papers/2017-06-01-lesage-smokers.png
+image: /assets/images/papers/jama-psychiatry.png
 projects: []
 tags: []
 

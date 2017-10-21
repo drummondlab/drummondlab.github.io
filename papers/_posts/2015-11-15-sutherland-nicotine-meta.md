@@ -9,7 +9,7 @@ volume: 78
 issue: 10
 pages: 711-720
 is_published: true
-image: /assets/images/papers/2015-11-15-sutherland-nicotine-meta.png
+image: /assets/images/papers/biol-psychiatry.png
 projects: []
 tags: [meta-analysis]
 
@@ -23,7 +23,7 @@ supplement: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4494985/bin/NIHMS654238
 
 # Links
 doi: "10.1016/j.biopsych.2014.12.021"
-pmid:
+pmid: 25662104
 
 # Data and code
 github:

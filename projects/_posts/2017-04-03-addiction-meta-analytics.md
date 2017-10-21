@@ -1,8 +1,8 @@
 ---
 layout: project
 title: "Neuroimaging meta-analytics for addiction: Nodes, networks, and new heuristics"
-contributors: [alaird, msutherland, mriedel]
-handle: addiction-meta-analytics
+contributors: [alaird, msutherland, mriedel, jflannery]
+handle: pace
 
 # Optional
 grant: R01DA041353

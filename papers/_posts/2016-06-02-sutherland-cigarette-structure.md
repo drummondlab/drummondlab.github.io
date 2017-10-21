@@ -23,7 +23,7 @@ supplement: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4890474/bin/12993_2016_
 
 # Links
 doi: "10.1186/s12993-016-0100-5"
-pmid:
+pmid: 27251183
 
 # Data and code
 github:

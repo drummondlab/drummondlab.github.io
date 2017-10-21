@@ -23,7 +23,7 @@ supplement: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4564321/bin/NIHMS708070
 
 # Links
 doi: "10.1016/j.neuroimage.2015.06.044"
-pmid:
+pmid: 26093327
 
 # Data and code
 github:

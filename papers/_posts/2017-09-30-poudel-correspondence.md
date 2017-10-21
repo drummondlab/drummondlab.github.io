@@ -23,7 +23,7 @@ supplement:
 
 # Links
 doi: "10.1016/j.psychres.2017.07.042"
-pmid:
+pmid: 28974304
 
 # Data and code
 github:
