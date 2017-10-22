@@ -8,7 +8,7 @@ journal: "Journal of Open Research Software"
 volume: 7
 issue: 4
 pages: 16
-authors: "DS Katz, ST Choi, KE Niemeyer, J Hetherington, F Löffler, D Gunter, R Idaszak, SR Brandt, MA Miller, S Gesing, ND Jones, N Weber, S Marru, G Allen, B Penzenstadler, CC Venters, E Davis, L Hwang, I Todorov, A Patra, and M de Val-Borro"
+authors: "Katz DS, Choi ST, Niemeyer KE, Hetherington J, Löffler F, Gunter D, Idaszak R, Brandt SR, Miller MA, Gesing S, Jones ND, Weber N, Marru S, Allen G, Penzenstadler B, Venters CC, Davis E, Hwang L, Todorov I, Patra A, de Val-Borro M"
 image: /assets/images/papers/wssspe3-report-abstract.svg
 fulltext: http://openresearchsoftware.metajnl.com/article/10.5334/jors.118/
 pdf: http://openresearchsoftware.metajnl.com/articles/10.5334/jors.118/galley/194/download/

@@ -115,8 +115,11 @@
         <div class="bigspacer"></div>
 
         {% assign lastname = member.title | split: ' ' | last %}
+        {% assign firstinitial = member.title | split: ' ' | first | slice: 0 %}
+        {% assign searchstring = lastname | append: ' ' | append: firstinitial %}
+
         {% for paper in site.categories.papers %}
-            {% if paper.authors contains lastname %}
+            {% if paper.authors contains searchstring %}
                 {% assign papersq = true %}
             {% endif %}
         {% endfor %}
@@ -126,7 +129,7 @@
             <div class="head">Papers</div>
             <div class="spacer"></div>
             {% for paper in site.categories.papers %}
-                {% if paper.authors contains lastname %}
+                {% if paper.authors contains searchstring %}
                     {% if paper.embargo %}
                     <p><i class="fa fa-file-text-o" aria-hidden="true"></i> {{ paper.title }}
                     {% else %}

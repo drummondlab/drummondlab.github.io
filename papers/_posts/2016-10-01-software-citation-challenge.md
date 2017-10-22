@@ -8,7 +8,7 @@ journal: "Journal of Data and Information Quality"
 volume: 7
 issue: 4
 pages: 16
-authors: "KE Niemeyer, AM Smith, and DS Katz"
+authors: "Niemeyer KE, Smith AM, Katz DS"
 image: /assets/images/papers/default-paper.svg
 fulltext:
 pdf:

@@ -8,7 +8,7 @@ journal: "Combustion and Flame"
 volume: 161
 issue: 11
 pages: 2752–2764
-authors: "KE Niemeyer and CJ Sung"
+authors: "Niemeyer KE, Sung CJ"
 image: /assets/images/papers/multicomponent-reduction-abstract.png
 fulltext: http://www.sciencedirect.com/science/article/pii/S001021801400131X
 pdf:
