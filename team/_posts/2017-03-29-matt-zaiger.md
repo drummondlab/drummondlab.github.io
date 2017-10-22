@@ -13,7 +13,7 @@ image: /assets/images/team/zaiger.jpeg
 cv:
 alum: false
 ---
-Matt is an MS student studying coupled detonation and magnetohydrodynamics (MHD). He is advised by Prof. David Blunck in the [CIRE Lab](http://research.engr.oregonstate.edu/blunckgroup/home).
+Matt is an MS student studying coupled detonation and magnetohydrodynamics (MHD). He is co-advised by Prof. David Blunck in the [CIRE Lab](http://research.engr.oregonstate.edu/blunckgroup/home).
 
 
 [Oregon State University]: http://oregonstate.edu/
