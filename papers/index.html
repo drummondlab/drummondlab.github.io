@@ -6,37 +6,47 @@ group: navigation
 navorder: 3
 ---
 {% include JB/setup %}
-<div class="bigspacer"></div> 
+<div class="bigspacer"></div>
+{% assign memberindex = 0 %}
 {% for paper in site.categories.papers %}
-    {% cycle 'add rows': '<div class="row">', nil, nil %}
-    <div class="col-md-4 paperbox">
-      {% if paper.embargo %}
-      <div class="media">
-           <img width=100 class="media-object pull-right" src="{{ paper.image }}"/>
-          <div class="media-body">
-            <div class="smallhead media-heading">
-            {{ paper.title }}
-            </div>
-            <p class="note">{{ paper.shortref }}</p>
-          </div>
-      </div>
-      {% else %}
-     <div class="media">
-          <a class="pull-right" href="{{ paper.url }}">
-            <img width=100 class="media-object" src="{{ paper.image }}">
-          </a>
+  {% assign memberindex = memberindex | plus: 1 %}
+  {% assign colindex = memberindex | modulo: 3 %}
+  {% if colindex == 1 %} <!-- opening of a new row -->
+  <div class="row">
+  {% endif %}
+
+  <div class="col-md-4 paperbox">
+    {% if paper.embargo %}
+    <div class="media">
+         <img width=100 class="media-object pull-right" src="{{ paper.image }}"/>
         <div class="media-body">
-            <div class="smallhead media-heading">
-            <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
-            </div>
-            <p class="note">{{ paper.shortref }}</p>
+          <div class="smallhead media-heading">
+          {{ paper.title }}
+          </div>
+          <p class="note">{{ paper.shortref }}</p>
         </div>
-      </div>
-      {% endif %}
     </div>
-    {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
+    {% else %}
+   <div class="media">
+        <a class="pull-right" href="{{ paper.url }}">
+          <img width=100 class="media-object" src="{{ paper.image }}">
+        </a>
+      <div class="media-body">
+          <div class="smallhead media-heading">
+          <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+          </div>
+          <p class="note">{{ paper.shortref }}</p>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+  {% if colindex == 0 %} <!-- closing a row -->
+  </div><div class="bigspacer"></div>
+  {% endif %}
 {% endfor %}
-{% cycle 'close rows': nil, '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
+{% if colindex != 0 %} <!-- close last open row -->
+</div><div class="bigspacer"></div>
+{% endif %}
 
 
 <div class="bigspacer"></div>
