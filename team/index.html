@@ -51,7 +51,7 @@ navorder: 2
 
 {% assign alumni = site.categories.team | where: "alum","true"%}
 {% assign memberindex = 0 %}
-{% for member in alumni %}
+{% for member in alumni reversed %}
     {% assign memberindex = memberindex | plus: 1 %}
     {% assign colindex = memberindex | modulo: 3 %}
     {% if colindex == 1 %} <!-- opening of a new row -->
