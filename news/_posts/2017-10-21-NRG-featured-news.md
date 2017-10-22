@@ -23,4 +23,5 @@ NRG projects and team members have been in the news lately!
 [Kyle]: /team/kyle-niemeyer
 [Miguel]: /team/miguel-soler
 [AJ]: /team/aj-fillo
+[Matt]: /team/matt-zaiger
 [Tejas]: /team/tejas-mulky
