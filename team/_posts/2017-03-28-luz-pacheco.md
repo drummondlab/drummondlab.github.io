@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Luz Pacheco"
-position: Graduate student
+position: MS student
 nickname: Luz
 handle: pacheco
 email: pachecol@oregonstate.edu

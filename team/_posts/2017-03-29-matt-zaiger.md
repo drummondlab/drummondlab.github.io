@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Matt Zaiger"
-position: Graduate student
+position: MS student
 nickname: Matt
 handle: zaiger
 email: zaigerm@oregonstate.edu
