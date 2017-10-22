@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Shane Daly"
-position: Graduate student
+position: MS student
 nickname: Shane
 handle: daly
 email: dalys@oregonstate.edu
