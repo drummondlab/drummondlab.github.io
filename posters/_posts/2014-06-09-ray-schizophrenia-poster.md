@@ -1,23 +1,26 @@
 ---
 layout: poster
 title: "Towards a prediction of cognitive deficits based on underlying connectivity differences in schizophrenia"
-year: "2014"
-shortref: "Ray <i>et al. OHBM</i> 2014"
 nickname: 2014-06-09-ray-schizophrenia-poster
-conference: "HBM"
 authors: "Ray KL, Damaraju E, Riedel MC, Calhoun VD, Uecker AM, Eickhoff SB, Fox PT, Turner JA, Laird AR"
+year: "2014"
+conference: "HBM"
 image: /assets/images/posters/2014-06-09-ray-schizophrenia-poster.png
-redirect_from:
-pdf: https://osf.io/mvcq4/
-fulltext: https://osf.io/sf7q3/
-github:
-f1000:
-doi:
-dryad_doi:
-figshare_doi:
-altmetric_id:
-category: posters
+projects: []
 tags: []
+
+# Content
+fulltext:
+pdf: https://osf.io/mvcq4/
+
+# Links
+doi:
+
+# Data and code
+github:
+neurovault:
+openfmri:
+osf: https://osf.io/sf7q3/
 ---
 {% include JB/setup %}
 

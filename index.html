@@ -87,7 +87,6 @@ categories:
 				<div class="note">
 					{{ news.excerpt | markdownify }}
 				</div>
-				<div class="smallspacer"></div>
 				<div class="smallnote">
 					Posted
 					{{ news.date | date_to_string }}
@@ -105,7 +104,7 @@ categories:
     </div>
     <div class="bigspacer"></div>
     <div class="feedbox">
-      {% for project in site.categories.projects limit: 5 %}
+      {% for project in site.categories.projects limit: 8 %}
         <div class="note-title">
           <i class="fa fa-database fa-fw"></i>
           <a class="off" href="{{ project.url }}">{{ project.title }}</a>
@@ -130,7 +129,7 @@ categories:
 			{% for paper in site.categories.papers limit: 4 %}
 				<div class="note-title">
 					<i class="fa fa-file-text-o fa-fw"></i>
-          {% if paper.tags contains "preprint" %}
+          {% if paper.tags contains "preprint" and paper.is_published == false %}
               <a href="{{ paper.url }}" class="off">[PREPRINT] {{ paper.title }}</a>
           {% elsif paper.tags contains "chapter" %}
               <a href="{{ paper.url }}" class="off">[CHAPTER] {{ paper.title }}</a>
@@ -140,9 +139,24 @@ categories:
               <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
           {% endif %}
 					<br/>
-					<div class='shortref note'>
-					{{ paper.shortref }}
-					</div>
+          <div class="note">
+            <!-- This took a while, but it links the name of each author from the lab
+            to their page and keeps collaborators' names as strings -->
+            {{ paper.authors }},
+            <span class="journal">
+              {{ paper.journal }}
+            </span>
+            {% if paper.volume %}
+              {{ paper.volume }}
+            {% endif %}
+            {% if paper.issue %}
+              ({{ paper.issue }})
+            {% endif %}
+            {% if paper.pages %}
+              :{{ paper.pages }}
+            {% endif %}
+            ({{ paper.year }}).
+          </div>
 				</div>
 				<div class="smallspacer"></div>
 				<div class="smallnote">

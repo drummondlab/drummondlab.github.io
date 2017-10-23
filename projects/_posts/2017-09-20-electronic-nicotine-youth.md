@@ -1,14 +1,21 @@
 ---
 layout: project
 title: "Antecedents and consequences of electronic nicotine delivery systems in underrepresented youth"
+contributors: [msutherland, bsheler]
 handle: electronic-nicotine-youth
-image:
-contributors: [msutherland]
+
+# Optional
 grant:
 grant_url:
-category: projects
-tags: []
+image:
 tagline: How does electronic cigarette use affect youths during development?
+tags: [fmri]
+
+# Data and code
+github:
+neurovault:
+openfmri:
+osf:
 ---
 {% include JB/setup %}
 

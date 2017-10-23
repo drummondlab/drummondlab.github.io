@@ -1,34 +1,35 @@
 ---
 layout: paper
 title: "Neurobiological impact of nicotinic acetylcholine receptor agonists: an activation likelihood estimation meta-analysis of pharmacologic neuroimaging studies."
-year: "2015"
-shortref: "Sutherland <i>et al. Biol. Psychiatry</i> 2015"
 nickname: sutherland-nicotine-meta
-journal: "Biological psychiatry"
-volume:
-issue:
-pages:
 authors: "Sutherland MT, Ray KL, Riedel MC, Yanes JA, Stein EA, Laird AR"
-image: /assets/images/papers/2015-11-15-sutherland-nicotine-meta.png
-redirect_from:
-fulltext: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4494985/
-pdf:
-pdflink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4494985/pdf/nihms-654238.pdf
-github:
-pmid:
-pmcid:
-f1000:
-doi: "10.1016/j.biopsych.2014.12.021"
-dryad_doi:
-figshare_doi:
-altmetric_id:
-category: papers
-published: true
-embargo: false
-peerreview: false
-review: false
+year: "2015"
+journal: "Biological psychiatry"
+volume: 78
+issue: 10
+pages: 711-720
+is_published: true
+image: /assets/images/papers/biol-psychiatry.png
 projects: []
 tags: [meta-analysis]
+
+# Text
+fulltext:
+pdf:
+pdflink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4494985/pdf/nihms-654238.pdf
+pmcid: PMC4494985
+preprint:
+supplement: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4494985/bin/NIHMS654238-supplement.pdf
+
+# Links
+doi: "10.1016/j.biopsych.2014.12.021"
+pmid: 25662104
+
+# Data and code
+github:
+neurovault:
+openfmri:
+osf:
 ---
 {% include JB/setup %}
 

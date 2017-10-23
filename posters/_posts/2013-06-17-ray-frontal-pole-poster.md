@@ -1,23 +1,26 @@
 ---
 layout: poster
 title: "Connectivity-Based Parcellation of the Frontal Pole"
-year: "2013"
-shortref: "Ray <i>et al. OHBM</i> 2013"
 nickname: 2013-06-17-ray-frontal-pole-poster
-conference: "HBM"
 authors: "Ray KL, Bludau S, Riedel MC, Hernandez Z, Zald DH, Fox PT, Eickhoff SB, Laird AR"
+year: "2013"
+conference: "HBM"
 image: /assets/images/posters/2013-06-17-ray-frontal-pole-poster.png
-redirect_from:
+projects: []
+tags: [meta-analysis]
+
+# Content
+fulltext:
 pdf: https://osf.io/e9uxk/
-fulltext: https://osf.io/ynwm4/
-github:
-f1000:
+
+# Links
 doi:
-dryad_doi:
-figshare_doi:
-altmetric_id:
-category: posters
-tags: []
+
+# Data and code
+github:
+neurovault:
+openfmri:
+osf: https://osf.io/ynwm4/
 ---
 {% include JB/setup %}
 

@@ -1,23 +1,26 @@
 ---
 layout: poster
 title: "Co-activation based parcellation of the human insula"
-year: "2016"
-shortref: "Riedel <i>et al. OHBM</i> 2016"
 nickname: 2016-06-27-riedel-insula-poster
-conference: "HBM"
 authors: "Riedel MC, Poudel R, Salo T, Eickhoff SB, Fox PT, Laird AR, Sutherland MT"
+year: "2016"
+conference: "HBM"
 image: /assets/images/posters/2016-06-27-riedel-insula-poster.png
-redirect_from:
+projects: []
+tags: [meta-analysis]
+
+# Content
+fulltext:
 pdf: https://osf.io/386dy/
-fulltext: https://osf.io/pqvqy/
-github:
-f1000:
+
+# Links
 doi:
-dryad_doi:
-figshare_doi:
-altmetric_id:
-category: posters
-tags: []
+
+# Data and code
+github: 
+neurovault:
+openfmri:
+osf: https://osf.io/pqvqy/
 ---
 {% include JB/setup %}
 

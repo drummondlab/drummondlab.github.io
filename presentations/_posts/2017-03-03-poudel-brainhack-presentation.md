@@ -1,22 +1,26 @@
 ---
 layout: presentation
 title: "Brain activity following positive and negative performance feedback among abstinent smokers"
-year: "2017"
-shortref: "Poudel. <i>BrainHack Global</i> 2017"
 nickname: 2017-03-03-poudel-brainhack-presentation
-conference: "BrainHack Global"
 authors: "Poudel R"
+year: "2017"
+conference: "BrainHack Global"
 image: /assets/images/talks/2017-03-03-poudel-brainhack-presentation.png
-redirect_from:
-slides:
-github:
-f1000:
-doi:
-dryad_doi:
-figshare_doi:
-altmetric_id:
-category: presentations
+projects: []
 tags: []
+
+# Content
+slides:
+video:
+
+# Links
+doi:
+
+# Data and code
+github: []
+neurovault: []
+openfmri: []
+osf:
 ---
 {% include JB/setup %}
 

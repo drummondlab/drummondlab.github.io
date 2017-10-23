@@ -1,34 +1,35 @@
 ---
 layout: paper
 title: "Neural Signatures of Cognitive Flexibility and Reward Sensitivity Following Nicotinic Receptor Stimulation in Dependent Smokers"
-year: "2017"
-shortref: "Lesage <i>et al. Jama Psychiatry</i> 2017"
 nickname: lesage-smokers
-journal: "JAMA Psychiatry"
-volume:
-issue:
-pages:
 authors: "Lesage E, Aronson SE, Sutherland MT, Ross TJ, Salmeron BJ, Stein EA"
-image: /assets/images/papers/2017-06-01-lesage-smokers.png
-redirect_from:
+year: "2017"
+journal: "JAMA Psychiatry"
+volume: 74
+issue: 6
+pages: 632-640
+is_published: true
+image: /assets/images/papers/jama-psychiatry.png
+projects: []
+tags: []
+
+# Text
 fulltext: https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2618129
 pdf:
 pdflink:
-github:
-pmid:
 pmcid:
-f1000:
+preprint:
+supplement:
+
+# Links
 doi: "10.1001/jamapsychiatry.2017.0400"
-dryad_doi:
-figshare_doi:
-altmetric_id:
-category: papers
-published: true
-embargo: false
-peerreview: false
-review: false
-projects: []
-tags: []
+pmid: 28403383
+
+# Data and code
+github:
+neurovault:
+openfmri:
+osf:
 ---
 {% include JB/setup %}
 

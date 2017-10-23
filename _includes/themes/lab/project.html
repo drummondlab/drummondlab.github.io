@@ -17,6 +17,7 @@
       <img class="pull-left pad-right media-object paper-image" src="{{ image }}" style="border:1px solid #021a40;">
     </div>
     <div class="bigspacer"></div>
+
     {% if page.grant %}
       <div class="smallhead">
         Funding
@@ -26,6 +27,56 @@
       </div>
       <div class="bigspacer"></div>
     {% endif %}
+
+		{% if page.github %}
+			<div class="smallhead subtle">
+				Source Code
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				{% for repo in page.github %}
+					<i class="fa fa-github-alt fa-fw"></i>
+					<a class="off" href="{{ repo }}">{{ repo | remove: 'https://github.com/' }}</a>
+					<div class="smallspacer"></div>
+				{% endfor %}
+			</div>
+			<div class="bigspacer"></div>
+		{% endif %}
+
+		{% if page.openfmri or page.neurovault %}
+			<div class="smallhead subtle">
+				Data
+			</div>
+
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				{% for dset in page.openfmri %}
+					<i class="fa fa-database fa-fw"></i>
+					<a class="off" href="https://openfmri.org/dataset/{{ dset }}">OpenfMRI: {{ dset }}</a>
+					<div class="smallspacer"></div>
+				{% endfor %}
+
+				{% for coll in page.neurovault %}
+					<i class="fa fa-database fa-fw"></i>
+					<a class="off" href="https://neurovault.org/collections/{{ coll }}">Neurovault: {{ coll }}</a>
+					<div class="smallspacer"></div>
+				{% endfor %}
+			</div>
+			<div class="bigspacer"></div>
+		{% endif %}
+
+		{% if page.osf %}
+			<div class="smallhead subtle">
+				Additional Resources
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="ai ai-osf ai-fw"></i>
+				<a class="off" href="{{ page.osf }}">Open Science Framework</a>
+			</div>
+			<div class="bigspacer"></div>
+		{% endif %}
+
     <div class="smallhead">
       Contributors
     </div>
@@ -41,7 +92,8 @@
       {% endfor %}
     {% endfor %}
     <div class="bigspacer"></div>
-    </div>
+  </div>
+
   <div class="col-md-9">
     <div class="content">
       {{ content }}

@@ -46,7 +46,15 @@ navorder: 5
 	                <div class="smallhead media-heading">
 	                    <a href="{{ product.url }}" class="off">{{ product.title }}</a>
 	                </div>
-	                <p class="note">{{ product.shortref }}</p>
+                  <p>
+                    <div class="note">
+                      {{ product.authors }},
+                      <span class="journal">
+                        {{ product.conference }}
+                      </span>
+                      ({{ product.year }}).
+                    </div>
+                  </p>
 	            </div>
 	        </div>
 				</div>

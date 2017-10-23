@@ -1,23 +1,26 @@
 ---
 layout: presentation
 title: "Meta-analytic clustering dissociates activation and behavior profiles across reward processing data"
-year: "2017"
-shortref: "Flannery <i>et al. OHBM</i> 2017"
 nickname: 2017-06-26-flannery-reward-processing-presentation
-conference: "HBM"
 authors: "Flannery JS, Riedel MC, Poudel R, Salo T, Bottenhorn KL, Hill LD, Laird AR, Sutherland MT"
+year: "2017"
+conference: "HBM"
 image: /assets/images/talks/2017-06-26-flannery-reward-processing-presentation.png
-redirect_from:
+projects: []
+tags: [meta-analysis]
+
+# Content
 slides:
 video: https://www.pathlms.com/ohbm/courses/5158/sections/7815/video_presentations/78438
-github:
-f1000:
+
+# Links
 doi:
-dryad_doi:
-figshare_doi:
-altmetric_id:
-category: presentations
-tags: []
+
+# Data and code
+github: 
+neurovault:
+openfmri:
+osf:
 ---
 {% include JB/setup %}
 

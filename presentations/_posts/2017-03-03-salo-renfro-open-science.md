@@ -1,22 +1,26 @@
 ---
 layout: presentation
 title: "Open Science Tools: GitHub, BIDS, & Preregistration"
-year: "2017"
-shortref: "Salo & Renfro. <i>BrainHack Global</i> 2017"
 nickname: 2017-03-03-salo-renfro-open-science
-conference: "BrainHack Global"
 authors: "Salo T, Renfro AG"
+year: "2017"
+conference: "BrainHack Global"
 image: /assets/images/talks/2017-03-03-salo-renfro-open-science.png
-redirect_from:
-slides: https://osf.io/557vf/
-github:
-f1000:
-doi:
-dryad_doi:
-figshare_doi:
-altmetric_id:
-category: presentations
+projects: []
 tags: []
+
+# Content
+slides:
+video:
+
+# Links
+doi:
+
+# Data and code
+github: 
+neurovault:
+openfmri:
+osf: https://osf.io/557vf/
 ---
 {% include JB/setup %}
 
