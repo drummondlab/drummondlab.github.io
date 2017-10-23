@@ -1,14 +1,21 @@
 ---
 layout: project
 title: "Neuroimaging meta-analytics for addiction: Nodes, networks, and new heuristics"
-handle: addiction-meta-analytics
-image:
-contributors: [alaird, msutherland, mriedel]
+contributors: [alaird, msutherland, mriedel, jflannery]
+handle: pace
+
+# Optional
 grant: R01DA041353
 grant_url: https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=R01DA041353&arg_ProgOfficeCode=114
-category: projects
-tags: []
+image:
 tagline: Better understanding the neurobiology of addiction through meta-analysis.
+tags: [meta-analysis]
+
+# Data and code
+github:
+neurovault:
+openfmri:
+osf:
 ---
 {% include JB/setup %}
 

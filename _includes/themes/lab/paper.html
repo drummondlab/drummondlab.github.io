@@ -17,8 +17,9 @@ with gratitude.
 			<img class="pull-left pad-right media-object paper-image" src="{{ image }}" style="border:1px solid #021a40;">
 		</div>
 		<div class="bigspacer"></div>
-		<div class="glyphbox note"> <!-- DAD: what is this class? -->
-			{% if page.pdf or page.pdflink or page.fulltext %}
+
+		<div class="glyphbox note">
+			{% if page.pdf or page.pdflink or page.fulltext or page.preprint or page.supplement %}
 				<div class="smallhead subtle">
 					Full text
 				</div>
@@ -27,42 +28,46 @@ with gratitude.
 					{% if page.pdflink %}
 						<i class="fa fa-file-pdf-o fa-fw"></i>
 						<a class="off" href="{{ page.pdflink }}">Journal PDF</a>
-						<br/>
-					{% endif %}
-
-					{% if page.pdf %}
+						<div class="smallspacer"></div>
+					{% elsif page.pdf %}
 						<i class="fa fa-file-pdf-o fa-fw"></i>
 						<a class="off" href="{{ page.pdf }}">PDF</a>
-						<br/>
+						<div class="smallspacer"></div>
 					{% endif %}
 
 					{% if page.fulltext %}
 						<i class="fa fa-external-link fa-fw"></i>
 						<a class="off" href="{{ page.fulltext }}">Journal HTML</a>
+						<div class="smallspacer"></div>
+					{% elsif page.pmcid %}
+						<i class="ai ai-pubmed ai-fw"></i>
+						<a class="off" href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ page.pmcid }}">Pubmed Central</a>
+						<div class="smallspacer"></div>
+					{% endif %}
+
+					{% if page.supplement %}
+						<i class="fa fa-paperclip fa-fw"></i>
+						<a class="off" href="{{ page.supplement }}">Supplement</a>
+						<div class="smallspacer"></div>
+					{% endif %}
+
+					{% if page.preprint %}
+						<i class="ai ai-open-access ai-fw"></i>
+						<a class="off" href="{{ page.preprint }}">Preprint</a>
+						<div class="smallspacer"></div>
 					{% endif %}
 				</div>
 				<div class="bigspacer"></div>
 			{% endif %}
 
-			{% if page.supplement %}
-				<div class="smallhead subtle">
-					Supplement
-				</div>
-				<div class="pad-left note">
-					<div class="smallspacer"></div>
-					<i class="fa fa-paperclip fa-fw"></i>
-					<a class="off" href="{{ page.supplement }}">{{ page.supplement | split: '/' | last }}</a>
-				</div>
-				<div class="bigspacer"></div>
-			{% endif %}
-
-			{% if page.pmid %}
+			{% if page.pmcid %}
+			{% elsif page.pmid %}
 				<div class="smallhead subtle">
 					Pubmed
 				</div>
 				<div class="pad-left note">
 					<div class="smallspacer"></div>
-					<i class="fa fa-external-link fa-fw"></i>
+					<i class="ai ai-pubmed ai-fw"></i>
 					<a class="off" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ page.pmid }}">{{ page.pmid }}</a>
 				</div>
 				<div class="bigspacer"></div>
@@ -74,7 +79,7 @@ with gratitude.
 				</div>
 				<div class="pad-left note">
 					<div class="smallspacer"></div>
-					<i class="fa fa-external-link fa-fw"></i>
+					<i class="ai ai-doi ai-fw"></i>
 					<a class="off" href="http://dx.doi.org/{{ page.doi }}">{{ page.doi }}</a>
 				</div>
 				<div class="bigspacer"></div>
@@ -82,49 +87,52 @@ with gratitude.
 
 			{% if page.github %}
 				<div class="smallhead subtle">
-					Source code
+					Source Code
 				</div>
 				<div class="pad-left note">
 					<div class="smallspacer"></div>
-					<i class="fa fa-cog fa-fw"></i>
-					<a class="off" href="{{ page.github }}">{{ page.github | remove: 'http://' | remove: 'https://' }}</a>
+					{% for repo in page.github %}
+						<i class="fa fa-github-alt fa-fw"></i>
+						<a class="off" href="{{ repo }}">{{ repo | remove: 'https://github.com/' }}</a>
+						<div class="smallspacer"></div>
+					{% endfor %}
 				</div>
 				<div class="bigspacer"></div>
 			{% endif %}
 
-			{% if page.dryad_doi %}
-			<div class="smallhead subtle">
-				Data
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-database fa-fw"></i>
-				<a class="off" href="http://dx.doi.org/{{ page.dryad_doi }}">Dryad</a>
-			</div>
-			<div class="bigspacer"></div>
+			{% if page.openfmri or page.neurovault %}
+				<div class="smallhead subtle">
+					Data
+				</div>
+
+				<div class="pad-left note">
+					<div class="smallspacer"></div>
+					{% for dset in page.openfmri %}
+						<i class="fa fa-database fa-fw"></i>
+						<a class="off" href="https://openfmri.org/dataset/{{ dset }}">OpenfMRI: {{ dset }}</a>
+						<div class="smallspacer"></div>
+					{% endfor %}
+
+					{% for coll in page.neurovault %}
+						<i class="fa fa-database fa-fw"></i>
+						<a class="off" href="https://neurovault.org/collections/{{ coll }}">Neurovault: {{ coll }}</a>
+						<div class="smallspacer"></div>
+					{% endfor %}
+				</div>
+				<div class="bigspacer"></div>
 			{% endif %}
 
-			{% if page.figshare_doi %}
-			<div class="smallhead subtle">
-				Data
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-database fa-fw"></i>
-				<a class="off" href="http://doi.org/{{ page.figshare_doi }}">Figshare</a>
-			</div>
-			<div class="bigspacer"></div>
-			{% endif %}
-
-			{% if page.altmetric_id %}
-			<div class="smallhead subtle">
-				Altmetrics
-			</div>
-			<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-			<div class="altmetric-embed" data-badge-popover="right" data-doi={{ page.doi }} data-badge-type="donut" data-altmetric-id={{ page.altmetric_id }} data-hide-no-mentions="true">
-			</div>
-			<div class="bigspacer"></div>
-			{% endif %}
+      {% if page.osf %}
+        <div class="smallhead subtle">
+          Additional Resources
+        </div>
+        <div class="pad-left note">
+          <div class="smallspacer"></div>
+          <i class="ai ai-osf ai-fw"></i>
+          <a class="off" href="{{ page.osf }}">Open Science Framework</a>
+        </div>
+        <div class="bigspacer"></div>
+      {% endif %}
 
 			<div class="smallhead subtle">
 				Share
@@ -140,8 +148,19 @@ with gratitude.
 
 	<div class="col-md-9">
 		<div class="media-body titlebox">
+			{% if page.doi %}
+				<!-- a small section for the almetric badge if one is available -->
+				<div class="col-md-2.5" style="float:right">
+				  <div data-badge-type="large-donut" data-doi="{{ page.doi }}" data-hide-no-mentions="true" class="altmetric-embed" data-badge-popover='left' style="float:right;clear:both">
+				</div>
+			{% else %}
+				<div class="col-md-2.5" style="float:right">
+					<div data-badge-type="large-donut" data-doi="" data-hide-no-mentions="true" class="altmetric-embed" data-badge-popover='left' style="float:right;clear:both">
+				</div>
+			{% endif %}
+		  </div>
 			<div class="title media-heading">
-				{% if page.tags contains "preprint" %}
+				{% if page.tags contains "preprint" and page.is_published == false %}
 				  [PREPRINT] {{ page.title }}
 				{% elsif page.tags contains "chapter" %}
 				  [CHAPTER] {{ page.title }}
@@ -151,6 +170,8 @@ with gratitude.
 				  {{ page.title }}
 				{% endif %}
 			</div>
+
+			<!-- An automatically compiled reference -->
 			<p>
 			<div class="smallhead">
 				<!-- This took a while, but it links the name of each author from the lab
@@ -160,39 +181,32 @@ with gratitude.
 				    {% assign author_in_lab = "false" %}
 				    {% for member in site.categories.team %}
 					      {% if author == member.science_name %}
-    								{% assign author_in_lab = "true" %}
+    								{% assign author_in_lab = true %}
 						        <a class="off" href="{{ member.url }}">{{ member.science_name }}</a>,
 						    {% endif %}
 				    {% endfor %}
-					  {% if author_in_lab != "true" %}
+					  {% if author_in_lab != true %}
 					      {{ author }},
 					  {% endif %}
 				{% endfor %}
 				<span class="journal">
-				{{ page.journal }}
+				  {{ page.journal }}
 				</span>
 				{% if page.volume %}
 				 {{ page.volume }}
 				{% endif %}
 				{% if page.issue %}
-				({{ page.issue }})
+				  ({{ page.issue }})
 				{% endif %}
 				{% if page.pages %}
-				:{{ page.pages }}
+				  :{{ page.pages }}
 				{% endif %}
 				({{ page.year }}).
 			</div>
-
-			<hr/>
-			{% if page.embargo %}
-				<div class="post">
-					In press...watch this space!
-				</div>
-			{% else %}
-				<div class="post">
-					{{ content }}
-				</div>
-			{% endif %}
+		</div>
+		<hr/>
+		<div class="post">
+			{{ content }}
 		</div>
 		<!-- comment out unless we want the categories and tags
 		{% unless page.categories == empty %}
@@ -218,3 +232,9 @@ with gratitude.
 </div>
 
 <div class="bigspacer"></div>
+
+<!-- script for altmetric badges and js -->
+<script src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>

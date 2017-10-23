@@ -1,34 +1,35 @@
 ---
 layout: paper
 title: "Neural architecture underlying classification of face perception paradigms."
-year: "2015"
-shortref: "Laird <i>et al. Neuroimage</i> 2015"
 nickname: 2015-10-01-laird-face-classification
-journal: "Neuroimage"
-volume:
-issue:
-pages:
 authors: "Laird AR, Riedel MC, Sutherland MT, Eickhoff SB, Ray KL, Uecker AM, Fox PM, Turner JA, Fox PT"
+year: "2015"
+journal: "Neuroimage"
+volume: 119
+issue:
+pages: 70-80
+is_published: true
 image: /assets/images/papers/2015-10-01-laird-face-classification.png
-redirect_from:
-fulltext: http://www.sciencedirect.com/science/article/pii/S1053811915005480?via%3Dihub
-pdf:
-pdflink:
-github:
-pmid:
-pmcid:
-f1000:
-doi: "10.1016/j.neuroimage.2015.06.044"
-dryad_doi:
-figshare_doi:
-altmetric_id:
-category: papers
-published: true
-embargo: false
-peerreview: false
-review: false
 projects: []
 tags: [meta-analysis]
+
+# Text
+fulltext:
+pdf: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4564321/pdf/nihms708070.pdf
+pdflink:
+pmcid: PMC4564321
+preprint:
+supplement: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4564321/bin/NIHMS708070-supplement.docx
+
+# Links
+doi: "10.1016/j.neuroimage.2015.06.044"
+pmid: 26093327
+
+# Data and code
+github:
+neurovault:
+openfmri:
+osf:
 ---
 {% include JB/setup %}
 
