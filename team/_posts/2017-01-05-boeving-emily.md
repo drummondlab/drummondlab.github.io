@@ -10,7 +10,7 @@ image: /assets/images/team/emily-boeving.png
 alumni: false
 
 # social
-cv:
+cv: https://drive.google.com/open?id=0B543K-QXbp21RjBFQVZocEtsQkk
 email: eboev001@fiu.edu
 github: emily39727
 orcid:
