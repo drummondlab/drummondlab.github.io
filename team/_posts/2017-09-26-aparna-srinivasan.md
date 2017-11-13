@@ -8,7 +8,7 @@ email:
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/default-member.svg
+image: /assets/images/team/aparna-srinivasan.png
 alum: false
 ---
 Aparna joined the lab in 2017 as an undergraduate researcher.
