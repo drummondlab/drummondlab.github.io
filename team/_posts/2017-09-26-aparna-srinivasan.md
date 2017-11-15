@@ -11,4 +11,4 @@ scholar:
 image: /assets/images/team/aparna-srinivasan.png
 alum: false
 ---
-Aparna joined the lab in 2017 as an undergraduate researcher.
+Aparna is a third-year undergraduate majoring in biology and mathematics.
