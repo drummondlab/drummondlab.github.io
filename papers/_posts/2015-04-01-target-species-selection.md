@@ -8,7 +8,7 @@ journal: "Combustion and Flame"
 volume: 162
 issue: 4
 pages: 1358–1374
-authors: "NJ Curtis, KE Niemeyer, and CJ Sung"
+authors: "Curtis NJ, Niemeyer KE, Sung CJ"
 image: /assets/images/papers/target-species-selection-abstract.svg
 fulltext: http://www.sciencedirect.com/science/article/pii/S0010218014003460
 pdf:

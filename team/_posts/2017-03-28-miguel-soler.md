@@ -17,7 +17,7 @@ Miguel graduated with his MS in Mechanical Engineering in December 2016. His res
 
 <i class="fa fa-book" aria-hidden="true"></i> MS thesis: [Computational Investigation on the Effects of Arc Location in Vacuum Arc Remelting](http://hdl.handle.net/1957/60070)
 
-Current position: Product engineer at [Sierra Olympic Technologies](https://www.sierraolympic.com/)
+Current position: Product Engineer at [Sierra Olympic Technologies](https://www.sierraolympic.com/).
 
 [Oregon State University]: http://oregonstate.edu/
 [School of Mechanical, Industrial, and Manufacturing Engineering]: http://mime.oregonstate.edu

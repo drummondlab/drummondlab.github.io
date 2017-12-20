@@ -8,7 +8,7 @@ journal: "Combustion and Flame"
 volume: 158
 issue: 8
 pages: 1439–1443
-authors: "KE Niemeyer and CJ Sung"
+authors: "Niemeyer KE, Sung CJ"
 image: /assets/images/papers/skeletal-reduction-graph-search-abstract.svg
 fulltext: http://www.sciencedirect.com/science/article/pii/S0010218010003640
 pdf:

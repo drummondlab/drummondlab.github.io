@@ -8,7 +8,7 @@ journal: "Journal of Supercomputing"
 volume: 67
 issue: 2
 pages: 528–564
-authors: "KE Niemeyer and CJ Sung"
+authors: "Niemeyer KE, Sung CJ"
 image: /assets/images/papers/review-GPU-CFD-abstract.png
 fulltext:
 pdf:

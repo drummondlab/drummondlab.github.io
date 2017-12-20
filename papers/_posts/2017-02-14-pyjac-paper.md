@@ -8,7 +8,7 @@ journal: "Computer Physics Communications"
 volume: 215
 issue:
 pages: 188–203
-authors: "KE Niemeyer, NJ Curtis, and CJ Sung"
+authors: "Niemeyer KE, Curtis NJ, Sung CJ"
 image: /assets/images/papers/pyjac-paper-abstract.svg
 fulltext: http://www.sciencedirect.com/science/article/pii/S0010465517300462
 pdf:

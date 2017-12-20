@@ -8,7 +8,7 @@ journal: "Energy and Fuels"
 volume: 31
 issue: 1
 pages: 867-881
-authors: "X Hui, KE Niemeyer, KB Brady, and CJ Sung"
+authors: "Hui X, Niemeyer KE, Brady KB, Sung CJ"
 image: /assets/images/papers/butanol-structure.png
 fulltext: http://pubs.acs.org/doi/abs/10.1021/acs.energyfuels.6b01857
 pdf:

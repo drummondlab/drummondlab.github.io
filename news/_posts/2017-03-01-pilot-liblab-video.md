@@ -1,11 +1,11 @@
 ---
 layout: news
-title: "AJ featured in STEAM outreach video"
+title: "NRG in the news"
 author: "Kyle Niemeyer"
 author_handle: "kyle"
 image: /assets/images/news/default-news.svg
 category: news
-tags: [team, outreach, liblab]
+tags: [team, outreach, media]
 ---
 [AJ Fillo][1], PhD candidate in the NRG, developed and starred in the [pilot LIB LAB episode][2] episode, an educational STEAM outreach video on propulsion.
 

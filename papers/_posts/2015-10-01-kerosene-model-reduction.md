@@ -8,7 +8,7 @@ journal: "Acta Mechanica Sinica"
 volume: 31
 issue: 5
 pages: 732–740
-authors: "F Zhong, S Ma, X Zhang, CJ Sung, and KE Niemeyer"
+authors: "Zhong F, Ma S, Zhang X, Sung CJ, Niemeyer KE"
 image: /assets/images/papers/kerosene-model-reduction-abstract.svg
 fulltext: https://link.springer.com/article/10.1007%2Fs10409-015-0434-5
 pdf: /assets/pdfs/Zhong_etal_Acta_Mech_Sin_2015.pdf

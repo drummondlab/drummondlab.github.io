@@ -8,7 +8,7 @@ journal: "Combustion and Flame"
 volume: 157
 issue: 9
 pages: 1760–1770
-authors: "KE Niemeyer, CJ Sung, and MP Raju"
+authors: "Niemeyer KE, Sung CJ, Raju MP"
 image: /assets/images/papers/skeletal-reduction-paper-abstract.svg
 fulltext: http://www.sciencedirect.com/science/article/pii/S0010218010000039?via%3Dihub
 pdf:

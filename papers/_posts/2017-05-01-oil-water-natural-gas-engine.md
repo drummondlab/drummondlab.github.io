@@ -8,7 +8,7 @@ journal: "Journal of Natural Gas Science and Engineering"
 volume: 41
 issue:
 pages: 30–39
-authors: "S Menon, H Ganti, KE Niemeyer, and CL Hagen"
+authors: "Menon S, Ganti H, Niemeyer KE, Hagen CL"
 image: /assets/images/papers/oil-water-natural-gas-engine-abstract.png
 fulltext: http://www.sciencedirect.com/science/article/pii/S0010218017300354
 pdf:

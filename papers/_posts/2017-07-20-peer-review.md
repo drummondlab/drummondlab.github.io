@@ -8,7 +8,7 @@ journal: "F1000 Research"
 volume: 6
 issue:
 pages: 1151
-authors: "JP Tennant, JM Dugan, D Graziotin, DC Jacques, F Waldner, D Mietchen, Y Elkhatib, LB Collister, CK Pikas, T Crick, P Masuzzo, A Caravaggi, DR Berg, KE Niemeyer, T Ross-Hellauer, S Mannheimer, L Rigling, DS Katz, B Greshake, J Pacheco-Mendoza, N Fatima, M Poblet, M Isaakidis, D Erwin Irawan, S Renaut, CR Madan, L Matthias, J Nørgaard Kjær, DP O'Donnell, C Neylon, S Kearns, M Selvaraju, and K Colomb"
+authors: "Tennant JP, Dugan JM, Graziotin D, Jacques DC, Waldner F, Mietchen D, Elkhatib Y, Collister LB, Pikas CK, Crick T, Masuzzo P, Caravaggi A, Berg DR, Niemeyer KE, Ross-Hellauer T, Mannheimer S, Rigling L, Katz DS, Greshake B, Pacheco-Mendoza J, Fatima N, Poblet M, Isaakidis M, Erwin Irawan D, Renaut S, Madan CR, Matthias L, Nørgaard Kjær J, O'Donnell DP, Neylon C, Kearns S, Selvaraju M, Colomb K"
 image: /assets/images/papers/peer-review-abstract.png
 fulltext: https://f1000research.com/articles/6-1151/
 pdf:

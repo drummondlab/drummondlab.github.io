@@ -8,7 +8,7 @@ journal: "Combustion and Flame"
 volume: 162
 issue: 10
 pages: 3596–3611
-authors: "KB Brady, X Hui, KE Niemeyer, and CJ Sung"
+authors: "Brady KB, Hui X, Niemeyer KE, Sung CJ"
 image: /assets/images/papers/nbutanol-counterflow-abstract.png
 fulltext: http://www.sciencedirect.com/science/article/pii/S0010218015001984
 pdf:

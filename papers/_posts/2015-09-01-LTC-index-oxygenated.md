@@ -8,7 +8,7 @@ journal: "Fuel"
 volume: 155
 issue:
 pages: 14–24
-authors: "KE Niemeyer, SR Daly, WJ Cannella, and CL Hagen"
+authors: "Niemeyer KE, Daly SR, Cannella WJ, Hagen CL"
 image: /assets/images/papers/LTC-index-oxygenated-abstract.png
 fulltext: http://www.sciencedirect.com/science/article/pii/S0016236115003932
 pdf:

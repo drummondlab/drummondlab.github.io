@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Tejas Mulky"
-position: Graduate student
+position: MS student
 nickname: Tejas
 handle: mulky
 email: mulkyt@oregonstate.edu

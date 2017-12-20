@@ -8,7 +8,7 @@ journal: "Journal of Computational Physics"
 volume: 256
 issue:
 pages: 854–871
-authors: "KE Niemeyer and CJ Sung"
+authors: "Niemeyer KE, Sung CJ"
 image: /assets/images/papers/integrator-abstract.png
 fulltext: http://www.sciencedirect.com/science/article/pii/S0021999113006396
 pdf:

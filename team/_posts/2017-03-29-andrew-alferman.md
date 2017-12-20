@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Andrew Alferman"
-position: Graduate student
+position: MS student
 nickname: Andrew
 handle: alferman
 email: alfermaa@oregonstate.edu
