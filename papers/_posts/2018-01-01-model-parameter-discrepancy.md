@@ -9,7 +9,7 @@ volume: 190
 issue:
 pages: 284–292
 authors: "Sirumalla SK, Mayer MA, Niemeyer KE, West RH"
-image: /assets/images/papers/default-paper.png
+image: /assets/images/papers/model-parameter-discrepancy.png
 fulltext: http://www.sciencedirect.com/science/article/pii/S0010218017304571
 pdf:
 pdflink:
