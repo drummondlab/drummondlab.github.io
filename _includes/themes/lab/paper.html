@@ -125,7 +125,7 @@ with gratitude.
 			</div>
 			<div class="bigspacer"></div>
 			{% endif %}
-			{% if page.dryad_doi or page.figshare %}
+			{% if page.dryad_doi or page.figshare or page.zenodo %}
 			<div class="smallhead subtle">
 				Data
 			</div>
@@ -137,6 +137,9 @@ with gratitude.
                 {% endif %}
                 {% if page.figshare %}
                 <a class="off" href="https://doi.org/{{ page.figshare }}">Figshare</a>
+                {% endif %}
+                {% if page.zenodo %}
+                <a class="off" href="https://doi.org/{{ page.zenodo }}">Zenodo</a>
                 {% endif %}
 			</div>
 			<div class="bigspacer"></div>
