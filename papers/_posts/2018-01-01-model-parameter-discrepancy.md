@@ -19,7 +19,6 @@ github:
 doi: 10.1016/j.combustflame.2017.11.018
 dryad_doi:
 altmetric_id:
-figshare: 10.5281/zenodo.1054013
 zenodo: 10.5281/zenodo.1054013
 category: paper
 published: true
@@ -37,7 +36,7 @@ bibtex: >
     author = {Sai Krishna Sirumalla and Morgan A. Mayer and Kyle E. Niemeyer and Richard H. West},
     title = {Assessing impacts of discrepancies in model parameters on autoignition model performance: A case study using butanol},
     journal = {Combustion and Flame}
-}
+  }
 ---
 {% include JB/setup %}
 
