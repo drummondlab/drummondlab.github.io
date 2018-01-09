@@ -10,8 +10,8 @@ github:
 scholar:
 image: /assets/images/team/kenny-warren.jpg
 cv:
-alum: false
+alum: true
 ---
-Kenny is undergraduate student in the BioResource Research/Bioenergy program studying smoldering combustion.
+Kenny was an undergraduate student in the BioResource Research/Bioenergy program studying smoldering combustion.
 
 [Oregon State University]: http://oregonstate.edu/
