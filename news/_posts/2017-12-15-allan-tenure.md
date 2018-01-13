@@ -7,6 +7,6 @@ image: /assets/images/news/default-news.png
 category: news
 tags: [award]
 ---
-[Allan] received tenure at UChicago, with promotion to Associate Professor effective July 1, 2018.
+Today [Allan] received tenure at UChicago, with promotion to Associate Professor effective July 1, 2018.
 
 [Allan]: /team/d-allan-drummond
