@@ -4,15 +4,16 @@ title: "Mistranslation-induced protein misfolding as a dominant constraint on co
 year: "2008"
 shortref: "Drummond and Wilke <i>Cell</i> 2008"
 shorttitle: "Mistranslation-induced protein misfolding constrains evolution"
-nickname: mistranslation-dominant
+nickname: mistranslation-misfolding
 journal: "Cell"
 volume: 134
 issue: 2
-pages: 341--352
+pages: 341–352
 authors: "Drummond DA and Wilke CO"
 image: /assets/images/papers/default-paper.svg
-pdf: 
-pdflink: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2696314/pdf/nihms61423.pdf
+pdf: /assets/pdfs/Drummond08-MistranslationInducedMisfoldingAndEvolution.pdf
+pdflink:
+supplement: /assets/pdfs/DrummondWilke2008-Supplemental.pdf
 github: 
 pmid: 18662548
 pmcid: PMC2696314
