@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Accelerating solutions of one-dimensional unsteady PDEs with GPU-based swept time–space decomposition"
+title: "ChemKED: A human- and machine-readable data standard for chemical kinetics experiments"
 year: 2018
 shortref: "Weber and Niemeyer <i>Int J Chem Kinet</i> 2018"
 nickname: chemked-ijck
