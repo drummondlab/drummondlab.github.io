@@ -4,7 +4,7 @@ title: "Braam Beresford"
 position: Undergraduate student
 nickname: Braam
 handle: beresford
-email: martid@oregonstate.edu
+email: beresfob@oregonstate.edu
 github:
 scholar:
 image: /assets/images/team/braam.jpg
