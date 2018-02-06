@@ -7,7 +7,7 @@ handle: beresford
 email: martid@oregonstate.edu
 github:
 scholar:
-image: /assets/images/team/braam.jpeg
+image: /assets/images/team/braam.jpg
 cv:
 alum: false
 ---
