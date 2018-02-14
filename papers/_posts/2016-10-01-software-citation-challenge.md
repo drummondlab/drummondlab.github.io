@@ -9,7 +9,7 @@ volume: 7
 issue: 4
 pages: 16
 authors: "Niemeyer KE, Smith AM, Katz DS"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/software-citation-challenge.png
 fulltext:
 pdf:
 pdflink:
