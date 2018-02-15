@@ -9,7 +9,7 @@ volume: 6
 issue: 1
 pages: 10
 authors: "Katz DS, Niemeyer KE, Gesing S, Hwang L, Bangerth W, Hettrick S, Idaszak R, Salac J, Chue Hong N, Núñez-Corrales S, Allen A, Geiger RS, Miller J, Chen E, Dubey A, Lago P"
-image: /assets/images/papers/wssspe4-jors.png
+image: /assets/images/papers/wssspe4-jors.svg
 fulltext: https://openresearchsoftware.metajnl.com/articles/10.5334/jors.184/
 pdf:
 pdflink:
