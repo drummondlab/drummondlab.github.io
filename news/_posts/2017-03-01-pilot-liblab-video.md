@@ -1,6 +1,6 @@
 ---
 layout: news
-title: "NRG in the news"
+title: "AJ in the news"
 author: "Kyle Niemeyer"
 author_handle: "kyle"
 image: /assets/images/news/default-news.svg
