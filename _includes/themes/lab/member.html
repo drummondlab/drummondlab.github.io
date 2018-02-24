@@ -139,6 +139,28 @@
             {% endfor %}
         {% endif %}
 
+
+        {% for paper in site.data.conference-papers %}
+            {% if paper.authors contains searchstring %}
+                {% assign papersq = true %}
+            {% endif %}
+        {% endfor %}
+
+        {% if papersq == true %}
+            <div class="bigspacer"></div>
+            <div class="head">Conference Papers</div>
+            <div class="spacer"></div>
+            {% for paper in site.data.conference-papers %}
+                {% if paper.authors contains searchstring %}
+                    {% if paper.pdf %}
+                    <p><a href="{{ paper.pdf }}" class="off"><i class="fa fa-file-text-o" aria-hidden="true"></i> {{ paper.title }}</a>
+                    {% else %}
+                    <p><i class="fa fa-file-text-o" aria-hidden="true"></i> {{ paper.title }}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+
         {% for post in site.categories.blog %}
             {% if member.handle == post.author_handle %}
                 {% assign postsq = true %}
