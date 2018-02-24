@@ -153,9 +153,9 @@
             {% for paper in site.data.conference-papers %}
                 {% if paper.authors contains searchstring %}
                     {% if paper.pdf %}
-                    <p><a href="{{ paper.pdf }}" class="off"><i class="fa fa-file-text-o" aria-hidden="true"></i> {{ paper.title }}</a>
+                    <p><a href="{{ paper.pdf }}" class="off"><i class="fa fa-file-text-o" aria-hidden="true"></i> {{ paper.authors }}. "{{ paper.title }}." {{ paper.meeting }}. {{ paper.month }} {{ paper.year }}</a>
                     {% else %}
-                    <p><i class="fa fa-file-text-o" aria-hidden="true"></i> {{ paper.title }}
+                    <p><i class="fa fa-file-text-o" aria-hidden="true"></i> {{ paper.authors }}. "{{ paper.title }}." {{ paper.meeting }}. {{ paper.month }} {{ paper.year }}
                     {% endif %}
                 {% endif %}
             {% endfor %}
