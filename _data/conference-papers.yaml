@@ -4,7 +4,7 @@
   month: October
   year: 2017
 
-- title: pyMARS: An open software package for reducing chemical kinetics models
+- title: "pyMARS: An open software package for reducing chemical kinetics models"
   authors: Mestas PO, Clayton P, Niemeyer KE
   meeting: 2017 Fall Technical Meeting of the Western States Section of the Combustion Institute, Laramie, WY, USA
   month: October
@@ -40,26 +40,26 @@
   month: July
   year: 2017
 
-- title: ChemKED: A human- and machine-readable data standard for chemical kinetics experiments
+- title: "ChemKED: A human- and machine-readable data standard for chemical kinetics experiments"
   authors: Weber BW, Niemeyer KE
   meeting: 10th International Conference on Chemical Kinetics, Chicago, IL, USA
   month: May
   year: 2017
-  slides: https://doi.org/10.6084/m9.figshare.5033417
+  slides: "https://doi.org/10.6084/m9.figshare.5033417"
 
-- title: Introducing ChemKED: A human- and machine- readable data standard for chemical kinetics experiments
+- title: "Introducing ChemKED: A human- and machine- readable data standard for chemical kinetics experiments"
   authors: Weber BW, Niemeyer KE
   meeting: 10th National Combustion Meeting, College Park, MD, USA
   month: April
   year: 2017
-  slides: https://doi.org/10.6084/m9.figshare.5082709
+  slides: "https://doi.org/10.6084/m9.figshare.5082709"
 
-- title: Assessing the impact of reaction rate variation on autoignition model performance: butanol
+- title: "Assessing the impact of reaction rate variation on autoignition model performance: butanol"
   authors: Niemeyer KE, Mayer MA, Sirumalla SK, West R
   meeting: 10th National Combustion Meeting, College Park, MD, USA
   month: April
   year: 2017
-  slides: https://doi.org/10.6084/m9.figshare.4924760
+  slides: "https://doi.org/10.6084/m9.figshare.4924760"
 
 - title: Assessing the importance of multicomponent transport properties using direct numerical simulations of premixed, turbulent flames
   authors: Fillo AJ, Schlup J, Blanquart B, Niemeyer KE
@@ -84,21 +84,21 @@
   meeting: AIAA SciTech 2017, Grapevine, TX, USA
   month: January
   year: 2017
-  pdf: https://arxiv.org/abs/1612.02495
+  pdf: "https://arxiv.org/abs/1612.02495"
 
 - title: An autoignition performance comparison of chemical kinetics models for n-heptane
   authors: Niemeyer KE
   meeting: Spring 2016 Meeting of the Western States Section of the Combustion Institute, Seattle, WA, USA
   month: March
   year: 2016
-  pdf: https://doi.org/10.6084/m9.figshare.3120724.v1
+  pdf: "https://doi.org/10.6084/m9.figshare.3120724.v1"
 
-- title: Initial investigation of pyJac: an analytical Jacobian generator for chemical kinetics
+- title: "Initial investigation of pyJac: an analytical Jacobian generator for chemical kinetics"
   authors: Niemeyer KE, Curtis NJ, Sung CJ
   meeting: Fall 2015 Meeting of the Western States Section of the Combustion Institute, Provo, UT, USA
   month: October
   year: 2015
-  pdf: https://doi.org/10.6084/m9.figshare.2075515.v1
+  pdf: "https://doi.org/10.6084/m9.figshare.2075515.v1"
 
 - title: Effect of natural gas conditions on combustion characteristics and overall performance of a novel bimodal internal combustion engine
   authors: Menon S, Ganti H, Niemeyer KE, Hagen CL
@@ -117,42 +117,42 @@
   meeting: 10th US National Combustion Meeting, Park City, UT, USA
   month: May
   year: 2013
-  pdf: https://doi.org/10.6084/m9.figshare.3384967
+  pdf: "https://doi.org/10.6084/m9.figshare.3384967"
 
 - title: Accelerating reactive-flow simulations using graphics processing units
   authors: Niemeyer KE, Sung CJ
   meeting: 51st AIAA Aerospace Sciences Meeting, Grapevine, TX, USA
   month: January
   year: 2013
-  pdf: https://doi.org/10.2514/6.2013-371
+  pdf: "https://doi.org/10.2514/6.2013-371"
 
 - title: Recent Progress and Challenges in Exploiting Graphics Processors for Aeropropulsion Simulations
   authors: Niemeyer KE, Sung CJ
   meeting: Fourth International Symposium on Jet Propulsion and Power Engineering, Xi'an, China
   month: September
   year: 2012
-  pdf: https://doi.org/10.6084/m9.figshare.3384970
+  pdf: "https://doi.org/10.6084/m9.figshare.3384970"
 
-- title: Turbulence-chemistry closure method using graphics processing units: a preliminary test
+- title: "Turbulence-chemistry closure method using graphics processing units: a preliminary test"
   authors: Niemeyer KE, Sung CJ, Fotache CG, Lee JC
   meeting: 7th Fall Technical Meeting of the Eastern States Section of the Combustion Institute, Storrs, CT, USA
   month: March
   year: 2011
-  pdf: https://doi.org/10.6084/m9.figshare.3384964
+  pdf: "https://doi.org/10.6084/m9.figshare.3384964"
 
 - title: Mechanism reduction strategies for multicomponent gasoline surrogate fuels
   authors: Niemeyer KE, Sung CJ
   meeting: 7th National Combustion Meeting, Atlanta, GA, USA
   month: March
   year: 2011
-  pdf: https://doi.org/10.6084/m9.figshare.3384973
+  pdf: "https://doi.org/10.6084/m9.figshare.3384973"
 
-- title: DRGEP-based mechanism reduction strategies: graph search algorithms and skeletal primary reference fuel mechanisms
+- title: "DRGEP-based mechanism reduction strategies: graph search algorithms and skeletal primary reference fuel mechanisms"
   authors: Niemeyer KE, Sung CJ
   meeting: 49th AIAA Aerospace Sciences Meeting, Orlando, FL, USA
   month: January
   year: 2011
-  pdf: https://doi.org/10.2514/6.2011-508
+  pdf: "https://doi.org/10.2514/6.2011-508"
 
 - title: Skeletal mechanism generation of surrogate jet fuels for aeropropulsion modeling
   authors: Sung CJ, Niemeyer KE
@@ -160,25 +160,25 @@
   month: November-December
   year: 2009
   detail: AIP Conference Proceedings, 1233 (2010): 1412-1417
-  pdf: https://doi.org/10.1063/1.3452113
+  pdf: "https://doi.org/10.1063/1.3452113"
 
 - title: Skeletal Mechanism Generation of Surrogate Fuels Using Directed Relation Graph with Error Propagation and Sensitivity Analysis
   authors: Niemeyer KE, Raju MP, Sung CJ
   meeting: 45th AIAA/ASME/SAE/ASEE Joint Propulsion Conference and Exhibit, Denver, CO, USA
   month: August
   year: 2009
-  pdf: https://doi.org/10.2514/6.2009-5495
+  pdf: "https://doi.org/10.2514/6.2009-5495"
 
 - title: Skeletal Mechanism Generation for Surrogate Fuels Using Directed Relation Graph with Error Propagation and Sensitivity Analysis
   authors: Niemeyer KE, Raju MP, Sung CJ
   meeting: 6th National Combustion Meeting, Ann Arbor, MI, USA
   month: May
   year: 2009
-  pdf: https://doi.org/10.6084/m9.figshare.3384976
+  pdf: "https://doi.org/10.6084/m9.figshare.3384976"
 
 - title: Sub-micron 3D Fluorescent Imaging and Visualization of Remodeling Cavities in Cancellous Bone
   authors: Slyfield CR, Tomlinson RE, Tkachenko EV, Niemeyer KE, Steyer GJ, Wilson DL, Hernandez CJ
   meeting: ASME Summer Bioengineering Conference, Marco Island, FL, USA
   month: June
   year: 2008
-  pdf: https://doi.org/10.1115/SBC2008-193099
+  pdf: "https://doi.org/10.1115/SBC2008-193099"
