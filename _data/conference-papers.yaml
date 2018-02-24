@@ -159,12 +159,12 @@
   meeting: 2nd International Symposium on Computational Mechanics in conjunction with the 12th International Conference on the Enhancement and Promotion of Computational Methods in Engineering and Science, Hong Kong, China
   month: November-December
   year: 2009
-  detail: AIP Conference Proceedings, 1233 (2010): 1412-1417
+  detail: "AIP Conference Proceedings, 1233 (2010): 1412-1417"
   pdf: "https://doi.org/10.1063/1.3452113"
 
 - title: Skeletal Mechanism Generation of Surrogate Fuels Using Directed Relation Graph with Error Propagation and Sensitivity Analysis
   authors: Niemeyer KE, Raju MP, Sung CJ
-  meeting: 45th AIAA/ASME/SAE/ASEE Joint Propulsion Conference and Exhibit, Denver, CO, USA
+  meeting: "45th AIAA/ASME/SAE/ASEE Joint Propulsion Conference and Exhibit, Denver, CO, USA"
   month: August
   year: 2009
   pdf: "https://doi.org/10.2514/6.2009-5495"
