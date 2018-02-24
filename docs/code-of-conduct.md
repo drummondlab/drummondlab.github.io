@@ -19,7 +19,7 @@ Harassment includes offensive verbal comments related to gender, gender identity
 
 Group members asked to stop any harassing behavior are expected to comply immediately.
 
-If a member engages in harassing behavior, other group members and Kyle Niemeyer may take any action they deem appropriate to stop this behavior, including warning the offender or expulsion from the group and sanctioning through official University of Illinois channels.
+If a member engages in harassing behavior, other group members and Kyle Niemeyer may take any action they deem appropriate to stop this behavior, including warning the offender or expulsion from the group and sanctioning through official Oregon State University channels.
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact Kyle Niemeyer immediately. Kyle is available to help group members contact security or local law enforcement, navigate official University reporting channels, or otherwise assist those experiencing harassment to feel safe in the research environment.
 
