@@ -143,6 +143,8 @@
         {% for paper in site.data.conference-papers %}
             {% if paper.authors contains searchstring %}
                 {% assign papersq = true %}
+            {% else %}
+                {% assign papersq = false %}
             {% endif %}
         {% endfor %}
 
