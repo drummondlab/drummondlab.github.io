@@ -10,9 +10,6 @@ issue:
 pages: e147
 authors: "Smith AM, Niemeyer KE, Katz DS, Barba LA, Githinji G, Gymrek M, Huff KD, Madan CR, Cabunoc Mayes A, Moerman KM, Prins P, Ram K, Rokem A, Teal TK, Valls Guimera R, Vanderplas JT"
 image: /assets/images/papers/joss-peerjcs.png
-fulltext: https://peerj.com/articles/cs-147/
-pdf:
-pdflink:
 arxiv:
 eprint:
 github: https://github.com/openjournals/joss
@@ -26,6 +23,7 @@ published: true
 embargo: false
 peerreview: true
 review: false
+openaccess: true
 tags: [Research software, Code review, Computational research, Software citation, Open-source software, Scholarly publishing]
 bibtex: >
   @article{Smith2018,

@@ -10,9 +10,6 @@ issue: 4
 pages: 16
 authors: "Katz DS, Choi ST, Niemeyer KE, Hetherington J, Löffler F, Gunter D, Idaszak R, Brandt SR, Miller MA, Gesing S, Jones ND, Weber N, Marru S, Allen G, Penzenstadler B, Venters CC, Davis E, Hwang L, Todorov I, Patra A, de Val-Borro M"
 image: /assets/images/papers/wssspe3-report-abstract.svg
-fulltext: http://openresearchsoftware.metajnl.com/article/10.5334/jors.118/
-pdf: http://openresearchsoftware.metajnl.com/articles/10.5334/jors.118/galley/194/download/
-pdflink:
 arxiv:
 github: https://github.com/WSSSPE/meetings
 pmid:
@@ -27,6 +24,7 @@ published: true
 embargo: false
 peerreview: true
 review: false
+openaccess: true
 tags: [research software, software sustainability, software metrics, software citation, software credit]
 bibtex: >
   @article{Katz2016:ws,

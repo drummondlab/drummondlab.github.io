@@ -10,9 +10,6 @@ issue: 2
 pages: 528–564
 authors: "Niemeyer KE, Sung CJ"
 image: /assets/images/papers/review-GPU-CFD-abstract.png
-fulltext:
-pdf:
-pdflink:
 arxiv: "1309.3018 [physics.flu-dyn]"
 eprint: https://arxiv.org/abs/1309.3018
 github:

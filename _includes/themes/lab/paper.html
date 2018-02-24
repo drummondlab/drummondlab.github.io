@@ -43,30 +43,22 @@ with gratitude.
 <div class="bigspacer"></div>
 
 <div class="row">
-	<div class="col-md-4">
-		<div class="bigspacer"></div>
-		<div class="glyphbox note"> <!-- DAD: what is this class? -->
+    <div class="col-md-4">
+        <div class="bigspacer"></div>
+        <div class="glyphbox note"> <!-- DAD: what is this class? -->
             <div class="smallhead subtle">
                 Full text
             </div>
-            {% if page.pdf or page.pdflink or page.fulltext %}
+
             <div class="pad-left note">
                 <div class="smallspacer"></div>
-                {% if page.fulltext %}
-                <i class="fa fa-external-link fa-fw"></i>
-                <a class="off" href="{{ page.fulltext }}">Journal HTML</a>
+                {% if page.openaccess %}
+                <i class="ai ai-open-access fa-fw"></i>
+                {% else %}
+                <i class="ai ai-doi fa-fw"></i>
+                {% end if %}
+                <a class="off" href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a>
                 <br/>
-                {% endif %}
-                {% if page.pdflink %}
-                    <i class="fa fa-file-pdf-o fa-fw"></i>
-                    <a class="off" href="{{ page.pdflink }}">Journal PDF</a>
-                    <br/>
-                {% endif %}
-                {% if page.pdf %}
-                <i class="fa fa-file-pdf-o fa-fw"></i>
-                    <a class="off" href="{{ page.pdf }}">PDF</a>
-                    <br/>
-                {% endif %}
                 {% if page.arxiv %}
                 <i class="ai ai-arxiv fa-fw"></i>
                 <a class="off" href="{{ page.eprint }}"><code>arXiv:{{ page.arxiv }}</code></a>
@@ -75,7 +67,6 @@ with gratitude.
                 <a class="off" href="{{ page.eprint }}">{{ page.eprint }}</a>
                 {% endif %}
             </div>
-            {% endif %}
             <div class="bigspacer"></div>
 
 			{% if page.supplement %}

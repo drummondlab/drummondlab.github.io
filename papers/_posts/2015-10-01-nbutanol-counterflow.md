@@ -10,9 +10,6 @@ issue: 10
 pages: 3596–3611
 authors: "Brady KB, Hui X, Niemeyer KE, Sung CJ"
 image: /assets/images/papers/nbutanol-counterflow-abstract.png
-fulltext: http://www.sciencedirect.com/science/article/pii/S0010218015001984
-pdf:
-pdflink:
 arxiv:
 github:
 eprint: http://hdl.handle.net/1957/58775

@@ -10,14 +10,10 @@ issue: 1
 pages: 52–59
 authors: "Slyfield Jr. CR, Niemeyer KE, Tkachenko EV, Tomlinson RE, Steyer GG, Patthanacharoenphon CG, Kazakia GJ, Wilson DL, Hernandez CJ"
 image: /assets/images/papers/bone-tissue-imaging-abstract.png
-fulltext: http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2818.2009.03204.x/full
-pdf:
-pdflink: http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2818.2009.03204.x/epdf
 github:
-pmid: "19772536"
-pmcid: "PMC2978811"
-f1000:
-doi: "10.1111/j.1365-2818.2009.03204.x"
+pmid: 19772536
+pmcid: PMC2978811
+doi: 10.1111/j.1365-2818.2009.03204.x
 dryad_doi:
 altmetric_id:
 figshare:

@@ -10,9 +10,6 @@ issue: 4
 pages: 1358–1374
 authors: "Curtis NJ, Niemeyer KE, Sung CJ"
 image: /assets/images/papers/target-species-selection-abstract.svg
-fulltext: http://www.sciencedirect.com/science/article/pii/S0010218014003460
-pdf:
-pdflink:
 arxiv:
 github:
 doi: "10.1016/j.combustflame.2014.11.004"

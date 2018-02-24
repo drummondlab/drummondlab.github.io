@@ -10,9 +10,6 @@ issue:
 pages: 30–39
 authors: "Menon S, Ganti H, Niemeyer KE, Hagen CL"
 image: /assets/images/papers/oil-water-natural-gas-engine-abstract.png
-fulltext: http://www.sciencedirect.com/science/article/pii/S0010218017300354
-pdf:
-pdflink:
 arxiv:
 eprint: https://osf.io/h5dru/
 github:

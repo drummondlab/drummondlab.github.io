@@ -10,9 +10,6 @@ issue: 3
 pages: 135–148
 authors: "Weber BW, Niemeyer KE"
 image: /assets/images/papers/chemked-ijck.png
-fulltext: http://onlinelibrary.wiley.com/doi/10.1002/kin.21142/abstract
-pdf:
-pdflink:
 arxiv: "1706.01987 [physics.chem-ph]"
 eprint: https://arxiv.org/abs/1706.01987
 github: https://github.com/pr-omethe-us/PyKED

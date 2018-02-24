@@ -10,9 +10,6 @@ issue: 1
 pages: 867-881
 authors: "Hui X, Niemeyer KE, Brady KB, Sung CJ"
 image: /assets/images/papers/butanol-structure.png
-fulltext: http://pubs.acs.org/doi/abs/10.1021/acs.energyfuels.6b01857
-pdf:
-pdflink:
 arxiv: "1706.02043 [physics.chem-ph]"
 eprint: https://arxiv.org/abs/1706.02043
 github:

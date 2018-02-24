@@ -10,9 +10,6 @@ issue:
 pages:
 authors: "Stone CP, Alferman AT, Niemeyer KE"
 image: /assets/images/papers/cpc-chemistry-vectorization.png
-fulltext: https://doi.org/10.1016/j.cpc.2018.01.015
-pdf:
-pdflink:
 arxiv: "1608.05794 [physics.comp-ph]"
 eprint: https://arxiv.org/abs/1608.05794
 github: https://github.com/SLACKHA/accelerInt

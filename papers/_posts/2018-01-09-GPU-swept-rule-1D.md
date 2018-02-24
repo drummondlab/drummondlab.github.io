@@ -10,9 +10,6 @@ issue:
 pages: 338–352
 authors: "Magee DJ, Niemeyer KE"
 image: /assets/images/papers/GPU-swept-rule-1D.png
-fulltext: https://www.sciencedirect.com/science/article/pii/S0021999117309221
-pdf:
-pdflink:
 arxiv: "1705.03162 [physics.comp-ph]"
 eprint: https://arxiv.org/abs/1705.03162
 github: https://github.com/Niemeyer-Research-Group/1DSweptCUDA

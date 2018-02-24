@@ -10,9 +10,6 @@ issue:
 pages: 188–203
 authors: "Niemeyer KE, Curtis NJ, Sung CJ"
 image: /assets/images/papers/pyjac-paper-abstract.svg
-fulltext: http://www.sciencedirect.com/science/article/pii/S0010465517300462
-pdf:
-pdflink:
 arxiv: "1605.03262 [physics.comp-ph]"
 eprint: https://arxiv.org/abs/1605.03262
 github: https://github.com/Niemeyer-Research-Group/pyJac-paper

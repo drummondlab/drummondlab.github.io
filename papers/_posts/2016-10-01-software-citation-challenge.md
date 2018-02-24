@@ -10,9 +10,6 @@ issue: 4
 pages: 16
 authors: "Niemeyer KE, Smith AM, Katz DS"
 image: /assets/images/papers/software-citation-challenge.png
-fulltext:
-pdf:
-pdflink:
 arxiv: 1601.04734 [cs.CY]
 eprint: https://arxiv.org/abs/1601.04734
 github:

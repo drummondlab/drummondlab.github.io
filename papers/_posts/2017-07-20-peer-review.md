@@ -10,9 +10,6 @@ issue:
 pages: 1151
 authors: "Tennant JP, Dugan JM, Graziotin D, Jacques DC, Waldner F, Mietchen D, Elkhatib Y, Collister LB, Pikas CK, Crick T, Masuzzo P, Caravaggi A, Berg DR, Niemeyer KE, Ross-Hellauer T, Mannheimer S, Rigling L, Katz DS, Greshake B, Pacheco-Mendoza J, Fatima N, Poblet M, Isaakidis M, Erwin Irawan D, Renaut S, Madan CR, Matthias L, Nørgaard Kjær J, O'Donnell DP, Neylon C, Kearns S, Selvaraju M, Colomb K"
 image: /assets/images/papers/peer-review-abstract.png
-fulltext: https://f1000research.com/articles/6-1151/
-pdf:
-pdflink: https://f1000research.com/articles/6-1151/v1/pdf
 doi: 10.12688/f1000research.12037.1
 dryad_doi:
 altmetric_id:
@@ -22,6 +19,7 @@ published: true
 embargo: false
 peerreview: true
 review: false
+openaccess: true
 tags: [peer review, publishing]
 bibtex: >
   @article{Tennant:2017pr,

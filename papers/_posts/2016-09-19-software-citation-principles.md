@@ -10,9 +10,6 @@ issue:
 pages: e86
 authors: "Smith AM, Katz DS, Niemeyer KE, FORCE11 Software Citation Working Group"
 image: /assets/images/papers/software-citation-principles-abstract.svg
-fulltext: https://peerj.com/articles/cs-86/
-pdf: https://peerj.com/articles/cs-86.pdf
-pdflink:
 arxiv:
 github: https://github.com/force11/force11-scwg/tree/master/sc-principles
 f1000:
@@ -25,6 +22,7 @@ published: true
 embargo: false
 peerreview: true
 review: false
+openaccess: true
 tags: [software citation, software credit, attribution]
 bibtex: >
   @article{Smith:2016sc,
