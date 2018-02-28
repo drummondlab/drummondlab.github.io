@@ -13,7 +13,7 @@ image: /assets/images/papers/jmse-aps-analysis.png
 arxiv:
 eprint: https://osf.io/wca5h/
 github:
-doi:
+doi: 10.1115/1.4039439
 altmetric_id:
 zenodo:
 figshare:
