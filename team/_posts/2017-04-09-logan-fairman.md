@@ -5,7 +5,7 @@ position: Undergraduate student
 nickname: Logan
 handle: fairmanl
 email: fairmanl@oregonstate.edu
-github:
+github: fairmanl
 scholar:
 image: /assets/images/team/logan-fairman.jpg
 cv:
