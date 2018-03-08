@@ -75,3 +75,20 @@ navorder: 2
 {% if colindex != 0 %} <!-- close last open row -->
 </div><div class="bigspacer"></div>
 {% endif %}
+
+
+
+<div class="bigspacer"></div>
+<hr/>
+<div class="bigtitle text-center">Collaborators</div>
+<div class="bigspacer"></div>
+
+{% for collaborator in site.data.collaborators %}
+    <div class="col-md-12">
+        <ul class="list-group">
+            <button type="button" class="list-group-item">
+                <a href="{{ collaborator.url }}">{{ collaborator.name }} ({{ collaborator.institution }})</a>
+            </button>
+        </ul>
+    </div>
+{% endfor %}
