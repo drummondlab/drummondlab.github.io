@@ -15,7 +15,7 @@ module Jekyll
 			@markup = "#{markup}".strip
 		end
 		def render(context)
-		
+
 			url = Liquid::Template.parse(@markup).render context
 			if url =~ /^\//
 				url = "http://drummondlab.github.io" + url
@@ -23,19 +23,19 @@ module Jekyll
 			json_object = JSON.parse(open("http://urls.api.twitter.com/1/urls/count.json?url=#{url}").read)
 			count = json_object["count"]
 			topsy_url = url.gsub(/:/, '%3A').gsub(/\//, '%2F')
-			
+
 			html = ""
 			if count > 0
 				html += "<span class=\"smallnote\">"
-				html += "<i class=\"fa fa-angle-left\"></i> "
+				html += "<i class=\"fas fa-angle-left\"></i> "
 				html += "<a class=\"off\" href=\"http://topsy.com/trackback?url=#{topsy_url}\">"
 				html += "#{count}"
 				html += "</a>"
 				html += "</span>"
 			end
-			
+
 			html
-			
+
 		end
 	end
 end

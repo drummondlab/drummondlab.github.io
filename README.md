@@ -9,6 +9,10 @@ See Issues on [the site](https://github.com/Niemeyer-Research-Group/niemeyer-res
 
 ## How to add content
 
+## How to deploy locally before pushing
+
+`bundle exec jekyll serve`
+
 ### News
 
 ## Updating the public site

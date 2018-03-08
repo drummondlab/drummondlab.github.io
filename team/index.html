@@ -44,6 +44,30 @@ navorder: 2
     </div>
 </div>
 
+
+<div class="bigspacer"></div>
+<hr/>
+<div class="bigtitle text-center">Collaborators</div>
+<div class="bigspacer"></div>
+
+<div class="row">
+<div class="col-md-12">
+    <div class="list-group">
+    {% for collaborator in site.data.collaborators %}
+        <!--<a href="{{ collaborator.url }}" class="list-group-item list-group-item-action">-->
+        <a href="{{ collaborator.url }}" class="list-group-item-cust list-group-item"><span class="list-group-addon far fa-user"></span>
+            {{ collaborator.name }} ({{ collaborator.institution }})
+        </a>
+        <!--<button type="button" class="list-group-item">
+            <a href="{{ collaborator.url }}">{{ collaborator.name }} ({{ collaborator.institution }})</a>
+        </button>-->
+    {% endfor %}
+    </div>
+</div>
+</div>
+
+
+
 <div class="bigspacer"></div>
 <hr/>
 <div class="bigtitle text-center">Alumni</div>
@@ -75,20 +99,3 @@ navorder: 2
 {% if colindex != 0 %} <!-- close last open row -->
 </div><div class="bigspacer"></div>
 {% endif %}
-
-
-
-<div class="bigspacer"></div>
-<hr/>
-<div class="bigtitle text-center">Collaborators</div>
-<div class="bigspacer"></div>
-
-{% for collaborator in site.data.collaborators %}
-    <div class="col-md-12">
-        <ul class="list-group">
-            <button type="button" class="list-group-item">
-                <a href="{{ collaborator.url }}">{{ collaborator.name }} ({{ collaborator.institution }})</a>
-            </button>
-        </ul>
-    </div>
-{% endfor %}

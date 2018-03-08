@@ -75,7 +75,7 @@ with gratitude.
 			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				<i class="fa fa-paperclip fa-fw"></i>
+				<i class="far fa-paperclip fa-fw"></i>
 				<a class="off" href="{{ page.supplement }}">{{ page.supplement | split: '/' | last }}</a>
 			</div>
 			<div class="bigspacer"></div>
@@ -87,7 +87,7 @@ with gratitude.
 			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				<i class="fa fa-external-link fa-fw"></i>
+				<i class="fas fa-external-link fa-fw"></i>
 				<a class="off" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ page.pmid }}">{{ page.pmid }}</a>
 			</div>
 			<div class="bigspacer"></div>
@@ -99,7 +99,7 @@ with gratitude.
 			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				<i class="fa fa-cog fa-fw"></i>
+				<i class="fas fa-cog fa-fw"></i>
 				<a class="off" href="{{ page.github }}">{{ page.github | remove: 'http://' | remove: 'https://' }}</a>
 			</div>
 			<div class="bigspacer"></div>
@@ -110,7 +110,7 @@ with gratitude.
 			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				<i class="fa fa-database fa-fw"></i>
+				<i class="far fa-database fa-fw"></i>
                 {% if page.dryad_doi %}
                 <a class="off" href="https://doi.org/{{ page.dryad_doi }}">Dryad</a>
                 {% endif %}

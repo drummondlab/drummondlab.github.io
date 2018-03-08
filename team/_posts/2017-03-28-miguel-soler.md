@@ -15,7 +15,7 @@ alum: true
 ---
 Miguel graduated with his MS in Mechanical Engineering in December 2016. His research focused on the role of electrical arcs in vacuum arc remelting (VAR) furnaces. Specifically, he used finite element simulations to validate an approach for detecting arc locations based on changes in magnetic field, and also studied the role of arc location on mixing in the liquid metal pool in the ingot forming in a VAR furnace.
 
-<i class="fa fa-book" aria-hidden="true"></i> MS thesis: [Computational Investigation on the Effects of Arc Location in Vacuum Arc Remelting](http://hdl.handle.net/1957/60070)
+<i class="fas fa-book" aria-hidden="true"></i> MS thesis: [Computational Investigation on the Effects of Arc Location in Vacuum Arc Remelting](http://hdl.handle.net/1957/60070)
 
 Current position: Product Engineer at [Sierra Olympic Technologies](https://www.sierraolympic.com/).
 

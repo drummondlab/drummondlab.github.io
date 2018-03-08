@@ -160,5 +160,5 @@ JB :
   # where [HELPER] is the name of the helper you are overriding.
 
 # allow page redirection
-plugins:
+plugins_dir:
   - jekyll-redirect-from

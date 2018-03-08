@@ -12,18 +12,18 @@ navorder: 5
 	{% if paginator.previous_page %}
 		{% if paginator.previous_page == 1 %}
 		<a class="prev" href="/{{ page.category }}/">
-			<i class="fa fa-chevron-left fa-lg"></i>
+			<i class="fas fa-chevron-left fa-lg"></i>
 		</a>
 		{% else %}
 		<a class="prev" href="/{{ page.category }}/page{{ paginator.previous_page }}">
-			<i class="fa fa-chevron-left fa-lg"></i>
+			<i class="fas fa-chevron-left fa-lg"></i>
 		</a>
 		{% endif %}
 	{% endif %}
 
 	{% if paginator.next_page %}
 	<a class="next" href="/{{ page.category }}/page{{ paginator.next_page }}">
-		<i class="fa fa-chevron-right fa-lg"></i>
+		<i class="fas fa-chevron-right fa-lg"></i>
 	</a>
 	{% endif %}
 
@@ -72,7 +72,7 @@ Here you'll find software that we have developed for our research, either from s
 	<div class="col-md-12 text-center">
 		<a class="off" href="/{{ page.category }}/archive/">
 			<div class="smallhead">Archive</div>
-			<i class="text-gray fa fa-chevron-circle-down fa-2x"></i>
+			<i class="text-gray fas fa-chevron-circle-down fa-2x"></i>
 		</a>
 	</div>
 </div>

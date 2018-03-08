@@ -28,14 +28,17 @@
     <link rel="manifest" href="{{ ASSET_PATH }}/images/logo/manifest.json">
     <link rel="mask-icon" href="{{ ASSET_PATH }}/images/logo/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="{{ ASSET_PATH }}/images/logo/favicon.ico">
-    <meta name="msapplication-config" content="https://niemeyer-research-group.github.io/assets/themes/lab/images/logo/browserconfig.xml">
+    <meta name="msapplication-config" content="{{ ASSET_PATH }}/themes/lab/images/logo/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
     <!-- Custom fonts and icons via Font Awesome, http://fortawesome.github.io/Font-Awesome/ -->
-    <script src="https://use.fontawesome.com/51d391e302.js"></script>
+    <!--<script src="https://use.fontawesome.com/51d391e302.js"></script> -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
     <!-- Academicons: https://jpswalsh.github.io/academicons/ -->
-    <link rel="stylesheet" href="/assets/css/academicons.css"/>
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/academicons.css"/>
+
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/icon-list-group.css"/>
 
     <!-- Fonts via Google -->
     <link href='https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700' rel='stylesheet' type='text/css'/>
