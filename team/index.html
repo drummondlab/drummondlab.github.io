@@ -54,8 +54,7 @@ navorder: 2
 <div class="col-md-12">
     <div class="list-group">
     {% for collaborator in site.data.collaborators %}
-        <!--<a href="{{ collaborator.url }}" class="list-group-item list-group-item-action">-->
-        <a href="{{ collaborator.url }}" class="list-group-item-cust list-group-item"><span class="list-group-addon far fa-user"></span>
+        <a href="{{ collaborator.url }}" class="list-group-item list-group-item-action"><span class="far fa-user fa-fw"></span>
             {{ collaborator.name }} ({{ collaborator.institution }})
         </a>
         <!--<button type="button" class="list-group-item">

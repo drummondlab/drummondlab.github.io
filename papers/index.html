@@ -53,9 +53,12 @@ navorder: 3
 <div class="bigspacer"></div>
 
 <h2>Conference Papers</h2>
+<div class="row">
+<div class="col-md-12">
+
 <ul class="list-group">
     {% for paper in site.data.conference-papers %}
-    <li class="list-group-item-cust list-group-item"><span class="list-group-addon far fa-file-alt fa-fw"></span>
+    <li class="list-group-item list-group-item-action"><span class="far fa-file-alt fa-fw"></span>
         {{ paper.authors }}. "{{ paper.title }}." {{ paper.meeting }}. {{ paper.month }} {{ paper.year }}
         {% if paper.pdf %}
         <a href="{{ paper.pdf }}">
@@ -65,3 +68,6 @@ navorder: 3
     </li>
     {% endfor %}
 </ul>
+
+</div>
+</div>
