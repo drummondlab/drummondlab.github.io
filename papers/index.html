@@ -55,7 +55,7 @@ navorder: 3
 <h2>Conference Papers</h2>
 <ul class="list-group">
     {% for paper in site.data.conference-papers %}
-    <li class="list-group-item-cust list-group-item"><span class="list-group-addon far fa-file-alt"></span>
+    <li class="list-group-item-cust list-group-item"><span class="list-group-addon far fa-file-alt fa-fw"></span>
         {{ paper.authors }}. "{{ paper.title }}." {{ paper.meeting }}. {{ paper.month }} {{ paper.year }}
         {% if paper.pdf %}
         <a href="{{ paper.pdf }}">
