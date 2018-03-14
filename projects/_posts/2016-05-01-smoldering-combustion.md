@@ -5,7 +5,7 @@ handle: smoldering-combustion
 image:
 funder: SERDP-logo.svg
 years: 2016-
-team: [kyle, mulky]
+team: [mulky, kyle]
 category: project
 tags: [combustion, smoldering, wood, biomass]
 active: true

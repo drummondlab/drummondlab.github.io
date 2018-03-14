@@ -5,7 +5,7 @@ handle: swept-time-space
 image:
 funder: NASA-logo.svg
 years: 2015-
-team: [kyle, magee]
+team: [magee, kyle]
 category: project
 tags: [parallel computing, domain decomposition, CFD]
 active: true

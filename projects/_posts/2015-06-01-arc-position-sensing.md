@@ -5,7 +5,7 @@ handle: arc-position-sensing
 image: arc-position-sensing.png
 funder: OregonBEST-logo.jpg
 years: 2015-2016
-team: [kyle, soler]
+team: [soler, kyle]
 category: project
 tags: [vacuum arc remelting, arc position sensing, ingot solidification]
 active: false

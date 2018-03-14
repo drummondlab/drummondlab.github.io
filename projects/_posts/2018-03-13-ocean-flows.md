@@ -5,7 +5,7 @@ handle: ocean-flows
 image:
 funder:
 years: 2017-
-team: [kyle, pacheco, klee]
+team: [pacheco, klee, kyle]
 category: project
 tags: [ocean turbulence, biogeochemistry]
 active: true

@@ -5,7 +5,7 @@ handle: pde-mhd
 image:
 funder: netl-logo.svg
 years: 2013-
-team: [kyle, zaiger]
+team: [zaiger, kyle]
 category: project
 tags: [detonation, magnetohydrodynamics, pulse detonation engine]
 active: true
