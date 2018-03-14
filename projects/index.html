@@ -30,10 +30,32 @@ navorder: 1
     </div>
   </div>
   -->
-  <div class="col-md-4">
+
+      <div class="media">
+          <div class="col-md-3">
+          <a class="media-left" href="{{ project.url }}">
+            <img class="pull-left mr-3 img-responsive" src="/assets/images/projects/{{ project.image }}" alt="{{ project.title }}">
+          </a>
+          </div>
+          <div class="media-body">
+              <a href="{{ project.url }}">
+              <h4 class="media-heading">{{ project.title }} <small class="text-muted">({{ project.years }})</small></h4>
+              </a>
+
+              {% for member in project.team %}
+              {% assign person = site.categories.team | where:"handle", member | first %}
+              <a href="{{ person.url }}">
+                <img src="{{ person.image }}" class="img-circle" alt="{{ person.title }}" height="60">
+              </a>
+              {% endfor %}
+
+              <p>{{ project.summary }}</p>
+          </div>
+      </div>
+<!--
       <div class="media">
         <a class="project-image" href="{{ project.url }}">
-          <img class="media-object" src="/assets/images/projects/{{ project.image }}">
+          <img class="media-object" src="/assets/images/projects/{{ project.image }}" width=>
         </a>
       </div>
   </div>
@@ -51,8 +73,9 @@ navorder: 1
       {% endfor %}
 
       <p>{{ project.summary }}</p>
+-->
 
-  </div>
+
 </div>
 <div class="bigspacer"></div>
 {% endfor %}
