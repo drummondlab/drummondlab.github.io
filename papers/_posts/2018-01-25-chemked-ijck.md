@@ -24,6 +24,7 @@ embargo: false
 peerreview: true
 review: false
 tags: [Chemical kinetics, Experimental data, Autoignition, Data standard, ChemKED]
+project: chemked
 bibtex: >
   @article{Weber2018,
     doi = {10.1002/kin.21142},

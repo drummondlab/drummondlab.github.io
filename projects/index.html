@@ -50,6 +50,16 @@ navorder: 1
               {% endfor %}
 
               <p>{{ project.summary }}</p>
+
+              {% assign project-papers = site.categories.papers | where:"project", project.handle %%}
+              {% for paper in project-papers %}
+              {% if paper.embargo %}
+              <p><i class="far fa-file-alt" aria-hidden="true"></i> {{ paper.title }}
+              {% else %}
+              <p><a href="{{ paper.url }}" class="off"><i class="far fa-file-alt fa-fw" aria-hidden="true"></i> {{ paper.title }}</a>
+              {% endif %}
+              {% endfor %}
+
           </div>
       </div>
 <!--

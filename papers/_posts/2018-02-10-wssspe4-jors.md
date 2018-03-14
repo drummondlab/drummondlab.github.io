@@ -25,6 +25,7 @@ peerreview: true
 review: false
 openaccess: true
 tags: [sustainability, sustainable software, open source software, software development]
+project: software
 bibtex: >
   @article{Katz2018,
     doi = {10.5334/jors.184},

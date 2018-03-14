@@ -22,6 +22,7 @@ embargo: false
 peerreview: true
 review: false
 tags: [Mechanism reduction, model reduction, skeletal model, hydrocarbons, directed relation graph, kerosene]
+project: kinetic-model-reduction
 bibtex: >
   @article{Zhong:2015,
     Author = {Fengquan Zhong and Sugang Ma and Xinyu Zhang and Chih-Jen Sung and Kyle E Niemeyer},

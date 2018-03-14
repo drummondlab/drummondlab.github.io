@@ -23,6 +23,7 @@ embargo: false
 peerreview: true
 review: false
 tags: [Mechanism reduction, model reduction, directed relation graph, skeletal mechanism, surrogate fuels, n-heptane, iso-octane, n-decane]
+project: kinetic-model-reduction
 bibtex: >
   @article{Niemeyer:2010a,
     Author = {Kyle E Niemeyer and Chih Jen Sung and Mandhapati P Raju},

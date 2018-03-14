@@ -23,6 +23,7 @@ embargo: false
 peerreview: true
 review: false
 tags: [graphics processing unit (GPU), computational fluid dynamics (CFD), laminar flows, turbulent flow, reactive flow, CUDA]
+project: slackha
 bibtex: >
   @article{Niemeyer:2014js,
     Author = {Kyle E Niemeyer and Chih-Jen Sung},

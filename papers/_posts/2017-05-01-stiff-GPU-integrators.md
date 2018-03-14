@@ -23,6 +23,7 @@ embargo: false
 peerreview: true
 review: false
 tags: [chemical kinetics, stiff chemistry, integration algorithms, GPU, SIMT]
+project: slackha
 bibtex: >
   @article{Curtis:2017cf,
     Author = {Nicholas J. Curtis and Kyle E. Niemeyer and Chih-Jen Sung},

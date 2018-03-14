@@ -24,6 +24,7 @@ embargo: false
 peerreview: true
 review: false
 tags: [GPU computing, partial differential equations, computational fluid dynamics, High-performance computing, communication-avoiding algorithms, domain decomposition]
+project: swept-time-space
 bibtex: >
   @article{Magee2018,
     doi = {10.1016/j.jcp.2017.12.028},

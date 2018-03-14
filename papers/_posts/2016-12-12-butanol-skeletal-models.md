@@ -23,6 +23,7 @@ embargo: false
 peerreview: true
 review: false
 tags: [chemical kinetics, model reduction, butanol, DRGEPSA]
+project: kinetic-model-reduction
 bibtex: >
   @article{Hui:2017ef,
     Author = {Xin Hui and Kyle E. Niemeyer and Kyle B. Brady and Chih-Jen Sung},

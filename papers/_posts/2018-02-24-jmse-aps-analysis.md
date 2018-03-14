@@ -23,6 +23,7 @@ embargo: false
 peerreview: true
 review: false
 tags: [Vacuum arc remelting, electrical arc, finite element analysis, magnetostatics]
+project: software
 bibtex: >
   @article{Soler2018,
     year  = 2018,

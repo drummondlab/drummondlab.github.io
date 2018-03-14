@@ -21,6 +21,7 @@ embargo: false
 peerreview: true
 review: false
 tags: [low-temperature combustion, HCCI engines, gasoline, octane number]
+project: LTC-index
 bibtex: >
   @article{Niemeyer:2015c,
     Author = {Kyle E Niemeyer and Shane R. Daly and William J. Cannella and Christopher L. Hagen},

@@ -25,6 +25,7 @@ peerreview: true
 review: false
 openaccess: true
 tags: [Research software, Code review, Computational research, Software citation, Open-source software, Scholarly publishing]
+project: software
 bibtex: >
   @article{Smith2018,
     doi = {10.7717/peerj-cs.147},

@@ -24,6 +24,7 @@ embargo: false
 peerreview: true
 review: false
 tags: [Chemical kinetics, Integration algorithms, Stiff ODEs, SIMD, GPU]
+project: slackha
 bibtex: >
   @article{Stone2018,
     doi = {10.1016/j.cpc.2018.01.015},

@@ -23,6 +23,7 @@ embargo: false
 peerreview: true
 review: false
 tags: [butanol, chemical kinetic models, model comparison, uncertainty]
+project: chemked
 bibtex: >
   @article{Sirumalla2018,
     doi = {10.1016/j.combustflame.2017.11.018},

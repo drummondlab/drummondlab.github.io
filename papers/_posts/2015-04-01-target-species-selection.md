@@ -22,6 +22,7 @@ embargo: false
 peerreview: true
 review: false
 tags: [mechanism reduction, dynamic adaptive chemistry, directed relation graph with error propagation, target species selection]
+project: kinetic-model-reduction
 bibtex: >
   @article{Curtis:2015,
     Author = {Nicholas J Curtis and Kyle E Niemeyer and Chih-Jen Sung},

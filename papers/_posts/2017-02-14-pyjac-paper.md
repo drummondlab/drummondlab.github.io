@@ -24,6 +24,7 @@ embargo: false
 peerreview: true
 review: false
 tags: [chemical kinetics, Jacobian, SIMD, GPU]
+project: slackha
 bibtex: >
   @article{Niemeyer:2017py,
     Author = {Kyle E. Niemeyer and Nicholas J. Curtis and Chih-Jen Sung},

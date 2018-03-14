@@ -23,6 +23,7 @@ embargo: false
 peerreview: true
 review: false
 tags: [reactive-flow modeling, GPU, chemical kinetics, stiff chemistry, CUDA]
+project: slackha
 bibtex: >
   @article{Niemeyer:2014jcp,
     Author = {Kyle E Niemeyer and Chih-Jen Sung},

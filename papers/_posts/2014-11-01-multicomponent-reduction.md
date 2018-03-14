@@ -23,6 +23,7 @@ embargo: false
 peerreview: true
 review: false
 tags: [mechanism reduction, model reduction, multicomponent fuels, surrogate fuels, skeletal mechanism, directed relation graph methods]
+project: kinetic-model-reduction
 bibtex: >
   @article{Niemeyer:2014,
     Author = {Kyle E Niemeyer and Chih-Jen Sung},

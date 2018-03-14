@@ -24,6 +24,7 @@ peerreview: true
 review: false
 openaccess: true
 tags: [software citation, software credit, attribution]
+project: software
 bibtex: >
   @article{Smith:2016sc,
     Author = {Arfon M. Smith and Daniel S. Katz and Kyle E. Niemeyer and {FORCE11 Software Citation Working Group}},

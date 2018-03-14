@@ -23,6 +23,7 @@ embargo: false
 peerreview: true
 review: false
 tags: [software citation, software credit, attribution]
+project: software
 bibtex: >
   @article{Niemeyer:2016sc,
     Author = {Kyle E. Niemeyer and Arfon M. Smith and Daniel S. Katz},

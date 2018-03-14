@@ -23,6 +23,7 @@ embargo: false
 peerreview: true
 review: false
 tags: [Mechanism reduction, model reduction, skeletal mechanism, DRG, DRGEP, graph search algorithm, Dijkstra's algorithm]
+project: kinetic-model-reduction
 bibtex: >
   @article{Niemeyer:2011,
     Author = {Kyle E Niemeyer and Chih-Jen Sung},
