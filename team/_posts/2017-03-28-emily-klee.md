@@ -3,7 +3,7 @@ layout: member
 title: "Emily Klee"
 position: PhD student
 nickname: Emily
-handle: Klee
+handle: klee
 email: kleeem@oregonstate.edu
 twitter:
 github: emilyklee

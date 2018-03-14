@@ -1,9 +1,19 @@
 ---
 layout: project
-title: "Ignition, propagation, and emissions of smoldering combustion: experimental analysis and physics based-modeling"
+title: "Ignition, propagation, and emissions of smoldering combustion"
 handle: smoldering-combustion
-image: /assets/images/projects/SERDP-logo.svg
+image:
+funder: SERDP-logo.svg
+years: 2016-
+team: [kyle, mulky]
 category: project
 tags: [combustion, smoldering, wood, biomass]
+active: true
+summary: >
+  Smoldering combustion plays an important role in wildfires, since it can contribute
+  significantly to carbon emissions and also transition back to the flaming mode
+  of combustion. However, the physical and chemical processes that control the
+  ignition, propagation, and emissions of smoldering in woody fuels are not well
+  understood, and this project is working to fix that.
 ---
 {% include JB/setup %}

@@ -14,7 +14,11 @@ navorder: 1
   <img class='img-circle' src='/assets/images/under_construction.gif' title='Under construction' alt='Stick figure shoveling' width='180px' />
   <hr/>
 </div>
-{% for project in site.categories.projects %}
+
+<h2>Active Projects</h2>
+<div class="container">
+{% assign active_projects = site.categories.projects | where: "active","true"%}
+{% for project in active_projects %}
 <div class='row'>
   <!--
   <div class='row'>
@@ -26,15 +30,37 @@ navorder: 1
     </div>
   </div>
   -->
-  <div class='row'>
-    <div class="col-md-4 paperbox">
-      <div class="smallhead media-heading"><a href="{{ project.url }}" class="off">{{ project.title }}</a></div>
-    </div>
-    <div class='col-md-8'>
-      {{ project.content }}
-    </div>
+  <div class="col-md-4">
+      <div class="media">
+        <a class="project-image" href="{{ project.url }}">
+          <img class="media-object" src="/assets/images/projects/{{ project.image }}">
+        </a>
+      </div>
+  </div>
+  <div class="col-md-8">
+      <div class="smallhead media-heading">
+          <a href="{{ project.url }}" class="off">{{ project.title }}</a>
+          <small class="text-muted">({{ project.years }})</small>
+      </div>
+
+      {% for member in project.team %}
+      {% assign person = site.categories.team | where:"handle", member | first %}
+      <a href="{{ person.url }}">
+        <img src="{{ person.image }}" class="img-circle" alt="{{ person.title }}" height="60">
+      </a>
+      {% endfor %}
+
+      <p>{{ project.summary }}</p>
+
   </div>
 </div>
+<div class="bigspacer"></div>
 {% endfor %}
 
 <div class="bigspacer"></div>
+</div>
+
+<h2>Inactive Projects</h2>
+{% assign inactive_projects = site.categories.projects | where: "active","false"%}
+{% for project in inactive_projects %}
+{% endfor %}
