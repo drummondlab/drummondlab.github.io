@@ -131,9 +131,9 @@
             {% for paper in site.categories.papers %}
                 {% if paper.authors contains searchstring %}
                     {% if paper.embargo %}
-                    <p><i class="fal fa-file-alt" aria-hidden="true"></i> {{ paper.title }}
+                    <p><i class="far fa-file-alt fa-fw" aria-hidden="true"></i> {{ paper.title }}
                     {% else %}
-                    <p><a href="{{ paper.url }}" class="off"><i class="fal fa-file-alt" aria-hidden="true"></i> {{ paper.title }}</a>
+                    <p><a href="{{ paper.url }}" class="off"><i class="far fa-file-alt fa-fw" aria-hidden="true"></i> {{ paper.title }}</a>
                     {% endif %}
                 {% endif %}
             {% endfor %}
@@ -153,9 +153,9 @@
             {% for paper in site.data.conference-papers %}
                 {% if paper.authors contains searchstring %}
                     {% if paper.pdf %}
-                    <p><a href="{{ paper.pdf }}" class="off"><i class="fal fa-file-alt" aria-hidden="true"></i> {{ paper.authors }}. "{{ paper.title }}." {{ paper.meeting }}. {{ paper.month }} {{ paper.year }}</a>
+                    <p><a href="{{ paper.pdf }}" class="off"><i class="far fa-file-alt fa-fw" aria-hidden="true"></i> {{ paper.authors }}. "{{ paper.title }}." {{ paper.meeting }}. {{ paper.month }} {{ paper.year }}</a>
                     {% else %}
-                    <p><i class="fal fa-file-alt" aria-hidden="true"></i> {{ paper.authors }}. "{{ paper.title }}." {{ paper.meeting }}. {{ paper.month }} {{ paper.year }}
+                    <p><i class="far fa-file-alt fa-fw" aria-hidden="true"></i> {{ paper.authors }}. "{{ paper.title }}." {{ paper.meeting }}. {{ paper.month }} {{ paper.year }}
                     {% endif %}
                 {% endif %}
             {% endfor %}
