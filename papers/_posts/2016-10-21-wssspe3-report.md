@@ -26,7 +26,7 @@ peerreview: true
 review: false
 openaccess: true
 tags: [research software, software sustainability, software metrics, software citation, software credit]
-project: software
+project: open-software
 bibtex: >
   @article{Katz2016:ws,
    author = {Daniel S. Katz and Sou-Cheng T. Choi and Kyle E. Niemeyer and James Hetherington and Frank Löffler and Dan Gunter and Ray Idaszak and Steven R. Brandt and Mark A. Miller and Sandra Gesing and Nick D. Jones and Nic Weber and Suresh Marru and Gabrielle Allen and Birgit Penzenstadler and Colin C. Venters and Ethan Davis and Lorraine Hwang and Ilian Todorov and Abani Patra and Miguel de Val-Borro},

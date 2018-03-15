@@ -3,7 +3,7 @@ layout: project
 title: "Swept time-space domain decomposition"
 handle: swept-time-space
 image:
-funder: NASA-logo.svg
+funder: NASA
 years: 2015-
 team: [magee, kyle]
 category: project

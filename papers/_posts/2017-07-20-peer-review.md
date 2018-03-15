@@ -21,7 +21,7 @@ peerreview: true
 review: false
 openaccess: true
 tags: [peer review, publishing]
-project: software
+project: open-software
 bibtex: >
   @article{Tennant:2017pr,
     Author = {Jonathan P Tennant and Jonathan M Dugan and Daniel Graziotin and Damien C Jacques and Fran\c{c}ois Waldner and Daniel Mietchen and Yehia Elkhatib and Lauren B.~Collister and Christina K Pikas and Tom Crick and Paola Masuzzo and Anthony Caravaggi and Devin R Berg and Kyle E Niemeyer and Tony Ross-Hellauer and Sara Mannheimer and Lillian Rigling and Daniel S Katz and Bastian Greshake and Josmel Pacheco-Mendoza and Nazeefa Fatima and Marta Poblet and Marios Isaakidis and Dasapta Erwin Irawan and S\'{e}bastien Renaut and Christopher R Madan and Lisa Matthias and Jesper N{\o}rgaard Kj\ae{}r and Daniel Paul O'Donnell and Cameron Neylon and Sarah Kearns and Manojkumar Selvaraju and Julien Colomb},

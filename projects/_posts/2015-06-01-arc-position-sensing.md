@@ -3,7 +3,7 @@ layout: project
 title: "Arc position sensing for vacuum arc remelting furnaces"
 handle: arc-position-sensing
 image: arc-position-sensing.png
-funder: OregonBEST-logo.jpg
+funder: OregonBEST
 years: 2015-2016
 team: [soler, kyle]
 category: project

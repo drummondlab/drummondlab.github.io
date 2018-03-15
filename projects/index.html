@@ -32,9 +32,11 @@ navorder: 1
   -->
 
       <div class="media">
-          <div class="col-md-3">
+          <div class="col-md-4">
           <a class="media-left" href="{{ project.url }}">
+            {% if project.image %}
             <img class="pull-left mr-3 img-responsive" src="/assets/images/projects/{{ project.image }}" alt="{{ project.title }}">
+            {% endif %}
           </a>
           </div>
           <div class="media-body">

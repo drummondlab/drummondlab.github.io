@@ -2,8 +2,8 @@
 layout: project
 title: "Ignition, propagation, and emissions of smoldering combustion"
 handle: smoldering-combustion
-image:
-funder: SERDP-logo.svg
+image: smoldering-combustion.png
+funder: SERDP
 years: 2016-
 team: [mulky, kyle]
 category: project

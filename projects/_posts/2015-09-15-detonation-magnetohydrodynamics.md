@@ -3,7 +3,7 @@ layout: project
 title: "Pulse detonation engine for advanced oxy-combustion of coal-based fuels"
 handle: pde-mhd
 image: pde-mhd.png
-funder: netl-logo.svg
+funder: NETL
 years: 2013-
 team: [zaiger, kyle]
 category: project
