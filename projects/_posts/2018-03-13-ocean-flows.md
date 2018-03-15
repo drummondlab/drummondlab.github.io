@@ -4,7 +4,8 @@ title: "Turbulence-chemistry interactions in the ocean"
 handle: ocean-flows
 image:
 funder:
-years: 2017-
+start_year: 2017
+end_year:
 team: [pacheco, klee, kyle]
 category: project
 tags: [ocean turbulence, biogeochemistry]

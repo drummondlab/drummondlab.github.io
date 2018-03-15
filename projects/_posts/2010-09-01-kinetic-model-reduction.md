@@ -4,7 +4,8 @@ title: "Reducing chemical kinetic models"
 handle: kinetic-model-reduction
 image: kinetic-model-reduction.svg
 funder: NSF
-years: 2009-
+start_year: 2009
+end_year:
 team: [kyle, mestas, clayton]
 category: project
 tags: [chemical kinetics, model reduction]

@@ -4,7 +4,8 @@ title: "Swept time-space domain decomposition"
 handle: swept-time-space
 image:
 funder: NASA
-years: 2015-
+start_year: 2015
+end_year:
 team: [magee, kyle]
 category: project
 tags: [parallel computing, domain decomposition, CFD]

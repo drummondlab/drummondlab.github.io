@@ -17,20 +17,9 @@ navorder: 1
 
 <h2>Active Projects</h2>
 <div class="container">
-{% assign active_projects = site.categories.projects | where: "active","true"%}
+{% assign active_projects = site.categories.projects | where: "end_year","" | sort: "start_year" | reverse %}
 {% for project in active_projects %}
 <div class='row'>
-  <!--
-  <div class='row'>
-    <div class='col-md-12'>
-    <div class="media">
-      <a class="project-image" href="{{ project.url }}">
-        <img class="media-object" src="{{ project.image }}">
-      </a>
-    </div>
-  </div>
-  -->
-
       <div class="media">
           <div class="col-md-4">
           <a class="media-left" href="{{ project.url }}">
@@ -41,7 +30,7 @@ navorder: 1
           </div>
           <div class="media-body">
               <a href="{{ project.url }}">
-              <h4 class="media-heading">{{ project.title }} <small class="text-muted">({{ project.years }})</small></h4>
+              <h4 class="media-heading">{{ project.title }} <small class="text-muted">({{ project.start_year }}–{{ project.end_year }})</small></h4>
               </a>
 
               {% for member in project.team %}
@@ -54,38 +43,33 @@ navorder: 1
               <p>{{ project.summary }}</p>
 
               {% assign project-papers = site.categories.papers | where:"project", project.handle %%}
-              {% for paper in project-papers %}
+              {% for paper in project-papers limit:3%}
               {% if paper.embargo %}
-              <p><i class="far fa-file-alt" aria-hidden="true"></i> {{ paper.title }}
+              <p><i class="far fa-file-alt" aria-hidden="true"></i> {{ paper.title }} ({{ paper.year }})</p>
               {% else %}
-              <p><a href="{{ paper.url }}" class="off"><i class="far fa-file-alt fa-fw" aria-hidden="true"></i> {{ paper.title }}</a>
+              <p><a href="{{ paper.url }}" class="off"><i class="far fa-file-alt fa-fw" aria-hidden="true"></i> {{ paper.title }}</a> ({{ paper.year }})</p>
               {% endif %}
               {% endfor %}
+              <!-- expand if more than 3 papers -->
+              {% if project-papers.size > 3 %}
+              <p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-{{ project.handle }}" aria-expanded="false" aria-controls="collapse-{{ project.handle }}">
+                  See more
+              </button>
+              </p>
+              <div class="collapse" id="collapse-{{ project.handle }}">
+                  {% for paper in project-papers offset:3 %}
+                  {% if paper.embargo %}
+                  <p><i class="far fa-file-alt" aria-hidden="true"></i> {{ paper.title }} ({{ paper.year }})</p>
+                  {% else %}
+                  <p><a href="{{ paper.url }}" class="off"><i class="far fa-file-alt fa-fw" aria-hidden="true"></i> {{ paper.title }}</a> ({{ paper.year }})</p>
+                  {% endif %}
+                  {% endfor %}
+              </div>
+              {% endif %}
 
           </div>
       </div>
-<!--
-      <div class="media">
-        <a class="project-image" href="{{ project.url }}">
-          <img class="media-object" src="/assets/images/projects/{{ project.image }}" width=>
-        </a>
-      </div>
-  </div>
-  <div class="col-md-8">
-      <div class="smallhead media-heading">
-          <a href="{{ project.url }}" class="off">{{ project.title }}</a>
-          <small class="text-muted">({{ project.years }})</small>
-      </div>
-
-      {% for member in project.team %}
-      {% assign person = site.categories.team | where:"handle", member | first %}
-      <a href="{{ person.url }}">
-        <img src="{{ person.image }}" class="img-circle" alt="{{ person.title }}" height="60">
-      </a>
-      {% endfor %}
-
-      <p>{{ project.summary }}</p>
--->
 
 
 </div>
@@ -96,6 +80,62 @@ navorder: 1
 </div>
 
 <h2>Inactive Projects</h2>
-{% assign inactive_projects = site.categories.projects | where: "active","false"%}
-{% for project in inactive_projects %}
+{% assign inactive_projects = site.categories.projects | where_exp: "item", "item.end_year" %}
+{% for project in site.categories.projects %}
+{% if project.end_year %}
+<div class='row'>
+      <div class="media">
+          <div class="col-md-4">
+          <a class="media-left" href="{{ project.url }}">
+            {% if project.image %}
+            <img class="pull-left mr-3 img-responsive" src="/assets/images/projects/{{ project.image }}" alt="{{ project.title }}">
+            {% endif %}
+          </a>
+          </div>
+          <div class="media-body">
+              <a href="{{ project.url }}">
+              <h4 class="media-heading">{{ project.title }} <small class="text-muted">({{ project.start_year }}–{{ project.end_year }})</small></h4>
+              </a>
+
+              {% for member in project.team %}
+              {% assign person = site.categories.team | where:"handle", member | first %}
+              <a href="{{ person.url }}">
+                <img src="{{ person.image }}" class="img-circle" alt="{{ person.title }}" height="60">
+              </a>
+              {% endfor %}
+
+              <p>{{ project.summary }}</p>
+
+              {% assign project-papers = site.categories.papers | where:"project", project.handle %%}
+              {% for paper in project-papers limit:3%}
+              {% if paper.embargo %}
+              <p><i class="far fa-file-alt" aria-hidden="true"></i> {{ paper.title }} ({{ paper.year }})</p>
+              {% else %}
+              <p><a href="{{ paper.url }}" class="off"><i class="far fa-file-alt fa-fw" aria-hidden="true"></i> {{ paper.title }}</a> ({{ paper.year }})</p>
+              {% endif %}
+              {% endfor %}
+              <!-- expand if more than 3 papers -->
+              {% if project-papers.size > 3 %}
+              <p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-{{ project.handle }}" aria-expanded="false" aria-controls="collapse-{{ project.handle }}">
+                  See more
+              </button>
+              </p>
+              <div class="collapse" id="collapse-{{ project.handle }}">
+                  {% for paper in project-papers offset:3 %}
+                  {% if paper.embargo %}
+                  <p><i class="far fa-file-alt" aria-hidden="true"></i> {{ paper.title }} ({{ paper.year }})</p>
+                  {% else %}
+                  <p><a href="{{ paper.url }}" class="off"><i class="far fa-file-alt fa-fw" aria-hidden="true"></i> {{ paper.title }}</a> ({{ paper.year }})</p>
+                  {% endif %}
+                  {% endfor %}
+              </div>
+              {% endif %}
+
+          </div>
+      </div>
+
+
+</div>
+{% endif %}
 {% endfor %}

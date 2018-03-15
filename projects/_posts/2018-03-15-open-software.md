@@ -4,7 +4,8 @@ title: "Reproducibility, sustainable research software, and open science"
 handle: open-software
 image: open-software.svg
 funder:
-years: 2015-
+start_year: 2015
+end_year:
 team: [kyle]
 category: project
 tags: [open source software, reproducibility]

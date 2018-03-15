@@ -4,7 +4,8 @@ title: "Turbulent combustion modeling"
 handle: turbulent-combustion
 image:
 funder:
-years: 2017-
+start_year: 2017
+end_year:
 team: [fillo, kyle]
 category: project
 tags: [turbulent combustion]
@@ -14,6 +15,6 @@ summary: >
   a challenging modeling problem due to the complex interactions between fluid flow,
   chemical kinetics, and thermodynamics. We are both studying the turbulence-chemistry
   interactions that occur in the combustion of practical fuels, and also developing
-  better modeling techniques and best practices. 
+  better modeling techniques and best practices.
 ---
 {% include JB/setup %}

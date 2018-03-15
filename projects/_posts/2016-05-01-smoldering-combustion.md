@@ -4,7 +4,8 @@ title: "Ignition, propagation, and emissions of smoldering combustion"
 handle: smoldering-combustion
 image: smoldering-combustion.png
 funder: SERDP
-years: 2016-
+start_year: 2016
+end_year:
 team: [mulky, kyle]
 category: project
 tags: [combustion, smoldering, wood, biomass]

@@ -4,7 +4,8 @@ title: "Pulse detonation engine for advanced oxy-combustion of coal-based fuels"
 handle: pde-mhd
 image: pde-mhd.png
 funder: NETL
-years: 2013-
+start_year: 2013
+end_year:
 team: [zaiger, kyle]
 category: project
 tags: [detonation, magnetohydrodynamics, pulse detonation engine]

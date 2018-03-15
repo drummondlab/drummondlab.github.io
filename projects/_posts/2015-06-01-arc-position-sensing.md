@@ -4,7 +4,8 @@ title: "Arc position sensing for vacuum arc remelting furnaces"
 handle: arc-position-sensing
 image: arc-position-sensing.png
 funder: OregonBEST
-years: 2015-2016
+start_year: 2015
+end_year: 2016
 team: [soler, kyle]
 category: project
 tags: [vacuum arc remelting, arc position sensing, ingot solidification]
