@@ -17,8 +17,9 @@ navorder: 1
 
 <h2>Active Projects</h2>
 <div class="container">
-{% assign active_projects = site.categories.projects | where: "end_year","" | sort: "start_year" | reverse %}
+{% assign active_projects = site.categories.projects | sort: "start_year" | reverse %}
 {% for project in active_projects %}
+{% if project.end_year == "" or project.end_year == nil or project.end_year == blank %}
 <div class='row'>
       <div class="media">
           <div class="col-md-4">
@@ -42,8 +43,8 @@ navorder: 1
 
               <p>{{ project.summary }}</p>
 
-              {% assign project-papers = site.categories.papers | where:"project", project.handle %%}
-              {% for paper in project-papers limit:3%}
+              {% assign project-papers = site.categories.papers | where:"project", project.handle %}
+              {% for paper in project-papers limit:3 %}
               {% if paper.embargo %}
               <p><i class="far fa-file-alt" aria-hidden="true"></i> {{ paper.title }} ({{ paper.year }})</p>
               {% else %}
@@ -74,6 +75,7 @@ navorder: 1
 
 </div>
 <div class="bigspacer"></div>
+{% endif %}
 {% endfor %}
 
 <div class="bigspacer"></div>
@@ -106,8 +108,8 @@ navorder: 1
 
               <p>{{ project.summary }}</p>
 
-              {% assign project-papers = site.categories.papers | where:"project", project.handle %%}
-              {% for paper in project-papers limit:3%}
+              {% assign project-papers = site.categories.papers | where:"project", project.handle %}
+              {% for paper in project-papers limit:3 %}
               {% if paper.embargo %}
               <p><i class="far fa-file-alt" aria-hidden="true"></i> {{ paper.title }} ({{ paper.year }})</p>
               {% else %}
