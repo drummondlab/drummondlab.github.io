@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Kyle Niemeyer"
-position: Principal investigator
+position: Assistant Professor
 nickname: Kyle
 handle: kyle
 email: kyle.niemeyer@oregonstate.edu
