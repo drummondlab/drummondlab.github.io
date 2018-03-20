@@ -7,7 +7,7 @@ handle: mestas
 email: mestasp@oregonstate.edu
 github: xMestas
 scholar:
-image: /assets/images/team/phillip-mestas.png
+image: /assets/images/team/phillip-mestas.jpg
 cv:
 alum: false
 ---
