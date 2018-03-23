@@ -5,9 +5,9 @@ year: 2018
 shortref: "Stone et al. <i>Computer Physics Communications</i> 2018"
 nickname: cpc-chemistry-vectorization
 journal: "Computer Physics Communications"
-volume:
+volume: 226
 issue:
-pages:
+pages: 18-29
 authors: "Stone CP, Alferman AT, Niemeyer KE"
 image: /assets/images/papers/cpc-chemistry-vectorization.png
 arxiv: "1608.05794 [physics.comp-ph]"
@@ -29,7 +29,9 @@ bibtex: >
   @article{Stone2018,
     doi = {10.1016/j.cpc.2018.01.015},
     year  = 2018,
-    month = feb,
+    month = may,
+    volume = 226,
+    pages = {18--29}
     author = {Christopher P. Stone and Andrew T. Alferman and Kyle E. Niemeyer},
     title = {Accelerating finite-rate chemical kinetics with coprocessors: Comparing vectorization methods on {GPUs}, {MICs}, and {CPUs}},
     journal = {Computer Physics Communications},
