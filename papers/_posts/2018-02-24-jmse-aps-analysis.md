@@ -5,9 +5,9 @@ year: 2018
 shortref: "Soler and Niemeyer <i>J Manuf Sci Eng</i> 2018"
 nickname: jmse-aps-analysis
 journal: "ASME Journal of Manufacturing Science and Engineering"
-volume:
-issue:
-pages:
+volume: 140
+issue: 7
+pages: 071004
 authors: "Soler MF, Niemeyer KE"
 image: /assets/images/papers/jmse-aps-analysis.png
 arxiv:
@@ -30,6 +30,10 @@ bibtex: >
     author = {Miguel F Soler and Kyle E. Niemeyer},
     title = {Analysis of an approach for detecting arc positions during vacuum arc remelting based on magnetic flux density measurements},
     journal = {Journal of Manufacturing Science and Engineering},
+    volume = 140,
+    number = 7,
+    pages = {071004},
+    doi = {10.1115/1.4039439},
   }
 ---
 {% include JB/setup %}
