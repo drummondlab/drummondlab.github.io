@@ -9,7 +9,7 @@ volume: 7
 issue:
 pages: 501
 authors: "Berg DR, Niemeyer KE"
-image: /assets/images/papers/
+image: /assets/images/papers/open-engineering.png
 arxiv:
 eprint:
 github:
