@@ -9,7 +9,7 @@ volume:
 issue:
 pages:
 authors: "McCully AL, Behringer MG, Gliessman JR, Pilipenko EV, Mazny JL, Lynch M, Drummond DA, McKinlay JB"
-image: /assets/images/papers/default.svg
+image: /assets/images/papers/default-paper.svg
 redirect_from: 
 fulltext: 
 pdf: 
