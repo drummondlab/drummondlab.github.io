@@ -10,10 +10,10 @@ issue:
 pages:
 authors: "Daly SR, Niemeyer KE, Cannella WJ, Hagen CL"
 image: /assets/images/papers/default-paper.svg
-arxiv:
-eprint:
+arxiv: "1806.06982 [physics.chem-ph]"
+eprint: https://arxiv.org/abs/1806.06982
 github:
-doi: ""
+doi: 
 dryad_doi:
 altmetric_id:
 figshare:
