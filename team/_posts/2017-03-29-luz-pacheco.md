@@ -10,7 +10,7 @@ github: pachecoluz
 scholar:
 image: /assets/images/team/luz-pacheco.jpg
 cv:
-alum: false
+alum: true
 ---
 Luz is a graduate student studying turbulence-chemistry interactions in the ocean.
 
