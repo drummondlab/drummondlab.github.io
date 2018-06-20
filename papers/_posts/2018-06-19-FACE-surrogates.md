@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: "FACE gasoline surrogates formulated by an enhanced multivariate optimization framework"
-year: 2016
+year: 2018
 shortref: "Daly et al. <i>Energy Fuels</i> 2018"
 nickname: FACE-surrogates
 journal: "Energy and Fuels"
