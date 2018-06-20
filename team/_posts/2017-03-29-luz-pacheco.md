@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Luz Pacheco"
-position: MS student
+position: MS graduate
 nickname: Luz
 handle: pacheco
 email: pachecol@oregonstate.edu
@@ -12,7 +12,7 @@ image: /assets/images/team/luz-pacheco.jpg
 cv:
 alum: true
 ---
-Luz is a graduate student studying turbulence-chemistry interactions in the ocean.
+Luz graduated with her MS in Mechanical Engineering, studying turbulence-chemistry interactions in the ocean.
 
 
 [Oregon State University]: http://oregonstate.edu/
