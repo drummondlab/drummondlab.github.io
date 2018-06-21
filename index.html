@@ -1,22 +1,16 @@
 ---
 layout: default
 title: Niemeyer Research Group
-categories:
- - home
+categories: [home]
 ---
 {% include JB/setup %}
-{% for page in site.categories.misc %}
-{% if page.homepage %}
-	{% assign homepage = page %}
-{% endif %}
-{% endfor %}
 
 <div class="bigspacer"></div>
 
 <div class="row">
 	<div class="col-md-12">
 	<div class="carousel-overlay logotitle logobox">
-		{{ homepage.title }}
+		{{ title }}
 	</div>
 	<div id="carousel" class="carousel carousel-fade" data-ride="carousel">
 	  <ol class="carousel-indicators">
@@ -57,7 +51,20 @@ categories:
 <div class="row">
 	<div class="col-md-12">
 		<div class="smallhead">
-			{{ homepage.content }}
+            <p>
+                We study <strong>fluid dynamics</strong> phenomena using computer simulations,
+                particularly fluid flows involving chemical reactions such as <strong>combustion</strong>.
+                Our work extends from <strong>chemical kinetic reaction models</strong> for transportation
+                fuels to computationally expensive, direct numerical simulations of
+                <strong>turbulent combustion</strong>.
+            </p>
+
+            <p>
+                Our research focuses on numerical methods to reduce the computational expense
+                of accurately simulating combustion and engineering fluid flows,
+                as well as the actual physical phenomena like turbulence-chemistry interactions
+                and smoldering combustion.
+            </p>
 		</div>
 	</div>
 </div>

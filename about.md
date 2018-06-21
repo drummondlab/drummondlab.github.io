@@ -1,10 +1,7 @@
 ---
-layout: post
+layout: default
 title: "About"
 description: "About us and the site"
-about: true
-category: misc
-tags: []
 ---
 {% include JB/setup %}
 
