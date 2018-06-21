@@ -1,0 +1,144 @@
+---
+layout: default
+title: "Research"
+description: "Research projects in the lab"
+group: navigation
+navorder: 1
+permalink: "/research/"
+---
+{% include JB/setup %}
+<div class="bigspacer"></div>
+<div class="construction">
+  <hr/>
+  We are working on this page. Stay tuned.
+  </br>
+  <img class='img-circle' src='/assets/images/under_construction.gif' title='Under construction' alt='Stick figure shoveling' width='180px' />
+  <hr/>
+</div>
+
+<h2>Active Projects</h2>
+<div class="container">
+{% assign active_projects = site.projects | sort: "start_year" | reverse %}
+{% for project in active_projects %}
+{% if project.end_year == "" or project.end_year == nil or project.end_year == blank %}
+<div class='row'>
+      <div class="media">
+          <div class="col-md-4">
+          <a class="media-left" href="{{ project.url }}">
+            {% if project.image %}
+            <img class="pull-left mr-3 img-responsive" src="/assets/images/projects/{{ project.image }}" alt="{{ project.title }}">
+            {% endif %}
+          </a>
+          </div>
+          <div class="media-body col-md-8">
+              <a href="{{ project.url }}">
+              <h4 class="media-heading">{{ project.title }} <small class="text-muted">({{ project.start_year }}–{{ project.end_year }})</small></h4>
+              </a>
+
+              {% for member in project.team %}
+              {% assign person = site.my_team | where:"handle", member | first %}
+              <a href="{{ person.url }}">
+                <img src="{{ person.image }}" class="img-circle" alt="{{ person.title }}" height="60">
+              </a>
+              {% endfor %}
+
+              <p>{{ project.summary }}</p>
+
+              {% assign project-papers = site.categories.papers | where:"project", project.handle %}
+              {% for paper in project-papers limit:3 %}
+              {% if paper.embargo %}
+              <p><i class="far fa-file-alt" aria-hidden="true"></i> {{ paper.title }} ({{ paper.year }})</p>
+              {% else %}
+              <p><a href="{{ paper.url }}" class="off"><i class="far fa-file-alt fa-fw" aria-hidden="true"></i> {{ paper.title }}</a> ({{ paper.year }})</p>
+              {% endif %}
+              {% endfor %}
+              <!-- expand if more than 3 papers -->
+              {% if project-papers.size > 3 %}
+              <p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-{{ project.handle }}" aria-expanded="false" aria-controls="collapse-{{ project.handle }}">
+                  See more
+              </button>
+              </p>
+              <div class="collapse" id="collapse-{{ project.handle }}">
+                  {% for paper in project-papers offset:3 %}
+                  {% if paper.embargo %}
+                  <p><i class="far fa-file-alt" aria-hidden="true"></i> {{ paper.title }} ({{ paper.year }})</p>
+                  {% else %}
+                  <p><a href="{{ paper.url }}" class="off"><i class="far fa-file-alt fa-fw" aria-hidden="true"></i> {{ paper.title }}</a> ({{ paper.year }})</p>
+                  {% endif %}
+                  {% endfor %}
+              </div>
+              {% endif %}
+
+          </div>
+      </div>
+
+
+</div>
+<div class="bigspacer"></div>
+{% endif %}
+{% endfor %}
+
+<div class="bigspacer"></div>
+</div>
+
+<h2>Inactive Projects</h2>
+{% assign inactive_projects = site.projects | where_exp: "item", "item.end_year" %}
+{% for project in inactive_projects %}
+{% if project.end_year %}
+<div class='row'>
+      <div class="media">
+          <div class="col-md-4">
+          <a class="media-left" href="{{ project.url }}">
+            {% if project.image %}
+            <img class="pull-left mr-3 img-responsive" src="/assets/images/projects/{{ project.image }}" alt="{{ project.title }}">
+            {% endif %}
+          </a>
+          </div>
+          <div class="col-md-8 media-body">
+              <a href="{{ project.url }}">
+              <h4 class="media-heading">{{ project.title }} <small class="text-muted">({{ project.start_year }}–{{ project.end_year }})</small></h4>
+              </a>
+
+              {% for member in project.team %}
+              {% assign person = site.my_team | where:"handle", member | first %}
+              <a href="{{ person.url }}">
+                <img src="{{ person.image }}" class="img-circle" alt="{{ person.title }}" height="60">
+              </a>
+              {% endfor %}
+
+              <p>{{ project.summary }}</p>
+
+              {% assign project-papers = site.categories.papers | where:"project", project.handle %}
+              {% for paper in project-papers limit:3 %}
+              {% if paper.embargo %}
+              <p><i class="far fa-file-alt" aria-hidden="true"></i> {{ paper.title }} ({{ paper.year }})</p>
+              {% else %}
+              <p><a href="{{ paper.url }}" class="off"><i class="far fa-file-alt fa-fw" aria-hidden="true"></i> {{ paper.title }}</a> ({{ paper.year }})</p>
+              {% endif %}
+              {% endfor %}
+              <!-- expand if more than 3 papers -->
+              {% if project-papers.size > 3 %}
+              <p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-{{ project.handle }}" aria-expanded="false" aria-controls="collapse-{{ project.handle }}">
+                  See more
+              </button>
+              </p>
+              <div class="collapse" id="collapse-{{ project.handle }}">
+                  {% for paper in project-papers offset:3 %}
+                  {% if paper.embargo %}
+                  <p><i class="far fa-file-alt" aria-hidden="true"></i> {{ paper.title }} ({{ paper.year }})</p>
+                  {% else %}
+                  <p><a href="{{ paper.url }}" class="off"><i class="far fa-file-alt fa-fw" aria-hidden="true"></i> {{ paper.title }}</a> ({{ paper.year }})</p>
+                  {% endif %}
+                  {% endfor %}
+              </div>
+              {% endif %}
+
+          </div>
+      </div>
+
+
+</div>
+{% endif %}
+{% endfor %}

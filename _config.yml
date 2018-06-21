@@ -27,6 +27,26 @@ author:
   github: kyleniemeyer
   twitter: kyleniemeyer
 
+collections:
+  my_team:
+    output: true
+    permalink: /team/:name
+  projects:
+    output: true
+    permalink: /research/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "my_team"
+    values:
+      layout: member
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: project
+
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls

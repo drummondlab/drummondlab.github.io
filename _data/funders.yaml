@@ -1,0 +1,29 @@
+- name: NSF
+  long-name: National Science Foundation
+  logo: /assets/images/funders/NSF-logo.svg
+  url: https://nsf.gov
+
+- name: NETL
+  long-name: National Energy Technology Laboratory
+  logo: /assets/images/funders/netl-logo.svg
+  url: https://www.netl.doe.gov
+
+- name: NASA
+  long-name: National Aeronautics and Space Administration
+  logo: /assets/images/funders/NASA-logo.svg
+  url: https://www.nasa.gov
+
+- name: SERDP
+  long-name: Strategic Environmental Research and Development Program
+  logo: /assets/images/funders/SERDP-logo.svg
+  url: https://www.serdp-estcp.org
+
+- name: Chevron
+  long-name: Chevron Energy Technology Company
+  logo: /assets/images/funders/chevron-logo.svg
+  url: https://www.chevron.com/technology
+
+- name: Oregon BEST
+  long-name: Oregon Built Environment & Sustainable Technologies Center
+  logo: /assets/images/funders/OregonBEST-logo.jpg
+  url: http://oregonbest.org
