@@ -9,7 +9,7 @@ github: aaronfillo
 scholar:
 orcid: 0000-0003-0740-4086
 image: /assets/images/team/fillo.jpg
-cv:
+cv: http://ajfillo.com/Aaron_Jesse_Fillo_CV.pdf
 alum: false
 homepage: https://aaronfillo.github.io/
 ---
