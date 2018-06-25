@@ -7,6 +7,7 @@ email: mulkyt@oregonstate.edu
 twitter:
 github:
 scholar:
+orcid: 0000-0003-3523-1979
 image: /assets/images/team/tejas-mulky.jpg
 cv:
 alum: false
