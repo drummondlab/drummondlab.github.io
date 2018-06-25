@@ -10,8 +10,8 @@ issue:
 pages:
 authors: "Mulky TC, Niemeyer KE"
 image: /assets/images/papers/smoldering-mixtures-poci.png
-arxiv: " [physics.chem-ph]"
-eprint: https://arxiv.org/abs/
+arxiv: "1806.08396 [physics.flu-dyn]"
+eprint: https://arxiv.org/abs/1806.08396
 github:
 doi:
 dryad_doi:
