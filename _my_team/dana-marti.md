@@ -8,7 +8,7 @@ github:
 scholar:
 image: /assets/images/team/dana-marti.jpeg
 cv:
-alum: false
+alum: true
 ---
 
 Dana is a first-year student majoring in Mechanical Engineering at [Oregon State University]. She is an [URSA Engage] recipient and is helping to model pulse destination engines.

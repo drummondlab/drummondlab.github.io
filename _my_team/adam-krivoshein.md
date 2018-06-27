@@ -8,7 +8,7 @@ github:
 scholar:
 image: /assets/images/team/adam-krivoshein.png
 cv:
-alum: false
+alum: true
 ---
 
 Adam is a first-year [URSA Engage] recipient majoring in Computer Science. Some of his interests include computer simulation and graphics, as well as choir, piano, and flying model planes.

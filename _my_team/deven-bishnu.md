@@ -8,7 +8,7 @@ github:
 scholar:
 image: /assets/images/team/deven-bishnu.jpg
 cv:
-alum: false
+alum: true
 ---
 
 Deven is a first-year [URSA Engage] recipient double majoring in electrical and computer engineering and computer science. His interests are in applying software to solve physical problems.
