@@ -9,7 +9,7 @@ twitter:
 github: zaigerm
 scholar:
 orcid: 0000-0003-0469-1059
-image: /assets/images/team/zaiger.jpeg
+image: /assets/images/team/zaiger_matt.jpg
 cv:
 alum: false
 ---
