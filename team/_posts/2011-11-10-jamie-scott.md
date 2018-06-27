@@ -1,14 +1,14 @@
 ---
 layout: member
 title: "Jamie L. Scott"
-position: Laboratory manager
+position: Former laboratory manager
 handle: jls
 nickname: Jamie
-email: jkear@uchicago.edu
+email: 
 twitter: 
 github: 
 scholar: 
 image: /assets/images/team/jamie-scott.png
-alum: false
+alum: true
 ---
-Dr. Scott is the lab manager for the Drummond Lab.
+Dr. Scott was our lab manager from 2012 to 2018, and is now a representative for Zeiss.
