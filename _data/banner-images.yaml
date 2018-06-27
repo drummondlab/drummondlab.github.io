@@ -1,0 +1,6 @@
+- name: turbulent_temp_profile.png
+  alt: Temperature profile in a turbulent premixed flame
+- name: artificial_turbulent_profile.png
+  alt: Flamefront in a turbulent premixed flame
+- name: detonation_density.png
+  alt: Schlieren image of density gradient in hydrogen/oxygen detonation
