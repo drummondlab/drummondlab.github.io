@@ -1,7 +1,7 @@
 ---
 title: "Swept time-space domain decomposition"
 handle: swept-time-space
-image:
+image: swept-diagram.jpg
 funder: NASA
 start_year: 2015
 end_year:
