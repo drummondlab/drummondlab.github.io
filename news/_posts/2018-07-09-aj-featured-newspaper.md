@@ -11,4 +11,4 @@ tags: [team, media]
 
 [Kyle]: /team/kyle-niemeyer
 [AJ]: /team/aj-fillo
-[Lib Lab]: https://www.youtube.com/channel/UCQvOIwhriBXNMaxXgLl4PPA/featured
+[Lib Lab]: http://www.liblabscience.com
