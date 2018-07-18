@@ -9,7 +9,7 @@ github: kyleniemeyer
 scholar: dt0KRYoAAAAJ
 orcid: 0000-0003-4425-7097
 image: /assets/images/team/kyle-niemeyer-web.jpg
-cv: https://www.dropbox.com/s/dk3ez7w231j22n9/KE_Niemeyer_CV.pdf?raw=1
+cv: https://www.dropbox.com/s/6ajbzj0aaiy6hq5/KE_Niemeyer_CV.pdf?raw=1
 alum: false
 ---
 

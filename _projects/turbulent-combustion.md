@@ -1,7 +1,7 @@
 ---
 title: "Turbulent combustion modeling"
 handle: turbulent-combustion
-image:
+image: turbulent_temp_profile.png
 funder:
 start_year: 2017
 end_year:
