@@ -17,6 +17,7 @@ Dan graduated with his MS in Mechanical Engineering in June 2018. His research f
 
 <i class="fas fa-book" aria-hidden="true"></i> MS thesis: [Swept time-space domain decomposition on GPUs and heterogeneous computing systems](https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/8p58pk449)
 
+Current position: Scientist II in the Programming and Runtime Environments Team at [Los Alamos National Laboratory](https://www.lanl.gov)
 
 [Oregon State University]: http://oregonstate.edu/
 [School of Mechanical, Industrial, and Manufacturing Engineering]: http://mime.oregonstate.edu
