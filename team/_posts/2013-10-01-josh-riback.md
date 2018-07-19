@@ -9,9 +9,9 @@ twitter:
 github: 
 scholar: 
 image: /assets/images/team/josh-riback.png
-alum: false
+alum: true
 ---
-Josh is a graduate student in the [Biophysics program][1] at the [University of Chicago][2].
+Josh was a graduate student in the [Biophysics program][1] at the [University of Chicago][2], and is a postdoc in the Brangwynne Lab at Princeton University.
 
 [1]: http://biophysics.uchicago.edu
 [2]: http://www.uchicago.edu
