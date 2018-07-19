@@ -1,14 +1,14 @@
 ---
 layout: member
-title: "Aparna Srinivasan"
-position: Undergraduate
-nickname: Aparna
-handle: aparna
+title: "Sammy Keyport"
+position: Graduate student
+nickname: Sammy
+handle: Sammy
 email: 
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/aparna-srinivasan.png
+image: /assets/images/team/sammy-keyport.png
 alum: false
 ---
-Aparna is a third-year undergraduate majoring in biology and mathematics.
+Sammy is a graduate student in the Genetics, Genomics and Systems Biology graduate program.
