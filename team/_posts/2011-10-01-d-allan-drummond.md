@@ -12,7 +12,7 @@ image: /assets/images/team/d-allan-drummond.png
 cv: /assets/pdfs/drummond-cv.pdf
 alum: false
 ---
-Allan is an Assistant Professor at the [University of Chicago] in the Department of [Biochemistry & Molecular Biology], with a secondary appointment in the [Department of Human Genetics].
+Allan is an Associate Professor at the [University of Chicago] in the Department of [Biochemistry & Molecular Biology], with a secondary appointment in the [Department of Human Genetics].
 
 Allan started the group at [Harvard University](http://harvard.edu) as a [Bauer Fellow](http://sysbio.harvard.edu/fellows-0) at the [FAS Center for Systems Biology](http://sysbio.harvard.edu/home), where he spent five years. He received his Ph.D. in [Computation and Neural Systems][CNS] from [Caltech](http://www.caltech.edu).
 
