@@ -5,15 +5,15 @@ year: 2018
 shortref: "Daly et al. <i>Energy Fuels</i> 2018"
 nickname: FACE-surrogates
 journal: "Energy and Fuels"
-volume:
-issue:
-pages:
+volume: 32
+issue: 7
+pages: 7916-7932
 authors: "Daly SR, Niemeyer KE, Cannella WJ, Hagen CL"
 image: /assets/images/papers/enfuem.2018.32.cover.jpg
 arxiv: "1806.06982 [physics.chem-ph]"
 eprint: https://arxiv.org/abs/1806.06982
 github:
-doi:
+doi: 10.1021/acs.energyfuels.8b01313
 dryad_doi:
 altmetric_id:
 figshare:
@@ -29,10 +29,11 @@ bibtex: >
     Author = {Shane R. Daly and Kyle E. Niemeyer and William J. Cannella and Christopher L. Hagen},
     Title = {{FACE} gasoline surrogates formulated by an enhanced multivariate optimization framework},
     Journal = {Energy and Fuels},
-    Pages = {},
-    Volume = {},
+    Pages = {7916--7932},
+    Volume = {32},
+    Number = {7},
     Year = 2018,
-    doi = {}
+    doi = {10.1021/acs.energyfuels.8b01313}
   }
 ---
 {% include JB/setup %}
