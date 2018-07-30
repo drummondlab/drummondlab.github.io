@@ -13,7 +13,7 @@ image: /assets/images/papers/smoldering-exp-comp-poci.jpg
 arxiv:
 eprint:
 github:
-doi:
+doi: 10.1016/j.proci.2018.07.047
 dryad_doi:
 altmetric_id:
 figshare:
@@ -32,7 +32,7 @@ bibtex: >
     Pages = {},
     Volume = {},
     Year = 2019,
-    doi = {}
+    doi = {10.1016/j.proci.2018.07.047}
   }
 ---
 {% include JB/setup %}
