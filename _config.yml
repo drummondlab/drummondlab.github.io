@@ -3,7 +3,9 @@
 # permalink: /:categories/:year/:month/:day/:title
 permalink: /:categories/:title
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", vendor, "Gemfile.lock", "Gemfile"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md",
+          vendor, "Gemfile.lock", "Gemfile", "miniconda.sh"
+          ]
 highlighter: rouge
 
 markdown: kramdown
