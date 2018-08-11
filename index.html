@@ -112,31 +112,21 @@ categories: [home]
 	</div>
 	<div class="col-md-4">
 		<div class="head">
-			<a class="off" href="/blog/">Posts</a>
+			<a class="off" href="https://medium.com/nrg-excitations">Posts</a>
 		</div>
 		<div class="bigspacer"></div>
 		<div class="feedbox pad-left">
-			{% for post in site.categories.blog limit:4 %}
-
-				{% for member in site.categories.team %}
-					{% if member.handle == post.author_handle %}
-						{% assign author = member %}
-					{% endif %}
-				{% endfor %}
+      {% for post in site.medium_posts limit: 4 %}
 
 				<div class="note-title">
 					<i class="far fa-comment fa-fw"></i>
-					<a class="off" href="{{ post.url }}">
+					<a class="off" href="{{ post.medium_link }}">
 					{{ post.title }}
 					</a>
 				</div>
 				<div class="smallspacer"></div>
 				<div class="smallnote">
-					Posted
-					{{ post.date | date_to_string }}
-					{% if author %}
-					by <a class="off" href="{{ author.url }}">{{ author.nickname }}</a>
-					{% endif %}
+					Posted {{ post.date | date_to_string }}
 				</div>
 				<div class="spacer"></div>
 				<div class="spacer"></div>

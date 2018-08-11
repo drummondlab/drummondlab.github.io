@@ -10,6 +10,8 @@ markdown: kramdown
 
 repository: Niemeyer-Research-Group/niemeyer-research-group.github.io
 
+medium_publication: nrg-excitations
+
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
@@ -34,6 +36,8 @@ collections:
   projects:
     output: true
     permalink: /research/:name
+  medium_posts:
+    output: true
 
 defaults:
   - scope:
@@ -180,5 +184,4 @@ JB :
   # where [HELPER] is the name of the helper you are overriding.
 
 # allow page redirection
-plugins_dir:
-  - jekyll-redirect-from
+plugins:
