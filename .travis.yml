@@ -1,0 +1,36 @@
+sudo: false
+# Doctr requires python >=3.5
+language: ruby
+rvm:
+  - 2.5.1
+
+cache: bundler
+
+# This gives Doctr the key we've generated
+env:
+  global:
+    # Doctr deploy key for Niemeyer-Research-Group/niemeyer-research-group.github.io
+    - secure: "dRM2KMlVzTGOR7RbvFfOdufUSsZAZKFT+DD6M25HmvbQxJj414Z/JaJszVMfAGBedlasGiZFtZCBVbjEFCaHEXNAbEERvp1FOH1uBIoX+Azk5nsvLuLMrDg0nNaa1WRJIi/tesmVHMQ73//EzCMQVL3M0rNMerA9If2XOtklB+kYnxL6qHYcMmfgABfE/H3NF0egzj0NTD2H4FM8qwjhn6wl52kMRzmXTa9aO90dnCdxDvlWSBxiT9NC4oYTDOoCR7Wa6Oa0MalVG1+uh3XemtMhm3aJhOgsBBRNmeZuLkHsC2HYBfg44j0ptmDmABS2qxQg1WsFwQahTO5psX1jzErBoQqCVLDEGmkAjXPU2zckjRdhlHqqBfcsDePn1sSkIKMJL1FxnsU10TqBPISeMZHV6cHH8p58CDohwg1W/hWpfC0/uYBQgq+ygWG5KNgzTTO52tLTtbQCMMCuY2E9Bn7MdZcJp1bU32o+QS3tIabKWMtanSGou0XNc7I2Fcok0PAGLvjf687DzM6mv9YpgQ7M7xHgYTfSMHdTJQjoPM/GPFTFg/UJPKT5tj/id/2+ZU+vAE0l1f37VcQ71RuxxgbNl44YhvvDO4hsjjdhM+wxk2ipTvaUGHsnENWyZsPiJ0ISjmM0tyTvvAw2B/7h3Qxo45KbrwCil6VxOHq181o="
+
+before_script:
+  - sudo apt-get update
+  # We do this conditionally because it saves us some downloading if the
+  # version is the same.
+  - wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
+  - bash miniconda.sh -b -p $HOME/miniconda
+  - export PATH="$HOME/miniconda/bin:$PATH"
+  - hash -r
+  - conda config --set always_yes yes --set changeps1 no
+  - conda config --add channels conda-forge
+  - conda update -q conda
+  # Useful for debugging any issues with conda
+  - conda info -a
+  - conda create -q -n test-environment python=3.6 doctr
+  - source activate test-environment
+  - bundle install
+
+# This is the script to build the docs on travis, then deploy
+script:
+  - set -e
+  - bundle exec jekyll build
+  - doctr deploy . --built-docs _site
