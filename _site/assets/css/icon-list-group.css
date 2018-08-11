@@ -1,0 +1,16 @@
+.list-group-item-cust {
+    padding-left: 0px;
+}
+
+.list-group-addon {
+    padding: 10px 10px;
+    font-size: 15px;
+    display:inline;
+    font-weight: normal;
+    line-height: 1;
+    color: #555555;
+    text-align: center;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+}

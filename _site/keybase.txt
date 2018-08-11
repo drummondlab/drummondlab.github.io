@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/kyleniemeyer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://niemeyer-research-group.github.io
+  * I am kyleniemeyer (https://keybase.io/kyleniemeyer) on keybase.
+  * I have a public key ASCEECZJDyz2kv4AxvyVMZQJTTbdXNMtSAIbZ9MeNdDXggo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120841026490f2cf692fe00c6fc953194094d36dd5cd32d48021b67d31e35d0d7820a",
+      "host": "keybase.io",
+      "kid": "0120841026490f2cf692fe00c6fc953194094d36dd5cd32d48021b67d31e35d0d7820a",
+      "uid": "0f99fc586f2415b22d70cfb6087ada19",
+      "username": "kyleniemeyer"
+    },
+    "merkle_root": {
+      "ctime": 1501450236,
+      "hash": "f07329b0059cc61f1cbf62a85c21d397277f80b8f86947cdd59fa3090296b1eaa2465253de5c8626b9a3f969fca3a29336b46786658d6bdf8cf2d6150fc23c75",
+      "hash_meta": "5298199cb0af678138ec024ba7227c56e3c5cf7478eafa84b6adf1df2af79a55",
+      "seqno": 1291889
+    },
+    "service": {
+      "hostname": "niemeyer-research-group.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.26"
+  },
+  "ctime": 1501450261,
+  "expire_in": 504576000,
+  "prev": "8b5d62032417c779f2642f1d7ffdc9586e3d16a6e4c56318c57839c1021bf916",
+  "seqno": 62,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEghBAmSQ8s9pL+AMb8lTGUCU023VzTLUgCG2fTHjXQ14IKp3BheWxvYWTFA157ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwODQxMDI2NDkwZjJjZjY5MmZlMDBjNmZjOTUzMTk0MDk0ZDM2ZGQ1Y2QzMmQ0ODAyMWI2N2QzMWUzNWQwZDc4MjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwODQxMDI2NDkwZjJjZjY5MmZlMDBjNmZjOTUzMTk0MDk0ZDM2ZGQ1Y2QzMmQ0ODAyMWI2N2QzMWUzNWQwZDc4MjBhIiwidWlkIjoiMGY5OWZjNTg2ZjI0MTViMjJkNzBjZmI2MDg3YWRhMTkiLCJ1c2VybmFtZSI6Imt5bGVuaWVtZXllciJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUwMTQ1MDIzNiwiaGFzaCI6ImYwNzMyOWIwMDU5Y2M2MWYxY2JmNjJhODVjMjFkMzk3Mjc3ZjgwYjhmODY5NDdjZGQ1OWZhMzA5MDI5NmIxZWFhMjQ2NTI1M2RlNWM4NjI2YjlhM2Y5NjlmY2EzYTI5MzM2YjQ2Nzg2NjU4ZDZiZGY4Y2YyZDYxNTBmYzIzYzc1IiwiaGFzaF9tZXRhIjoiNTI5ODE5OWNiMGFmNjc4MTM4ZWMwMjRiYTcyMjdjNTZlM2M1Y2Y3NDc4ZWFmYTg0YjZhZGYxZGYyYWY3OWE1NSIsInNlcW5vIjoxMjkxODg5fSwic2VydmljZSI6eyJob3N0bmFtZSI6Im5pZW1leWVyLXJlc2VhcmNoLWdyb3VwLmdpdGh1Yi5pbyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjI2In0sImN0aW1lIjoxNTAxNDUwMjYxLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjhiNWQ2MjAzMjQxN2M3NzlmMjY0MmYxZDdmZmRjOTU4NmUzZDE2YTZlNGM1NjMxOGM1NzgzOWMxMDIxYmY5MTYiLCJzZXFubyI6NjIsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAcaLaeZUPh2wo9M7jOSbdOOq49qEZi/eUg+orv80LlrFFk+rXdWZOZnH9JXk1Jl/IAhFm3f9exWMKyBLt3eHqBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJfkWhZBPnE2Tl+JkiloqjSuW5VIpA5WkurPoq8r3/Tno3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kyleniemeyer
+
+==================================================================

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Niemeyer Research Group</title>
+ <link href="https://niemeyer-research-group.github.io//" rel="self"/>
+ <link href="https://niemeyer-research-group.github.io/"/>
+ <updated>2018-08-10T21:21:41-07:00</updated>
+ <id>https://niemeyer-research-group.github.io/</id>
+ <author>
+   <name>Kyle E. Niemeyer</name>
+   <email>kyle.niemeyer@oregonstate.edu</email>
+ </author>
+
+ 
+ <entry>
+   <title>AJ featured in Gazette-Times</title>
+   <link href="https://niemeyer-research-group.github.io//news/aj-featured-newspaper"/>
+   <updated>2018-07-09T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//news/aj-featured-newspaper</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;/team/aj-fillo&quot;&gt;AJ&lt;/a&gt; was &lt;a href=&quot;https://www.gazettetimes.com/news/local/osu-grad-student-debuts-new-science-video-on--d/article_322869b4-1acf-554f-93c2-2016bbfc9248.html&quot;&gt;featured in the &lt;em&gt;Corvallis Gazette-Times&lt;/em&gt;&lt;/a&gt; for his recent &lt;a href=&quot;http://www.liblabscience.com&quot;&gt;Lib Lab&lt;/a&gt; episode on &lt;a href=&quot;https://youtu.be/_fwziIJPwMs&quot;&gt;3D printing of metal&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Effects of fuel content and density on the smoldering characteristics of cellulose and hemicellulose</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/smoldering-exp-comp-poci"/>
+   <updated>2018-07-08T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/smoldering-exp-comp-poci</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Smoldering combustion in wildland fires poses hazards for both ecosystems and humans by destroying biomass, transitioning to flaming combustion, and releasing significant quantities of pollution. Understanding the parameters that control smoldering is necessary to help predict and potentially mitigate these hazards. A challenge in identifying these parameters is the wide variety of biomasses which occur in nature. The objective of this study is to identify the effects of density and fuel concentration on the smoldering characteristics of cellulose and hemicellulose mixtures. These fuels were considered because they are some of the major organic constituents within biomass. To this end, downward smoldering propagation velocities were measured for 50%, 75%, and 100% cellulose content at densities varying from 170 to 400 kg/m3 ). The horizontal smoldering propagation velocities and temperature distributions were also determined for loosely packed samples ranging from 100% to 0% cellulose (with residual hemicellulose). Additionally, horizontal smoldering propagation velocities were determined for systematically varied ratios of cellulose (50% to 100%) and densities (200 to 400kg/m3). The fuel was burned in an insulated reactor box. An infrared camera measured the horizontal propagation velocity, and thermocouples measured the downward propagation. A one-dimensional reactive porous media model with reduced chemistry was used to identify key processes causing the observed sensitivities. At constant packing density, the propagation velocity increased as cellulose content decreased because of decreased heat release with increased cellulose content and the earlier onset of hemicellulose pyrolysis. The propagation velocity decreased with respect to packing density when the fuel content was constant because of reduced oxygen diffusion. The propagation velocity increased with cellulose content when the fuel was loosely packed because of the decreasing density.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Computational study of the effects of density, fuel content, and moisture content on smoldering propagation of cellulose and hemicellulose mixtures</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/smoldering-mixtures-poci"/>
+   <updated>2018-06-24T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/smoldering-mixtures-poci</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Smoldering combustion plays an important role in forest and wildland fires. Fires from smoldering combustion can last for long periods of time, emit more pollutants, and be difficult to extinguish. This makes the study of smoldering in woody fuels and forest duff important. Cellulose, hemicellulose, and lignin are the major constituents in these type of fuels, in different proportions for different fuels. In this paper, we developed a 1-D model using the open-source software Gpyro to study the smoldering combustion of cellulose and hemicellulose mixtures. We first validated our simulations against experimentally obtained values of propagation speed for mixtures with fuel compositions including 100%, 75%, 50%, and 25% cellulose, with the remaining proportion of hemicellulose. Then, we studied the effects of varying fuel composition, density, and moisture content on smoldering combustion. We find that propagation speed of smoldering increased with decreases in density and increases in hemicellulose content, which we attribute to the role of oxygen diffusion. Propagation speed increased with moisture content for pure cellulose up to a certain limiting value, after which the propagation speed dropped by up to 70%. The mean peak temperature of smoldering increased with increases in hemicellulose content and density, and decreased with increasing moisture content.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>NRG group MS defenses</title>
+   <link href="https://niemeyer-research-group.github.io//news/dan-andrew-luz-defended"/>
+   <updated>2018-06-20T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//news/dan-andrew-luz-defended</id>
+   <content type="html">&lt;p&gt;NRG members &lt;a href=&quot;/team/dan-magee&quot;&gt;Dan&lt;/a&gt;, &lt;a href=&quot;/team/andrew-alferman&quot;&gt;Andrew&lt;/a&gt;, and &lt;a href=&quot;/team/luz-pacheco&quot;&gt;Luz&lt;/a&gt; successfully defended their MS degrees—congratulations!&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>FACE gasoline surrogates formulated by an enhanced multivariate optimization framework</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/FACE-surrogates"/>
+   <updated>2018-06-19T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/FACE-surrogates</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Design and optimization of higher efficiency, lower-emission internal combustion engines are highly dependent on fuel chemistry. Resolving chemistry for complex fuels, like gasoline, is challenging. A solution is to study a fuel surrogate: a blend of a small number of well-characterized hydrocarbons to represent real fuels by emulating their thermophysical and chemical kinetics properties. In the current study, an existing gasoline surrogate formulation algorithm is further enhanced by incorporating novel chemometric models. These models use infrared spectra of hydrocarbon fuels to predict octane numbers, and are valid for a wide array of neat hydrocarbons and mixtures of such. This work leverages 14 hydrocarbon species to form tailored surrogate palettes for the Fuels for Advanced Combustion Engine (FACE) gasolines, including candidate component species not previously considered: n-pentane, 2-methylpentane, 1-pentene, cyclohexane, and o-xylene. We evaluate the performance of “full” and “reduced” surrogates for the 10 fuels for advanced combustion engine (FACE) gasolines, containing between 8–12 and 4–7 components, respectively. These surrogates match the target properties of the real fuels, on average, within 5%. This close agreement demonstrates that the algorithm can design surrogates matching the wide array of target properties: octane numbers, density, hydrogen-to-carbon ratio, distillation characteristics, and proportions of carbon–carbon bond types. We also compare our surrogates to those available in literature (FACE gasolines A, C, F, G, I and J). Our surrogates for these fuels, on average, better-match RON, MON, and distillation characteristics within 0.5%, 0.7%, and 0.9%, respectively, with literature surrogates at 1.2%, 1.1%, and 1.8% error. However, our surrogates perform slightly worse for density, hydrogen-to-carbon ratio, and carbon–carbon bond types at errors of 3.3%, 6.8%, and 2.2% with literature surrogates at 1.3%, 2.3%, and 1.9%. Overall, the approach demonstrated here offers a promising method to better design surrogates for gasoline-like fuels with a wide array of properties.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The case for openness in engineering research</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/openness-engineering"/>
+   <updated>2018-04-26T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/openness-engineering</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;In this article, we review the literature on the benefits, and possible downsides, of openness in engineering research. We attempt to examine the issue from multiple perspectives, including reasons and motivations for introducing open practices into an engineering researcher’s workflow and the challenges faced by scholars looking to do so. Further, we present our thoughts and reflections on the role that open engineering research can play in defining the purpose and activities of the university. We have made some specific recommendations on how the public university can recommit to and push the boundaries of its role as the creator and promoter of public knowledge. In doing so, the university will further demonstrate its vital role in the continued economic, social, and technological development of society. We have also included some thoughts on how this applies specifically to the field of engineering and how a culture of openness and sharing within the engineering community can help drive societal development.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Analysis of an approach for detecting arc positions during vacuum arc remelting based on magnetic flux density measurements</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/jmse-aps-analysis"/>
+   <updated>2018-02-24T00:00:00-08:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/jmse-aps-analysis</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Vacuum arc remelting (VAR) is a melting process for the production of homogeneous ingots, achieved by applying a direct current to create electrical arcs between the input electrode and the resultant ingot. Arc behavior drives quality of the end product, but no methodology is currently used in VAR furnaces at large scale to track arcs in real time. An arc position sensing (APS) technology was recently developed as a methodology to predict arc locations using magnetic field values measured by sensors. This system couples finite element analysis of VAR furnace magnetostatics with direct magnetic field measurements to predict arc locations. However, the published APS approach did not consider the effect of various practical issues that could affect the magnetic field distribution and thus arc location predictions. In this paper, we studied how altering assumptions made in the finite element model affect arc location predictions. These include the vertical position of the sensor relative to the electrode-ingot gap, a varying electrode-ingot gap size, ingot shrinkage, and the use of multiple sensors rather than a single sensor. Among the parameters studied, only vertical distance between arc and sensor locations causes large sources of error, and should be considered further when applying an APS system. However, averaging the predicted locations from four evenly spaced sensors helps reduce this error to no more than 16% for a sensor position varying from 0.508 m below and above the electrode-ingot gap height.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Accelerating finite-rate chemical kinetics with coprocessors: Comparing vectorization methods on GPUs, MICs, and CPUs</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/cpc-chemistry-vectorization"/>
+   <updated>2018-02-23T00:00:00-08:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/cpc-chemistry-vectorization</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Accurate and efficient methods for solving stiff ordinary differential equations (ODEs) are a critical component of turbulent combustion simulations with finite-rate chemistry. The ODEs governing the chemical kinetics at each mesh point are decoupled by operator-splitting allowing each to be solved concurrently. An efficient ODE solver must then take into account the available thread and instruction-level parallelism of the underlying hardware, especially on many-core coprocessors, as well as the numerical efficiency. A stiff Rosenbrock and a nonstiff Runge–Kutta ODE solver are both implemented using the single instruction, multiple thread (SIMT) and single instruction, multiple data (SIMD) paradigms within OpenCL. Both methods solve multiple ODEs concurrently within the same instruction stream. The performance of these parallel implementations was measured on three chemical kinetic models of increasing size across several multicore and many-core platforms. Two separate benchmarks were conducted to clearly determine any performance advantage offered by either method. The first benchmark measured the run-time of evaluating the right-hand-side source terms in parallel and the second benchmark integrated a series of constant-pressure, homogeneous reactors using the Rosenbrock and Runge–Kutta solvers. The right-hand-side evaluations with SIMD parallelism on the host multicore Xeon CPU and many-core Xeon Phi co-processor performed approximately three times faster than the baseline multithreaded C++ code. The SIMT parallel model on the host and Phi was 13%–35% slower than the baseline while the SIMT model on the NVIDIA Kepler GPU provided approximately the same performance as the SIMD model on the Phi. The runtimes for both ODE solvers decreased significantly with the SIMD implementations on the host CPU (2.5–2.7x) and Xeon Phi coprocessor (4.7–4.9x) compared to the baseline parallel code. The SIMT implementations on the GPU ran 1.5–1.6 times faster than the baseline multithreaded CPU code; however, this was significantly slower than the SIMD versions on the host CPU or the Xeon Phi. The performance difference between the three platforms was attributed to thread divergence caused by the adaptive step-sizes within the ODE integrators. Analysis showed that the wider vector width of the GPU incurs a higher level of divergence than the narrower Sandy Bridge or Xeon Phi. The significant performance improvement provided by the SIMD parallel strategy motivates further research into more ODE solver methods that are both SIMD-friendly and computationally efficient.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Journal of Open Source Software (JOSS): design and first-year review</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/joss-peerjcs"/>
+   <updated>2018-02-12T00:00:00-08:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/joss-peerjcs</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;This article describes the motivation, design, and progress of the Journal of Open Source Software (JOSS). JOSS is a free and open-access journal that publishes articles describing research software. It has the dual goals of improving the quality of the software submitted and providing a mechanism for research software developers to receive credit. While designed to work within the current merit system of science, JOSS addresses the dearth of rewards for key contributions to science made in the form of software. JOSS publishes articles that encapsulate scholarship contained in the software itself, and its rigorous peer review targets the software components: functionality, documentation, tests, continuous integration, and the license. A JOSS article contains an abstract describing the purpose and functionality of the software, references, and a link to the software archive. The article is the entry point of a JOSS submission, which encompasses the full set of software artifacts. Submission and review proceed in the open, on GitHub. Editors, reviewers, and authors work collaboratively and openly. Unlike other journals, JOSS does not reject articles requiring major revision; while not yet accepted, articles remain visible and under review until the authors make adequate changes (or withdraw, if unable to meet requirements). Once an article is accepted, JOSS gives it a digital object identifier (DOI), deposits its metadata in Crossref, and the article can begin collecting citations on indexers like Google Scholar and other services. Authors retain copyright of their JOSS article, releasing it under a Creative Commons Attribution 4.0 International License. In its first year, starting in May 2016, JOSS published 111 articles, with more than 40 additional articles under review. JOSS is a sponsored project of the nonprofit organization NumFOCUS and is an affiliate of the Open Source Initiative (OSI).&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Fourth Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE4)</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/wssspe4-jors"/>
+   <updated>2018-02-10T00:00:00-08:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/wssspe4-jors</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;This article summarizes motivations, organization, and activities of the Fourth Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE4). The WSSSPE series promotes sustainable research software by positively impacting principles and best practices, careers, learning, and credit. This article discusses the code of conduct; the mission and vision statements that were drafted at the workshop and finalized shortly after it; the keynote and idea papers, position papers, experience papers, demos, and lightning talks presented during the workshop; and a panel discussion on best practices. The main part of the article discusses the set of working groups that formed during the meeting, along with contact information for readers who may want to join a group. Finally, it discusses a survey of the workshop attendees.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ChemKED: A human- and machine-readable data standard for chemical kinetics experiments</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/chemked-ijck"/>
+   <updated>2018-01-25T00:00:00-08:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/chemked-ijck</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Fundamental experimental measurements of quantities such as ignition delay times, laminar flame speeds, and species profiles (among others) serve important roles in understanding fuel chemistry and validating chemical kinetic models. However, despite both the importance and abundance of such information in the literature, the community lacks a widely adopted standard format for this data. This impedes both sharing and wide use by the community. Here we introduce a new chemical kinetics experimental data format, ChemKED and the related Python-based package for validating and working with ChemKED-formatted files called PyKED. We also review past and related efforts and motivate the need for a new solution. ChemKED currently supports the representation of autoignition delay time measurements from shock tubes and rapid compression machines. ChemKED-formatted files contain all of the information needed to simulate experimental data points, including the uncertainty of the data. ChemKED is based on the YAML data serialization language and is intended as a human- and machine-readable standard for easy creation and automated use. Development of ChemKED and PyKED occurs openly on GitHub under the BSD 3-clause license, and contributions from the community are welcome. Plans for future development include support for experimental data from laminar flame, jet-stirred reactor, and speciation measurements.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Accelerating solutions of one-dimensional unsteady PDEs with GPU-based swept time–space decomposition</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/GPU-swept-rule-1D"/>
+   <updated>2018-01-09T00:00:00-08:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/GPU-swept-rule-1D</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;The expedient design of precision components in aerospace and other high-tech industries requires simulations of physical phenomena often described by partial differential equations (PDEs) without exact solutions. Modern design problems require simulations with a level of resolution difficult to achieve in reasonable amounts of time—even in effectively parallelized solvers. Though the scale of the problem relative to available computing power is the greatest impediment to accelerating these applications, significant performance gains can be achieved through careful attention to the details of memory communication and access. The swept time–space decomposition rule reduces communication between sub-domains by exhausting the domain of influence before communicating boundary values. Here we present a GPU implementation of the swept rule, which modifies the algorithm for improved performance on this processing architecture by prioritizing use of private (shared) memory, avoiding interblock communication, and overwriting unnecessary values. It shows significant improvement in the execution time of finite-difference solvers for one-dimensional unsteady PDEs, producing speedups of 2–9x for a range of problem sizes, respectively, compared with simple GPU versions and 7–300x compared with parallel CPU versions. However, for a more sophisticated one-dimensional system of equations discretized with a second-order finite-volume scheme, the swept rule performs 1.2–1.9x worse than a standard implementation for all problem sizes.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Assessing impacts of discrepancies in model parameters on autoignition model performance: A case study using butanol</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/model-parameter-discrepancy"/>
+   <updated>2018-01-01T00:00:00-08:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/model-parameter-discrepancy</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Side-by-side comparison of detailed kinetic models using a new tool to aid recognition of species structures reveals significant discrepancies in the published rates of many reactions and thermochemistry of many species. We present a first automated assessment of the impact of these varying parameters on observable quantities of interest—in this case, autoignition delay—using literature experimental data. A recent kinetic model for the isomers of butanol was imported into a common database. Individual reaction rate and thermodynamic parameters of species were varied using values encountered in combustion models from recent literature. The effects of over 1600 alternative parameters were considered. Separately, experimental data were collected from recent publications and converted into the standard YAML-based ChemKED format. The Cantera-based model validation tool, PyTeCK, was used to automatically simulate autoignition using the generated models and experimental data, to judge the performance of the models. Taken individually, most of the parameter substitutions have little effect on the overall model performance, although a handful have quite large effects, and are investigated more thoroughly. Additionally, models varying multiple parameters simultaneously were evolved using a genetic algorithm to give fastest and slowest autoignition delay times, showing that changes exceeding a factor of 10 in ignition delay time are possible by cherry-picking from only accepted, published parameters. All data and software used in this study are available openly.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>AJ in Gazette-Times</title>
+   <link href="https://niemeyer-research-group.github.io//news/liblab-local-news"/>
+   <updated>2017-12-20T00:00:00-08:00</updated>
+   <id>https://niemeyer-research-group.github.io//news/liblab-local-news</id>
+   <content type="html">&lt;p&gt;NRG PhD candidate &lt;a href=&quot;/team/aj-fillo&quot;&gt;AJ&lt;/a&gt; was featured in an &lt;a href=&quot;http://www.gazettetimes.com/news/local/library-science-videos-do-a-deep-dive-on-pressure/article_a9476d78-5146-593e-9f65-bb1a842252e8.html&quot;&gt;article in the &lt;em&gt;Corvallis Gazette-Times&lt;/em&gt;&lt;/a&gt; about filming an episode for his &lt;a href=&quot;https://www.youtube.com/channel/UCQvOIwhriBXNMaxXgLl4PPA/featured&quot;&gt;LIB LAB&lt;/a&gt; video series at the &lt;a href=&quot;http://aquarium.org&quot;&gt;Oregon Coast Aquarium&lt;/a&gt;.
+This episode will be part of a collaboration with &lt;a href=&quot;http://nicolesharp.com&quot;&gt;Dr. Nicole Sharp&lt;/a&gt;’s &lt;a href=&quot;http://fyfluiddynamics.com&quot;&gt;FY Fluid Dynamics&lt;/a&gt; blog.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>NRG in the news</title>
+   <link href="https://niemeyer-research-group.github.io//news/NRG-featured-news"/>
+   <updated>2017-10-21T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//news/NRG-featured-news</id>
+   <content type="html">&lt;p&gt;NRG projects and team members have been in the news lately!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;In October 2017, &lt;a href=&quot;/team/aj-fillo&quot;&gt;AJ&lt;/a&gt; won the 2017 OSU Distinguished Master’s Thesis Award. His &lt;a href=&quot;http://hdl.handle.net/1957/60072&quot;&gt;thesis&lt;/a&gt; reported and analyzed the turbulent flame speed of jet and jet-like fuels.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In April 2017, &lt;a href=&quot;/team/kyle-niemeyer&quot;&gt;Kyle&lt;/a&gt; was featured in &lt;a href=&quot;http://ecampus.oregonstate.edu/research/podcast/e56/&quot;&gt;an episode&lt;/a&gt; of the &lt;a href=&quot;http://ecampus.oregonstate.edu/research/podcast/&quot;&gt;Research in Action podcast&lt;/a&gt;, where he discussed open science.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In March 2017, &lt;a href=&quot;https://www.asme.org/engineering-topics/articles/manufacturing-design/visualizing-greener-specialty-metals&quot;&gt;ASME featured a story&lt;/a&gt; on arc position sensing technology for vacuum arc remelting furnaces, mentioning &lt;a href=&quot;/team/miguel-soler&quot;&gt;Miguel&lt;/a&gt; and &lt;a href=&quot;/team/kyle-niemeyer&quot;&gt;Kyle&lt;/a&gt;’s project funded by OregonBEST.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In December 2016, the &lt;em&gt;Corvallis Gazette-Times&lt;/em&gt; &lt;a href=&quot;http://www.gazettetimes.com/news/local/research-starts-off-with-a-bang/article_571a90b7-d8e9-5a1d-b8d6-81f92b6ea802.html&quot;&gt;wrote about&lt;/a&gt; &lt;a href=&quot;/team/matt-zaiger&quot;&gt;Matt&lt;/a&gt; and &lt;a href=&quot;/team/kyle-niemeyer&quot;&gt;Kyle&lt;/a&gt;’s NETL-funded project studying pulse detonation engines.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The College of Engineering’s &lt;a href=&quot;http://www.journalgraphicsdigitalpublications.com/epubs/OSUALUMNIASSOCIATIONINC/EngineeringMomentumSpring2016/viewer/desktop/#page/14&quot;&gt;Spring 2016 Momentum! magazine&lt;/a&gt; featured &lt;a href=&quot;/team/tejas-mulky&quot;&gt;Tejas&lt;/a&gt; and &lt;a href=&quot;/team/kyle-niemeyer&quot;&gt;Kyle&lt;/a&gt;’s SERDP-funded project studying smoldering combustion.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>A multi-disciplinary perspective on emergent and future innovations in peer review</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/peer-review"/>
+   <updated>2017-07-20T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/peer-review</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Peer review of research articles is a core part of our scholarly communication system. In spite of its importance, the status and purpose of peer review is often contested. What is its role in our modern digital research and communications infrastructure? Does it perform to the high standards with which it is generally regarded? Studies of peer review have shown that it is prone to bias and abuse in numerous dimensions, frequently unreliable, and can fail to detect even fraudulent research. With the advent of Web technologies, we are now witnessing a phase of innovation and experimentation in our approaches to peer review. These developments prompted us to examine emerging models of peer review from a range of disciplines and venues, and to ask how they might address some of the issues with our current systems of peer review. We examine the functionality of a range of social Web platforms, and compare these with the traits underlying a viable peer review system: quality control, quantified performance metrics as engagement incentives, and certification and reputation. Ideally, any new systems will demonstrate that they out-perform current models while avoiding as many of the biases of existing systems as possible. We conclude that there is considerable scope for new peer review initiatives to be developed, each with their own potential issues and advantages. We also propose a novel hybrid platform model that, at least partially, resolves many of the technical and social issues associated with peer review, and can potentially disrupt the entire scholarly communication system. Success for any such development relies on reaching a critical threshold of research community engagement with both the process and the platform, and therefore cannot be achieved without a significant change of incentives in research environments.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>An investigation of GPU-based stiff chemical kinetics integration methods</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/stiff-GPU-integrators"/>
+   <updated>2017-05-01T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/stiff-GPU-integrators</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;A fifth-order implicit Runge–Kutta method and two fourth-order exponential integration methods equipped with Krylov subspace approximations were implemented for the GPU and paired with the analytical chemical kinetic Jacobian software &lt;code class=&quot;highlighter-rouge&quot;&gt;pyJac&lt;/code&gt;. The performance of each algorithm was evaluated by integrating thermochemical state data sampled from stochastic partially stirred reactor simulations and compared with the commonly used CPU-based implicit integrator &lt;code class=&quot;highlighter-rouge&quot;&gt;CVODE&lt;/code&gt;. We estimated that the implicit Runge–Kutta method running on a single GPU is equivalent to &lt;code class=&quot;highlighter-rouge&quot;&gt;CVODE&lt;/code&gt; running on 12–38 CPU cores for integration of a single global integration time step of 1e-6 s with hydrogen and methane models. In the stiffest case studied—the methane model with a global integration time step of 1e-4 s—thread divergence and higher memory traffic significantly decreased GPU performance to the equivalent of &lt;code class=&quot;highlighter-rouge&quot;&gt;CVODE&lt;/code&gt; running on approximately three CPU cores. The exponential integration algorithms performed more slowly than the implicit integrators on both the CPU and GPU. Thread divergence and memory traffic were identified as the main limiters of GPU integrator performance, and techniques to mitigate these issues were discussed. Use of a finite-difference Jacobian on the GPU—in place of the analytical Jacobian provided by &lt;code class=&quot;highlighter-rouge&quot;&gt;pyJac&lt;/code&gt;—greatly decreased integrator performance due to thread divergence, resulting in maximum slowdowns of 7.11–240.96 times; in comparison, the corresponding slowdowns on the CPU were just 1.39–2.61 times, underscoring the importance of use of an analytical Jacobian for efficient GPU integration. Finally, future research directions for working towards enabling realistic chemistry in reactive-flow simulations via GPU/SIMD-accelerated stiff chemical kinetic integration were identified.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Effects of oil and water contamination on natural gas engine combustion processes</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/oil-water-natural-gas-engine"/>
+   <updated>2017-05-01T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/oil-water-natural-gas-engine</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Abundant availability and potential for lower emissions are drivers for increased utilization of natural gas in automotive engines for transportation applications. A novel bimodal engine has been developed that allows on-board refueling of natural gas by utilizing the engine as a compressor. Engine compression however, results in altering the initial state of the natural gas. Increase in temperature and addition of oil are two key effects attributed to the onboard refueling process. A secondary effect is the presence of water in the natural gas supply line. This study investigates the effect of upstream conditions of natural gas on three parameters: autoignition temperature, ignition delay, and laminar flame speed. These parameters play key roles in the engine combustion process. Parametric studies are conducted by varying the initial mixture temperature, water, and oil content in the fuel. The studies utilize numerical simulations conducted with detailed chemistry for natural gas with n-heptane used as a surrogate for oil. Water addition to natural gas at 1–5% by volume did not result in any major changes in the combustion processes, other than a slight reduction in laminar flame speeds. Oil addition of 1–5% by volume reduced autoignition temperature by 5–10% and ignition delay by 27–95% depending on the initial temperature. Sensitivity analysis showed that this was likely due to decrease in the sensitivity of two recombination reactions with oil addition. Evolution profiles of key radical species also showed increasing mole fraction of the hydroperoxy radical at lower temperature that likely aids in reducing the ignition delay. Oil addition resulted in a relatively small increase in the laminar flame speed of 1.7% along with an increase in the adiabatic flame temperature. These results help inform the combustion process and performance to be expected from the bimodal engine.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>AJ in the news</title>
+   <link href="https://niemeyer-research-group.github.io//news/pilot-liblab-video"/>
+   <updated>2017-03-01T00:00:00-08:00</updated>
+   <id>https://niemeyer-research-group.github.io//news/pilot-liblab-video</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;/team/aj-fillo&quot;&gt;AJ Fillo&lt;/a&gt;, PhD candidate in the NRG, developed and starred in the &lt;a href=&quot;https://www.youtube.com/watch?v=H96Xr0Efelk&quot;&gt;pilot LIB LAB episode&lt;/a&gt; episode, an educational STEAM outreach video on propulsion.&lt;/p&gt;
+
+&lt;p&gt;AJ was also recently featured in a &lt;a href=&quot;http://mime.oregonstate.edu/fanning-flames&quot;&gt;story on the MIME website&lt;/a&gt; about both his research and the LIB LAB video series.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>pyJac: Analytical Jacobian generator for chemical kinetics</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/pyjac-paper"/>
+   <updated>2017-02-14T00:00:00-08:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/pyjac-paper</id>
+   <content type="html">
+&lt;h1 id=&quot;brief-description&quot;&gt;Brief description&lt;/h1&gt;
+
+&lt;p&gt;pyJac is an open-source Python-based tool that produces analytical Jacobian
+matrices for chemical kinetics differential equations. This paper describes the
+theory behind pyJac, including derivation of the chemical kinetic Jacobian and
+all necessary components, pyJac’s implementation, verification of pyJac’s output,
+and a performance comparison with alternative methods.&lt;/p&gt;
+
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Accurate simulations of combustion phenomena require the use of detailed chemical kinetics in order to capture limit phenomena such as ignition and extinction as well as predict pollutant formation. However, the chemical kinetic models for hydrocarbon fuels of practical interest typically have large numbers of species and reactions and exhibit high levels of mathematical stiffness in the governing differential equations, particularly for larger fuel molecules. In order to integrate the stiff equations governing chemical kinetics, generally reactive-flow simulations rely on implicit algorithms that require frequent Jacobian matrix evaluations. Some in situ and a posteriori computational diagnostics methods also require accurate Jacobian matrices, including computational singular perturbation and chemical ex- plosive mode analysis. Typically, finite differences numerically approximate these, but for larger chemical kinetic models this poses significant computational demands since the number of chemical source term evaluations scales with the square of species count. Furthermore, existing analytical Jacobian tools do not optimize evaluations or support emerging SIMD processors such as GPUs. Here we introduce &lt;code class=&quot;highlighter-rouge&quot;&gt;pyJac&lt;/code&gt;, a Python-based open-source program that generates analytical Jacobian matrices for use in chemical kinetics modeling and analysis. In addition to producing the necessary customized source code for evaluating reaction rates (including all modern reaction rate formulations), the chemical source terms, and the Jacobian matrix, &lt;code class=&quot;highlighter-rouge&quot;&gt;pyJac&lt;/code&gt; uses an optimized evaluation order to minimize computational and memory operations. As a demonstration, we first establish the correctness of the Jacobian matrices for kinetic models of hydrogen, methane, ethylene, and isopentanol oxidation (number of species ranging 13–360) by showing agreement within 0.001% of matrices obtained via automatic differentiation. We then demonstrate the performance achievable on CPUs and GPUs using &lt;code class=&quot;highlighter-rouge&quot;&gt;pyJac&lt;/code&gt; via matrix evaluation timing comparisons; the routines produced by &lt;code class=&quot;highlighter-rouge&quot;&gt;pyJac&lt;/code&gt; outperformed first-order finite differences by 2.9–5.3 times and the existing analytical Jacobian software &lt;code class=&quot;highlighter-rouge&quot;&gt;TChem&lt;/code&gt; by 3.9–41 times. The Jacobian matrix generator we describe here will be useful for reducing the cost of integrating chemical source terms with implicit algorithms in particular and algorithms that require an accurate Jacobian matrix in general. Furthermore, the open-source release of the program and Python-based implementation will enable wide adoption.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Reduced chemistry for butanol isomers at engine-relevant conditions</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/butanol-skeletal-models"/>
+   <updated>2016-12-12T00:00:00-08:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/butanol-skeletal-models</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Butanol has received significant research attention as a second-generation biofuel in the past few years. In the present study, skeletal mechanisms for four butanol isomers were generated from two widely accepted, well-validated detailed chemical kinetic models for the butanol isomers. The detailed models were reduced using a two-stage approach consisting of the directed relation graph with error propagation and sensitivity analysis. During the reduction process, issues were encountered with pressure-dependent reactions formulated using the logarithmic pressure interpolation approach; these issues are discussed and recommendations are made to avoid ambiguity in its future implementation in mechanism development. The performance of the skeletal mechanisms generated here was compared with that of detailed mechanisms in simulations of autoignition delay times, laminar flame speeds, and perfectly stirred reactor temperature response curves and extinction residence times, over a wide range of pressures, temperatures, and equivalence ratios. Good agreement was observed between the detailed and skeletal mechanisms, demonstrating the adequacy of the resulting reduced chemistry for all the butanol isomers in predicting global combustion phenomena. In addition, the skeletal mechanisms closely predicted the time-histories of fuel mass fractions in homogeneous compression-ignition engine simulations. The performance of each butanol isomer was additionally compared with that of a gasoline surrogate with an antiknock index of 87 in a homogeneous compression-ignition engine simulation. The gasoline surrogate was consumed faster than any of the butanol isomers, with &lt;em&gt;tert&lt;/em&gt;-butanol exhibiting the slowest fuel consumption rate. While &lt;em&gt;n&lt;/em&gt;-butanol and isobutanol displayed the most similar consumption profiles relative to the gasoline surrogate, the two literature chemical kinetic models predicted different orderings.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Kyle featured in faculty spotlight article</title>
+   <link href="https://niemeyer-research-group.github.io//news/kyle-faculty-spotlight"/>
+   <updated>2016-11-23T00:00:00-08:00</updated>
+   <id>https://niemeyer-research-group.github.io//news/kyle-faculty-spotlight</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;/team/kyle-niemeyer&quot;&gt;Kyle&lt;/a&gt; was featured in a &lt;a href=&quot;http://blogs.oregonstate.edu/mimenews/2016/11/23/faculty-spotlight-kyle-niemeyer/&quot;&gt;faculty spotlight article&lt;/a&gt; describing his research and background.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Predicting fuel research octane number using Fourier-transform infrared absorption spectra of neat hydrocarbons</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/RON-FTIR"/>
+   <updated>2016-11-01T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/RON-FTIR</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Liquid transportation fuels require costly and time-consuming tests to characterize metrics, such as Research Octane Number (RON) for gasoline. If fuel sale restrictions requiring use of standard Cooperative Fuel Research (CFR) testing procedures do not apply, these tests may be avoided by using multivariate statistical models to predict RON and other quantities. Existing techniques inform these models using information about existing, similar fuels—for example, training a model for gasoline RON with a large number of characterized gasoline samples. While this yields the most accurate predictive models for these fuels, this approach lacks the ability to predict characteristics of fuels outside the training data set. Here we show that an accurate statistical model for the RON of gasoline and gasoline-like fuels can be constructed by ensuring the representation of key functional groups in the spectroscopic data set are used to train the model. We found that a principal component regression model for RON based on IR absorbance and informed using neat and 134 mixtures of n-heptane, isooctane, toluene, ethanol, methylcyclohexane, and 1-hexene could predict RON for the 10 Coordinating Research Council (CRC) Fuels for Advanced Combustion Engine (FACE) gasolines and 12 FACE gasoline blends with ethanol within 34.8±36.1 on average and 51.2 in the worst case. We next studied the effect of adding 28 additional minor components found in the FACE gasolines to the statistical model, and determined that it was necessary to add additional representatives of the branched alkane and aromatics classes to reduce model error. For example, adding 2,3-dimethylpentane and xylene to the previous model allowed it to predict RON for the 22 target fuels within 0.3±4.4 on average and 7.9 in the worst case. However, we determined that the specific choice of fuel in those classes mattered less than ensuring the representation of the relevant functional group. This work builds upon previous efforts by creating models informed by neat and surrogate fuels—rather than complex real fuels—that could predict the performance of complex unknown fuels.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Report on the Third Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE3)</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/wssspe3-report"/>
+   <updated>2016-10-21T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/wssspe3-report</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;This report records and discusses the Third Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE3). The report includes a description of the keynote presentation of the workshop, which served as an overview of sustainable scientific software. It also summarizes a set of lightning talks in which speakers highlighted to-the-point lessons and challenges pertaining to sustaining scientific software. The final and main contribution of the report is a summary of the discussions, future steps, and future organization for a set of self-organized working groups on topics including developing pathways to funding scientific software; constructing useful common metrics for crediting software stakeholders; identifying principles for sustainable software engineering design; reaching out to research software organizations around the world; and building communities for software sustainability. For each group, we include a point of contact and a landing page that can be used by those who want to join that group’s future activities. The main challenge left by the workshop is to see if the groups will execute these activities that they have scheduled, and how the WSSSPE community can encourage this to happen.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The challenge and promise of software citation for credit, identification, discovery, and reuse</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/software-citation-challenge"/>
+   <updated>2016-10-01T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/software-citation-challenge</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;In this article, we present the challenge of software citation as a method to ensure credit for and identification, discovery, and reuse of software in scientific and engineering research. We discuss related work and key challenges/research directions, including suggestions for metadata necessary for software citation.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Software citation principles</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/software-citation-principles"/>
+   <updated>2016-09-19T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/software-citation-principles</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Software is a critical part of modern research and yet there is little support across the scholarly ecosystem for its acknowledgement and citation. Inspired by the activities of the FORCE11 working group focused on data citation, this document summarizes the recommendations of the FORCE11 Software Citation Working Group and its activities between June 2015 and April 2016. Based on a review of existing community practices, the goal of the working group was to produce a consolidated set of citation principles that may encourage broad adoption of a consistent policy for software citation across disciplines and venues. Our work is presented here as a set of software citation principles, a discussion of the motivations for developing the principles, reviews of existing community practice, and a discussion of the requirements these principles would place upon different stakeholders. Working examples and possible technical solutions for how these principles can be implemented will be discussed in a separate paper.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Counterflow ignition of <i>n</i>-butanol at atmospheric and elevated pressures</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/nbutanol-counterflow"/>
+   <updated>2015-10-01T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/nbutanol-counterflow</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Critical to the development of predictive combustion models is a robust understanding of the coupled effects of chemical kinetics and convective–diffusive transport at both atmospheric and elevated pressures. The present study describes a new variable-pressure non-premixed counterflow ignition experiment designed to address the need for well-characterized reference data to validate such models under conditions sensitive to both chemical and transport processes. A comprehensive characterization of system behavior is provided to demonstrate boundary condition and ignition quality as well as adherence to the assumption of quasi-one-dimensionality, and suggest limitations and best practices for counterflow ignition experiments. This effort reveals that the counterflow ignition experiment requires special attention to ignition location in order to ensure that the assumption of quasi-one-dimensionality is valid, particularly at elevated pressures. This experimental tool is then applied to the investigation of &lt;em&gt;n&lt;/em&gt;-butanol for pressures of 1–4 atm, pressure-weighted strain rates of 200–400 s&lt;sup&gt;−1&lt;/sup&gt;, and fuel mole fractions of 0.05–0.25. Results are simulated using two &lt;em&gt;n&lt;/em&gt;-butanol models available in the literature and used to validate and assess model performance. Comparison of experimental and numerical ignition results for &lt;em&gt;n&lt;/em&gt;-butanol demonstrates that while existing models largely capture the trends observed with varying pressure, strain rate, and fuel loading, the models universally over-predict experimental ignition temperatures. While several transport coefficients are found to exhibit order-of-magnitude or greater sensitivities relative to reaction rates, variation of transport parameters is not able to account for the large deviations observed between experimental and numerical results. Further comparison of ignition kernel structure and fuel breakdown pathways between two literature models suggests that an under-prediction in the radical pool growth with respect to temperature variation may be responsible for both the deviation from the experimental results and the discrepancy in ignition temperature results observed between models.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Development of efficient and accurate skeletal mechanisms for hydrocarbon fuels and kerosene surrogate</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/kerosene-model-reduction"/>
+   <updated>2015-10-01T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/kerosene-model-reduction</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;In this paper, the methodology of the directed relation graph with error propagation and sensitivity analysis (DRGEPSA), proposed by Niemeyer et al. [Combustion and Flame 155 (2010) 1760–1770], and its differences to the original directed relation graph method are described. Using DRGEPSA, the detailed mechanism of ethylene containing 71 species and 395 reaction steps is reduced to several skeletal mechanisms with different error thresholds. The 25 species and 131 steps mechanism and the 24 species and 115 steps mechanism are found to be accurate for the predictions of ignition delay time and laminar flame speed. Although further reduction leads to a smaller skeletal mechanism with 19 species and 68 steps, it is no longer able to represent the correct reaction processes. With the DRGEPSA method, a detailed mechanism for n-dodecane considering low-temperature chemistry and containing 2115 species and 8157 steps is reduced to a much smaller mechanism with 249 species and 910 steps while retaining good accuracy. If considering only high-temperature (higher than 1000 K) applications, the detailed mechanism can be simplified to even smaller mechanisms with 65 species and 340 steps or 48 species and 220 steps. Furthermore, a detailed mechanism for a kerosene surrogate having 207 species and 1592 steps is reduced with various error thresholds and the results show that the 72 species and 429 steps mechanism and the 66 species and 392 steps mechanism are capable of predicting correct combustion properties compared to those of the detailed mechanism. It is well recognized that kinetic mechanisms can be effectively used in computations only after they are reduced to an acceptable size level for computation capacity and at the same time retaining accuracy. Thus, the skeletal mechanisms generated from the present work are expected to be useful for the application of kinetic mechanisms of hydrocarbons to numerical simulations of turbulent or supersonic combustion.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>A novel fuel performance index for LTC engines based on operating envelopes in light-duty driving cycle simulations</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/LTC-index"/>
+   <updated>2015-10-01T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/LTC-index</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Low-temperature combustion (LTC) engine concepts such as homogeneous charge compression ignition (HCCI) offer the potential of improved efficiency and reduced emissions of NOx and particulates. However, engines can only successfully operate in HCCI mode for limited operating ranges that vary depending on the fuel composition. Unfortunately, traditional ratings such as octane number poorly predict the autoignition behavior of fuels in such engine modes, and metrics recently proposed for HCCI engines have areas of improvement when wide ranges of fuels are considered. In this study, a new index for ranking fuel suitability for LTC engines was defined, based on the fraction of potential fuel savings achieved in the FTP-75 light-duty vehicle driving cycle. Driving cycle simulations were performed using a typical light-duty passenger vehicle, providing pairs of engine speed and load points. Separately, single-zone naturally aspirated HCCI engine simulations were performed for a variety of fuels in order to determine the operating envelopes for each. These results were combined to determine the varying improvement in fuel economy offered by fuels, forming the basis for a fuel performance index. Results showed that, in general, lower octane fuels performed better, resulting in higher LTC fuel index values; however, octane number alone did not predict fuel performance.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Investigation of the LTC fuel performance index for oxygenated reference fuel blends</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/LTC-index-oxygenated"/>
+   <updated>2015-09-01T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/LTC-index-oxygenated</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;A new metric for ranking the suitability of fuels in LTC engines was recently introduced, based on the fraction of potential fuel savings achieved in the FTP-75 light-duty vehicle driving cycle. In the current study, this LTC fuel performance index was calculated and analyzed for a number of fuel blends comprised of n-heptane, isooctane, toluene, and ethanol in various combinations and ratios corresponding to octane numbers from 0 to 100. In order to calculate the LTC index for each fuel, driving cycle simulations were first performed using a typical light-duty passenger vehicle, providing pairs of engine speed and load points. Separately, for each fuel blend considered, single-zone naturally aspirated HCCI engine simulations with a compression ratio of 9.5 were performed in order to determine the operating envelopes. These results were combined to determine the varying improvement in fuel economy offered by fuels, forming the basis for the LTC fuel index. The resulting fuel performance indices ranged from 36.4 for neat n-heptane (PRF0) to 9.20 for a three-component blend of &lt;em&gt;n&lt;/em&gt;-heptane, isooctane, and ethanol (ERF1). For the chosen engine and chosen conditions, in general lower-octane fuels performed better, resulting in higher LTC fuel index values; however, the fuel performance index correlated poorly with octane rating for less-reactive, higher-octane fuels.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>An automated target species selection method for dynamic adaptive chemistry simulations</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/target-species-selection"/>
+   <updated>2015-04-01T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/target-species-selection</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;The relative importance index (RII) method for determining appropriate target species for dynamic adaptive chemistry (DAC) simulations using the directed relation graph with error propagation (DRGEP) method is developed. The adequacy and effectiveness of this RII method is validated for two fuels: n-heptane and isopentanol, representatives of a ground transportation fuel component and bio-alcohol, respectively.&lt;/p&gt;
+
+&lt;p&gt;The conventional method of DRGEP target species selection involves picking an unchanging (static) set of target species based on the combustion processes of interest; however, these static target species may not remain important throughout the entire combustion simulation, adversely affecting the accuracy of the method. In particular, this behavior may significantly reduce the accuracy of the DRGEP-based DAC approach in complex multidimensional simulations where the encountered combustion conditions cannot be known a priori with high certainty. Moreover, testing multiple sets of static target species to ensure the accuracy of the method is generally computationally prohibitive. Instead, the RII method determines appropriate DRGEP target species solely from the local thermo-chemical state of the simulation, ensuring that accuracy will be maintained. Further, the RII method reduces the expertise required of users to select DRGEP target species sets appropriate to the combustion phenomena under consideration.&lt;/p&gt;
+
+&lt;p&gt;Constant volume autoignition simulations run over a wide range of initial conditions using detailed reaction mechanisms for n-heptane and isopentanol show that the RII method is able to maintain accuracy even when traditional static target species sets fail, and are even more accurate than expert-selected target species sets. Additionally, the accuracy and efficiency of the RII method are compared to those of static target species sets in single-cell engine simulations under homogeneous charge compression ignition conditions. For simulations using more stringent DRGEP thresholds, the RII method performs similarly to that of the static target species sets. With a larger DRGEP threshold, the RII method is significantly more accurate than the static target species sets without imposing significant computational overhead.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, the applicability of the RII method to a DRG-based DAC scheme is discussed.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Reduced chemistry for a gasoline surrogate valid at engine-relevant conditions</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/reduced-gasoline-surrogate"/>
+   <updated>2015-01-14T00:00:00-08:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/reduced-gasoline-surrogate</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;A detailed mechanism for the four-component RD387 gasoline surrogate developed by Lawrence Livermore National Laboratory has shown good agreement with experiments in engine-relevant conditions. However, with 1388 species and 5933 reversible reactions, this detailed mechanism is far too large to use in practical engine simulations. Therefore, reduction of the detailed mechanism was performed using a multi-stage approach consisting of the DRGEPSA method, unimportant reaction elimination, isomer lumping, and analytic QSS reduction based on CSP analysis. A new greedy sensitivity analysis algorithm was developed and demonstrated to be capable of removing more species for the same error limit compared to the conventional sensitivity analysis used in DRG-based skeletal reduction methods. Using this new greedy algorithm, several skeletal and reduced mechanisms were developed at varying levels of complexity and for different target condition ranges. The final skeletal and reduced mechanisms consisted of 213 and 148 species, respectively, for a lean-to-stoichiometric, low-temperature HCCI-like range of conditions. For a lean-to-rich, high-temperature, SI/CI-like range of conditions, skeletal and reduced mechanisms were developed with 97 and 79 species, respectively. The skeletal and reduced mechanisms in this study were produced using an error limit of 10% and validated using homogeneous autoignition simulations over engine-relevant conditions—all showed good agreement in predicting ignition delay. Furthermore, extended validation was performed, including comparison of autoignition temperature profiles, PSR temperature response curves and extinction turning points, and laminar flame speed calculations. All the extended validation showed results within the 10% error limit, demonstrating the adequacy of the resulting reduced chemistry.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Mechanism reduction for multicomponent surrogates: a case study using toluene reference fuels</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/multicomponent-reduction"/>
+   <updated>2014-11-01T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/multicomponent-reduction</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Strategies and recommendations for performing skeletal reductions of multicomponent surrogate fuels are presented, through the generation and validation of skeletal mechanisms for a three-component toluene reference fuel. Using the directed relation graph with error propagation and sensitivity analysis method followed by a further unimportant reaction elimination stage, skeletal mechanisms valid over comprehensive and high-temperature ranges of conditions were developed at varying levels of detail. These skeletal mechanisms were generated based on autoignition simulations, and validation using ignition delay predictions showed good agreement with the detailed mechanism in the target range of conditions. When validated using phenomena other than autoignition, such as perfectly stirred reactor and laminar flame propagation, tight error control or more restrictions on the reduction during the sensitivity analysis stage were needed to ensure good agreement. In addition, tight error limits were needed for close prediction of ignition delay when varying the mixture composition away from that used for the reduction. In homogeneous compression-ignition engine simulations, the skeletal mechanisms closely matched the point of ignition and accurately predicted species profiles for lean to stoichiometric conditions. Furthermore, the efficacy of generating a multicomponent skeletal mechanism was compared to combining skeletal mechanisms produced separately for neat fuel components; using the same error limits, the latter resulted in a larger skeletal mechanism size that also lacked important cross reactions between fuel components. Based on the present results, general guidelines for reducing detailed mechanisms for multicomponent fuels are discussed.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Recent progress and challenges in exploiting graphics processors in computational fluid dynamics</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/review-GPU-CFD"/>
+   <updated>2014-02-01T00:00:00-08:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/review-GPU-CFD</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;The progress made in accelerating simulations of fluid flow using GPUs, and the challenges that remain, are surveyed. The review first provides an introduction to GPU computing and programming, and discusses various considerations for improved performance. Case studies comparing the performance of CPU- and GPU- based solvers for the Laplace and incompressible Navier–Stokes equations are performed in order to demonstrate the potential improvement even with simple codes. Recent efforts to accelerate CFD simulations using GPUs are reviewed for laminar, turbulent, and reactive flow solvers. Also, GPU implementations of the lattice Boltzmann method are reviewed. Finally, recommendations for implementing CFD codes on GPUs are given and remaining challenges are discussed, such as the need to develop new strategies and redesign algorithms to enable GPU acceleration.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Accelerating moderately stiff chemical kinetics in reactive-flow simulations using GPUs</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/moderately-stiff-GPU"/>
+   <updated>2014-01-01T00:00:00-08:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/moderately-stiff-GPU</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;The chemical kinetics ODEs arising from operator-split reactive-flow simulations were solved on GPUs using explicit integration algorithms. Nonstiff chemical kinetics of a hydrogen oxidation mechanism (9 species and 38 irreversible reactions) were computed using the explicit fifth-order Runge–Kutta–Cash–Karp method, and the GPU-accelerated version performed faster than single- and six-core CPU versions by factors of 126 and 25, respectively, for 524,288 ODEs. Moderately stiff kinetics, represented with mechanisms for hydrogen/carbon-monoxide (13 species and 54 irreversible reactions) and methane (53 species and 634 irreversible reactions) oxidation, were computed using the stabilized explicit second-order Runge–Kutta–Chebyshev (RKC) algorithm. The GPU-based RKC implementation demonstrated an increase in performance of nearly 59 and 10 times, for problem sizes consisting of 262,144 ODEs and larger, than the single- and six-core CPU-based RKC algorithms using the hydrogen/carbon-monoxide mechanism. With the methane mechanism, RKC-GPU performed more than 65 and 11 times faster, for problem sizes consisting of 131,072 ODEs and larger, than the single- and six-core RKC-CPU versions, and up to 57 times faster than the six-core CPU-based implicit VODE algorithm on 65,536 ODEs. In the presence of more severe stiffness, such as ethylene oxidation (111 species and 1566 irreversible reactions), RKC-GPU performed more than 17 times faster than RKC-CPU on six cores for 32,768 ODEs and larger, and at best 4.5 times faster than VODE on six CPU cores for 65,536 ODEs. With a larger time step size, RKC-GPU performed at best 2.5 times slower than six-core VODE for 8192 ODEs and larger. Therefore, the need for developing new strategies for integrating stiff chemistry on GPUs was discussed.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>On the importance of graph search algorithms for DRGEP-based mechanism reduction methods</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/graph-search"/>
+   <updated>2011-08-01T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/graph-search</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;The importance of graph search algorithm choice to the directed relation graph with error propagation (DRGEP) method is studied by comparing basic and modified depth-first search, basic and R-value-based breadth-first search (RBFS), and Dijkstra’s algorithm. By using each algorithm with DRGEP to produce skeletal mechanisms from a detailed mechanism for n-heptane with randomly-shuffled species order, it is demonstrated that only Dijkstra’s algorithm and RBFS produce results independent of species order. In addition, each algorithm is used with DRGEP to generate skeletal mechanisms for n-heptane covering a comprehensive range of autoignition conditions for pressure, temperature, and equivalence ratio. Dijkstra’s algorithm combined with a coefficient scaling approach is demonstrated to produce the most compact skeletal mechanism with a similar performance compared to larger skeletal mechanisms resulting from the other algorithms. The computational efficiency of each algorithm is also compared by applying the DRGEP method with each search algorithm on the large detailed mechanism for n-alkanes covering n-octane to n-hexadecane with 2115 species and 8157 reactions. Dijkstra’s algorithm implemented with a binary heap priority queue is demonstrated as the most efficient method, with a CPU cost two orders of magnitude less than the other search algorithms.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Skeletal mechanism generation for surrogate fuels using directed relation graph with error propagation and sensitivity analysis</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/skeletal-reduction"/>
+   <updated>2010-09-01T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/skeletal-reduction</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;A novel implementation for the skeletal reduction of large detailed reaction mechanisms using the directed relation graph with error propagation and sensitivity analysis (DRGEPSA) is developed and presented with examples for three hydrocarbon components, n-heptane, iso-octane, and n-decane, relevant to surrogate fuel development. DRGEPSA integrates two previously developed methods, directed relation graph-aided sensitivity analysis (DRGASA) and directed relation graph with error propagation (DRGEP), by first applying DRGEP to efficiently remove many unimportant species prior to sensitivity analysis to further remove unimportant species, producing an optimally small skeletal mechanism for a given error limit. It is illustrated that the combination of the DRGEP and DRGASA methods allows the DRGEPSA approach to overcome the weaknesses of each, specifically that DRGEP cannot identify all unimportant species and that DRGASA shields unimportant species from removal. Skeletal mechanisms for n-heptane and iso-octane generated using the DRGEP, DRGASA, and DRGEPSA methods are presented and compared to illustrate the improvement of DRGEPSA. From a detailed reaction mechanism for n-alkanes covering n-octane to n-hexadecane with 2115 species and 8157 reactions, two skeletal mechanisms for n-decane generated using DRGEPSA, one covering a comprehensive range of temperature, pressure, and equivalence ratio conditions for autoignition and the other limited to high temperatures, are presented and validated. The comprehensive skeletal mechanism consists of 202 species and 846 reactions and the high- temperature skeletal mechanism consists of 51 species and 256 reactions. Both mechanisms are further demonstrated to well reproduce the results of the detailed mechanism in perfectly-stirred reactor and laminar flame simulations over a wide range of conditions. The comprehensive and high-temperature n-decane skeletal mechanisms are included as supplementary material with this article.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Three-dimensional surface texture visualization of bone tissue through epifluorescence-based serial block face imaging</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/bone-imaging"/>
+   <updated>2009-10-01T00:00:00-07:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/bone-imaging</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Serial block face imaging is a microscopy technique in which the top of a specimen is cut or ground away and a mosaic of images is collected of the newly revealed cross-section. Images collected from each slice are then digitally stacked to achieve 3D images. The development of fully automated image acquisition devices has made serial block face imaging more attractive by greatly reducing labour requirements. The technique is particularly attractive for studies of biological activity within cancellous bone as it has the capability of achieving direct, automated measures of biological and morphological traits and their associations with one another. When used with fluorescence microscopy, serial block face imaging has the potential to achieve 3D images of tissue as well as fluorescent markers of biological activity. Epifluorescence-based serial block face imaging presents a number of unique challenges for visualizing bone specimens due to noise generated by sub-surface signal and local variations in tissue autofluorescence. Here we present techniques for processing serial block face images of trabecular bone using a combination of non-uniform illumination correction, precise tiling of the mosaic in each cross-section, cross-section alignment for vertical stacking, removal of sub-surface signal and segmentation. The resulting techniques allow examination of bone surface texture that will enable 3D quantitative measures of biological processes in cancellous bone biopsies.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

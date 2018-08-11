@@ -24,6 +24,8 @@ before_script:
   - conda info -a
   - conda create -q -n test-environment python=3.6 doctr
   - source activate test-environment
+
+install:
   - bundle install
 
 # This is the script to build the docs on travis, then deploy
