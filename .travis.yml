@@ -1,9 +1,6 @@
 sudo: false
 # Doctr requires python >=3.5
 language: ruby
-rvm:
-  - 2.5.1
-
 cache: bundler
 
 # This gives Doctr the key we've generated
