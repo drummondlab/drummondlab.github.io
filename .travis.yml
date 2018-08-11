@@ -32,4 +32,4 @@ install:
 script:
   - set -e
   - bundle exec jekyll build
-  - doctr deploy . --built-docs _site --branch-whitelist source --deploy-branch-name master deploy_directory .
+  - doctr deploy --built-docs _site --branch-whitelist source --deploy-branch-name master .
