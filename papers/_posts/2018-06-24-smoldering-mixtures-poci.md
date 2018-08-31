@@ -13,10 +13,11 @@ image: /assets/images/papers/smoldering-mixtures-poci.png
 arxiv: "1806.08396 [physics.flu-dyn]"
 eprint: https://arxiv.org/abs/1806.08396
 github:
-doi:
+doi: 10.1016/j.proci.2018.06.164
 dryad_doi:
 altmetric_id:
 figshare:
+zenodo: 10.5281/zenodo.1297663
 category: paper
 published: true
 embargo: false
@@ -32,7 +33,7 @@ bibtex: >
     Pages = {},
     Volume = {},
     Year = 2019,
-    doi = {}
+    doi = {10.1016/j.proci.2018.06.164}
   }
 ---
 {% include JB/setup %}
