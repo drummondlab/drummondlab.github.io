@@ -31,7 +31,7 @@ bibtex: >
     year  = 2018,
     month = may,
     volume = 226,
-    pages = {18--29}
+    pages = {18--29},
     author = {Christopher P. Stone and Andrew T. Alferman and Kyle E. Niemeyer},
     title = {Accelerating finite-rate chemical kinetics with coprocessors: Comparing vectorization methods on {GPUs}, {MICs}, and {CPUs}},
     journal = {Computer Physics Communications},
