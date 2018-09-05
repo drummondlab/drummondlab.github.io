@@ -9,7 +9,7 @@ volume:
 issue:
 pages:
 authors: "Curtis NJ, Niemeyer KE, Sung CJ"
-image: /assets/images/papers/pyjac-paper-abstract.png
+image: /assets/images/papers/pyjac-paper-abstract.svg
 arxiv: "1809.01029 [physics.comp-ph]"
 eprint: https://arxiv.org/abs/1809.01029
 github: https://github.com/SLACKHA/pyJac-v2
