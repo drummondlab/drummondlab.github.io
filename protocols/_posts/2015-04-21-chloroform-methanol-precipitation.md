@@ -13,7 +13,7 @@ Detergents, like SDS, and salts, like NaCl, can disrupt liquid chromatography/ta
 
 # Protocol
 
-To 100 µL protein sample (~100ug protein) in a 1.5mL eppendorf tube:
+To 100 µL protein sample (~100µg protein) in a 1.5mL eppendorf tube:
 
 1. Add 400 µL methanol and vortex thoroughly.
 1. Add 100 µL chloroform and vortex.
