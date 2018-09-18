@@ -5,7 +5,7 @@ image: swept-diagram.jpg
 funder: NASA
 start_year: 2015
 end_year:
-team: [magee, kyle]
+team: [magee, awalker, kyle]
 category: project
 tags: [parallel computing, domain decomposition, CFD]
 active: true
