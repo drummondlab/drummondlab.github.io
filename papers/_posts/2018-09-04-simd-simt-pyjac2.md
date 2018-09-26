@@ -5,15 +5,15 @@ year: 2018
 shortref: "Curtis et al. <i>Combustion and Flame</i> 2018"
 nickname: simd-simt-pyjac2
 journal: "Combustion and Flame"
-volume:
+volume: 198
 issue:
-pages:
+pages: 186-204
 authors: "Curtis NJ, Niemeyer KE, Sung CJ"
 image: /assets/images/papers/pyjac-paper-abstract.svg
 arxiv: "1809.01029 [physics.comp-ph]"
 eprint: https://arxiv.org/abs/1809.01029
 github: https://github.com/SLACKHA/pyJac-v2
-doi:
+doi: 10.1016/j.combustflame.2018.09.008
 dryad_doi:
 altmetric_id:
 zenodo:
@@ -30,8 +30,10 @@ bibtex: >
     author = {Nicholas J. Curtis and Kyle E. Niemeyer and Chih-Jen Sung},
     title = {Using {SIMD} and {SIMT} vectorization to evaluate sparse chemical kinetic {Jacobian} matrices and thermochemical source terms},
     journal = {Combustion and Flame},
+    volume = 198,
+    pages = {186--204},
     year  = 2018,
-    note = {In press},
+    doi = {10.1016/j.combustflame.2018.09.008}
   }
 ---
 {% include JB/setup %}
