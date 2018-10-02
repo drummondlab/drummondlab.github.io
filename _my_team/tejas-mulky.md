@@ -1,6 +1,6 @@
 ---
 title: Tejas Mulky
-position: MS student
+position: MS graduate
 nickname: Tejas
 handle: mulky
 email: mulkyt@oregonstate.edu
@@ -10,10 +10,12 @@ scholar:
 orcid: 0000-0003-3523-1979
 image: /assets/images/team/tejas-mulky.jpg
 cv:
-alum: false
+alum: true
 ---
-Tejas is a graduate student studying smoldering combustion. He received his bachelors degree in Mechanical Engineering from University of Mumbai in 2016.
+Tejas graduated with his MS in Mechanical Engineering in Fall 2018 studying smoldering combustion.
+He received his Bachelors degree in Mechanical Engineering from University of Mumbai in 2016.
 
+<i class="fas fa-book" aria-hidden="true"></i> MS thesis: [Computational Study of Smoldering Combustion in Cellulose and Hemicellulose Mixtures](https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/mk61rp01r)
 
 [Oregon State University]: http://oregonstate.edu/
 [School of Mechanical, Industrial, and Manufacturing Engineering]: http://mime.oregonstate.edu
