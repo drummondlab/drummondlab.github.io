@@ -35,7 +35,7 @@ Here you'll find protocols from others that we've found useful and tweaked to ou
 
 {% for protocol in site.categories.protocol %}
 
-    {% assign author = '' %}
+    {% assign author = 0 %}
     {% for member in site.categories.team %}
 			{% if member.title == protocol.author %}
 				{% assign author = member %}
