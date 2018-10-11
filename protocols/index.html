@@ -8,7 +8,7 @@ navorder: 5
 {% include JB/setup %}
 
 <div class="pager">
-  
+
 	{% if paginator.previous_page %}
 		{% if paginator.previous_page == 1 %}
 		<a class="prev" href="/{{ page.category }}/">
@@ -18,15 +18,15 @@ navorder: 5
 		<a class="prev" href="/{{ page.category }}/page{{ paginator.previous_page }}">
 			<i class="fa fa-chevron-left fa-lg"></i>
 		</a>
-		{% endif %}  		
-	{% endif %}  
-  
-	{% if paginator.next_page %}  
+		{% endif %}
+	{% endif %}
+
+	{% if paginator.next_page %}
 	<a class="next" href="/{{ page.category }}/page{{ paginator.next_page }}">
 		<i class="fa fa-chevron-right fa-lg"></i>
-	</a>	
-	{% endif %}  	
-    
+	</a>
+	{% endif %}
+
 </div>
 
 Here you'll find protocols from others that we've found useful and tweaked to our liking, and our own protocols that we encourage others to use. Almost always a bit of both.
@@ -35,12 +35,13 @@ Here you'll find protocols from others that we've found useful and tweaked to ou
 
 {% for protocol in site.categories.protocol %}
 
-		{% for member in site.categories.team %}
+    {% assign author = '' %}
+    {% for member in site.categories.team %}
 			{% if member.title == protocol.author %}
 				{% assign author = member %}
 			{% endif %}
 		{% endfor %}
-	
+
 		<div class="bigspacer"></div>
 		<div class="row">
 			<div class="col-md-12">
@@ -51,7 +52,7 @@ Here you'll find protocols from others that we've found useful and tweaked to ou
 					{%comment%}{{ protocol.date | date_to_string }}{% endcomment %}
 					{% if author %}
 					by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
-					{% endif %}				
+					{% endif %}
 				</div>
 				<div class="subtle smallnote">
 					tags:
@@ -61,13 +62,13 @@ Here you'll find protocols from others that we've found useful and tweaked to ou
 				</div>
 
 			</div>
-		</div>		
+		</div>
 
 {% endfor %}
 
 {% comment %}
 
-<div class="bigspacer"></div>	
+<div class="bigspacer"></div>
 <div class="row">
 	<div class="col-md-12 text-center">
 		<a class="off" href="/{{ page.category }}/archive/">
