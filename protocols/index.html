@@ -50,7 +50,7 @@ Here you'll find protocols from others that we've found useful and tweaked to ou
 				</div>
 				<div class="smallnote">
 					{%comment%}{{ protocol.date | date_to_string }}{% endcomment %}
-					{% if author %}
+					{% if author != 0 %}
 					by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
 					{% endif %}
 				</div>
