@@ -1,7 +1,7 @@
 ---
 title: "Turbulence-chemistry interactions in the ocean"
 handle: ocean-flows
-image:
+image: ocean-turbulence.png
 funder:
 start_year: 2017
 end_year:
