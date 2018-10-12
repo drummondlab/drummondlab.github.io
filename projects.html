@@ -7,14 +7,14 @@ navorder: 1
 permalink: "/research/"
 ---
 {% include JB/setup %}
-<div class="bigspacer"></div>
+<!-- <div class="bigspacer"></div>
 <div class="construction">
   <hr/>
   We are working on this page. Stay tuned.
   </br>
   <img class='img-circle' src='/assets/images/under_construction.gif' title='Under construction' alt='Stick figure shoveling' width='180px' />
   <hr/>
-</div>
+</div> -->
 
 <h2>Active Projects</h2>
 <div class="container">
@@ -78,6 +78,28 @@ permalink: "/research/"
 <div class="bigspacer"></div>
 {% endif %}
 {% endfor %}
+
+<h2>Funders</h2>
+<div class="container">
+{% assign funderindex = 0 %}
+{% for funder in site.data.funders %}
+  {% assign funderindex = funderindex | plus: 1 %}
+  {% assign colindex = funderindex | modulo: 3 %}
+  {% if colindex == 1 %} <!-- opening of a new row -->
+  <div class="row">
+  {% endif %}
+  <div class="col-md-4 memberbox">
+      <div class="media">
+          <a class="pull-left" href="{{ funder.url }}">
+          <img class="mr-3 img-responsive" src="{{ funder.logo }}">
+          </a>
+      </div>
+  </div>
+  {% if colindex == 0 %} <!-- closing a row -->
+  </div><div class="bigspacer"></div>
+  {% endif %}
+{% endfor %}
+
 
 <div class="bigspacer"></div>
 </div>
