@@ -15,5 +15,7 @@ Andrew is an MS student studying the stiffness of chemical kinetics, and methods
 
 <i class="fas fa-book" aria-hidden="true"></i> MS thesis: [Evaluating Stiffness Metrics for Predicting the Cost of Chemical Kinetics Integration](http://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/6d570268k)
 
+Current position: Senior Mechanical Engineer at [PacifiCorp](https://www.pacificorp.com/).
+
 [Oregon State University]: http://oregonstate.edu/
 [School of Mechanical, Industrial, and Manufacturing Engineering]: http://mime.oregonstate.edu
