@@ -7,7 +7,7 @@ email: lorsonp@oregonstate.edu
 twitter:
 github: lorsonp
 scholar:
-image: /assets/images/team/      .jpg
+image: /assets/images/team/paige-lorson.jpg
 cv:
 alum: false
 ---
