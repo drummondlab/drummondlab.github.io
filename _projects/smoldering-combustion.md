@@ -5,7 +5,7 @@ image: smoldering-combustion.png
 funder: SERDP
 start_year: 2016
 end_year:
-team: [mulky, kyle]
+team: [jayasuriya, mulky, kyle]
 category: project
 tags: [combustion, smoldering, wood, biomass]
 active: true

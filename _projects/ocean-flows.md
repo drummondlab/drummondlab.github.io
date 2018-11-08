@@ -5,7 +5,7 @@ image: ocean-turbulence.png
 funder:
 start_year: 2017
 end_year:
-team: [pacheco, klee, kyle]
+team: [klee, pacheco, kyle]
 category: project
 tags: [ocean turbulence, biogeochemistry]
 active: true
