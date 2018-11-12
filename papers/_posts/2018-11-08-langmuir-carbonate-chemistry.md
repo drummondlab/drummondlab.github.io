@@ -13,7 +13,7 @@ image: /assets/images/papers/langmuir-carbonate-chemistry.png
 arxiv: "1809.02509 [physics.ao-ph]"
 eprint: https://arxiv.org/abs/1809.02509
 github:
-doi:
+doi: 10.1029/2018MS001486
 dryad_doi:
 altmetric_id:
 zenodo:
@@ -23,7 +23,8 @@ published: true
 embargo: false
 peerreview: true
 review: false
-tags: []
+openaccess: true
+tags: [ocean, Langmuir turbulence, carbonate chemistry]
 project: ocean-flows
 bibtex: >
   @article{Smith2018langmuir,
