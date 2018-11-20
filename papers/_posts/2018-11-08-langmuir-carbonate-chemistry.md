@@ -34,8 +34,8 @@ bibtex: >
     volume = ,
     pages = ,
     year  = 2018,
-    doi = {},
-    note = {Accepted for publication},
+    doi = {10.1029/2018MS001486},
+    note = {In press},
   }
 ---
 {% include JB/setup %}
