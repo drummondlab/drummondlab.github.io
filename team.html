@@ -161,35 +161,38 @@ permalink: "/team/"
     <div class="col-md-12">
         <div id="groupPhotos" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
-            <li data-target="#groupPhotos" data-slide-to="0" class="active"></li>
+            <!--
             <li data-target="#groupPhotos" data-slide-to="1"></li>
             <li data-target="#groupPhotos" data-slide-to="2"></li>
+            -->
+            {% for image in site.data.group-images %}
+            {% if forloop.index0 == 0 %}
+            <li data-target="#groupPhotos" data-slide-to="0" class="active"></li>
+            {% else %}
+            <li data-target="#groupPhotos" data-slide-to="{{ forloop.index0 }}"></li>
+            {% endif %}
+            {% endfor %}
           </ol>
           <div class="carousel-inner">
+
+            {% for image in site.data.group-images %}
+            {% if forloop.index0 == 0 %}
             <div class="active item">
-              <img class="d-block w-100" src="/assets/images/team/NRG-7Dec16.jpg" width='1200px' alt="NRG in December 2016">
+              <img class="d-block w-100" src="{{ image.name }}" width='1200px' alt="{{ image.alt }}">
               <div class="carousel-caption d-none d-md-block">
-                <p>NRG in December 2016</p>
+                <p>{{ image.description }}</p>
               </div>
             </div>
+            {% else %}
             <div class="item">
-              <img class="d-block w-100" src="/assets/images/team/group-Wyoming-Oct2017.jpg" width='1200px' alt="NRG in October 2017">
+              <img class="d-block w-100" src="{{ image.name }}" width='1200px' alt="{{ image.alt }}">
               <div class="carousel-caption d-none d-md-block">
-                <p>Partial NRG outing to Wyoming in October 2017</p>
+                <p>{{ image.description }}</p>
               </div>
             </div>
-            <div class="item">
-              <img class="d-block w-100" src="/assets/images/team/NRG-Denver-Nov2017.jpg" alt="AJ, Kyle, and Luz in November 2017">
-              <div class="carousel-caption d-none d-md-block">
-                <p>AJ, Kyle, and Luz at APD DFD in Denver, November 2017</p>
-              </div>
-            </div>
-            <div class="item">
-              <img class="d-block w-100" src="/assets/images/team/group-escape-room-Jan2019.jpg" alt="Group escape room win in January 2019">
-              <div class="carousel-caption d-none d-md-block">
-                <p>Logan, Kyle, Anthony, Morgan, Jayani, AJ, Paige, and Emily escaping the spy's safehouse at Escape Corvallis in January 2019</p>
-              </div>
-            </div>
+            {% endif %}
+            {% endfor %}
+
           </div>
           <a class="left carousel-control" href="#groupPhotos" role="button" data-slide="prev">
              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
