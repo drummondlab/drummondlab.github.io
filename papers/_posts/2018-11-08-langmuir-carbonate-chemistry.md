@@ -5,9 +5,9 @@ year: 2018
 shortref: "Smith et al. <i>Journal of Advances in Modeling Earth Systems</i> 2018"
 nickname: langmuir-carbonate-chemistry
 journal: "Journal of Advances in Modeling Earth Systems"
-volume:
+volume: 10
 issue:
-pages:
+pages: 3030-3048
 authors: "Smith KM, Hamlington PE, Niemeyer KE, Fox-Kemper B, Lovenduski NS"
 image: /assets/images/papers/langmuir-carbonate-chemistry.png
 arxiv: "1809.02509 [physics.ao-ph]"
@@ -31,11 +31,10 @@ bibtex: >
     author = {Katherine M. Smith and Peter E. Hamlington and Kyle E. Niemeyer and Baylor Fox-Kemper and Nicole S. Lovenduski},
     title = {Effects of {Langmuir} turbulence on upper ocean carbonate chemistry},
     journal = {Journal of Advances in Modeling Earth Systems},
-    volume = ,
-    pages = ,
+    volume = 10,
+    pages = {3030--3048},
     year  = 2018,
-    doi = {10.1029/2018MS001486},
-    note = {In press},
+    doi = {10.1029/2018MS001486}
   }
 ---
 {% include JB/setup %}
