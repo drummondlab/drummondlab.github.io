@@ -2,7 +2,7 @@
 layout: paper
 title: "Cellular sensing by phase separation: Using the process, not just the products"
 year: "2019"
-shortref: "Yoo et al. <em>JBC</em> 2019"
+shortref: "Yoo <i>et al.</i> <i>JBC</i> 2019"
 nickname: cellular-sensing-by-phase-separation
 journal: "Journal of Biological Chemistry"
 volume: 
