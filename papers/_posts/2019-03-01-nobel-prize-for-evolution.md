@@ -2,7 +2,7 @@
 layout: paper
 title: "A Nobel Prize for evolution"
 year: "2019"
-shortref: "Drummond and Bloom 2019"
+shortref: "Drummond and Bloom <em>Evolution</em> 2019"
 nickname: nobel-prize-arnold
 journal: "Evolution"
 volume: 

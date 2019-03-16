@@ -2,8 +2,8 @@
 layout: paper
 title: "Cellular sensing by phase separation: Using the process, not just the products"
 year: "2019"
-shortref: "Yoo et al. 2019"
-nickname: sensing-phase
+shortref: "Yoo et al. <em>JBC</em> 2019"
+nickname: cellular-sensing-by-phase-separation
 journal: "Journal of Biological Chemistry"
 volume: 
 issue:
@@ -18,7 +18,7 @@ github:
 pmid: 
 pmcid:
 f1000: 
-doi: 
+doi: "10.1074/jbc.TM118.001191"
 dryad_doi:
 figshare_doi: 
 altmetric_id: 
