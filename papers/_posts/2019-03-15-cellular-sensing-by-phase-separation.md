@@ -33,5 +33,4 @@ tags: [phase separation, sensing, stress, Pab1, Sup35, cGAS]
 
 # Abstract 
 
-Considerable attention has focused on how the products of phase separation act as biological compartments, bioreactors, filters, and organelles. This minireview surveys recent results demonstrating how cells instead use the process of phase separation to sense intracellular and extracellular changes. We review case studies in phase-separation-based cellular sensing, and discuss key features, such as extraordinary sensitivity, which make the process of phase separation ideally suited to solve a range of sensory challenges.
-
+In cells, phase separation creates two distinct liquid phases from a single mixed liquid phase, like oil droplets separating from water. Considerable attention has focused on how the products of phase separation—the resulting droplets—might act as biological compartments, bioreactors, filters, and membraneless organelles. Here we expand this perspective, reviewing recent results showing how cells instead use the process of phase separation to sense intracellular and extracellular changes. We review case studies in phase-separation-based sensing and discuss key features, such as extraordinary sensitivity, which make the process of phase separation ideally suited to meet a range of sensory challenges cells encounter.
