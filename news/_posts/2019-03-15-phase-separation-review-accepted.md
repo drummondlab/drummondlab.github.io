@@ -10,6 +10,6 @@ tags: [publication]
 Our [review][1] on how cells use the process of phase separation for sensing, rather than its products, was just accepted at [JBC]. Congratulations to [Haneul] and [Cat]!
 
 [JBC]: http://www.jbc.org
-[1]: /papers/paper/sensing-phase
+[1]: /papers/paper/cellular-sensing-by-phase-separation
 [Haneul]: /team/haneul-yoo
 [Cat]: /team/cat-triandafillou
