@@ -8,7 +8,7 @@ email:
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/default-member.png
+image: /assets/images/team/hendrik-glauninger.png
 alum: false
 ---
 Hendrik is a graduate student in the [Biophysics program][1] at the [University of Chicago][2] and a medical student in the [Pritzker School of Medicine][3].
