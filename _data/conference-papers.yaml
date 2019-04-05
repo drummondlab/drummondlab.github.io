@@ -1,3 +1,39 @@
+- title: A review of evidence-based best practices for developing research software in combustion
+  authors: Niemeyer KE, Speth RL, Weber BW, West RH
+  meeting: 11th US National Combustion Meeting, Pasadena, CA, USA
+  month: March
+  year: 2019
+
+- title: Performance comparison of chemical kinetic models for toluene autoignition
+  authors: Mayer MA, Niemeyer KE
+  meeting: 11th US National Combustion Meeting, Pasadena, CA, USA
+  month: March
+  year: 2019
+
+- title: Assessing the impact of multicomponent trans- port on the vorticity budget of turbulent premixed flames
+  authors: Fillo AJ, Niemeyer KE
+  meeting: 11th US National Combustion Meeting, Pasadena, CA, USA
+  month: March
+  year: 2019
+
+- title: Reducing biogeochemical models using computational singular perturbation
+  authors: Klee EF, Hamlington PE, Niemeyer KE
+  meeting: SIAM Conference on Computational Science and Engineering (CSE19), Spokane, WA, USA
+  month: February
+  year: 2019
+
+- title: Software Library for Accelerating Chemical Kinetics on Hybrid Architectures: the SLACKHA Project
+  authors: Niemeyer KE, Alferman A, Lorson P, Klee EF, Curtis NJ, Sung CJ
+  meeting: SIAM Conference on Computational Science and Engineering (CSE19), Spokane, WA, USA
+  month: February
+  year: 2019
+
+- title: hSweep: Applying the swept rule for explicit PDE solutions to heterogeneous clusters.
+  authors: Magee DJ, Niemeyer KE
+  meeting: 30th International Conference on Parallel Computational Fluid Dynamics (Parallel CFD 2018), Indianapolis, IN, USA
+  month: May
+  year: 2018
+
 - title: Assessing the impact of chemical kinetic model reduction on premixed turbulent flame characteristics
   authors: Fillo AJ, Niemeyer KE
   meeting: 2018 Spring Technical Meeting of the Western States Section of the Combustion Institute, Bend, OR, USA
