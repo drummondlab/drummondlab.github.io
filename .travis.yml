@@ -23,8 +23,8 @@ before_script:
   # Useful for debugging any issues with conda
   - conda info -a
   - conda create -q -n test-environment python=3.6 pip
-  - pip install git+git@github.com:drdoctr/doctr@forks
   - source activate test-environment
+  - pip install git+https://github.com/drdoctr/doctr@forks
 
 install:
   - bundle install
