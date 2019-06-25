@@ -8,7 +8,7 @@ github:
 scholar:
 image: /assets/images/team/maria-politi.jpg
 cv:
-alum: false
+alum: true
 ---
 
 I am an international student from Italy. I've been in the United States for almost four years. I am a junior in Chemical Engineering with a great passion for mathematics and physics. Some of my interests include being outdoors, hiking and rock climbing.

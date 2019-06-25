@@ -8,7 +8,7 @@ github:
 scholar:
 image: /assets/images/team/braam.jpg
 cv:
-alum: false
+alum: true
 ---
 
 Braam is a South-African-born first-year Electrical and Computer Engineering student at [Oregon State University] with a strong interest in the relationship between hardware and software. He is an [URSA Engage] recipient building an interactive, online database for combustion experimental measurements.

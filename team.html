@@ -24,9 +24,9 @@ permalink: "/team/"
 {% for member in current_team %}
 {% assign memberindex = memberindex | plus: 1 %}
 {% assign colindex = memberindex | modulo: 3 %}
-{% if colindex == 1 %} 
+{% if colindex == 1 %}
 <div class="row mb-3"> <!-- opening of a new row -->
-{% endif %}
+    {% endif %}
     <div class="col-sm memberbox">
         <div class="media">
             <a class="pull-left" href="{{ member.url }}">
@@ -38,14 +38,14 @@ permalink: "/team/"
             </div>
         </div>
     </div>
-{% if colindex == 0 %} 
+{% if colindex == 0 %}
 </div> <!-- closing a row -->
 {% endif %}
 {% endfor %}
-
-{% if colindex != 0 %} 
+{% if colindex != 0 %}
 </div> <!-- close last open row -->
 {% endif %}
+
 
 
 <div class="row">
@@ -130,10 +130,10 @@ permalink: "/team/"
             </div>
         </div>
     </div>
-{% if colindex == 0 %} 
+{% if colindex == 0 %}
 </div> <!-- closing a row -->
 {% endif %}
 {% endfor %}
-{% if colindex != 0 %} 
+{% if colindex != 0 %}
 </div> <!-- close last open row -->
 {% endif %}
