@@ -13,8 +13,7 @@
 
     <!-- Bootstrap styles -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <!-- Optional theme -->
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet"/>
+    
     <!-- Sticky Footer -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bs-sticky-footer.css" rel="stylesheet"/>
 
@@ -65,24 +64,20 @@
 
   <!-- Static top navbar -->
 
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class='container'>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a href="{{ HOME_PATH }}">
+      <a class="navbar-brand" href="{{ HOME_PATH }}">
         <img class="navbar-left logo" src="{{ ASSET_PATH }}/images/logo/lab-logo.svg" type="image/svg+xml">
-        </a>
-      </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="jb-navbar-collapse">
-        <ul class="nav navbar-nav navbar-left hidden-sm">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav"> 
+          
           <!-- Don't put site title on home page -- there's already a big title there. -->
           {% assign make_title = true %}
           {% for pc in page.categories %}
@@ -91,86 +86,77 @@
             {% endif %}
           {% endfor %}
           {% if make_title == true %}
-          <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="{{ HOME_PATH }}">Home</a>
+          </li>
           {% endif %}
-        </ul>
-        <ul class="nav navbar-nav navbar-right pull-right">
+
           {% assign pages_list = (site.pages | sort: 'navorder') %}
           {% assign group = 'navigation' %}
           {% include JB/pages_list %}
-          <li><a href="https://medium.com/nrg-excitations" target="_blank">Blog</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-              More <span class="caret"></span>
-            </a>
-
-            <ul class="dropdown-menu" role="menu">
-              {% assign pages_list = (site.pages | sort: 'navorder') %}
-              {% assign group = 'subnavigation' %}
-              {% include JB/pages_list %}
-            </ul>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://medium.com/nrg-excitations" target="_blank">Blog</a>
           </li>
 
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-              Docs <span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Docs
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               {% if page.title == "Group Docs" %}
-                <li class="dropdown-item active"><a href="/docs">Docs</a></li>
+                <a class="dropdown-item active" href="/docs">Docs</a>
               {% else %}
-                <li class="dropdown-item"><a href="/docs">Docs</a></li>
+                <a class="dropdown-item" href="/docs">Docs</a>
               {% endif %}
-              <li role="separator" class="divider"></li>
+              <div class="dropdown-divider"></div>
               {% assign pages_list = (site.pages | sort: 'navorder') %}
               {% assign group = 'docs' %}
+              {% assign dropdown_flag = true %}
               {% include JB/pages_list %}
-            </ul>
+            </div>
           </li>
-
         </ul>
-      </div><!-- /.navbar-collapse -->
-    </nav>
-   </div>
+      </div>
+    </div>
+  </nav>
 
-   <!-- Content -->
-   <div class="container">
-      {{ content }}
-   </div>
+  <!-- Content -->
+  <div class="container">
+    {{ content }}
+  </div>
 
 
   <!-- Static bottom navbar -->
-  <nav class="navbar navbar-default navbar-fixed-bottom">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-bottom-collapse"> <!-- NOTE! data-target was changed to jb-bottom-collapse -->
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-bottom">
+      <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jb-bottom-collapse" aria-controls="jb-bottom-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="jb-bottom-collapse">
-        <ul class="nav navbar-nav navbar-left navbar-small">
-          <li><a href={{ site.department.url }}>{{ site.department.name }}</a></li>
-          <li><a href={{ site.institution.url }}>{{ site.institution.name }}</a></li>
+        <ul class="navbar-nav mr-auto navbar-small"> 
+          <li class="nav-item"><a href={{ site.department.url }}>{{ site.department.name }}</a></li>
+          <li class="nav-item"><a href={{ site.institution.url }}>{{ site.institution.name }}</a></li>
         </ul>
-        <ul class="nav navbar-nav navbar-right navbar-small">
-          <li><a href='/about.html#purpose'>About</a></li>
-          <li><a href='/about.html#join'>Join</a></li>
-          <li><a href='/about.html#contact'>Contact</a></li>
+        
+        <ul class="navbar-nav navbar-small">
+          <li class="nav-item"><a href='/about.html#purpose'>About</a></li>
+          <li class="nav-item"><a href='/about.html#join'>Join</a></li>
+          <li class="nav-item"><a href='/about.html#contact'>Contact</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
-    </div>
+      </div>
   </nav>
 
 
 
     {% include JB/analytics %}
 
-
-    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+
   </body>
 </html>

@@ -2,8 +2,9 @@
 layout: default
 title: "Software"
 description: "Research software developed by our group"
-group: subnavigation
+group: navigation
 navorder: 5
+permalink: "/software/"
 ---
 {% include JB/setup %}
 

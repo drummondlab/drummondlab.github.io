@@ -8,21 +8,29 @@ permalink: "/team/"
 ---
 {% include JB/setup %}
 
-<div class="bigspacer"></div>
-{% assign current_team = site.my_team | where: "alum","false"%}
+{% assign current_team = site.my_team | where: "alum","false" %}
 {% assign memberindex = 0 %}
 
-{% assign group = current_team | where: "position","Assistant Professor"%}
-{% for member in group %}
-    {% assign memberindex = memberindex | plus: 1 %}
-    {% assign colindex = memberindex | modulo: 3 %}
-    {% if colindex == 1 %} <!-- opening of a new row -->
-    <div class="row">
-    {% endif %}
-    <div class="col-md-4 memberbox">
+{% assign profs = current_team | where: "position","Assistant Professor" %}
+{% assign phd_candidates = current_team | where: "position","PhD candidate" %}
+{% assign phd_students = current_team | where: "position","PhD student" %}
+{% assign ms_students = current_team | where: "position","MS student" %}
+{% assign undergrads = current_team | where: "position","Undergraduate student" %}
+{% assign affiliates = current_team | where: "position","Affiliated PhD candidate" %}
+
+{% assign current_team = profs | concat: phd_candidates | concat: phd_students | concat: ms_students %}
+{% assign current_team = current_team | concat: undergrads | concat: affiliates %}
+
+{% for member in current_team %}
+{% assign memberindex = memberindex | plus: 1 %}
+{% assign colindex = memberindex | modulo: 3 %}
+{% if colindex == 1 %} 
+<div class="row mb-3"> <!-- opening of a new row -->
+{% endif %}
+    <div class="col-sm memberbox">
         <div class="media">
             <a class="pull-left" href="{{ member.url }}">
-            <img class="media-object member-photo" src="{{ member.image }}">
+            <img class="media-object member-photo px-2" src="{{ member.image }}">
             </a>
             <div class="media-body">
             <div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
@@ -30,222 +38,91 @@ permalink: "/team/"
             </div>
         </div>
     </div>
-    {% if colindex == 0 %} <!-- closing a row -->
-    </div><div class="bigspacer"></div>
-    {% endif %}
+{% if colindex == 0 %} 
+</div> <!-- closing a row -->
+{% endif %}
 {% endfor %}
 
-{% assign group = current_team | where: "position","PhD candidate"%}
-{% for member in group %}
-    {% assign memberindex = memberindex | plus: 1 %}
-    {% assign colindex = memberindex | modulo: 3 %}
-    {% if colindex == 1 %} <!-- opening of a new row -->
-    <div class="row">
-    {% endif %}
-    <div class="col-md-4 memberbox">
-        <div class="media">
-            <a class="pull-left" href="{{ member.url }}">
-            <img class="media-object member-photo" src="{{ member.image }}">
-            </a>
-            <div class="media-body">
-            <div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-            <p class="note">{{ member.position }}</p>
-            </div>
-        </div>
-    </div>
-    {% if colindex == 0 %} <!-- closing a row -->
-    </div><div class="bigspacer"></div>
-    {% endif %}
-{% endfor %}
-
-{% assign group = current_team | where: "position","PhD student"%}
-{% for member in group %}
-    {% assign memberindex = memberindex | plus: 1 %}
-    {% assign colindex = memberindex | modulo: 3 %}
-    {% if colindex == 1 %} <!-- opening of a new row -->
-    <div class="row">
-    {% endif %}
-    <div class="col-md-4 memberbox">
-        <div class="media">
-            <a class="pull-left" href="{{ member.url }}">
-            <img class="media-object member-photo" src="{{ member.image }}">
-            </a>
-            <div class="media-body">
-            <div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-            <p class="note">{{ member.position }}</p>
-            </div>
-        </div>
-    </div>
-    {% if colindex == 0 %} <!-- closing a row -->
-    </div><div class="bigspacer"></div>
-    {% endif %}
-{% endfor %}
-
-{% assign group = current_team | where: "position","MS student"%}
-{% for member in group %}
-    {% assign memberindex = memberindex | plus: 1 %}
-    {% assign colindex = memberindex | modulo: 3 %}
-    {% if colindex == 1 %} <!-- opening of a new row -->
-    <div class="row">
-    {% endif %}
-    <div class="col-md-4 memberbox">
-        <div class="media">
-            <a class="pull-left" href="{{ member.url }}">
-            <img class="media-object member-photo" src="{{ member.image }}">
-            </a>
-            <div class="media-body">
-            <div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-            <p class="note">{{ member.position }}</p>
-            </div>
-        </div>
-    </div>
-    {% if colindex == 0 %} <!-- closing a row -->
-    </div><div class="bigspacer"></div>
-    {% endif %}
-{% endfor %}
-
-{% assign group = current_team | where: "position","Undergraduate student"%}
-{% for member in group %}
-    {% assign memberindex = memberindex | plus: 1 %}
-    {% assign colindex = memberindex | modulo: 3 %}
-    {% if colindex == 1 %} <!-- opening of a new row -->
-    <div class="row">
-    {% endif %}
-    <div class="col-md-4 memberbox">
-        <div class="media">
-            <a class="pull-left" href="{{ member.url }}">
-            <img class="media-object member-photo" src="{{ member.image }}">
-            </a>
-            <div class="media-body">
-            <div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-            <p class="note">{{ member.position }}</p>
-            </div>
-        </div>
-    </div>
-    {% if colindex == 0 %} <!-- closing a row -->
-    </div><div class="bigspacer"></div>
-    {% endif %}
-{% endfor %}
-
-{% assign group = current_team | where: "position","Affiliated PhD candidate"%}
-{% for member in group %}
-    {% assign memberindex = memberindex | plus: 1 %}
-    {% assign colindex = memberindex | modulo: 3 %}
-    {% if colindex == 1 %} <!-- opening of a new row -->
-    <div class="row">
-    {% endif %}
-    <div class="col-md-4 memberbox">
-        <div class="media">
-            <a class="pull-left" href="{{ member.url }}">
-            <img class="media-object member-photo" src="{{ member.image }}">
-            </a>
-            <div class="media-body">
-            <div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-            <p class="note">{{ member.position }}</p>
-            </div>
-        </div>
-    </div>
-    {% if colindex == 0 %} <!-- closing a row -->
-    </div><div class="bigspacer"></div>
-    {% endif %}
-{% endfor %}
-
-{% if colindex != 0 %} <!-- close last open row -->
-</div><div class="bigspacer"></div>
+{% if colindex != 0 %} 
+</div> <!-- close last open row -->
 {% endif %}
 
-<div class="bigspacer"></div>
-<hr/>
 
 <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 mb-3">
         <div id="groupPhotos" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <!--
-            <li data-target="#groupPhotos" data-slide-to="1"></li>
-            <li data-target="#groupPhotos" data-slide-to="2"></li>
-            -->
-            {% for image in site.data.group-images %}
-            {% if forloop.index0 == 0 %}
-            <li data-target="#groupPhotos" data-slide-to="0" class="active"></li>
-            {% else %}
-            <li data-target="#groupPhotos" data-slide-to="{{ forloop.index0 }}"></li>
-            {% endif %}
-            {% endfor %}
-          </ol>
-          <div class="carousel-inner">
-
-            {% for image in site.data.group-images %}
-            {% if forloop.index0 == 0 %}
-            <div class="active item">
-              <img class="d-block w-100" src="{{ image.name }}" width='1200px' alt="{{ image.alt }}">
-              <div class="carousel-caption d-none d-md-block">
-                <p>{{ image.description }}</p>
-              </div>
+            <ol class="carousel-indicators">
+                {% for image in site.data.group-images %}
+                {% if forloop.index0 == 0 %}
+                <li data-target="#groupPhotos" data-slide-to="0" class="active"></li>
+                {% else %}
+                <li data-target="#groupPhotos" data-slide-to="{{ forloop.index0 }}"></li>
+                {% endif %}
+                {% endfor %}
+            </ol>
+            <div class="carousel-inner">
+                {% for image in site.data.group-images %}
+                {% if forloop.index0 == 0 %}
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="{{ image.name }}" alt="{{ image.alt }}">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>{{ image.description }}</p>
+                    </div>
+                </div>
+                {% else %}
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="{{ image.name }}" alt="{{ image.alt }}">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>{{ image.description }}</p>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
             </div>
-            {% else %}
-            <div class="item">
-              <img class="d-block w-100" src="{{ image.name }}" width='1200px' alt="{{ image.alt }}">
-              <div class="carousel-caption d-none d-md-block">
-                <p>{{ image.description }}</p>
-              </div>
-            </div>
-            {% endif %}
-            {% endfor %}
+            <a class="carousel-control-prev" href="#groupPhotos" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#groupPhotos" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+    </div>
+</div>
 
-          </div>
-          <a class="left carousel-control" href="#groupPhotos" role="button" data-slide="prev">
-             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <!--<span class="sr-only">Previous</span>-->
-          </a>
-          <a class="right carousel-control" href="#groupPhotos" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <!--<span class="sr-only">Next</span>-->
-          </a>
+
+<div class="row">
+    <div class="col-lg-12 mt-3">
+        <h1 class="display-4 text-center">Collaborators</h1>
+    </div>
+    <div class="w-100"></div>
+    <div class="col-lg-12 mb-3">
+        <div class="list-group">
+        {% for collaborator in site.data.collaborators %}
+            <a href="{{ collaborator.url }}" class="list-group-item list-group-item-action"><span class="far fa-user fa-fw"></span>
+                {{ collaborator.name }} ({{ collaborator.institution }})
+            </a>
+        {% endfor %}
         </div>
     </div>
-</div>
-
-
-<div class="bigspacer"></div>
-<hr/>
-<div class="bigtitle text-center">Collaborators</div>
-<div class="bigspacer"></div>
-
-<div class="row">
-<div class="col-md-12">
-    <div class="list-group">
-    {% for collaborator in site.data.collaborators %}
-        <a href="{{ collaborator.url }}" class="list-group-item list-group-item-action"><span class="far fa-user fa-fw"></span>
-            {{ collaborator.name }} ({{ collaborator.institution }})
-        </a>
-        <!--<button type="button" class="list-group-item">
-            <a href="{{ collaborator.url }}">{{ collaborator.name }} ({{ collaborator.institution }})</a>
-        </button>-->
-    {% endfor %}
+    <div class="w-100"></div>
+    <div class="col-lg-12 mt-3">
+        <h1 class="display-4 text-center">Alumni</h1>
     </div>
 </div>
-</div>
-
-
-
-<div class="bigspacer"></div>
-<hr/>
-<div class="bigtitle text-center">Alumni</div>
-<div class="bigspacer"></div>
 
 {% assign alumni = site.my_team | where: "alum","true"%}
 {% assign memberindex = 0 %}
 {% for member in alumni %}
-    {% assign memberindex = memberindex | plus: 1 %}
-    {% assign colindex = memberindex | modulo: 3 %}
-    {% if colindex == 1 %} <!-- opening of a new row -->
-    <div class="row">
+{% assign memberindex = memberindex | plus: 1 %}
+{% assign colindex = memberindex | modulo: 3 %}
+{% if colindex == 1 %}
+<div class="row mb-3"> <!-- opening of a new row -->
     {% endif %}
-    <div class="col-md-4 memberbox">
+    <div class="col-sm memberbox">
         <div class="media">
             <a class="pull-left" href="{{ member.url }}">
-            <img class="media-object member-photo" src="{{ member.image }}">
+            <img class="media-object member-photo px-2" src="{{ member.image }}">
             </a>
             <div class="media-body">
             <div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
@@ -253,10 +130,10 @@ permalink: "/team/"
             </div>
         </div>
     </div>
-    {% if colindex == 0 %} <!-- closing a row -->
-    </div><div class="bigspacer"></div>
-    {% endif %}
+{% if colindex == 0 %} 
+</div> <!-- closing a row -->
+{% endif %}
 {% endfor %}
-{% if colindex != 0 %} <!-- close last open row -->
-</div><div class="bigspacer"></div>
+{% if colindex != 0 %} 
+</div> <!-- close last open row -->
 {% endif %}

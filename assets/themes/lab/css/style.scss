@@ -8,8 +8,6 @@ $subtle-color: #95a5a6;
 $font-weight-base: 300;
 $heavy-font-weight: 700;
 
-$carousel-height: 350px;
-
 body {
 	font-size: $font-size-base;
 	font: $font-stack;
@@ -141,11 +139,12 @@ term {
 }
 
 strong {
-	font-style: bold;
+	font-weight: bold;
 }
 
 // logo
 
+/*
 .logo {
 	width: 50px;
 	height: 50px;
@@ -167,6 +166,7 @@ strong {
 	text-align: center;
 	text-shadow: 1.5px 1.5px #ffffff;
 }
+*/
 
 // navbar
 
@@ -195,6 +195,10 @@ strong {
 .navbar-small {
 	font-size: 15px;
 	font-weight: $font-weight-base;
+	li{
+		padding-left:10px;
+		padding-right:10px;
+	}
 }
 
 // projects pages
@@ -252,6 +256,14 @@ strong {
 	text-align:center;
 }
 
+.carousel-item {
+	height: 500px;
+	overflow: hidden;
+	width: 100%;
+	}
+	.carousel-item img {
+	width: 100%;
+	}
 
 // headings
 

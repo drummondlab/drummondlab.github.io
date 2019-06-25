@@ -25,12 +25,24 @@ Usage:
 {% else %}
   {% for node in pages_list %}
     {% if node.title != null %}
-      {% if group == null or group == node.group %}
+      {% if group == null or group == node.group %}	
       	{% if page.url == node.url %}
-      	<li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
+				  {% if dropdown_flag == true %}
+				  <a class="dropdown-item active" href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a>
+				  {% else %}
+					<li class="nav-item active">
+				    <a class="nav-link" href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a>
+					</li>
+				  {% endif %}
       	{% else %}
-      	<li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
-      	{% endif %}
+				  {% if dropdown_flag == true %}
+				  <a class="dropdown-item" href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a>
+				  {% else %}
+					<li class="nav-item">
+				  	<a class="nav-link" href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a>
+					</li>
+      	  {% endif %}
+				{% endif %}
       {% endif %}
     {% endif %}
   {% endfor %}
