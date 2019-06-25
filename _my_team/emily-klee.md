@@ -6,6 +6,7 @@ handle: klee
 email: kleeem@oregonstate.edu
 twitter:
 github: emilyklee
+orcid: 0000-0001-9006-8962
 scholar:
 image: /assets/images/team/emily-klee.jpg
 cv:

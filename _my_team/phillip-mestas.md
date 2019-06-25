@@ -5,6 +5,7 @@ nickname: Phillip
 handle: mestas
 email: mestasp@oregonstate.edu
 github: xMestas
+orcid: 0000-0003-4379-3592
 scholar:
 image: /assets/images/team/phillip-mestas.jpg
 cv:
