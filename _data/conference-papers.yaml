@@ -1,3 +1,11 @@
+- title: A Project-Based Course on Software Development for (Engineering) Research
+  authors: Niemeyer KE
+  meeting: ICCS 2019, Faro, Portugal
+  month: June
+  year: 2019
+  doi: "10.1007/978-3-030-22750-0_32"
+  pdf: "https://arxiv.org/abs/1906.11017"
+
 - title: A review of evidence-based best practices for developing research software in combustion
   authors: Niemeyer KE, Speth RL, Weber BW, West RH
   meeting: 11th US National Combustion Meeting, Pasadena, CA, USA
