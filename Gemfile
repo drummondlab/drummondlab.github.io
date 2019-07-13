@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem "jekyll"
 gem "json"
 gem "feedjira"
+gem "httparty"
 group :jekyll_plugins do
   gem "jekyll-redirect-from"
 end

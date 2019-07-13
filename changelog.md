@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 ### Added
 - .well-known directory with Keybase identify verification
+- Added display-medium-posts plugin to grab NRG Medium posts
 
 ### Changed
 - Changed to Niemeyer Research Group

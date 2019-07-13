@@ -1,7 +1,9 @@
 # adapted from James Hamann's Ruby Gem: https://github.com/jameshamann/jekyll-display-medium-posts
+# but changed to support Feedjira 3.0.0 changes that eliminated `Feedjira::Feed.fetch_and_parse`
 
 require 'feedjira'
 require 'jekyll'
+require 'httparty'
 
 module Jekyll
   class JekyllDisplayMediumPosts < Generator
@@ -11,7 +13,9 @@ module Jekyll
 def generate(site)
       jekyll_coll = Jekyll::Collection.new(site, 'medium_posts')
       site.collections['medium_posts'] = jekyll_coll
-Feedjira::Feed.fetch_and_parse("https://medium.com/feed/nrg-excitations").entries.each do |e|
+      xml = HTTParty.get("https://medium.com/feed/nrg-excitations").body
+      feed = Feedjira.parse(xml)
+      feed.entries.each do |e|
         p "Title: #{e.title}, published on Medium #{e.url} #{e.published}"
         title = e[:title]
         content = e[:content]
