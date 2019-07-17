@@ -5,23 +5,23 @@ year: "2019"
 shortref: "Yoo <i>et al.</i> <i>JBC</i> 2019"
 nickname: cellular-sensing-by-phase-separation
 journal: "Journal of Biological Chemistry"
-volume: 
-issue:
-pages:
+volume: 294
+issue: 18
+pages: 7151-7159
 authors: "Yoo H, Triandafillou CG, Drummond DA"
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
-fulltext: 
-pdf: 
-pdflink: 
+fulltext: http://www.jbc.org/content/294/18/7151.long
+pdf: http://www.jbc.org/content/294/18/7151.full.pdf
+pdflink: http://www.jbc.org/content/294/18/7151.full.pdf
 github: 
-pmid: 
-pmcid:
+pmid: 30877200
+pmcid: PMC6509497
 f1000: 
 doi: "10.1074/jbc.TM118.001191"
 dryad_doi:
 figshare_doi: 
-altmetric_id: 
+altmetric_id: 57429292
 category: paper
 published: true
 embargo: false
