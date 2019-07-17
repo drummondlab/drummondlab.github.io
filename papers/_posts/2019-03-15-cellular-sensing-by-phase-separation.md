@@ -9,7 +9,7 @@ volume: 294
 issue: 18
 pages: 7151-7159
 authors: "Yoo H, Triandafillou CG, Drummond DA"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/process-products.svg
 redirect_from: 
 fulltext: http://www.jbc.org/content/294/18/7151.long
 pdf: http://www.jbc.org/content/294/18/7151.full.pdf
