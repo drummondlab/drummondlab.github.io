@@ -7,6 +7,7 @@ email: jayasurw@oregonstate.edu
 twitter:
 github: JayaniJayasuriya
 scholar:
+orcid: 0000-0002-7922-1505
 image: /assets/images/team/jayani-jayasuriya.jpg
 cv:
 alum: false
