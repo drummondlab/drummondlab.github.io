@@ -77,23 +77,34 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="navbar-nav"> 
-          
-          <!-- Don't put site title on home page -- there's already a big title there. -->
-          {% assign make_title = true %}
-          {% for pc in page.categories %}
-            {% if pc == "home" %}
-             {% assign make_title = false %}
-            {% endif %}
-          {% endfor %}
-          {% if make_title == true %}
-          <li class="nav-item">
-            <a class="nav-item nav-link" href="{{ HOME_PATH }}">Home</a>
-          </li>
-          {% endif %}
 
           {% assign pages_list = (site.pages | sort: 'navorder') %}
           {% assign group = 'navigation' %}
-          {% include JB/pages_list %}
+
+          {% for node in pages_list %}
+          {% if group == null or group == node.group %}	
+            {% if page.url == node.url %}
+              {% if {{node.dropdown_flag}} == true %}
+              <a class="dropdown-item active" href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a>
+              {% else %}
+              <li class="nav-item active">
+                <a class="nav-link" href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a>
+              </li>
+              {% endif %}
+            {% else %}
+              {% if {{node.dropdown_flag}} == true %}
+              <a class="dropdown-item" href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a>
+              {% else %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a>
+              </li>
+              {% endif %}
+            {% endif %}
+          {% endif %}
+          {% endfor %}
+
+          {% assign pages_list = nil %}
+          {% assign group = nil %}
           
           <li class="nav-item">
             <a class="nav-link" href="https://medium.com/nrg-excitations" target="_blank">Blog</a>
