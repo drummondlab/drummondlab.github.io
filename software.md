@@ -44,8 +44,9 @@ All of the software featured here, and more, is also available via various GitHu
       <div class="card-body">
         <h5 class="card-title"><a href="https://github.com/Niemeyer-Research-Group/pyMARS">pyMARS</a></h5>
         <p class="card-text">Python-based Model Automatic Reduction Software. Under-development tool for automatically reducing chemical kinetic models.</p>
+        <a href="https://doi.org/10.21105/joss.01543" class="card-link"><img src="https://joss.theoj.org/papers/10.21105/joss.01543/status.svg" alt="DOI badge"></a>
         <a href="https://doi.org/10.5281/zenodo.1245156" class="card-link"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1245156.svg" alt="DOI"></a>
-        <!--<a href="https://anaconda.org/slackha/pyjac" class="card-link"> <img src="https://anaconda.org/slackha/pyjac/badges/version.svg"/></a>-->
+        <a href="https://anaconda.org/niemeyer-research-group/pymars" class="card-link"> <img src="https://anaconda.org/niemeyer-research-group/pymars/badges/version.svg"/></a>
         <a href="https://travis-ci.org/Niemeyer-Research-Group/pyMARS" class="card-link"><img src="https://travis-ci.org/Niemeyer-Research-Group/pyMARS.svg?branch=master"></a>
       </div>
     </div>
