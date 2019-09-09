@@ -9,7 +9,7 @@ volume: 4
 issue: 41
 pages: 1543
 authors: "Mestas PO, Clayton P, and Niemeyer KE"
-image: /assets/images/papers/pymars-logo.svg
+image: /assets/images/papers/pymars-logo.png
 arxiv:
 eprint:
 github: https://github.com/Niemeyer-Research-Group/pyMARS
