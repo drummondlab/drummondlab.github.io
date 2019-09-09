@@ -3,6 +3,11 @@ sudo: false
 language: ruby
 cache: bundler
 
+# blocklist
+branches:
+  except:
+  - master
+
 # This gives Doctr the key we've generated
 env:
   global:
