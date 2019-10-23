@@ -1,6 +1,6 @@
 ---
 title: Khang Tran
-position: MS student
+position: PhD student
 nickname: Khang
 handle: tran
 email: trankhan@oregonstate.edu
@@ -17,6 +17,7 @@ Khang graduated from the University of Portland, where he took part in a researc
 
 Khang is co-advised by [Prof. Christopher Hagen](http://osucascades.edu/energy-systems-lab/dr-christopher-hagen) in the [Energy Systems Lab].
 
+<i class="fas fa-book" aria-hidden="true"></i> MS thesis: [Development and Application of a Reduced Chemical Kinetics Model for Low-Speed Pre-Ignition Investigation](https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/n870zx965)
 
 [Oregon State University]: http://oregonstate.edu/
 [School of Mechanical, Industrial, and Manufacturing Engineering]: http://mime.oregonstate.edu
