@@ -9,6 +9,6 @@ twitter:
 github: 
 scholar: 
 image: /assets/images/team/aparna-srinivasan.png
-alum: false
+alum: true
 ---
-Aparna is a third-year undergraduate majoring in biology and mathematics.
+Aparna was an undergraduate majoring in biology and mathematics, worked with us for two years until her graduation in 2019, and was last seen headed for research at the University of Toronto.
