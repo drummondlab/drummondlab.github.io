@@ -10,7 +10,7 @@ scholar:
 orcid:
 image: /assets/images/team/daniel-bowder.png
 cv:
-alum: false
+alum: true
 homepage:
 ---
 Daniel is an undergraduate student and URSA Engage award recipient seeking a computer science degree at OSU. He has experience in I.T. support, and wishes to pursue a career in modeling bio-chemical reactions.

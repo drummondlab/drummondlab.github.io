@@ -9,7 +9,7 @@ orcid: 0000-0001-8411-079X
 scholar:
 image: /assets/images/team/jesus-peraza.jpg
 cv:
-alum: false
+alum: true
 ---
 
 Jesus is a Mechanical Engineering student at [Oregon State University].

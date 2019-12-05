@@ -10,7 +10,7 @@ scholar:
 orcid:
 image: /assets/images/team/ella-strebig.jpg
 cv:
-alum: false
+alum: true
 homepage:
 ---
 Ella is a second-year Mechanical Engineering student at Oregon State University.
