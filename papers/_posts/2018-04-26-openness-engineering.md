@@ -13,7 +13,7 @@ image: /assets/images/papers/open-engineering.png
 arxiv:
 eprint:
 github:
-doi: 10.12688/f1000research.14593.1
+doi: 10.12688/f1000research.14593.2
 altmetric_id:
 zenodo:
 figshare:
@@ -29,11 +29,11 @@ bibtex: >
   @article{Berg2018,
     year  = 2018,
     author = {Devin R Berg and Kyle E. Niemeyer},
-    title = {The case for openness in engineering research [version 1; referees: 2 approved with reservations]},
+    title = {The case for openness in engineering research [version 2; peer review: 3 approved, 1 approved with reservations]},
     journal = {F1000Research},
     volume = 7,
     pages = {501},
-    doi = {10.12688/f1000research.14593.1},
+    doi = {10.12688/f1000research.14593.2},
   }
 ---
 {% include JB/setup %}
