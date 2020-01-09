@@ -23,7 +23,7 @@ embargo: false
 peerreview: true
 review: false
 openaccess: true
-tags: [wildland fire, chemical kineticd, Douglas Fir, biomass, model reduction]
+tags: [wildland fire, chemical kinetics, Douglas Fir, biomass, model reduction]
 project: smoldering-combustion
 bibtex: >
   @article{Glusman2019,
