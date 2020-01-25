@@ -69,7 +69,7 @@ Once your edits are done, preview the site. Generate the pages and start the pri
 
 	rake preview
 
-...and then open the local test site, [http://127.0.0.1:4000]. Look at anything you've changed and make sure it's good to go.
+...and then open the local test site, http://127.0.0.1:4000. Look at anything you've changed and make sure it's good to go.
 
 Then move the changes to the `master` branch:
 
@@ -80,7 +80,7 @@ and push to GitHub:
 
 	git push
 
-Changes won't be immediate, so wait a minute or two while GitHub's servers regenerate the site and publish it. Check to make sure the public site [http://drummondlab.org] looks the way you intend.
+Changes won't be immediate, so wait a minute or two while GitHub's servers regenerate the site and publish it. Check to make sure the public site http://drummondlab.org looks the way you intend.
 
 Finally, check out `staging` again so that you don't accidentally start working on the `master` branch the next time you sit down:
 
@@ -90,7 +90,7 @@ Finally, check out `staging` again so that you don't accidentally start working 
 
 Fonts, colors, spacing, and similar stylings are separate from the template pages. Like most sites, we use Cascading Style Sheets (CSS), 
 
-### TODOS
+### To-dos
 
 See Issues on [the site](https://github.com/drummondlab/drummondlab.github.io).
 
