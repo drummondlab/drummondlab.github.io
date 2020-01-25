@@ -1,8 +1,10 @@
 # The Drummond Lab main website
 
-
+Our website, [http://drummondlab.org], is a [GitHub Pages](https://pages.github.com/) site built with [Jekyll](https://jekyllrb.com/) and [Bootstrap](http://getboostrap.com), originally pulled from [Trevor Bedford's site](http://bedford.io) and heavily modified.
 
 # Editing the site
+
+Here's a step-by-step guide to making modifications to the site, focused initially on adding typical content. You'll need a working Unix-like environment and working knowledge of Git, [Markdown](https://daringfireball.net/projects/markdown/syntax), HTML, and Unix commands. You'll need a working Ruby installation, with gems for Jekyll, GitHub Pages, and their dependencies installed. For now, if you need help getting set up, ask someone who's already up and running.
 
 ## Clone the repository
 
@@ -55,6 +57,8 @@ And, when you're happy with it, commit and push:
 
 This new announcement won't yet be public. The next section shows you how to do that.
 
+The same basic process is used to add protocols, team members, etc.
+
 ## Updating the public site
 
 All edits should be made on the `staging` branch. When you start work, make sure you're on the staging branch:
@@ -76,10 +80,15 @@ and push to GitHub:
 
 	git push
 
+Changes won't be immediate, so wait a minute or two while GitHub's servers regenerate the site and publish it. Check to make sure the public site [http://drummondlab.org] looks the way you intend.
+
 Finally, check out `staging` again so that you don't accidentally start working on the `master` branch the next time you sit down:
 
 	git checkout staging
 
+## Changing look and feel
+
+Fonts, colors, spacing, and similar stylings are separate from the template pages. Like most sites, we use Cascading Style Sheets (CSS), 
 
 ### TODOS
 
