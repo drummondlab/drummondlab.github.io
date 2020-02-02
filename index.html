@@ -161,7 +161,11 @@ categories:
 				</div>
 				<div class="smallspacer"></div>
 				<div class="smallnote">
+					{% if paper.preprint %}
+					Posted
+					{% else %}
 					Published
+					{% endif %}
 					{{ paper.date | date_to_string }}
 				</div>
 				<div class="spacer"></div>	
