@@ -15,31 +15,43 @@ navorder: 3
   <div class="row">
   {% endif %}
 
-  <div class="col-md-4 paperbox">
-    {% if paper.embargo %}
-    <div class="media">
-         <img width=100 class="media-object pull-right" src="{{ paper.image }}"/>
-        <div class="media-body">
-          <div class="smallhead media-heading">
-          {{ paper.title }}
+    <div class="col-md-4 paperbox">
+      {% if paper.embargo %}
+      <div class="media">
+          <img width=100 class="media-object pull-right" src="{{ paper.image }}"/>
+          <div class="media-body">
+            <div class="smallhead media-heading">
+            {{ paper.title }}
+            </div>
+            <p class="note">{{ paper.shortref }}</p>
           </div>
-          <p class="note">{{ paper.shortref }}</p>
-        </div>
-    </div>
-    {% else %}
-   <div class="media">
+      </div>
+      {% elsif paper.preprint %}
+      <div class="media">
         <a class="pull-right" href="{{ paper.url }}">
           <img width=100 class="media-object" src="{{ paper.image }}">
         </a>
-      <div class="media-body">
-          <div class="smallhead media-heading">
-          <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
-          </div>
-          <p class="note">{{ paper.shortref }}</p>
+        <div class="media-body">
+            <div class="smallhead media-heading">
+            <a href="{{ paper.url }}" class="off">PREPRINT: {{ paper.title }}</a>
+            </div>
+            <p class="note">{{ paper.shortref }}</p>
+        </div>
       </div>
+      {% else %}
+      <div class="media">
+        <a class="pull-right" href="{{ paper.url }}">
+          <img width=100 class="media-object" src="{{ paper.image }}">
+        </a>
+        <div class="media-body">
+            <div class="smallhead media-heading">
+            <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+            </div>
+            <p class="note">{{ paper.shortref }}</p>
+        </div>
+      </div>
+      {% endif %}
     </div>
-    {% endif %}
-  </div>
   {% if colindex == 0 %} <!-- closing a row -->
   </div><div class="bigspacer"></div>
   {% endif %}
