@@ -3,10 +3,10 @@
   logo: /assets/images/funders/NSF-logo.svg
   url: https://nsf.gov
 
-- name: NETL
-  long-name: National Energy Technology Laboratory
-  logo: /assets/images/funders/netl-logo.svg
-  url: https://www.netl.doe.gov
+- name: DOE
+  long-name: Department of Energy
+  logo: /assets/images/funders/DOE-logo.svg
+  url: https://www.energy.gov/
 
 - name: NASA
   long-name: National Aeronautics and Space Administration
@@ -23,12 +23,12 @@
   logo: /assets/images/funders/chevron-logo.svg
   url: https://www.chevron.com/technology
 
+- name: NETL
+  long-name: National Energy Technology Laboratory
+  logo: /assets/images/funders/netl-logo.svg
+  url: https://www.netl.doe.gov
+
 - name: Oregon BEST
   long-name: Oregon Built Environment & Sustainable Technologies Center
   logo: /assets/images/funders/OregonBEST-logo.jpg
   url: http://oregonbest.org
-
-- name: DOE
-  long-name: Department of Energy
-  logo: /assets/images/funders/DOE-logo.svg
-  url: https://www.energy.gov/

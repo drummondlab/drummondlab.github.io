@@ -4,11 +4,11 @@ handle: pde-mhd
 image: pde-mhd.png
 funder: NETL
 start_year: 2015
-end_year:
+end_year: 2019
 team: [zaiger, kyle]
 category: project
 tags: [detonation, magnetohydrodynamics, pulse detonation engine]
-active: true
+active: false
 summary: >
   This project is investigating a concept for efficient electrical power generation
   using a pulse detonation engine (PDE) coupled with direct power extraction via a
