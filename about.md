@@ -22,7 +22,7 @@ Corvallis, OR 97331-6001
 <a name="join"></a>
 # Join
 
-I am currently recruiting PhD students with interests in computational modeling and numerical methods for fluid dynamics and combustion. Competitive candidates will possess strong computer programming skills and experience in command-line/UNIX systems and parallel computing. You can see more about my [primary research areas](/projects/), but I'm also open to other related areas.
+I am currently recruiting PhD students with interests in computational modeling and numerical methods for fluid dynamics and combustion. Competitive candidates will possess strong computer programming skills and experience in command-line/UNIX systems and parallel computing. You can see more about my [primary research areas](/research/), but I'm also open to other related areas.
 
 Please refer to [available information](http://mime.oregonstate.edu/school-mime-graduate-school-admissions-faq) about applying to the [School of MIME]'s graduate program. Note that the yearly deadline to be fully considered is **January 15**.
 
@@ -31,7 +31,7 @@ I am also happy to talk to postdoctoral candidates, and undergraduate students i
 <a name="design"></a>
 # Design and Implementation
 
-Although I created a [personal website](http://kyleniemeyer.com) years ago using [Jekyll] (originally as a grad student), I recently came across the research group websites of [Holly Bik] and [D. Allan Drummond] and fell in love with their simple but effective designs. (These were both in turn inspired by [Trevor Bedford]'s site.) I greatly appreciate that these groups all shared their site source; in particular, my group site is directly based on the [Drummond Lab template].
+Although I created a [personal website](http://kyleniemeyer.com) years ago using [Jekyll] (originally as a grad student), I came across the research group websites of [Holly Bik] and [D. Allan Drummond] and fell in love with their simple but effective designs. (These were both in turn inspired by [Trevor Bedford]'s site.) I greatly appreciate that these groups all shared their site source; in particular, my group site is directly based on the [Drummond Lab template].
 
 This site's source code is freely available on [GitHub] under the MIT license, and deployed using [GitHub Pages].
 
