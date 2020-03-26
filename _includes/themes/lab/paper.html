@@ -17,7 +17,13 @@ with gratitude.
 	<div class="col-md-9">
 		<div class="media-body titlebox">
 			<div class="title media-heading">
+				{% if page.preprint %}
+				<div class="smallhead">
+				PREPRINT (not yet peer-reviewed)
+				</div>
+				{% endif %}
 				{{ page.title }}
+				
 			</div>
 			<p>
 			<div class="smallhead">
@@ -54,7 +60,11 @@ with gratitude.
 				<div class="smallspacer"></div>
 				{% if page.pdflink %}
 					<i class="fa fa-file-pdf-o fa-fw"></i>
+					{% if page.preprint %}
+					<a class="off" href="{{ page.pdflink }}">Preprint PDF</a>
+					{% else %}
 					<a class="off" href="{{ page.pdflink }}">Journal PDF</a>
+					{% endif %}
 					<br/>
 				{% endif %}
 				{% if page.pdf %}
@@ -64,7 +74,11 @@ with gratitude.
 				{% endif %}
 				{% if page.fulltext %}
 				<i class="fa fa-external-link fa-fw"></i>
+				{% if page.preprint %}
+				<a class="off" href="{{ page.fulltext }}">Preprint HTML</a>
+				{% else %}
 				<a class="off" href="{{ page.fulltext }}">Journal HTML</a>
+				{% endif %}
 				{% endif %}
 			</div>
 			<div class="bigspacer"></div>			
