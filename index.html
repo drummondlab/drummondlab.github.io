@@ -144,9 +144,16 @@ categories:
 			{% for paper in site.categories.papers limit:4 %}
 				<div class="note-title">
 					<i class="fa fa-file-text-o fa-fw"></i>
+					{% if paper.preprint %}
+					Preprint: 
 					<a class="off" href="{{ paper.url }}">
 					{{ paper.title }}
 					</a>
+					{% else %}
+					<a class="off" href="{{ paper.url }}">
+					{{ paper.title }}
+					</a>
+					{% endif %}
 					<br/>
 					<div class='shortref note'>
 					{{ paper.shortref }}
@@ -154,7 +161,11 @@ categories:
 				</div>
 				<div class="smallspacer"></div>
 				<div class="smallnote">
+					{% if paper.preprint %}
+					Posted
+					{% else %}
 					Published
+					{% endif %}
 					{{ paper.date | date_to_string }}
 				</div>
 				<div class="spacer"></div>	
