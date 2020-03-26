@@ -51,23 +51,23 @@ Based on protocol 'In Vivo 35-S-Methionine Incorporation' by Esposito et al. 201
     
 2. Prepare to measure translation
     - Put 50% TCA on ice -- it should be ice-cold by the time you want to peform the assay.
-    - Make a 0.2 \u03bc Ci/mL solution of the translation labeling mix in water.
+    - Make a 0.2µCi/mL solution of the translation labeling mix in water.
     - Prepare radiolabeled media and media blanks by mixing 12 mL of media per sample with 120 uL of the stock radioactivity solution. Remove 2x 1 mL aliquots into SafeLok tubes for background measurements (I do to technical reps for each type of media I'm using).
     - If doing the negative control, add 100 uL of 20mg/mL CHX to media. Add carrier (95% ethanol) to the other aliquot of media.
     - Label Whatman paper with each sample and timepoint. Lay them the sheets out on foil and set aside.
     - Assemble vacuum manifold with filters.
-    - Set heat block to 70\00b0 C
+    - Set heat block to 70&deg;C
 
 3. Harvest cells
     - Once cells have reached the target OD, spin down a 10 mL aliquots for each sample/treatment/strain (I usually only do 2-3 at a time, each timepoint will get 2x tech replicates, and 6 samples is the most I want to process at once).
     - Bring pelleted cells to radioactive work room, then decant and resuspend in labeled medium (10 mL for each sample/treatment). 
     - Immediately take 0 minute timepoint, start timer for timecourse, and follow steps below for each timepoint you want to measure (a good place to start is 0, 10, 30 minutes).
-    - You can hold cells in the 50 mL conical flask on the benchtop, or move to a 250mL baffled flask and shake at 30\00b0 C.
+    - You can hold cells in the 50 mL conical flask on the benchtop, or move to a 250mL baffled flask and shake at 30&deg;C.
 
 4. Process samples
-    - Take a 1 mL aliquot (x 2 technical replicates) of each sample/treatment/strain. Place in a SafeLok tube (while these aren't strictly necessary, I find it's better to be safe than sorry when it comes to exploding tubes of radioactive media -- just a personal preference) and add 200\u03bc L ice-cold 50% TCA.
+    - Take a 1 mL aliquot (x 2 technical replicates) of each sample/treatment/strain. Place in a SafeLok tube (while these aren't strictly necessary, I find it's better to be safe than sorry when it comes to exploding tubes of radioactive media -- just a personal preference) and add 200µL ice-cold 50% TCA.
     - Incubate on ice for 10 minutes.
-    - Heat at 70\00b0 C for 20 minutes.
+    - Heat at 70&deg;C for 20 minutes.
     - Return to ice for 10 minutes.
 
 5. Spot samples onto filters
