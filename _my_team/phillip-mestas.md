@@ -12,7 +12,7 @@ cv:
 alum: false
 ---
 
-Phillip is currently a first-year undergraduate honors student majoring in Computer Science at [Oregon State University]. He is a recipient the [URSA Engage] award and is working on software for automatic reduction of chemical kinetic models.
+Phillip is a fourth-year undergraduate honors student majoring in Computer Science at [Oregon State University]. He began working with the group through the [URSA Engage] program, and his honors thesis research focuses on reduction of chemical kinetic models. He is a lead developer of the [pyMARS](https://github.com/Niemeyer-Research-Group/pyMARS) package.
 
 [Oregon State University]: http://oregonstate.edu/
 [School of Mechanical, Industrial, and Manufacturing Engineering]: http://mime.oregonstate.edu
