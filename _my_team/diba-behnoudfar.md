@@ -7,7 +7,7 @@ email: behnoudd@oregonstate.edu
 twitter:
 github: 
 scholar:
-orcid: 0000-0002-7922-1505
+orcid: 
 image: /assets/images/team/default-member.svg
 cv:
 alum: false 
