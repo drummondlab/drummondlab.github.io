@@ -5,10 +5,10 @@ nickname: Diba
 handle: behnoudfar
 email: behnoudd@oregonstate.edu
 twitter:
-github: 
+github: dbehnoud
 scholar:
-orcid: 
-image: /assets/images/team/default-member.svg
+orcid: 0000-0002-1524-1056
+image: /assets/images/team/diba_behnoudfar.jpg
 cv:
 alum: false 
 ---
