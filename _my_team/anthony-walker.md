@@ -2,7 +2,7 @@
 title: Anthony Walker
 position: PhD student
 nickname: Anthony
-handle: anthony
+handle: awalker
 email: walkanth@oregonstate.edu
 twitter:
 github: anthony-walker
