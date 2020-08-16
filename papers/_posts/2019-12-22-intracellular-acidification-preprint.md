@@ -11,7 +11,7 @@ pages:
 authors: "Triandafillou CG, Katanski CD, Dinner AR, Drummond DA"
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
-fulltext: 
+fulltext: https://www.biorxiv.org/content/10.1101/414706v2
 # pdf: https://www.biorxiv.org/content/10.1101/414706v2.full.pdf
 pdflink: https://www.biorxiv.org/content/10.1101/414706v2.full.pdf
 github: 
@@ -24,7 +24,7 @@ figshare_doi:
 altmetric_id: 48185096
 category: paper
 # Note: 'published' is a Jekyll keyword and does not refer to whether the paper is published, but rather to whether this Markdown should be part of the rendered site.
-published: true
+published: false
 preprint: true
 embargo: false
 peerreview: false

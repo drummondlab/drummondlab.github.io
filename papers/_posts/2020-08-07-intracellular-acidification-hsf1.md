@@ -11,9 +11,8 @@ pages: e54880
 authors: "Triandafillou CG, Katanski CD, Dinner AR, Drummond DA"
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
-fulltext: https://www.biorxiv.org/content/10.1101/414706v2
-# pdf: https://www.biorxiv.org/content/10.1101/414706v2.full.pdf
-pdflink: https://www.biorxiv.org/content/10.1101/414706v2.full.pdf
+fulltext: https://elifesciences.org/articles/54880
+pdflink: https://elifesciences.org/articles/54880#downloads
 github: 
 pmid: 
 pmcid: 
@@ -26,7 +25,7 @@ category: paper
 # Note: 'published' is a Jekyll keyword and does not refer to whether the paper is published, but rather to whether this Markdown should be part of the rendered site.
 published: true
 preprint: false
-embargo: false
+embargo: false	
 peerreview: true
 review: false
 tags: [heat shock, transcription, heat shock response, Hsf1, pH, acidification, yeast, birds]
