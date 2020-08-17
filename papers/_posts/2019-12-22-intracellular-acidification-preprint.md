@@ -11,9 +11,9 @@ pages:
 authors: "Triandafillou CG, Katanski CD, Dinner AR, Drummond DA"
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
-fulltext: https://www.biorxiv.org/content/10.1101/414706v2
+fulltext: "https://www.biorxiv.org/content/10.1101/414706v2"
 # pdf: https://www.biorxiv.org/content/10.1101/414706v2.full.pdf
-pdflink: https://www.biorxiv.org/content/10.1101/414706v2.full.pdf
+pdflink: "https://www.biorxiv.org/content/10.1101/414706v2.full.pdf"
 github: 
 pmid: 
 pmcid: 
