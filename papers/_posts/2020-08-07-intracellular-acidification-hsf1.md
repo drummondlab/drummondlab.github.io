@@ -12,7 +12,7 @@ authors: "Triandafillou CG, Katanski CD, Dinner AR, Drummond DA"
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
 fulltext: https://elifesciences.org/articles/54880
-pdflink: https://elifesciences.org/articles/54880#downloads
+pdflink: https://elifesciences.org/articles/54880
 github: 
 pmid: 
 pmcid: 
