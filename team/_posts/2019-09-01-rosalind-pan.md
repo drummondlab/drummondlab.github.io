@@ -8,11 +8,9 @@ email:
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/default-member.svg
+image: /assets/images/team/rosalind-pan.png
 alum: false
 ---
-Rosalind is an undergraduate student at the [University of Chicago][2].
+Rosalind is an undergraduate student at the [University of Chicago][1].
 
-[1]: http://biophysics.uchicago.edu
-[2]: http://www.uchicago.edu
-[3]: http://pritzker.uchicago.edu/
+[1]: http://www.uchicago.edu
