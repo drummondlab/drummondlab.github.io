@@ -1,5 +1,3 @@
-Pattanayak, Gopal K., Yi Liao, Edward W. J. Wallace, Bogdan Budnik, D. Allan Drummond, and Michael J. Rust. 2020. “Daily Cycles of Reversible Protein Condensation in Cyanobacteria.” Cell Reports 32 (7): 108032.
-
 ---
 layout: paper
 title: "Daily cycles of reversible protein condensation in cyanobacteria"
