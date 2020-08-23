@@ -8,7 +8,7 @@ email:
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/default-member.svg
+image: /assets/images/team/rosalind-pan.png
 alum: false
 ---
 Rosalind is an undergraduate student at the [University of Chicago][1].
