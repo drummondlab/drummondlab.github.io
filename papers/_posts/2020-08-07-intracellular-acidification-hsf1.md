@@ -14,8 +14,8 @@ redirect_from:
 fulltext: https://elifesciences.org/articles/54880
 pdflink: https://elifesciences.org/articles/54880
 github: 
-pmid: 
-pmcid: 
+pmid: 32762843
+pmcid: PMC7449696
 f1000: 
 doi: "10.7554/eLife.54880"
 dryad_doi: "10.5061/dryad.zgmsbcc6v"
