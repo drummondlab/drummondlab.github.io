@@ -14,6 +14,9 @@ image: /assets/images/papers/queuosine.svg
 fulltext: http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002015
 pdf:
 pdflink: "http://www.plosbiology.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pbio.1002015&representation=PDF"
+github: 
+pmid: 25489848
+pmcid: PMC4260829
 doi: "10.1371/journal.pbio.1002015"
 dryad_doi: "10.5061/dryad.1jn88"
 figshare: 
