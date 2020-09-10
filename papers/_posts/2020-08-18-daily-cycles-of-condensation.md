@@ -14,7 +14,7 @@ redirect_from:
 fulltext: https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31017-2
 pdflink: https://www.cell.com/action/showPdf?pii=S2211-1247%2820%2931017-2
 github: 
-pmid: 
+pmid: 32814039
 pmcid: 
 f1000: 
 doi: "10.1016/j.celrep.2020.108032"
