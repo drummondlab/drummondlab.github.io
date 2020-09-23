@@ -13,3 +13,5 @@ miniconda.sh
 
 .jekyll-cache/*
 _site/
+
+.idea/*
