@@ -12,7 +12,7 @@ dropdown_flag: false
 {% assign current_team = site.my_team | where: "alum","false" %}
 {% assign memberindex = 0 %}
 
-{% assign profs = current_team | where: "position","Assistant Professor" %}
+{% assign profs = current_team | where: "title","Kyle Niemeyer" %}
 {% assign phd_candidates = current_team | where: "position","PhD candidate" %}
 {% assign phd_students = current_team | where: "position","PhD student" %}
 {% assign ms_students = current_team | where: "position","MS student" %}
