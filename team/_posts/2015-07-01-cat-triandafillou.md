@@ -11,7 +11,7 @@ scholar:
 image: /assets/images/team/cat-2019.jpg
 alum: false
 ---
-Cat is a graduate student in the [Biophysics program][1] at the [University of Chicago][2].
+Cat is a postdoctoral scholar and a Ph.D. graduate of the [Biophysics program][1] at the [University of Chicago][2].
 
 [1]: http://biophysics.uchicago.edu
 [2]: http://www.uchicago.edu
