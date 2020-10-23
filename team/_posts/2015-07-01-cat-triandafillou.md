@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Catherine Triandafillou"
-position: Graduate student
+position: Postdoctoral scholar
 handle: cat
 nickname: Cat
 email: ctriandafillou@uchicago.edu
