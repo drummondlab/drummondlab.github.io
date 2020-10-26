@@ -1,11 +1,11 @@
 ---
 layout: paper
 title: "A fast, low-memory, and stable algorithm for implementing multicomponent transport in direct numerical simulations"
-year: 2019
-shortref: "Fillo et al. <i>J Comput Phys</i> 2019"
+year: 2020
+shortref: "Fillo et al. <i>J Comput Phys</i> 2020"
 nickname: multicomponent-diffusion-method
 journal: "Journal of Computational Physics"
-volume: 
+volume: 406
 issue: 
 pages: 109185
 authors: "Fillo AJ, Schlup J, Beardsell G, Blanquart G, and Niemeyer KE"
@@ -27,11 +27,11 @@ openaccess: false
 tags: [turbulent flames, direct numerical simulation, multicomponent diffusion, mixture-averaged diffusion]
 project: turbulent-combustion
 bibtex: >
-  @article{Fillo2019,
+  @article{Fillo2020jcp,
     doi = {10.1016/j.jcp.2019.109185},
-    year = 2019,
+    year = 2020,
     month = {},
-    volume = {},
+    volume = 496,
     number = {},
     pages = {109185},
     author = {Aaron J. Fillo and Jason Schlup and Guillaume Beardsell and Guillaume Blanquart and Kyle E. Niemeyer},
