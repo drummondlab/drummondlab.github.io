@@ -1,6 +1,6 @@
 ---
 layout: member
-title: "Caitlin Wong"
+title: "Caitlin Wong Hickernell"
 position: Graduate student
 handle: caitlin
 nickname: caitlin
