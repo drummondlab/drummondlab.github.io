@@ -8,7 +8,7 @@ email:
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/default-member.svg
+image: /assets/images/team/caitlin-wong.jpg
 alum: false
 ---
 Caitlin is a graduate student in the [Biochemistry & Molecular Biophysics][1] graduate program at the [University of Chicago][2].
