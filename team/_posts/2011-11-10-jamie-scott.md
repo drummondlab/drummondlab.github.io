@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Jamie L. Scott"
-position: Zeiss representative
+position: Former lab manager
 handle: jls
 nickname: Jamie
 email: 

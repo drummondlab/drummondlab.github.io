@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Chris Katanski"
-position: Postdoc
+position: Former graduate student
 handle: cdk
 nickname: Chris
 email: 

@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Edward W. J. Wallace"
-position: Henry Dale Fellow and group leader
+position: Former postdoc
 nickname: Edward
 handle: ew
 email: ewallace@uchicago.edu
