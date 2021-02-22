@@ -3,7 +3,7 @@ layout: post
 title: "Some like it hot: temperature signals across the tree of life"
 description: ""
 author: "Sammy Keyport and Caitlin Wong Hickernell"
-author_handle: Sammy, caitlin
+author_handle: Sammy
 category: blog
 published: true
 theme: lab
