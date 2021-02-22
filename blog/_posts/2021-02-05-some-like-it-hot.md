@@ -15,7 +15,7 @@ tags: []
 <img src="/assets/images/cell-stress-vs-signal-v3.png" width="80%">
 </p>
 
-By Sammy Keyport and Caitlin Wong Hickernell
+By <a href="https://drummondlab.org/team/sammy-keyport" target="_blank">Sammy Keyport</a> and <a href="https://drummondlab.org/team/caitlin-wong" target="_blank">Caitlin Wong Hickernell</a>
 
 <em>This article was <a href="https://www.illinoisscience.org/2020/10/some-like-it-hot-temperature-signals-across-the-tree-of-life/" target="_blank">originally published</a> on the <a href="https://www.illinoisscience.org/blog/" target="_blank">Illinois Science Council Blog</a>.</em>
 
