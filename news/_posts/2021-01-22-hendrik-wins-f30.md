@@ -7,6 +7,6 @@ image: /assets/images/news/default-news.png
 category: news
 tags: [fellowship]
 ---
-Hendrik's project “Understanding mRNA condensation and its role in translational control during stress” was awarded won the NIH Ruth L. Kirschstein National Research Service Award (NRSA) F30 via the National Institute of Environmental Health Sciences (NIEHS)! Congratulations to [Hendrik] and the team!
+Hendrik's project “Understanding mRNA condensation and its role in translational control during stress” was awarded won the NIH NRSA F30 via the National Institute of Environmental Health Sciences! Congratulations to [Hendrik]!
 
 [Hendrik]: /team/hendrik-glauninger
