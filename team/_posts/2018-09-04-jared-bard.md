@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Jared Bard"
-position: Postdoctoral fellow
+position: [Helen Hay Whitney][4] Postdoctoral Scholar
 nickname: Jared
 handle: jared
 email: jbard@uchicago.edu
@@ -11,8 +11,9 @@ scholar:
 image: /assets/images/team/jared-bard.png
 alum: false
 ---
-Jared did his graduate work at [Berkeley][1] with [Andreas Martin][2], where he studied the [kinetics of substrate processing and degradation by the 26S proteasome][3].
+Jared did his graduate work at [Berkeley][1] with [Andreas Martin][2], where he studied the [kinetics of substrate processing and degradation by the 26S proteasome][3]. He currently works on translational regulation during heat stress.
 
 [1]:http://www.berkeley.edu
 [2]:http://mcb.berkeley.edu/labs/martin/
-[3]:https://www.biorxiv.org/content/early/2018/06/30/359695
+[3]:https://pubmed.ncbi.nlm.nih.gov/30929903/
+[4]:http://hhwf.org
