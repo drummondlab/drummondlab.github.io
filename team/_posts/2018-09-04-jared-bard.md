@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Jared Bard"
-position: [Helen Hay Whitney][4] Postdoctoral Scholar
+position: Helen Hay Whitney Postdoctoral Scholar
 nickname: Jared
 handle: jared
 email: jbard@uchicago.edu
@@ -16,4 +16,3 @@ Jared did his graduate work at [Berkeley][1] with [Andreas Martin][2], where he 
 [1]:http://www.berkeley.edu
 [2]:http://mcb.berkeley.edu/labs/martin/
 [3]:https://pubmed.ncbi.nlm.nih.gov/30929903/
-[4]:http://hhwf.org
