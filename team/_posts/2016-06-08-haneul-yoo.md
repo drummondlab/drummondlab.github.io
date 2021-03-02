@@ -6,8 +6,8 @@ handle: hy
 nickname: Haneul
 email: haneul@uchicago.edu
 twitter: whoisyoo
-github: 
-scholar: 
+github: haneulyoo
+scholar: 13nhImQAAAAJ
 image: /assets/images/team/haneul-yoo.png
 alum: false
 ---
