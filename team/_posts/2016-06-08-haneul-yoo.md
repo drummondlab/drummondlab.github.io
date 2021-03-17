@@ -17,7 +17,7 @@ Haneul received her B.S. in Biochemistry in 2013 from UCLA. She studied actin po
 
 Haneul studies how molecular chaperones remodel biomolecular condensates using biochemistry, biophysics, and quantitative models. Haneul's work is supported by the NIH Ruth L. Kirschstein National Research Service Award via the National Institute of Environmental Health Sciences (NIEHS). 
 
-Haneul is a graduate student advisor for the UChicago iGEM team, [GeneHackers][4]. If you are a first year graduate student, she recommends reading the [BSD Student Mentor guide][5]
+Haneul is a graduate student advisor for the UChicago iGEM team, [GeneHackers][4]. If you are a first year graduate student, she recommends reading the [BSD Student Mentor guide][5].
 
 
 [1]: http://bmb.uchospitals.edu/
