@@ -1,9 +1,6 @@
 _site/*
 _theme_packages/*
 
-drummondlab.sublime-project
-drummondlab.sublime-workspace
-
 Gemfile.lock
 Thumbs.db
 .DS_Store
@@ -12,3 +9,9 @@ Thumbs.db
 
 .rbenv-version
 .rvmrc
+
+# emacs
+*~
+
+# mac os
+.DS_Store

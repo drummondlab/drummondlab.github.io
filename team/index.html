@@ -18,8 +18,8 @@ navorder: 2
 	{% endif %}
 	<div class="col-md-4 memberbox">
 		<div class="media">
-				<a class="pull-left" href="{{ member.url }}">
-				<img class="media-object member-photo" src="{{ member.image }}">
+		                <a class="pull-left" href="{{ member.url }}">
+		    	        <img width=160 class="media-object" src="{{ member.image }}" style="float: left">
 				</a>
 			 	<div class="media-body">
 				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
@@ -35,12 +35,17 @@ navorder: 2
 </div><div class="bigspacer"></div>
 {% endif %}
 
+{% if colindex != 0 %} <!-- close last open row -->
+</div><div class="bigspacer"></div>
+{% endif %}
+
+
 <div class="bigspacer"></div>
 <hr/>
 
 <div class="row">
 	<div class="col-md-12">
-		<img class="team-photo" src="/assets/images/team/drummond-lab-20190920.jpg"/>
+		<img class="team-photo" src="/assets/images/team/group_pic_2.jpg"/>
 	</div>
 </div>
 
@@ -51,18 +56,17 @@ navorder: 2
 
 {% assign alumni = site.categories.team | where: "alum","true"%}
 {% assign memberindex = 0 %}
-{% for member in alumni %}
+{% for member in alumni reversed %}
 	{% assign memberindex = memberindex | plus: 1 %}
 	{% assign colindex = memberindex | modulo: 3 %}
 	{% if colindex == 1 %} <!-- opening of a new row -->
 	<div class="row">
 	{% endif %}
-	<div class="col-md-4 memberbox">
+	<div class="col-md-4 memberbox" width=160>
 		<div class="media">
-				<a class="pull-left" href="{{ member.url }}">
-				<img class="media-object member-photo" src="{{ member.image }}">
-				</a>
-			 	<div class="media-body">
+		                <a class="pull-left" href="{{ member.url }}">
+                                </a>
+		                <div class="media-body">
 				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
 				<p class="note">{{ member.position }}</p>
 				</div>

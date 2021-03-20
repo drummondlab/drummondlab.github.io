@@ -22,7 +22,7 @@
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all"/>
 
     <!-- icon -->
-    <link rel="shortcut icon" href="{{ ASSET_PATH }}/images/logo/favicon.ico"/>
+    <link rel="shortcut icon" href="{{ ASSET_PATH }}/images/logo/getzlab-logo.ico"/>
 
     <!-- Custom fonts and icons via Font Awesome, http://fortawesome.github.io/Font-Awesome/ -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
@@ -71,7 +71,7 @@
           <span class="icon-bar"></span>
         </button>
         <a href="/">
-        <img class="pull-left logo" src="{{ ASSET_PATH }}/images/logo/lab-logo.svg" type="image/svg+xml">
+        <img class="pull-left logo" src="{{ ASSET_PATH }}/images/logo/getzlab-logo.svg" type="image/svg+xml">
         </a>
       </div>
 
@@ -82,7 +82,7 @@
           {% assign make_title = true %}
           {% for pc in page.categories %}
             {% if pc == "home" %}
-             {% assign make_title = false %}
+             {% assign make_title = true %}
             {% endif %}
           {% endfor %}
           {% if make_title == true %}

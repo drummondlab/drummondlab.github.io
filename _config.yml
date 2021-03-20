@@ -7,25 +7,24 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 highlighter: rouge
 
 markdown: kramdown
-
-repository: drummondlab/drummondlab.github.io
+repository: getzlab/getzlab.github.io
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Drummond Lab
-tagline: Molecular basis of cellular sensing and responses
+title : Getz Lab
+tagline: Understand cancer cell evolutionand response to therapy in terms of genomics and epigenomics
 institution:
-  url: http://www.uchicago.edu
-  name: The University of Chicago
+  url: http://www.broadinstitute.org
+  name: Broad Institute
 department:
-  url: http://bmb.uchospitals.edu
-  name: Biochemistry & Molecular Biology
+  url: https://www.broadinstitute.org/cancer
+  name: Cancer Program
 author :
-  name : D. Allan Drummond
-  email : dadrummond@uchicago.edu
-  github : dad
-  twitter : dallandrummond
+  name : Gad Getz
+  email : gadgetz@broadinstitute.org
+  github : 
+  twitter : 
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -36,7 +35,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://drummondlab.org
+production_url : http://getzlab.org
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
