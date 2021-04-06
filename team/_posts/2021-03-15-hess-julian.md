@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Julian Hess
-position: Senior Computational Associate
+position: Computational Biologist
 email: jhess@broadinstitute.org
 github:
 image: /assets/images/team/Julian_Hess.png

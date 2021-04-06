@@ -19,7 +19,7 @@ doi: 10.1038/s43018-020-0053-3
 category: paper
 published: true
 peerreview: true
-tags: [Immuno Oncology]
+tags: [Immuno Oncology, Multiple Myeloma]
 ---
 {% include JB/setup %}
 
