@@ -11,7 +11,7 @@ pages: 94-101
 authors: "Alexandrov LB, Kim J, Haradhvala NJ, Huang MN, Tian Ng AW, Wu Y, Boot A, Covington KR, Gordenin DA, Bergstrom EN, Islam SMA, Lopez-Bigas N, Klimczak LJ, McPherson JR, Morganella S, Sabarinathan R, Wheeler DA, Mustonen V; PCAWG Mutational Signatures Working Group, Getz G, Rozen SG, Stratton MR; PCAWG Consortium"
 image: /assets/images/papers/Alexandrov2020_Fig1.png
 pdf:
-pdfLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7054213/
+pdflink: https://www.nature.com/articles/s41586-020-1943-3.pdf
 pmid: 32025018
 pmcid: PMC7054213
 doi: 10.1038/s41586-020-1943-3

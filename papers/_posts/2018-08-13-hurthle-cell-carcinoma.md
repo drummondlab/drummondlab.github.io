@@ -11,7 +11,7 @@ pages: 242-255.e5
 authors: "Gopal RK, Kübler K, Calvo SE, Polak P, Livitz D, Rosebrock D, Sadow PM, Campbell B, Donovan SE, Amin S, Gigliotti BJ, Grabarek Z, Hess JM, Stewart C, Braunstein LZ, Arndt PF, Mordecai S, Shih AR, Chaves F, Zhan T, Lubitz CC, Kim J, Iafrate AJ, Wirth L, Parangi S, Leshchiner I, Daniels GH, Mootha VK, Dias-Santagata D, Getz G, McFadden DG"
 image: /assets/images/papers/Gopal2018_Fig1.png
 pdf:
-pdfLink: https://pubmed.ncbi.nlm.nih.gov/30107175/
+pdflink: https://www.cell.com/action/showPdf?pii=S1535-6108%2818%2930270-8
 doi: 10.1016/j.ccell.2018.06.013
 pmid: 30107175
 pmcid: PMC6121811

@@ -11,7 +11,7 @@ pages:
 authors: "Stewart C, Leshchiner I, Hess J, Getz G"
 image: /assets/images/papers/Stewart2018_Fig1.png
 pdf:
-pdfLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7350422/
+pdflink: https://science.sciencemag.org/content/sci/361/6409/eaas9824.full.pdf
 doi: 10.1126/science.aas9824
 pmid: 30262473
 pmcid: PMC7350422

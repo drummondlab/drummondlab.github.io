@@ -11,7 +11,7 @@ pages: 288-301
 authors: "Hess JM, Bernards A, Kim J, Miller M, Taylor-Weiner A, Haradhvala NJ, Lawrence MS, Getz G"
 image: /assets/images/papers/Hess2019_Abstract.png
 pdf:
-pdfLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7371346/
+pdflink: https://www.cell.com/action/showPdf?pii=S1535-6108%2819%2930370-8
 github:
 pmid: 31526759
 pmcid: PMC7371346 

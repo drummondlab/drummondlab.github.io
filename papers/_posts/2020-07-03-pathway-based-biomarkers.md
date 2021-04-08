@@ -11,7 +11,7 @@ pages:
 authors: "Ben-Hamo R, Jacob Berger A, Gavert N, Miller M, Pines G, Oren R, Pikarsky E, Benes CH, Neuman T, Zwang Y, Efroni S, Getz G, Straussman R"
 image: /assets/images/papers/Ben-Hamo2020_Fig1.png
 pdf:
-pdfLink: https://www.nature.com/articles/s41467-020-17090-y
+pdflink: https://www.nature.com/articles/s41467-020-17090-y.pdf
 pmid: 32620799
 pmcid: PMC7335104
 doi: 10.1038/s41467-020-17090-y

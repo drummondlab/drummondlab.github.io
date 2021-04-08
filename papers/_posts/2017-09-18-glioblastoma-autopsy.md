@@ -11,7 +11,7 @@ pages:
 authors: "Brastianos PK, Nayyar N, Rosebrock D, Leshchiner I, Gill CM, Livitz D, Bertalan MS, D'Andrea M, Hoang K, Aquilanti E, Chukwueke UN, Kaneb A, Chi A, Plotkin S, Gerstner ER, Frosch MP, Suva ML, Cahill DP, Getz G, Batchelor TT"
 image: /assets/images/papers/Brastianos2017_Fig1.png
 pdf:
-pdfLink: https://www.nature.com/articles/s41698-017-0035-9
+pdflink: https://www.nature.com/articles/s41698-017-0035-9
 doi: 10.1038/s41698-017-0035-9
 pmid: 29872714
 pmcid: PMC5871833
