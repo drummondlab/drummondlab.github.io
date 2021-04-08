@@ -11,7 +11,7 @@ pages:
 authors: "Chung J, Maruvka YE, Sudhaman S, Kelly J, Haradhvala NJ, Bianchi V, Edwards M, Forster VJ, Nunes NM, Galati MA, Komosa M, Deshmukh S, Cabric V, Davidson S, Zatzman M, Light N, Hayes R, Brunga L, Anderson ND, Ho B, Hodel KP, Siddaway R, Morrissy AS, Bowers DC, Larouche V, Bronsema A, Osborn M, Cole KA, Opocher E, Mason G, Thomas GA, George B, Ziegler DS, Lindhorst S, Vanan M, Yalon-Oren M, Reddy AT, Massimino M, Tomboc P, Van Damme A, Lossos A, Durno C, Aronson M, Morgenstern DA, Bouffet E, Huang A, Taylor MD, Villani A, Malkin D, Hawkins CE, Pursell ZF, Shlien A, Kunkel TA, Getz G, Tabori U"
 image: /assets/images/papers/Chung2020_Fig2.png
 pdf:
-pdfLink: https://cancerdiscovery.aacrjournals.org/content/early/2020/12/18/2159-8290.CD-20-0790.long
+pdflink: https://cancerdiscovery.aacrjournals.org/content/early/2020/12/18/2159-8290.CD-20-0790.full-text.pdf
 pmid: 33355208
 pmcid:
 doi: 10.1158/2159-8290.CD-20-0790

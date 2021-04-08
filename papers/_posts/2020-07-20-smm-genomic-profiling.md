@@ -11,7 +11,7 @@ pages: 2380-2389
 authors: "Bustoros M, Sklavenitis-Pistofidis R, Park J, Redd R, Zhitomirsky B, Dunford AJ, Salem K, Tai YT, Anand S, Mouhieddine TH, Chavda SJ, Boehner C, Elagina L, Neuse CJ, Cha J, Rahmat M, Taylor-Weiner A, Van Allen E, Kumar S, Kastritis E, Leshchiner I, Morgan EA, Laubach J, Casneuf T, Richardson P, Munshi NC, Anderson KC, Trippa L, Aguet F, Stewart C, Dimopoulos MA, Yong K, Bergsagel PL, Manier S, Getz G, Ghobrial IM"
 image: /assets/images/papers/Bustoros2020_Fig1.png
 pdf:
-pdfLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7367550/
+pdflink:
 pmid: 32442065
 pmcid: PMC7367550
 doi: 10.1200/JCO.20.00437

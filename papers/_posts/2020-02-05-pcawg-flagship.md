@@ -11,7 +11,7 @@ pages: 82-93
 authors: "Getz G, Rheinbay E, PCAWG Consortium"
 image: /assets/images/papers/PCAWG2020_Fig1.png
 pdf:
-pdfLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7025898/
+pdflink: https://www.nature.com/articles/s41586-020-1969-6.pdf
 pmid: 32025007
 pmcid: PMC7025898
 doi: 10.1038/s41586-020-1969-6

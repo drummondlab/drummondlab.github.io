@@ -11,7 +11,7 @@ pages: 1746
 authors: "Haradhvala NJ, Kim J, Maruvka YE, Polak P, Rosebrock D, Livitz D, Hess JM, Leshchiner I, Kamburov A, Mouw KW, Lawrence MS, Getz G"
 image: /assets/images/papers/Haradhvala2018_Fig1.png
 pdf:
-pdfLink: https://www.nature.com/articles/s41467-018-04002-4
+pdflink: https://www.nature.com/articles/s41467-018-04002-4.pdf
 doi: 10.1038/s41467-018-04002-4
 pmid: 29717118
 pmcid: PMC5931517

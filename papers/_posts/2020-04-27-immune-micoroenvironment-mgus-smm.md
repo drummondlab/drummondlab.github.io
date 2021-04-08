@@ -11,7 +11,7 @@ pages: 493-506
 authors: "Zavidij O, Haradhvala NJ, Mouhieddine TH, Sklavenitis-Pistofidis R, Cai S, Reidy M, Rahmat M, Flaifel A, Ferland B, Su NK, Agius MP, Park J, Manier S, Bustoros M, Huynh D, Capelletti M, Berrios B, Liu CJ, He MX, Braggio E, Fonseca R, Maruvka Y, Guerriero JL, Goldman M, van Allen E, McCarroll SA, Azzi J, Getz G, Ghobrial IM"
 image: /assets/images/papers/Zavidij2020_Fig1.png
 pdf: 
-pdfLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7785110/
+pdflink:
 github:
 pmid: 33409501
 pmcid: PMC7785110

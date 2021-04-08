@@ -11,8 +11,7 @@ pages:
 authors: "Taylor-Weiner A, Aguet F, Haradhvala NJ, Gosai S, Anand S, Kim J, Ardlie K, Van Allen EM, Getz G"
 image: /assets/images/papers/Taylor-Weiner2019_Fig1.png
 pdf:
-pdfLink: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1836-7
-
+pdflink: https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-019-1836-7.pdf
 doi: 10.1186/s13059-019-1836-7
 pmid: 31675989
 pmcid: PMC6823959

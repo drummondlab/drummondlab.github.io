@@ -11,7 +11,7 @@ pages: 1415-1421
 authors: "Parikh AR, Leshchiner I, Elagina L, Goyal L, Levovitz C, Siravegna G, Livitz D, Rhrissorrakrai K, Martin EE, Van Seventer EE, Hanna M, Slowik K, Utro F, Pinto CJ, Wong A, Danysh BP, de la Cruz FF, Fetter IJ, Nadres B, Shahzade HA, Allen JN, Blaszkowsky LS, Clark JW, Giantonio B, Murphy JE, Nipp RD, Roeland E, Ryan DP, Weekes CD, Kwak EL, Faris JE, Wo JY, Aguet F, Dey-Guha I, Hazar-Rethinam M, Dias-Santagata D, Ting DT, Zhu AX, Hong TS, Golub TR, Iafrate AJ, Adalsteinsson VA, Bardelli A, Parida L, Juric D, Getz G, Corcoran RB"
 image: /assets/images/papers/Parikh2019_Fig1.png
 pdf:
-pdfLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6741444/
+pdflink:
 doi: 10.1038/s41591-019-0561-9
 pmid: 31501609
 mpcid: PMC6741444.
