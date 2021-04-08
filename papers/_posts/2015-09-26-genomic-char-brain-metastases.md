@@ -11,7 +11,7 @@ pages: 1164-1177
 authors: "Brastianos PK, Carter SL, Santagata S, Cahill DP, Taylor-Weiner A, Jones RT, Van Allen EM, Lawrence MS, Horowitz PM, Cibulskis K, Ligon KL, Tabernero J, Seoane J, Martinez-Saez E, Curry WT, Dunn IF, Paek SH, Park SH, McKenna A, Chevalier A, Rosenberg M, Barker FG 2nd, Gill CM, Van Hummelen P, Thorner AR, Johnson BE, Hoang MP, Choueiri TK, Signoretti S, Sougnez C, Rabin MS, Lin NU, Winer EP, Stemmer-Rachamimov A, Meyerson M, Garraway L, Gabriel S, Lander ES, Beroukhim R, Batchelor TT, Baselga J, Louis DN, Getz G, Hahn WC"
 image: /assets/images/papers/Brastianos2015_Fig1.png
 pdf:
-pdfLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4916970/
+pdflink: https://cancerdiscovery.aacrjournals.org/content/5/11/1164.full-text.pdf
 doi: 10.1158/2159-8290.CD-15-0369
 pmid: 26410082
 pmcid: PMC4916970

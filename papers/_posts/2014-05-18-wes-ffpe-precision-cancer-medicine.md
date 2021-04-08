@@ -25,9 +25,3 @@ tags: [WES, FFPE, precision cancer medicine]
 # Abstract
 
 Translating whole-exome sequencing (WES) for prospective clinical use may have an impact on the care of patients with cancer; however, multiple innovations are necessary for clinical implementation. These include rapid and robust WES of DNA derived from formalin-fixed, paraffin-embedded tumor tissue, analytical output similar to data from frozen samples and clinical interpretation of WES data for prospective use. Here, we describe a prospective clinical WES platform for archival formalin-fixed, paraffin-embedded tumor samples. The platform employs computational methods for effective clinical analysis and interpretation of WES data. When applied retrospectively to 511 exomes, the interpretative framework revealed a 'long tail' of somatic alterations in clinically important genes. Prospective application of this approach identified clinically relevant alterations in 15 out of 16 patients. In one patient, previously undetected findings guided clinical trial enrollment, leading to an objective clinical response. Overall, this methodology may inform the widespread implementation of precision cancer medicine.
-
-
-
-
-
-

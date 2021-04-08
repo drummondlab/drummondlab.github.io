@@ -11,7 +11,7 @@ pages: 1152-1158
 authors: "Shukla SA, Rooney MS, Rajasagi M, Tiao G, Dixon PM, Lawrence MS, Stevens J, Lane WJ, Dellagatta JL, Steelman S, Sougnez C, Cibulskis K, Kiezun A, Hacohen N, Brusic V, Wu CJ, Getz G"
 image: /assets/images/papers/Shukla2015_Fig1.png
 pdf:
-pdfLink: https://www.nature.com/articles/nbt.3344
+pdflink: https://www.nature.com/articles/nbt.3344.pdf
 doi: 10.1038/nbt.3344
 pmid: 26372948
 pmcid: PMC4747795

@@ -11,7 +11,7 @@ pages: 644-52
 authors: "Yuan Y, Van Allen EM, Omberg L, Wagle N, Amin-Mansour A, Sokolov A, Byers LA, Xu Y, Hess KR, Diao L, Han L, Huang X, Lawrence MS, Weinstein JN, Stuart JM, Mills GB, Garraway LA, Margolin AA, Getz G, Liang H"
 image: /assets/images/papers/Yuan2014_Fig1.png
 pdf:
-pdfLink: https://www.nature.com/articles/nbt.2940
+pdflink: https://www.nature.com/articles/nbt.2940.pdf
 doi: 10.1038/nbt.2940
 pmid: 24952901
 pmcid: PMC4102885

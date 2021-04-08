@@ -11,7 +11,7 @@ pages: 600-606
 authors: "Kim J, Mouw KW, Polak P, Braunstein LZ, Kamburov A, Kwiatkowski DJ, Rosenberg JE, Van Allen EM, D'Andrea A, Getz G"
 image: /assets/images/papers/Kim2016_Fig1.png
 pdf:
-pdfLink: https://pubmed.ncbi.nlm.nih.gov/27111033/
+pdflink:
 doi: 10.1038/ng.3557
 pmid: 27111033
 pmcid: PMC4936490

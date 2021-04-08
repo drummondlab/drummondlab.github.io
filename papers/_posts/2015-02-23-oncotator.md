@@ -11,7 +11,7 @@ pages: E2423-9
 authors: "Ramos AH, Lichtenstein L, Gupta M, Lawrence MS, Pugh TJ, Saksena G, Meyerson M, Getz G"
 image: /assets/images/papers/default-paper.png
 pdf:
-pdfLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7350419/
+pdflink:
 doi: 10.1002/humu.22771
 pmid: 25703262
 pmcid: PMC7350419

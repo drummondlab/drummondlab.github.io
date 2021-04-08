@@ -11,7 +11,7 @@ pages: 813-825
 authors: "Landau DA, Clement K, Ziller MJ, Boyle P, Fan J, Gu H, Stevenson K, Sougnez C, Wang L, Li S, Kotliar D, Zhang W, Ghandi M, Garraway L, Fernandes SM, Livak KJ, Gabriel S, Gnirke A, Lander ES, Brown JR, Neuberg D, Kharchenko PV, Hacohen N, Getz G, Meissner A, Wu CJ"
 image: /assets/images/papers/Landau2014_Abstract.png
 pdf:
-pdfLink: https://www.cell.com/cancer-cell/fulltext/S1535-6108(14)00416-4
+pdflink: https://www.cell.com/action/showPdf?pii=S1535-6108%2814%2900416-4
 doi: 10.1016/j.ccell.2014.10.012
 pmid: 25490447
 pmcid: PMC4302418

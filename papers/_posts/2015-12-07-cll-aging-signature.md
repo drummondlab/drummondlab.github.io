@@ -11,7 +11,7 @@ pages:
 authors: "Kasar S, Kim J, Improgo R, Tiao G, Polak P, Haradhvala N, Lawrence MS, Kiezun A, Fernandes SM, Bahl S, Sougnez C, Gabriel S, Lander ES, Kim HT, Getz G, Brown JR"
 image: /assets/images/papers/Kasar2015_Fig4.png
 pdf:
-pdfLink: https://www.nature.com/articles/ncomms9866
+pdflink: https://www.nature.com/articles/ncomms9866.pdf
 doi: 10.1038/ncomms9866
 pmid: 26638776
 pmcid: PMC4686820
