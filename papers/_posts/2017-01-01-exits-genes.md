@@ -11,7 +11,7 @@ pages: 10-16
 authors: "Dunford A, Weinstock DM, Savova V, Schumacher SE, Cleary JP, Yoda A, Sullivan TJ, Hess JM, Gimelbrant AA, Beroukhim R, Lawrence MS, Getz G, Lane AA"
 image: /assets/images/papers/Dunford2017_Fig1.png
 pdf:
-pdfLink: https://pubmed.ncbi.nlm.nih.gov/27869828/
+pdflink:
 doi: 10.1038/ng.3726
 pmid: 27869828
 pmcid: PMC5206905
