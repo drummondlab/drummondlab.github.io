@@ -1,7 +1,8 @@
 ---
 layout: member
 title: Arvind Ravi
-position: Post Doc
+category: Postdoctoral Researcher
+position: Postdoctoral Scholar
 email: aravi@broadinstitute.org
 github: 
 image: /assets/images/team/Arvind_Ravi.jpeg

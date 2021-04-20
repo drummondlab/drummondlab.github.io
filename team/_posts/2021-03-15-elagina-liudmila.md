@@ -1,6 +1,7 @@
 ---
 layout: member
-title: Luda Elagina
+title: Liudmila Elagina
+category: Associate
 position: Associate Computational Biologist II
 email: lelagina@broadinstitute.org
 github: lelagina-braod

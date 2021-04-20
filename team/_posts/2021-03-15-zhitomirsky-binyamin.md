@@ -1,7 +1,8 @@
 ---
 layout: member
 title: Benny Zhitomirsky
-position: Post Doc
+cateogry: Postdoctoral Researcher
+position: Postdoctoral Associate
 email: bzhitomi@broadinstitute.org
 github: 
 image: /assets/images/team/Benny_Zhitomirsky.jpeg

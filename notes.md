@@ -131,3 +131,24 @@ Name registration at [NameCheap]. Custom domain via [GitHub Pages].
 [Trevor Bedford]: http://bedford.io/team/trevor-bedford/
 [1]: http://bedford.io
 
+# Notes from Getz Lab fork
+
+
+* Team/People
+** When presenting lab members on team page, we will group the lab members by position category.  And we won't include their official title in the team listing.  We may include their official title on their individual page.
+** Here are the member categories:
+*** Principle Investigator
+**** just Gaddy
+*** Staff Scientists
+**** Ignaty, Chip, Francois, Liza, Kristy, Julian
+*** Staff Engineers
+**** Chet, David, Sava
+*** Operations and Administration
+**** Brian, Raquel, Mendy, Serene
+*** Postdoctoral Researcher
+**** Arvind, Yifat, Benny, Binyamin, Whijae, Kirsten,
+*** Associates (Research and Computational)
+**** lots of people...
+*** Graduate Students
+
+

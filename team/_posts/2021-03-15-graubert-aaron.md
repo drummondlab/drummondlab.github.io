@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Aaron Graubert
+category: Associate
 position: Associate Computational Biologist
 email: aarong@broadinstitute.org
 github: agraubert

@@ -1,7 +1,8 @@
 ---
 layout: member
 title: Amaro Taylor-Weiner
-position: Graduate Student
+category: Graduate Student
+position: PhD Student, Harvard Medical School
 email: amaro@broadinstitute.org
 github: amarotaylor
 image: /assets/images/team/Amaro_Taylor-Weiner.jpeg

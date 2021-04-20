@@ -1,8 +1,9 @@
 ---
 layout: member
-title: Serene King
-position: Senior Administrative Assistant
-email: sking@broadinstitute.org
+title: Kai Stewart
+category: Associate
+position: Associate Compuational Biologist
+email: kstewart@broadinstitute.org
 github: 
 image: /assets/images/team/default-member.png
 cv:

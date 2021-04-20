@@ -1,7 +1,8 @@
 ---
 layout: member
 title: Binyamin Knisbacher
-position: Post Doc
+category: Postdoctoral Researcher
+position: Postdoctoral Associate
 email: bknisbac@broadinstitute.org
 github: bknisbac
 image: /assets/images/team/Binyamin_Knisbacher.jpeg

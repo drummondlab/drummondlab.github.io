@@ -1,6 +1,7 @@
 ---
 layout: member
 title: "Chet Birger"
+category: Staff Engineer
 position: Associate Director
 nickname: Chet
 email: birger@broadinstitute.org 

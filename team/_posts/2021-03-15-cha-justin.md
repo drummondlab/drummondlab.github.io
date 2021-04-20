@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Justin Cha
+cateogory: Associate
 position: Associate Computational Biologist
 email: jcha@broadinstitute.org
 github: cha40

@@ -1,0 +1,15 @@
+---
+layout: default
+title: The Getz Lab
+categories:
+ - home
+---
+{% include JB/setup %}
+
+{% for page in site.categories.misc %}
+{% if page.contact %}
+	{% assign contactpage = page %}
+{% endif %}
+{% endfor %}
+
+{{ contactpage.content }}

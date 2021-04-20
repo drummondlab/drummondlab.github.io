@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Matt Leventhal
+category: Associate
 position: Associate Computational Biologist
 email: mleventh@broadinstitute.org
 github: 

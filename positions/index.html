@@ -1,0 +1,71 @@
+---
+layout: default
+title: "Join"
+description: "Open Positions"
+group: navigation
+navorder: 5
+---
+{% include JB/setup %}
+
+
+<div class="pager">
+  
+	{% if paginator.previous_page %}
+		{% if paginator.previous_page == 1 %}
+		<a class="prev" href="/{{ page.category }}/">
+			<i class="fa fa-chevron-left fa-lg"></i>
+		</a>
+		{% else %}
+		<a class="prev" href="/{{ page.category }}/page{{ paginator.previous_page }}">
+			<i class="fa fa-chevron-left fa-lg"></i>
+		</a>
+		{% endif %}  		
+	{% endif %}  
+  
+	{% if paginator.next_page %}  
+	<a class="next" href="/{{ page.category }}/page{{ paginator.next_page }}">
+		<i class="fa fa-chevron-right fa-lg"></i>
+	</a>	
+	{% endif %}  	
+    
+</div>
+
+<div class="head"><big>Join the Getz Lab!</big></div>
+<div class="bigspacer"></div>
+<div class="head"><small>We are interested in strong candidates for the following positions:</small></div>
+
+{% for job in site.categories.positions %}
+
+	<div class="bigspacer"></div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="head">
+				<a href="{{ job.postingurl }}">{{ job.title }}</a>
+			</div>
+			<div class="smallnote">
+				{{ job.date | date_to_string }}
+			</div>	
+		</div>
+		<div class="col-md-8">		
+			<div style="height:5px;"></div>			
+			<div class="post">
+				{{ job.content }}
+			</div>
+		</div>			
+		<div class="col-md-1"></div>
+	</div>		
+
+{% endfor %}
+
+<div class="bigspacer"></div>	
+<div class="row">
+	<div class="col-md-12 text-center">
+		<a class="off" href="/{{ page.category }}/archive/">
+			<div class="smallhead">Archive</div>
+			<i class="text-gray fa fa-chevron-circle-down fa-2x"></i>
+		</a>
+	</div>
+</div>
+
+
+<div class="bigspacer"></div>

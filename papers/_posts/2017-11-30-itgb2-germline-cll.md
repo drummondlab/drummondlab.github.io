@@ -9,7 +9,7 @@ volume: 130
 issue: 22
 pages: 2443-2444
 authors: "Tiao G, Improgo MR, Tausch E, Fernandes SM, Bahlo J, Robrecht S, Fischer K, Hallek M, Stilgenbauer S, Kiezun A, Getz G, Brown JR"
-image: 
+image: /assets/images/papers/default-paper.svg
 pdf:
 pdflink:
 doi: 10.1182/blood-2017-08-800128

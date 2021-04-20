@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Mendy Miller
+category: Operations and Administration
 position: Senior Science Writer
 email: mendy@broadinstitute.org
 github: 

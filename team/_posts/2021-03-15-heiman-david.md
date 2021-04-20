@@ -1,6 +1,7 @@
 ---
 layout: member
 title: David Heiman
+category: Staff Engineer
 position: Senior Software Engineer
 email: dheiman@broadinstitute.org
 github: dheiman

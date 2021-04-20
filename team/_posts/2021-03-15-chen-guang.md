@@ -1,7 +1,8 @@
 ---
 layout: member
 title: Guang Chen
-position: Ph.D. Student
+category: Graduate Student
+position: Masters Student, Harvard Medical School
 email: guang@broadinstitute.org
 github: 
 image: /assets/images/team/default-member.png

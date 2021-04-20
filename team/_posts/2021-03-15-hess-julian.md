@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Julian Hess
+category: Staff Scientist
 position: Computational Biologist
 email: jhess@broadinstitute.org
 github:

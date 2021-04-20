@@ -1,7 +1,8 @@
 ---
 layout: member
 title: Romanos Sklavenitis Pistofidis
-position: Post Doc
+category: Postdoctoral Researcher
+position: Postdoctoral Scholar
 email: rsp@broadinstitute.org
 github: 
 image: /assets/images/team/default-member.png

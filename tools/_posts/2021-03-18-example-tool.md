@@ -1,8 +1,10 @@
 ---
 layout: protocol
-title: "Example Tool"
+title: "DeTin"
 published: true
-category: protocol
+category: tool
+author: Amaro Taylor-Weiner
+github:
 tags: [Driver Detection]
 ---
 
