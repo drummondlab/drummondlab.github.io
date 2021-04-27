@@ -1,7 +1,8 @@
 ---
 layout: member
 title: Monica Arniella
-position: Associate Computational Biologist
+category: Associate
+position: Associate Computational Biologist II
 email: marniell@broadinstitute.org
 github: 
 image: /assets/images/team/Monica_Arniella.jpeg

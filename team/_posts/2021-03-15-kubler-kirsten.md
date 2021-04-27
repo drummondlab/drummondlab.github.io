@@ -1,7 +1,8 @@
 ---
 layout: member
 title: Kirsten Kubler
-position: Post Doc
+category: Postdoctoral Researcher
+position: Postdoctoral Associate and Instuctor
 email: kkubler@broadinstitute.org
 github: 
 image: /assets/images/team/default-member.png

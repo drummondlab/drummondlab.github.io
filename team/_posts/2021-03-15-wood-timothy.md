@@ -1,7 +1,8 @@
 ---
 layout: member
 title: Tim Wood
-position: Associate Computaional Biologist
+category: Associate
+position: Associate Computaional Biologist II
 email: twood@broadinstitute.org
 github: 
 image: /assets/images/team/default-member.png

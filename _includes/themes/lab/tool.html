@@ -1,31 +1,39 @@
 <div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+  <div class="title media-heading">{{ page.title }}</div>
+  {% if page.tagline %}
+  <div class="tagline">{{page.tagline}}</div>
+  {% endif %}</h1>
 </div>
 
 <div class="row post-full">
   <div class="col-xs-12">
-    <div class="date">
-      <span>{{ page.date | date_to_long_string }}</span>
-    </div>
-    <div class="content">
-      {{ content }}
-    </div>
 
-  {% unless page.categories == empty %}
-    <ul class="tag_box inline">
-      <li><i class="glyphicon glyphicon-open"></i></li>
-      {% assign categories_list = page.categories %}
-      {% include JB/categories_list %}
-    </ul>
-  {% endunless %}  
-
-  {% unless page.tags == empty %}
+    {% if page.github %}
+    <div class="smallhead">
+      Source Code
+    </div>
+    <div class="pad-left note">
+      <div class="smallspacer"></div>
+      <i class="fa fa-github-alt fa-fw"></i>
+        <a class="off" href="https://github.com/{{ page.github }}">{{ page.github }}</a>
+    </div>
+    {% endif %}
+    
+    <div class="bigspacer"></div>
+    
+  <div class="col-sx-12">
+    {% unless page.tags == empty %}
+    <div class="smallhead">
+      Tags
+    </div>
     <ul class="tag_box inline">
       <li><i class="glyphicon glyphicon-tags"></i></li>
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
     </ul>
-  {% endunless %}  
+    {% endunless %}
+  </div>
+
   
     <hr>
     <ul class="pagination">

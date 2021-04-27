@@ -1,7 +1,8 @@
 ---
 layout: member
 title: Serene King
-position: Administrative Assistant
+category: Operations and Administration
+position: Senior Administrative Assistant
 email: sking@broadinstitute.org
 github: 
 image: /assets/images/team/default-member.png

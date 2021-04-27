@@ -1,11 +1,13 @@
 ---
 layout: member
 title: Yosi Maruvka
-position: Assistant Professor, TECHNION
+category: Postdoctoral Researcher
+position: Postdoctoral Associate
 email: maruvka@broadinstitute.org
 github: 
 image: /assets/images/team/Yosi_Maruvka.jpeg
 cv:
 alum: true
+current: Assistant Professor, TECHNION
 ---
 

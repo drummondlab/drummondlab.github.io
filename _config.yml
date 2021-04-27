@@ -16,10 +16,22 @@ title : Getz Lab
 tagline: Understand cancer cell evolutionand response to therapy in terms of genomics and epigenomics
 institution:
   url: http://www.broadinstitute.org
-  name: Broad Institute
+  name: Broad
 department:
   url: https://www.broadinstitute.org/cancer
   name: Cancer Program
+institution2:
+  url: https://www.massgeneral.org
+  name: MGH
+department2:
+  url: https://www.massgeneral.org/pathology/
+  name: Department of Pathology
+institution3:
+  url: https://hms.harvard.edu/
+  name: HMS
+department3:
+  url: https://www.hms.harvard.edu/dms/big/index.html
+  name: Bioinformatics and Integrative Genomics
 author :
   name : Gad Getz
   email : gadgetz@broadinstitute.org

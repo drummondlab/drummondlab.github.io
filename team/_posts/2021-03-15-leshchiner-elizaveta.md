@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Liza Leshchiner
+category: Staff Scientist
 position: Research Scientist
 email: eleshch@broadinstitute.org
 github: 
