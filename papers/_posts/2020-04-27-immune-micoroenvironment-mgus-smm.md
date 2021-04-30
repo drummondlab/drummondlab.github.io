@@ -9,6 +9,8 @@ volume: 1
 issue: 5
 pages: 493-506
 authors: "Zavidij O, Haradhvala NJ, Mouhieddine TH, Sklavenitis-Pistofidis R, Cai S, Reidy M, Rahmat M, Flaifel A, Ferland B, Su NK, Agius MP, Park J, Manier S, Bustoros M, Huynh D, Capelletti M, Berrios B, Liu CJ, He MX, Braggio E, Fonseca R, Maruvka Y, Guerriero JL, Goldman M, van Allen E, McCarroll SA, Azzi J, Getz G, Ghobrial IM"
+first_authors: "Zavidij O, Haradhvala NJ, Mouhieddine TH"
+senior_authors: "Azzi J, Getz G, Ghobrial IM"
 image: /assets/images/papers/Zavidij2020_Fig1.png
 pdf: 
 pdflink:

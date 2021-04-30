@@ -9,6 +9,8 @@ volume: 364
 issue: 6444
 pages:
 authors: "Yizhak K, Aguet F, Kim J, Hess JM, Kübler K, Grimsby J, Frazer R, Zhang H, Haradhvala NJ, Rosebrock D, Livitz D, Li X, Arich-Landkof E, Shoresh N, Stewart C, Segrè AV, Branton PA, Polak P, Ardlie KG, Getz G"
+first_authors: "Yizhak K"
+senior_author: "Getz G"
 image: /assets/images/papers/Yizhak2019_Fig1.png
 pdf:
 pdflink: https://science.sciencemag.org/content/sci/364/6444/eaaw0726.full.pdf

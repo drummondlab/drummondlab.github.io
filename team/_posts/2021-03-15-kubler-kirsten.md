@@ -1,8 +1,9 @@
 ---
 layout: member
 title: Kirsten Kubler
+citation_names: "Kübler K"
 category: Postdoctoral Researcher
-position: Postdoctoral Associate and Instuctor
+position: Associated Scientist, Instructor
 email: kkubler@broadinstitute.org
 github: 
 image: /assets/images/team/default-member.png

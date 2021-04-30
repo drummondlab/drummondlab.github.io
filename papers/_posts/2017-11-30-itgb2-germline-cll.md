@@ -9,6 +9,8 @@ volume: 130
 issue: 22
 pages: 2443-2444
 authors: "Tiao G, Improgo MR, Tausch E, Fernandes SM, Bahlo J, Robrecht S, Fischer K, Hallek M, Stilgenbauer S, Kiezun A, Getz G, Brown JR"
+first_authors: "Tiao G, Improgo MR"
+senior_authors: "Getz G, Brown JR"
 image: /assets/images/papers/default-paper.svg
 pdf:
 pdflink:

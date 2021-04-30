@@ -9,6 +9,8 @@ volume: 25
 issue: 9
 pages: 1415-1421
 authors: "Parikh AR, Leshchiner I, Elagina L, Goyal L, Levovitz C, Siravegna G, Livitz D, Rhrissorrakrai K, Martin EE, Van Seventer EE, Hanna M, Slowik K, Utro F, Pinto CJ, Wong A, Danysh BP, de la Cruz FF, Fetter IJ, Nadres B, Shahzade HA, Allen JN, Blaszkowsky LS, Clark JW, Giantonio B, Murphy JE, Nipp RD, Roeland E, Ryan DP, Weekes CD, Kwak EL, Faris JE, Wo JY, Aguet F, Dey-Guha I, Hazar-Rethinam M, Dias-Santagata D, Ting DT, Zhu AX, Hong TS, Golub TR, Iafrate AJ, Adalsteinsson VA, Bardelli A, Parida L, Juric D, Getz G, Corcoran RB"
+first_authors: "Parikh AR, Leshchiner I, Elagina L"
+senior_authors: "Getz G"
 image: /assets/images/papers/Parikh2019_Fig1.png
 pdf:
 pdflink:

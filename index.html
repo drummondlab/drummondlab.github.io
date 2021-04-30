@@ -56,85 +56,38 @@ categories:
 <div class="hugespacer"></div>
 
 <div class="row">
-	<div class="col-md-4">
-		<div class="head">
-			<a class="off" href="/news/">News</a>
-		</div>
-		<div class="bigspacer"></div>
-		<div class="feedbox pad-left">
-			{% for news in site.categories.news limit:4 %}
-			
-				{% for member in site.categories.team %}
-					{% if member.handle == news.author_handle %}
-						{% assign author = member %}
-					{% endif %}
-				{% endfor %}		
-				
-				<div class="note-title">
-					<i class="fa fa-bullhorn fa-fw"></i>
-					<a class="off" href="{{ news.url }}">
-					{{ news.title }}
-					</a>
-				</div>
-				<div class="note">
-					{{ news.content }}
-				</div>
-				<div class="smallspacer"></div>
-				<div class="smallnote">
-					Posted
-					{{ news.date | date_to_string }}
-					{% if author %}
-					by <a class="off" href="{{ author.url }}">{{ author.nickname }}</a>
-					{% endif %}						
-				</div>
-				<div class="spacer"></div>	
-				<div class="spacer"></div>				
-			{% endfor %}
-		</div>
-		<div class="bigspacer"></div>		
-	</div>
-	<div class="col-md-4">
-		<div class="head">
-			<a class="off" href="/blog/">Posts</a>
-		</div>
-		<div class="bigspacer"></div>
-		<div class="feedbox pad-left">
-			{% for post in site.categories.blog limit:4 %}
-			
-				{% for member in site.categories.team %}
-					{% if member.handle == post.author_handle %}
-						{% assign author = member %}
-					{% endif %}
-				{% endfor %}		
-				
-				<div class="note-title">
-					<i class="fa fa-comment-o fa-fw"></i>
-					<a class="off" href="{{ post.url }}">
-					{{ post.title }}
-					</a>
-				</div>
-				<div class="smallspacer"></div>
-				<div class="smallnote">
-					Posted
-					{{ post.date | date_to_string }}
-					{% if author %}
-					by <a class="off" href="{{ author.url }}">{{ author.nickname }}</a>
-					{% endif %}						
-				</div>
-				<div class="spacer"></div>	
-				<div class="spacer"></div>				
-			{% endfor %}
-		</div>
-		<div class="bigspacer"></div>		
-	</div>
-	<div class="col-md-4">
+	<div class="col-md-6">
 		<div class="head">
 			<a class="off" href="/papers/">Papers
 			</a>
 		</div>
+                {% assign team_citation_names = "" | split: ", " %}
+                {% for team_member in site.categories.team %}
+                  {% if team_member.citation_names %}
+                    {% assign member_citation_names = team_member.citation_names | split: ", " %}
+                    {% assign team_citation_names = team_citation_names | concat: member_citation_names %}
+                  {% endif %}
+                {% endfor %}
+                {% assign team_citation_names = team_citation_names | join: ", " %}
+		
 		<div class="bigspacer"></div>
 		<div class="feedbox pad-left">		
-			{% for paper in site.categories.papers limit:4 %}
+                        {% for paper in site.categories.papers limit:4 %}
+
+                          {% assign first_authors = paper.first_authors | split: ", " %}
+                          {% assign revised_first_authors = "" | split: ", " %}
+                          {% for first_author in first_authors %}
+                            {% if team_citation_names contains first_author %}        
+                              {% assign revised_first_author = "<b>" | append: first_author | append: "</b>" %}
+                              {% assign revised_first_authors = revised_first_authors | push: revised_first_author %}
+                            {% else %}
+                              {% assign revised_first_authors = revised_first_authors | push: first_author %}
+                            {% endif %}
+                          {% endfor %}      
+                          {% assign  revised_first_authors  = revised_first_authors | join: ", " %}
+                          {% assign shortref = revised_first_authors | append: " et al. " | append: paper.journal | append: " " | append: paper.year %}
+
+
 				<div class="note-title">
 					<i class="fa fa-file-text-o fa-fw"></i>
 					{% if paper.preprint %}
@@ -149,7 +102,7 @@ categories:
 					{% endif %}
 					<br/>
 					<div class='shortref note'>
-					{{ paper.shortref }}
+					{{ shortref }}
 					</div>
 				</div>
 				<div class="smallspacer"></div>
@@ -164,6 +117,13 @@ categories:
 				<div class="spacer"></div>	
 				<div class="spacer"></div>				
 			{% endfor %}
+		</div>
+		<div class="bigspacer"></div>		
+	</div>
+	<div class="col-md-6">
+		<div class="head">
+			<a class="off" href="/tweets/">Tweets
+			</a>
 		</div>
 		<div class="bigspacer"></div>		
 	</div>

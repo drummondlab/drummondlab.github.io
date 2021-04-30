@@ -9,6 +9,8 @@ volume: 547
 issue: 7661
 pages: 55-60
 authors: "Rheinbay E, Parasuraman P, Grimsby J, Tiao G, Engreitz JM, Kim J, Lawrence MS, Taylor-Weiner A, Rodriguez-Cuevas S, Rosenberg M, Hess J, Stewart C, Maruvka YE, Stojanov P, Cortes ML, Seepo S, Cibulskis C, Tracy A, Pugh TJ, Lee J, Zheng Z, Ellisen LW, Iafrate AJ, Boehm JS, Gabriel SB, Meyerson M, Golub TR, Baselga J, Hidalgo-Miranda A, Shioda T, Bernards A, Lander ES, Getz G"
+first_authors: "Rheinbay E, Parasuraman P"
+senior_authors: "Getz G"
 image: /assets/images/papers/Rheinbay2017_Fig1.png
 pdf:
 pdflink:
