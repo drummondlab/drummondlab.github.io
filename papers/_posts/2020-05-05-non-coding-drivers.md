@@ -9,6 +9,8 @@ volume: 578
 issue: 7793
 pages: 102-111
 authors: "Rheinbay E, Nielsen MM, Abascal F, Wala JA, Shapira O, Tiao G, Hornshøj H, Hess JM, Juul RI, Lin Z, Feuerbach L, Sabarinathan R, Madsen T, Kim J, Mularoni L, Shuai S, Lanzós A, Herrmann C, Maruvka YE, Shen C, Amin SB, Bandopadhayay P, Bertl J, Boroevich KA, Busanovich J, Carlevaro-Fita J, Chakravarty D, Chan CWY, Craft D, Dhingra P, Diamanti K, Fonseca NA, Gonzalez-Perez A, Guo Q, Hamilton MP, Haradhvala NJ, Hong C, Isaev K, Johnson TA, Juul M, Kahles A, Kahraman A, Kim Y, Komorowski J, Kumar K, Kumar S, Lee D, Lehmann KV, Li Y, Liu EM, Lochovsky L, Park K, Pich O, Roberts ND, Saksena G, Schumacher SE, Sidiropoulos N, Sieverling L, Sinnott-Armstrong N, Stewart C, Tamborero D, Tubio JMC, Umer HM, Uusküla-Reimand L, Wadelius C, Wadi L, Yao X, Zhang CZ, Zhang J, Haber JE, Hobolth A, Imielinski M, Kellis M, Lawrence MS, von Mering C, Nakagawa H, Raphael BJ, Rubin MA, Sander C, Stein LD, Stuart JM, Tsunoda T, Wheeler DA, Johnson R, Reimand J, Gerstein M, Khurana E, Campbell PJ, López-Bigas N; PCAWG Drivers and Functional Interpretation Working Group; PCAWG Structural Variation Working Group, Weischenfeldt J, Beroukhim R, Martincorena I, Pedersen JS, Getz G; PCAWG Consortium"
+first_authors: "Rheinbay E, Nielsen MM, Abascal F, Wala JA, Shapira O"
+senior_authors: "Getz G"
 image: /assets/images/papers/Rheinbay2020_Fig1.png
 pdf:
 pdflink: https://www.nature.com/articles/s41586-020-1965-x.pdf

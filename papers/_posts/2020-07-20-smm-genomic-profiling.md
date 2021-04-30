@@ -10,6 +10,8 @@ issue: 21
 pages: 2380-2389
 authors: "Bustoros M, Sklavenitis-Pistofidis R, Park J, Redd R, Zhitomirsky B, Dunford AJ, Salem K, Tai YT, Anand S, Mouhieddine TH, Chavda SJ, Boehner C, Elagina L, Neuse CJ, Cha J, Rahmat M, Taylor-Weiner A, Van Allen E, Kumar S, Kastritis E, Leshchiner I, Morgan EA, Laubach J, Casneuf T, Richardson P, Munshi NC, Anderson KC, Trippa L, Aguet F, Stewart C, Dimopoulos MA, Yong K, Bergsagel PL, Manier S, Getz G, Ghobrial IM"
 image: /assets/images/papers/Bustoros2020_Fig1.png
+first_authors: "Busteros M, Sklavenitis-Pistofidis R"
+senior_authors: "Manier S, Getz G, Ghobrial IM"
 pdf:
 pdflink:
 pmid: 32442065

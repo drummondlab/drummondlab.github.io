@@ -5,6 +5,27 @@ with gratitude.
 
 <div class="bigspacer"></div>
 
+{% assign team_citation_names = "" | split: ", " %}
+{% for team_member in site.categories.team %}
+  {% if team_member.citation_names %}
+    {% assign member_citation_names = team_member.citation_names | split: ", " %}
+    {% assign team_citation_names = team_citation_names | concat: member_citation_names %}
+  {% endif %}
+{% endfor %}
+{% assign team_citation_names = team_citation_names | join: ", " %}
+
+{% assign authors = page.authors | split: ", " %}
+{% assign revised_authors = "" | split: ", " %}
+{% for author in authors %}
+  {% if team_citation_names contains author %}	      
+    {% assign revised_author = "<b>" | append: author | append: "</b>" %}
+    {% assign revised_authors = revised_authors | push: revised_author %}
+  {% else %}
+    {% assign revised_authors = revised_authors | push: author %}
+  {% endif %}
+{% endfor %}	    
+{% assign  authors  = revised_authors | join: ", " %}
+
 <div class="row">
 	<div class="col-md-3">
 		<div class="media">
@@ -27,7 +48,7 @@ with gratitude.
 			</div>
 			<p>
 			<div class="smallhead">
-				{{ page.authors }}, 
+				{{ authors }}, 
 				<span class="journal">
 				{{ page.journal }}
 				</span>

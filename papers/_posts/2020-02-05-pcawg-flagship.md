@@ -8,7 +8,8 @@ journal: "Nature"
 volume: 578
 issue: 7793
 pages: 82-93
-authors: "Getz G, Rheinbay E, PCAWG Consortium"
+authors: "ICGC/TCGA Pan-Cancer Analysis of Whole Genomes Consortium"
+first_authors: "ICGC/TCGA Pan-Cancer Analysis of Whole Genomes Consortium"
 image: /assets/images/papers/PCAWG2020_Fig1.png
 pdf:
 pdflink: https://www.nature.com/articles/s41586-020-1969-6.pdf

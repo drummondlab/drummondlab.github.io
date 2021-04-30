@@ -9,6 +9,8 @@ volume: 36
 issue: 3
 pages: 288-301
 authors: "Hess JM, Bernards A, Kim J, Miller M, Taylor-Weiner A, Haradhvala NJ, Lawrence MS, Getz G"
+first_authors: "Hess JM"
+senior_authors: "Lawerence MS, Getz G"
 image: /assets/images/papers/Hess2019_Abstract.png
 pdf:
 pdflink: https://www.cell.com/action/showPdf?pii=S1535-6108%2819%2930370-8

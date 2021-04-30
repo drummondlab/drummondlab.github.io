@@ -9,6 +9,8 @@ volume: 1
 issue: 1
 pages:
 authors: "Brastianos PK, Nayyar N, Rosebrock D, Leshchiner I, Gill CM, Livitz D, Bertalan MS, D'Andrea M, Hoang K, Aquilanti E, Chukwueke UN, Kaneb A, Chi A, Plotkin S, Gerstner ER, Frosch MP, Suva ML, Cahill DP, Getz G, Batchelor TT"
+first_authors: "Brastianos PK, Nayyar N, Rosebrock D, Leshchiner I"
+senior_authors: "Cahill DP, Getz G, Batchelor TT"
 image: /assets/images/papers/Brastianos2017_Fig1.png
 pdf:
 pdflink: https://www.nature.com/articles/s41698-017-0035-9

@@ -7,6 +7,7 @@ email: aarong@broadinstitute.org
 github: agraubert
 image: /assets/images/team/Aaron_Graubert.jpeg
 cv:
+linkedin: agraubert
 alum: true
 ---
 

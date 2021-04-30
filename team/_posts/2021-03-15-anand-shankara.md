@@ -7,6 +7,7 @@ email: sanand@broadinstitute.org
 github:
 image: /assets/images/team/Shankara_Anand.png
 cv:
+linkedin: shankdara-anand
 alum: true
 current_position: Medical Student, Boston University Medical School
 ---

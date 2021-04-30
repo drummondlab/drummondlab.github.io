@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Andrew Dunford
+citation_names: "Dunford AJ"
 category: Associate
 position: Associate Computational Biologist II
 email: adunford@broadinstitute.org

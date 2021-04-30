@@ -30,8 +30,8 @@ institution3:
   url: https://hms.harvard.edu/
   name: HMS
 department3:
-  url: https://www.hms.harvard.edu/dms/big/index.html
-  name: Bioinformatics and Integrative Genomics
+  url: https://hms.harvard.edu/departments/pathology
+  name: Department of Pathology
 author :
   name : Gad Getz
   email : gadgetz@broadinstitute.org

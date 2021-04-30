@@ -1,9 +1,10 @@
 ---
 layout: member
 title: Amaro Taylor-Weiner
+citation_names: "Taylor-Weiner A"
 category: Graduate Student
 position: PhD Student, Harvard Medical School
-email: amaro@broadinstitute.org
+email:
 github: amarotaylor
 image: /assets/images/team/Amaro_Taylor-Weiner.jpeg
 cv:

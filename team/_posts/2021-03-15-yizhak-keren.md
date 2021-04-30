@@ -1,12 +1,15 @@
 ---
 layout: member
 title: Keren Yizhak
+citation_names: "Yizhak K"
 category: Postdoctoral Researcher
 position: Postdoctoral Associate
-email: kyizhak@broadinstitute.org
+email:
 github: 
 image: /assets/images/team/default-member.png
 cv:
 alum: true
+linkedin: keren-yizhak-95b613126
+current: Associate Professor, Technion - Israel Institute of Technology
 ---
 

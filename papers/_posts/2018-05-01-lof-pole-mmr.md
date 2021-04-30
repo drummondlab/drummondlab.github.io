@@ -9,6 +9,8 @@ volume: 9
 issue: 1
 pages: 1746
 authors: "Haradhvala NJ, Kim J, Maruvka YE, Polak P, Rosebrock D, Livitz D, Hess JM, Leshchiner I, Kamburov A, Mouw KW, Lawrence MS, Getz G"
+first_authors: "Haradhvala NJ, Kim J, Maruvka YE"
+senior_authors: "Mouw KW, Lawrence MS, Getz G"
 image: /assets/images/papers/Haradhvala2018_Fig1.png
 pdf:
 pdflink: https://www.nature.com/articles/s41467-018-04002-4.pdf
