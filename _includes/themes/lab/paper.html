@@ -12,17 +12,29 @@ with gratitude.
     {% assign team_citation_names = team_citation_names | concat: member_citation_names %}
   {% endif %}
 {% endfor %}
-{% assign team_citation_names = team_citation_names | join: ", " %}
+<!-- {% assign team_citation_names = team_citation_names | join: ", " %} -->
 
-{% assign authors = page.authors | split: ", " %}
+{% assign authors = page.authors | replace: "; ", ", " %}
+{% assign authors = authors | split: ", " %}
 {% assign revised_authors = "" | split: ", " %}
+
 {% for author in authors %}
   {% if team_citation_names contains author %}	      
     {% assign revised_author = "<b>" | append: author | append: "</b>" %}
-    {% assign revised_authors = revised_authors | push: revised_author %}
   {% else %}
-    {% assign revised_authors = revised_authors | push: author %}
+    {% assign revised_author = author %}
   {% endif %}
+  {% if page.first_authors contains author %}
+      {% assign revised_author = revised_author | append: "*" %}
+  {% endif %}
+  {% if page.senior_authors contains author %}
+      {% assign revised_author = revised_author | append: "<sup>#</sup>" %}
+  {% endif %}
+  {% if page.corresponding_authors contains author %}
+      {% assign revised_author = revised_author | append: "^" %}
+  {% endif %}
+  {% assign revised_authors = revised_authors | push: revised_author %}
+
 {% endfor %}	    
 {% assign  authors  = revised_authors | join: ", " %}
 
@@ -64,8 +76,16 @@ with gratitude.
 				({{ page.year }}).
 			</div>
 		</div>
+<div class="bigspacer"></div>
+<div>
+  * <em>First Authors</em><br>
+  # <em>Senior Authors</em><br>
+  ^ <em>Correspnding Authors</em><br>  
+</div>
+
 	</div>
 </div>
+
 
 <div class="bigspacer"></div>
 

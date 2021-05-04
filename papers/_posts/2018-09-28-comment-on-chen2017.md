@@ -11,6 +11,7 @@ pages:
 authors: "Stewart C, Leshchiner I, Hess J, Getz G"
 first_authors: "Stewart C, Leshchiner I"
 senior_authors: "Getz G"
+corresponding_authors: "Getz G"
 image: /assets/images/papers/Stewart2018_Fig1.png
 pdf:
 pdflink: https://science.sciencemag.org/content/sci/361/6409/eaas9824.full.pdf

@@ -24,11 +24,12 @@ navorder: 3
   {% assign memberindex = memberindex | plus: 1 %}
   {% assign colindex = memberindex | modulo: 3 %}
   {% if colindex == 1 %} <!-- opening of a new row -->
-  <div class="row">
+    <div class="row">
   {% endif %}
 
-  {% assign first_authors = paper.first_authors | split: ", " %}
+    {% assign first_authors = paper.first_authors | split: ", " %}
     {% assign revised_first_authors = "" | split: ", " %}
+  
     {% for first_author in first_authors %}
       {% if team_citation_names contains first_author %}	      
         {% assign revised_first_author = "<b>" | append: first_author | append: "</b>" %}
@@ -66,7 +67,9 @@ navorder: 3
       {% else %}
       <div class="media">
         <a class="pull-right" href="{{ paper.url }}">
+          {% if paper.image %}
           <img width=100 class="media-object" src="{{ paper.image }}">
+          {% endif %}
         </a>
         <div class="media-body">
             <div class="smallhead media-heading">

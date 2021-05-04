@@ -12,6 +12,7 @@ authors: "Bustoros M, Sklavenitis-Pistofidis R, Park J, Redd R, Zhitomirsky B, D
 image: /assets/images/papers/Bustoros2020_Fig1.png
 first_authors: "Busteros M, Sklavenitis-Pistofidis R"
 senior_authors: "Manier S, Getz G, Ghobrial IM"
+corresponding_authors: "Sklavenitis-Pistofidis R, Ghobrial IM"
 pdf:
 pdflink:
 pmid: 32442065

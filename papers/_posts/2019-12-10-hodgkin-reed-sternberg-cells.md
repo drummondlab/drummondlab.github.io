@@ -11,6 +11,7 @@ pages: 4065-4080
 authors: "Wienand K, Chapuy B, Stewart C, Dunford AJ, Wu D, Kim J, Kamburov A, Wood TR, Cader FZ, Ducar MD, Thorner AR, Nag A, Heubeck AT, Buonopane MJ, Redd RA, Bojarczuk K, Lawton LN, Armand P, Rodig SJ, Fromm JR, Getz G, Shipp MA"
 first_authors: "Wienand K, Chapuy B, Stewart C, Dunford AJ, Wu D"
 senior_authors: "Fromm JR, Getz G, Shipp MA"
+corresponding_authors: "Fromm JR, Getz G, Shipp MA"
 image: /assets/images/papers/Wienand2019_FigAbstract.png
 pdf:
 pdflink:

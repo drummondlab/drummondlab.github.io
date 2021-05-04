@@ -11,6 +11,7 @@ pages: 679-690
 authors: "Chapuy B, Stewart C, Dunford AJ, Kim J, Kamburov A, Redd RA, Lawrence MS, Roemer MGM, Li AJ, Ziepert M, Staiger AM, Wala JA, Ducar MD, Leshchiner I, Rheinbay E, Taylor-Weiner A, Coughlin CA, Hess JM, Pedamallu CS, Livitz D, Rosebrock D, Rosenberg M, Tracy AA, Horn H, van Hummelen P, Feldman AL, Link BK, Novak AJ, Cerhan JR, Habermann TM, Siebert R, Rosenwald A, Thorner AR, Meyerson ML, Golub TR, Beroukhim R, Wulf GG, Ott G, Rodig SJ, Monti S, Neuberg DS, Loeffler M, Pfreundschuh M, Trümper L, Getz G, Shipp MA"
 first_authors: "Chapuy B, Stewart C, Dunford AJ"
 senior_authors: "Getz G, Shipp MA"
+corresponding_authors: "Getz G, Shipp MA"
 image: /assets/images/papers/Chapuy2018_Fig1.png
 pdf:
 pdflink:

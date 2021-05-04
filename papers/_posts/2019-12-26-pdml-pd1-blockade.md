@@ -11,6 +11,7 @@ pages: 2369-2382
 authors: "Chapuy B, Stewart C, Dunford AJ, Kim J, Wienand K, Kamburov A, Griffin GK, Chen PH, Lako A, Redd RA, Cote CM, Ducar MD, Thorner AR, Rodig SJ, Getz G, Shipp MA"
 first_authors: "Chapuy B, Stewart C, Dunford AJ"
 senior_authors: "Getz G, Shipp MA"
+corresponding_authors: "Shipp MA"
 image: /assets/images/papers/Chapuy2019_FigAbstract.png
 pdf:
 pdflink:
