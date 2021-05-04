@@ -11,6 +11,7 @@ pages: 474-479
 authors: "Gruber M, Bozic I, Leshchiner I, Livitz D, Stevenson K, Rassenti L, Rosebrock D, Taylor-Weiner A, Olive O, Goyetche R, Fernandes SM, Sun J, Stewart C, Wong A, Cibulskis C, Zhang W, Reiter JG, Gerold JM, Gribben JG, Rai KR, Keating MJ, Brown JR, Neuberg D, Kipps TJ, Nowak MA, Getz G, Wu CJ"
 first_authors: "Gruber M, Bozic I, Leshchiner I, Livitz D"
 senior_authors: "Getz G, Wu CJ"
+corresponding_authors: "Getz G, Wu CJ"
 image: /assets/images/papers/Gruber2019_Fig1.png
 pdf:
 pdflink:

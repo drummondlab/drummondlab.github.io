@@ -11,6 +11,7 @@ pages: 1476-1486
 authors: "Polak P, Kim J, Braunstein LZ, Karlic R, Haradhavala NJ, Tiao G, Rosebrock D, Livitz D, Kübler K, Mouw KW, Kamburov A, Maruvka YE, Leshchiner I, Lander ES, Golub TR, Zick A, Orthwein A, Lawrence MS, Batra RN, Caldas C, Haber DA, Laird PW, Shen H, Ellisen LW, D'Andrea AD, Chanock SJ, Foulkes WD, Getz G"
 first_authors: "Polak P, Kim J, Braunstein LZ"
 senior_authors: "Foulkes WD, Getz G"
+corresponding_authors: "Getz G"
 image: /assets/images/papers/Polak2017_Fig1.png
 pdf:
 pdflink:

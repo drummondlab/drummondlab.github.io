@@ -11,6 +11,7 @@ pages: 10-16
 authors: "Dunford A, Weinstock DM, Savova V, Schumacher SE, Cleary JP, Yoda A, Sullivan TJ, Hess JM, Gimelbrant AA, Beroukhim R, Lawrence MS, Getz G, Lane AA"
 first_authors: "Dunford A, Weinstock D"
 senior_authors: "Lawrence MS, Getz G, Lane AA"
+corresponding_authors: "Lane AA"
 image: /assets/images/papers/Dunford2017_Fig1.png
 pdf:
 pdflink:
