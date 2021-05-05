@@ -5,10 +5,29 @@ description: "Research papers from the lab"
 group: navigation
 navorder: 3
 ---
+{% include JB/setup %}
 
 <div class="bigspacer"></div>
+<div class="bigtitle text-center">Major Papers</div>
+<div class="bigspacer"></div>
 
-{% include JB/setup %}
+{% assign dir_year = "" %}
+{% assign dir_years = "" | split: ", " %}
+
+{% for paper in site.categories.papers %}
+
+  {% if paper.year != dir_year %}
+    {% assign dir_year = paper.year %}
+    {% assign dir_year_href = "<a href= #" | append: dir_year | append: ">" | append: dir_year | append: "</a>" %}
+    {% assign dir_years = dir_years | push: dir_year_href %}
+  {% endif %}
+{% endfor %}
+{% assign dir_years = dir_years | join: " | " %}
+
+<div class="text-center">
+  {{ dir_years }}
+</div>  
+
 {% assign team_citation_names = "" | split: ", " %}
 {% for team_member in site.categories.team %}
   {% if team_member.citation_names %}
@@ -18,36 +37,44 @@ navorder: 3
 {% endfor %}
 {% assign team_citation_names = team_citation_names | join: ", " %}
 
-<div class="bigspacer"></div> 
-{% assign memberindex = 0 %}
+<div class="bigspacer"></div>
+{% assign year = "" %}
 {% for paper in site.categories.papers %}
-  {% assign memberindex = memberindex | plus: 1 %}
-  {% assign colindex = memberindex | modulo: 3 %}
-  {% if colindex == 1 %} <!-- opening of a new row -->
-    <div class="row">
-  {% endif %}
-
+    {% if paper.year != year %}
+      {% assign year = paper.year %}
+    <div class="anchor"><a name={{ year }}></a></div>
+    <br><br><br>
+    <div class="title">{{ year }}</div>
+    {% endif %}
     {% assign first_authors = paper.first_authors | split: ", " %}
-    {% assign revised_first_authors = "" | split: ", " %}
+    {% assign senior_authors = paper.senior_authors | split: ", " %}
+    {% assign shortened_authors = "" | split: ", " %}
   
     {% for first_author in first_authors %}
       {% if team_citation_names contains first_author %}	      
         {% assign revised_first_author = "<b>" | append: first_author | append: "</b>" %}
-        {% assign revised_first_authors = revised_first_authors | push: revised_first_author %}
+        {% assign shortened_authors = shortened_authors | push: revised_first_author %}
       {% else %}
-        {% assign revised_first_authors = revised_first_authors | push: first_author %}
+        {% assign shortened_authors = shortened_authors | push: first_author %}
       {% endif %}
     {% endfor %}	    
-    {% assign  revised_first_authors  = revised_first_authors | join: ", " %}
-    {% assign shortref = revised_first_authors | append: " et al. " | append: paper.journal | append: " " | append: paper.year %}
+    {% assign shortened_authors = shortened_authors | push: "[...]" %}
+    {% for senior_author in senior_authors %}
+      {% if team_citation_names contains senior_author %}	      
+        {% assign revised_senior_author = "<b>" | append: senior_author | append: "</b>" %}
+        {% assign shortened_authors = shortened_authors | push: revised_senior_author %}
+      {% else %}
+        {% assign shortened_authors = shortened_authors | push: senior_author %}
+      {% endif %}
+    {% endfor %}	    
+    {% assign  shortened_authors  = shortened_authors | join: ", " %}
+    {% assign shortref = shortened_authors | append: " " | append: paper.journal | append: " " | append: paper.year %}
 
-    <div class="col-md-4 paperbox">
       {% if paper.embargo %}
       <div class="media">
-          <img width=100 class="media-object pull-right" src="{{ paper.image }}"/>
+          <img width=100 class="media-object pull-left" src="{{ paper.image }}"/>
           <div class="media-body">
             <div class="smallhead media-heading">
-            {{ paper.title }}
             </div>
             <p class="note">{{ paper.shortref }}</p>
           </div>
@@ -61,34 +88,39 @@ navorder: 3
             <div class="smallhead media-heading">
             <a href="{{ paper.url }}" class="off">PREPRINT: {{ paper.title }}</a>
             </div>
-            <p class="note">{{ paper.shortref }}</p>
+            <p class="note">
+	      {{ shortened_authors }}
+            </p>
+
         </div>
       </div>
       {% else %}
       <div class="media">
-        <a class="pull-right" href="{{ paper.url }}">
-          {% if paper.image %}
-          <img width=100 class="media-object" src="{{ paper.image }}">
-          {% endif %}
-        </a>
         <div class="media-body">
             <div class="smallhead media-heading">
-            <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+            <div class="text-primary">
+            <a href="{{ paper.url }}" class="off"><em>{{ paper.title }}</em></a>
+            </div>
             </div>
             <p class="note">
-	      {{ shortref }}
+	      {{ shortened_authors }}<br>
+	      <span class="journal">
+		{{ paper.journal }}
+	      </span>
+	      {% if paper.volume %}
+	      {{ paper.volume }}
+	      {% endif %}
+	      {% if paper.issue %}
+	      ({{ paper.issue }})
+	      {% endif %}
+	      {% if paper.pages %}
+	        {{ paper.pages }} 
+	      {% endif %}
+	      ({{ paper.year }}).
             </p>
         </div>
       </div>
       {% endif %}
-    </div>
-  {% if colindex == 0 %} <!-- closing a row -->
-  </div><div class="bigspacer"></div>
-  {% endif %}
 {% endfor %}
-{% if colindex != 0 %} <!-- close last open row -->
-</div><div class="bigspacer"></div>
-{% endif %}
-
 
 <div class="bigspacer"></div>
