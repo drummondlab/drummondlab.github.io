@@ -43,7 +43,7 @@ navorder: 3
     {% if paper.year != year %}
       {% assign year = paper.year %}
     <div class="anchor"><a name={{ year }}></a></div>
-    <br><br><br>
+    <br><br>
     <div class="title">{{ year }}</div>
     {% endif %}
     {% assign first_authors = paper.first_authors | split: ", " %}
