@@ -9,11 +9,14 @@ volume: 4
 issue: 11
 pages: 1326-41
 authors: "Crompton BD, Stewart C, Taylor-Weiner A, Alexe G, Kurek KC, Calicchio ML, Kiezun A, Carter SL, Shukla SA, Mehta SS, Thorner AR, de Torres C, Lavarino C, Suñol M, McKenna A, Sivachenko A, Cibulskis K, Lawrence MS, Stojanov P, Rosenberg M, Ambrogio L, Auclair D, Seepo S, Blumenstiel B, DeFelice M, Imaz-Rosshandler I, Schwarz-Cruz Y Celis A, Rivera MN, Rodriguez-Galindo C, Fleming MD, Golub TR, Getz G, Mora J, Stegmaier K"
+first_authors: "Crompton BD, Stewart C"
+senior_authors: "Getz G, Mora J, Stegmaier K"
+corresponding_authors: "Stegmaier K"
 image: /assets/images/papers/Crompton2014_Fig1.png
 pdf:
-pdfLink: https://cancerdiscovery.aacrjournals.org/content/4/11/1326.long
+pdfLink: https://cancerdiscovery.aacrjournals.org/content/candisc/4/11/1326.full.pdf
 doi: 10.1158/2159-8290.CD-13-1037
-PMID: 25186949
+pmid: 25186949
 category: paper
 published: true
 peerreview: true

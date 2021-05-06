@@ -9,6 +9,9 @@ volume: 164
 issue: 3
 pages: 538-549
 authors: "Haradhvala NJ, Polak P, Stojanov P, Covington KR, Shinbrot E, Hess JM, Rheinbay E, Kim J, Maruvka YE, Braunstein LZ, Kamburov A, Hanawalt PC, Wheeler DA, Koren A, Lawrence MS, Getz G"
+first_authors: "Haradhvala NJ, Polak P"
+senior_authors: "Lawrence MS, Getz G"
+corresponding_authors: "Lawrence MS, Getz G"
 image: /assets/images/papers/Haradhvala2016_Abstract.png
 pdf:
 pdfLink: https://www.cell.com/cell/fulltext/S0092-8674(15)01714-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867415017146%3Fshowall%3Dtrue

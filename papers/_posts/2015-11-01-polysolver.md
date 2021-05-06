@@ -9,6 +9,9 @@ volume: 33
 issue: 11
 pages: 1152-1158
 authors: "Shukla SA, Rooney MS, Rajasagi M, Tiao G, Dixon PM, Lawrence MS, Stevens J, Lane WJ, Dellagatta JL, Steelman S, Sougnez C, Cibulskis K, Kiezun A, Hacohen N, Brusic V, Wu CJ, Getz G"
+first_authors: "Shukla SA"
+senior_authors: "Wu CG, Getz G"
+corresponding_authors: "Wu CG, Getz G"
 image: /assets/images/papers/Shukla2015_Fig1.png
 pdf:
 pdfLink: https://www.nature.com/articles/nbt.3344

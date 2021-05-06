@@ -9,6 +9,9 @@ volume: 5
 issue: 11
 pages: 1164-1177
 authors: "Brastianos PK, Carter SL, Santagata S, Cahill DP, Taylor-Weiner A, Jones RT, Van Allen EM, Lawrence MS, Horowitz PM, Cibulskis K, Ligon KL, Tabernero J, Seoane J, Martinez-Saez E, Curry WT, Dunn IF, Paek SH, Park SH, McKenna A, Chevalier A, Rosenberg M, Barker FG 2nd, Gill CM, Van Hummelen P, Thorner AR, Johnson BE, Hoang MP, Choueiri TK, Signoretti S, Sougnez C, Rabin MS, Lin NU, Winer EP, Stemmer-Rachamimov A, Meyerson M, Garraway L, Gabriel S, Lander ES, Beroukhim R, Batchelor TT, Baselga J, Louis DN, Getz G, Hahn WC"
+first_authors:  "Brastianos PK, Carter SL"
+senior_authors: "Getz G, Hahn WC"
+corresponding_authors: "Brastianos PK, Hahn WC, Carter SL, Getz G"
 image: /assets/images/papers/Brastianos2015_Fig1.png
 pdf:
 pdfLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4916970/

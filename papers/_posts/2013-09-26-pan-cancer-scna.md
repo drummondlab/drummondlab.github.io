@@ -9,6 +9,9 @@ volume: 45
 issue: 10
 pages: 1134-40
 authors: "Zack TI, Schumacher SE, Carter SL, Cherniack AD, Saksena G, Tabak B, Lawrence MS, Zhsng CZ, Wala J, Mermel CH, Sougnez C, Gabriel SB, Hernandez B, Shen H, Laird PW, Getz G, Meyerson M, Beroukhim R"
+first_authors: "Zack TI, Schumacher SE"
+senior_authors: "Getz G, Meyerson M, Beroukhim R"
+corresponding_authors: "Beroukhim R"
 image: /assets/images/papers/Zack2013_Fig1.png
 pdf:
 pdflink: https://www.nature.com/articles/ng.2760.pdf

@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Amaro Taylor-Weiner
-citation_names: "Taylor-Weiner A"
+citation_names: "Taylor-Weiner A, Taylor-Weiner AN"
 category: Graduate Student
 position: PhD Student, Harvard Medical School
 email:

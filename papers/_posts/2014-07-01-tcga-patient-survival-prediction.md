@@ -9,6 +9,9 @@ volume: 32
 issue: 7
 pages: 644-52
 authors: "Yuan Y, Van Allen EM, Omberg L, Wagle N, Amin-Mansour A, Sokolov A, Byers LA, Xu Y, Hess KR, Diao L, Han L, Huang X, Lawrence MS, Weinstein JN, Stuart JM, Mills GB, Garraway LA, Margolin AA, Getz G, Liang H"
+first_authors: "Yuan Y, Van Allen EM, Omberg L"
+senior_authors: "Garraway LA, Margolin AA, Getz G, Liang H"
+corresponding_authors: "Margolin AA, Getz G, Liang H"
 image: /assets/images/papers/Yuan2014_Fig1.png
 pdf:
 pdfLink: https://www.nature.com/articles/nbt.2940

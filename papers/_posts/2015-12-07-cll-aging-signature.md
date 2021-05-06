@@ -9,6 +9,9 @@ volume: 6
 issue:
 pages:
 authors: "Kasar S, Kim J, Improgo R, Tiao G, Polak P, Haradhvala N, Lawrence MS, Kiezun A, Fernandes SM, Bahl S, Sougnez C, Gabriel S, Lander ES, Kim HT, Getz G, Brown JR"
+first_authors: "Kasar S, Kim J"
+senior_authors: "Getz G, Brown JR"
+corresponding_authors: "Getz G, Brown JR"
 image: /assets/images/papers/Kasar2015_Fig4.png
 pdf:
 pdfLink: https://www.nature.com/articles/ncomms9866

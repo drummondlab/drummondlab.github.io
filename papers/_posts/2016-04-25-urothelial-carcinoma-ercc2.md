@@ -9,6 +9,9 @@ volume: 48
 issue: 6
 pages: 600-606
 authors: "Kim J, Mouw KW, Polak P, Braunstein LZ, Kamburov A, Kwiatkowski DJ, Rosenberg JE, Van Allen EM, D'Andrea A, Getz G"
+first_authors: "Kim J, Mouw KW, Polak P"
+senior_authors: "Getz G"
+corresponding_authors: "Getz G"
 image: /assets/images/papers/Kim2016_Fig1.png
 pdf:
 pdflink:

@@ -9,6 +9,9 @@ volume: 111
 issue: 51
 pages: E5564-73
 authors: "Perry JA, Kiezun A, Tonzi P, Van Allen EM, Carter SL, Baca SC, Cowley GS, Bhatt AS, Rheinbay E, Pedamallu CS, Helman E, Taylor-Weiner A, McKenna A, DeLuca DS, Lawrence MS, Ambrogio L, Sougnez C, Sivachenko A, Walensky LD, Wagle N, Mora J, de Torres C, Lavarino C, Dos Santos Aguiar S, Yunes JA, Brandalise SR, Mercado-Celis GE, Melendez-Zajgla J, Cárdenas-Cardós R, Velasco-Hidalgo L, Roberts CW, Garraway LA, Rodriguez-Galindo C, Gabriel SB, Lander ES, Golub TR, Orkin SH, Getz G, Janeway KA"
+first_authors: "Perry JA, Kiezun A"
+senior_authors: "Getz G, Janeway KA"
+corresponding_authors: "Orkin SH, Getz G, Janeway KA"
 image: /assets/images/papers/Perry2014_Fig1.png
 pdf:
 pdfLink: https://www.pnas.org/content/111/51/E5564.long
