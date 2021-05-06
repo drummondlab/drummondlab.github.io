@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Benny Zhitomirsky
+citation_names: "Zhitomirsky B"
 category: Postdoctoral Researcher
 position: Postdoctoral Associate
 email: bzhitomi@broadinstitute.org

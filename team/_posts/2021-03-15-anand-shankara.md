@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Shankara Anand
+citation_names: "Anand S"
 category: Associate
 position: Associate Computational Biologist
 email: sanand@broadinstitute.org

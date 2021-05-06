@@ -9,6 +9,9 @@ volume: 526
 issue: 7574
 pages: 525-530
 authors: "Landau DA, Tausch E, Taylor-Weiner AN, Stewart C, Reiter JG, Bahlo J, Kluth S, Bozic I, Lawrence M, Böttcher S, Carter SL, Cibulskis K, Mertens D, Sougnez CL, Rosenberg M, Hess JM, Edelmann J, Kless S, Kneba M, Ritgen M, Fink A, Fischer K, Gabriel S, Lander ES, Nowak MA, Döhner H, Hallek M, Neuberg D, Getz G, Stilgenbauer S, Wu CJ"
+first_authors:  "Landau DA, Tausch E, Taylor-Weiner AN"
+senior_authors: "Hallek M, Neuberg D, Getz G, Stilgenbauer S, Wu CJ"
+corresponding_authors: "Getz G, Stilgenbauer S, Wu CJ"
 image: /assets/images/papers/Landau2015_Fig1.png
 pdf:
 pdflink:

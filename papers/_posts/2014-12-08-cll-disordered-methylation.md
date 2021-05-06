@@ -9,6 +9,9 @@ volume: 26
 issue: 6
 pages: 813-825
 authors: "Landau DA, Clement K, Ziller MJ, Boyle P, Fan J, Gu H, Stevenson K, Sougnez C, Wang L, Li S, Kotliar D, Zhang W, Ghandi M, Garraway L, Fernandes SM, Livak KJ, Gabriel S, Gnirke A, Lander ES, Brown JR, Neuberg D, Kharchenko PV, Hacohen N, Getz G, Meissner A, Wu CJ"
+first_authors: "Landau DA, Clement K"
+senior_authors: "Getz G, Meissner A, Wu CJ"
+corresponding_authors: "Meissner A, Wu CJ"
 image: /assets/images/papers/Landau2014_Abstract.png
 pdf:
 pdflink: https://www.cell.com/action/showPdf?pii=S1535-6108%2814%2900416-4

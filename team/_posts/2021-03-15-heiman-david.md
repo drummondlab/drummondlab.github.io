@@ -2,6 +2,7 @@
 layout: member
 title: David Heiman
 category: Staff Engineer
+citation_names: "Heiman DI, Heiman D"
 position: Senior Software Engineer
 email: dheiman@broadinstitute.org
 github: dheiman

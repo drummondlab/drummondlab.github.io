@@ -9,6 +9,9 @@ volume: 20
 issue: 6
 pages: 682-8
 authors: "Van Allen EM, Wagle N, Stojanov P, Perrin DL, Cibulskis K, Marlow S, Jane-Valbuena J, Friedrich DC, Kryukov G, Carter SL, McKenna A, Sivachenko A, Rosenberg M, Kiezun A, Voet D, Lawrence M, Lichtenstein LT, Gentry JG, Huang FW, Fostel J, Farlow D, Barbie D, Gandhi L, Lander ES, Gray SW, Joffe S, Janne P, Garber J, MacConaill L, Lindeman N, Rollins B, Kantoff P, Fisher SA, Gabriel S, Getz G, Garraway LA"
+first_authors: "Van Allen EM, Wagle N"
+senior_authors: "Gabriel S, Getz G, Garraway LA"
+corresponding_authors: "Getz G, Garraway LA"
 image: /assets/images/papers/VanAllen2014_Fig1.png
 pdf:
 pdfLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4048335/

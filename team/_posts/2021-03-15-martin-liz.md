@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Liz Martin
+citation_names: "Martin EE"
 category: Associate
 position: Associate Computational Biologist II
 email: lmartin@broadinstitute.org

@@ -9,6 +9,8 @@ volume: 36
 issue: 4
 pages: E2423-9
 authors: "Ramos AH, Lichtenstein L, Gupta M, Lawrence MS, Pugh TJ, Saksena G, Meyerson M, Getz G"
+first_authors: "Ramos AH"
+senior_authors: "Meyerson M, Getz G"
 image: /assets/images/papers/default-paper.png
 pdf:
 pdflink:

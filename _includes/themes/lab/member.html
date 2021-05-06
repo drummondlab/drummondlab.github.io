@@ -111,55 +111,99 @@
 		<div class="post">
 			{{ content }}
 		</div>
-		
-		{% assign lastname = member.title | split: ' ' | last %}
-		{% for paper in site.categories.papers %}
-			{% if paper.authors contains lastname %}
-				{% assign papersq = true %}
-			{% endif %}
-		{% endfor %}
 
-		{% if papersq == true %}
+		
+                {% assign lastname = member.title | split: ' ' | last %}
+
+                {% assign papersq = false %}
+                {% for paper in site.categories.papers %}
+		  {% assign  member_citation_names = member.citation_names | split: ', ' %}
+                  {% for citation_name in member_citation_names %}
+                      {% if paper.authors contains citation_name %}
+		        {% assign papersq = true %}
+                      {% endif %}
+                  {% endfor %}
+                {% endfor %}
+
+		{% if papersq %}
+		
                   {% assign team_citation_names = "" | split: ", " %}
                   {% for team_member in site.categories.team %}
                     {% if team_member.citation_names %}
-                      {% assign member_citation_names = team_member.citation_names | split: ", " %}
+                      {% assign team_citation_names = team_member.citation_names | split: ", " %}
                       {% assign team_citation_names = team_citation_names | concat: member_citation_names %}
                     {% endif %}
                   {% endfor %}
                   {% assign team_citation_names = team_citation_names | join: ", " %}
 
-			<div class="bigspacer"></div>
-			<div class="head">Lab Papers</div>
-			<div class="spacer"></div>
-			<ul>
-			{% for paper in site.categories.papers %}
-				{% if paper.authors contains lastname %}
-                                  {% assign first_authors = paper.first_authors | split: ", " %}
-                                  {% assign revised_first_authors = "" | split: ", " %}
-                                  {% for first_author in first_authors %}
-                                    {% if team_citation_names contains first_author %}        
-                                      {% assign revised_first_author = "<b>" | append: first_author | append: "</b>" %}
-                                      {% assign revised_first_authors = revised_first_authors | push: revised_first_author %}
-                                    {% else %}
-                                      {% assign revised_first_authors = revised_first_authors | push: first_author %}
-                                    {% endif %}
-                                  {% endfor %}      
-                                  {% assign  revised_first_authors  = revised_first_authors | join: ", " %}
-                                  {% assign shortref = revised_first_authors | append: " et al. " | append: paper.journal | append: " " | append: paper.year %}
+		  <div class="bigspacer"></div>
+		  <div class="head">Lab Papers</div>
+		  <div class="spacer"></div>
+		  <ul>
+		    {% for paper in site.categories.papers %}
+		      {% for citation_name in member_citation_names %}
+		        {% if paper.authors contains citation_name %}
+                          <li>
+ 
+ 		            {% assign first_authors = paper.first_authors | split: ", " %}
+		            {% assign senior_authors = paper.senior_authors | split: ", " %}
+		            {% assign shortened_authors = "" | split: ", " %}
 
-                                        <li>
-					{% if paper.embargo %}
-					<p>{{ paper.title }}
-					{% else %}
-					<p><a href="{{ paper.url }}" class="off"><i>{{ paper.title }}</i></a>, {{ shortref }}
-					{% endif %}
-					</li>  
-				{% endif %}
-			{% endfor %}
-                        </ul>
-		{% endif %}		
-		
+		            {% for first_author in first_authors %}
+		              {% if team_citation_names contains first_author %}	      
+		                {% assign revised_first_author = "<b>" | append: first_author | append: "</b>" %}
+		                {% assign shortened_authors = shortened_authors | push: revised_first_author %}
+		              {% else %}
+		                {% assign shortened_authors = shortened_authors | push: first_author %}
+		              {% endif %}
+		            {% endfor %}	    
+		          
+			    {% assign shortened_authors = shortened_authors | push: "[...]" %}
+		            {% for senior_author in senior_authors %}
+		              {% if team_citation_names contains senior_author %}	      
+		                {% assign revised_senior_author = "<b>" | append: senior_author | append: "</b>" %}
+		                {% assign shortened_authors = shortened_authors | push: revised_senior_author %}
+		              {% else %}
+	 	                {% assign shortened_authors = shortened_authors | push: senior_author %}
+		              {% endif %}
+		            {% endfor %}	    
+			    
+		          {% assign  shortened_authors  = shortened_authors | join: ", " %}
+		          {% assign shortref = shortened_authors | append: " " | append: paper.journal | append: " " | append: paper.year %}
+
+		          {% if paper.embargo %}
+		            <p>{{ paper.title }}</p>
+		          {% else %}
+                            <div class="smallhead media-heading">
+		  	      <div class="text-primary">
+				<a href="{{ paper.url }}" class="off"><em>{{ paper.title }}</em></a>
+			      </div>
+			    </div>
+			    <p class="note">
+			      {{ shortened_authors }}<br>
+			      <span class="journal">
+				{{ paper.journal }}
+			      </span>
+			      {% if paper.volume %}
+			      {{ paper.volume }}
+			      {% endif %}
+			      {% if paper.issue %}
+			      ({{ paper.issue }})
+			      {% endif %}
+			      {% if paper.pages %}
+			      {{ paper.pages }} 
+			      {% endif %}
+			      ({{ paper.year }}).
+			    </p>
+    		          {% endif %}
+		        </li>
+                        {% break %}
+                      {% endif %}
+ 		    {% endfor %}
+                   {% endfor %}
+                   </ul>
+		  {% endif %}
+		  
 		{% for post in site.categories.blog %}
 			{% if member.handle == post.author_handle %}
 				{% assign postsq = true %}
