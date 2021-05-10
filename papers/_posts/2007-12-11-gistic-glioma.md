@@ -9,6 +9,9 @@ volume: 104
 issue: 50
 pages: 20007-12
 authors: "Beroukhim R, Getz G, Nghiemphu L, Barretina J, Hsueh T, Linhart D, Vivanco I, Lee JC, Huang JH, Alexander S, Du J, Kau T, Thomas RK, Shah K, Soto H, Perner S, Prensner J, Debiasi RM, Demichelis F, Hatton C, Rubin MA, Garraway LA, Nelson SF, Liau L, Mischel PS, Cloughesy TF, Meyerson M, Golub TA, Lander ES, Mellinghoff IK, Sellers WR"
+first_authors: "Beroukhim R, Getz G"
+senior_authors: "Lander ES, Mellinghoff IK, Sellers WR"
+corresponding_authors: "Lander ES, Mellinghoff IK, Sellers WR"
 image: /assets/images/papers/Beroukhim2007_Fig1.png
 pdf:
 pdflink: https://www.pnas.org/content/pnas/104/50/20007.full.pdf

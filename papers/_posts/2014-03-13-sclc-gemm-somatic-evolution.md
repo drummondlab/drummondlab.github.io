@@ -9,6 +9,9 @@ volume: 156
 issue: 6
 pages: 1298-1311
 authors: "McFadden DG, Papagiannakopoulos T, Taylor-Weiner A, Stewart C, Carter SL, Cibulskis K, Bhutkar A, McKenna A, Dooley A, Vernon A, Sougnez C, Malstrom S, Heimann M, Park J, Chen F, Farago AF, Dayton T, Shefler E, Gabriel S, Getz G, Jacks T"
+first_authors:  "McFadden DG, Papagiannakopoulos T, Taylor-Weiner A, Stewart C, Carter SL"
+senior_authors: "Getz G, Jacks T"
+corresponding_authors: "Getz G, Jacks T"
 image: /assets/images/papers/McFadden2014_Abstract.png
 pdf:
 pdflink: https://www.cell.com/action/showPdf?pii=S0092-8674%2814%2900230-X

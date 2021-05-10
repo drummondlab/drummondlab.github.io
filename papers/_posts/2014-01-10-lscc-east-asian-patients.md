@@ -9,6 +9,9 @@ volume: 32
 issue: 2
 pages: 121-8
 authors: "Kim Y, Hammerman PS, Kim J, Yoon JA, Lee Y, Sun JM, Wilkerson MD, Pedamallu CS, Cibulskis K, Yoo YK, Lawrence MS, Stojanov P, Carter SL, McKenna A, Stewart C, Sivachenko AY, Oh IJ, Kim HK, Choi YS, Kim K, Shim YM, Kim KS, Song SY, Na KJ, Choi YL, Hayes DN, Kim J, Cho S, Kim YC, Ahn JS, Ahn MJ, Getz G, Meyerson M, Park K"
+first_authors: "Kim Y, Hammerman PS, Kim J"
+senior_authors: "Getz G, Meyerson M, Park K"
+corresponding_authors: "Park K"
 image: /assets/images/papers/Kim2014_Fig1.png
 pdf:
 pdflink: https://ascopubs.org/doi/10.1200/JCO.2013.50.8556?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed

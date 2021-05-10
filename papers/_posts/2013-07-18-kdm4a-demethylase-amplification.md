@@ -8,7 +8,11 @@ journal: "Cell"
 volume: 154
 issue: 3
 pages: 541-55
-authors: "Black JC, Manning AL, Van Rechem C, Kim J, Ladd B, Cho J, Pineda CM, Murphy N, Daniels DL, Montagna C, Lewis PW, Glass K, Allis CD, Dyson NJ, Getz G, Whetstine JR"
+authors: "Black JC, Manning AL, Van Rechem C, Kim J, Ladd B, Cho J, Pineda CM, Murphy N, Daniels DL, Montagna C, Lewis PW, Glass K, Allis CD, Dyson NJ,
+ Getz G, Whetstine JR"
+first_authors: "Black JC, Manning AL, Van Rechem C, Kim J"
+senior_authors: "Getz G, Whetstine JR"
+corresponding_authors: "Getz G, Whetstine JR"
 image: /assets/images/papers/Black2013_Fig1.png
 pdf:
 pdflink: https://www.cell.com/action/showPdf?pii=S0092-8674%2813%2900833-7

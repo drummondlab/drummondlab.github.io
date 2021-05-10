@@ -9,6 +9,9 @@ volume: 46
 issue: 2
 pages: 161-5
 authors: "Brastianos PK, Taylor-Weiner A, Manley PE, Jones RT, Dias-Santagata D, Thorner AR, Lawrence MS, Rodriguez FJ, Bernardo LA, Schubert L, Sunkavalli A, Shillingford N, Calicchio ML, Lidov HG, Taha H, Martinez-Lage M, Santi M, Storm PB, Lee JY, Palmer JN, Adappa ND, Scott RM, Dunn IF, Laws ER Jr, Stewart C, Ligon KL, Hoang MP, Van Hummelen P, Hahn WC, Louis DN, Resnick AC, Kieran MW, Getz G, Santagata S"
+first_authors: "Brastianos PK, Taylor-Weiner A, Manley PE"
+senior_authors: "Kieran MW, Getz G, Santagata S"
+corresponding_authors: "Brastianos PK, Getz G, Santagata S"
 image: /assets/images/papers/Brastianos2014_Fig2.png
 pdf:
 pdflink:

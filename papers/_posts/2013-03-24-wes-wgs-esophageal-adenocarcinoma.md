@@ -9,6 +9,9 @@ volume: 45
 issue: 5
 pages: 478-86
 authors: "Dulak AM, Stojanov P, Peng S, Lawrence MS, Fox C, Stewart C, Bandla S, Imamura Y, Schumacher SE, Shefler E, McKenna A, Carter SL, Cibulskis K, Sivachenko A, Saksena G, Voet D, Ramos AH, Auclair D, Thompson K, Sougnez C, Onofrio RC, Guiducci C, Beroukhim R, Zhou Z, Lin L, Lin J, Reddy R, Chang A, Landrenau R, Pennathur A, Ogino S, Luketich JD, Golub TR, Gabriel SB, Lander ES, Beer DG, Godfrey TE, Getz G, Bass AJ"
+first_authors: "Dulak AM, Stojanov P"
+senior_authors: "Getz G, Bass AJ"
+corresponding_authors: "Getz G, Bass AJ"
 image: /assets/images/papers/Dulak2013_Fig5.png
 pdf:
 pdflink:

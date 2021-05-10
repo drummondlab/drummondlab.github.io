@@ -9,6 +9,9 @@ volume: 11
 issue: 10
 pages: 685-96
 authors: "Meyerson M, Gabriel S, Getz G"
+first_authors: "Meyerson M, Gabriel S, Getz G"
+senior_authors: "Meyerson M, Gabriel S, Getz G"
+corresponding_authors: "Meyerson M"
 image: /assets/images/papers/Getz2010_Fig3.png
 pdf:
 pdflink:

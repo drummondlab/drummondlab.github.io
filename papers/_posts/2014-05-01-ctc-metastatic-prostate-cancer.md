@@ -9,6 +9,9 @@ volume: 32
 issue: 5
 pages: 479-84
 authors: "Lohr JG, Adalsteinsson VA, Cibulskis K, Choudhury AD, Rosenberg M, Cruz-Gordillo P, Francis JM, Zhang CZ, Shalek AK, Satija R, Trombetta JJ, Lu D, Tallapragada N, Tahirova N, Kim S, Blumenstiel B, Sougnez C, Lowe A, Wong B, Auclair D, Van Allen EM, Nakabayashi M, Lis RT, Lee GS, Li T, Chabot MS, Ly A, Taplin ME, Clancy TE, Loda M, Regev A, Meyerson M, Hahn WC, Kantoff PW, Golub TR, Getz G, Boehm JS, Love JC"
+first_authors: "Lohr JG, Adalsteinsson VA, Cibulskis K"
+senior_authors:  "Getz G, Boehm JS, Love JC"
+corresponding_authors: "Getz G, Boehm JS, Love JC"
 image: /assets/images/papers/Lohr2014_Fig1.png
 pdf:
 pdfLink:

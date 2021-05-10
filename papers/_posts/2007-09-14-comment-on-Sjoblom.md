@@ -9,6 +9,9 @@ volume: 450
 issue: 7171
 pages: 893-8
 authors: "Getz G, Höfling H, Mesirov JP, Golub TR, Meyerson M, Tibshirani R, Lander ES"
+first_authors: "Getz G, Höfling H"
+senior_authors: "Lander ES"
+corresponding_authors: "Getz G"
 image: /assets/images/papers/default-paper.svg
 pdf:
 pdflink: https://www.nature.com/articles/nature06358.pdf

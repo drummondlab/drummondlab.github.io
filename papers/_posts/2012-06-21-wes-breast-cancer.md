@@ -9,6 +9,9 @@ volume: 486
 issue: 7403
 pages: 405-9
 authors: "Banerji S, Cibulskis K, Rangel-Escareno C, Brown KK, Carter SL, Frederick AM, Lawrence MS, Sivachenko AY, Sougnez C, Zou L, Cortes ML, Fernandez-Lopez JC, Peng S, Ardlie KG, Auclair D, Bautista-Piña V, Duke F, Francis J, Jung J, Maffuz-Aziz A, Onofrio RC, Parkin M, Pho NH, Quintanar-Jurado V, Ramos AH, Rebollar-Vega R, Rodriguez-Cuevas S, Romero-Cordoba SL, Schumacher SE, Stransky N, Thompson KM, Uribe-Figueroa L, Baselga J, Beroukhim R, Polyak K, Sgroi DC, Richardson AL, Jimenez-Sanchez G, Lander ES, Gabriel SB, Garraway LA, Golub TR, Melendez-Zajgla J, Toker A, Getz G, Hidalgo-Miranda A, Meyerson M"
+first_authors: "Banerji S, Cibulskis K, Rangel-Escareno C"
+senior_authors: "Toker A, Getz G, Hidalgo-Miranda A, Meyerson M"
+corresponding_authors: "Toker A, Getz G, Hidalgo-Miranda A, Meyerson M"
 image: /assets/images/papers/Banerji2012_Fig1.png
 pdf:
 pdflink: https://www.nature.com/articles/nature11154.pdf

@@ -9,6 +9,9 @@ volume: 43
 issue: 10
 pages: 964-968
 authors: "Bass AJ, Lawrence MS, Brace LE, Ramos AH, Drier Y, Cibulskis K, Sougnez C, Voet D, Saksena G, Sivachenko A, Jing R, Parkin M, Pugh T, Verhaak RG, Stransky N, Boutin AT, Barretina J, Solit DB, Vakiani E, Shao W, Mishina Y, Warmuth M, Jimenez J, Chiang DY, Signoretti S, Kaelin WG Jr, Spardy N, Hahn WC, Hoshida Y, Ogino S, DePinho RA, Chin L, Garraway LA, Fuchs CS, Baselga J, Tabernero J, Gabriel S, Lander ES, Getz G, Meyerson M"
+first_authors: "Bass AJ, Lawrence MS"
+senior_authors: "Getz G, Meyerson M"
+corresponding_authors: "Getz G, Meyerson M"
 image: /assets/images/papers/Bass2011_Fig1.png
 pdf:
 pdflink:

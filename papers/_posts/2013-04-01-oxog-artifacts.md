@@ -9,6 +9,9 @@ volume: 41
 issue: 6
 pages: e67
 authors: "Costello M, Pugh TJ, Fennell TJ, Stewart C, Lichtenstein L, Meldrim JC, Fostel JL, Friedrich DC, Perrin D, Dionne D, Kim S, Gabriel SB, Lander ES, Fisher S, Getz G"
+first_authors: "Costello M"
+senior_authors: "Getz G"
+corresponding_authors: "Costello M"
 image: /assets/images/papers/Costello2013_Fig1.png
 pdf:
 pdflink:

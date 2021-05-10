@@ -9,6 +9,9 @@ volume: 152
 issue: 4
 pages: 714-26
 authors: "Landau DA, Carter SL, Stojanov P, McKenna A, Stevenson K, Lawrence MS, Sougnez C, Stewart C, Sivachenko A, Wang L, Wan Y, Zhang W, Shukla SA, Vartanov A, Fernandes SM, Saksena G, Cibulskis K, Tesar B, Gabriel S, Hacohen N, Meyerson M, Lander ES, Neuberg D, Brown JR, Getz G, Wu CJ"
+first_authors: "Landau DA, Carter SL, Stojanov P"
+senior_authors: "Getz G, Wu CJ"
+corresponding_authors: "Getz G, Wu CJ"
 image: /assets/images/papers/Landau2013_Fig4.png
 pdf:
 pdflink: https://www.cell.com/action/showPdf?pii=S0092-8674%2813%2900071-8

@@ -9,6 +9,9 @@ volume: 485
 issue: 7399
 pages: 502-6
 authors: "Berger MF, Hodis E, Heffernan TP, Deribe YL, Lawrence MS, Protopopov A, Ivanova E, Watson IR, Nickerson E, Ghosh P, Zhang H, Zeid R, Ren X, Cibulskis K, Sivachenko AY, Wagle N, Sucker A, Sougnez C, Onofrio R, Ambrogio L, Auclair D, Fennell T, Carter SL, Drier Y, Stojanov P, Singer MA, Voet D, Jing R, Saksena G, Barretina J, Ramos AH, Pugh TJ, Stransky N, Parkin M, Winckler W, Mahan S, Ardlie K, Baldwin J, Wargo J, Schadendorf D, Meyerson M, Gabriel SB, Golub TR, Wagner SN, Lander ES, Getz G, Chin L, Garraway LA"
+first_authors: "Berger MF, Hodis E, Heffernan TP, Deribe YL"
+senior_authors: "Lander ES, Getz G, Chin L, Garraway LA"
+corresponding_authors: "Chin L, Garraway LA"
 image: /assets/images/papers/Berger2012_Fig3.png
 pdf:
 pdflink: https://www.nature.com/articles/nature11071.pdf

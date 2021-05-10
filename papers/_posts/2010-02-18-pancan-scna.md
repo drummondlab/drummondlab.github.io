@@ -9,6 +9,9 @@ volume: 463
 issue: 7283
 pages: 899-905
 authors: "Beroukhim R, Mermel CH, Porter D, Wei G, Raychaudhuri S, Donovan J, Barretina J, Boehm JS, Dobson J, Urashima M, Mc Henry KT, Pinchback RM, Ligon AH, Cho YJ, Haery L, Greulich H, Reich M, Winckler W, Lawrence MS, Weir BA, Tanaka KE, Chiang DY, Bass AJ, Loo A, Hoffman C, Prensner J, Liefeld T, Gao Q, Yecies D, Signoretti S, Maher E, Kaye FJ, Sasaki H, Tepper JE, Fletcher JA, Tabernero J, Baselga J, Tsao MS, Demichelis F, Rubin MA, Janne PA, Daly MJ, Nucera C, Levine RL, Ebert BL, Gabriel S, Rustgi AK, Antonescu CR, Ladanyi M, Letai A, Garraway LA, Loda M, Beer DG, True LD, Okamoto A, Pomeroy SL, Singer S, Golub TR, Lander ES, Getz G, Sellers WR, Meyerson M"
+first_authors: "Beroukhim R, Mermel CH"
+senior_authors: "Lander ES, Getz G, Sellers WR, Meyerson M"
+corresponding_authors: "Lander ES, Getz G, Sellers WR, Meyerson M"
 image: /assets/images/papers/Beroukhim2010_Fig1.png
 doi: 10.1038/nature08822
 pmid: 20164920

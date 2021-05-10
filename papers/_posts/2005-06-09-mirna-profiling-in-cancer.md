@@ -2,13 +2,16 @@
 layout: paper
 title: "MicroRNA expression profiles classify human cancers"
 year: "2005"
-shortref: "Getz et al. Nature 2005"
+shortref: "Lu J et al. Nature 2005"
 nickname: mirna-profiling-in-cancer
 journal: "Nature"
 volume: 435
 issue: 7043
 pages: 834-8
 authors: "Lu J, Getz G, Miska EA, Alvarez-Saavedra E, Lamb J, Peck D, Sweet-Cordero A, Ebert BL, Mak RH, Ferrando AA, Downing JR, Jacks T, Horvitz HR, Golub TR"
+first_authors: "Lu JH"
+senior_authors: "Golub TR"
+corresponding_authors: "Golub TR"
 image: /assets/images/papers/default-paper.svg
 pdf:
 pdflink:

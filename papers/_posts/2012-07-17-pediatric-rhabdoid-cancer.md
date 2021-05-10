@@ -9,6 +9,9 @@ volume: 122
 issue: 8
 pages: 2983-8
 authors: "Lee RS, Stewart C, Carter SL, Ambrogio L, Cibulskis K, Sougnez C, Lawrence MS, Auclair D, Mora J, Golub TR, Biegel JA, Getz G, Roberts CW"
+first_authors: "Lee RS, Stewart C"
+senior_authors: "Biegel JA, Getz G, Roberts CW"
+corresponding_authors: "Biegel JA, Getz G, Roberts CW"
 image: /assets/images/papers/Lee2012_Fig2.png
 pdf:
 pdflink: https://www.jci.org/articles/view/64400/pdf

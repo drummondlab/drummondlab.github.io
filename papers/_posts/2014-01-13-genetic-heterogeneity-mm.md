@@ -9,6 +9,9 @@ volume: 25
 issue: 11
 pages: 91-101
 authors: "Lohr JG, Stojanov P, Carter SL, Cruz-Gordillo P, Lawrence MS, Auclair D, Sougnez C, Knoechel B, Gould J, Saksena G, Cibulskis K, McKenna A, Chapman MA, Straussman R, Levy J, Perkins LM, Keats JJ, Schumacher SE, Rosenberg M; Multiple Myeloma Research Consortium, Getz G, Golub TR"
+first_authors:  "Lohr JG, Stojanov P, Carter SL"
+senior_authors: "Getz G, Golub TR"
+corresponding_authors: "Golub TR"
 image: /assets/images/papers/Lohr2014b_Fig1.png
 pdf:
 pdflink: https://www.cell.com/action/showPdf?pii=S1535-6108%2813%2900542-4

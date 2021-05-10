@@ -9,6 +9,9 @@ volume: 44
 issue: 6
 pages: 685-9
 authors: "Barbieri CE, Baca SC, Lawrence MS, Demichelis F, Blattner M, Theurillat JP, White TA, Stojanov P, Van Allen E, Stransky N, Nickerson E, Chae SS, Boysen G, Auclair D, Onofrio RC, Park K, Kitabayashi N, MacDonald TY, Sheikh K, Vuong T, Guiducci C, Cibulskis K, Sivachenko A, Carter SL, Saksena G, Voet D, Hussain WM, Ramos AH, Winckler W, Redman MC, Ardlie K, Tewari AK, Mosquera JM, Rupp N, Wild PJ, Moch H, Morrissey C, Nelson PS, Kantoff PW, Gabriel SB, Golub TR, Meyerson M, Lander ES, Getz G, Rubin MA, Garraway LA"
+first_authors: "Barbieri CE, Baca SC, Lawrence MS"
+senior_authors: "Getz G, Rubin MA, Garraway LA"
+corresponding_authors: "Rubin MA, Garraway LA"
 image: /assets/images/papers/Barbieri2012_Fig1.png
 pdf:
 pdflink: 
