@@ -2,6 +2,7 @@
 Branched from Trevor Bedford's source, https://github.com/blab/blotter/blob/master/_layouts/paper.html
 with gratitude.
 -->
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
 <div class="bigspacer"></div>
 
@@ -39,7 +40,7 @@ with gratitude.
 {% assign  authors  = revised_authors | join: ", " %}
 
 <div class="row">
-	<div class="col-md-3">
+<div class="col-md-3">
 		<div class="media">
 			{% if page.image %}
 			<img class="pull-left pad-right media-object paper-image" src="{{ page.image }}">
@@ -194,15 +195,13 @@ with gratitude.
 			</div>
 			<div class="bigspacer"></div>			
 			{% endif %}
-			{% if page.altmetric_id %}
+
 			<div class="smallhead subtle">
 				Altmetrics
 			</div>	
-			<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-			<div class="altmetric-embed" data-badge-popover="right" data-doi={{ page.doi }} data-badge-type="donut" data-altmetric-id={{ page.altmetric_id }} data-hide-no-mentions="true">
-			</div>
+			<div class='altmetric-embed' data-badge-type='donut' data-badge-popover='right' data-doi={{ page.doi }}></div>
 			<div class="bigspacer"></div>			
-			{% endif %}
+
 			<div class="smallhead subtle">
 				Share
 			</div>

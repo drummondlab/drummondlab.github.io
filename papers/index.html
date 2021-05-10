@@ -7,6 +7,8 @@ navorder: 3
 ---
 {% include JB/setup %}
 
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
 <div class="bigspacer"></div>
 <div class="bigtitle text-center">Major Papers</div>
 <div class="bigspacer"></div>
@@ -42,9 +44,9 @@ navorder: 3
 {% for paper in site.categories.papers %}
     {% if paper.year != year %}
       {% assign year = paper.year %}
-    <div class="anchor"><a name={{ year }}></a></div>
-    <br><br>
-    <div class="title">{{ year }}</div>
+      <div class="anchor"><a name={{ year }}></a></div>
+      <br><br>
+      <div class="title">{{ year }}</div>
     {% endif %}
     {% assign first_authors = paper.first_authors | split: ", " %}
     {% assign senior_authors = paper.senior_authors | split: ", " %}
@@ -70,57 +72,47 @@ navorder: 3
     {% assign  shortened_authors  = shortened_authors | join: ", " %}
     {% assign shortref = shortened_authors | append: " " | append: paper.journal | append: " " | append: paper.year %}
 
-      {% if paper.embargo %}
-      <div class="media">
-          <img width=100 class="media-object pull-left" src="{{ paper.image }}"/>
-          <div class="media-body">
-            <div class="smallhead media-heading">
-            </div>
-            <p class="note">{{ paper.shortref }}</p>
-          </div>
-      </div>
-      {% elsif paper.preprint %}
-      <div class="media">
-        <a class="pull-right" href="{{ paper.url }}">
-          <img width=100 class="media-object" src="{{ paper.image }}">
-        </a>
-        <div class="media-body">
-            <div class="smallhead media-heading">
-            <a href="{{ paper.url }}" class="off">PREPRINT: {{ paper.title }}</a>
-            </div>
-            <p class="note">
-	      {{ shortened_authors }}
-            </p>
+    <div class="media">
+      <div class="media-body">
+
+        <div class="bg-light clearfix">
+
+        <div class="pull-left">
+	  
+        <div class="smallhead media-heading">
+          <div class="text-primary">
+	    <div><a href="{{ paper.url }}" class="off"><em>{{ paper.title }}</em></a></div>
+	  </div>
+        </div>
+        <p class="note">
+	  {{ shortened_authors }}<br>
+	  <span class="journal">
+	    {{ paper.journal }}
+	  </span>
+	  {% if paper.volume %}
+	    {{ paper.volume }}
+	  {% endif %}
+	  {% if paper.issue %}
+	    ({{ paper.issue }})
+	  {% endif %}
+	  {% if paper.pages %}
+	    {{ paper.pages }} 
+	  {% endif %}
+	  ({{ paper.year }}).
+        </p>
 
         </div>
-      </div>
-      {% else %}
-      <div class="media">
-        <div class="media-body">
-            <div class="smallhead media-heading">
-            <div class="text-primary">
-            <a href="{{ paper.url }}" class="off"><em>{{ paper.title }}</em></a>
-            </div>
-            </div>
-            <p class="note">
-	      {{ shortened_authors }}<br>
-	      <span class="journal">
-		{{ paper.journal }}
-	      </span>
-	      {% if paper.volume %}
-	      {{ paper.volume }}
-	      {% endif %}
-	      {% if paper.issue %}
-	      ({{ paper.issue }})
-	      {% endif %}
-	      {% if paper.pages %}
-	        {{ paper.pages }} 
-	      {% endif %}
-	      ({{ paper.year }}).
-            </p>
+
+	<div class="pull-right">
+          <div class='altmetric-embed' data-badge-type='donut' data-badge-popover='right' data-doi={{ paper.doi }}></div>
+	</div>
+
         </div>
+	
       </div>
-      {% endif %}
+    </div>
+
 {% endfor %}
+
 
 <div class="bigspacer"></div>
