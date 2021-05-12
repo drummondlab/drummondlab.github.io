@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: " Distinct mutational signatures characterize concurrent loss of polymerase proofreading and mismatch repair"
+title: "Distinct mutational signatures characterize concurrent loss of polymerase proofreading and mismatch repair"
 year: "2018"
 shortref: "Haradhvala et al. Nature Communications 2018"
 nickname: lof-pole-mmr

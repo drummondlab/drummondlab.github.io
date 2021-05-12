@@ -3,6 +3,7 @@ Branched from Trevor Bedford's source, https://github.com/blab/blotter/blob/mast
 with gratitude.
 -->
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 <div class="bigspacer"></div>
 
@@ -197,9 +198,16 @@ with gratitude.
 			{% endif %}
 
 			<div class="smallhead subtle">
+				Number of Citations (Dimensions)
+			</div>	
+			<div class="__dimensions_badge_embed__" data-doi={{ page.doi }} data-legend="hover-left" data-style="small_circle"></div> 
+			<div class="bigspacer"></div>			
+
+
+			<div class="smallhead subtle">
 				Altmetrics
 			</div>	
-			<div class='altmetric-embed' data-badge-type='donut' data-badge-popover='right' data-doi={{ page.doi }}></div>
+			<div class='altmetric-embed' data-badge-type='donut' data-badge-popover='left' data-doi={{ page.doi }}></div>
 			<div class="bigspacer"></div>			
 
 			<div class="smallhead subtle">

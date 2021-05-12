@@ -8,9 +8,10 @@ navorder: 3
 {% include JB/setup %}
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 <div class="bigspacer"></div>
-<div class="bigtitle text-center">Major Papers</div>
+<div class="bigtitle text-center">Selected Papers</div>
 <div class="bigspacer"></div>
 
 {% assign dir_year = "" %}
@@ -104,7 +105,11 @@ navorder: 3
         </div>
 
 	<div class="pull-right">
-          <div class='altmetric-embed' data-badge-type='donut' data-badge-popover='right' data-doi={{ paper.doi }}></div>
+	    <div class='altmetric-embed' data-badge-type='donut' data-badge-popover="right" data-doi={{ paper.doi }}></div>
+	</div>
+
+	<div class="pull-right">
+	    <div class="__dimensions_badge_embed__" data-doi={{ paper.doi }} data-legend="hover-left" data-style="small_circle"></div> 
 	</div>
 
         </div>
