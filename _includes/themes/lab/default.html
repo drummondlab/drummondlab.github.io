@@ -76,6 +76,8 @@
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
+	  <i>(Under Construction)</i>
+
       <div class="collapse navbar-collapse" id="jb-navbar-collapse">
         <ul class="nav navbar-nav navbar-left hidden-sm">
           <!-- Don't put site title on home page -- there's already a big title there. -->
@@ -86,7 +88,7 @@
             {% endif %}
           {% endfor %}
           {% if make_title == true %}
-          <a class="navbar-brand" href="{{ HOME_PATH }}"><i>(Under Construction)</i> {{ site.title }}</a>
+          <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           {% endif %}
         </ul>
         <ul class="nav navbar-nav navbar-right pull-right">
@@ -130,7 +132,7 @@
         <ul class="nav navbar-nav navbar-left navbar-small">
           <li><img src="{{ ASSET_PATH }}/images/logo/Massachusetts_General_Hospital_logo.svg" type="image/svg+xml"><a href={{ site.inst_mgh.url }}></a></li>
           <li><a href={{ site.dept_mgh_pathology.url }}>{{ site.dept_mgh_pathology.name }}</a></li>
-          <li><a href={{ site.dept_mgh_cancer_center.url }}>{{ site.dept_mgh_cancer_center.name }}</a></li>
+	  <li><a href={{ site.dept_mgh_cancer_center.url }}>{{ site.dept_mgh_cancer_center.name }}</a></li>
           <li><img src="{{ ASSET_PATH }}/images/logo/BroadInstLogoforDigitalRGB_resized.png" type="image/png"><a href={{ site.inst_broad.url }}></a></li>
           <li><a href={{ site.dept_broad_cancer_program.url }}>{{ site.dept_broad_cancer_program.name }}</a></li>
           <li><img src="{{ ASSET_PATH }}/images/logo/harvard-medical-school-logo-vector.png" type="image/png"><a href={{ site.inst_hms.url }}></a></li>

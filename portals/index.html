@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Join"
-description: "Open Positions"
+title: "Portals"
+description: "Data Portals"
 group: navigation
-navorder: 7
+navorder: 6
 ---
 {% include JB/setup %}
 
@@ -30,42 +30,29 @@ navorder: 7
     
 </div>
 
-<div class="head"><big>Join the Getz Lab!</big></div>
+<div class="head"><big>Data Portals</big></div>
 <div class="bigspacer"></div>
-<div class="head"><small>We are interested in strong candidates for the following positions:</small></div>
 
-{% for job in site.categories.positions %}
+{% for portal in site.categories.portals %}
 
 	<div class="bigspacer"></div>
 	<div class="row">
 		<div class="col-md-3">
 			<div class="head">
-				<a href="{{ job.postingurl }}">{{ job.title }}</a>
+				<a href="{{ portal.web_url }}">{{ portal.title }}</a>
 			</div>
 			<div class="smallnote">
-				{{ job.date | date_to_string }}
-			</div>	
+			  First Released: {{ portal.date | date_to_string }}
+			</div>
 		</div>
 		<div class="col-md-8">		
 			<div style="height:5px;"></div>			
 			<div class="post">
-				{{ job.content }}
+				{{ portal.content }}
 			</div>
 		</div>			
-		<div class="col-md-1"></div>
 	</div>		
 
 {% endfor %}
-
-<div class="bigspacer"></div>	
-<div class="row">
-	<div class="col-md-12 text-center">
-		<a class="off" href="/{{ page.category }}/archive/">
-			<div class="smallhead">Archive</div>
-			<i class="text-gray fa fa-chevron-circle-down fa-2x"></i>
-		</a>
-	</div>
-</div>
-
 
 <div class="bigspacer"></div>

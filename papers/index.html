@@ -75,33 +75,29 @@ navorder: 3
 
     <div class="media">
       <div class="media-body">
-
         <div class="bg-light clearfix">
-
-        <div class="pull-left">
-	  
-        <div class="smallhead media-heading">
-          <div class="text-primary">
-	    <div><a href="{{ paper.url }}" class="off"><em>{{ paper.title }}</em></a></div>
-	  </div>
-        </div>
-        <p class="note">
-	  {{ shortened_authors }}<br>
-	  <span class="journal">
-	    {{ paper.journal }}
-	  </span>
-	  {% if paper.volume %}
-	    {{ paper.volume }}
-	  {% endif %}
-	  {% if paper.issue %}
-	    ({{ paper.issue }})
-	  {% endif %}
-	  {% if paper.pages %}
-	    {{ paper.pages }} 
-	  {% endif %}
-	  ({{ paper.year }}).
-        </p>
-
+          <div class="pull-left">
+            <div class="smallhead media-heading">
+              <div class="text-primary">
+	        <div><a href="{{ paper.url }}" class="off"><em>{{ paper.title }}</em></a></div>
+	      </div>
+            </div>
+          <p class="note">
+	    {{ shortened_authors }}<br>
+	    <span class="journal">
+	      {{ paper.journal }}
+	    </span>
+	    {% if paper.volume %}
+	      {{ paper.volume }}
+	    {% endif %}
+	    {% if paper.issue %}
+	      ({{ paper.issue }})
+	    {% endif %}
+	    {% if paper.pages %}
+	      {{ paper.pages }} 
+	    {% endif %}
+	    ({{ paper.year }}).
+          </p>
         </div>
 
 	<div class="pull-right">
@@ -112,10 +108,11 @@ navorder: 3
 	    <div class="__dimensions_badge_embed__" data-doi={{ paper.doi }} data-legend="hover-left" data-style="small_circle"></div> 
 	</div>
 
-        </div>
-	
       </div>
+	
     </div>
+
+  </div>
 
 {% endfor %}
 
