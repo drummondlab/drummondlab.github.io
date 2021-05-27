@@ -178,3 +178,5 @@ JB :
 plugins_dir:
   - jekyll-redirect-from
   
+plugins:
+  - jekyll-twitter-plugin

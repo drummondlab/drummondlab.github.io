@@ -58,7 +58,7 @@ categories:
 <div class="row">
 	<div class="col-md-6">
 		<div class="head">
-			<a class="off" href="/papers/">Papers
+			Recent <a class="off" href="/papers/">Papers
 			</a>
 		</div>
                 {% assign team_citation_names = "" | split: ", " %}
@@ -72,7 +72,7 @@ categories:
 		
 		<div class="bigspacer"></div>
 		<div class="feedbox pad-left">		
-                        {% for paper in site.categories.papers limit:4 %}
+                        {% for paper in site.categories.papers limit:6 %}
 
                           {% assign first_authors = paper.first_authors | split: ", " %}
                           {% assign revised_first_authors = "" | split: ", " %}
@@ -122,9 +122,17 @@ categories:
 	</div>
 	<div class="col-md-6">
 		<div class="head">
-			<a class="off" href="/tweets/">Tweets
+			Recent <a class="off" href="/tweets/">Tweets
 			</a>
-		</div>
+                </div>
+<!--
+                  <div class='jekyll-twitter-plugin'>
+                    {% twitter https://twitter.com/gaddyg maxwidth=500 limit=2 %}
+                  </div>
+-->
+                    <a class="twitter-timeline" data-width="500" data-tweet-limit="2" href="https://twitter.com/gaddyg?ref_src=twsrc%5Etfw">Tweets by gaddyg</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 		<div class="bigspacer"></div>		
 	</div>
 </div>
