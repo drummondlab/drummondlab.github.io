@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 
 # jekyll
 gem 'jekyll'
+gem 'jekyll-gist'
 gem 'kramdown-parser-gfm'
 
 # Twitter
