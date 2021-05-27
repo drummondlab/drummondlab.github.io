@@ -14,7 +14,7 @@ senior_authors: "Lander ES"
 corresponding_authors: "Getz G"
 image: /assets/images/papers/default-paper.svg
 pdf:
-pdflink: https://www.nature.com/articles/nature06358.pdf
+pdflink:https://science.sciencemag.org/content/317/5844/1500.2.long
 doi: 10.1126/science.1138764
 pmid: 17872428
 pmcid:
