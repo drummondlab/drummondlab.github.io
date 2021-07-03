@@ -7,25 +7,10 @@ navorder: 1
 ---
 {% include JB/setup %}
 <div class="hugespacer"></div>
-<!--
-<div class="construction">
-  <hr/>
-  We are working on this page. Stay tuned.
-  <hr/>
-</div>
--->
-{% for project in site.categories.projects %}
+
+{% for project in site.categories.projects reversed %}
+ <!--
 <div class='row'>
-  <!--
-  <div class='row'>
-    <div class='col-md-12'>
-    <div class="media">
-      <a class="project-image" href="{{ project.url }}">
-        <img class="media-object" src="{{ project.image }}">
-      </a>
-    </div>
-  </div>
-  -->
   <div class='row'>
     <div class="col-md-4 paperbox">
       <div class="smallhead media-heading"><a href="{{ project.url }}" class="off">{{ project.title }}</a></div>
@@ -35,6 +20,14 @@ navorder: 1
     </div>
   </div>
 </div>
+-->
+<div class="head">
+  {{ project.title }}
+</div>
+<div class="bigspacer"></div>
+<div class="post">
+  {{ project.content }}
+</div>
+<div class="hugespacer"></div>
 {% endfor %}
 
-<div class="bigspacer"></div>
