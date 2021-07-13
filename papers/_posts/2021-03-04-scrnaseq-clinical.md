@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Single-cell RNA sequenciung: one step closer to the clinic"
+title: "Single-cell RNA sequencing: one step closer to the clinic"
 year: "2021"
 nickname: scrnaseq-clinical
 journal: "Nature Medicine"
@@ -9,7 +9,7 @@ issue: 27
 pages: 375-376
 authors: "Sklavenitis-Pistofidis R, Getz G, Ghobrial I"
 first_authors: "Sklavenitis-Pistofidis R"
-senior_authors: "Ghobrial I"
+senior_authors: "Getz G, Ghobrial I"
 corresponding_authors: "Ghobrial I"
 image: 
 pdf:

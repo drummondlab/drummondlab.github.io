@@ -5,7 +5,6 @@ category: Staff Engineer
 position: Research Data Management Engineer
 email: sbelkin@broadinstitute.org
 github: 
-image: /assets/images/team/default-member.png
 cv:
 alum: false
 ---

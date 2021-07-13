@@ -11,7 +11,7 @@ navorder: 3
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 <div class="bigspacer"></div>
-<div class="bigtitle text-center">Selected Papers</div>
+<div class="bigtitle text-left">Selected Papers</div>
 <div class="bigspacer"></div>
 
 {% assign dir_year = "" %}
@@ -27,7 +27,7 @@ navorder: 3
 {% endfor %}
 {% assign dir_years = dir_years | join: " | " %}
 
-<div class="text-center">
+<div class="text-left">
   {{ dir_years }}
 </div>  
 

@@ -6,7 +6,6 @@ category: Postdoctoral Researcher
 position: Postdoctoral Associate
 email:
 github: 
-image: /assets/images/team/default-member.png
 cv:
 alum: true
 linkedin: keren-yizhak-95b613126

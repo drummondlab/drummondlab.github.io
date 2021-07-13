@@ -6,7 +6,6 @@ category: Graduate Student
 position: PhD Student, Harvard University
 email:
 github: 
-image: /assets/images/team/default-member.png
 cv:
 alum: true
 ---

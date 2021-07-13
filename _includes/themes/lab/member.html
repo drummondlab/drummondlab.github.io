@@ -8,6 +8,8 @@
 		<div class="media">
 			{% if member.image %}
 			<img class="pull-left pad-right big-member-photo" src="{{ member.image }}">
+			{% else %}
+			<img width=400 class="pull-left pad-right big-member-photo" src="/assets/images/team/default-member.jpeg">
 			{% endif %}
 		</div>
 	</div>

@@ -9,7 +9,9 @@ navorder: 2
 
 
 <div class="bigspacer"></div>
-<div class="bigtitle text-center">Principal Investigator</div>
+<div class="bigtitle">Current Members</div>
+<div class="bigspacer"></div>
+<div class="title subtle">Principal Investigator</div>
 <div class="bigspacer"></div>
 {% assign pi = site.categories.team | where: "category","Principal Investigator"%}
 {% for member in pi %}
@@ -29,25 +31,29 @@ navorder: 2
 {% endfor %}
 
 <div class="bigspacer"></div>
-<div class="bigtitle text-center">Operations and Administration</div>
+<div class="title subtle">Operations and Administration</div>
 <div class="bigspacer"></div>
 {% assign current_team = site.categories.team | where: "alum","false" %}
 {% assign current_staff_op_admin = current_team | where: "category", "Operations and Administration" %}
 {% assign memberindex = 0 %}
 {% for member in current_staff_op_admin reversed %}
 	{% assign memberindex = memberindex | plus: 1 %}
-	{% assign colindex = memberindex | modulo: 3 %}
+	{% assign colindex = memberindex | modulo: 4 %}
 	{% if colindex == 1 %} <!-- opening of a new row -->
 	<div class="row">
 	{% endif %}
-	<div class="col-md-4 memberbox">
+	<div class="col-md-3 memberbox">
 		<div class="media">
 		                <a class="pull-left" href="{{ member.url }}">
-		    	        <img width=160 class="media-object" src="{{ member.image }}" style="float: left">
+                                {% if member.image %}
+		    	        <img width=100 class="media-object" src="{{ member.image }}" style="float: left">
+                                {% else %}
+		    	        <img width=100 class="media-object" src="/assets/images/team/default-member.jpeg" style="float: left">
+				{% endif %}
 				</a>
 			 	<div class="media-body">
-				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-				<p class="note">{{ member.position }}</p>
+				<div class="smallhead media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+				<p class="smallnote">{{ member.position }}</p>
 				</div>
 		</div>
     </div>	  
@@ -60,25 +66,29 @@ navorder: 2
 {% endif %}
 
 <div class="bigspacer"></div>
-<div class="bigtitle text-center">Staff Scientists</div>
+<div class="title subtle">Staff Scientists</div>
 <div class="bigspacer"></div>
 {% assign current_team = site.categories.team | where: "alum","false"%}
 {% assign current_staff_scientists = current_team | where: "category", "Staff Scientist"%}
 {% assign memberindex = 0 %}
 {% for member in current_staff_scientists reversed %}
 	{% assign memberindex = memberindex | plus: 1 %}
-	{% assign colindex = memberindex | modulo: 3 %}
+	{% assign colindex = memberindex | modulo: 4 %}
 	{% if colindex == 1 %} <!-- opening of a new row -->
 	<div class="row">
 	{% endif %}
-	<div class="col-md-4 memberbox">
+	<div class="col-md-3">
 		<div class="media">
 		                <a class="pull-left" href="{{ member.url }}">
-		    	        <img width=160 class="media-object" src="{{ member.image }}" style="float: left">
+                                {% if member.image %}
+		    	        <img width=100 class="media-object" src="{{ member.image }}" style="float: left">
+                                {% else %}
+		    	        <img width=100 class="media-object" src="/assets/images/team/default-member.jpeg" style="float: left">
+				{% endif %}
 				</a>
 			 	<div class="media-body">
-				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-				<p class="note">{{ member.position }}</p>
+				<div class="smallhead media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+				<p class="smallnote">{{ member.position }}</p>
 				</div>
 		</div>
     </div>	  
@@ -91,25 +101,29 @@ navorder: 2
 {% endif %}
 
 <div class="bigspacer"></div>
-<div class="bigtitle text-center">Staff Engineers</div>
+<div class="title subtle">Staff Engineers</div>
 <div class="bigspacer"></div>
 {% assign current_team = site.categories.team | where: "alum","false"%}
 {% assign current_staff_engineers = current_team | where: "category", "Staff Engineer"%}
 {% assign memberindex = 0 %}
 {% for member in current_staff_engineers reversed %}
 	{% assign memberindex = memberindex | plus: 1 %}
-	{% assign colindex = memberindex | modulo: 3 %}
+	{% assign colindex = memberindex | modulo: 4 %}
 	{% if colindex == 1 %} <!-- opening of a new row -->
 	<div class="row">
 	{% endif %}
-	<div class="col-md-4 memberbox">
+	<div class="col-md-3 memberbox">
 		<div class="media">
 		                <a class="pull-left" href="{{ member.url }}">
-		    	        <img width=160 class="media-object" src="{{ member.image }}" style="float: left">
+                                {% if member.image %}
+		    	        <img width=100 class="media-object" src="{{ member.image }}" style="float: left">
+                                {% else %}
+		    	        <img width=100 class="media-object" src="/assets/images/team/default-member.jpeg" style="float: left">
+				{% endif %}
 				</a>
 			 	<div class="media-body">
-				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-				<p class="note">{{ member.position }}</p>
+				<div class="smallhead media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+				<p class="smallnote">{{ member.position }}</p>
 				</div>
 		</div>
     </div>	  
@@ -122,25 +136,29 @@ navorder: 2
 {% endif %}
 
 <div class="bigspacer"></div>
-<div class="bigtitle text-center">Research and Computational Associates</div>
+<div class="title subtle">Research and Computational Associates</div>
 <div class="bigspacer"></div>
 {% assign current_team = site.categories.team | where: "alum","false"%}
 {% assign current_associates = current_team | where: "category", "Associate"%}
 {% assign memberindex = 0 %}
 {% for member in current_associates reversed %}
 	{% assign memberindex = memberindex | plus: 1 %}
-	{% assign colindex = memberindex | modulo: 3 %}
+	{% assign colindex = memberindex | modulo: 4 %}
 	{% if colindex == 1 %} <!-- opening of a new row -->
 	<div class="row">
 	{% endif %}
-	<div class="col-md-4 memberbox">
+	<div class="col-md-3 memberbox">
 		<div class="media">
 		                <a class="pull-left" href="{{ member.url }}">
-		    	        <img width=160 class="media-object" src="{{ member.image }}" style="float: left">
+                                {% if member.image %}
+		    	        <img width=100 class="media-object" src="{{ member.image }}" style="float: left">
+                                {% else %}
+		    	        <img width=100 class="media-object" src="/assets/images/team/default-member.jpeg" style="float: left">
+				{% endif %}
 				</a>
 			 	<div class="media-body">
-				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-				<p class="note">{{ member.position }}</p>
+				<div class="smallhead media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+				<p class="smallnote">{{ member.position }}</p>
 				</div>
 		</div>
     </div>	  
@@ -153,25 +171,29 @@ navorder: 2
 {% endif %}
 
 <div class="bigspacer"></div>
-<div class="bigtitle text-center">Postdoctoral Researchers</div>
+<div class="title subtle">Postdoctoral Researchers</div>
 <div class="bigspacer"></div>
 {% assign current_team = site.categories.team | where: "alum","false" %}
 {% assign current_postdocs = current_team | where: "category", "Postdoctoral Researcher" %}
 {% assign memberindex = 0 %}
 {% for member in current_postdocs reversed %}
 	{% assign memberindex = memberindex | plus: 1 %}
-	{% assign colindex = memberindex | modulo: 3 %}
+	{% assign colindex = memberindex | modulo: 4 %}
 	{% if colindex == 1 %} <!-- opening of a new row -->
 	<div class="row">
 	{% endif %}
-	<div class="col-md-4 memberbox">
+	<div class="col-md-3 memberbox">
 		<div class="media">
 		                <a class="pull-left" href="{{ member.url }}">
-		    	        <img width=160 class="media-object" src="{{ member.image }}" style="float: left">
+                                {% if member.image %}
+		    	        <img width=100 class="media-object" src="{{ member.image }}" style="float: left">
+                                {% else %}
+		    	        <img width=100 class="media-object" src="/assets/images/team/default-member.jpeg" style="float: left">
+				{% endif %}
 				</a>
 			 	<div class="media-body">
-				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-				<p class="note">{{ member.position }}</p>
+				<div class="smallhead media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+				<p class="smallnote">{{ member.position }}</p>
 				</div>
 		</div>
     </div>	  
@@ -184,25 +206,29 @@ navorder: 2
 {% endif %}
 
 <div class="bigspacer"></div>
-<div class="bigtitle text-center">Graduate Students</div>
+<div class="title subtle">Graduate Students</div>
 <div class="bigspacer"></div>
 {% assign current_team = site.categories.team | where: "alum","false" %}
 {% assign current_students = current_team | where: "category", "Graduate Student" %}
 {% assign memberindex = 0 %}
 {% for member in current_students reversed %}
 	{% assign memberindex = memberindex | plus: 1 %}
-	{% assign colindex = memberindex | modulo: 3 %}
+	{% assign colindex = memberindex | modulo: 4 %}
 	{% if colindex == 1 %} <!-- opening of a new row -->
 	<div class="row">
 	{% endif %}
-	<div class="col-md-4 memberbox">
+	<div class="col-md-3 memberbox">
 		<div class="media">
 		                <a class="pull-left" href="{{ member.url }}">
-		    	        <img width=160 class="media-object" src="{{ member.image }}" style="float: left">
+                                {% if member.image %}
+		    	        <img width=100 class="media-object" src="{{ member.image }}" style="float: left">
+                                {% else %}
+		    	        <img width=100 class="media-object" src="/assets/images/team/default-member.jpeg" style="float: left">
+				{% endif %}
 				</a>
 			 	<div class="media-body">
-				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-				<p class="note">{{ member.position }}</p>
+				<div class="smallhead media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+				<p class="smallnote">{{ member.position }}</p>
 				</div>
 		</div>
     </div>	  
@@ -223,24 +249,24 @@ navorder: 2
 </div>
 
 <div class="bigspacer"></div>
-<div class="bigtitle text-center">Alumni</div>
+<div class="bigtitle">Alumni</div>
 <div class="bigspacer"></div>
 
 {% assign alumni = site.categories.team | where: "alum","true"%}
 {% assign memberindex = 0 %}
 {% for member in alumni reversed %}
 	{% assign memberindex = memberindex | plus: 1 %}
-	{% assign colindex = memberindex | modulo: 3 %}
+	{% assign colindex = memberindex | modulo: 4 %}
 	{% if colindex == 1 %} <!-- opening of a new row -->
 	<div class="row">
 	{% endif %}
-	<div class="col-md-4 memberbox" width=160>
+	<div class="col-md-3 memberbox" width=160>
 		<div class="media">
 		                <a class="pull-left" href="{{ member.url }}">
                                 </a>
 		                <div class="media-body">
-				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-				<p class="note">{{ member.position }}</p>
+				<div class="smallhead media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+				<p class="smallnote">{{ member.position }}</p>
 				</div>
 		</div>
     </div>	  

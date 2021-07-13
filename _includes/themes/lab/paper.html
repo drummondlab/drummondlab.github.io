@@ -41,6 +41,19 @@ with gratitude.
 {% assign  authors  = revised_authors | join: ", " %}
 
 <div class="row">
+  <div class="col-md-9">
+    <div class="title media-heading">
+      {% if page.preprint %}
+        <div class="smallhead">PREPRINT (not yet peer-reviewed)</div>
+      {% endif %}
+      {{ page.title }}
+    </div>
+  </div>
+</div>
+
+ <div class="bigspacer"></div>
+
+<!--
 <div class="col-md-3">
 		<div class="media">
 			{% if page.image %}
@@ -48,194 +61,121 @@ with gratitude.
 			{% endif %}
 		</div>
 	</div>
-
-	<div class="col-md-9">
-		<div class="media-body titlebox">
-			<div class="title media-heading">
-				{% if page.preprint %}
-				<div class="smallhead">
-				PREPRINT (not yet peer-reviewed)
-				</div>
-				{% endif %}
-				{{ page.title }}
-				
-			</div>
-			<p>
-			<div class="smallhead">
-				{{ authors }}, 
-				<span class="journal">
-				{{ page.journal }}
-				</span>
-				{% if page.volume %}
-				 {{ page.volume }}
-				{% endif %}
-				{% if page.issue %}
-				({{ page.issue }})
-				{% endif %}
-				{% if page.pages %}
-				:{{ page.pages }} 
-				{% endif %}
-				({{ page.year }}).
-			</div>
-		</div>
-<div class="bigspacer"></div>
-<div>
-  * <em>First Authors</em><br>
-  # <em>Senior Authors</em><br>
-  ^ <em>Correspnding Authors</em><br>  
-</div>
-
-	</div>
-</div>
-
-
-<div class="bigspacer"></div>
-
+-->
 <div class="row">
-	<div class="col-md-3">
-		<div class="bigspacer"></div>
-		<div class="glyphbox note"> <!-- DAD: what is this class? -->
-			{% if page.pdf or page.pdflink or page.fulltext %}
-			<div class="smallhead subtle">
-				Full text
-			</div>	
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				{% if page.pdflink %}
-					<i class="fa fa-file-pdf-o fa-fw"></i>
-					{% if page.preprint %}
-					<a class="off" href="{{ page.pdflink }}">Preprint PDF</a>
-					{% else %}
-					<a class="off" href="{{ page.pdflink }}">Journal PDF</a>
-					{% endif %}
-					<br/>
-				{% endif %}
-				{% if page.pdf %}
-					<i class="fa fa-file-pdf-o fa-fw"></i>
-					<a class="off" href="{{ page.pdf }}">PDF</a>
-					<br/>
-				{% endif %}
-				{% if page.fulltext %}
-				<i class="fa fa-external-link fa-fw"></i>
-				{% if page.preprint %}
-				<a class="off" href="{{ page.fulltext }}">Preprint HTML</a>
-				{% else %}
-				<a class="off" href="{{ page.fulltext }}">Journal HTML</a>
-				{% endif %}
-				{% endif %}
-			</div>
-			<div class="bigspacer"></div>			
-			{% endif %}
 
-			{% if page.supplement %}
-			<div class="smallhead subtle">
-				Supplement
-			</div>	
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-paperclip fa-fw"></i>
-				<a class="off" href="{{ page.supplement }}">{{ page.supplement | split: '/' | last }}</a>
-			</div>
-			<div class="bigspacer"></div>			
-			{% endif %}
-
-			{% if page.pmid %}
-			<div class="smallhead subtle">
-				Pubmed
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ page.pmid }}">{{ page.pmid }}</a>
-			</div>
-			<div class="bigspacer"></div>			
-			{% endif %}
-						
-			{% if page.doi %}
-			<div class="smallhead subtle">
-				DOI
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="http://dx.doi.org/{{ page.doi }}">{{ page.doi }}</a>
-			</div>
-			<div class="bigspacer"></div>			
-			{% endif %}
-			
-			{% if page.github %}
-			<div class="smallhead subtle">
-				Source code
-			</div>	
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-cog fa-fw"></i>
-				<a class="off" href="{{ page.github }}">{{ page.github | remove: 'http://' | remove: 'https://' }}</a>
-			</div>
-			<div class="bigspacer"></div>
-			{% endif %}
-			{% if page.dryad_doi %}
-			<div class="smallhead subtle">
-				Data
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-database fa-fw"></i>
-				<a class="off" href="http://dx.doi.org/{{ page.dryad_doi }}">Dryad</a>
-			</div>
-			<div class="bigspacer"></div>			
-			{% endif %}
-			{% if page.figshare_doi %}
-			<div class="smallhead subtle">
-				Data
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-database fa-fw"></i>
-				<a class="off" href="http://doi.org/{{ page.figshare_doi }}">Figshare</a>
-			</div>
-			<div class="bigspacer"></div>			
-			{% endif %}
-
-			<div class="smallhead subtle">
-				Number of Citations (Dimensions)
-			</div>	
-			<div class="__dimensions_badge_embed__" data-doi={{ page.doi }} data-legend="hover-left" data-style="small_circle"></div> 
-			<div class="bigspacer"></div>			
+  <div class="col-md-7">
+    <p>
+    <div class="smallhead">
+      {{ authors }}
+      <div class="bigspacer"></div>
+      <span class="journal"> {{ page.journal }}</span>
+      {% if page.volume %}
+	{{ page.volume }}
+      {% endif %}
+      {% if page.issue %}
+	({{ page.issue }})
+      {% endif %}
+      {% if page.pages %}
+        :{{ page.pages }} 
+      {% endif %}
+	({{ page.year }})
+    </div>
+    <div class="post">
+      {{ content }}
+    </div>
+  </div>
+  <div class="col-md-5">
+    <div class="pull-right">  
+      <strong>Getz Lab Authors</strong><br>
+      * <em>First Authors</em><br>
+      # <em>Senior Authors</em><br>
+      ^ <em>Correspnding Authors</em><br>
+      <div class="hugespacer"></div>
 
 
-			<div class="smallhead subtle">
-				Altmetrics
-			</div>	
-			<div class='altmetric-embed' data-badge-type='donut' data-badge-popover='left' data-doi={{ page.doi }}></div>
-			<div class="bigspacer"></div>			
-
-			<div class="smallhead subtle">
-				Share
-			</div>
-		    <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
-		    <div class="post-sharing">
-		     {% include JB/sharing %}
-		    </div>
-
-		</div>
-	</div>
-	{% if page.embargo %}
-	<div class="col-md-8">
-		<div class="post">
-		In press...watch this space!
-		</div>
-	</div>
+      {% if page.pdf or page.pdflink or page.fulltext %}
+      <div class="smallhead">
+	Full text
+      </div>	
+      <div class="pad-left note">
+	<div class="smallspacer"></div>
+	{% if page.pdflink %}
+	<i class="fa fa-file-pdf-o fa-fw"></i>
+	{% if page.preprint %}
+	<a class="off" href="{{ page.pdflink }}">Preprint PDF</a>
 	{% else %}
-	<div class="col-md-8">	
-		<div class="post">
-			{{ content }}
-		</div>	
-	</div>
+	<a class="off" href="{{ page.pdflink }}">Journal PDF</a>
 	{% endif %}
+	<br/>
+	{% endif %}
+	{% if page.pdf %}
+	<i class="fa fa-file-pdf-o fa-fw"></i>
+	<a class="off" href="{{ page.pdf }}">PDF</a>
+	<br/>
+	{% endif %}
+	{% if page.fulltext %}
+	<i class="fa fa-external-link fa-fw"></i>
+	{% if page.preprint %}
+	<a class="off" href="{{ page.fulltext }}">Preprint HTML</a>
+	{% else %}
+	<a class="off" href="{{ page.fulltext }}">Journal HTML</a>
+	{% endif %}
+	{% endif %}
+      </div>
+      <div class="bigspacer"></div>			
+      {% endif %}
 
-	<div class="col-md-1"></div>
+      {% if page.pmid %}
+      <div class="smallhead">
+	Pubmed
+      </div>
+      <div class="pad-left note">
+	<div class="smallspacer"></div>
+	<i class="fa fa-external-link fa-fw"></i>
+	<a class="off" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ page.pmid }}">{{ page.pmid }}</a>
+      </div>
+      <div class="bigspacer"></div>			
+      {% endif %}
+
+      {% if page.doi %}
+      <div class="smallhead">
+	DOI
+      </div>
+      <div class="pad-left note">
+	<div class="smallspacer"></div>
+	<i class="fa fa-external-link fa-fw"></i>
+	<a class="off" href="http://dx.doi.org/{{ page.doi }}">{{ page.doi }}</a>
+      </div>
+      <div class="bigspacer"></div>			
+      {% endif %}
+
+      <div class="smallhead">
+	Dimensions<br>
+	(# of citations)
+      </div>	
+      <div class="smallspacer"></div>			
+      <div class="__dimensions_badge_embed__" data-doi={{ page.doi }} data-legend="hover-left" data-style="small_circle"></div> 
+      <div class="bigspacer"></div>			
+
+      
+      <div class="smallhead">
+	Altmetrics
+      </div>	
+      <div class="smallspacer"></div>			
+      <div class='altmetric-embed' data-badge-type='donut' data-badge-popover='left' data-doi={{ page.doi }}></div>
+      <div class="bigspacer"></div>			
+
+      <div class="smallhead">
+	Share
+      </div>
+      <div class="smallspacer"></div>
+      <div class="post-sharing">
+	{% include JB/sharing %}
+      </div>
+      
+    </div>
+  </div>
 </div>
 
-<div class="bigspacer"></div>
 

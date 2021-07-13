@@ -11,9 +11,9 @@ categories:
 {% endif %}
 {% endfor %}
 
-<div class="bigspacer"></div>
-<img class="pull-left" src="{{ ASSET_PATH }}/images/logo/GetzLabLogo_pattern_v1.png">
-<div class="bigspacer"></div>
+<div class="hugespacer"></div>
+<img class="pull-left" src="{{ ASSET_PATH }}/images/logo/GetzLabLogoCombined.png">
+<div class="hugespacer"></div><div class="hugespacer"></div>
 <div class="row">
 	<div class="col-md-12">
 	<div id="carousel" class="carousel carousel-fade" data-ride="carousel">
@@ -26,9 +26,6 @@ categories:
 	  <div class="carousel-inner">
 	    <div class="active item">
                 <img src="/assets/images/gaddygram.png"  width='1200px' alt="">
-	    </div>
-	    <div class="item">
-                <img src="/assets/images/group_pic_3.jpg"  width='1200px' alt="">
 	    </div>
 	  </div>
 	  <!-- Carousel nav -->
@@ -47,12 +44,47 @@ categories:
 <div class="hugespacer"></div>
 
 <div class="row">
-	<div class="col-md-12">
+	<div class="col-md-6">
 		<div class="smallhead">
 			{{ homepage.content }}
 		</div>
-	</div>				
+	</div>
+	<div class="col-md-6">
+	  <div class="smallhead">
+	    <div class="hugespacer"></div>
+	    <div class="bigspacer"></div>
+            <img src="/assets/images/group_pic_20210630_140731.jpg">
+	  </div>
+	</div>
 </div>
+
+<div class="hugespacer"></div>
+
+<div class="row">
+	<div class="col-md-4">
+          <ul style="list-style-type:none">
+	    <li><img src="{{ ASSET_PATH }}/images/logo/MGHShield.svg" type="image/svg+xml"></li>
+	    <div class="spacer"></div>
+            <li><a href={{ site.dept_mgh_pathology.url }}>{{ site.dept_mgh_pathology.name }}</a></li>
+	    <li><a href={{ site.dept_mgh_cancer_center.url }}>{{ site.dept_mgh_cancer_center.name }}</a></li>
+	  </ul>
+	</div>
+	<div class="col-md-4">
+          <ul style="list-style-type:none">
+	    <li><img src="{{ ASSET_PATH }}/images/logo/BroadSquare.png" type="image/png"></li>
+	    <div class="spacer"></div>
+            <li><a href={{ site.dept_broad_cancer_program.url }}>{{ site.dept_broad_cancer_program.name }}</a></li>
+          </ul>
+	</div>
+	<div class="col-md-4">
+          <ul style="list-style-type:none">
+	    <li><img src="{{ ASSET_PATH }}/images/logo/HarvardShield.svg" type="image/svg+xml"></li>
+	    <div class="spacer"></div>
+            <li><a href={{ site.dept_hms_pathology.url }}>{{ site.dept_hms_pathology.name }}</a></li>
+          </ul>
+	</div>
+</div>
+
 
 <div class="hugespacer"></div>
 
