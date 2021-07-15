@@ -33,27 +33,6 @@
     <!-- Math via MathJax -->
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Fav and touch icons -->
-    <!-- Update these with your own images
-      <link rel="shortcut icon" href="images/favicon.ico">
-      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-    -->
-
-    <!-- atom & rss feed
-    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-    -->
-
   </head>
 
   <body>
@@ -83,12 +62,9 @@
              {% assign make_title = true %}
             {% endif %}
           {% endfor %}
-
-          {% if make_title == true %}
           <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-          {% endif %}
-
         </ul>
+
         <ul class="nav navbar-nav navbar-right pull-right">
           {% assign pages_list = (site.pages | sort: 'navorder') %}
           {% assign group = 'navigation' %}
@@ -115,18 +91,30 @@
    </div>
 
 
+
   <!-- Static bottom navbar -->
+
+  {% assign fixed_bottom = false %}
+  {% for pc in page.categories %}
+    {% if pc == "home" %}
+      {% assign home_page = true %}
+    {% endif %}
+  {% endfor %}
+
+  {% if home_page %}
   <nav class="navbar navbar-default navbar-fixed-bottom">
+  {% else %}
+  <nav class="navbar navbar-default">
+  {% endif %}
     <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-bottom-collapse"> <!-- NOTE! data-target was changed to jb-bottom-collapse -->
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="jb-bottom-collapse">
+	{% unless home_page %}
+	<ul class="nav navbar-nav navbar-left navbar-small">
+	  <li><img src="{{ ASSET_PATH }}/images/logo/MGHShield.svg" type="image/svg+xml"></li>
+          <li><img src="{{ ASSET_PATH }}/images/logo/BroadSquare.png" type="image/png"></li>
+          <li><img src="{{ ASSET_PATH }}/images/logo/HarvardShield.svg" type="image/svg+xml"></li>
+	</ul>
+	{% endunless %}
         <ul class="nav navbar-nav navbar-right navbar-small">
           <li><a href='/about.html'><b>About</b></a></li>
           <li><a href='/contact.html'><b>Contact</b></a></li>

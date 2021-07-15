@@ -25,3 +25,4 @@ tags: []
 {% include JB/setup %}
 
 # Abstract
+Single-cell RNA-sequencing can help in the prediction of drug resistance in patients with multiple myeloma.

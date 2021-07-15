@@ -7,40 +7,58 @@ navorder: 5
 ---
 {% include JB/setup %}
 
-<div class="pager">
+<div class="bigspacer"></div>
 
-	{% if paginator.previous_page %}
-		{% if paginator.previous_page == 1 %}
-		<a class="prev" href="/{{ page.category }}/">
-			<i class="fa fa-chevron-left fa-lg"></i>
-		</a>
-		{% else %}
-		<a class="prev" href="/{{ page.category }}/page{{ paginator.previous_page }}">
-			<i class="fa fa-chevron-left fa-lg"></i>
-		</a>
-		{% endif %}
-	{% endif %}
+<div class="bigtitle">Tools</div>
+<div class="bigspacer"></div>
 
-	{% if paginator.next_page %}
-	<a class="next" href="/{{ page.category }}/page{{ paginator.next_page }}">
-		<i class="fa fa-chevron-right fa-lg"></i>
-	</a>
-	{% endif %}
+  {% for tool in site.data.tools %}
 
-</div>
-
-Here you'll find a listing of open-source computational tools developed by the Getz Lab.
-
-<hr>
-
-{% for tool in site.categories.tool %}
-
+    {% cycle 'add rows': '<div class="row">', '', '' %}
+		<div class="col-md-4 projectbox">
+			<div class="head">
+				{{ tool.title }}
+			</div>
+			<div class="smallspacer"></div>
+			<div class="note">
+				{{ tool.description }}
+			</div>
+			<div class="smallspacer"></div>
+		<div class="pad-left note">
+			<i class="fa fa-github-alt fa-fw"></i>
+			<a class="off" href="https://github.com/{{ tool.repo }}">{{ tool.repo }}</a>
+		</div>		
+			<div class="smallnote">
+			  Topics: 
+			  {% for topic in tool.topics %}
+			  {{ topic }}
+			  {% if forloop.last %}{% else %},{% endif %}
+			  {% endfor %}
+			</div>  
+			<div class="smallnote">
+				Last Updated
+				<a class="off" href="{{ tool.commits.first.url }}">
+				{{ tool.commits.first.date | date: "%-d %b %Y" }}
+				</a>
+				by
+				<a class="off" href="{{ tool.commits.first.author_url }}">
+				{{ tool.commits.first.author_login }}
+				</a>
+			</div>
+			<div class="bigspacer"></div>
+			<div class="spacer"></div>
+		</div>
+    {% cycle 'close rows': '', '', '</div>' %}
+{% endfor %}
+{% cycle 'close rows': '', '</div>', '</div>' %}
+    
+<!--
     {% assign author = 0 %}
     {% for member in site.categories.team %}
 			{% if member.title == tool.author %}
 				{% assign author = member %}
 			{% endif %}
-    {% endfor %}
+
 
     <div class="bigspacer"></div>
     <div class="row">
@@ -82,3 +100,4 @@ Here you'll find a listing of open-source computational tools developed by the G
 {% endfor %}
 
 <div class="bigspacer"></div>
+-->

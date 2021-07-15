@@ -69,17 +69,18 @@ with gratitude.
     <div class="smallhead">
       {{ authors }}
       <div class="bigspacer"></div>
-      <span class="journal"> {{ page.journal }}</span>
-      {% if page.volume %}
-	{{ page.volume }}
-      {% endif %}
-      {% if page.issue %}
-	({{ page.issue }})
-      {% endif %}
-      {% if page.pages %}
-        :{{ page.pages }} 
-      {% endif %}
-	({{ page.year }})
+      <span class="journal"> {{ page.journal }}
+        {% if page.volume %}
+	  {{ page.volume }}
+        {% endif %}
+        {% if page.issue %}
+	  ({{ page.issue }})
+        {% endif %}
+        {% if page.pages %}
+          :{{ page.pages }} 
+        {% endif %}
+	  ({{ page.year }})
+      </span>	
     </div>
     <div class="post">
       {{ content }}

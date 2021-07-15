@@ -180,3 +180,7 @@ plugins_dir:
   
 plugins:
   - jekyll-twitter-plugin
+
+tools:
+  - getzlab/deTiN
+

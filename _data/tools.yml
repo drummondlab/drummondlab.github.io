@@ -1,0 +1,59 @@
+---
+- repo: getzlab/deTiN
+  title: deTiN
+  owner: getzlab
+  description: DeTiN is designed to measure tumor-in-normal contamination and improve
+    somatic variant detection sensitivity when using a contaminated matched control.
+  url: "/tools/deTiN/"
+  topics:
+  - cancer-genomics
+  - cancer-variants
+  - cancer-genome-atlas
+  - tumor
+  - detection
+  - tumor-in-normal
+  - somatic-mutations
+  - tin
+  contributors:
+  - login: amarotaylor
+    avatar: https://avatars.githubusercontent.com/u/5176213?v=4&s=50
+    url: https://github.com/amarotaylor
+  - login: jett-crowdis
+    avatar: https://avatars.githubusercontent.com/u/43128107?v=4&s=50
+    url: https://github.com/jett-crowdis
+  - login: cbirger
+    avatar: https://avatars.githubusercontent.com/u/2326853?v=4&s=50
+    url: https://github.com/cbirger
+  commits:
+  - date: 2020-11-12 16:41:46.000000000 Z
+    message: |-
+      Merge pull request #31 from jett-crowdis/master
+
+      fix uninitialized variable bug when using only ssnvs
+    url: https://github.com/getzlab/deTiN/commit/47efdff8b1cbf6a0332e7571227cadcaa93a7f0c
+    author_login: amarotaylor
+    author_url: https://github.com/amarotaylor
+  - date: 2020-11-12 16:34:44.000000000 Z
+    message: fix uninitialized variable bug when using only ssnvs
+    url: https://github.com/getzlab/deTiN/commit/d226c778657cefaa65a067d175b2d0f0a3992ca3
+    author_login: jett-crowdis
+    author_url: https://github.com/jett-crowdis
+  - date: 2020-09-22 19:14:33.000000000 Z
+    message: |-
+      Merge pull request #28 from getzlab/cluster_segments_bug
+
+      Fix bug in cluster_segments found while testing on CPTAC data.  This …
+    url: https://github.com/getzlab/deTiN/commit/0f8fb0977a1c16037dafd0dfa7b56813b6798ee5
+    author_login: amarotaylor
+    author_url: https://github.com/amarotaylor
+  - date: 2020-09-22 14:50:22.000000000 Z
+    message: Fix bug in cluster_segments found while testing on CPTAC data.  This
+      problem appeared when the number of segments was less than 3.
+    url: https://github.com/getzlab/deTiN/commit/ee588ed30544a77db09d7e2090a55459e3cc1040
+    author_login: cbirger
+    author_url: https://github.com/cbirger
+  - date: 2020-05-01 12:43:42.000000000 Z
+    message: Update deTiN.py
+    url: https://github.com/getzlab/deTiN/commit/3b0b9598894db0820d79a179b83df8b01f7174d8
+    author_login: amarotaylor
+    author_url: https://github.com/amarotaylor
