@@ -7,52 +7,32 @@ navorder: 6
 ---
 {% include JB/setup %}
 
-
-<div class="pager">
-  
-	{% if paginator.previous_page %}
-		{% if paginator.previous_page == 1 %}
-		<a class="prev" href="/{{ page.category }}/">
-			<i class="fa fa-chevron-left fa-lg"></i>
-		</a>
-		{% else %}
-		<a class="prev" href="/{{ page.category }}/page{{ paginator.previous_page }}">
-			<i class="fa fa-chevron-left fa-lg"></i>
-		</a>
-		{% endif %}  		
-	{% endif %}  
-  
-	{% if paginator.next_page %}  
-	<a class="next" href="/{{ page.category }}/page{{ paginator.next_page }}">
-		<i class="fa fa-chevron-right fa-lg"></i>
-	</a>	
-	{% endif %}  	
-    
-</div>
-
-<div class="head"><big>Data Portals</big></div>
+<div class="bigspacer"></div>
+<div class="bigtitle"><big>Data Portals</big></div>
 <div class="bigspacer"></div>
 
+{% assign portalindex = 0 %}
 {% for portal in site.categories.portals %}
+  {% assign memberindex = memberindex | plus: 1 %}
+  {% assign colindex = memberindex | modulo: 3 %}
+  {% if colindex == 1 %}
+  <div class="row">
+  {% endif %}
+ 
+    <div class="col-md-4 projectbox">
+      <div class="media">
+        <a href="{{ portal.web_url }}">
+          <img width=300 class="media-object" src="{{ portal.image }}">
+        </a>
+          <div class="bigspacer"></div>
+          <div class="note">{{ portal.content }}</div>
+          <div class="smallnote"> First Released: {{ portal.date | date_to_string }}</div>
 
-	<div class="bigspacer"></div>
-	<div class="row">
-		<div class="col-md-3">
-			<div class="head">
-				<a href="{{ portal.web_url }}">{{ portal.title }}</a>
-			</div>
-			<div class="smallnote">
-			  First Released: {{ portal.date | date_to_string }}
-			</div>
-		</div>
-		<div class="col-md-8">		
-			<div style="height:5px;"></div>			
-			<div class="post">
-				{{ portal.content }}
-			</div>
-		</div>			
-	</div>		
-
+      </div>
+    </div>
+  {% if colindex == 0 %}
+  </div><div class="bigsparer"></div>
+  {% endif %}
 {% endfor %}
 
 <div class="bigspacer"></div>

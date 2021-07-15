@@ -4,6 +4,7 @@ title: "Tumor Portal"
 category: portal
 tagline: "....."
 web_url: "http://www.tumorportal.org"
+image: /assets/images/portals/tplogo.png
 ---
 {% include JB/setup %}
 
