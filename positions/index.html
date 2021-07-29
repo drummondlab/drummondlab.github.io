@@ -7,55 +7,54 @@ navorder: 7
 ---
 {% include JB/setup %}
 
-
-<div class="pager">
-  
-	{% if paginator.previous_page %}
-		{% if paginator.previous_page == 1 %}
-		<a class="prev" href="/{{ page.category }}/">
-			<i class="fa fa-chevron-left fa-lg"></i>
-		</a>
-		{% else %}
-		<a class="prev" href="/{{ page.category }}/page{{ paginator.previous_page }}">
-			<i class="fa fa-chevron-left fa-lg"></i>
-		</a>
-		{% endif %}  		
-	{% endif %}  
-  
-	{% if paginator.next_page %}  
-	<a class="next" href="/{{ page.category }}/page{{ paginator.next_page }}">
-		<i class="fa fa-chevron-right fa-lg"></i>
-	</a>	
-	{% endif %}  	
-    
-</div>
-
 <div class="head"><big>Join the Getz Lab...we are hiring!</big></div>
 <div class="bigspacer"></div>
-<div class="head"><small>Come join us in the Getz Lab (Broad Institute / MGH Cancer Center) to help shape the future of cancer research at the cutting edge of computaional genomics and cancer biology.  Current open positions:</small></div>
+<div class="post">Come join us in the Getz Lab (Broad Institute / MGH Cancer Center) to help shape the future of cancer research at the cutting edge of computaional genomics and cancer biology.  Current open positions:</div>
 
-{% for job in site.categories.positions %}
-
-	<div class="bigspacer"></div>
-	<div class="row">
-		<div class="col-md-3">
-			<div class="head">
+<div class="bigspacer"></div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="head">Broad</div>
+    {% for job in site.categories.positions %}    		     
+    <div class="row">
+            {% if job.institution == "Broad" %}
+	    <div class="bigspacer"></div>
+			<div class="smallhead">
 				<a href="{{ job.postingurl }}">{{ job.title }}</a>
 			</div>
 			<div class="smallnote">
 				{{ job.date | date_to_string }}
 			</div>	
-		</div>
-		<div class="col-md-8">		
-			<div style="height:5px;"></div>			
-			<div class="post">
-				{{ job.content }}
+            {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  <div class="col-md-6">
+    <div class="head">MGH</div>
+    {% for job in site.categories.positions %}    		     
+    <div class="row">
+            {% if job.institution == "MGH" %}
+	    <div class="bigspacer"></div>
+			<div class="smallhead">
+				<a href="{{ job.postingurl }}">{{ job.title }}</a>
 			</div>
-		</div>			
-		<div class="col-md-1"></div>
-	</div>		
-
-{% endfor %}
-
+			<div class="smallnote">
+				{{ job.date | date_to_string }}
+			</div>	
+            {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
 
 <div class="bigspacer"></div>
+<div class="bigspacer"></div>
+
+<div class="post">
+  <em>We are always looking for seeking highly qualified people to join our lab.</em>>Below are the positions we are always on the lookout for:
+  <ul class="tag_box" style="list-style-type:none;padding: 0">
+    <li>Computational Biologists</li>
+    <li>Research and Computational Associates</li>
+  </ul>
+</div>
+</div>
