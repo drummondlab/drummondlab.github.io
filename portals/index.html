@@ -21,15 +21,14 @@ navorder: 6
  
     <div class="col-md-4 projectbox">
       <div class="media">
-	<div class="test_portal">
-        <a href="{{ portal.web_url }}">
-          <img width=300 class="media-object" src="{{ portal.image }}">
-        </a>
+	<div class="portal">
+          <a href="{{ portal.web_url }}">
+            <img width=300 class="media-object" src="{{ portal.image }}">
+          </a>
 	</div>
-          <div class="bigspacer"></div>
-          <div class="note">{{ portal.content }}</div>
-          <div class="smallnote"> First Released: {{ portal.date | date_to_string }}</div>
-
+        <div class="bigspacer"></div>
+        <div class="note">{{ portal.content }}</div>
+        <div class="smallnote"> First Released: {{ portal.date | date_to_string }}</div>
       </div>
     </div>
   {% if colindex == 0 %}

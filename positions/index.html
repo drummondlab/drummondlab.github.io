@@ -19,12 +19,14 @@ navorder: 7
     <div class="row">
             {% if job.institution == "Broad" %}
 	    <div class="bigspacer"></div>
+	      <div class="position">
 			<div class="smallhead">
 				<a href="{{ job.postingurl }}">{{ job.title }}</a>
 			</div>
 			<div class="smallnote">
 				{{ job.date | date_to_string }}
 			</div>	
+              </div>
             {% endif %}
     </div>
     {% endfor %}
@@ -35,12 +37,14 @@ navorder: 7
     <div class="row">
             {% if job.institution == "MGH" %}
 	    <div class="bigspacer"></div>
+	      <div class="position">
 			<div class="smallhead">
 				<a href="{{ job.postingurl }}">{{ job.title }}</a>
 			</div>
 			<div class="smallnote">
 				{{ job.date | date_to_string }}
 			</div>	
+              </div>
             {% endif %}
     </div>
     {% endfor %}
@@ -51,10 +55,13 @@ navorder: 7
 <div class="bigspacer"></div>
 
 <div class="post">
-  <em>We are always looking for seeking highly qualified people to join our lab.</em>>Below are the positions we are always on the lookout for:
-  <ul class="tag_box" style="list-style-type:none;padding: 0">
+  We are always seeking highly qualified people for the following roles:  
+  <div class="bigspacer"></div>
+  <ul class="tag_box" style="list-style-type:none;padding: 10">
     <li>Computational Biologists</li>
+    <li>Software Engineers</li>
     <li>Research and Computational Associates</li>
+    <li>Post Doctoral Fellows</li>
   </ul>
 </div>
-</div>
+
