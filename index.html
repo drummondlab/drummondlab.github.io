@@ -45,6 +45,8 @@ categories:
 
 <div class="row">
 	<div class="col-md-6">
+            <div class="head">Lab Overview</div>
+            <div class="bigspacer"></div>
 		<div class="smallhead">
 			{{ homepage.content }}
 		</div>
@@ -104,7 +106,7 @@ categories:
                 {% assign team_citation_names = team_citation_names | join: ", " %}
 		
 		<div class="bigspacer"></div>
-		<div class="feedbox pad-left">		
+		<div class="feedbox pad-left">
                         {% for paper in site.categories.papers limit:6 %}
 
                           {% assign first_authors = paper.first_authors | split: ", " %}
@@ -121,7 +123,10 @@ categories:
                           {% assign shortref = revised_first_authors | append: " et al. " | append: paper.journal | append: " " | append: paper.year %}
 
 
-				<div class="note-title">
+			         <!-- <div class="note-title"></div> -->
+                            
+		                 <!-- <div class="media"> -->
+		                <div>
 					<i class="fa fa-file-text-o fa-fw"></i>
 					{% if paper.preprint %}
 					Preprint: 

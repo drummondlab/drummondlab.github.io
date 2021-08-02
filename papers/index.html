@@ -41,6 +41,7 @@ navorder: 3
 {% assign team_citation_names = team_citation_names | join: ", " %}
 
 <div class="bigspacer"></div>
+
 {% assign year = "" %}
 {% for paper in site.categories.papers %}
     {% if paper.year != year %}
@@ -73,46 +74,60 @@ navorder: 3
     {% assign  shortened_authors  = shortened_authors | join: ", " %}
     {% assign shortref = shortened_authors | append: " " | append: paper.journal | append: " " | append: paper.year %}
 
-    <div class="media">
-      <div class="media-body">
-        <div class="bg-light clearfix">
-          <div class="pull-left">
-            <div class="smallhead media-heading">
-              <div class="text-primary">
-	        <div><a href="{{ paper.url }}" class="off"><em>{{ paper.title }}</em></a></div>
-	      </div>
+
+    <div class="row">
+
+      <div class="col-md-8">  
+
+        <div class="media">
+
+          <div class="media-body">
+
+
+            <div class="bg-light clearfix">
+              <div class="pull-left">
+                <div class="smallhead media-heading">
+                  <div class="text-primary">
+	            <div><a href="{{ paper.url }}" class="off"><em>{{ paper.title }}</em></a></div>
+	          </div>
+                </div>
+
+              <p class="note">
+                {{ shortened_authors }}<br>
+                <span class="journal">
+                  {{ paper.journal }}
+                </span>
+                {% if paper.volume %}
+                  {{ paper.volume }}
+                {% endif %}
+                {% if paper.issue %}
+                  ({{ paper.issue }})
+                {% endif %}
+                {% if paper.pages %}
+                  {{ paper.pages }} 
+                {% endif %}
+                ({{ paper.year }}).
+              </p>
             </div>
-          <p class="note">
-	    {{ shortened_authors }}<br>
-	    <span class="journal">
-	      {{ paper.journal }}
-	    </span>
-	    {% if paper.volume %}
-	      {{ paper.volume }}
-	    {% endif %}
-	    {% if paper.issue %}
-	      ({{ paper.issue }})
-	    {% endif %}
-	    {% if paper.pages %}
-	      {{ paper.pages }} 
-	    {% endif %}
-	    ({{ paper.year }}).
-          </p>
+          </div>
         </div>
-
-	<div class="pull-right">
-	    <div class='altmetric-embed' data-badge-type='donut' data-badge-popover="right" data-doi={{ paper.doi }}></div>
-	</div>
-
-	<div class="pull-right">
-	    <div class="__dimensions_badge_embed__" data-doi={{ paper.doi }} data-legend="hover-left" data-style="small_circle"></div> 
-	</div>
-
       </div>
-	
     </div>
 
-  </div>
+    <div class="col-md-2">
+      <div class="pull-right">
+        <div class="badge">
+          <div class='altmetric-embed' data-badge-type='donut' data-badge-popover="left" data-doi={{ paper.doi }}></div>
+        </div>
+      </div>
+      <div class="pull-right">
+        <div class="badge">
+          <div class="__dimensions_badge_embed__" data-doi={{ paper.doi }} data-legend="hover-left" data-style="small_circle"></div> 
+        </div>
+      </div>
+    </div>
+
+  </div>  
 
 {% endfor %}
 
