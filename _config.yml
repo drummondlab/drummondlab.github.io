@@ -183,4 +183,7 @@ plugins:
 
 tools:
   - getzlab/deTiN
-
+  - getzlab/MutSig2CV
+  - getzlab/CLUMPS
+  - getzlab/rnaseqc
+  - getzlab/MSMuTect
