@@ -9,9 +9,11 @@ twitter: ugcgccacc
 github: ctriandafillou
 scholar: 
 image: /assets/images/team/cat-2019.jpg
-alum: false
+alum: true
 ---
-Cat is a postdoctoral scholar and a Ph.D. graduate of the [Biophysics program][1] at the [University of Chicago][2].
+Cat is Ph.D. graduate of the [Biophysics program][1] at the [University of Chicago][2]. She was last seen as a postdoctoral scholar in the [Jarosz Lab][3] at [Stanford][4].
 
 [1]: http://biophysics.uchicago.edu
 [2]: http://www.uchicago.edu
+[3]: http://jarosz.stanford.edu
+[3]: http://stanford.edu

@@ -9,8 +9,8 @@ twitter:
 github: 
 scholar: 
 image: /assets/images/team/titi-arowolo.jpg
-alum: false
+alum: true
 ---
-Titi is an undergraduate student at the [University of Chicago][1].
+Titi was an undergraduate researcher at the [University of Chicago][1].
 
 [1]: http://www.uchicago.edu
