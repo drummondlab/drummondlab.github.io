@@ -9,4 +9,4 @@ tags: [fellowship]
 ---
 Congratulations to [Caitlin] for being awarded an NIH NRSA F31 via the National Institute of Environmental Health Sciences for her project, "Investigating the adaptive role of heat-induced biomolecular condensates in translational regulation"!
 
-[Hendrik]: /team/caitlin-wong
+[Caitlin]: /team/caitlin-wong
