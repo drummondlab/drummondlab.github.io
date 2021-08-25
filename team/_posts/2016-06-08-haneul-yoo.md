@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Haneul Yoo"
-position: Graduate student
+position: Postdoctoral scholar
 handle: hy
 nickname: Haneul
 email: haneul@uchicago.edu
@@ -11,7 +11,7 @@ scholar: 13nhImQAAAAJ
 image: /assets/images/team/haneul-yoo.png
 alum: false
 ---
-Haneul is a graduate student in the [Biochemistry & Molecular Biophysics][1] graduate program at the [University of Chicago][2]. She joined the Drummond lab in June 2016. 
+Haneul received her Ph.D. from the [Biochemistry & Molecular Biophysics][1] graduate program at the [University of Chicago][2]. She joined the Drummond lab in June 2016. 
 
 Haneul received her B.S. in Biochemistry in 2013 from UCLA. She studied actin polymerization and [cytoplasmic streaming][3] in fruit fly oocytes in the Quinlan lab until she decided to leave sunny California for graduate school. 
 
