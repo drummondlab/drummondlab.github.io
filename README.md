@@ -1,6 +1,8 @@
 # The Getz Lab main website
 
-Our website, http://www.getzlab.org, is a [GitHub Pages](https://pages.github.com/) site built with [Jekyll](https://jekyllrb.com/) and [Bootstrap](http://getboostrap.com).  The software framework was forked from [Alan Drummond's site](http://drummondlab.org), which was originally pulled from [Trevor Bedford's site](http://bedford.io) and heavily modified.
+Our website, http://www.getzlab.org, is a [GitHub Pages](https://pages.github.com/) site built with [Jekyll](https://jekyllrb.com/) (a static site generator written in ruby) and [Bootstrap](http://getboostrap.com).  The software framework was forked from [Alan Drummond's site](http://drummondlab.org), which was originally pulled from [Trevor Bedford's site](http://bedford.io) and heavily modified.
+
+Content and presentation are separated.  To add content to the site, you will simply need to update or add new markdown files.  Any changes committed to this repo's master branch will automatically be deployed to the public site.
 
 # Editing the site
 
