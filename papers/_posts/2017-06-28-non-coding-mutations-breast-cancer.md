@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [breast cancer, non-coding regions]
 ---
-{% include JB/setup %}
 
 # Abstract
 

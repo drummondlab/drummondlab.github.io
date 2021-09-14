@@ -24,7 +24,6 @@ published: true
 peerreview: true
 tags: [Mutation Significance]
 ---
-{% include JB/setup %}
 
 # Abstract
 

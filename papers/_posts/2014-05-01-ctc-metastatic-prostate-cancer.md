@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [CTC, blood biopsy, metastatic prostate cancer]
 ---
-{% include JB/setup %}
 
 # Abstract
 

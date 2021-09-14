@@ -24,7 +24,6 @@ published: true
 peerreview: true
 tags: [Driver Discovery]
 ---
-{% include JB/setup %}
 
 # Abstract
 

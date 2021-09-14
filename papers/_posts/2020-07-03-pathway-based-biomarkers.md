@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [therapeutic response]
 ---
-{% include JB/setup %}
 
 # Abstract
 

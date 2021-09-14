@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [Microsatellite Instability]
 ---
-{% include JB/setup %}
 
 # Abstract
 

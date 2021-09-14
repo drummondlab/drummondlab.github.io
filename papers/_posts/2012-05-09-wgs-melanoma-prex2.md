@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [WGS, melanoma, PREX2]
 ---
-{% include JB/setup %}
 
 # Abstract
 

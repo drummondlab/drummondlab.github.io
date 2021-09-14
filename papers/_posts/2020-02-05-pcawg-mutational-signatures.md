@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [pcawg, mutational signatures]
 ---
-{% include JB/setup %}
 
 # Abstract
 

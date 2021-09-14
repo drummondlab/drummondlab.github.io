@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [mutational processes, strand asymmetries]
 ---
-{% include JB/setup %}
 
 # Abstract
 

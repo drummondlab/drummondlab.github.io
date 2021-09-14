@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Radiation-related genomic profile of papillary thyroid cancer after the Chernobyl accidant"
+title: "Radiation-related genomic profile of papillary thyroid cancer after the Chernobyl accident"
 year: "2021"
 nickname: rebc-genomic-profile
 journal: "Science"
@@ -22,7 +22,6 @@ published: true
 peerreview: true
 tags: []
 ---
-{% include JB/setup %}
 
 # Abstract
 

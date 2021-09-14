@@ -24,7 +24,6 @@ published: true
 peerreview: true
 tags: [Immuno Oncology, Multiple Myeloma]
 ---
-{% include JB/setup %}
 
 # Abstract
 

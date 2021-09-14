@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [patient survival prediction, molecular data]
 ---
-{% include JB/setup %}
 
 # Abstract
 

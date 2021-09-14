@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [urothelial carcinoma, somatic ERCC2 mutations]
 ---
-{% include JB/setup %}
 
 # Abstract
 

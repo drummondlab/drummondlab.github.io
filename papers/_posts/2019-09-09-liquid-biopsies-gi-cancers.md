@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [liquid biopsy, gi cancer, resistance]
 ---
-{% include JB/setup %}
 
 # Abstract
 

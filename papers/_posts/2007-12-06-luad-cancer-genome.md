@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [GISTIC, LUAD]
 ---
-{% include JB/setup %}
 
 # Abstract
 

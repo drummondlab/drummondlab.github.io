@@ -21,7 +21,6 @@ published: true
 peerreview: true
 tags: [pcawg]
 ---
-{% include JB/setup %}
 
 # Abstract
 

@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [GISTIC, glioma, chromosomal aberrations]
 ---
-{% include JB/setup %}
 
 # Abstract
 

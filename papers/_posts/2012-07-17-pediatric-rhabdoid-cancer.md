@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [rhabdoid cancer]
 ---
-{% include JB/setup %}
 
 # Abstract
 

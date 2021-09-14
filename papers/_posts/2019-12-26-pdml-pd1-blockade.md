@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [PMBL, PD-1 blockade]
 ---
-{% include JB/setup %}
 
 # Abstract
 

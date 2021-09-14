@@ -22,7 +22,6 @@ published: true
 peerreview: true
 tags: [Pediatric Ewing sarcoma, somatic landscape]
 ---
-{% include JB/setup %}
 
 # Abstract
 

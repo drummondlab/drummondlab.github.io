@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [MM, genomic heterogeneity]
 ---
-{% include JB/setup %}
 
 # Abstract
 

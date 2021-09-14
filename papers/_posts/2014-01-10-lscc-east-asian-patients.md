@@ -24,7 +24,6 @@ published: true
 peerreview: true
 tags: [LSCC]
 ---
-{% include JB/setup %}
 
 # Abstract
 

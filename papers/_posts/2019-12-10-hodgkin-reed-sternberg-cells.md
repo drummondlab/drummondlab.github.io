@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [cHL]
 ---
-{% include JB/setup %}
 
 # Abstract
 

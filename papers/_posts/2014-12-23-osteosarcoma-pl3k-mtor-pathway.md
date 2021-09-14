@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [Pl3K, TP53, genomics, mTOR, osteosarcoma]
 ---
-{% include JB/setup %}
 
 # Abstract
 

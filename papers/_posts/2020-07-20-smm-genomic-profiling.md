@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [smoldering multiple myeloma, genomic profiling]
 ---
-{% include JB/setup %}
 
 # Abstract
 

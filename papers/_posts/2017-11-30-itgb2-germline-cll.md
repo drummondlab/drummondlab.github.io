@@ -22,6 +22,5 @@ published: true
 peerreview: true
 tags: [cfDNA, ichorCNA]
 ---
-{% include JB/setup %}
 
 # Abstract

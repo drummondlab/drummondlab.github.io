@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [sequencing artifacts]
 ---
-{% include JB/setup %}
 
 # Abstract
 

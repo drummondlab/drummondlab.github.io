@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [EXITS genes, cancer sex bias]
 ---
-{% include JB/setup %}
 
 # Abstract
 

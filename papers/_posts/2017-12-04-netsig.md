@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [dlbcl, molecular subytpes]
 ---
-{% include JB/setup %}
 
 # Abstract
 

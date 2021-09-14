@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [cll, growth dynamics]
 ---
-{% include JB/setup %}
 
 # Abstract
 

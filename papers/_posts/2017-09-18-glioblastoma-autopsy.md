@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [gliolbastoma, resistance]
 ---
-{% include JB/setup %}
 
 # Abstract
 

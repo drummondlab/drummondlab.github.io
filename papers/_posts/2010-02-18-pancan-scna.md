@@ -21,7 +21,6 @@ published: true
 peerreview: true
 tags: [pan-cancer, SCNA]
 ---
-{% include JB/setup %}
 
 # Abstract
 

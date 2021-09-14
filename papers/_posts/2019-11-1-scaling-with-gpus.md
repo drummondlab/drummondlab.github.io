@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [genomics, GPU]
 ---
-{% include JB/setup %}
 
 # Abstract
 

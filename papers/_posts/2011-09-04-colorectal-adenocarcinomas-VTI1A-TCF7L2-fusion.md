@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [colorectal adenocarcinomas, VTI1A-TCF7L2 fusion]
 ---
-{% include JB/setup %}
 
 # Abstract
 

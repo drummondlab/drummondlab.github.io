@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [BRAF mutation, WES, papillary craniopharyngiomas]
 ---
-{% include JB/setup %}
 
 # Abstract
 

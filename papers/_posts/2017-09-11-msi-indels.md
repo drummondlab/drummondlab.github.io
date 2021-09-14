@@ -24,7 +24,6 @@ published: true
 peerreview: true
 tags: [Microsatellite Indels]
 ---
-{% include JB/setup %}
 
 # Abstract
 

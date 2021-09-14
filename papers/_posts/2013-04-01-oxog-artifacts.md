@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [8-oxoG artifacts]
 ---
-{% include JB/setup %}
 
 # Abstract
 

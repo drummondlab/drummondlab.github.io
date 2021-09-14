@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [RNA-seq, somatic clonal expansion]
 ---
-{% include JB/setup %}
 
 # Abstract
 

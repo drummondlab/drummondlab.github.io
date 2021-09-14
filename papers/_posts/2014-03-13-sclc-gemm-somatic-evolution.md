@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [SCLC, GEMM, genome sequencing]
 ---
-{% include JB/setup %}
 
 # Abstract
 

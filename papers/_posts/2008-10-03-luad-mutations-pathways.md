@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [luad, somatic mutations, signalling pathways]
 ---
-{% include JB/setup %}
 
 # Abstract
 

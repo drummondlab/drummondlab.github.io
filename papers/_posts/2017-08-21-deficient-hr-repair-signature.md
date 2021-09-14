@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [mutational signature, homologous recombination repair, breast cancer]
 ---
-{% include JB/setup %}
 
 # Abstract
 

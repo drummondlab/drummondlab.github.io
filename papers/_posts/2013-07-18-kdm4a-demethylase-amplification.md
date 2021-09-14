@@ -24,7 +24,6 @@ published: true
 peerreview: true
 tags: [KDM4A, amplification, overexpression]
 ---
-{% include JB/setup %}
 
 # Abstract
 

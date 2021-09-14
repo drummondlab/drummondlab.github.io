@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [WES, breast cancer subtypes, mutations, translocations]
 ---
-{% include JB/setup %}
 
 # Abstract
 

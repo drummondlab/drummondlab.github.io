@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [wgs, cll]
 ---
-{% include JB/setup %}
 
 # Abstract
 

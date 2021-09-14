@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [mutational signatures, polymerase proofreading, mismatch repair]
 ---
-{% include JB/setup %}
 
 # Abstract
 

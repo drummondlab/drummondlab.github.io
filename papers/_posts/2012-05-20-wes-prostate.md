@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [WES, prostate cancer]
 ---
-{% include JB/setup %}
 
 # Abstract
 

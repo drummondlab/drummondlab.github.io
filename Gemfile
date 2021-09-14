@@ -9,3 +9,5 @@ gem 'kramdown-parser-gfm'
 
 # Twitter
 gem 'jekyll-twitter-plugin'
+
+gem "webrick", "~> 1.7"

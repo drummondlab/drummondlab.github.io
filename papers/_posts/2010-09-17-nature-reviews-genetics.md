@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [WES, WGS, analysis of cancer genomes]
 ---
-{% include JB/setup %}
 
 # Abstract
 

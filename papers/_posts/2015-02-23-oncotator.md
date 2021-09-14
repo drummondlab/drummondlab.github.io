@@ -22,7 +22,6 @@ published: true
 peerreview: true
 tags: [TCGA, annotation, oncotator]
 ---
-{% include JB/setup %}
 
 # Abstract
 

@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [EAC, wes, wgs]
 ---
-{% include JB/setup %}
 
 # Abstract
 

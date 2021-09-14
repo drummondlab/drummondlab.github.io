@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [Hürthle Cell Carcinoma]
 ---
-{% include JB/setup %}
 
 # Abstract
 

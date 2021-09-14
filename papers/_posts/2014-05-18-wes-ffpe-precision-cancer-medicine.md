@@ -23,7 +23,6 @@ published: true
 peerreview: true
 tags: [WES, FFPE, precision cancer medicine]
 ---
-{% include JB/setup %}
 
 # Abstract
 
