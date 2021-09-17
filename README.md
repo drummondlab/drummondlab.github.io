@@ -37,7 +37,7 @@ The template files are weird-looking HTML files (containing jekyll site variable
 
 For most common actions---adding a lab member, paper, or portal---you'll be making a new Markdown file in the proper location, naming it properly, and filling in the required fields. The markdown files contain a YAML front matter block which is processed by Jekyll.  Different categories of website content (e.g., paper, member, portal) have different YAML dictionary keys in their front matter, so in almost all cases you can (and should!) copy an existing item, change the name, and change its content, rather than trying to write a Markdown document from scratch.
 
-For example, suppose you recently had a paper published and want it listed in the Getz Lab website.  Recently published papers (six most recently published) appear on the front page under the heading "Recent Papers" and all papers added to the website will appear under Selected Papers, navigated to by selecting Papers in the top nav bar. Creating a new paper "post" in the `papers/_posts` folder will add your new publication to the website's publications listings.  Go into the `news/_posts` folder. Copy one of the existing items into a new file whose name is prefaced with the paper's publication date (this is important!) and a abbreviated version of the title.  For example, we want to add a recent (5/1/2021) Cancer Discovery paper co-authored by are large team of researchers where Gaddy wasis a co-senior author and Yosi Maruvka is a co-first author.  The paper's title is "DNA Polymerase and Mismatch Repair Exert Distinc Microsatellite Instability Signatures in Normal and Malignant Human Cells".  First thing we do is cd to the papers/_posts subdirectory and, using a recent paper post as a template, create a file for our new publication:
+For example, suppose you recently had a paper published and want it listed in the Getz Lab website.  Creating a new paper "post" in the `papers/_posts` folder will add your new publication to the website's publications listing.  Go into the `news/_posts` folder. Copy one of the existing items into a new file whose name is prefaced with the paper's publication date (this is important!) and a abbreviated version of the title.  For example, we want to add a recent (5/1/2021) Cancer Discovery paper co-authored by are large team of researchers where Gaddy wasis a co-senior author and Yosi Maruvka is a co-first author.  The paper's title is "DNA Polymerase and Mismatch Repair Exert Distinc Microsatellite Instability Signatures in Normal and Malignant Human Cells".  First thing we do is cd to the papers/_posts subdirectory and, using a recent paper post as a template, create a file for our new publication:
 
 	cp 2021-04-22-rebc-genomic-profile.md 2021-05-01-mismatch-repair-msi-signatures.md
 
@@ -59,7 +59,6 @@ The date is used by the static file generator; it's inelegant and perhaps there'
 	pdflink: https://cancerdiscovery.aacrjournals.org/content/11/5/1176.long
 	doi: 10.1158/2159-8290.CD-20-0790
 	pmid: 33355208
-	pmicd: PMC8223607
 	category: paper
 	published: true
 	peerreview: true
@@ -122,6 +121,9 @@ Fonts, colors, spacing, and similar stylings are separate from the template page
 
 # Content Classes
 ## papers
+
+The Getz Lab website displays lists of publications on two pages.  Recently published papers (six most recently published) appear on the front page under the heading "Recent Papers" and all papers added to the website will appear under Selected Papers, navigated to by selecting Papers in the top nav bar.  In both listings, the names of authors that are current or past lab members are in a **bold** font.  In both listings, a paper's title is an internal like to a web page devoted to that paper.  The paper's web page lists all of the paper's authors; journal name, issue and page; abstract; public link to journal article pdf (if available); the PubMed ID (linked to PubMed entry); and the DOI, which is linked back to the paper's permanent web address. 
+
 ## team
 ## portals
 ## positions

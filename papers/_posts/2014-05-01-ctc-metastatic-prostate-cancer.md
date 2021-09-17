@@ -13,8 +13,8 @@ first_authors: "Lohr JG, Adalsteinsson VA, Cibulskis K"
 senior_authors:  "Getz G, Boehm JS, Love JC"
 corresponding_authors: "Getz G, Boehm JS, Love JC"
 image: /assets/images/papers/Lohr2014_Fig1.png
-pdf:
 pdfLink:
+fulltext:
 doi: 10.1038/nbt.2892
 pmid: 24752078
 pmcid: PMC4034575

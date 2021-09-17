@@ -13,7 +13,7 @@ first_authors: "Maruvka, YE"
 senior_authors: "Getz G"
 corresponding_authors: "Getz G"
 image: 
-pdf:
+fulltext:
 pdflink: 
 github:
 pmid: 28892075

@@ -12,7 +12,7 @@ authors: "Tiao G, Improgo MR, Tausch E, Fernandes SM, Bahlo J, Robrecht S, Fisch
 first_authors: "Tiao G, Improgo MR"
 senior_authors: "Getz G, Brown JR"
 corresponding_authors: "Brown JR"
-pdf:
+fulltext:
 pdflink:
 doi: 10.1182/blood-2017-08-800128
 pmid: 29051179

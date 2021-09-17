@@ -12,7 +12,7 @@ first_authors: "Morton L, Karyadi D, Stewart C"
 senior_authors: "Getz G, Chanock S"
 corresponding_authors: "Morton L, Chanock S"
 image: 
-pdf:
+fulltext:
 pdflink:
 doi: 10.1126/science.abg2538
 pmid:

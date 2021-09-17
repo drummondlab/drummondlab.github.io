@@ -12,8 +12,8 @@ authors: "Ramos AH, Lichtenstein L, Gupta M, Lawrence MS, Pugh TJ, Saksena G, Me
 first_authors: "Ramos AH"
 senior_authors: "Meyerson M, Getz G"
 image: /assets/images/papers/default-paper.png
-pdf:
 pdflink:
+fulltext:
 doi: 10.1002/humu.22771
 pmid: 25703262
 pmcid: PMC7350419

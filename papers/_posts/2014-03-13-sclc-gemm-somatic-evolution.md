@@ -13,8 +13,8 @@ first_authors:  "McFadden DG, Papagiannakopoulos T, Taylor-Weiner A, Stewart C, 
 senior_authors: "Getz G, Jacks T"
 corresponding_authors: "Getz G, Jacks T"
 image: /assets/images/papers/McFadden2014_Abstract.png
-pdf:
 pdflink: https://www.cell.com/action/showPdf?pii=S0092-8674%2814%2900230-X
+fulltext:
 doi: 10.1016/j.cell.2014.02.031
 pmid: 24630729
 pmcid: PMC4040459

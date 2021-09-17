@@ -13,8 +13,8 @@ first_authors: "Brastianos PK, Nayyar N, Rosebrock D, Leshchiner I"
 senior_authors: "Cahill DP, Getz G, Batchelor TT"
 corresponding_authors: "Brastianos PK, Batchelor TT"
 image: /assets/images/papers/Brastianos2017_Fig1.png
-pdf:
-pdflink: https://www.nature.com/articles/s41698-017-0035-9
+fulltext: https://www.nature.com/articles/s41698-017-0035-9
+pdflink:
 doi: 10.1038/s41698-017-0035-9
 pmid: 29872714
 pmcid: PMC5871833

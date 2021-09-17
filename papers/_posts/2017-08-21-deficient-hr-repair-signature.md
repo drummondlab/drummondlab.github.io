@@ -13,7 +13,7 @@ first_authors: "Polak P, Kim J, Braunstein LZ"
 senior_authors: "Foulkes WD, Getz G"
 corresponding_authors: "Getz G"
 image: /assets/images/papers/Polak2017_Fig1.png
-pdf:
+fulltext:
 pdflink:
 doi: 10.1038/ng.3934
 pmid: 28825726

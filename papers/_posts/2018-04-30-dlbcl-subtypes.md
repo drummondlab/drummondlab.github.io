@@ -13,7 +13,7 @@ first_authors: "Chapuy B, Stewart C, Dunford AJ"
 senior_authors: "Getz G, Shipp MA"
 corresponding_authors: "Getz G, Shipp MA"
 image: /assets/images/papers/Chapuy2018_Fig1.png
-pdf:
+fulltext:
 pdflink:
 doi: 10.1038/s41591-018-0016-8
 pmid: 29713087

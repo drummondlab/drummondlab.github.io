@@ -13,8 +13,8 @@ first_authors: "Shukla SA"
 senior_authors: "Wu CG, Getz G"
 corresponding_authors: "Wu CG, Getz G"
 image: /assets/images/papers/Shukla2015_Fig1.png
-pdf:
 pdflink: https://www.nature.com/articles/nbt.3344.pdf
+fulltext:
 doi: 10.1038/nbt.3344
 pmid: 26372948
 pmcid: PMC4747795

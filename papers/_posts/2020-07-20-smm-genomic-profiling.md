@@ -13,7 +13,7 @@ image: /assets/images/papers/Bustoros2020_Fig1.png
 first_authors: "Busteros M, Sklavenitis-Pistofidis R"
 senior_authors: "Manier S, Getz G, Ghobrial IM"
 corresponding_authors: "Sklavenitis-Pistofidis R, Ghobrial IM"
-pdf:
+fulltext:
 pdflink:
 pmid: 32442065
 pmcid: PMC7367550

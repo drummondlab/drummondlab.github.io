@@ -13,8 +13,8 @@ first_authors:  "Lohr JG, Stojanov P, Carter SL"
 senior_authors: "Getz G, Golub TR"
 corresponding_authors: "Golub TR"
 image: /assets/images/papers/Lohr2014b_Fig1.png
-pdf:
 pdflink: https://www.cell.com/action/showPdf?pii=S1535-6108%2813%2900542-4
+fulltext:
 doi: 10.1016/j.ccr.2013.12.015
 pmid: 24434212
 pmcid: PMC4241387

@@ -13,7 +13,7 @@ first_authors:  "Brastianos PK, Carter SL"
 senior_authors: "Getz G, Hahn WC"
 corresponding_authors: "Brastianos PK, Hahn WC, Carter SL, Getz G"
 image: /assets/images/papers/Brastianos2015_Fig1.png
-pdf:
+fulltext:
 pdflink: https://cancerdiscovery.aacrjournals.org/content/5/11/1164.full-text.pdf
 doi: 10.1158/2159-8290.CD-15-0369
 pmid: 26410082

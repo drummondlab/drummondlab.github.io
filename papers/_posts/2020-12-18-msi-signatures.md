@@ -13,7 +13,7 @@ first_authors: "Chung J, Maruvka YE"
 senior_authors: "Getz G, Tabori U"
 corresponding_authors: "Getz G, Tabori U"
 image: /assets/images/papers/Chung2020_Fig2.png
-pdf:
+fulltext:
 pdflink: https://cancerdiscovery.aacrjournals.org/content/early/2020/12/18/2159-8290.CD-20-0790.full-text.pdf
 pmid: 33355208
 pmcid:

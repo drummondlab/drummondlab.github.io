@@ -13,7 +13,7 @@ first_authors: "Haradhvala NJ, Polak P"
 senior_authors: "Lawrence MS, Getz G"
 corresponding_authors: "Lawrence MS, Getz G"
 image: /assets/images/papers/Haradhvala2016_Abstract.png
-pdf:
+fulltext:
 pdflink: https://www.cell.com/action/showPdf?pii=S0092-8674%2815%2901714-6
 doi: 10.1016/j.cell.2015.12.050
 pmid: 26806129

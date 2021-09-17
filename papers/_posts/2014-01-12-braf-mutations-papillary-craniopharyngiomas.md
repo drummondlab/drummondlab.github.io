@@ -13,7 +13,6 @@ first_authors: "Brastianos PK, Taylor-Weiner A, Manley PE"
 senior_authors: "Kieran MW, Getz G, Santagata S"
 corresponding_authors: "Brastianos PK, Getz G, Santagata S"
 image: /assets/images/papers/Brastianos2014_Fig2.png
-pdf:
 pdflink:
 doi: 10.1038/ng.2868
 pmid: 24413733

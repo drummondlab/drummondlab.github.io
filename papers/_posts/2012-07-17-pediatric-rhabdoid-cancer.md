@@ -13,7 +13,7 @@ first_authors: "Lee RS, Stewart C"
 senior_authors: "Biegel JA, Getz G, Roberts CW"
 corresponding_authors: "Biegel JA, Getz G, Roberts CW"
 image: /assets/images/papers/Lee2012_Fig2.png
-pdf:
+fulltext:
 pdflink: https://www.jci.org/articles/view/64400/pdf
 doi: 10.1172/JCI64400
 pmid: 22797305

@@ -13,8 +13,8 @@ first_authors: "Perry JA, Kiezun A"
 senior_authors: "Getz G, Janeway KA"
 corresponding_authors: "Orkin SH, Getz G, Janeway KA"
 image: /assets/images/papers/Perry2014_Fig1.png
-pdf:
 pdflink: https://www.pnas.org/content/pnas/111/51/E5564.full.pdf
+fulltext:
 doi: 10.1073/pnas.1419260111
 pmid: 25512523
 pmcid: PMC4280630

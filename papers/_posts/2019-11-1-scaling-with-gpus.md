@@ -13,7 +13,7 @@ first_authors: "Taylor-Weiner A, Aguet F"
 senior_authors: "Getz G"
 corresponding_authors: "Getz G"
 image: /assets/images/papers/Taylor-Weiner2019_Fig1.png
-pdf:
+fulltext:
 pdflink: https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-019-1836-7.pdf
 doi: 10.1186/s13059-019-1836-7
 pmid: 31675989

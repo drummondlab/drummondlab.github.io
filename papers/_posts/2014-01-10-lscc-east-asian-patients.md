@@ -13,8 +13,8 @@ first_authors: "Kim Y, Hammerman PS, Kim J"
 senior_authors: "Getz G, Meyerson M, Park K"
 corresponding_authors: "Park K"
 image: /assets/images/papers/Kim2014_Fig1.png
-pdf:
-pdflink: https://ascopubs.org/doi/10.1200/JCO.2013.50.8556?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
+pdflink:
+fulltext: https://ascopubs.org/doi/10.1200/JCO.2013.50.8556?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
 github:
 doi: 10.1200/JCO.2013.50.8556
 pmid: 24323028

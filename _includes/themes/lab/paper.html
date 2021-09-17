@@ -95,7 +95,7 @@ with gratitude.
       <div class="hugespacer"></div>
 
 
-      {% if page.pdf or page.pdflink or page.fulltext %}
+      {% if page.pdflink or page.fulltext %}
       <div class="smallhead">
 	Full text
       </div>	
@@ -108,11 +108,6 @@ with gratitude.
 	{% else %}
 	<a class="off" href="{{ page.pdflink }}">Journal PDF</a>
 	{% endif %}
-	<br/>
-	{% endif %}
-	{% if page.pdf %}
-	<i class="fa fa-file-pdf-o fa-fw"></i>
-	<a class="off" href="{{ page.pdf }}">PDF</a>
 	<br/>
 	{% endif %}
 	{% if page.fulltext %}

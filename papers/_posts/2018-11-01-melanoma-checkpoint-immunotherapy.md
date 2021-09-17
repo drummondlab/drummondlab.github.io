@@ -13,7 +13,7 @@ first_authors: "Sade-Feldman M, Yizhak K"
 senior_authors: "Getz G, Hacohen N"
 corresponding_authors: "Getz G, Hacohen N"
 image: /assets/images/papers/Sade-Feldman2018_Fig1.png
-pdf:
+fulltext:
 pdflink: https://www.cell.com/action/showPdf?pii=S0092-8674%2818%2931394-1
 doi: 10.1016/j.cell.2018.10.038
 pmid: 30388456

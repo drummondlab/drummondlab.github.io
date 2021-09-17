@@ -13,7 +13,7 @@ first_authors: "Chapuy B, Stewart C, Dunford AJ"
 senior_authors: "Getz G, Shipp MA"
 corresponding_authors: "Shipp MA"
 image: /assets/images/papers/Chapuy2019_FigAbstract.png
-pdf:
+fulltext:
 pdflink:
 doi: 10.1182/blood.2019002067
 pmid: 31697821

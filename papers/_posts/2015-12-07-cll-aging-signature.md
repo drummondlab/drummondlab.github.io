@@ -13,7 +13,7 @@ first_authors: "Kasar S, Kim J"
 senior_authors: "Getz G, Brown JR"
 corresponding_authors: "Getz G, Brown JR"
 image: /assets/images/papers/Kasar2015_Fig4.png
-pdf:
+fulltext:
 pdflink: https://www.nature.com/articles/ncomms9866.pdf
 doi: 10.1038/ncomms9866
 pmid: 26638776

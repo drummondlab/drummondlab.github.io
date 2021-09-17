@@ -14,8 +14,8 @@ first_authors: "Black JC, Manning AL, Van Rechem C, Kim J"
 senior_authors: "Getz G, Whetstine JR"
 corresponding_authors: "Getz G, Whetstine JR"
 image: /assets/images/papers/Black2013_Fig1.png
-pdf:
 pdflink: https://www.cell.com/action/showPdf?pii=S0092-8674%2813%2900833-7
+fulltext:
 doi: 10.1016/j.cell.2013.06.051
 pmid: 23871696
 pmcid: PMC3832053

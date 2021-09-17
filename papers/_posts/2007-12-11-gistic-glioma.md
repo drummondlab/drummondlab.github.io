@@ -13,7 +13,7 @@ first_authors: "Beroukhim R, Getz G"
 senior_authors: "Lander ES, Mellinghoff IK, Sellers WR"
 corresponding_authors: "Lander ES, Mellinghoff IK, Sellers WR"
 image: /assets/images/papers/Beroukhim2007_Fig1.png
-pdf:
+fulltext:
 pdflink: https://www.pnas.org/content/pnas/104/50/20007.full.pdf
 doi: 10.1073/pnas.0710052104
 pmid: 18077431

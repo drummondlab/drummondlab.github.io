@@ -13,7 +13,7 @@ first_authors: "Alexandrov LB, Kim J"
 senior_authors:  "Getz G, Rozen SG, Stratton MR"
 corresponding_authors: "Rozen SG, Stratton MR"
 image: /assets/images/papers/Alexandrov2020_Fig1.png
-pdf:
+fulltext:
 pdflink: https://www.nature.com/articles/s41586-020-1943-3.pdf
 pmid: 32025018
 pmcid: PMC7054213

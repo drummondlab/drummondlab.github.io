@@ -13,8 +13,8 @@ first_authors: "Landau DA, Clement K"
 senior_authors: "Getz G, Meissner A, Wu CJ"
 corresponding_authors: "Meissner A, Wu CJ"
 image: /assets/images/papers/Landau2014_Abstract.png
-pdf:
 pdflink: https://www.cell.com/action/showPdf?pii=S1535-6108%2814%2900416-4
+fulltext:
 doi: 10.1016/j.ccell.2014.10.012
 pmid: 25490447
 pmcid: PMC4302418

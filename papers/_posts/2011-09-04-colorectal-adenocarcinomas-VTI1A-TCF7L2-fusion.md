@@ -13,7 +13,7 @@ first_authors: "Bass AJ, Lawrence MS"
 senior_authors: "Getz G, Meyerson M"
 corresponding_authors: "Getz G, Meyerson M"
 image: /assets/images/papers/Bass2011_Fig1.png
-pdf:
+fulltext:
 pdflink:
 doi: 10.1038/ng.936
 pmid: 21892161

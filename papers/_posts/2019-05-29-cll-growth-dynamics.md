@@ -13,7 +13,7 @@ first_authors: "Gruber M, Bozic I, Leshchiner I, Livitz D"
 senior_authors: "Getz G, Wu CJ"
 corresponding_authors: "Getz G, Wu CJ"
 image: /assets/images/papers/Gruber2019_Fig1.png
-pdf:
+fulltext:
 pdflink:
 doi: 10.1038/s41586-019-1252-x
 pmid: 31142838

@@ -13,8 +13,8 @@ first_authors: "Van Allen EM, Wagle N"
 senior_authors: "Gabriel S, Getz G, Garraway LA"
 corresponding_authors: "Getz G, Garraway LA"
 image: /assets/images/papers/VanAllen2014_Fig1.png
-pdf:
-pdfLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4048335/
+fulltext: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4048335/
+pdflink:
 doi: 10.1038/nm.3559
 pmid: 24836576
 pmcid: PMC4048335

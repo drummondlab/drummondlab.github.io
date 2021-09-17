@@ -13,7 +13,7 @@ first_authors: "Dunford A, Weinstock D"
 senior_authors: "Lawrence MS, Getz G, Lane AA"
 corresponding_authors: "Lane AA"
 image: /assets/images/papers/Dunford2017_Fig1.png
-pdf:
+fulltext:
 pdflink:
 doi: 10.1038/ng.3726
 pmid: 27869828

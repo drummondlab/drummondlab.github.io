@@ -13,8 +13,8 @@ first_authors: "Costello M"
 senior_authors: "Getz G"
 corresponding_authors: "Costello M"
 image: /assets/images/papers/Costello2013_Fig1.png
-pdf:
 pdflink:
+fulltext:
 doi: 10.1093/nar/gks1443
 pmid: 23303777
 pmcid: PMC3616734

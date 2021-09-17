@@ -13,8 +13,8 @@ first_authors: "Zack TI, Schumacher SE"
 senior_authors: "Getz G, Meyerson M, Beroukhim R"
 corresponding_authors: "Beroukhim R"
 image: /assets/images/papers/Zack2013_Fig1.png
-pdf:
 pdflink: https://www.nature.com/articles/ng.2760.pdf
+fulltext:
 doi: 10.1038/ng.2760
 pmid: 24071852
 pmcid: PMC3966983

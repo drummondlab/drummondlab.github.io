@@ -13,7 +13,7 @@ first_authors: "Banerji S, Cibulskis K, Rangel-Escareno C"
 senior_authors: "Toker A, Getz G, Hidalgo-Miranda A, Meyerson M"
 corresponding_authors: "Toker A, Getz G, Hidalgo-Miranda A, Meyerson M"
 image: /assets/images/papers/Banerji2012_Fig1.png
-pdf:
+fulltext:
 pdflink: https://www.nature.com/articles/nature11154.pdf
 doi: 10.1038/nature11154
 pmid: 22722202

@@ -13,7 +13,7 @@ first_authors: "Ben-Hamo R"
 senior_authors: "Getz G, Straussman R"
 corresponding_authors: "Getz G, Straussman R"
 image: /assets/images/papers/Ben-Hamo2020_Fig1.png
-pdf:
+fulltext:
 pdflink: https://www.nature.com/articles/s41467-020-17090-y.pdf
 pmid: 32620799
 pmcid: PMC7335104

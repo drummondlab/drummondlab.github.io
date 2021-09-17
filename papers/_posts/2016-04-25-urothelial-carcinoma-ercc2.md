@@ -13,7 +13,7 @@ first_authors: "Kim J, Mouw KW, Polak P"
 senior_authors: "Getz G"
 corresponding_authors: "Getz G"
 image: /assets/images/papers/Kim2016_Fig1.png
-pdf:
+fulltext:
 pdflink:
 doi: 10.1038/ng.3557
 pmid: 27111033

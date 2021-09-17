@@ -13,7 +13,7 @@ first_authors: "Barbieri CE, Baca SC, Lawrence MS"
 senior_authors: "Getz G, Rubin MA, Garraway LA"
 corresponding_authors: "Rubin MA, Garraway LA"
 image: /assets/images/papers/Barbieri2012_Fig1.png
-pdf:
+fulltext:
 pdflink: 
 doi: 10.1038/ng.2279
 pmid: 22610119

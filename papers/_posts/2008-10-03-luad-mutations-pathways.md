@@ -13,7 +13,7 @@ first_authors: "Ding L, Getz G, Wheeler DA"
 senior_authors: "Meyerson M, Wilson RK"
 corresponding_authors: "Meyerson M, Wilson RK"
 image: /assets/images/papers/Ding2008_Fig6.png
-pdf:
+fulltext:
 pdflink: https://www.nature.com/articles/nature07423.pdf
 doi: 10.1038/nature07423
 pmid: 18948947

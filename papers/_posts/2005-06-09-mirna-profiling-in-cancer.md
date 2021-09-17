@@ -13,7 +13,6 @@ first_authors: "Lu JH"
 senior_authors: "Golub TR"
 corresponding_authors: "Golub TR"
 image: /assets/images/papers/default-paper.svg
-pdf:
 pdflink:
 doi: 10.1038/nature03702
 pmid: 15944708.

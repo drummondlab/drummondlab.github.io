@@ -13,7 +13,7 @@ first_authors: "Rheinbay E, Parasuraman P"
 senior_authors: "Getz G"
 corresponding_authors: "Getz G"
 image: /assets/images/papers/Rheinbay2017_Fig1.png
-pdf:
+full:
 pdflink:
 doi: 10.1038/nature22992
 pmid: 28658208

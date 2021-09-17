@@ -13,7 +13,7 @@ first_authors: "Hess JM"
 senior_authors: "Lawrence MS, Getz G"
 corresponding_authors: "Lawrence MS, Getz G"
 image: /assets/images/papers/Hess2019_Abstract.png
-pdf:
+fulltext:
 pdflink: https://www.cell.com/action/showPdf?pii=S1535-6108%2819%2930370-8
 github:
 pmid: 31526759

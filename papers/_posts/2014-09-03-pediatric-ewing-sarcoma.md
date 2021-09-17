@@ -13,7 +13,7 @@ first_authors: "Crompton BD, Stewart C"
 senior_authors: "Getz G, Mora J, Stegmaier K"
 corresponding_authors: "Stegmaier K"
 image: /assets/images/papers/Crompton2014_Fig1.png
-pdf:
+fulltext:
 pdflink: https://cancerdiscovery.aacrjournals.org/content/4/11/1326.full-text.pdf
 doi: 10.1158/2159-8290.CD-13-1037
 pmid: 25186949

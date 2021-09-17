@@ -13,7 +13,7 @@ first_authors: "Wienand K, Chapuy B, Stewart C, Dunford AJ, Wu D"
 senior_authors: "Fromm JR, Getz G, Shipp MA"
 corresponding_authors: "Fromm JR, Getz G, Shipp MA"
 image: /assets/images/papers/Wienand2019_FigAbstract.png
-pdf:
+fulltext:
 pdflink:
 pmid: 31816062
 pmcid: PMC6963251

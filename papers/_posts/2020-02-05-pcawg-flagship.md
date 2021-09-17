@@ -11,7 +11,7 @@ pages: 82-93
 authors: "ICGC/TCGA Pan-Cancer Analysis of Whole Genomes Consortium"
 first_authors: "ICGC/TCGA Pan-Cancer Analysis of Whole Genomes Consortium"
 image: /assets/images/papers/PCAWG2020_Fig1.png
-pdf:
+fulltext:
 pdflink: https://www.nature.com/articles/s41586-020-1969-6.pdf
 pmid: 32025007
 pmcid: PMC7025898

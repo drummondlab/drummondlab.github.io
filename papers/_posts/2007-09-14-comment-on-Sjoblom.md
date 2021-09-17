@@ -13,8 +13,8 @@ first_authors: "Getz G, Höfling H"
 senior_authors: "Lander ES"
 corresponding_authors: "Getz G"
 image: /assets/images/papers/default-paper.svg
-pdf:
-pdflink: https://science.sciencemag.org/content/317/5844/1500.2.long
+fulltext: https://science.sciencemag.org/content/317/5844/1500.2.long
+pdflink:
 doi: 10.1126/science.1138764
 pmid: 17872428
 pmcid:

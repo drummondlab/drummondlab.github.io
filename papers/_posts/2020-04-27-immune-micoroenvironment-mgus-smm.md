@@ -13,7 +13,7 @@ first_authors: "Zavidij O, Haradhvala NJ, Mouhieddine TH"
 senior_authors: "Azzi J, Getz G, Ghobrial IM"
 corresponding_authors: "Getz G, Ghobrial IM"
 image: /assets/images/papers/Zavidij2020_Fig1.png
-pdf: 
+fulltext: 
 pdflink:
 github:
 pmid: 33409501

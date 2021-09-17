@@ -12,7 +12,7 @@ first_authors: "Sklavenitis-Pistofidis R"
 senior_authors: "Getz G, Ghobrial I"
 corresponding_authors: "Ghobrial I"
 image: 
-pdf:
+fulltext:
 pdflink:
 doi: 10.1038/s41591-021-01276-y
 pmid: 33664491

@@ -13,8 +13,8 @@ first_authors: "Yuan Y, Van Allen EM, Omberg L"
 senior_authors: "Garraway LA, Margolin AA, Getz G, Liang H"
 corresponding_authors: "Margolin AA, Getz G, Liang H"
 image: /assets/images/papers/Yuan2014_Fig1.png
-pdf:
 pdflink: https://www.nature.com/articles/nbt.2940.pdf
+fulltext:
 doi: 10.1038/nbt.2940
 pmid: 24952901
 pmcid: PMC4102885

@@ -13,7 +13,7 @@ first_authors: "Stewart C, Leshchiner I"
 senior_authors: "Getz G"
 corresponding_authors: "Getz G"
 image: /assets/images/papers/Stewart2018_Fig1.png
-pdf:
+fulltext:
 pdflink: https://science.sciencemag.org/content/sci/361/6409/eaas9824.full.pdf
 doi: 10.1126/science.aas9824
 pmid: 30262473

@@ -13,7 +13,7 @@ first_authors: "Yizhak K"
 senior_authors: "Getz G"
 corresponding_authors: "Getz G"
 image: /assets/images/papers/Yizhak2019_Fig1.png
-pdf:
+fulltext:
 pdflink: https://science.sciencemag.org/content/sci/364/6444/eaaw0726.full.pdf
 doi: 10.1126/science.aaw0726
 pmid: 31171663

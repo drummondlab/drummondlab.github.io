@@ -13,7 +13,7 @@ first_authors: "Meyerson M, Gabriel S, Getz G"
 senior_authors: "Meyerson M, Gabriel S, Getz G"
 corresponding_authors: "Meyerson M"
 image: /assets/images/papers/Getz2010_Fig3.png
-pdf:
+fulltext:
 pdflink:
 doi: 10.1038/nrg2841
 pmid: 20847746

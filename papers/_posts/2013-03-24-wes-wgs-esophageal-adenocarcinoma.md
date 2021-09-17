@@ -13,7 +13,7 @@ first_authors: "Dulak AM, Stojanov P"
 senior_authors: "Getz G, Bass AJ"
 corresponding_authors: "Getz G, Bass AJ"
 image: /assets/images/papers/Dulak2013_Fig5.png
-pdf:
+fulltext:
 pdflink:
 doi: 10.1038/ng.2591
 pmid: 23525077
