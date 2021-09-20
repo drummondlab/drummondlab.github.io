@@ -58,7 +58,6 @@ The date is used by the static file generator; it's inelegant and perhaps there'
 	pmid: 33355208
 	category: paper
 	preprint: false
-	tags: []
 	---
 
 	# Abstract
@@ -133,22 +132,26 @@ The yaml front matter should contain the following:
 	title: <full title of paper>
 	year: <publication year>
 	journal: <journal name>
-	volume: [<volume of journal publication>]
-	issue: [<issue of journal publication>]
-	pages: [<start page>-<end page>]
+	[volume: <volume of journal publication>]
+	[issue: <issue of journal publication>]
+	[pages: <start page>-<end page>]
 	authors: <comma-separated list of authors>
 	first_authors: <comma-separated list of first authors>
 	senior_authors: <comma-separated list of senior authors>
 	corresponding_authors: <comma-separated list of corresponding authors>
-	fulltext: [<url to full-text html>]
-	pdflink: [<url to full-text pdf>]
-	pmid: [<pubmed ID>]
+	[fulltext: <url to full-text html>]
+	[pdflink: <url to full-text pdf>]
+	[pmid: <pubmed ID>]
 	doi: <assigned doi>
 	category: paper
-	preprint: [false | true]
-	tags: [<list of comma-separated tags>]
+	[preprint: false | true]
 	---
 	
+IMPORTANT:
+ 
+- surround values with double quotes if value contains embedded whitespace
+- key/value pairs in brackets are optional; you may also list key of optional pair with no accompanying value
+
 To get the comma-separated list of authors (which can be quite long for many of our lab's publications) to to the paper's pubmed site, click on "Cite" under "ACTIONS" and copy/paste the full length of authors.  Note each author is listed lastname first followed by one or two initials, e.g.:
 
 Morton LM, Karyadi DM, Stewart C, Bogdanova TI, Dawson ET, Steinberg MK, Dai J, Hartley SW, Schonfeld SJ, Sampson JN, Maruvka YE, Kapoor V, Ramsden DA, Carvajal-Garcia J, Perou CM, Parker JS, Krznaric M, Yeager M, Boland JF, Hutchinson A, Hicks BD, Dagnall CL, Gastier-Foster JM, Bowen J, Lee O, Machiela MJ, Cahoon EK, Brenner AV, Mabuchi K, Drozdovitch V, Masiuk S, Chepurny M, Zurnadzhy LY, Hatch M, Berrington de Gonzalez A, Thomas GA, Tronko MD, Getz G, Chanock SJ
@@ -174,12 +177,22 @@ Navigating to "Team" (on the top navigation bar) displays Getz Lab membership, b
 - Graduate Students
 - Alumni
 
-Clicking on a team member's name takes one to the member's personal lab webpage.  Each current member of the lab is responsible for creating and/or maintaining their personal webpage.  For many lab members a minimal page has already been created containing a minimal amount of information (name, cateogry position, citation_names, alum status).  You should update this page with your personal information; e.g., twitter, github userid, google scholar id, linkedin id, image, cv).
+Clicking on a team member's name takes one to the member's personal lab webpage.  Each current member of the lab is responsible for creating and/or maintaining their personal webpage.  
+
+These pages reside in the folder team/_posts.  The file's name must follow the following syntax:
+
+	1970-01-01-<last name>-<first name>.md
+	
+While a date is still required, we wanted individuals to be listed in alphabetical order within each category; hence all needed to have the same date stamp...I needed an arbitrary date so I chose the Unix epoch.
+	
+For many lab members a baseline page has already been created containing a minimal amount of information (name, cateogry position, citation_names, alum status).  You should update this page with your personal information; e.g., twitter, github userid, google scholar id, linkedin id, image, cv).
 
 The yaml front matter in a lab member page should contain the following:
 
 	---
-	
+	layout: member
+	title: <member name (first last)>
+	citation_names: 
 	---
 
 
