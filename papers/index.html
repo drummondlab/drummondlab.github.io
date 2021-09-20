@@ -72,8 +72,6 @@ navorder: 3
       {% endif %}
     {% endfor %}	    
     {% assign  shortened_authors  = shortened_authors | join: ", " %}
-    {% assign shortref = shortened_authors | append: " " | append: paper.journal | append: " " | append: paper.year %}
-
 
     <div class="row">
 

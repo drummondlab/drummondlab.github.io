@@ -115,7 +115,6 @@
 		</div>
 
 		
-                {% assign lastname = member.title | split: ' ' | last %}
 
                 {% assign papersq = false %}
                 {% for paper in site.categories.papers %}
@@ -132,8 +131,8 @@
                   {% assign team_citation_names = "" | split: ", " %}
                   {% for team_member in site.categories.team %}
                     {% if team_member.citation_names %}
-                      {% assign team_citation_names = team_member.citation_names | split: ", " %}
-                      {% assign team_citation_names = team_citation_names | concat: member_citation_names %}
+                      {% assign team_member_citation_names = team_member.citation_names | split: ", " %}
+                      {% assign team_citation_names = team_citation_names | concat: team_member_citation_names %}
                     {% endif %}
                   {% endfor %}
                   {% assign team_citation_names = team_citation_names | join: ", " %}
@@ -171,7 +170,6 @@
 		            {% endfor %}	    
 			    
 		          {% assign  shortened_authors  = shortened_authors | join: ", " %}
-		          {% assign shortref = shortened_authors | append: " " | append: paper.journal | append: " " | append: paper.year %}
 
 		          {% if paper.embargo %}
 		            <p>{{ paper.title }}</p>
