@@ -2,8 +2,6 @@
 layout: paper
 title: "Whole-genome sequencing reveals activation-induced cytidine deaminase signatures during indolent chronic lymphocytic leukaemia evolution"
 year: "2015"
-shortref: "Kasar et al. Nature Communications 2015"
-nickname: cll-aging-signature
 journal: "Nature Communications"
 volume: 6
 issue:
@@ -12,15 +10,11 @@ authors: "Kasar S, Kim J, Improgo R, Tiao G, Polak P, Haradhvala N, Lawrence MS,
 first_authors: "Kasar S, Kim J"
 senior_authors: "Getz G, Brown JR"
 corresponding_authors: "Getz G, Brown JR"
-image: /assets/images/papers/Kasar2015_Fig4.png
 fulltext:
 pdflink: https://www.nature.com/articles/ncomms9866.pdf
 doi: 10.1038/ncomms9866
 pmid: 26638776
-pmcid: PMC4686820
 category: paper
-published: true
-peerreview: true
 tags: [wgs, cll]
 ---
 

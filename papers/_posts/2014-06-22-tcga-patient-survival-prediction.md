@@ -2,8 +2,6 @@
 layout: paper
 title: "Assessing the clinical utility of cancer genomic and proteomic data across tumor types"
 year: "2014"
-shortref: "Yuan et al. Nature Biotechnology 2014"
-nickname: tcga-patient-survival-prediction
 journal: "Nature Biotechnology"
 volume: 32
 issue: 7
@@ -12,15 +10,11 @@ authors: "Yuan Y, Van Allen EM, Omberg L, Wagle N, Amin-Mansour A, Sokolov A, By
 first_authors: "Yuan Y, Van Allen EM, Omberg L"
 senior_authors: "Garraway LA, Margolin AA, Getz G, Liang H"
 corresponding_authors: "Margolin AA, Getz G, Liang H"
-image: /assets/images/papers/Yuan2014_Fig1.png
 pdflink: https://www.nature.com/articles/nbt.2940.pdf
 fulltext:
 doi: 10.1038/nbt.2940
 pmid: 24952901
-pmcid: PMC4102885
 category: paper
-published: true
-peerreview: true
 tags: [patient survival prediction, molecular data]
 ---
 

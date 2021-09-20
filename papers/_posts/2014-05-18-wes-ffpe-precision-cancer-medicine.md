@@ -2,8 +2,6 @@
 layout: paper
 title: "Whole-exome sequencing and clinical interpretation of formalin-fixed, paraffin-embedded tumor samples to guide precision cancer medicine"
 year: "2014"
-shortref: "Van Allen et al. Nature Medicine 2014"
-nickname: wes-ffpe-precision-cancer-medicine
 journal: "Nature Medicine"
 volume: 20
 issue: 6
@@ -12,15 +10,11 @@ authors: "Van Allen EM, Wagle N, Stojanov P, Perrin DL, Cibulskis K, Marlow S, J
 first_authors: "Van Allen EM, Wagle N"
 senior_authors: "Gabriel S, Getz G, Garraway LA"
 corresponding_authors: "Getz G, Garraway LA"
-image: /assets/images/papers/VanAllen2014_Fig1.png
 fulltext: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4048335/
 pdflink:
 doi: 10.1038/nm.3559
 pmid: 24836576
-pmcid: PMC4048335
 category: paper
-published: true
-peerreview: true
 tags: [WES, FFPE, precision cancer medicine]
 ---
 

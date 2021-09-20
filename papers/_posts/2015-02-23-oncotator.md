@@ -2,8 +2,6 @@
 layout: paper
 title: "Oncotator: cancer variant annotation tool"
 year: "2015"
-shortref: "Ramos et al. Human Mutation 2015"
-nickname: oncotator
 journal: "Human Mutation"
 volume: 36
 issue: 4
@@ -11,15 +9,11 @@ pages: E2423-9
 authors: "Ramos AH, Lichtenstein L, Gupta M, Lawrence MS, Pugh TJ, Saksena G, Meyerson M, Getz G"
 first_authors: "Ramos AH"
 senior_authors: "Meyerson M, Getz G"
-image: /assets/images/papers/default-paper.png
 pdflink:
 fulltext:
 doi: 10.1002/humu.22771
 pmid: 25703262
-pmcid: PMC7350419
 category: paper
-published: true
-peerreview: true
 tags: [TCGA, annotation, oncotator]
 ---
 

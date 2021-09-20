@@ -2,8 +2,6 @@
 layout: paper
 title: "Genomic Characterization of Brain Metastases Reveals Branched Evolution and Potential Therapeutic Targets"
 year: "2015"
-shortref: "Brastianos et al. Cancer Discovery 2015"
-nickname: genomic-char-brain-metastases
 journal: "Cancer Discovery"
 volume: 5
 issue: 11
@@ -12,15 +10,11 @@ authors: "Brastianos PK, Carter SL, Santagata S, Cahill DP, Taylor-Weiner A, Jon
 first_authors:  "Brastianos PK, Carter SL"
 senior_authors: "Getz G, Hahn WC"
 corresponding_authors: "Brastianos PK, Hahn WC, Carter SL, Getz G"
-image: /assets/images/papers/Brastianos2015_Fig1.png
 fulltext:
 pdflink: https://cancerdiscovery.aacrjournals.org/content/5/11/1164.full-text.pdf
 doi: 10.1158/2159-8290.CD-15-0369
 pmid: 26410082
-pmcid: PMC4916970
 category: paper
-published: true
-peerreview: true
 tags: []
 ---
 

@@ -2,8 +2,6 @@
 layout: paper
 title: "The landscape of somatic copy-number alteration across human cancers"
 year: "2010"
-shortref: "Beroukhim et al. Nature 2010"
-nickname: pancan-scna
 journal: "Nature"
 volume: 463
 issue: 7283
@@ -12,13 +10,9 @@ authors: "Beroukhim R, Mermel CH, Porter D, Wei G, Raychaudhuri S, Donovan J, Ba
 first_authors: "Beroukhim R, Mermel CH"
 senior_authors: "Lander ES, Getz G, Sellers WR, Meyerson M"
 corresponding_authors: "Lander ES, Getz G, Sellers WR, Meyerson M"
-image: /assets/images/papers/Beroukhim2010_Fig1.png
 doi: 10.1038/nature08822
 pmid: 20164920
-pmcid: PMC2826709
 category: paper
-published: true
-peerreview: true
 tags: [pan-cancer, SCNA]
 ---
 

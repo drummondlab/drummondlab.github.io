@@ -2,8 +2,6 @@
 layout: paper
 title: "A mutational signature reveals alterations underlying deficient homologous recombination repair in breast cancer"
 year: "2017"
-shortref: "Polak et al. Nature Genetics 2017"
-nickname: deficient-hr-repair-signature
 journal: "Nature Genetics"
 volume: 49
 issue: 10
@@ -12,15 +10,11 @@ authors: "Polak P, Kim J, Braunstein LZ, Karlic R, Haradhavala NJ, Tiao G, Roseb
 first_authors: "Polak P, Kim J, Braunstein LZ"
 senior_authors: "Foulkes WD, Getz G"
 corresponding_authors: "Getz G"
-image: /assets/images/papers/Polak2017_Fig1.png
 fulltext:
 pdflink:
 doi: 10.1038/ng.3934
 pmid: 28825726
-pmcid: PMC7376751
 category: paper
-published: true
-peerreview: true
 tags: [mutational signature, homologous recombination repair, breast cancer]
 ---
 

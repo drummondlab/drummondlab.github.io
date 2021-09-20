@@ -2,8 +2,6 @@
 layout: paper
 title: "Characterizing the cancer genome in lung adenocarcinoma"
 year: "2007"
-shortref: "Weir et al. Nature 2007"
-nickname: luad-cancer-genome
 journal: "Nature"
 volume: 450
 issue: 7171
@@ -12,15 +10,11 @@ authors: "Weir BA, Woo MS, Getz G, Perner S, Ding L, Beroukhim R, Lin WM, Provin
 first_authors: "Weir BA, Woo MS, Getz G"
 senior_authors: "Meyerson M"
 corresponding_authors: "Meyerson M"
-image: /assets/images/papers/Weir2007_Fig1.png
 fulltext:
 pdflink: https://www.nature.com/articles/nature06358.pdf
 doi: 10.1038/nature06358
 pmid: 17982442
-pmcid: PMC2538683
 category: paper
-published: true
-peerreview: true
 tags: [GISTIC, LUAD]
 ---
 

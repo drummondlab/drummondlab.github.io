@@ -2,8 +2,6 @@
 layout: paper
 title: "Evolution and impact of subclonal mutations in chronic lymphocytic leukemia"
 year: "2013"
-shortref: "Landau et al. Cell 2013"
-nickname: cll-clonal-evolution
 journal: "Cell"
 volume: 152
 issue: 4
@@ -12,15 +10,11 @@ authors: "Landau DA, Carter SL, Stojanov P, McKenna A, Stevenson K, Lawrence MS,
 first_authors: "Landau DA, Carter SL, Stojanov P"
 senior_authors: "Getz G, Wu CJ"
 corresponding_authors: "Getz G, Wu CJ"
-image: /assets/images/papers/Landau2013_Fig4.png
 fulltext:
 pdflink: https://www.cell.com/action/showPdf?pii=S0092-8674%2813%2900071-8
 doi: 10.1016/j.cell.2013.01.019
 pmid: 23415222
-pmcid: PMC3575604
 category: paper
-published: true
-peerreview: true
 tags: [CLL, Clonal Evolution]
 ---
 

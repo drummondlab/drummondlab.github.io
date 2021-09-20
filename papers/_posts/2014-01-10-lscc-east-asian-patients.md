@@ -2,8 +2,6 @@
 layout: paper
 title: "Integrative and comparative genomic analysis of lung squamous cell carcinomas in East Asian patients"
 year: "2014"
-shortref: "Kim et al. Journal Clinical Oncology 2014"
-nickname: lscc-east-asian-patients
 journal: "Journal Clinical Oncology"
 volume: 32
 issue: 2
@@ -12,16 +10,12 @@ authors: "Kim Y, Hammerman PS, Kim J, Yoon JA, Lee Y, Sun JM, Wilkerson MD, Peda
 first_authors: "Kim Y, Hammerman PS, Kim J"
 senior_authors: "Getz G, Meyerson M, Park K"
 corresponding_authors: "Park K"
-image: /assets/images/papers/Kim2014_Fig1.png
 pdflink:
 fulltext: https://ascopubs.org/doi/10.1200/JCO.2013.50.8556?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
 github:
 doi: 10.1200/JCO.2013.50.8556
 pmid: 24323028
-pmcid: PMC4062710
 category: paper
-published: true
-peerreview: true
 tags: [LSCC]
 ---
 

@@ -2,8 +2,6 @@
 layout: paper
 title: "RNA sequence analysis reveals macroscopic somatic clonal expansion across normal tissues"
 year: "2019"
-shortref: "Yizhak et al. Science 2019"
-nickname: rna-mutect
 journal: "Science"
 volume: 364
 issue: 6444
@@ -12,15 +10,11 @@ authors: "Yizhak K, Aguet F, Kim J, Hess JM, Kübler K, Grimsby J, Frazer R, Zha
 first_authors: "Yizhak K"
 senior_authors: "Getz G"
 corresponding_authors: "Getz G"
-image: /assets/images/papers/Yizhak2019_Fig1.png
 fulltext:
 pdflink: https://science.sciencemag.org/content/sci/364/6444/eaaw0726.full.pdf
 doi: 10.1126/science.aaw0726
 pmid: 31171663
-pmcid: PMC7350423
 category: paper
-published: true
-peerreview: true
 tags: [RNA-seq, somatic clonal expansion]
 ---
 

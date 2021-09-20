@@ -2,8 +2,6 @@
 layout: paper
 title: "Complementary genomic approaches highlight the PI3K/mTOR pathway as a common vulnerability in osteosarcoma"
 year: "2014"
-shortref: "Perry et al. PNAS 2014"
-nickname: osteosarcoma-pl3k-mtor-pathway
 journal: "PNAS"
 volume: 111
 issue: 51
@@ -12,15 +10,11 @@ authors: "Perry JA, Kiezun A, Tonzi P, Van Allen EM, Carter SL, Baca SC, Cowley 
 first_authors: "Perry JA, Kiezun A"
 senior_authors: "Getz G, Janeway KA"
 corresponding_authors: "Orkin SH, Getz G, Janeway KA"
-image: /assets/images/papers/Perry2014_Fig1.png
 pdflink: https://www.pnas.org/content/pnas/111/51/E5564.full.pdf
 fulltext:
 doi: 10.1073/pnas.1419260111
 pmid: 25512523
-pmcid: PMC4280630
 category: paper
-published: true
-peerreview: true
 tags: [Pl3K, TP53, genomics, mTOR, osteosarcoma]
 ---
 

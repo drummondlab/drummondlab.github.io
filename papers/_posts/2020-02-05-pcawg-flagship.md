@@ -2,23 +2,17 @@
 layout: paper
 title: "Pan-cancer analysis of whole genomes"
 year: "2020"
-shortref: "PCAWG Consortium Nature 2020"
-nickname: pcawg-flagship
 journal: "Nature"
 volume: 578
 issue: 7793
 pages: 82-93
 authors: "ICGC/TCGA Pan-Cancer Analysis of Whole Genomes Consortium"
 first_authors: "ICGC/TCGA Pan-Cancer Analysis of Whole Genomes Consortium"
-image: /assets/images/papers/PCAWG2020_Fig1.png
 fulltext:
 pdflink: https://www.nature.com/articles/s41586-020-1969-6.pdf
 pmid: 32025007
-pmcid: PMC7025898
 doi: 10.1038/s41586-020-1969-6
 category: paper
-published: true
-peerreview: true
 tags: [pcawg]
 ---
 

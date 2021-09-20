@@ -2,8 +2,6 @@
 layout: paper
 title: "Defining T Cell States Associated with Response to Checkpoint Immunotherapy in Melanoma"
 year: "2018"
-shortref: "Sade-Feldman et al. Cell 2018"
-nickname: melanoma-checkpoint-immunotherapy
 journal: "Cell"
 volume: 175
 issue: 4
@@ -12,15 +10,11 @@ authors: "Sade-Feldman M, Yizhak K, Bjorgaard SL, Ray JP, de Boer CG, Jenkins RW
 first_authors: "Sade-Feldman M, Yizhak K"
 senior_authors: "Getz G, Hacohen N"
 corresponding_authors: "Getz G, Hacohen N"
-image: /assets/images/papers/Sade-Feldman2018_Fig1.png
 fulltext:
 pdflink: https://www.cell.com/action/showPdf?pii=S0092-8674%2818%2931394-1
 doi: 10.1016/j.cell.2018.10.038
 pmid: 30388456
-pmcid: PMC6641984
 category: paper
-published: true
-peerreview: true
 tags: [cll, growth dynamics]
 ---
 

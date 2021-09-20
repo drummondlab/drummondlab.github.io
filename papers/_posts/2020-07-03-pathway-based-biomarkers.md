@@ -2,8 +2,6 @@
 layout: paper
 title: "Predicting and affecting response to cancer therapy based on pathway-level biomarkers"
 year: "2020"
-shortref: "Ben-Hamo et al. Nature Communications 2020"
-nickname: pathway-based-biomarkers
 journal: "Nature Communciations"
 volume: 11
 issue: 1
@@ -12,15 +10,11 @@ authors: "Ben-Hamo R, Jacob Berger A, Gavert N, Miller M, Pines G, Oren R, Pikar
 first_authors: "Ben-Hamo R"
 senior_authors: "Getz G, Straussman R"
 corresponding_authors: "Getz G, Straussman R"
-image: /assets/images/papers/Ben-Hamo2020_Fig1.png
 fulltext:
 pdflink: https://www.nature.com/articles/s41467-020-17090-y.pdf
 pmid: 32620799
-pmcid: PMC7335104
 doi: 10.1038/s41467-020-17090-y
 category: paper
-published: true
-peerreview: true
 tags: [therapeutic response]
 ---
 

@@ -2,8 +2,6 @@
 layout: paper
 title: "Somatic ERCC2 mutations are associated with a distinct genomic signature in urothelial tumors"
 year: "2016"
-shortref: "Kim et al. Nature Genetics 2016"
-nickname: urothelial-carcinoma-ercc2
 journal: "Nature Genetics"
 volume: 48
 issue: 6
@@ -12,15 +10,11 @@ authors: "Kim J, Mouw KW, Polak P, Braunstein LZ, Kamburov A, Kwiatkowski DJ, Ro
 first_authors: "Kim J, Mouw KW, Polak P"
 senior_authors: "Getz G"
 corresponding_authors: "Getz G"
-image: /assets/images/papers/Kim2016_Fig1.png
 fulltext:
 pdflink:
 doi: 10.1038/ng.3557
 pmid: 27111033
-pmcid: PMC4936490
 category: paper
-published: true
-peerreview: true
 tags: [urothelial carcinoma, somatic ERCC2 mutations]
 ---
 

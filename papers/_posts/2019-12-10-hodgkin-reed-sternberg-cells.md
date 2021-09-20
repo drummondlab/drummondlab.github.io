@@ -2,8 +2,6 @@
 layout: paper
 title: "Genomic analyses of flow-sorted Hodgkin Reed-Sternberg cells reveal complementary mechanisms of immune evasion"
 year: "2019"
-shortref: "Wienand et al. Blood Advances 2019"
-nickname: hodgkin-reed-sterberg-cells
 journal: "Blood Advances"
 volume: 3
 issue: 23
@@ -12,15 +10,11 @@ authors: "Wienand K, Chapuy B, Stewart C, Dunford AJ, Wu D, Kim J, Kamburov A, W
 first_authors: "Wienand K, Chapuy B, Stewart C, Dunford AJ, Wu D"
 senior_authors: "Fromm JR, Getz G, Shipp MA"
 corresponding_authors: "Fromm JR, Getz G, Shipp MA"
-image: /assets/images/papers/Wienand2019_FigAbstract.png
 fulltext:
 pdflink:
 pmid: 31816062
-pmcid: PMC6963251
 doi: 10.1182/bloodadvances.2019001012
 category: paper
-published: true
-peerreview: true
 tags: [cHL]
 ---
 

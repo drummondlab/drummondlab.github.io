@@ -2,8 +2,6 @@
 layout: paper
 title: "Widespread genetic heterogeneity in multiple myeloma: implications for targeted therapy"
 year: "2014"
-shortref: "Lohr et al. Cancer Cell 2014"
-nickname: genetic-heterogeneity-mm
 journal: "Cancer Cell"
 volume: 25
 issue: 11
@@ -12,15 +10,11 @@ authors: "Lohr JG, Stojanov P, Carter SL, Cruz-Gordillo P, Lawrence MS, Auclair 
 first_authors:  "Lohr JG, Stojanov P, Carter SL"
 senior_authors: "Getz G, Golub TR"
 corresponding_authors: "Golub TR"
-image: /assets/images/papers/Lohr2014b_Fig1.png
 pdflink: https://www.cell.com/action/showPdf?pii=S1535-6108%2813%2900542-4
 fulltext:
 doi: 10.1016/j.ccr.2013.12.015
 pmid: 24434212
-pmcid: PMC4241387
 category: paper
-published: true
-peerreview: true
 tags: [MM, genomic heterogeneity]
 ---
 

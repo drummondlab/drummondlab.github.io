@@ -2,8 +2,6 @@
 layout: paper
 title: "KDM4A lysine demethylase induces site-specific copy gain and rereplication of regions amplified in tumors"
 year: "2013"
-shortref: "Black et al. Cell 2013"
-nickname: kdm4a-demethylase-amplification
 journal: "Cell"
 volume: 154
 issue: 3
@@ -13,15 +11,11 @@ authors: "Black JC, Manning AL, Van Rechem C, Kim J, Ladd B, Cho J, Pineda CM, M
 first_authors: "Black JC, Manning AL, Van Rechem C, Kim J"
 senior_authors: "Getz G, Whetstine JR"
 corresponding_authors: "Getz G, Whetstine JR"
-image: /assets/images/papers/Black2013_Fig1.png
 pdflink: https://www.cell.com/action/showPdf?pii=S0092-8674%2813%2900833-7
 fulltext:
 doi: 10.1016/j.cell.2013.06.051
 pmid: 23871696
-pmcid: PMC3832053
 category: paper
-published: true
-peerreview: true
 tags: [KDM4A, amplification, overexpression]
 ---
 

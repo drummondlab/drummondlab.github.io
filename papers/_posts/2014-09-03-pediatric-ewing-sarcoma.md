@@ -2,8 +2,6 @@
 layout: paper
 title: "The genomic landscape of pediatric Ewing sarcoma"
 year: "2014"
-shortref: "Crompton et al. Cancer Discovery 2014"
-nickname: pediatric-ewing-sarcoma
 journal: "Cancer Discovery"
 volume: 4
 issue: 11
@@ -12,14 +10,11 @@ authors: "Crompton BD, Stewart C, Taylor-Weiner A, Alexe G, Kurek KC, Calicchio 
 first_authors: "Crompton BD, Stewart C"
 senior_authors: "Getz G, Mora J, Stegmaier K"
 corresponding_authors: "Stegmaier K"
-image: /assets/images/papers/Crompton2014_Fig1.png
 fulltext:
 pdflink: https://cancerdiscovery.aacrjournals.org/content/4/11/1326.full-text.pdf
 doi: 10.1158/2159-8290.CD-13-1037
 pmid: 25186949
 category: paper
-published: true
-peerreview: true
 tags: [Pediatric Ewing sarcoma, somatic landscape]
 ---
 

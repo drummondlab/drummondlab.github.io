@@ -2,8 +2,6 @@
 layout: paper
 title: "Mutations driving CLL and their evolution in progression and relapse"
 year: "2015"
-shortref: "Landau et al. Nature 2015"
-nickname: cll-drivers
 journal: "Nature"
 volume: 526
 issue: 7574
@@ -12,15 +10,11 @@ authors: "Landau DA, Tausch E, Taylor-Weiner AN, Stewart C, Reiter JG, Bahlo J, 
 first_authors:  "Landau DA, Tausch E, Taylor-Weiner AN"
 senior_authors: "Hallek M, Neuberg D, Getz G, Stilgenbauer S, Wu CJ"
 corresponding_authors: "Getz G, Stilgenbauer S, Wu CJ"
-image: /assets/images/papers/Landau2015_Fig1.png
 pdflink:
 fulltext:
 doi: 10.1038/nature15395
 pmid: 26466571
-pmcid: PMC4815041
 category: paper
-published: true
-peerreview: true
 tags: [cll]
 ---
 

@@ -2,8 +2,6 @@
 layout: paper
 title: "Melanoma genome sequencing reveals frequent PREX2 mutations"
 year: "2012"
-shortref: "Berger et al. Nature 2012"
-nickname: wgs-melanoma-prex2
 journal: "Nature"
 volume: 485
 issue: 7399
@@ -12,15 +10,11 @@ authors: "Berger MF, Hodis E, Heffernan TP, Deribe YL, Lawrence MS, Protopopov A
 first_authors: "Berger MF, Hodis E, Heffernan TP, Deribe YL"
 senior_authors: "Lander ES, Getz G, Chin L, Garraway LA"
 corresponding_authors: "Chin L, Garraway LA"
-image: /assets/images/papers/Berger2012_Fig3.png
 fulltext:
 pdflink: https://www.nature.com/articles/nature11071.pdf
 doi: 10.1038/nature11071
 pmid: 22622578
-pmcid: PMC3367798
 category: paper
-published: true
-peerreview: true
 tags: [WGS, melanoma, PREX2]
 ---
 

@@ -2,8 +2,6 @@
 layout: paper
 title: "Comment on \"The consensus coding sequences of human breast and colorectal cancers\""
 year: "2007"
-shortref: "Getz et al. Science 2007"
-nickname: comment-on-Sjoblom
 journal: "Science"
 volume: 450
 issue: 7171
@@ -12,15 +10,11 @@ authors: "Getz G, Höfling H, Mesirov JP, Golub TR, Meyerson M, Tibshirani R, La
 first_authors: "Getz G, Höfling H"
 senior_authors: "Lander ES"
 corresponding_authors: "Getz G"
-image: /assets/images/papers/default-paper.svg
 fulltext: https://science.sciencemag.org/content/317/5844/1500.2.long
 pdflink:
 doi: 10.1126/science.1138764
 pmid: 17872428
-pmcid:
 category: paper
-published: true
-peerreview: true
 tags: []
 ---
 

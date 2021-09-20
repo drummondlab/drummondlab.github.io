@@ -2,8 +2,6 @@
 layout: paper
 title: "Liquid versus tissue biopsy for detecting acquired resistance and tumor heterogeneity in gastrointestinal cancers"
 year: "2019"
-shortref: "Parikh et al. Nature Medicine 2019"
-nickname: liquid-biopsies-gi-cancers
 journal: "Nature Medicine"
 volume: 25
 issue: 9
@@ -12,15 +10,12 @@ authors: "Parikh AR, Leshchiner I, Elagina L, Goyal L, Levovitz C, Siravegna G, 
 first_authors: "Parikh AR, Leshchiner I, Elagina L"
 senior_authors: "Getz G, Corcoran RB"
 corresponding_authors: "Getz G, Corcoran RB"
-image: /assets/images/papers/Parikh2019_Fig1.png
 fulltext:
 pdflink:
 doi: 10.1038/s41591-019-0561-9
 pmid: 31501609
 mpcid: PMC6741444.
 category: paper
-published: true
-peerreview: true
 tags: [liquid biopsy, gi cancer, resistance]
 ---
 

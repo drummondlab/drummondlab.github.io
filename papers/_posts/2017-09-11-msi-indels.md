@@ -2,8 +2,6 @@
 layout: paper
 title: "Analysis of somatic microsatellite indels identifies driver events in human tumors"
 year: "2017"
-shortref: "Maruvka et al. Nature Biotechnology 2017"
-nickname: ms-indels
 journal: "Nature Biotechnology"
 volume: 35
 issue: 10
@@ -12,16 +10,12 @@ authors: "Maruvka YE, Mouw KW, Karlic R, Parasuraman P, Kamburov A, Polak P, Har
 first_authors: "Maruvka, YE"
 senior_authors: "Getz G"
 corresponding_authors: "Getz G"
-image: 
 fulltext:
 pdflink: 
 github:
 pmid: 28892075
-pmcid:
 doi: 10.1038/nbt.3966
 category: paper
-published: true
-peerreview: true
 tags: [Microsatellite Indels]
 ---
 

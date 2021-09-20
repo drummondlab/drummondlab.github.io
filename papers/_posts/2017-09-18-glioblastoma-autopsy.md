@@ -2,8 +2,6 @@
 layout: paper
 title: "Resolving the phylogenetic origin of glioblastoma via multifocal genomic analysis of pre-treatment and treatment-resistant autopsy specimens"
 year: "2017"
-shortref: "Brastianos et al. Precision Oncology 2017"
-nickname: glioblastoma-autopsy
 journal: "Precision Oncology"
 volume: 1
 issue: 1
@@ -12,15 +10,11 @@ authors: "Brastianos PK, Nayyar N, Rosebrock D, Leshchiner I, Gill CM, Livitz D,
 first_authors: "Brastianos PK, Nayyar N, Rosebrock D, Leshchiner I"
 senior_authors: "Cahill DP, Getz G, Batchelor TT"
 corresponding_authors: "Brastianos PK, Batchelor TT"
-image: /assets/images/papers/Brastianos2017_Fig1.png
 fulltext: https://www.nature.com/articles/s41698-017-0035-9
 pdflink:
 doi: 10.1038/s41698-017-0035-9
 pmid: 29872714
-pmcid: PMC5871833
 category: paper
-published: true
-peerreview: true
 tags: [gliolbastoma, resistance]
 ---
 

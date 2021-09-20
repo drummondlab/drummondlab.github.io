@@ -2,8 +2,6 @@
 layout: paper
 title: "Growth dynamics in naturally progressing chronic lymphocytic leukaemia"
 year: "2019"
-shortref: "Gruber et al. Nature 2019"
-nickname: cll-growth-dynamics
 journal: "Nature"
 volume: 570
 issue: 7762
@@ -12,15 +10,11 @@ authors: "Gruber M, Bozic I, Leshchiner I, Livitz D, Stevenson K, Rassenti L, Ro
 first_authors: "Gruber M, Bozic I, Leshchiner I, Livitz D"
 senior_authors: "Getz G, Wu CJ"
 corresponding_authors: "Getz G, Wu CJ"
-image: /assets/images/papers/Gruber2019_Fig1.png
 fulltext:
 pdflink:
 doi: 10.1038/s41586-019-1252-x
 pmid: 31142838
-pmcid: PMC6630176
 category: paper
-published: true
-peerreview: true
 tags: [cll, growth dynamics]
 ---
 

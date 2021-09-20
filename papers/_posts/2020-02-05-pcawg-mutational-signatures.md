@@ -2,8 +2,6 @@
 layout: paper
 title: "The repertoire of mutational signatures in human cancer"
 year: "2020"
-shortref: "Alexandrov et al. Nature 2020"
-nickname: pcawg-mutational-signatures
 journal: "Nature"
 volume: 578
 issue: 7793
@@ -12,15 +10,11 @@ authors: "Alexandrov LB, Kim J, Haradhvala NJ, Huang MN, Tian Ng AW, Wu Y, Boot 
 first_authors: "Alexandrov LB, Kim J"
 senior_authors:  "Getz G, Rozen SG, Stratton MR"
 corresponding_authors: "Rozen SG, Stratton MR"
-image: /assets/images/papers/Alexandrov2020_Fig1.png
 fulltext:
 pdflink: https://www.nature.com/articles/s41586-020-1943-3.pdf
 pmid: 32025018
-pmcid: PMC7054213
 doi: 10.1038/s41586-020-1943-3
 category: paper
-published: true
-peerreview: true
 tags: [pcawg, mutational signatures]
 ---
 

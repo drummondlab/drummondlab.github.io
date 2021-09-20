@@ -2,8 +2,6 @@
 layout: paper
 title: "Distinct mutational signatures characterize concurrent loss of polymerase proofreading and mismatch repair"
 year: "2018"
-shortref: "Haradhvala et al. Nature Communications 2018"
-nickname: lof-pole-mmr
 journal: "Nature Communications"
 volume: 9
 issue: 1
@@ -12,15 +10,11 @@ authors: "Haradhvala NJ, Kim J, Maruvka YE, Polak P, Rosebrock D, Livitz D, Hess
 first_authors: "Haradhvala NJ, Kim J, Maruvka YE"
 senior_authors: "Mouw KW, Lawrence MS, Getz G"
 corresponding_authors: "Getz G"
-image: /assets/images/papers/Haradhvala2018_Fig1.png
 fulltext:
 pdflink: https://www.nature.com/articles/s41467-018-04002-4.pdf
 doi: 10.1038/s41467-018-04002-4
 pmid: 29717118
-pmcid: PMC5931517
 category: paper
-published: true
-peerreview: true
 tags: [mutational signatures, polymerase proofreading, mismatch repair]
 ---
 

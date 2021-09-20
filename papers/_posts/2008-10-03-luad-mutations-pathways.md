@@ -2,8 +2,6 @@
 layout: paper
 title: "Somatic mutations affect key pathways in lung adenocarcinoma"
 year: "2008"
-shortref: "Ding et al. Nature 2008"
-nickname: luad-mutations-pathways
 journal: "Nature"
 volume: 455
 issue: 7216
@@ -12,15 +10,11 @@ authors: "Ding L, Getz G, Wheeler DA, Mardis ER, McLellan MD, Cibulskis K, Sougn
 first_authors: "Ding L, Getz G, Wheeler DA"
 senior_authors: "Meyerson M, Wilson RK"
 corresponding_authors: "Meyerson M, Wilson RK"
-image: /assets/images/papers/Ding2008_Fig6.png
 fulltext:
 pdflink: https://www.nature.com/articles/nature07423.pdf
 doi: 10.1038/nature07423
 pmid: 18948947
-pmcid: PMC2694412
 category: paper
-published: true
-peerreview: true
 tags: [luad, somatic mutations, signalling pathways]
 ---
 

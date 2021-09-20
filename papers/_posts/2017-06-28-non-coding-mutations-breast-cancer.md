@@ -2,8 +2,6 @@
 layout: paper
 title: "Recurrent and functional regulatory mutations in breast cancer"
 year: "2017"
-shortref: "Rheinbay et al. Nature 2017"
-nickname: non-coding-mutations-breast-cancer
 journal: "Nature"
 volume: 547
 issue: 7661
@@ -12,15 +10,11 @@ authors: "Rheinbay E, Parasuraman P, Grimsby J, Tiao G, Engreitz JM, Kim J, Lawr
 first_authors: "Rheinbay E, Parasuraman P"
 senior_authors: "Getz G"
 corresponding_authors: "Getz G"
-image: /assets/images/papers/Rheinbay2017_Fig1.png
 full:
 pdflink:
 doi: 10.1038/nature22992
 pmid: 28658208
-pmcid: PMC5563978
 category: paper
-published: true
-peerreview: true
 tags: [breast cancer, non-coding regions]
 ---
 

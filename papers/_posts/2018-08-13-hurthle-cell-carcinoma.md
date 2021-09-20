@@ -2,8 +2,6 @@
 layout: paper
 title: "Widespread Chromosomal Losses and Mitochondrial DNA Alterations as Genetic Drivers in Hürthle Cell Carcinoma"
 year: "2018"
-shortref: "Gopal et al. Cancer Cell 2018"
-nickname: hürthle-cell-carcinoma
 journal: "Cancer Cell"
 volume: 34
 issue: 2
@@ -12,15 +10,11 @@ authors: "Gopal RK, Kübler K, Calvo SE, Polak P, Livitz D, Rosebrock D, Sadow P
 first_authors: "Gopal RK, Kübler K"
 senior_authors: "Getz G, McFadden DG"
 corresponding_authors: "Getz G, McFadden DG"
-image: /assets/images/papers/Gopal2018_Fig1.png
 fulltext:
 pdflink: https://www.cell.com/action/showPdf?pii=S1535-6108%2818%2930270-8
 doi: 10.1016/j.ccell.2018.06.013
 pmid: 30107175
-pmcid: PMC6121811
 category: paper
-published: true
-peerreview: true
 tags: [Hürthle Cell Carcinoma]
 ---
 

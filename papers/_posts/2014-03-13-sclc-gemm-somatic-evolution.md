@@ -2,8 +2,6 @@
 layout: paper
 title: "Genetic and clonal dissection of murine small cell lung carcinoma progression by genome sequencing"
 year: "2014"
-shortref: "McFadden et al. Cell 2014"
-nickname: sclc-gemm-somatic-evolution
 journal: "Cell"
 volume: 156
 issue: 6
@@ -12,15 +10,11 @@ authors: "McFadden DG, Papagiannakopoulos T, Taylor-Weiner A, Stewart C, Carter 
 first_authors:  "McFadden DG, Papagiannakopoulos T, Taylor-Weiner A, Stewart C, Carter SL"
 senior_authors: "Getz G, Jacks T"
 corresponding_authors: "Getz G, Jacks T"
-image: /assets/images/papers/McFadden2014_Abstract.png
 pdflink: https://www.cell.com/action/showPdf?pii=S0092-8674%2814%2900230-X
 fulltext:
 doi: 10.1016/j.cell.2014.02.031
 pmid: 24630729
-pmcid: PMC4040459
 category: paper
-published: true
-peerreview: true
 tags: [SCLC, GEMM, genome sequencing]
 ---
 

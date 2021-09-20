@@ -2,8 +2,6 @@
 layout: paper
 title: "Whole-exome sequencing of circulating tumor cells provides a window into metastatic prostate cancer"
 year: "2014"
-shortref: "Lohr et al. Nature Biotechnology 2014"
-nickname: ctc-metastatic-prostate-cancer
 journal: "Nature Biotechnology"
 volume: 32
 issue: 5
@@ -12,15 +10,11 @@ authors: "Lohr JG, Adalsteinsson VA, Cibulskis K, Choudhury AD, Rosenberg M, Cru
 first_authors: "Lohr JG, Adalsteinsson VA, Cibulskis K"
 senior_authors:  "Getz G, Boehm JS, Love JC"
 corresponding_authors: "Getz G, Boehm JS, Love JC"
-image: /assets/images/papers/Lohr2014_Fig1.png
 pdfLink:
 fulltext:
 doi: 10.1038/nbt.2892
 pmid: 24752078
-pmcid: PMC4034575
 category: paper
-published: true
-peerreview: true
 tags: [CTC, blood biopsy, metastatic prostate cancer]
 ---
 

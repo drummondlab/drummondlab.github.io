@@ -2,8 +2,6 @@
 layout: paper
 title: "Exome sequencing identifies recurrent SPOP, FOXA1 and MED12 mutations in prostate cancer"
 year: "2012"
-shortref: "Barbieri et al. Nature Genetics 2012"
-nickname: wes-prostate-cancer
 journal: "Nature Genetics"
 volume: 44
 issue: 6
@@ -12,15 +10,11 @@ authors: "Barbieri CE, Baca SC, Lawrence MS, Demichelis F, Blattner M, Theurilla
 first_authors: "Barbieri CE, Baca SC, Lawrence MS"
 senior_authors: "Getz G, Rubin MA, Garraway LA"
 corresponding_authors: "Rubin MA, Garraway LA"
-image: /assets/images/papers/Barbieri2012_Fig1.png
 fulltext:
 pdflink: 
 doi: 10.1038/ng.2279
 pmid: 22610119
-pmcid: PMC3673022
 category: paper
-published: true
-peerreview: true
 tags: [WES, prostate cancer]
 ---
 

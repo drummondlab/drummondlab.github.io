@@ -2,7 +2,6 @@
 layout: paper
 title: "Radiation-related genomic profile of papillary thyroid cancer after the Chernobyl accident"
 year: "2021"
-nickname: rebc-genomic-profile
 journal: "Science"
 volume: 
 issue: April
@@ -11,15 +10,11 @@ authors: "Morton L, Karyadi D, Stewart C, Bogdanova T, Dawson E, Steinberg M, Da
 first_authors: "Morton L, Karyadi D, Stewart C"
 senior_authors: "Getz G, Chanock S"
 corresponding_authors: "Morton L, Chanock S"
-image: 
 fulltext:
 pdflink:
 doi: 10.1126/science.abg2538
 pmid:
-pmcid:
 category: paper
-published: true
-peerreview: true
 tags: []
 ---
 

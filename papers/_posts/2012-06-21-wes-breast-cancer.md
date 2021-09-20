@@ -2,8 +2,6 @@
 layout: paper
 title: "Sequence analysis of mutations and translocations across breast cancer subtypes"
 year: "2012"
-shortref: "Banerji et al. Nature 2012"
-nickname: wes-breast-cancer
 journal: "Nature"
 volume: 486
 issue: 7403
@@ -12,15 +10,11 @@ authors: "Banerji S, Cibulskis K, Rangel-Escareno C, Brown KK, Carter SL, Freder
 first_authors: "Banerji S, Cibulskis K, Rangel-Escareno C"
 senior_authors: "Toker A, Getz G, Hidalgo-Miranda A, Meyerson M"
 corresponding_authors: "Toker A, Getz G, Hidalgo-Miranda A, Meyerson M"
-image: /assets/images/papers/Banerji2012_Fig1.png
 fulltext:
 pdflink: https://www.nature.com/articles/nature11154.pdf
 doi: 10.1038/nature11154
 pmid: 22722202
-pmcid: PMC4148686
 category: paper
-published: true
-peerreview: true
 tags: [WES, breast cancer subtypes, mutations, translocations]
 ---
 

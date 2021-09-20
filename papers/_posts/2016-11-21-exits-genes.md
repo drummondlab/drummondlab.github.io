@@ -2,8 +2,6 @@
 layout: paper
 title: "Tumor-suppressor genes that escape from X-inactivation contribute to cancer sex bias"
 year: "2016"
-shortref: "Dunford et al. Nature Genetics 2017"
-nickname: exits-genes-cancer-sex-bias
 journal: "Nature Genetics"
 volume: 49
 issue: 1
@@ -12,15 +10,11 @@ authors: "Dunford A, Weinstock DM, Savova V, Schumacher SE, Cleary JP, Yoda A, S
 first_authors: "Dunford A, Weinstock D"
 senior_authors: "Lawrence MS, Getz G, Lane AA"
 corresponding_authors: "Lane AA"
-image: /assets/images/papers/Dunford2017_Fig1.png
 fulltext:
 pdflink:
 doi: 10.1038/ng.3726
 pmid: 27869828
-pmcid: PMC5206905
 category: paper
-published: true
-peerreview: true
 tags: [EXITS genes, cancer sex bias]
 ---
 

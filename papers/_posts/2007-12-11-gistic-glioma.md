@@ -2,8 +2,6 @@
 layout: paper
 title: "Assessing the significance of chromosomal aberrations in cancer: methodology and application to glioma"
 year: "2007"
-shortref: "Beroukhim et al. PNAS 2007"
-nickname: gistic-glioma
 journal: "PNAS"
 volume: 104
 issue: 50
@@ -12,15 +10,11 @@ authors: "Beroukhim R, Getz G, Nghiemphu L, Barretina J, Hsueh T, Linhart D, Viv
 first_authors: "Beroukhim R, Getz G"
 senior_authors: "Lander ES, Mellinghoff IK, Sellers WR"
 corresponding_authors: "Lander ES, Mellinghoff IK, Sellers WR"
-image: /assets/images/papers/Beroukhim2007_Fig1.png
 fulltext:
 pdflink: https://www.pnas.org/content/pnas/104/50/20007.full.pdf
 doi: 10.1073/pnas.0710052104
 pmid: 18077431
-pmcid: PMC2148413
 category: paper
-published: true
-peerreview: true
 tags: [GISTIC, glioma, chromosomal aberrations]
 ---
 

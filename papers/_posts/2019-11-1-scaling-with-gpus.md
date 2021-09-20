@@ -2,8 +2,6 @@
 layout: paper
 title: "Scaling computational genomics to millions of individuals with GPUs"
 year: "2019"
-shortref: "Taylor-Weiner et al. Genome Biology 2019"
-nickname: scaling-with-gpus
 journal: "Genome Biology"
 volume: 20
 issue: 1
@@ -12,15 +10,11 @@ authors: "Taylor-Weiner A, Aguet F, Haradhvala NJ, Gosai S, Anand S, Kim J, Ardl
 first_authors: "Taylor-Weiner A, Aguet F"
 senior_authors: "Getz G"
 corresponding_authors: "Getz G"
-image: /assets/images/papers/Taylor-Weiner2019_Fig1.png
 fulltext:
 pdflink: https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-019-1836-7.pdf
 doi: 10.1186/s13059-019-1836-7
 pmid: 31675989
-pmcid: PMC6823959
 category: paper
-published: true
-peerreview: true
 tags: [genomics, GPU]
 ---
 

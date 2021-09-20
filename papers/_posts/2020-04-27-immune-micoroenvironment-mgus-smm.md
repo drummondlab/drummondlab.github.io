@@ -2,8 +2,6 @@
 layout: paper
 title: "Single-cell RNA sequencing reveals compromised immune microenvironment in precursor stages of multiple myeloma"
 year: "2020"
-shortref: "Zavidij et al. Nature Cancer 2020"
-nickname: compromised-immunue-mgus-smm
 journal: "Nature Cancer"
 volume: 1
 issue: 5
@@ -12,16 +10,12 @@ authors: "Zavidij O, Haradhvala NJ, Mouhieddine TH, Sklavenitis-Pistofidis R, Ca
 first_authors: "Zavidij O, Haradhvala NJ, Mouhieddine TH"
 senior_authors: "Azzi J, Getz G, Ghobrial IM"
 corresponding_authors: "Getz G, Ghobrial IM"
-image: /assets/images/papers/Zavidij2020_Fig1.png
 fulltext: 
 pdflink:
 github:
 pmid: 33409501
-pmcid: PMC7785110
 doi: 10.1038/s43018-020-0053-3
 category: paper
-published: true
-peerreview: true
 tags: [Immuno Oncology, Multiple Myeloma]
 ---
 

@@ -2,8 +2,6 @@
 layout: paper
 title: "Genomic analyses of PMBL reveal new drivers and mechanisms of sensitivity to PD-1 blockade"
 year: "2019"
-shortref: "Chapuy et al. Blood 2019"
-nickname: pdml-pd1-blockade
 journal: "Blood"
 volume: 134
 issue: 26
@@ -12,15 +10,11 @@ authors: "Chapuy B, Stewart C, Dunford AJ, Kim J, Wienand K, Kamburov A, Griffin
 first_authors: "Chapuy B, Stewart C, Dunford AJ"
 senior_authors: "Getz G, Shipp MA"
 corresponding_authors: "Shipp MA"
-image: /assets/images/papers/Chapuy2019_FigAbstract.png
 fulltext:
 pdflink:
 doi: 10.1182/blood.2019002067
 pmid: 31697821
-pmcid: PMC6933293
 category: paper
-published: true
-peerreview: true
 tags: [PMBL, PD-1 blockade]
 ---
 

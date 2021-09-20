@@ -2,8 +2,6 @@
 layout: paper
 title: "Mutational Strand Asymmetries in Cancer Genomes Reveal Mechanisms of DNA Damage and Repair"
 year: "2016"
-shortref: "Haradhvala et al. Cell 2016"
-nickname: mutational-strand-asymmetries
 journal: "Cell"
 volume: 164
 issue: 3
@@ -12,15 +10,11 @@ authors: "Haradhvala NJ, Polak P, Stojanov P, Covington KR, Shinbrot E, Hess JM,
 first_authors: "Haradhvala NJ, Polak P"
 senior_authors: "Lawrence MS, Getz G"
 corresponding_authors: "Lawrence MS, Getz G"
-image: /assets/images/papers/Haradhvala2016_Abstract.png
 fulltext:
 pdflink: https://www.cell.com/action/showPdf?pii=S0092-8674%2815%2901714-6
 doi: 10.1016/j.cell.2015.12.050
 pmid: 26806129
-pmcid: PMC4753048
 category: paper
-published: true
-peerreview: true
 tags: [mutational processes, strand asymmetries]
 ---
 

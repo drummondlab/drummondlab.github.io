@@ -2,8 +2,6 @@
 layout: paper
 title: "Genomic sequencing of colorectal adenocarcinomas identifies a recurrent VTI1A-TCF7L2 fusion"
 year: "2011"
-shortref: "Bass et al. Nature Genetics 2011"
-nickname: colorectal-adenocarcinomas-VTI1A-TCF7L2-fusion
 journal: "Nature Genetics"
 volume: 43
 issue: 10
@@ -12,15 +10,11 @@ authors: "Bass AJ, Lawrence MS, Brace LE, Ramos AH, Drier Y, Cibulskis K, Sougne
 first_authors: "Bass AJ, Lawrence MS"
 senior_authors: "Getz G, Meyerson M"
 corresponding_authors: "Getz G, Meyerson M"
-image: /assets/images/papers/Bass2011_Fig1.png
 fulltext:
 pdflink:
 doi: 10.1038/ng.936
 pmid: 21892161
-pmcid: PMC3802528
 category: paper
-published: true
-peerreview: true
 tags: [colorectal adenocarcinomas, VTI1A-TCF7L2 fusion]
 ---
 

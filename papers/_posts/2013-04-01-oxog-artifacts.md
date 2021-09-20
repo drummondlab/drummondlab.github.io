@@ -2,8 +2,6 @@
 layout: paper
 title: "Discovery and characterization of artifactual mutations in deep coverage targeted capture sequencing data due to oxidative DNA damage during sample preparation"
 year: "2013"
-shortref: "Costello et al. Nucleic Acids Research 2013"
-nickname: oxog-artifacts
 journal: "Nucleic Acids Research"
 volume: 41
 issue: 6
@@ -12,15 +10,11 @@ authors: "Costello M, Pugh TJ, Fennell TJ, Stewart C, Lichtenstein L, Meldrim JC
 first_authors: "Costello M"
 senior_authors: "Getz G"
 corresponding_authors: "Costello M"
-image: /assets/images/papers/Costello2013_Fig1.png
 pdflink:
 fulltext:
 doi: 10.1093/nar/gks1443
 pmid: 23303777
-pmcid: PMC3616734
 category: paper
-published: true
-peerreview: true
 tags: [8-oxoG artifacts]
 ---
 

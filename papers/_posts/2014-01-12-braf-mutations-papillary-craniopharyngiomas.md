@@ -2,8 +2,6 @@
 layout: paper
 title: "Exome sequencing identifies BRAF mutations in papillary craniopharyngiomas"
 year: "2014"
-shortref: "Brastianos et al. Nature Genetics 2014"
-nickname: braf-mutations-papillary-craniopharyngiomas
 journal: "Nature Genetics"
 volume: 46
 issue: 2
@@ -12,14 +10,10 @@ authors: "Brastianos PK, Taylor-Weiner A, Manley PE, Jones RT, Dias-Santagata D,
 first_authors: "Brastianos PK, Taylor-Weiner A, Manley PE"
 senior_authors: "Kieran MW, Getz G, Santagata S"
 corresponding_authors: "Brastianos PK, Getz G, Santagata S"
-image: /assets/images/papers/Brastianos2014_Fig2.png
 pdflink:
 doi: 10.1038/ng.2868
 pmid: 24413733
-pmcid: PMC3982316
 category: paper
-published: true
-peerreview: true
 tags: [BRAF mutation, WES, papillary craniopharyngiomas]
 ---
 

@@ -2,8 +2,6 @@
 layout: paper
 title: "DNA polymerase and mismatch repair exert distinct microsatellite instability signatures in normal and malignant human cells"
 year: "2020"
-shortref: "Chung J, Maruvka YE et al. Cancer Discovery 2020"
-nickname: msi-signatures
 journal: "Cancer Discovery"
 volume:
 issue: 
@@ -12,15 +10,12 @@ authors: "Chung J, Maruvka YE, Sudhaman S, Kelly J, Haradhvala NJ, Bianchi V, Ed
 first_authors: "Chung J, Maruvka YE"
 senior_authors: "Getz G, Tabori U"
 corresponding_authors: "Getz G, Tabori U"
-image: /assets/images/papers/Chung2020_Fig2.png
 fulltext:
 pdflink: https://cancerdiscovery.aacrjournals.org/content/early/2020/12/18/2159-8290.CD-20-0790.full-text.pdf
 pmid: 33355208
-pmcid:
 doi: 10.1158/2159-8290.CD-20-0790
 category: paper
-published: true
-peerreview: true
+preprint: false
 tags: [Microsatellite Instability]
 ---
 

@@ -2,8 +2,6 @@
 layout: paper
 title: "Analyses of non-coding somatic drivers in 2,658 cancer whole genomes"
 year: "2020"
-shortref: "Rheinbay et al. Nature 2020"
-nickname: non-coding-drivers
 journal: "Nature"
 volume: 578
 issue: 7793
@@ -12,16 +10,12 @@ authors: "Rheinbay E, Nielsen MM, Abascal F, Wala JA, Shapira O, Tiao G, Hornsh√
 first_authors: "Rheinbay E, Nielsen MM, Abascal F, Wala JA, Shapira O"
 senior_authors: "Weischenfeldt J, Martincorena I, Pedersen JS, Getz G"
 corresponding_authors: "Weischenfeldt J, Beroukhim R,  Martincorena I, Pedersen JS, Getz G"
-image: /assets/images/papers/Rheinbay2020_Fig1.png
 fulltext:
 pdflink: https://www.nature.com/articles/s41586-020-1965-x.pdf
 github:
 pmid: 32025015
-pmcid: PMC7054214 
 doi: 10.1038/s41586-020-1965-x
 category: paper
-published: true
-peerreview: true
 tags: [Driver Discovery]
 ---
 

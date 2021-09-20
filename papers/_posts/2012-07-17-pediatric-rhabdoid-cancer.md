@@ -2,8 +2,6 @@
 layout: paper
 title: "A remarkably simple genome underlies highly malignant pediatric rhabdoid cancers"
 year: "2012"
-shortref: "Lee et al. Journal of Clinical Investigation 2012"
-nickname: pediatric-rhabdoid-cancer
 journal: "Journal of Clinical Investigation"
 volume: 122
 issue: 8
@@ -12,15 +10,11 @@ authors: "Lee RS, Stewart C, Carter SL, Ambrogio L, Cibulskis K, Sougnez C, Lawr
 first_authors: "Lee RS, Stewart C"
 senior_authors: "Biegel JA, Getz G, Roberts CW"
 corresponding_authors: "Biegel JA, Getz G, Roberts CW"
-image: /assets/images/papers/Lee2012_Fig2.png
 fulltext:
 pdflink: https://www.jci.org/articles/view/64400/pdf
 doi: 10.1172/JCI64400
 pmid: 22797305
-pmcid: PMC3408754
 category: paper
-published: true
-peerreview: true
 tags: [rhabdoid cancer]
 ---
 

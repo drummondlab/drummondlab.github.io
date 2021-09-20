@@ -2,8 +2,6 @@
 layout: paper
 title: "Exome and whole-genome sequencing of esophageal adenocarcinoma identifies recurrent driver events and mutational complexity"
 year: "2013"
-shortref: "Dulak et al. Nature Genetics 2013"
-nickname: wes-wgs-esophageal-adeoncarcinoma
 journal: "Nature Genetics"
 volume: 45
 issue: 5
@@ -12,15 +10,11 @@ authors: "Dulak AM, Stojanov P, Peng S, Lawrence MS, Fox C, Stewart C, Bandla S,
 first_authors: "Dulak AM, Stojanov P"
 senior_authors: "Getz G, Bass AJ"
 corresponding_authors: "Getz G, Bass AJ"
-image: /assets/images/papers/Dulak2013_Fig5.png
 fulltext:
 pdflink:
 doi: 10.1038/ng.2591
 pmid: 23525077
-pmcid: PMC3678719
 category: paper
-published: true
-peerreview: true
 tags: [EAC, wes, wgs]
 ---
 

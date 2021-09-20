@@ -2,8 +2,6 @@
 layout: paper
 title: "Molecular subtypes of diffuse large B cell lymphoma are associated with distinct pathogenic mechanisms and outcomes"
 year: "2018"
-shortref: "Chapuy et al. Nature Medicine 2018"
-nickname: dlbcl-subtypes
 journal: "Nature Medicine"
 volume: 24
 issue: 5
@@ -12,15 +10,11 @@ authors: "Chapuy B, Stewart C, Dunford AJ, Kim J, Kamburov A, Redd RA, Lawrence 
 first_authors: "Chapuy B, Stewart C, Dunford AJ"
 senior_authors: "Getz G, Shipp MA"
 corresponding_authors: "Getz G, Shipp MA"
-image: /assets/images/papers/Chapuy2018_Fig1.png
 fulltext:
 pdflink:
 doi: 10.1038/s41591-018-0016-8
 pmid: 29713087
-pmcid: PMC661338
 category: paper
-published: true
-peerreview: true
 tags: [dlbcl, molecular subytpes]
 ---
 
