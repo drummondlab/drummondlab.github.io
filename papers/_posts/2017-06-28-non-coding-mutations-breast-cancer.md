@@ -15,7 +15,6 @@ pdflink:
 doi: 10.1038/nature22992
 pmid: 28658208
 category: paper
-tags: [breast cancer, non-coding regions]
 ---
 
 # Abstract

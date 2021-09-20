@@ -15,7 +15,6 @@ pdflink: https://www.cell.com/action/showPdf?pii=S0092-8674%2815%2901714-6
 doi: 10.1016/j.cell.2015.12.050
 pmid: 26806129
 category: paper
-tags: [mutational processes, strand asymmetries]
 ---
 
 # Abstract

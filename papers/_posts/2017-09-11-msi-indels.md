@@ -16,7 +16,6 @@ github:
 pmid: 28892075
 doi: 10.1038/nbt.3966
 category: paper
-tags: [Microsatellite Indels]
 ---
 
 # Abstract

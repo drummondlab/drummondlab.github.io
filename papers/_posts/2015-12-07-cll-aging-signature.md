@@ -15,7 +15,6 @@ pdflink: https://www.nature.com/articles/ncomms9866.pdf
 doi: 10.1038/ncomms9866
 pmid: 26638776
 category: paper
-tags: [wgs, cll]
 ---
 
 # Abstract

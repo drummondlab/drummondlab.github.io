@@ -15,7 +15,6 @@ pdflink: https://www.cell.com/action/showPdf?pii=S0092-8674%2813%2900071-8
 doi: 10.1016/j.cell.2013.01.019
 pmid: 23415222
 category: paper
-tags: [CLL, Clonal Evolution]
 ---
 
 # Abstract

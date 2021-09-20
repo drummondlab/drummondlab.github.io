@@ -15,7 +15,6 @@ pdflink: https://www.nature.com/articles/s41467-020-17090-y.pdf
 pmid: 32620799
 doi: 10.1038/s41467-020-17090-y
 category: paper
-tags: [therapeutic response]
 ---
 
 # Abstract

@@ -15,7 +15,6 @@ pdflink: https://www.nature.com/articles/nature11071.pdf
 doi: 10.1038/nature11071
 pmid: 22622578
 category: paper
-tags: [WGS, melanoma, PREX2]
 ---
 
 # Abstract

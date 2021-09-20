@@ -16,7 +16,6 @@ doi: 10.1038/s41591-019-0561-9
 pmid: 31501609
 mpcid: PMC6741444.
 category: paper
-tags: [liquid biopsy, gi cancer, resistance]
 ---
 
 # Abstract

@@ -15,7 +15,6 @@ fulltext:
 doi: 10.1016/j.ccell.2014.10.012
 pmid: 25490447
 category: paper
-tags: [CLL, bisulfite sequencing, disordered methylation]
 ---
 
 # Abstract

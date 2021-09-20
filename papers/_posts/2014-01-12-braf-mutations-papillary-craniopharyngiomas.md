@@ -14,7 +14,6 @@ pdflink:
 doi: 10.1038/ng.2868
 pmid: 24413733
 category: paper
-tags: [BRAF mutation, WES, papillary craniopharyngiomas]
 ---
 
 # Abstract

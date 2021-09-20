@@ -15,7 +15,6 @@ pdflink: https://www.nature.com/articles/nature07423.pdf
 doi: 10.1038/nature07423
 pmid: 18948947
 category: paper
-tags: [luad, somatic mutations, signalling pathways]
 ---
 
 # Abstract

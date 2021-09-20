@@ -15,7 +15,6 @@ pdflink: https://www.cell.com/action/showPdf?pii=S0092-8674%2818%2931394-1
 doi: 10.1016/j.cell.2018.10.038
 pmid: 30388456
 category: paper
-tags: [cll, growth dynamics]
 ---
 
 # Abstract

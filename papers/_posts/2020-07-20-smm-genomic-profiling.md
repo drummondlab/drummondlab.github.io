@@ -15,7 +15,6 @@ pdflink:
 pmid: 32442065
 doi: 10.1200/JCO.20.00437
 category: paper
-tags: [smoldering multiple myeloma, genomic profiling]
 ---
 
 # Abstract

@@ -15,7 +15,6 @@ fulltext:
 doi: 10.1073/pnas.1419260111
 pmid: 25512523
 category: paper
-tags: [Pl3K, TP53, genomics, mTOR, osteosarcoma]
 ---
 
 # Abstract

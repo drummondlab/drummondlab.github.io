@@ -15,7 +15,6 @@ pdflink:
 doi: 10.1038/ng.2279
 pmid: 22610119
 category: paper
-tags: [WES, prostate cancer]
 ---
 
 # Abstract

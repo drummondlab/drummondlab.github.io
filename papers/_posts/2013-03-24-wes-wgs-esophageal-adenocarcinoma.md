@@ -15,7 +15,6 @@ pdflink:
 doi: 10.1038/ng.2591
 pmid: 23525077
 category: paper
-tags: [EAC, wes, wgs]
 ---
 
 # Abstract

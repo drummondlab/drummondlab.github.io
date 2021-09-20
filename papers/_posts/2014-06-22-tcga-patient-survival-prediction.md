@@ -15,7 +15,6 @@ fulltext:
 doi: 10.1038/nbt.2940
 pmid: 24952901
 category: paper
-tags: [patient survival prediction, molecular data]
 ---
 
 # Abstract

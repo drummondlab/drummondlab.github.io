@@ -16,7 +16,6 @@ github:
 pmid: 32025015
 doi: 10.1038/s41586-020-1965-x
 category: paper
-tags: [Driver Discovery]
 ---
 
 # Abstract

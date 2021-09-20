@@ -15,7 +15,6 @@ pdflink: https://science.sciencemag.org/content/sci/361/6409/eaas9824.full.pdf
 doi: 10.1126/science.aas9824
 pmid: 30262473
 category: paper
-tags: [sequencing artifacts]
 ---
 
 # Abstract

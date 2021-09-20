@@ -15,7 +15,6 @@ pdflink:
 doi: 10.1038/ng.3557
 pmid: 27111033
 category: paper
-tags: [urothelial carcinoma, somatic ERCC2 mutations]
 ---
 
 # Abstract

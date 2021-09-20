@@ -15,7 +15,6 @@ fulltext:
 doi: 10.1016/j.ccr.2013.12.015
 pmid: 24434212
 category: paper
-tags: [MM, genomic heterogeneity]
 ---
 
 # Abstract

@@ -16,7 +16,6 @@ pmid: 33355208
 doi: 10.1158/2159-8290.CD-20-0790
 category: paper
 preprint: false
-tags: [Microsatellite Instability]
 ---
 
 # Abstract

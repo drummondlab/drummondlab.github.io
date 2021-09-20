@@ -15,7 +15,6 @@ pdflink:
 doi: 10.1038/s41698-017-0035-9
 pmid: 29872714
 category: paper
-tags: [gliolbastoma, resistance]
 ---
 
 # Abstract

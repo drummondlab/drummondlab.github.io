@@ -15,7 +15,6 @@ pdflink:
 doi: 10.1038/ng.3726
 pmid: 27869828
 category: paper
-tags: [EXITS genes, cancer sex bias]
 ---
 
 # Abstract

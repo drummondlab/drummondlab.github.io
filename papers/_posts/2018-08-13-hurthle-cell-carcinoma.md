@@ -15,7 +15,6 @@ pdflink: https://www.cell.com/action/showPdf?pii=S1535-6108%2818%2930270-8
 doi: 10.1016/j.ccell.2018.06.013
 pmid: 30107175
 category: paper
-tags: [Hürthle Cell Carcinoma]
 ---
 
 # Abstract

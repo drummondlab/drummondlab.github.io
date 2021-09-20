@@ -16,7 +16,6 @@ github:
 pmid: 33409501
 doi: 10.1038/s43018-020-0053-3
 category: paper
-tags: [Immuno Oncology, Multiple Myeloma]
 ---
 
 # Abstract

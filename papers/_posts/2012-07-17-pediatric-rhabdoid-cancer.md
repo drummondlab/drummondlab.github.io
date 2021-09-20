@@ -15,7 +15,6 @@ pdflink: https://www.jci.org/articles/view/64400/pdf
 doi: 10.1172/JCI64400
 pmid: 22797305
 category: paper
-tags: [rhabdoid cancer]
 ---
 
 # Abstract

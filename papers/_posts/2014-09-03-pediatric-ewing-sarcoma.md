@@ -15,7 +15,6 @@ pdflink: https://cancerdiscovery.aacrjournals.org/content/4/11/1326.full-text.pd
 doi: 10.1158/2159-8290.CD-13-1037
 pmid: 25186949
 category: paper
-tags: [Pediatric Ewing sarcoma, somatic landscape]
 ---
 
 # Abstract

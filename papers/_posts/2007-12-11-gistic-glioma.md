@@ -15,7 +15,6 @@ pdflink: https://www.pnas.org/content/pnas/104/50/20007.full.pdf
 doi: 10.1073/pnas.0710052104
 pmid: 18077431
 category: paper
-tags: [GISTIC, glioma, chromosomal aberrations]
 ---
 
 # Abstract

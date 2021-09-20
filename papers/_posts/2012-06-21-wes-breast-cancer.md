@@ -15,7 +15,6 @@ pdflink: https://www.nature.com/articles/nature11154.pdf
 doi: 10.1038/nature11154
 pmid: 22722202
 category: paper
-tags: [WES, breast cancer subtypes, mutations, translocations]
 ---
 
 # Abstract

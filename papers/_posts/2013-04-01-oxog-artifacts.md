@@ -15,7 +15,6 @@ fulltext:
 doi: 10.1093/nar/gks1443
 pmid: 23303777
 category: paper
-tags: [8-oxoG artifacts]
 ---
 
 # Abstract

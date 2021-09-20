@@ -15,7 +15,6 @@ pdflink:
 doi: 10.1182/blood-2017-08-800128
 pmid: 29051179
 category: paper
-tags: [cfDNA, ichorCNA]
 ---
 
 # Abstract

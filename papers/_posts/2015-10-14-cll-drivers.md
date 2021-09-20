@@ -15,7 +15,6 @@ fulltext:
 doi: 10.1038/nature15395
 pmid: 26466571
 category: paper
-tags: [cll]
 ---
 
 # Abstract

@@ -15,7 +15,6 @@ fulltext:
 doi: 10.1038/ng.2760
 pmid: 24071852
 category: paper
-tags: [pan-cancer, SCNA]
 ---
 
 # Abstract

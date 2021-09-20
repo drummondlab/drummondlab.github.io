@@ -15,7 +15,6 @@ pdflink: https://www.nature.com/articles/s41467-018-04002-4.pdf
 doi: 10.1038/s41467-018-04002-4
 pmid: 29717118
 category: paper
-tags: [mutational signatures, polymerase proofreading, mismatch repair]
 ---
 
 # Abstract

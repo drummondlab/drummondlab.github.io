@@ -13,7 +13,6 @@ corresponding_authors: "Lander ES, Getz G, Sellers WR, Meyerson M"
 doi: 10.1038/nature08822
 pmid: 20164920
 category: paper
-tags: [pan-cancer, SCNA]
 ---
 
 # Abstract

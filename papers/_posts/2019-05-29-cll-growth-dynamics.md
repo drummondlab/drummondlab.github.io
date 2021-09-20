@@ -15,7 +15,6 @@ pdflink:
 doi: 10.1038/s41586-019-1252-x
 pmid: 31142838
 category: paper
-tags: [cll, growth dynamics]
 ---
 
 # Abstract

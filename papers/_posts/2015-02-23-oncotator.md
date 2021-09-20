@@ -14,7 +14,6 @@ fulltext:
 doi: 10.1002/humu.22771
 pmid: 25703262
 category: paper
-tags: [TCGA, annotation, oncotator]
 ---
 
 # Abstract

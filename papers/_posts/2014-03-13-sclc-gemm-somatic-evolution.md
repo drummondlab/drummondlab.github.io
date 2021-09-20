@@ -15,7 +15,6 @@ fulltext:
 doi: 10.1016/j.cell.2014.02.031
 pmid: 24630729
 category: paper
-tags: [SCLC, GEMM, genome sequencing]
 ---
 
 # Abstract

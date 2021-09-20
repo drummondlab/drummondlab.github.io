@@ -14,7 +14,6 @@ pdflink:
 doi: 10.1038/nature03702
 pmid: 15944708.
 category: paper
-tags: []
 ---
 
 # Abstract

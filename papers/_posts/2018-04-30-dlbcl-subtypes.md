@@ -15,7 +15,6 @@ pdflink:
 doi: 10.1038/s41591-018-0016-8
 pmid: 29713087
 category: paper
-tags: [dlbcl, molecular subytpes]
 ---
 
 # Abstract

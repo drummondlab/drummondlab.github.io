@@ -16,7 +16,6 @@ fulltext:
 doi: 10.1016/j.cell.2013.06.051
 pmid: 23871696
 category: paper
-tags: [KDM4A, amplification, overexpression]
 ---
 
 # Abstract

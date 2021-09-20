@@ -15,7 +15,6 @@ fulltext:
 doi: 10.1038/nbt.2892
 pmid: 24752078
 category: paper
-tags: [CTC, blood biopsy, metastatic prostate cancer]
 ---
 
 # Abstract

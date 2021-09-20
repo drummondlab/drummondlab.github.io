@@ -13,7 +13,6 @@ pdflink: https://www.nature.com/articles/s41586-020-1969-6.pdf
 pmid: 32025007
 doi: 10.1038/s41586-020-1969-6
 category: paper
-tags: [pcawg]
 ---
 
 # Abstract

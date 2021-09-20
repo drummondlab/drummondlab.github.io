@@ -15,7 +15,6 @@ pdflink:
 pmid: 31816062
 doi: 10.1182/bloodadvances.2019001012
 category: paper
-tags: [cHL]
 ---
 
 # Abstract

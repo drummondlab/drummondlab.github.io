@@ -16,7 +16,6 @@ github:
 doi: 10.1200/JCO.2013.50.8556
 pmid: 24323028
 category: paper
-tags: [LSCC]
 ---
 
 # Abstract

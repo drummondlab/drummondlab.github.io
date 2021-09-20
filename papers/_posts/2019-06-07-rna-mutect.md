@@ -15,7 +15,6 @@ pdflink: https://science.sciencemag.org/content/sci/364/6444/eaaw0726.full.pdf
 doi: 10.1126/science.aaw0726
 pmid: 31171663
 category: paper
-tags: [RNA-seq, somatic clonal expansion]
 ---
 
 # Abstract

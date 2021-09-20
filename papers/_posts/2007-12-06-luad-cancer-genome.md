@@ -15,7 +15,6 @@ pdflink: https://www.nature.com/articles/nature06358.pdf
 doi: 10.1038/nature06358
 pmid: 17982442
 category: paper
-tags: [GISTIC, LUAD]
 ---
 
 # Abstract

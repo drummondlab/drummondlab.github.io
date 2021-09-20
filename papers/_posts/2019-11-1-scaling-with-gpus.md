@@ -15,7 +15,6 @@ pdflink: https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-019-18
 doi: 10.1186/s13059-019-1836-7
 pmid: 31675989
 category: paper
-tags: [genomics, GPU]
 ---
 
 # Abstract

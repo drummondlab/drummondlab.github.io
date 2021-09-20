@@ -15,7 +15,6 @@ pdflink:
 doi: 10.1038/nrg2841
 pmid: 20847746
 category: paper
-tags: [WES, WGS, analysis of cancer genomes]
 ---
 
 # Abstract

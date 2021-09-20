@@ -15,7 +15,6 @@ pdflink:
 doi: 10.1038/nm.3559
 pmid: 24836576
 category: paper
-tags: [WES, FFPE, precision cancer medicine]
 ---
 
 # Abstract

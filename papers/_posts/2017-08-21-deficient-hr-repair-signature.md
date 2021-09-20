@@ -15,7 +15,6 @@ pdflink:
 doi: 10.1038/ng.3934
 pmid: 28825726
 category: paper
-tags: [mutational signature, homologous recombination repair, breast cancer]
 ---
 
 # Abstract

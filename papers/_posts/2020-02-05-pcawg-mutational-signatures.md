@@ -15,7 +15,6 @@ pdflink: https://www.nature.com/articles/s41586-020-1943-3.pdf
 pmid: 32025018
 doi: 10.1038/s41586-020-1943-3
 category: paper
-tags: [pcawg, mutational signatures]
 ---
 
 # Abstract

@@ -15,7 +15,6 @@ fulltext:
 doi: 10.1038/nbt.3344
 pmid: 26372948
 category: paper
-tags: []
 ---
 
 # Abstract

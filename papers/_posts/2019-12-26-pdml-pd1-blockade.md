@@ -15,7 +15,6 @@ pdflink:
 doi: 10.1182/blood.2019002067
 pmid: 31697821
 category: paper
-tags: [PMBL, PD-1 blockade]
 ---
 
 # Abstract

@@ -15,7 +15,6 @@ pdflink:
 doi: 10.1038/ng.936
 pmid: 21892161
 category: paper
-tags: [colorectal adenocarcinomas, VTI1A-TCF7L2 fusion]
 ---
 
 # Abstract
