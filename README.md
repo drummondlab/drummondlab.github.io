@@ -47,21 +47,17 @@ The date is used by the static file generator; it's inelegant and perhaps there'
 	layout: paper
 	title: "DNA Polymerase and Mismatch Repair Exert Distinct Microsatellite Instability Signatures in Normal and Malignant Human Cells"
 	year: "2021"
-	nickname: mismatch-repair-msi-signatures
 	journal: "Cancer Discovery"
 	volume: 
 	author: "Chung J, Maruvka YE, Sudhaman S, Kelly J, Haradhvala NJ, Bianchi V, Edwards M, Forster VJ, Nunes NM, Galati MA, Komosa M, Deshmukh S, Cabric V, Davidson S, Zatzman M, Light N, Hayes R, Brunga L, Anderson ND, Ho B, Hodel KP, Siddaway R, Morrissy AS, Bowers DC, Larouche V, Bronsema A, Osborn M, Cole KA, Opocher E, Mason G, Thomas GA, George B, Ziegler DS, Lindhorst S, Vanan M, Yalon-Oren M, Reddy AT, Massimino M, Tomboc P, Van Damme A, Lossos A, Durno C, Aronson M, Morgenstern DA, Bouffet E, Huang A, Taylor MD, Villani A, Malkin D, Hawkins CE, Pursell ZF, Shlien A, Kunkel TA, Getz G, Tabori U"
 	first_authors: "Chung J, Maruvka YE"
 	senior_authors: "Getz G, Tabori U"
 	corresponding_authors: "Getz G, Tabori U"
-	image:
-	pdf:
-	pdflink: https://cancerdiscovery.aacrjournals.org/content/11/5/1176.long
+	fulltext: https://cancerdiscovery.aacrjournals.org/content/11/5/1176.long
 	doi: 10.1158/2159-8290.CD-20-0790
 	pmid: 33355208
 	category: paper
-	published: true
-	peerreview: true
+	preprint: false
 	tags: []
 	---
 
@@ -122,9 +118,71 @@ Fonts, colors, spacing, and similar stylings are separate from the template page
 # Content Classes
 ## papers
 
-The Getz Lab website displays lists of publications on two pages.  Recently published papers (six most recently published) appear on the front page under the heading "Recent Papers" and all papers added to the website will appear under Selected Papers, navigated to by selecting Papers in the top nav bar.  In both listings, the names of authors that are current or past lab members are in a **bold** font.  In both listings, a paper's title is an internal like to a web page devoted to that paper.  The paper's web page lists all of the paper's authors; journal name, issue and page; abstract; public link to journal article pdf (if available); the PubMed ID (linked to PubMed entry); and the DOI, which is linked back to the paper's permanent web address. 
+The Getz Lab website displays lists of publications on two pages.  Recently published papers (six most recently published) appear on the front page under the heading "Recent Papers" and all papers added to the website will appear under Selected Papers, navigated to by selecting Papers in the top nav bar.  In both listings, the names of authors that are current or past lab members are in a **bold** font.  In both listings, a paper's title is an internal like to a web page devoted to that paper.  The paper's web page lists all of the paper's authors; journal name, volumne, issue and page; abstract; public link to journal article fulltext or pdf (if available); the PubMed ID (linked to PubMed entry); and the DOI, which is linked back to the paper's permanent web address. 
+
+To add a new paper to the site, you will create a markdown file and place it in the papers/_posts folder.  The file's name must follow the following syntax:
+
+	yyyy-mm-dd-<any short, hyphenated string>.md
+	
+The date should be the publication date of the paper.  I recommend using the print publication (rather than the e-publication date).
+
+The yaml front matter should contain the following:
+
+	---
+	layout: paper
+	title: <full title of paper>
+	year: <publication year>
+	journal: <journal name>
+	volume: [<volume of journal publication>]
+	issue: [<issue of journal publication>]
+	pages: [<start page>-<end page>]
+	authors: <comma-separated list of authors>
+	first_authors: <comma-separated list of first authors>
+	senior_authors: <comma-separated list of senior authors>
+	corresponding_authors: <comma-separated list of corresponding authors>
+	fulltext: [<url to full-text html>]
+	pdflink: [<url to full-text pdf>]
+	pmid: [<pubmed ID>]
+	doi: <assigned doi>
+	category: paper
+	preprint: [false | true]
+	tags: [<list of comma-separated tags>]
+	---
+	
+To get the comma-separated list of authors (which can be quite long for many of our lab's publications) to to the paper's pubmed site, click on "Cite" under "ACTIONS" and copy/paste the full length of authors.  Note each author is listed lastname first followed by one or two initials, e.g.:
+
+Morton LM, Karyadi DM, Stewart C, Bogdanova TI, Dawson ET, Steinberg MK, Dai J, Hartley SW, Schonfeld SJ, Sampson JN, Maruvka YE, Kapoor V, Ramsden DA, Carvajal-Garcia J, Perou CM, Parker JS, Krznaric M, Yeager M, Boland JF, Hutchinson A, Hicks BD, Dagnall CL, Gastier-Foster JM, Bowen J, Lee O, Machiela MJ, Cahoon EK, Brenner AV, Mabuchi K, Drozdovitch V, Masiuk S, Chepurny M, Zurnadzhy LY, Hatch M, Berrington de Gonzalez A, Thomas GA, Tronko MD, Getz G, Chanock SJ
+
+(The PubMed site is also a good source for the other fields.)
+
+Each lab member's (current or past) page contains a yaml key/value pair `citation-names`.  It is important that any citation name used for that member be included in that key's value.  For example, in pmid citatins, Gaddy's name is listed as Getz G or Getz GA;  his team member page contains the following comma-separated list:
+
+	citation_names: "Getz G, Getz GA"
+	
+This is how we ensure lab members' names appear in a bold font in any paper added to the lab website.
 
 ## team
+
+Navigating to "Team" (on the top navigation bar) displays Getz Lab membership, both present and past.  Current members are listed under the following categories: 
+
+- Principal Investigator (Gaddy)
+- Operations and Administration
+- Staff Scientists
+- Staff Engineers
+- Research and Computational Associates
+- Postdoctoral Researchers
+- Graduate Students
+- Alumni
+
+Clicking on a team member's name takes one to the member's personal lab webpage.  Each current member of the lab is responsible for creating and/or maintaining their personal webpage.  For many lab members a minimal page has already been created containing a minimal amount of information (name, cateogry position, citation_names, alum status).  You should update this page with your personal information; e.g., twitter, github userid, google scholar id, linkedin id, image, cv).
+
+The yaml front matter in a lab member page should contain the following:
+
+	---
+	
+	---
+
+
 ## portals
 ## positions
 ## tools
