@@ -2,12 +2,12 @@
 layout: paper
 title: "Single-cell RNA sequencing: one step closer to the clinic"
 year: "2021"
-journal: "Nature Medicine"
+journal: Nature Medicine
 volume: 
 issue: 27
 pages: 375-376
-authors: "Sklavenitis-Pistofidis R, Getz G, Ghobrial I"
-first_authors: "Sklavenitis-Pistofidis R"
+authors: Sklavenitis-Pistofidis R, Getz G, Ghobrial I
+first_authors: Sklavenitis-Pistofidis R
 senior_authors: "Getz G, Ghobrial I"
 corresponding_authors: "Ghobrial I"
 fulltext:

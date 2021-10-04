@@ -9,6 +9,5 @@ github:
 cv:
 alum: true
 linkedin: dimitri-livitz-946aa422
-current: PhD Student, Columbia University
 ---
 

@@ -3,7 +3,6 @@ layout: member
 title: "Chet Birger"
 category: Staff Engineer
 position: Associate Director, Principal Architect, CGA
-nickname: Chet
 email: birger@broadinstitute.org 
 github: cbirger
 image: /assets/images/team/chet_headshot_150by200.png

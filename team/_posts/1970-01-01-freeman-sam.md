@@ -8,6 +8,6 @@ email: sfreeman@broadinstitute.org
 github: 
 image: /assets/images/team/Sam_Freeman.jpeg
 cv:
-alum: false
+alum: true
 ---
 

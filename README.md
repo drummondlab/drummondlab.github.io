@@ -37,22 +37,22 @@ The template files are weird-looking HTML files (containing jekyll site variable
 
 For most common actions---adding a lab member, paper, or portal---you'll be making a new Markdown file in the proper location, naming it properly, and filling in the required fields. The markdown files contain a YAML front matter block which is processed by Jekyll.  Different categories of website content (e.g., paper, member, portal) have different YAML dictionary keys in their front matter, so in almost all cases you can (and should!) copy an existing item, change the name, and change its content, rather than trying to write a Markdown document from scratch.
 
-For example, suppose you recently had a paper published and want it listed in the Getz Lab website.  Creating a new paper "post" in the `papers/_posts` folder will add your new publication to the website's publications listing.  Go into the `news/_posts` folder. Copy one of the existing items into a new file whose name is prefaced with the paper's publication date (this is important!) and a abbreviated version of the title.  For example, we want to add a recent (5/1/2021) Cancer Discovery paper co-authored by are large team of researchers where Gaddy wasis a co-senior author and Yosi Maruvka is a co-first author.  The paper's title is "DNA Polymerase and Mismatch Repair Exert Distinc Microsatellite Instability Signatures in Normal and Malignant Human Cells".  First thing we do is cd to the papers/_posts subdirectory and, using a recent paper post as a template, create a file for our new publication:
+For example, suppose you recently had a paper published and want it listed in the Getz Lab website.  Creating a new paper "post" in the `papers/_posts` folder will add your new publication to the website's publications listing.  Go into the `news/_posts` folder. Copy one of the existing items into a new file whose name is prefaced with the paper's publication date (this is important!) and an abbreviated version of the title.  For example, we want to add a recent (5/1/2021) Cancer Discovery paper co-authored by are large team of researchers where Gaddy is a co-senior author and Yosi Maruvka is a co-first author.  The paper's title is "DNA Polymerase and Mismatch Repair Exert Distinct Microsatellite Instability Signatures in Normal and Malignant Human Cells".  First thing we do is cd to the papers/_posts subdirectory and, using a recent paper post as a template, create a file for our new publication:
 
 	cp 2021-04-22-rebc-genomic-profile.md 2021-05-01-mismatch-repair-msi-signatures.md
 
-The date is used by the static file generator; it's inelegant and perhaps there's a way to do it differently, but that's how it is for now. Now edit the new file to make the content what you want. Just open it in your favorite editor and type away. By the time you're done, hopefully you have something like this:
+The date which prefaces the filename is used by the static file generator; it's inelegant and perhaps there's a way to do it differently, but that's how it is for now. Now edit the new file to make the content what you want. Just open it in your favorite editor and type away. By the time you're done, hopefully you have something like this:
 
 	---
 	layout: paper
 	title: "DNA Polymerase and Mismatch Repair Exert Distinct Microsatellite Instability Signatures in Normal and Malignant Human Cells"
 	year: "2021"
-	journal: "Cancer Discovery"
+	journal: Cancer Discovery
 	volume: 
-	author: "Chung J, Maruvka YE, Sudhaman S, Kelly J, Haradhvala NJ, Bianchi V, Edwards M, Forster VJ, Nunes NM, Galati MA, Komosa M, Deshmukh S, Cabric V, Davidson S, Zatzman M, Light N, Hayes R, Brunga L, Anderson ND, Ho B, Hodel KP, Siddaway R, Morrissy AS, Bowers DC, Larouche V, Bronsema A, Osborn M, Cole KA, Opocher E, Mason G, Thomas GA, George B, Ziegler DS, Lindhorst S, Vanan M, Yalon-Oren M, Reddy AT, Massimino M, Tomboc P, Van Damme A, Lossos A, Durno C, Aronson M, Morgenstern DA, Bouffet E, Huang A, Taylor MD, Villani A, Malkin D, Hawkins CE, Pursell ZF, Shlien A, Kunkel TA, Getz G, Tabori U"
-	first_authors: "Chung J, Maruvka YE"
-	senior_authors: "Getz G, Tabori U"
-	corresponding_authors: "Getz G, Tabori U"
+	author: Chung J, Maruvka YE, Sudhaman S, Kelly J, Haradhvala NJ, Bianchi V, Edwards M, Forster VJ, Nunes NM, Galati MA, Komosa M, Deshmukh S, Cabric V, Davidson S, Zatzman M, Light N, Hayes R, Brunga L, Anderson ND, Ho B, Hodel KP, Siddaway R, Morrissy AS, Bowers DC, Larouche V, Bronsema A, Osborn M, Cole KA, Opocher E, Mason G, Thomas GA, George B, Ziegler DS, Lindhorst S, Vanan M, Yalon-Oren M, Reddy AT, Massimino M, Tomboc P, Van Damme A, Lossos A, Durno C, Aronson M, Morgenstern DA, Bouffet E, Huang A, Taylor MD, Villani A, Malkin D, Hawkins CE, Pursell ZF, Shlien A, Kunkel TA, Getz G, Tabori U
+	first_authors: Chung J, Maruvka YE
+	senior_authors: Getz G, Tabori U
+	corresponding_authors: Getz G, Tabori U
 	fulltext: https://cancerdiscovery.aacrjournals.org/content/11/5/1176.long
 	doi: 10.1158/2159-8290.CD-20-0790
 	pmid: 33355208
@@ -104,7 +104,7 @@ and push to GitHub:
 
 Changes won't be immediate, so wait a minute or two while GitHub's servers regenerate the site and publish it. Check to make sure the public site [www.getzlab.org](http://www.getzlab.org) looks the way you intend.
 
-Finally, check out `staging` again so that you don't accidentally start working on the `master` branch the next time you sit down:
+Finally, check out `staging` again so that you don't accidentally start working on the `master` branch the next time you sit down to make updates to the website:
 
 	git checkout staging
 
@@ -117,7 +117,7 @@ Fonts, colors, spacing, and similar stylings are separate from the template page
 # Content Classes
 ## papers
 
-The Getz Lab website displays lists of publications on two pages.  Recently published papers (six most recently published) appear on the front page under the heading "Recent Papers" and all papers added to the website will appear under Selected Papers, navigated to by selecting Papers in the top nav bar.  In both listings, the names of authors that are current or past lab members are in a **bold** font.  In both listings, a paper's title is an internal like to a web page devoted to that paper.  The paper's web page lists all of the paper's authors; journal name, volumne, issue and page; abstract; public link to journal article fulltext or pdf (if available); the PubMed ID (linked to PubMed entry); and the DOI, which is linked back to the paper's permanent web address. 
+The Getz Lab website displays lists of publications on three pages.  Recently published papers (six most recently published) appear on the front page under the heading "Recent Papers".  All papers added to the website will appear under Selected Papers, navigated to by selecting Papers in the top nav bar. Team member pages includes a list of lab papers where the team member is a co-author.  In all listings, the names of authors that are current or past lab members are in a **bold** font.  In all listings, a paper's title is an internal like to a web page devoted to that paper.  The paper's web page lists all of the paper's authors; journal name, volume, issue and page; abstract; public link to journal article fulltext and/or pdf (when available); the PubMed ID (linked to PubMed entry); and the DOI, which is linked back to the paper's permanent web address. 
 
 To add a new paper to the site, you will create a markdown file and place it in the papers/_posts folder.  The file's name must follow the following syntax:
 
@@ -149,24 +149,24 @@ The yaml front matter should contain the following:
 	
 IMPORTANT:
  
-- surround values with double quotes if value contains embedded whitespace
-- key/value pairs in brackets are optional; you may also list key of optional pair with no accompanying value
+- The title and year values need to be surrounded by double quotes; other field values do not (we are working on figuring out the source of this quirk and eliminating the need for quotes).  Enclosing any of the values in quotes, however, should never do any harm.surround values with double quotes if the value contains embedded whitespace
+- key/value pairs in brackets are optional; you may also list the key of an optional pair with no accompanying value
 
-To get the comma-separated list of authors (which can be quite long for many of our lab's publications) to to the paper's pubmed site, click on "Cite" under "ACTIONS" and copy/paste the full length of authors.  Note each author is listed lastname first followed by one or two initials, e.g.:
+To get the comma-separated list of authors (which can be quite long for many of our lab's publications) go to the paper's pubmed site, click on "Cite" under "ACTIONS" and copy/paste the full length of authors.  Note each author is listed lastname first followed by one or two initials, e.g.:
 
 Morton LM, Karyadi DM, Stewart C, Bogdanova TI, Dawson ET, Steinberg MK, Dai J, Hartley SW, Schonfeld SJ, Sampson JN, Maruvka YE, Kapoor V, Ramsden DA, Carvajal-Garcia J, Perou CM, Parker JS, Krznaric M, Yeager M, Boland JF, Hutchinson A, Hicks BD, Dagnall CL, Gastier-Foster JM, Bowen J, Lee O, Machiela MJ, Cahoon EK, Brenner AV, Mabuchi K, Drozdovitch V, Masiuk S, Chepurny M, Zurnadzhy LY, Hatch M, Berrington de Gonzalez A, Thomas GA, Tronko MD, Getz G, Chanock SJ
 
 (The PubMed site is also a good source for the other fields.)
 
-Each lab member's (current or past) page contains a yaml key/value pair `citation-names`.  It is important that any citation name used for that member be included in that key's value.  For example, in pmid citatins, Gaddy's name is listed as Getz G or Getz GA;  his team member page contains the following comma-separated list:
+Each lab member's (current or past) page contains a yaml key/value pair `citation-names`.  It is important that any citation name used for that member be included in that key's value.  For example, in pmid citations, Gaddy's name is listed as Getz G or Getz GA;  his team member page contains the following comma-separated list:
 
-	citation_names: "Getz G, Getz GA"
+	citation_names: Getz G, Getz GA
 	
 This is how we ensure lab members' names appear in a bold font in any paper added to the lab website.
 
 ## team
 
-Navigating to "Team" (on the top navigation bar) displays Getz Lab membership, both present and past.  Current members are listed under the following categories: 
+Navigating to "Team" (on the top navigation bar) displays Getz Lab membership, both present and past.  Members and alumni are listed under the following categories: 
 
 - Principal Investigator (Gaddy)
 - Operations and Administration
@@ -185,14 +185,24 @@ These pages reside in the folder team/_posts.  The file's name must follow the f
 	
 While a date is still required, we wanted individuals to be listed in alphabetical order within each category; hence all needed to have the same date stamp...I needed an arbitrary date so I chose the Unix epoch.
 	
-For many lab members a baseline page has already been created containing a minimal amount of information (name, cateogry position, citation_names, alum status).  You should update this page with your personal information; e.g., twitter, github userid, google scholar id, linkedin id, image, cv).
+For many lab members a baseline page has already been created containing a minimal amount of information (name, category position, citation_names, alum status).  You should update this page with your personal information; e.g., twitter, github userid, google scholar id, linkedin id, image, cv).
 
 The yaml front matter in a lab member page should contain the following:
 
 	---
 	layout: member
 	title: <member name (first last)>
-	citation_names: 
+	citation_names: <comma-separated list of (PMID-style) citation names>
+	category: Principal Investigator | Operations and Administration | Staff Scientist | Staff Engineer | Associate | Postdoctoral Researcher | Graduate Student
+	position: <position title>
+	[email: <broad email>]
+	[twitter: <twitter handle>]
+	[github: <github userid>]
+	[linkedin: <linkedin id>]
+	[image: /assets/images/team/<image png filename>]
+	[cv: /assets/pdfs/<cv pdf filename>]
+	[scholar: <google scholar id>]
+	alum: false | true
 	---
 
 
