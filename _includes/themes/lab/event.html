@@ -1,0 +1,14 @@
+<div class="page-header">
+  <div class="title media-heading">{{ page.title }}</div>
+  {% if page.tagline %}
+  <div class="tagline">{{page.tagline}}</div>
+  {% endif %}</h1>
+</div>
+
+{% for image in site.static_files %}
+  {% if image.path contains page.event_folder %}
+    <a href="{{ site.baseurl }}{{ image.path }}" target="_blank">
+      <img src="{{ site.baseurl }}{{ image.path }}" alt="" class="img-thumbnail" width="250" />
+     </a>
+  {% endif %}
+{% endfor %}

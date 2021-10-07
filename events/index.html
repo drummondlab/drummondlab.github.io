@@ -1,0 +1,25 @@
+---
+layout: default
+title: "Events"
+description: "Lab events"
+group: subnavigation
+navorder: 2
+---
+{% include JB/setup %}
+<div class="hugespacer"></div>
+<div class="bigtitle">Lab Events</div>
+<div class="hugespacer"></div>
+{% for event in site.categories.events %}
+  <div class="row">
+    <div class="col-md-6 eventbox">
+      <div class="media">
+          <div class="pull-right"><img width=300 class="media-object" src="{{ event.image }}" style="float: left"></div>
+        <div class="media-body">
+            <div class="smallhead media-heading"><a href="{{ event.url }}" class="off">{{ event.title }}</a></div>
+            <p class="note">{{ event.tagline }}</p>
+        </div>
+      </div>
+    </div>
+  </div><div class="bigspacer"></div>
+{% endfor %}
+<div class="bigspacer"></div>
