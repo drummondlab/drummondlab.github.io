@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Edward W. J. Wallace"
-position: Former postdoc
+position: Group leader
 nickname: Edward
 handle: ew
 email: ewallace@uchicago.edu
