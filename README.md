@@ -29,15 +29,15 @@ Enter your local repository and check out the `staging` branch, where you'll mak
 
 ## Overview of the structure
 
-A site is a collection of HTML pages. For our site (and many others), there are page types, like a paper page or a lab member page, which are the same in design but different in content. In the web-accessible site, these are indeed different pages. However, they are _generated_ from a single template file filled in with information from many paper- or member-specific data files. This generation is done every time the site changes; it's handled by GitHub Pages, the service we use.
+A site is a collection of HTML pages. For our site (and many others), there are page types, like a paper (publication) page or a lab member page, which are the same in design but different in content. In the web-accessible site, these are indeed different pages. However, they are _generated_ from a single template file filled in with information from many paper- or member-specific markdown data files. This generation is done every time the site changes; it's handled by GitHub Pages, the service we use.
 
 The template files are weird-looking HTML files (containing jekyll site variables and control logic) residing in the `_includes/themes/lab` folder.  You should not alter the contents of this folder.
 
 ## How to add content
 
-For most common actions---adding a lab member, paper, or portal---you'll be making a new Markdown file in the proper location, naming it properly, and filling in the required fields. The markdown files contain a YAML front matter block which is processed by Jekyll.  Different categories of website content (e.g., paper, member, portal) have different YAML dictionary keys in their front matter, so in almost all cases you can (and should!) copy an existing item, change the name, and change its content, rather than trying to write a Markdown document from scratch.
+For most common actions---adding/updating a lab member page or adding a publication page---you'll be making a new markdown file in the proper location, naming it properly, and filling in the required fields. The markdown files contain a YAML front matter block which is processed by Jekyll.  Different categories of website content (e.g., paper, member, portal) have different YAML dictionary keys in their front matter, so in almost all cases you can (and should!) copy an existing item, change the name, and change its content, rather than trying to write a Markdown document from scratch.
 
-For example, suppose you recently had a paper published and want it listed in the Getz Lab website.  Creating a new paper "post" in the `papers/_posts` folder will add your new publication to the website's publications listing.  Go into the `news/_posts` folder. Copy one of the existing items into a new file whose name is prefaced with the paper's publication date (this is important!) and an abbreviated version of the title.  For example, we want to add a recent (5/1/2021) Cancer Discovery paper co-authored by are large team of researchers where Gaddy is a co-senior author and Yosi Maruvka is a co-first author.  The paper's title is "DNA Polymerase and Mismatch Repair Exert Distinct Microsatellite Instability Signatures in Normal and Malignant Human Cells".  First thing we do is cd to the papers/_posts subdirectory and, using a recent paper post as a template, create a file for our new publication:
+For example, suppose you recently had a paper published and want it listed on the Getz Lab website.  Creating a new paper "post" in the `papers/_posts` folder will add your new publication to the website's publications listing.  Go into the `papers/_posts` folder. Copy one of the existing items into a new file whose name is prefaced with the paper's publication date (this is important!) and an abbreviated version of the title.  For example, we want to add a recent (5/1/2021) Cancer Discovery paper co-authored by a large team of researchers where Gaddy is a co-senior author and Yosi Maruvka is a co-first author.  The paper's title is "DNA Polymerase and Mismatch Repair Exert Distinct Microsatellite Instability Signatures in Normal and Malignant Human Cells".  First thing we do is cd to the papers/_posts subdirectory and, using a recent paper post as a template, create a file for our new publication:
 
 	cp 2021-04-22-rebc-genomic-profile.md 2021-05-01-mismatch-repair-msi-signatures.md
 
@@ -117,13 +117,13 @@ Fonts, colors, spacing, and similar stylings are separate from the template page
 # Content Classes
 ## papers
 
-The Getz Lab website displays lists of publications on three pages.  Recently published papers (six most recently published) appear on the front page under the heading "Recent Papers".  All papers added to the website will appear under Selected Papers, navigated to by selecting Papers in the top nav bar. Team member pages includes a list of lab papers where the team member is a co-author.  In all listings, the names of authors that are current or past lab members are in a **bold** font.  In all listings, a paper's title is an internal like to a web page devoted to that paper.  The paper's web page lists all of the paper's authors; journal name, volume, issue and page; abstract; public link to journal article fulltext and/or pdf (when available); the PubMed ID (linked to PubMed entry); and the DOI, which is linked back to the paper's permanent web address. 
+The Getz Lab website displays lists of publications on three pages.  Recently published papers (six most recently published) appear on the front page under the heading "Recent Papers".  All papers added to the website will appear on the Selected Papers page, navigated to by selecting Papers in the top nav bar. Team member pages include a list of lab papers where the team member is a co-author.  In all listings, the names of authors that are current or past lab members are in a **bold** font.  In all listings, a paper's title is an internal like to a web page devoted to that paper.  The paper's web page lists all of the paper's authors; journal name, volume, issue and page; abstract; public link to journal article fulltext and/or pdf (when available); the PubMed ID (linked to PubMed entry); and the DOI, which is linked back to the paper's permanent web address. 
 
 To add a new paper to the site, you will create a markdown file and place it in the papers/_posts folder.  The file's name must follow the following syntax:
 
 	yyyy-mm-dd-<any short, hyphenated string>.md
 	
-The date should be the publication date of the paper.  I recommend using the print publication (rather than the e-publication date).
+The date should be the publication date of the paper.  I recommend using the print publication (rather than the e-publication date), but this is open for discussion.
 
 The yaml front matter should contain the following:
 
@@ -149,7 +149,7 @@ The yaml front matter should contain the following:
 	
 IMPORTANT:
  
-- The title and year values need to be surrounded by double quotes; other field values do not (we are working on figuring out the source of this quirk and eliminating the need for quotes).  Enclosing any of the values in quotes, however, should never do any harm.surround values with double quotes if the value contains embedded whitespace
+- The title and year values need to be surrounded by double quotes; other field values do not (we are working on figuring out the source of this quirk and eliminating the need for quotes).  Enclosing any of the values in quotes, however, should never do any harm.
 - key/value pairs in brackets are optional; you may also list the key of an optional pair with no accompanying value
 
 To get the comma-separated list of authors (which can be quite long for many of our lab's publications) go to the paper's pubmed site, click on "Cite" under "ACTIONS" and copy/paste the full length of authors.  Note each author is listed lastname first followed by one or two initials, e.g.:
@@ -163,6 +163,14 @@ Each lab member's (current or past) page contains a yaml key/value pair `citatio
 	citation_names: Getz G, Getz GA
 	
 This is how we ensure lab members' names appear in a bold font in any paper added to the lab website.
+
+After the YAML front matter provide the paper's abstract, e.g.,
+
+	# Abstract
+	
+	<paste the paper's abstract here>
+	
+Once the new paper is added to the papers/_posts directory, it will be fully integrated into the site; e.g., (i) it will be listed on the web site's main page as a recent paper, (ii) it will be listed on the Selected Authors page and (iii) it will be listed on the member page(s) of the lab members who are the paper's authors.
 
 ## team
 
@@ -204,15 +212,39 @@ The yaml front matter in a lab member page should contain the following:
 	[scholar: <google scholar id>]
 	alum: false | true
 	---
+Your image file should have an aspect ratio of 1:1.  This ensures the rows on the team page all have the same height.
 
+Following the YAML front matter you may provide any text you would like to appear on your member page.  This might include research interests and biographical information.
 
 ## portals
+Navigating to "Portals" (on the top navigation bar) displays the public portals the lab has contributed to.  Clicking on the portal's logo takes you to the portal website.
+
+These pages reside in the folder team/_posts.  The file's name must follow the following syntax:
+
+	<date portal released>-<portal name>.md
+	
+The yaml front matter for a portal contains the following:
+
+	---
+	layout: portal
+	title: <portal title>
+	category: portal
+	web_url: <portal url>
+	image: /assets/images/portals/<portal logo png>
+	---
+	
+Following the YAML front matter you may provide text summarizing the portal's purpose and content.  This may include internal links to a lab paper referencing the portal; e.g., below is the text contained in the tumor portal md file:
+
+	Data and results from [Lawrence2014] are posted on the Tumor Portal site. The site includes graphical displays of the mutations in each of the 18,388 genes studied. The site also includes tables of mutational data for each significant gene) and Q-Q plots for each statistical test.  
+
+	[Lawrence2014]: /papers/paper/mutsig2cv
+ 
 ## positions
 ## tools
 
 # To-dos
 
-See Issues on [the site](https://github.com/drummondlab/drummondlab.github.io).
+See Issues on [the site](https://github.com/getzlab/getzlab.github.io).
 
 
 # License

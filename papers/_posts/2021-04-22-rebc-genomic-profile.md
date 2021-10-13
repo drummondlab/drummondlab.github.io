@@ -2,14 +2,14 @@
 layout: paper
 title: "Radiation-related genomic profile of papillary thyroid cancer after the Chernobyl accident"
 year: "2021"
-journal: "Science"
+journal: Science
 volume: 
 issue: April
 pages: 
-authors: "Morton L, Karyadi D, Stewart C, Bogdanova T, Dawson E, Steinberg M, Dai J, Hartley S, Schonfeld S, Sampson J, Maruvka Y, Kapoor V, Ramsden D, Carvajal-Garcia J, Perou C, Parker J, Krznaric M, Yeager M, Boland J, Hutchinson A, Hicks B, Dagnall C, Gastier-Foster J, Bowen J, Lee O, Machiela M, Chaoon E, Brenner A, Mabuchi K, Drozdovitch V, Masiuk S, Chepurny M, Zurnadzhy L, Hatch M, Berrington de Gonzalez A, Thomas G, Tronko M, Getz G, Chanock S"
-first_authors: "Morton L, Karyadi D, Stewart C"
-senior_authors: "Getz G, Chanock S"
-corresponding_authors: "Morton L, Chanock S"
+authors: Morton L, Karyadi D, Stewart C, Bogdanova T, Dawson E, Steinberg M, Dai J, Hartley S, Schonfeld S, Sampson J, Maruvka Y, Kapoor V, Ramsden D, Carvajal-Garcia J, Perou C, Parker J, Krznaric M, Yeager M, Boland J, Hutchinson A, Hicks B, Dagnall C, Gastier-Foster J, Bowen J, Lee O, Machiela M, Chaoon E, Brenner A, Mabuchi K, Drozdovitch V, Masiuk S, Chepurny M, Zurnadzhy L, Hatch M, Berrington de Gonzalez A, Thomas G, Tronko M, Getz G, Chanock S
+first_authors: Morton L, Karyadi D, Stewart C
+senior_authors: Getz G, Chanock S
+corresponding_authors: Morton L, Chanock S
 fulltext:
 pdflink:
 doi: 10.1126/science.abg2538

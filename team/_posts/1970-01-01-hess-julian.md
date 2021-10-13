@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Julian Hess
-citation_names: "Hess JM"
+citation_names: Hess JM
 category: Staff Scientist
 position: Computational Biologist
 email: jhess@broadinstitute.org
