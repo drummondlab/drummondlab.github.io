@@ -27,11 +27,11 @@ Clone the repository, making a local copy on your machine:
 
 Create a personal branch:
 
-	git checkout -b my-getzlab-website
+	git checkout -b my-staging-branch
 
 Make your changes, commit them to your local branch, push your local branch to github:
 
-	git push origin my-getzlab-website
+	git push origin my-staging-branch
 	
 
 
