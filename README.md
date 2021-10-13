@@ -12,7 +12,10 @@ Here's a step-by-step guide to making modifications to the site. We will first f
 
 ## Software Requirements
 
-You'll need a working Unix-like environment and working knowledge of Git, [Markdown](https://daringfireball.net/projects/markdown/syntax), HTML, and Unix commands. You'll need a working Ruby installation, with gems for Jekyll, GitHub Pages, and their dependencies installed. Ruby and gem installation is quite straightforward, UNLESS you have one of the new M1 Macs.  We will be providing detailed instructions on how to do these installations.
+You'll need a working Unix-like environment and working knowledge of Git, [Markdown](https://daringfireball.net/projects/markdown/syntax), HTML, and Unix commands. You'll need a working Ruby installation, with gems for Jekyll, GitHub Pages, and their dependencies installed. The installation of these tools can be a little confusing, depending on your hardware (intel vs. M1 chip) the OS environment (Catalina vs. Big Sur) and the shell you are using (bash vs. zsh)  I recently needed to upgrade to Big Sur (required by BITS) and the upgrade broke my ruby/jekyll dev environment.  I did get it reassembled and working again, but it took a couple of hours.  See the following instruction: 
+
+
+[Jekyll Installation on Mac](https://jekyllrb.com/docs/installation/macos/)
 
 ## Clone the repository
 
@@ -21,6 +24,16 @@ If you're a member of the [all_getzlab team](https://github.com/orgs/getzlab/tea
 Clone the repository, making a local copy on your machine:
 
 	git clone https://github.com/getzlab/getzlab.github.io.git
+
+Create a personal branch:
+
+	git checkout -b my-getzlab-website
+
+Make your changes, commit them to your local branch, push your local branch to github:
+
+	git push origin my-getzlab-website
+	
+
 
 Enter your local repository and check out the `staging` branch, where you'll make changes before promoting them to the `master` branch and publishing them:
 
