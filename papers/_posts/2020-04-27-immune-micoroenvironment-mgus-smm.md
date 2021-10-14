@@ -10,7 +10,7 @@ authors: "Zavidij O, Haradhvala NJ, Mouhieddine TH, Sklavenitis-Pistofidis R, Ca
 first_authors: "Zavidij O, Haradhvala NJ, Mouhieddine TH"
 senior_authors: "Azzi J, Getz G, Ghobrial IM"
 corresponding_authors: "Getz G, Ghobrial IM"
-fulltext: 
+fulltext: https://www.nature.com/articles/s43018-020-0053-3
 pdflink:
 github:
 pmid: 33409501

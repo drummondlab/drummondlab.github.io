@@ -10,7 +10,7 @@ authors: "Alexandrov LB, Kim J, Haradhvala NJ, Huang MN, Tian Ng AW, Wu Y, Boot 
 first_authors: "Alexandrov LB, Kim J, Haradhvala NJ, Huang MN"
 senior_authors:  "Getz G, Rozen SG, Stratton MR"
 corresponding_authors: "Rozen SG, Stratton MR"
-fulltext:
+fulltext: https://www.nature.com/articles/s43018-020-0053-3
 pdflink: https://www.nature.com/articles/s41586-020-1943-3.pdf
 pmid: 32025018
 doi: 10.1038/s41586-020-1943-3

@@ -10,7 +10,7 @@ authors: "Rheinbay E, Nielsen MM, Abascal F, Wala JA, Shapira O, Tiao G, Hornsh√
 first_authors: "Rheinbay E, Nielsen MM, Abascal F, Wala JA, Shapira O"
 senior_authors: "Weischenfeldt J, Martincorena I, Pedersen JS, Getz G"
 corresponding_authors: "Weischenfeldt J, Beroukhim R,  Martincorena I, Pedersen JS, Getz G"
-fulltext:
+fulltext: https://www.nature.com/articles/s41586-020-1965-x
 pdflink: https://www.nature.com/articles/s41586-020-1965-x.pdf
 github:
 pmid: 32025015

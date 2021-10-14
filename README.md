@@ -140,8 +140,8 @@ The yaml front matter should contain the following:
 	first_authors: <comma-separated list of first authors>
 	senior_authors: <comma-separated list of senior authors>
 	corresponding_authors: <comma-separated list of corresponding authors>
-	[fulltext: <url to full-text html>]
-	[pdflink: <url to full-text pdf>]
+	[fulltext: <url to full-text journal html>]
+	[pdflink: <url to full-text journal pdf>]
 	[pmid: <pubmed ID>]
 	doi: <assigned doi>
 	category: paper
@@ -164,6 +164,8 @@ Each lab member's (current or past) page contains a yaml key/value pair `citatio
 	citation_names: Getz G, Getz GA
 	
 This is how we ensure lab members' names appear in a bold font in any paper added to the lab website.
+
+The fulltext key/value pair should contain a link to the article's html text on the journal site.  The pdflink key/value pair should contain a link to the publication's full-text pdf on the journal site.
 
 After the YAML front matter provide the paper's abstract, e.g.,
 

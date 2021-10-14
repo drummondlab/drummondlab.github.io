@@ -10,8 +10,8 @@ authors: "Chung J, Maruvka YE, Sudhaman S, Kelly J, Haradhvala NJ, Bianchi V, Ed
 first_authors: "Chung J, Maruvka YE"
 senior_authors: "Getz G, Tabori U"
 corresponding_authors: "Getz G, Tabori U"
-fulltext:
-pdflink: https://cancerdiscovery.aacrjournals.org/content/early/2020/12/18/2159-8290.CD-20-0790.full-text.pdf
+fulltext: https://cancerdiscovery.aacrjournals.org/content/11/5/1176.long
+pdflink: https://cancerdiscovery.aacrjournals.org/content/11/5/1176.full-text.pdf
 pmid: 33355208
 doi: 10.1158/2159-8290.CD-20-0790
 category: paper

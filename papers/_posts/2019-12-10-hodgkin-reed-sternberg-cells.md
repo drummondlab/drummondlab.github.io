@@ -10,7 +10,7 @@ authors: "Wienand K, Chapuy B, Stewart C, Dunford AJ, Wu D, Kim J, Kamburov A, W
 first_authors: "Wienand K, Chapuy B, Stewart C, Dunford AJ, Wu D"
 senior_authors: "Fromm JR, Getz G, Shipp MA"
 corresponding_authors: "Fromm JR, Getz G, Shipp MA"
-fulltext:
+fulltext: https://ashpublications.org/bloodadvances/article/3/23/4065/429586/Genomic-analyses-of-flow-sorted-Hodgkin-Reed
 pdflink:
 pmid: 31816062
 doi: 10.1182/bloodadvances.2019001012

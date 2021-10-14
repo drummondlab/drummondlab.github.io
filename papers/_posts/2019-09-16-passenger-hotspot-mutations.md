@@ -10,7 +10,7 @@ authors: "Hess JM, Bernards A, Kim J, Miller M, Taylor-Weiner A, Haradhvala NJ, 
 first_authors: "Hess JM"
 senior_authors: "Lawrence MS, Getz G"
 corresponding_authors: "Lawrence MS, Getz G"
-fulltext:
+fulltext: https://www.cell.com/cancer-cell/fulltext/S1535-6108(19)30370-8
 pdflink: https://www.cell.com/action/showPdf?pii=S1535-6108%2819%2930370-8
 github:
 pmid: 31526759

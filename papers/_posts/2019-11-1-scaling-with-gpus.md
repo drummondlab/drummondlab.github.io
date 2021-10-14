@@ -10,7 +10,7 @@ authors: "Taylor-Weiner A, Aguet F, Haradhvala NJ, Gosai S, Anand S, Kim J, Ardl
 first_authors: "Taylor-Weiner A, Aguet F"
 senior_authors: "Getz G"
 corresponding_authors: "Getz G"
-fulltext:
+fulltext: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1836-7
 pdflink: https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-019-1836-7.pdf
 doi: 10.1186/s13059-019-1836-7
 pmid: 31675989

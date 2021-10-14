@@ -10,7 +10,7 @@ authors: "Chapuy B, Stewart C, Dunford AJ, Kim J, Wienand K, Kamburov A, Griffin
 first_authors: "Chapuy B, Stewart C, Dunford AJ"
 senior_authors: "Getz G, Shipp MA"
 corresponding_authors: "Shipp MA"
-fulltext:
+fulltext: https://ashpublications.org/blood/article/134/26/2369/422650/Genomic-analyses-of-PMBL-reveal-new-drivers-and
 pdflink:
 doi: 10.1182/blood.2019002067
 pmid: 31697821

@@ -10,8 +10,8 @@ authors: "Bustoros M, Sklavenitis-Pistofidis R, Park J, Redd R, Zhitomirsky B, D
 first_authors: "Busteros M, Sklavenitis-Pistofidis R"
 senior_authors: "Manier S, Getz G, Ghobrial IM"
 corresponding_authors: "Sklavenitis-Pistofidis R, Ghobrial IM"
-fulltext:
-pdflink:
+fulltext: https://ascopubs.org/doi/full/10.1200/JCO.20.00437
+pdflink: https://ascopubs.org/doi/pdf/10.1200/JCO.20.00437
 pmid: 32442065
 doi: 10.1200/JCO.20.00437
 category: paper

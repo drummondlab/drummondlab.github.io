@@ -10,7 +10,7 @@ authors: "Ben-Hamo R, Jacob Berger A, Gavert N, Miller M, Pines G, Oren R, Pikar
 first_authors: "Ben-Hamo R"
 senior_authors: "Getz G, Straussman R"
 corresponding_authors: "Getz G, Straussman R"
-fulltext:
+fulltext: https://www.nature.com/articles/s41467-020-17090-y
 pdflink: https://www.nature.com/articles/s41467-020-17090-y.pdf
 pmid: 32620799
 doi: 10.1038/s41467-020-17090-y
