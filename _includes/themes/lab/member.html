@@ -85,6 +85,8 @@
 		</div>		
 		<div class="bigspacer"></div>	
 		{% endif %}				   	
+                
+		{% if member.alum == false %}
 		{% if member.email %}
 		{% assign emailarray = member.email | split: '@' %}
 		<div class="smallhead">
@@ -97,6 +99,8 @@
 		</div>		
 		<div class="bigspacer"></div>			
 		{% endif %}
+		{% endif %}
+		
 		{% if member.linkedin %}
 		<div class="smallhead">
 			LinkedIn
@@ -138,7 +142,7 @@
                   {% assign team_citation_names = team_citation_names | join: ", " %}
 
 		  <div class="bigspacer"></div>
-		  <div class="head">Lab Papers</div>
+		  <div class="head">Selected Lab Papers</div>
 		  <div class="spacer"></div>
 		  <ul>
 		    {% for paper in site.categories.papers %}

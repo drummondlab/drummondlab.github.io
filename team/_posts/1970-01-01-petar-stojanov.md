@@ -2,13 +2,12 @@
 layout: member
 title: Petar Stojanov
 citation_names: "Stojanov P"
-category: Associate
-position: Associate Computational Scientist
-email:
+category: Postdoctoral Researcher
+position: Postdoctoral Associate
+email: petar@broadinstitute.org
 github: 
 cv:
-alum: true
+alum: false
 linkedin: 
-current: 
 ---
 
