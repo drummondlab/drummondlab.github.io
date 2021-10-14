@@ -7,7 +7,7 @@ volume: 578
 issue: 7793
 pages: 94-101
 authors: "Alexandrov LB, Kim J, Haradhvala NJ, Huang MN, Tian Ng AW, Wu Y, Boot A, Covington KR, Gordenin DA, Bergstrom EN, Islam SMA, Lopez-Bigas N, Klimczak LJ, McPherson JR, Morganella S, Sabarinathan R, Wheeler DA, Mustonen V; PCAWG Mutational Signatures Working Group, Getz G, Rozen SG, Stratton MR; PCAWG Consortium"
-first_authors: "Alexandrov LB, Kim J"
+first_authors: "Alexandrov LB, Kim J, Haradhvala NJ, Huang MN"
 senior_authors:  "Getz G, Rozen SG, Stratton MR"
 corresponding_authors: "Rozen SG, Stratton MR"
 fulltext:
