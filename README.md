@@ -25,20 +25,8 @@ Clone the repository, making a local copy on your machine:
 
 	git clone https://github.com/getzlab/getzlab.github.io.git
 
-Create a personal branch:
 
-	git checkout -b my-staging-branch
-
-Make your changes, commit them to your local branch, push your local branch to github:
-
-	git push origin my-staging-branch
 	
-
-
-Enter your local repository and check out the `staging` branch, where you'll make changes before promoting them to the `master` branch and publishing them:
-
-	cd getzlab.github.io
-	git checkout staging
 
 ## Overview of the structure
 
@@ -48,7 +36,23 @@ The template files are weird-looking HTML files (containing jekyll site variable
 
 ## How to add content
 
-For most common actions---adding/updating a lab member page or adding a publication page---you'll be making a new markdown file in the proper location, naming it properly, and filling in the required fields. The markdown files contain a YAML front matter block which is processed by Jekyll.  Different categories of website content (e.g., paper, member, portal) have different YAML dictionary keys in their front matter, so in almost all cases you can (and should!) copy an existing item, change the name, and change its content, rather than trying to write a Markdown document from scratch.
+You will create a personal branch, make your changes on that branch, and push your local branch to the github repo:
+
+	git checkout -b <your name>-staging
+
+	...
+
+	git push origin <your name>-staging
+
+You may preview your local edits by having your jekyll installation generate the static pages and and start a private webserver.  This is done by the rake preview command:
+
+	rake preview
+
+...and then open the local test site, http://127.0.0.1:4000. Look at anything you've changed and make sure it's good to go.
+
+[Rake](https://github.com/ruby/rake) is a Make-like program implemented in ruby and part of the ruby/jekyll environment on which our website is built.
+
+For the most common activities --- adding/updating a lab member page or adding a publication page ---you'll be making a new, or updating an existing markdown file. The markdown files contain a YAML front matter block which is processed by Jekyll.  Different categories of website content (e.g., paper, member, portal) have different YAML dictionary keys in their front matter, so in almost all cases you can (and should!) copy an existing item, change the name, and change its content, rather than trying to write a Markdown document from scratch.
 
 For example, suppose you recently had a paper published and want it listed on the Getz Lab website.  Creating a new paper "post" in the `papers/_posts` folder will add your new publication to the website's publications listing.  Go into the `papers/_posts` folder. Copy one of the existing items into a new file whose name is prefaced with the paper's publication date (this is important!) and an abbreviated version of the title.  For example, we want to add a recent (5/1/2021) Cancer Discovery paper co-authored by a large team of researchers where Gaddy is a co-senior author and Yosi Maruvka is a co-first author.  The paper's title is "DNA Polymerase and Mismatch Repair Exert Distinct Microsatellite Instability Signatures in Normal and Malignant Human Cells".  First thing we do is cd to the papers/_posts subdirectory and, using a recent paper post as a template, create a file for our new publication:
 
@@ -92,36 +96,20 @@ This new paper won't yet be public. The next section shows you how to do that.
 
 The same basic process is used to add other content classes; i.e., portals, positions, and team members.  We will describe in subsequent sections the contents of the YAML front matter block for each content class.  A different process, which we will also describe in a subsequent section, is used to add content about a tool to the website (tool information is drawn from the tool's public github repository).
 
-## Updating the public site
+### Updating the public site
 
-All edits should be made on the `staging` branch. When you start work, make sure you're on the staging branch:
+All edits should be made to your private `staging` branch. When you start work, make sure you're on the staging branch:
 
-	git checkout staging
+	git checkout <your name>-staging
 
-Once your edits are done, preview the site. Generate the pages and start the private webserver:
 
-	rake preview
+Instead of merging your changes directly to the `master` branch, you will create a pull request.
 
-...and then open the local test site, http://127.0.0.1:4000. Look at anything you've changed and make sure it's good to go.
+After pushing your branch to the repo, go to github and create a pull request, naming cbirger as the reviewer.  (Eventually reviewer responsibilities will be shared across multiple lab members.)  When you create the pull request, please make sure you set the base repository to getzlab/getzlab.github.io and the base reference branch to master.  Once a pull request is approved, it will be merged to master, and thus pushed to the public website.
 
-[Rake](https://github.com/ruby/rake) is a Make-like program implemented in ruby and part of the ruby/jekyll environment on which our website is built.
+When the pull request is completed, check to make sure the public site [www.getzlab.org](http://www.getzlab.org) looks the way you intended.
 
-To move the changes to the `master` branch:
-
-	git checkout master
-	git merge staging
-
-and push to GitHub:
-
-	git push
-
-Changes won't be immediate, so wait a minute or two while GitHub's servers regenerate the site and publish it. Check to make sure the public site [www.getzlab.org](http://www.getzlab.org) looks the way you intend.
-
-Finally, check out `staging` again so that you don't accidentally start working on the `master` branch the next time you sit down to make updates to the website:
-
-	git checkout staging
-
-We will probably want to implement a pull request procedure for review of new content before it is published to the public site.
+Don't forget to make your changes on a personal staging branch so they can be reviewed before merging onto master!
 
 ## Changing look and feel
 
@@ -253,11 +241,20 @@ Following the YAML front matter you may provide text summarizing the portal's pu
 	[Lawrence2014]: /papers/paper/mutsig2cv
  
 ## positions
+TBD
+
 ## tools
+TBD
+
+## talks
+TBD
+
+## events
+TBD
 
 # To-dos
 
-See Issues on [the site](https://github.com/getzlab/getzlab.github.io).
+See Issues on [the repo site](https://github.com/getzlab/getzlab.github.io).
 
 
 # License
