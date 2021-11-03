@@ -20,7 +20,7 @@ f1000:
 doi: "10.21769/BioProtoc.3653"
 dryad_doi:
 figshare_doi: 
-altmetric_id: 114629483
+altmetric_id:
 category: paper
 # Note: 'published' is a Jekyll keyword and does not refer to whether the paper is published, but rather to whether this Markdown should be part of the rendered site.
 published: true
