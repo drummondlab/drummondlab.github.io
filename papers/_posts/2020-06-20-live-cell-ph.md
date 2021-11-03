@@ -2,7 +2,7 @@
 layout: paper
 title: "Live cell measurement of the intracellular pH of yeast by flow cytometry using a genetically-encoded fluorescent reporter"
 year: "2020"
-shortref: "Triandafillou and Drummond 2021"
+shortref: "Triandafillou and Drummond 2020"
 nickname: live-cell-ph
 journal: "Bio-protocol"
 volume: 10
