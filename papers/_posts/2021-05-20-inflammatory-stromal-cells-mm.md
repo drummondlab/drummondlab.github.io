@@ -8,7 +8,7 @@ issue:
 pages: 677-678
 authors: Sklavenitis-Pistofidis R, Haradhvala NJ, Getz G, Ghobrial I
 first_authors: Sklavenitis-Pistofidis R, Haradhvala NJ
-senior_authors: Getz G
+senior_authors: Getz G, Ghobrial I
 corresponding_authors: Ghobrial I
 fulltext: https://www.nature.com/articles/s41590-021-00947-9
 pdflink:
