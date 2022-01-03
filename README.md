@@ -12,12 +12,13 @@ Here's a step-by-step guide to making modifications to the site. We will first f
 
 ## Software Requirements
 
-You'll need a working Unix-like environment and working knowledge of Git, [Markdown](https://daringfireball.net/projects/markdown/syntax), HTML, and Unix commands. You'll need a working Ruby installation, with gems for Jekyll, GitHub Pages, and their dependencies installed. The installation of these tools can be a little confusing, depending on your hardware (intel vs. M1 chip) the OS environment (Catalina vs. Big Sur) and the shell you are using (bash vs. zsh)  I recently needed to upgrade to Big Sur (required by BITS) and the upgrade broke my ruby/jekyll dev environment.  I did get it reassembled and working again, but it took a couple of hours.  See the following instruction: 
+You'll need a working Unix-like environment and working knowledge of Git, [Markdown](https://daringfireball.net/projects/markdown/syntax), HTML, and Unix commands. To locally preview your content updates, you will need to run a local instance of Jekyll to generate the static files and serve them locally.  Locally previewing files is most easily done by running Jekyll within a Docker container and serving the website locally from that container. **This is how we recommend lab members locally test their contributions to the website.**  [Previewing your local edits](#previewing-your-local-edits) contains instructions on running Jekyll within a Docker container.
+
+Alternatively, you may install Ruby, with gems for Jekyll, GitHub Pages, and their dependencies, directly on your development system. The installation of these tools can be a little confusing, depending on your hardware (intel vs. M1 chip) the OS environment (Catalina vs. Big Sur) and the shell you are using (bash vs. zsh)  I recently needed to upgrade to Big Sur (required by BITS) and the upgrade broke my ruby/jekyll dev environment.  I did get it reassembled and working again, but it took a couple of hours.  See the following instruction: 
 
 
 [Jekyll Installation on Mac](https://jekyllrb.com/docs/installation/macos/)
 
-As an alternative to installing Ruby and the Jekyll and GitHub Pages gems on your local system, you may run Jekyll within a Docker container and serve the website locally from that container.  **This is how we recommend lab members locally test their contributions to the website.**. [Previewing your local edits](#previewing-your-local-edits) contains instructions on running Jekyll within a Dockker container.
 
 ## Clone the repository
 
@@ -48,23 +49,23 @@ After pushing your personal staging branch to github, create a pull request for 
 
 ### Previewing your local edits
 
-You should preview your local edits by having a locally running Jekyll installation generate the static pages and serve them for review through a browser.  You may run Jekyll directly on your development system (requiring the local installation of Ruby and the Jekyll and GitHub Pages Gems) or, more simply, run Jekyll within a Docker Container.  To run Jekyll from within a Docker container simply issue the following command:
+You should preview your local edits by having a locally running Jekyll installation generate the static pages and serve them for review.  You may run Jekyll directly on your development system (requiring the local installation of Ruby and the Jekyll and GitHub Pages Gems) or, more simply, run Jekyll within a Docker Container.  To run Jekyll from within a Docker container simply issue the following command:
 
 	$ docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 jekyll/jekyll:4.0 jekyll serve
 	
 where the current working directory is the top-most directory of the cloned getzlab.github.io repository.
 
-If you choose to install Ruby and Jekyll on your development system, the following command, run from the top-most directory of the cloned repo, will generate and serve the content for preview:
+If you chose to install Ruby and Jekyll on your development system, the following command, run from the top-most directory of the cloned repo, will generate and serve the content for preview:
 
 	$ rake preview
 
 [Rake](https://github.com/ruby/rake) is a Make-like program implemented in ruby and part of the ruby/jekyll environment on which our website is built.
 
-In either case, open the local test site, http://127.0.0.1:4000, from your browser. Look at anything you've changed and make sure it's good to go.
+In either case, open the local test site, http://127.0.0.1:4000, from your browser. Look at anything you've changed and make sure it's good to go.  While the server is running (either directly on your computer or within a Docker container), any file updates will be automatically detected and impacted static files regenerated.
 
 ### Example workflow
 
-For the most common activities --- adding/updating a lab member page or adding a publication page --- you'll be making a new, or updating an existing markdown file. The markdown files contain a YAML front matter block which is processed by Jekyll.  Different categories of website content (e.g., paper, member, portal) have different YAML dictionary keys in their front matter, so in almost all cases you can (and should!) copy an existing item, change the name, and change its content, rather than trying to write a Markdown document from scratch.
+For the most common activities --- adding/updating a lab member page or adding a publication page --- you'll be making a new, or updating an existing, markdown file. The markdown files contain a YAML front matter block which is processed by Jekyll.  Different categories of website content (e.g., paper, member, portal) have different YAML dictionary keys in their front matter, so in almost all cases you can (and should!) copy an existing item, change the name, and change its content rather than trying to write a Markdown document from scratch.
 
 For example, suppose you recently had a paper published and want it listed on the Getz Lab website.  Creating a new paper "post" in the `papers/_posts` folder will add your new publication to the website's publications listing.  Go into the `papers/_posts` folder. Copy one of the existing items into a new file whose name is prefaced with the paper's publication date (this is important!) and an abbreviated version of the title.  For example, we want to add a recent (5/1/2021) Cancer Discovery paper co-authored by a large team of researchers where Gaddy is a co-senior author and Yosi Maruvka is a co-first author.  The paper's title is "DNA Polymerase and Mismatch Repair Exert Distinct Microsatellite Instability Signatures in Normal and Malignant Human Cells".  First thing we do is cd to the papers/_posts subdirectory and, using a recent paper post as a template, create a file for our new publication:
 
@@ -182,7 +183,7 @@ After the YAML front matter provide the paper's abstract, e.g.,
 	
 	<paste the paper's abstract here>
 	
-Once the new paper is added to the papers/_posts directory, it will be fully integrated into the site; e.g., (i) it will be listed on the web site's main page as a recent paper, (ii) it will be listed on the Selected Authors page and (iii) it will be listed on the member page(s) of the lab members who are the paper's authors.
+Once the new paper is added to the papers/_posts directory, it will be fully integrated into the site; e.g., (i) it will be listed on the web site's main page as a recent paper, (ii) it will be listed on the Selected Papers page and (iii) it will be listed on the member page(s) of the lab members who are included the paper's author list.
 
 ## team
 
