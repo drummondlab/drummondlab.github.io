@@ -17,6 +17,8 @@ You'll need a working Unix-like environment and working knowledge of Git, [Markd
 
 [Jekyll Installation on Mac](https://jekyllrb.com/docs/installation/macos/)
 
+As an alternative to installing Ruby and the Jekyll and GitHub Pages gems on your local system, you may run Jekyll within a Docker container and serve the website locally from that container.  **This is how we recommend lab members locally test their contributions to the website.**. [Previewing your local edits](#previewing-your-local-edits) contains instructions on running Jekyll within a Dockker container.
+
 ## Clone the repository
 
 If you're a member of the [all_getzlab team](https://github.com/orgs/getzlab/teams/all_getzlab), you have write access to the website repository.
@@ -26,8 +28,6 @@ Clone the repository, making a local copy on your machine:
 	git clone https://github.com/getzlab/getzlab.github.io.git
 
 
-	
-
 ## Overview of the structure
 
 A site is a collection of HTML pages. For our site (and many others), there are page types, like a paper (publication) page or a lab member page, which are the same in design but different in content. In the web-accessible site, these are indeed different pages. However, they are _generated_ from a single template file filled in with information from many paper- or member-specific markdown data files. This generation is done every time the site changes; it's handled by GitHub Pages, the service we use.
@@ -36,7 +36,7 @@ The template files are weird-looking HTML files (containing jekyll site variable
 
 ## How to add content
 
-You will create a personal branch, make your changes on that branch, and push your local branch to the github repo:
+You will create a personal branch, make your changes on that branch, preview your changes on a locally-served instance of the website and, when satisfied with the appearance of your changes, push your local branch to the github repo:
 
 	git checkout -b <your name>-staging
 
@@ -44,15 +44,27 @@ You will create a personal branch, make your changes on that branch, and push yo
 
 	git push origin <your name>-staging
 
-You may preview your local edits by having your jekyll installation generate the static pages and and start a private webserver.  This is done by the rake preview command:
+After pushing your personal staging branch to github, create a pull request for merging your changes into master and request a review.  The reviewer (cbirger for now) will be responsible for conducting the merge to master, and thus publishing the content to the public website.
 
-	rake preview
+### Previewing your local edits
 
-...and then open the local test site, http://127.0.0.1:4000. Look at anything you've changed and make sure it's good to go.
+You should preview your local edits by having a locally running Jekyll installation generate the static pages and serve them for review through a browser.  You may run Jekyll directly on your development system (requiring the local installation of Ruby and the Jekyll and GitHub Pages Gems) or, more simply, run Jekyll within a Docker Container.  To run Jekyll from within a Docker container simply issue the following command:
+
+	$ docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 jekyll/jekyll:4.0 jekyll serve
+	
+where the current working directory is the top-most directory of the cloned getzlab.github.io repository.
+
+If you choose to install Ruby and Jekyll on your development system, the following command, run from the top-most directory of the cloned repo, will generate and serve the content for preview:
+
+	$ rake preview
 
 [Rake](https://github.com/ruby/rake) is a Make-like program implemented in ruby and part of the ruby/jekyll environment on which our website is built.
 
-For the most common activities --- adding/updating a lab member page or adding a publication page ---you'll be making a new, or updating an existing markdown file. The markdown files contain a YAML front matter block which is processed by Jekyll.  Different categories of website content (e.g., paper, member, portal) have different YAML dictionary keys in their front matter, so in almost all cases you can (and should!) copy an existing item, change the name, and change its content, rather than trying to write a Markdown document from scratch.
+In either case, open the local test site, http://127.0.0.1:4000, from your browser. Look at anything you've changed and make sure it's good to go.
+
+### Example workflow
+
+For the most common activities --- adding/updating a lab member page or adding a publication page --- you'll be making a new, or updating an existing markdown file. The markdown files contain a YAML front matter block which is processed by Jekyll.  Different categories of website content (e.g., paper, member, portal) have different YAML dictionary keys in their front matter, so in almost all cases you can (and should!) copy an existing item, change the name, and change its content, rather than trying to write a Markdown document from scratch.
 
 For example, suppose you recently had a paper published and want it listed on the Getz Lab website.  Creating a new paper "post" in the `papers/_posts` folder will add your new publication to the website's publications listing.  Go into the `papers/_posts` folder. Copy one of the existing items into a new file whose name is prefaced with the paper's publication date (this is important!) and an abbreviated version of the title.  For example, we want to add a recent (5/1/2021) Cancer Discovery paper co-authored by a large team of researchers where Gaddy is a co-senior author and Yosi Maruvka is a co-first author.  The paper's title is "DNA Polymerase and Mismatch Repair Exert Distinct Microsatellite Instability Signatures in Normal and Malignant Human Cells".  First thing we do is cd to the papers/_posts subdirectory and, using a recent paper post as a template, create a file for our new publication:
 
@@ -83,14 +95,11 @@ The date which prefaces the filename is used by the static file generator; it's 
 
         **Significance**: Exome- and genome-wide MSI analysis reveals novel signatures that are uniquely attributed to mismatch repair and DNA polymerase. This provides new mechanistic insight into MS maintenance and can be applied clinically for diagnosis of replication repair deficiency and immunotherapy response prediction.
 
-Now add it to the repository:
+Run a dockerized version of Jekyll to preview your updates (see [Previewing your local edits](#previewing-your-local-edits)).  Once you are satisfied with the updated content, add it to the repository, commit, and push to GitHub:
 
 	git add 2021-05-01-mismatch-repair-msi-signatures.md
-
-And, when you're happy with it, commit and push:
-
 	git commit -m "Yosi's mismatch repair msi signature paper"
-	git push
+	git push origin <your name>-staging
 
 This new paper won't yet be public. The next section shows you how to do that.
 
