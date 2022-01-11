@@ -1,14 +1,14 @@
 # The Getz Lab website
 
-Our website, [www.getzlab.org](http://www.getzlab.org), is a [GitHub Pages](https://pages.github.com/) site built with [Jekyll](https://jekyllrb.com/) (a static site generator written in ruby) and [Bootstrap](http://getboostrap.com).  The software framework was forked from [Alan Drummond's site](http://drummondlab.org), which was originally pulled from [Trevor Bedford's site](http://bedford.io) and heavily modified.
+Our website, [www.getzlab.org](http://www.getzlab.org), is a [GitHub Pages](https://pages.github.com/) site built with [Jekyll](https://jekyllrb.com/) (a static site generator written in ruby) and [Bootstrap](http://getboostrap.com).  The software framework was forked from [Alan Drummond's site](http://drummondlab.org), which was originally pulled from [Trevor Bedford's site](http://bedford.io) and modified.
 
-Content and presentation are separated.  To add content to the site, you will simply need to update or add new markdown files, commit your changes to this repo's master branch and those changes will automatically be deployed to the public site.
+Content and presentation are separated.  To add content to the site, one simply needs to update or add new markdown files, commit the changes to this repo's master branch and those changes will automatically be deployed to the public site.
 
 We chose this platform for the lab's website to enable "crowdsourcing" of the website's content: lab members will be responsible for maintaining their own member webpages and publication authors will be responsible for adding links to their publications on the site's Papers pages.  A handful of lab members will be responsible for maintaining the Tools, Portals and Join (i.e., job listings) pages.
 
 # Editing the site
 
-Here's a step-by-step guide to making modifications to the site. We will first focus on adding the most common content (member pages and paper pages).  We will then discuss creating/updating the remaining content categories.
+Here's a step-by-step guide for making modifications to the site. We will first focus on adding the most common content (member pages and paper pages).  We will then discuss creating/updating the remaining content categories.
 
 ## Software Requirements
 
@@ -31,7 +31,7 @@ Clone the repository, making a local copy on your machine:
 
 ## Overview of the structure
 
-A site is a collection of HTML pages. For our site (and many others), there are page types, like a paper (publication) page or a lab member page, which are the same in design but different in content. In the web-accessible site, these are indeed different pages. However, they are _generated_ from a single template file filled in with information from many paper- or member-specific markdown data files. This generation is done every time the site changes; it's handled by GitHub Pages, the service we use.
+A site is a collection of HTML pages. For our site (and many others), there are pages of the same type, like paper (publication) pages or a lab member pages, which have the same layout, differ in content. In the web-accessible site, these are indeed different pages. However, they are _generated_ from a single template file filled in with information from many paper- or member-specific markdown data files. This generation is done every time the site changes; it's handled by GitHub Pages, the service we use.
 
 The template files are weird-looking HTML files (containing jekyll site variables and control logic) residing in the `_includes/themes/lab` folder.  You should not alter the contents of this folder.
 
@@ -169,7 +169,7 @@ Morton LM, Karyadi DM, Stewart C, Bogdanova TI, Dawson ET, Steinberg MK, Dai J, 
 
 (The PubMed site is also a good source for the other fields.)
 
-Each lab member's (current or past) page contains a yaml key/value pair `citation-names`.  It is important that any citation name used for that member be included in that key's value.  For example, in pmid citations, Gaddy's name is listed as Getz G or Getz GA;  his team member page contains the following comma-separated list:
+Each current or past lab member's page contains a yaml key/value pair `citation-names`.  It is important that any citation name used for that member be included in that key's value.  For example, in pmid citations, Gaddy's name is listed as Getz G or Getz GA;  his team member page contains the following comma-separated list:
 
 	citation_names: Getz G, Getz GA
 	
