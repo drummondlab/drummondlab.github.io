@@ -6,5 +6,5 @@ position: Associate Computational Biologist
 email: abarbera@broadinstitute.org 
 github:
 cv:
-alum: false
+alum: true
 ---

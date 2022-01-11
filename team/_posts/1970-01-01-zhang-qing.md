@@ -3,9 +3,10 @@ layout: member
 title: Qing Zhang
 category: Associate
 position: Associate Computational Biologist II
-email: qing@broadinstitute.org
+email:
 github: 
 cv:
-alum: false
+alum: true
+linkedin: qing-zhang-a28711b7
 ---
 

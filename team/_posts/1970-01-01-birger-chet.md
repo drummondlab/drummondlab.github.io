@@ -2,7 +2,7 @@
 layout: member
 title: "Chet Birger"
 category: Staff Engineer
-position: Associate Director, Principal Architect, CGA
+position: Principal Architect (part time), CGA
 email: birger@broadinstitute.org 
 github: cbirger
 image: /assets/images/team/chet_headshot_150by200.png
@@ -11,7 +11,7 @@ cv:
 alum: false
 ---
 
-Chet is an Associate Director at the [Broad Institute] in the Getz Lab.  He joined the Getz Lab in 2015.
+Chet was an Associate Director at the [Broad Institute] in the Getz Lab.  He joined the Getz Lab in 2015.  In December 2021 he retired but continues to work for the lab, part time, on specific projects.
 
 Chet joined the Broad Institute in 2012 as a member of Jill Mezerof's lab. He received his Ph.D. in Operations Research from [Berkeley] under the guidance of Gordon Newell.
 
