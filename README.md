@@ -26,7 +26,7 @@ If you're a member of the [all_getzlab team](https://github.com/orgs/getzlab/tea
 
 Clone the repository, making a local copy on your machine:
 
-	git clone https://github.com/getzlab/getzlab.github.io.git
+	git clone https://github.com/getzlab/getzlab.github.io
 
 
 ## Overview of the structure
