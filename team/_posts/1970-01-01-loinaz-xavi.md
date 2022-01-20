@@ -7,5 +7,6 @@ email: xloinaz@broadinstitute.org
 github: xaviloinaz
 image:
 cv:
+scholar: QO-9crUAAAAJ
 alum: false
 ---
