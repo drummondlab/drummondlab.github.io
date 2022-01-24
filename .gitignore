@@ -18,3 +18,8 @@ Gemfile.lock
 _site/*
 _theme_packages/*
 .jekyll-cache/*
+
+# eclipse
+.project
+.settings/*
+
