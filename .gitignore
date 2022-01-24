@@ -13,7 +13,7 @@ thumbs.db
 # mac os
 .DS_Store
 
-# jekyll cache
+# jekyll
 Gemfile.lock
 _site/*
 _theme_packages/*
@@ -22,4 +22,3 @@ _theme_packages/*
 # eclipse
 .project
 .settings/*
-
