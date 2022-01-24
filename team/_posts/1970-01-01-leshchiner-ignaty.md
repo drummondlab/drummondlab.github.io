@@ -5,7 +5,7 @@ citation_names: "Leshchiner I"
 category: Staff Scientist
 position: Associate Director, Computational Biology
 email: igleshch@broadinstitute.org
-github: 
+github: iglc 
 image: /assets/images/team/Ignat_Leschiner.jpeg
 cv:
 alum: false
