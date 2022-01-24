@@ -1,11 +1,12 @@
 ---
 layout: member
-title: Tim Wood
-citation_names: "Wood TR"
+title: Timothy Wood
+citation_names: Wood TR
 category: Associate
-position: Associate Computaional Biologist II
+position: Associate Computational Biologist II
 email: twood@broadinstitute.org
-github: 
+github: twood1
+image: /assets/images/team/Tim_Wood.jpg
 cv:
 alum: false
 ---
