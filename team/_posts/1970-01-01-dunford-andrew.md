@@ -5,7 +5,7 @@ citation_names: "Dunford AJ, Dunford A"
 category: Associate
 position: Associate Computational Biologist II
 email: adunford@broadinstitute.org
-github: 
+github: https://github.com/ajdunford/
 image: /assets/images/team/Andrew_Dunford.png
 cv:
 alum: false
