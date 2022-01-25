@@ -5,7 +5,8 @@ citation_names: Hess JM
 category: Staff Scientist
 position: Computational Biologist
 email: jhess@broadinstitute.org
-github:
+scholar: sMZ5tQwAAAAJ
+github: julianhess
 image: /assets/images/team/Julian_Hess.png
 cv:
 alum: false
