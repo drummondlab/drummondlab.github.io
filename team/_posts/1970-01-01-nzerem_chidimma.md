@@ -1,8 +1,8 @@
 ---
 layout: member
 title: Chidimma Nzerem
-category: Graduate Student
-position: Masters Student, Harvard T.H. Chan School of Public Health
+category: Associate
+position: Associate Computational Biologist II
 email: cnzerem@broadinstitute.org
 github: 
 cv:
