@@ -6,7 +6,7 @@ category: Staff Engineer
 position: Principal Architect (part time), CGA
 email: birger@broadinstitute.org 
 github: cbirger
-image: /assets/images/team/chet_headshot_150by200.png
+image: /assets/images/team/Chet_Birger.jpg
 scholar: K9-iAPoAAAAJ
 cv:
 alum: false
