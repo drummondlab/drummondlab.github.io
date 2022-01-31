@@ -12,9 +12,11 @@ Here's a step-by-step guide for making modifications to the site. We will first 
 
 ## Software Requirements
 
-You'll need a working Unix-like environment and working knowledge of Git, [Markdown](https://daringfireball.net/projects/markdown/syntax), HTML, and Unix commands. To locally preview your content updates, you will need to run a local instance of Jekyll to generate the static files and serve them locally.  Locally previewing files is most easily done by running Jekyll within a Docker container and serving the website locally from that container. **This is how we recommend lab members locally test their contributions to the website.**  [Previewing your local edits](#previewing-your-local-edits) contains instructions on running Jekyll within a Docker container.
+You'll need a working Unix-like environment with Git installed, and working knowledge of [Git](https://git-scm.com/), [Markdown](https://daringfireball.net/projects/markdown/syntax), HTML, and Unix commands. 
 
-Alternatively, you may install Ruby, with gems for Jekyll, GitHub Pages, and their dependencies, directly on your development system. The installation of these tools can be a little confusing, depending on your hardware (intel vs. M1 chip) the OS environment (Catalina vs. Big Sur) and the shell you are using (bash vs. zsh)  I recently needed to upgrade to Big Sur (required by BITS) and the upgrade broke my ruby/jekyll dev environment.  I did get it reassembled and working again, but it took a couple of hours.  See the following instruction: 
+To locally preview your content updates, you will need to run a local instance of Jekyll to generate the static files and serve them locally.  Locally previewing files is most easily done by running Jekyll within a Docker container and serving the website locally from that container, which will require the installation of [Docker](https://www.docker.com/). **Running Jekyll within a docker container is how we recommend lab members locally test their contributions to the website.**  [Previewing your local edits](#previewing-your-local-edits) contains instructions for installing docker on your development system and serving your version of the website locally from a running jekyll container.
+
+Alternatively, you may install Ruby, with gems for Jekyll, GitHub Pages, and their dependencies, directly on your development system. (If you choose to go this route, you will not need to install Docker.)  The installation of these tools can be a little confusing, depending on your hardware (intel vs. M1 chip) the OS environment (Catalina vs. Big Sur) and the shell you are using (bash vs. zsh)  I recently needed to upgrade to Big Sur (required by BITS) and the upgrade broke my ruby/jekyll dev environment.  I did get it reassembled and working again, but it took a couple of hours.  See the following instruction: 
 
 
 [Jekyll Installation on Mac](https://jekyllrb.com/docs/installation/macos/)
@@ -49,7 +51,11 @@ After pushing your personal staging branch to github, create a pull request for 
 
 ### Previewing your local edits
 
-You should preview your local edits by having a locally running Jekyll installation generate the static pages and serve them for review.  You may run Jekyll directly on your development system (requiring the local installation of Ruby and the Jekyll and GitHub Pages Gems) or, more simply, run Jekyll within a Docker Container.  To run Jekyll from within a Docker container simply issue the following command:
+You should preview your local edits by having a locally running Jekyll installation generate the static pages and serve them for review.  You may run Jekyll directly on your development system (requiring the local installation of Ruby and the Jekyll and GitHub Pages Gems) or, more simply, run Jekyll within a Docker Container.  
+
+Before running Jekyll from within a Docker container, you will need to install docker on your system and run the docker daemon (background service).  Installation of docker is most easily done by installing the Docker Desk
+
+To run Jekyll from within a Docker container simply issue the following command:
 
 	$ docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 jekyll/jekyll:4.0 jekyll serve
 	
