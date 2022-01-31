@@ -5,6 +5,7 @@ category: Operations and Administration
 position: Senior Administrative Assistant
 email: sking@broadinstitute.org
 github: 
+image: /assets/images/team/Serene_King.jpg
 cv:
 alum: false
 ---
