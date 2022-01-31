@@ -62,13 +62,13 @@ You will create a personal branch, make your changes on that branch, preview you
 
 	git push -u origin <your name>-staging
 
-After pushing your personal staging branch to github, create a pull request for merging your changes into master and request a review.  The reviewer (cbirger for now) will be responsible for conducting the merge to master, and thus publishing the content to the public website.
+After pushing your personal staging branch to github, create a pull request for merging your changes into the **staging** branch and request a review.  The reviewer (cbirger for now) will be responsible for merging your updates to staging, and then merging any accumulated updates to the **master** branch, and thus publishing the content to the public website.
 
 ### Previewing your local edits
 
 You should preview your local edits by having a locally running Jekyll installation generate the static pages and serve them for review.  You may run Jekyll directly on your development system (requiring the local installation of Ruby and the Jekyll and GitHub Pages Gems) or, more simply, run Jekyll within a Docker Container.  
 
-Before running Jekyll from within a Docker container, you will need to install docker on your system and run the docker daemon (background service).  Installation of docker is most easily done by installing the Docker Desk
+Before running Jekyll from within a Docker container, you will need to install docker on your system and run the docker daemon (background service).  Installation of docker is most easily done by installing the [Docker Desktop](https://www.docker.com/get-started).  After installing Docker Desktop and launching the app, he docker daemon should be running.
 
 To run Jekyll from within a Docker container simply issue the following command:
 
@@ -136,11 +136,11 @@ All edits should be made to your private `staging` branch. When you start work, 
 
 Instead of merging your changes directly to the `master` branch, you will create a pull request.
 
-After pushing your branch to the repo, go to github and create a pull request, naming cbirger as the reviewer.  (Eventually reviewer responsibilities will be shared across multiple lab members.)  When you create the pull request, please make sure you set the base repository to getzlab/getzlab.github.io and the base reference branch to master.  Once a pull request is approved, it will be merged to master, and thus pushed to the public website.
+After pushing your branch to the repo, go to github and create a pull request, naming cbirger as the reviewer.  (Eventually reviewer responsibilities will be shared across multiple lab members.)  **When you create the pull request, please make sure you set the base repository to getzlab/getzlab.github.io and the base reference branch to staging.**  Once a pull request is approved, it will be merged to staging, where cbirger can review all accumulated updates before he merges them to master.  It is the merge to master that results in the publication of the new contentoo the lab's public website.
 
-When the pull request is completed, check to make sure the public site [www.getzlab.org](http://www.getzlab.org) looks the way you intended.
+A couple of hours after your pull request is approved and completed (after cbirger has had a chance to merge staging to master) check to make sure your updates to the public site [www.getzlab.org](http://www.getzlab.org) appear the way you intended.
 
-Don't forget to make your changes on a personal staging branch so they can be reviewed before merging onto master!
+Don't forget to make your changes on a personal staging branch so they can be reviewed before merging onto staging and, finally, to master!
 
 ## Changing look and feel
 
