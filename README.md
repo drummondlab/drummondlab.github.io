@@ -14,6 +14,8 @@ Here's a step-by-step guide for making modifications to the site. We will first 
 
 You'll need a working Unix-like environment with Git installed, and working knowledge of [Git](https://git-scm.com/), [Markdown](https://daringfireball.net/projects/markdown/syntax), HTML, and Unix commands. 
 
+Git comes pre-installed on most recent versions of MacOS.  See [git-scm-installation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for instructions on how to determine whether you have git already installed, how to install it if you don't, and how to upgrade to the latest version.  If you wish to use the GitHub desktop application rather than the CLI, see [GitHub Desktop](https://desktop.github.com/) for installation instructions.
+
 To locally preview your content updates, you will need to run a local instance of Jekyll to generate the static files and serve them locally.  Locally previewing files is most easily done by running Jekyll within a Docker container and serving the website locally from that container, which will require the installation of [Docker](https://www.docker.com/). **Running Jekyll within a docker container is how we recommend lab members locally test their contributions to the website.**  [Previewing your local edits](#previewing-your-local-edits) contains instructions for installing docker on your development system and serving your version of the website locally from a running jekyll container.
 
 Alternatively, you may install Ruby, with gems for Jekyll, GitHub Pages, and their dependencies, directly on your development system. (If you choose to go this route, you will not need to install Docker.)  The installation of these tools can be a little confusing, depending on your hardware (intel vs. M1 chip) the OS environment (Catalina vs. Big Sur) and the shell you are using (bash vs. zsh)  I recently needed to upgrade to Big Sur (required by BITS) and the upgrade broke my ruby/jekyll dev environment.  I did get it reassembled and working again, but it took a couple of hours.  See the following instruction: 
@@ -22,7 +24,28 @@ Alternatively, you may install Ruby, with gems for Jekyll, GitHub Pages, and the
 [Jekyll Installation on Mac](https://jekyllrb.com/docs/installation/macos/)
 
 
-## Clone the repository
+## Accessing the Getz Lab website's GitHub Repository
+
+The website's source code and documentation (i.e., this README file) are located in the GitHub repository [https://github.com/getzlab/getzlab.github.io](https://github.com/getzlab/getzlab.github.io).  This is a public repo, so anyone should be able to clone the repo.  However, in order to publish your changes to back to the repo and issue pull requests, you will need write access to the repository.  Members of the all_getzlab team within the getzlab GitHub organization have write access to the repo.
+
+When accessing GitHub via the git command line interface (CLI) to publish your local changes to the repo, you will need to authenticate yourself to GitHub.  How you choose to authenticate to a repo when using the CLI depends on the protocol you use to communicate with GitHub.  The options are https or SSH.  You specify the protocol you choose to use when you clone the repo.  If you clone the repo by issuing the following git command:
+
+    git clone https://github.com/getzlab/getzlab.github.io
+    
+you will be using the https protocol for which the required authentication protocol is Personal Access Token (PAT).  Read [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) for instructions on how to create and use PAT.
+
+If you clone the repo by issuing the followign git command:
+
+    git clone git@github.com:getzlab/getzlab.github.io.git
+
+you will be using the SSH protocol to connect to github.  Before issuing this clone command you will need to ensure you have an SSH key installed on your laptop and that the key has been added to the ssh-agent.    Instructions for doing this are [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
+
+If you specified the https protocol when you cloned the repo but want switch to SSH, issue the following git command:
+
+
+
+
+###Clone the repository
 
 If you're a member of the [all_getzlab team](https://github.com/orgs/getzlab/teams/all_getzlab), you have write access to the website repository.
 
