@@ -24,35 +24,27 @@ Alternatively, you may install Ruby, with gems for Jekyll, GitHub Pages, and the
 [Jekyll Installation on Mac](https://jekyllrb.com/docs/installation/macos/)
 
 
-## Accessing the Getz Lab website's GitHub Repository
+## Cloning the Getz Lab website's GitHub Repository
 
-The website's source code and documentation (i.e., this README file) are located in the GitHub repository [https://github.com/getzlab/getzlab.github.io](https://github.com/getzlab/getzlab.github.io).  This is a public repo, so anyone should be able to clone the repo.  However, in order to publish your changes to back to the repo and issue pull requests, you will need write access to the repository.  Members of the all_getzlab team within the getzlab GitHub organization have write access to the repo.
+The website's source code and documentation (i.e., this README file) are located in the GitHub repository [https://github.com/getzlab/getzlab.github.io](https://github.com/getzlab/getzlab.github.io).  This is a public repo, so anyone should be able to clone the repo.  However, in order to publish your changes to back to the repo and issue pull requests, you will need write access to the repository.  Members of the [all_getzlab team](https://github.com/orgs/getzlab/teams/all_getzlab) within the getzlab GitHub organization have write access to the repo.
 
-When accessing GitHub via the git command line interface (CLI) to publish your local changes to the repo, you will need to authenticate yourself to GitHub.  How you choose to authenticate to a repo when using the CLI depends on the protocol you use to communicate with GitHub.  The options are https or SSH.  You specify the protocol you choose to use when you clone the repo.  If you clone the repo by issuing the following git command:
+When accessing GitHub via the git command line interface (CLI) to publish your local changes to the repo, you will need to authenticate yourself to GitHub.  How you authenticate to a repo when using the CLI depends on the protocol you use to communicate with GitHub.  The options are https or SSH.  You specify the protocol when you clone the repo.  If you clone the repo by issuing the following git command:
 
     git clone https://github.com/getzlab/getzlab.github.io
     
 you will be using the https protocol for which the required authentication protocol is Personal Access Token (PAT).  Read [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) for instructions on how to create and use PAT.
 
-If you clone the repo by issuing the followign git command:
+If you clone the repo by issuing the following git command:
 
     git clone git@github.com:getzlab/getzlab.github.io.git
 
-you will be using the SSH protocol to connect to github.  Before issuing this clone command you will need to ensure you have an SSH key installed on your laptop and that the key has been added to the ssh-agent.    Instructions for doing this are [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
+you will be using the SSH protocol to connect to github.  Before issuing this clone command you will need to ensure you have an SSH key installed on your laptop, added to the ssh-agent and added to your GitHub account.  Instructions for doing this are [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
 
-If you specified the https protocol when you cloned the repo but want switch to SSH, issue the following git command:
+If you specified the https protocol when you cloned the repo but want to switch to SSH, issue the following git command:
 
+    git remote set-url origin git@github.com:getzlab/getzlab.github.io
 
-
-
-###Clone the repository
-
-If you're a member of the [all_getzlab team](https://github.com/orgs/getzlab/teams/all_getzlab), you have write access to the website repository.
-
-Clone the repository, making a local copy on your machine:
-
-	git clone https://github.com/getzlab/getzlab.github.io
-
+You must have an SSH key added to your GitHub account before issuing the above command.
 
 ## Overview of the structure
 
