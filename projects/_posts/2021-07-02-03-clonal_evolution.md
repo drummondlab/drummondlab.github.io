@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Heterogeneity and clonal evoluation of cancer"
+title: "Heterogeneity and clonal evolution of cancer"
 tagline:
 handle: clonal_evolution
 image: 
