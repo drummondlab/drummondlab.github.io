@@ -26,9 +26,9 @@ Alternatively, you may install Ruby, with gems for Jekyll, GitHub Pages, and the
 
 ## Cloning the Getz Lab website's GitHub Repository
 
-The website's source code and documentation (i.e., this README file) are located in the GitHub repository [https://github.com/getzlab/getzlab.github.io](https://github.com/getzlab/getzlab.github.io).  This is a public repo, so anyone should be able to clone the repo.  However, in order to publish your changes to back to the repo and issue pull requests, you will need write access to the repository.  Members of the [all_getzlab team](https://github.com/orgs/getzlab/teams/all_getzlab) within the getzlab GitHub organization have write access to the repo.
+The website's source code and documentation (i.e., this README file) are located in the GitHub repository [https://github.com/getzlab/getzlab.github.io](https://github.com/getzlab/getzlab.github.io).  This is a public repo, so anyone should be able to clone the repo.  However, in order to publish your changes back to the GitHub repo and issue pull requests, you will need write access to the repository.  Members of the [all_getzlab team](https://github.com/orgs/getzlab/teams/all_getzlab) within the getzlab GitHub organization have write access to the repo.
 
-When accessing GitHub via the git command line interface (CLI) to publish your local changes to the repo, you will need to authenticate yourself to GitHub.  How you authenticate to a repo when using the CLI depends on the protocol you use to communicate with GitHub.  The options are https or SSH.  You specify the protocol when you clone the repo.  If you clone the repo by issuing the following git command:
+When accessing GitHub via the git command line interface (CLI) to publish your local changes to the repo, you will need to authenticate yourself to GitHub.  How you authenticate to GitHub when using the CLI depends on the protocol you use to communicate with GitHub.  The options are https or SSH.  You specify the protocol when you clone the repo.  If you clone the repo by issuing the following git command:
 
     git clone https://github.com/getzlab/getzlab.github.io
     
@@ -48,7 +48,7 @@ You must have an SSH key added to your GitHub account before issuing the above c
 
 ## Overview of the structure
 
-A site is a collection of HTML pages. For our site (and many others), there are pages of the same type, like paper (publication) pages or a lab member pages, which have the same layout, differ in content. In the web-accessible site, these are indeed different pages. However, they are _generated_ from a single template file filled in with information from many paper- or member-specific markdown data files. This generation is done every time the site changes; it's handled by GitHub Pages, the service we use.
+A site is a collection of HTML pages. For our site (and many others), there are pages of the same type, like paper (publication) pages or a lab member pages, which have the same layout but differ in content. In the web-accessible site, these are indeed different pages. However, they are _generated_ from a single template file filled in with information from many paper- or member-specific markdown data files. This generation is done every time the site changes; it's handled by GitHub Pages, the service we use.
 
 The template files are weird-looking HTML files (containing jekyll site variables and control logic) residing in the `_includes/themes/lab` folder.  You should not alter the contents of this folder.
 
