@@ -54,7 +54,7 @@ The template files are weird-looking HTML files (containing jekyll site variable
 
 ## How to add content
 
-You will create a personal branch, make your changes on that branch, preview your changes on a locally-served instance of the website and, when satisfied with the appearance of your changes, push your local branch to the github repo:
+You will create a personal branch off of master, make your changes on that branch, preview your changes on a locally-served instance of the website and, when satisfied with the appearance of your changes, push your local branch to the github repo:
 
 	git checkout -b <your name>-staging
 
@@ -62,7 +62,7 @@ You will create a personal branch, make your changes on that branch, preview you
 
 	git push -u origin <your name>-staging
 
-After pushing your personal staging branch to github, create a pull request for merging your changes into the **staging** branch and request a review.  The reviewer (cbirger for now) will be responsible for merging your updates to staging, and eventually merging all updates accumulated within the staging branch to the **master** branch, which publishes the updated content to the public website.  I discuss this process of creating a pull request in greater detail in [Updating the public site](#updating-the-public-site).
+When you create your branch with the checkout command, make sure you have the master branch checked out.  This will ensure your branch is created off of master.  After pushing your personal staging branch to github, create a pull request for merging your changes into the **master** branch and request a review.  The reviewer (cbirger for now) will be responsible for merging your updates to master, which publishes the updated content to the public website.  I discuss this process of creating a pull request in greater detail in [Updating the public site](#updating-the-public-site).
 
 ### Previewing your local edits
 
@@ -136,17 +136,18 @@ All edits should be made to your personal `user-staging` branch. When you start 
 
 Instead of merging your changes directly to the `master` branch, you will create a pull request.
 
-After pushing your branch to the repo, go to github and create a pull request, naming cbirger as the reviewer.  (Eventually reviewer responsibilities will be shared across multiple lab members.)  **When you create the pull request, please make sure you set the base repository to getzlab/getzlab.github.io and the base reference branch to staging.**  Once a pull request is approved, it will be merged to staging, where cbirger can review all accumulated updates before he merges them to master.  It is the merge to master that results in the publication of the new contento to the lab's public website.
+After pushing your branch to the repo, go to github and create a pull request, naming cbirger as the reviewer.  (Eventually reviewer responsibilities will be shared across multiple lab members.)  **When you create the pull request, please make sure you set the base repository to getzlab/getzlab.github.io and the base reference branch to master.**  Once a pull request is approved, it will be merged to master.  It is the merge to master that results in the publication of the new contento to the lab's public website.
 
-A couple of hours after your pull request is approved and completed (after cbirger has had a chance to merge staging to master) check to make sure your updates to the public site [www.getzlab.org](http://www.getzlab.org) appear the way you intended.
+A couple of minutes after your pull request is approved and completed, check to make sure your updates to the public site [www.getzlab.org](http://www.getzlab.org) appear the way you intended.
 
-Don't forget to make your changes on a personal staging branch so they can be reviewed before merging onto staging and, finally, to master!
+Don't forget to make your changes on a personal staging branch so they can be reviewed before merging into master!
 
 ## Changing look and feel
 
 Fonts, colors, spacing, and similar stylings are separate from the template pages. Like most sites, we use Cascading Style Sheets (CSS).  Much of this is borrowed from the [Alan Drummond's site](http://drummondlab.org) but may be updated over time (based on input from the web designers in the Broad's [Patterns team](https://pattern.broadinstitute.org/).
 
 # Content Classes
+
 ## papers
 
 The Getz Lab website displays lists of publications on three pages.  Recently published papers (six most recently published) appear on the front page under the heading "Recent Papers".  All papers added to the website will appear on the Selected Papers page, navigated to by selecting Papers in the top nav bar. Team member pages include a list of lab papers where the team member is a co-author.  In all listings, the names of authors that are current or past lab members are in a **bold** font.  In all listings, a paper's title is an internal like to a web page devoted to that paper.  The paper's web page lists all of the paper's authors; journal name, volume, issue and page; abstract; public link to journal article fulltext and/or pdf (when available); the PubMed ID (linked to PubMed entry); and the DOI, which is linked back to the paper's permanent web address. 
