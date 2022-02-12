@@ -9,16 +9,16 @@ volume: 82
 issue: 
 pages: 
 authors: "Yoo H, Bard JAM, Pilipenko E, Drummond DA"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/pab-chaperones.svg
 redirect_from: 
 fulltext: https://authors.elsevier.com/a/1eZX13vVUPK6wr
 pdflink: /assets/pdfs/yoo-chaperones-mol-cell-2022.pdf
-github: 
+github: https://github.com/drummondlab/sim_disagg_2021
 pmid: 
 pmcid: 
 f1000: 
 doi: "10.1016/j.molcel.2022.01.005"
-dryad_doi:
+dryad_doi: https://data.mendeley.com/datasets/wvztspxbbd/1
 figshare_doi: 
 altmetric_id: 122850335
 category: paper
