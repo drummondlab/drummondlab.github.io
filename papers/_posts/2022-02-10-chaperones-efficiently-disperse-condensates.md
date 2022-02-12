@@ -13,12 +13,12 @@ image: /assets/images/papers/pab-chaperones.svg
 redirect_from: 
 fulltext: https://authors.elsevier.com/a/1eZX13vVUPK6wr
 pdflink: /assets/pdfs/yoo-chaperones-mol-cell-2022.pdf
-github: https://github.com/drummondlab/sim_disagg_2021
+github:
 pmid: 
 pmcid: 
 f1000: 
 doi: "10.1016/j.molcel.2022.01.005"
-dryad_doi: https://data.mendeley.com/datasets/wvztspxbbd/1
+dryad_doi: 
 figshare_doi: 
 altmetric_id: 122850335
 category: paper
