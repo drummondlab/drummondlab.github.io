@@ -9,5 +9,5 @@ tags: [paper, research, team]
 ---
 Our [paper] on how molecular chaperones regulate biomolecular condensates is out at [Molecular Cell]!
 
-[paper]: /papers/paper/chaperones-disperse
+[paper]: /papers/paper/chaperones-efficiently-disperse-condensates
 [Molecular Cell]: http://cell.com/molecular-cell
