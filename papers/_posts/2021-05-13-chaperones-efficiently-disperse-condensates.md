@@ -3,7 +3,7 @@ layout: paper
 title: "Chaperones directly and efficiently disperse stress-triggered biomolecular condensates"
 year: "2021"
 shortref: "Yoo <i>et al.</i> 2021"
-nickname: chaperones-disperse
+nickname: chaperones-disperse-preprint
 journal: "bioRxiv"
 volume: 
 issue: 
