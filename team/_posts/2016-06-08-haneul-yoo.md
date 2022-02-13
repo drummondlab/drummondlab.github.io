@@ -15,7 +15,7 @@ Haneul received her Ph.D. in 2021 from the [Biochemistry & Molecular Biophysics]
 
 For her [PhD thesis][3], Haneul studied how molecular chaperones remodel biomolecular condensates using biochemistry, biophysics, and quantitative models. Her work was supported by the NIH Ruth L. Kirschstein National Research Service Award via the National Institute of Environmental Health Sciences (NIEHS). 
 
-Haneul was as a graduate student advisor for the UChicago iGEM team, [GeneHackers][4]. If you are a first year graduate student, she recommends reading the [BSD Student Mentor guide][5].
+Haneul was a graduate student advisor for the UChicago iGEM team, [GeneHackers][4]. If you are a first year graduate student, she recommends reading the [BSD Student Mentor guide][5].
 
 After graduation, she joined [Ibrahim Cissé's group][6] at the Max Planck Institute of Immunobiology and Epigenetics as a postdoctoral scholar. 
 
