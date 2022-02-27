@@ -6,16 +6,16 @@ shortref: "Yoo <i>et al.</i> 2022"
 nickname: "chaperones-disperse"
 journal: "Molecular Cell"
 volume: 82
-issue: 
-pages: 
+issue: 4
+pages: 741--755
 authors: "Yoo H, Bard JAM, Pilipenko E, Drummond DA"
 image: /assets/images/papers/pab-chaperones.svg
 redirect_from: 
 fulltext: https://authors.elsevier.com/a/1eZX13vVUPK6wr
 pdflink: /assets/pdfs/yoo-chaperones-mol-cell-2022.pdf
-github:
-pmid: 
-pmcid: 
+github: https://github.com/drummondlab/sim_disagg_2021
+pmid: 35148816
+pmcid: PMC8857057
 f1000: 
 doi: "10.1016/j.molcel.2022.01.005"
 dryad_doi: 
