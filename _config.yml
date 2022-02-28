@@ -185,5 +185,11 @@ tools:
   - getzlab/deTiN
   - getzlab/MutSig2CV
   - getzlab/CLUMPS
+  - getzlab/getzlab-CLUMPS2
   - getzlab/rnaseqc
-  - getzlab/MSMuTect
+  - vanallenlab/phial
+  - getzlab/getzlab-SignatureAnalyzer
+  - getzlab/mutect
+  - getzlab/MSMuTect1
+  
+  

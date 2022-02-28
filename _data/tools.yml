@@ -1,49 +1,109 @@
 ---
-- repo: getzlab/rnaseqc
-  title: rnaseqc
+- repo: getzlab/CLUMPS
+  title: CLUMPS
   owner: getzlab
-  description: Fast, efficient RNA-Seq metrics for quality control and process optimization
-  url: "/tools/rnaseqc/"
-  topics:
-  - rnaseq
-  - rna-seq
-  - bioinformatics
+  description:
+  url: "/tools/CLUMPS/"
+  topics: []
   contributors:
-  - login: agraubert
-    avatar: https://avatars.githubusercontent.com/u/997749?v=4&s=50
-    url: https://github.com/agraubert
-  - login: francois-a
-    avatar: https://avatars.githubusercontent.com/u/9382463?v=4&s=50
-    url: https://github.com/francois-a
-  - login: joshua-gould
-    avatar: https://avatars.githubusercontent.com/u/5237151?v=4&s=50
-    url: https://github.com/joshua-gould
+  - login: ajdunford
+    avatar: https://avatars.githubusercontent.com/u/4085800?v=4&s=50
+    url: https://github.com/ajdunford
   commits:
-  - date: 2021-07-15 19:32:38.000000000 Z
-    message: Fix sample numbers in case of swaps/NAs
-    url: https://github.com/getzlab/rnaseqc/commit/7f3e563a3eb85fdd1fefe0ef5b8ba42b9f648653
-    author_login: francois-a
-    author_url: https://github.com/francois-a
-  - date: 2021-07-15 19:29:08.000000000 Z
-    message: Added sample numbers
-    url: https://github.com/getzlab/rnaseqc/commit/39fca76f6f4a624ddb7886175e4f690f1776ab1c
-    author_login: francois-a
-    author_url: https://github.com/francois-a
-  - date: 2021-05-14 04:17:32.000000000 Z
-    message: More flexible outlier detection/plotting
-    url: https://github.com/getzlab/rnaseqc/commit/52f5552a58b73795c432fed80fd8f8731d2d23c8
-    author_login: francois-a
-    author_url: https://github.com/francois-a
-  - date: 2021-05-11 02:19:13.000000000 Z
-    message: Minor adjustments for plots & report
-    url: https://github.com/getzlab/rnaseqc/commit/a3f0017c5d1e10830bad95ec31619d7424d4564c
-    author_login: francois-a
-    author_url: https://github.com/francois-a
-  - date: 2021-04-16 03:33:37.000000000 Z
-    message: Added rasterized option
-    url: https://github.com/getzlab/rnaseqc/commit/003078ee8aaab4f173af977f6780389c7d399373
-    author_login: francois-a
-    author_url: https://github.com/francois-a
+  - date: 2019-06-20 20:53:27.000000000 Z
+    message: adding files for GPmapping
+    url: https://github.com/getzlab/CLUMPS/commit/1fb96742114e6ec8feb2b4d9808f9f8708f0607f
+    author_login: ajdunford
+    author_url: https://github.com/ajdunford
+  - date: 2019-06-12 14:09:03.000000000 Z
+    message: adding allCancerGenes.txt file used to calculate the restricted CLUMPS
+      Q calculation
+    url: https://github.com/getzlab/CLUMPS/commit/c1856f39aab1522a97f364b4305f533dd009fb60
+    author_login: ajdunford
+    author_url: https://github.com/ajdunford
+  - date: 2019-05-15 20:30:36.000000000 Z
+    message: moving huniprot2pdb
+    url: https://github.com/getzlab/CLUMPS/commit/b7eaab714a4d1bfcbd25085156b71ce037cc7cc7
+    author_login: ''
+    author_url: ''
+  - date: 2019-05-15 20:29:11.000000000 Z
+    message: adding huniprot2pdb gz file
+    url: https://github.com/getzlab/CLUMPS/commit/4f8065fd68730b285f903f6d087805e2025b36d9
+    author_login: ''
+    author_url: ''
+  - date: 2019-05-15 20:10:12.000000000 Z
+    message: |-
+      adding pythong scripts for starting servers to load mutations and proteomemaps
+
+      git deleting hg19 2bit file I guess
+    url: https://github.com/getzlab/CLUMPS/commit/76b909408840d2b4f92653f6091f4364cd889b42
+    author_login: ''
+    author_url: ''
+- repo: getzlab/MSMuTect1
+  title: MSMuTect1
+  owner: getzlab
+  description:
+  url: "/tools/MSMuTect1/"
+  topics: []
+  contributors:
+  - login: AvrahamKahan123
+    avatar: https://avatars.githubusercontent.com/u/68906522?v=4&s=50
+    url: https://github.com/AvrahamKahan123
+  - login: cbirger
+    avatar: https://avatars.githubusercontent.com/u/2326853?v=4&s=50
+    url: https://github.com/cbirger
+  commits:
+  - date: 2021-03-15 16:33:14.000000000 Z
+    message: added readme
+    url: https://github.com/getzlab/MSMuTect1/commit/d94eb1595e229153c9f48b918862771985bddbb7
+    author_login: AvrahamKahan123
+    author_url: https://github.com/AvrahamKahan123
+  - date: 2021-03-15 14:36:30.000000000 Z
+    message: added all msmutect1
+    url: https://github.com/getzlab/MSMuTect1/commit/529667df5c140162b9118b82a608229a8f879ce0
+    author_login: AvrahamKahan123
+    author_url: https://github.com/AvrahamKahan123
+  - date: 2021-02-24 13:21:22.000000000 Z
+    message: Initial commit
+    url: https://github.com/getzlab/MSMuTect1/commit/27be831a1fcb8f7421e9fad8f61d076d7880f619
+    author_login: cbirger
+    author_url: https://github.com/cbirger
+- repo: getzlab/MutSig2CV
+  title: MutSig2CV
+  owner: getzlab
+  description: MutSig2CV from Lawrence et al. 2014
+  url: "/tools/MutSig2CV/"
+  topics: []
+  contributors:
+  - login: julianhess
+    avatar: https://avatars.githubusercontent.com/u/328077?v=4&s=50
+    url: https://github.com/julianhess
+  commits:
+  - date: 2020-08-18 22:12:41.000000000 Z
+    message: Update README.md
+    url: https://github.com/getzlab/MutSig2CV/commit/0109e27e70478181695f31ca8dd281bb44f0b3af
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2020-08-18 22:11:48.000000000 Z
+    message: Update annotations in README
+    url: https://github.com/getzlab/MutSig2CV/commit/a33b256d1a07593e1dd53bb44607047e00b070df
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2020-08-18 22:04:08.000000000 Z
+    message: Update README.md
+    url: https://github.com/getzlab/MutSig2CV/commit/75be96581fed8468b3af3bbad61f292c1c3f8d27
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2020-08-18 22:02:20.000000000 Z
+    message: Update readme
+    url: https://github.com/getzlab/MutSig2CV/commit/3a4e9bc45757be7ad883de6f1372fd97f088abdd
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2020-08-18 22:01:13.000000000 Z
+    message: Rename MutSig wrapper
+    url: https://github.com/getzlab/MutSig2CV/commit/3b36a17b52b92416ccf87e35f3ebb2d06952cf78
+    author_login: julianhess
+    author_url: https://github.com/julianhess
 - repo: getzlab/deTiN
   title: deTiN
   owner: getzlab
@@ -100,81 +160,229 @@
   - date: 2020-05-01 12:43:42.000000000 Z
     message: Update deTiN.py
     url: https://github.com/getzlab/deTiN/commit/3b0b9598894db0820d79a179b83df8b01f7174d8
-    author_login: amarotaylor
-    author_url: https://github.com/amarotaylor
-- repo: getzlab/MutSig2CV
-  title: MutSig2CV
+    author_login: ''
+    author_url: ''
+- repo: getzlab/getzlab-CLUMPS2
+  title: getzlab-CLUMPS2
   owner: getzlab
-  description: MutSig2CV from Lawrence et al. 2014
-  url: "/tools/MutSig2CV/"
+  description: Re-factored code for CLUMPS.
+  url: "/tools/getzlab-CLUMPS2/"
   topics: []
   contributors:
-  - login: julianhess
-    avatar: https://avatars.githubusercontent.com/u/328077?v=4&s=50
-    url: https://github.com/julianhess
-  commits:
-  - date: 2020-08-18 22:12:41.000000000 Z
-    message: Update README.md
-    url: https://github.com/getzlab/MutSig2CV/commit/0109e27e70478181695f31ca8dd281bb44f0b3af
-    author_login: julianhess
-    author_url: https://github.com/julianhess
-  - date: 2020-08-18 22:11:48.000000000 Z
-    message: Update annotations in README
-    url: https://github.com/getzlab/MutSig2CV/commit/a33b256d1a07593e1dd53bb44607047e00b070df
-    author_login: julianhess
-    author_url: https://github.com/julianhess
-  - date: 2020-08-18 22:04:08.000000000 Z
-    message: Update README.md
-    url: https://github.com/getzlab/MutSig2CV/commit/75be96581fed8468b3af3bbad61f292c1c3f8d27
-    author_login: julianhess
-    author_url: https://github.com/julianhess
-  - date: 2020-08-18 22:02:20.000000000 Z
-    message: Update readme
-    url: https://github.com/getzlab/MutSig2CV/commit/3a4e9bc45757be7ad883de6f1372fd97f088abdd
-    author_login: julianhess
-    author_url: https://github.com/julianhess
-  - date: 2020-08-18 22:01:13.000000000 Z
-    message: Rename MutSig wrapper
-    url: https://github.com/getzlab/MutSig2CV/commit/3b36a17b52b92416ccf87e35f3ebb2d06952cf78
-    author_login: julianhess
-    author_url: https://github.com/julianhess
-- repo: getzlab/CLUMPS
-  title: CLUMPS
-  owner: getzlab
-  description: 
-  url: "/tools/CLUMPS/"
-  topics: []
-  contributors:
+  - login: shankara-a
+    avatar: https://avatars.githubusercontent.com/u/16708493?v=4&s=50
+    url: https://github.com/shankara-a
   - login: ajdunford
     avatar: https://avatars.githubusercontent.com/u/4085800?v=4&s=50
     url: https://github.com/ajdunford
   commits:
-  - date: 2019-06-20 20:53:27.000000000 Z
-    message: adding files for GPmapping
-    url: https://github.com/getzlab/CLUMPS/commit/1fb96742114e6ec8feb2b4d9808f9f8708f0607f
-    author_login: ajdunford
-    author_url: https://github.com/ajdunford
-  - date: 2019-06-12 14:09:03.000000000 Z
-    message: adding allCancerGenes.txt file used to calculate the restricted CLUMPS
-      Q calculation
-    url: https://github.com/getzlab/CLUMPS/commit/c1856f39aab1522a97f364b4305f533dd009fb60
-    author_login: ajdunford
-    author_url: https://github.com/ajdunford
-  - date: 2019-05-15 20:30:36.000000000 Z
-    message: moving huniprot2pdb
-    url: https://github.com/getzlab/CLUMPS/commit/b7eaab714a4d1bfcbd25085156b71ce037cc7cc7
+  - date: 2022-02-21 15:19:24.000000000 Z
+    message: Update README.md
+    url: https://github.com/getzlab/getzlab-CLUMPS2/commit/4faabbfaa8b664f98b1f98ed72c18731796de3e0
+    author_login: shankara-a
+    author_url: https://github.com/shankara-a
+  - date: 2020-03-04 19:22:36.000000000 Z
+    message: added phospho sampler
+    url: https://github.com/getzlab/getzlab-CLUMPS2/commit/bab39a368f5019ed4cfb345cc39a70021ad3c881
     author_login: ''
     author_url: ''
-  - date: 2019-05-15 20:29:11.000000000 Z
-    message: adding huniprot2pdb gz file
-    url: https://github.com/getzlab/CLUMPS/commit/4f8065fd68730b285f903f6d087805e2025b36d9
+  - date: 2019-08-14 22:45:50.000000000 Z
+    message: added gitignore
+    url: https://github.com/getzlab/getzlab-CLUMPS2/commit/bdd3cae82045402c8b8e61d3d5dd361293d56a65
     author_login: ''
     author_url: ''
-  - date: 2019-05-15 20:10:12.000000000 Z
+  - date: 2019-08-14 21:34:14.000000000 Z
+    message: fixes to inputs for canine
+    url: https://github.com/getzlab/getzlab-CLUMPS2/commit/6510010679a69a6e7dacea66cffcf708d077ecc0
+    author_login: ''
+    author_url: ''
+  - date: 2019-08-14 21:25:09.000000000 Z
+    message: formatting
+    url: https://github.com/getzlab/getzlab-CLUMPS2/commit/8f954bf5c06d6719a74352bed769bf6ea5a32aae
+    author_login: ajdunford
+    author_url: https://github.com/ajdunford
+- repo: getzlab/getzlab-SignatureAnalyzer
+  title: getzlab-SignatureAnalyzer
+  owner: getzlab
+  description: 'Updated SignatureAnalyzer-GPU with mutational spectra & RNA expression
+    compatibility. '
+  url: "/tools/getzlab-SignatureAnalyzer/"
+  topics: []
+  contributors:
+  - login: yoakiyama
+    avatar: https://avatars.githubusercontent.com/u/38875190?v=4&s=50
+    url: https://github.com/yoakiyama
+  - login: shankara-a
+    avatar: https://avatars.githubusercontent.com/u/16708493?v=4&s=50
+    url: https://github.com/shankara-a
+  - login: jcha40
+    avatar: https://avatars.githubusercontent.com/u/43419629?v=4&s=50
+    url: https://github.com/jcha40
+  - login: francois-a
+    avatar: https://avatars.githubusercontent.com/u/9382463?v=4&s=50
+    url: https://github.com/francois-a
+  - login: julianhess
+    avatar: https://avatars.githubusercontent.com/u/328077?v=4&s=50
+    url: https://github.com/julianhess
+  commits:
+  - date: 2022-01-08 20:18:26.000000000 Z
+    message: Added gprofiler to requirements
+    url: https://github.com/getzlab/getzlab-SignatureAnalyzer/commit/1a39d2d2e95a9e8f60d24a168bd85917da0ee0c5
+    author_login: francois-a
+    author_url: https://github.com/francois-a
+  - date: 2021-09-26 20:05:58.000000000 Z
+    message: Update README.md
+    url: https://github.com/getzlab/getzlab-SignatureAnalyzer/commit/94c8a98209c400095862b538b843d82ea47dd8b9
+    author_login: shankara-a
+    author_url: https://github.com/shankara-a
+  - date: 2021-08-29 15:54:25.000000000 Z
+    message: remove gprofiler setup.py
+    url: https://github.com/getzlab/getzlab-SignatureAnalyzer/commit/707bbf3621d81bcf383d19705435f2fb9a4d0478
+    author_login: yoakiyama
+    author_url: https://github.com/yoakiyama
+  - date: 2021-08-11 02:15:13.000000000 Z
+    message: most recent packages for setup.py
+    url: https://github.com/getzlab/getzlab-SignatureAnalyzer/commit/0f8c9c1bf661d06cd79a94b6bb33d6a5c262b96a
+    author_login: yoakiyama
+    author_url: https://github.com/yoakiyama
+  - date: 2021-07-30 03:21:45.000000000 Z
+    message: bug fix get96_from_1536
+    url: https://github.com/getzlab/getzlab-SignatureAnalyzer/commit/6d2616092bb2cc75b7ad0c6610a028f0fbe0523e
+    author_login: yoakiyama
+    author_url: https://github.com/yoakiyama
+- repo: getzlab/mutect
+  title: mutect
+  owner: getzlab
+  description: MuTect -- Accurate and sensitive cancer mutation detection
+  url: "/tools/mutect/"
+  topics: []
+  contributors:
+  - login: kcibul
+    avatar: https://avatars.githubusercontent.com/u/1423491?v=4&s=50
+    url: https://github.com/kcibul
+  - login: lbergelson
+    avatar: https://avatars.githubusercontent.com/u/4700332?v=4&s=50
+    url: https://github.com/lbergelson
+  - login: julianhess
+    avatar: https://avatars.githubusercontent.com/u/328077?v=4&s=50
+    url: https://github.com/julianhess
+  - login: asivache
+    avatar: https://avatars.githubusercontent.com/u/3407913?v=4&s=50
+    url: https://github.com/asivache
+  commits:
+  - date: 2021-09-13 14:11:57.000000000 Z
+    message: Make chimeric read filter optional
+    url: https://github.com/getzlab/mutect/commit/f22f927f6181dbf39aafd7c643b5ff6346575eb2
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2021-08-03 17:12:30.000000000 Z
+    message: Initial commit of omitting discordant readpairs
+    url: https://github.com/getzlab/mutect/commit/df19552c1a440212b5922653297e5c410721b4be
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2021-08-03 15:23:11.000000000 Z
+    message: Fix typos
+    url: https://github.com/getzlab/mutect/commit/263380747a83297c05ce6764dd322ec1cc608451
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2021-08-03 15:22:54.000000000 Z
+    message: Put expensive read tests later to fail faster
+    url: https://github.com/getzlab/mutect/commit/8bc541420c0437c274f1b1feed56fc9244b2709c
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2014-06-01 20:34:34.000000000 Z
+    message: fixed unit test to not rely on broad filesystem
+    url: https://github.com/getzlab/mutect/commit/69b7a37fcafe8a68f7470436f24e44df740f1c41
+    author_login: kcibul
+    author_url: https://github.com/kcibul
+- repo: vanallenlab/phial
+  title: phial
+  owner: vanallenlab
+  description: Precision Heuristics for Interpreting the Alteration Landscape
+  url: "/tools/phial/"
+  topics: []
+  contributors:
+  - login: brendanreardon
+    avatar: https://avatars.githubusercontent.com/u/9423424?v=4&s=50
+    url: https://github.com/brendanreardon
+  commits:
+  - date: 2021-02-12 16:57:55.000000000 Z
     message: |-
-      adding pythong scripts for starting servers to load mutations and proteomemaps
+      Create LICENSE
 
-      git deleting hg19 2bit file I guess
-    url: https://github.com/getzlab/CLUMPS/commit/76b909408840d2b4f92653f6091f4364cd889b42
-    author_login: ''
-    author_url: ''
+      Updated to GPLv2 per DFCI's instructions.
+    url: https://github.com/vanallenlab/phial/commit/c7d0b8512ddc5449ff7104aaee6afdf74b55b6a9
+    author_login: brendanreardon
+    author_url: https://github.com/brendanreardon
+  - date: 2019-03-09 20:48:33.000000000 Z
+    message: Added boolean for creating report, fixed wdl
+    url: https://github.com/vanallenlab/phial/commit/c8da5fea48ddde16b5bdd659f8a9db4a0465497f
+    author_login: brendanreardon
+    author_url: https://github.com/brendanreardon
+  - date: 2019-03-08 21:02:27.000000000 Z
+    message: Added boolean to create or not create nozzle report
+    url: https://github.com/vanallenlab/phial/commit/79f93ab5a990505ffca040cfb75589ee9d9181a6
+    author_login: brendanreardon
+    author_url: https://github.com/brendanreardon
+  - date: 2018-05-14 15:09:04.000000000 Z
+    message: Added a feature to take the minimum alternate allele for DNP and ONP
+      events. Pushed this as v1.0.1 and updated the WDL. Updating the FireCloud method
+    url: https://github.com/vanallenlab/phial/commit/fd68f9dc412e544f0a9e9a1ccf8c986b8e420ee6
+    author_login: brendanreardon
+    author_url: https://github.com/brendanreardon
+  - date: 2018-02-16 21:43:09.000000000 Z
+    message: |-
+      Update README.md
+
+      Added run instructions
+    url: https://github.com/vanallenlab/phial/commit/02442dcce9082be946206c4bcc3e7a36a29a1160
+    author_login: brendanreardon
+    author_url: https://github.com/brendanreardon
+- repo: getzlab/rnaseqc
+  title: rnaseqc
+  owner: getzlab
+  description: Fast, efficient RNA-Seq metrics for quality control and process optimization
+  url: "/tools/rnaseqc/"
+  topics:
+  - rnaseq
+  - rna-seq
+  - bioinformatics
+  contributors:
+  - login: agraubert
+    avatar: https://avatars.githubusercontent.com/u/997749?v=4&s=50
+    url: https://github.com/agraubert
+  - login: francois-a
+    avatar: https://avatars.githubusercontent.com/u/9382463?v=4&s=50
+    url: https://github.com/francois-a
+  - login: joshua-gould
+    avatar: https://avatars.githubusercontent.com/u/5237151?v=4&s=50
+    url: https://github.com/joshua-gould
+  commits:
+  - date: 2022-02-18 17:44:16.000000000 Z
+    message: Update README.md
+    url: https://github.com/getzlab/rnaseqc/commit/cff231b55ec4c5292213c9ab5d30b1f183956726
+    author_login: francois-a
+    author_url: https://github.com/francois-a
+  - date: 2021-12-16 20:56:41.000000000 Z
+    message: Added options, fix for CDF plot
+    url: https://github.com/getzlab/rnaseqc/commit/286f99dfd4164d33014241dd4f3149da0cddf5bf
+    author_login: francois-a
+    author_url: https://github.com/francois-a
+  - date: 2021-09-16 19:01:18.000000000 Z
+    message: Increase cloudbuild timeout
+    url: https://github.com/getzlab/rnaseqc/commit/5de80ec503ebb5cfcfc185291c32c839da191f74
+    author_login: agraubert
+    author_url: https://github.com/agraubert
+  - date: 2021-09-16 18:37:25.000000000 Z
+    message: Fixed cloudbuild
+    url: https://github.com/getzlab/rnaseqc/commit/e9ae46a20ce1346bb0a7ad78f22eb84c69f7de23
+    author_login: agraubert
+    author_url: https://github.com/agraubert
+  - date: 2021-09-16 15:42:46.000000000 Z
+    message: |-
+      Merge pull request #63 from getzlab/drop-lfs
+
+      Move testing data out of LFS
+    url: https://github.com/getzlab/rnaseqc/commit/d69f56edeeff8ce2399dc30e9b991bd7f33130f3
+    author_login: agraubert
+    author_url: https://github.com/agraubert

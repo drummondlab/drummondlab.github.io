@@ -121,7 +121,8 @@ module Tools
 				)
 
 				# sort by date
-				tool_data.sort! { |x, y| y["commits"].first["date"] <=> x["commits"].first["date"] }
+				#tool_data.sort! { |x, y| y["commits"].first["date"] <=> x["commits"].first["date"] }
+                                tool_data.sort! { |x, y| x["title"] <=> y["title"] }
 
 			end
 		end
