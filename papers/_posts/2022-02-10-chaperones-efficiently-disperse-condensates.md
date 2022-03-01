@@ -7,7 +7,7 @@ nickname: "chaperones-disperse"
 journal: "Molecular Cell"
 volume: 82
 issue: 4
-pages: 741--755
+pages: 741–755
 authors: "Yoo H, Bard JAM, Pilipenko E, Drummond DA"
 image: /assets/images/papers/pab-chaperones.svg
 redirect_from: 
