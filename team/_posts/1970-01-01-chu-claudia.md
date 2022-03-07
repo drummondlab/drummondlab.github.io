@@ -11,8 +11,9 @@ alum: false
 image: /assets/images/team/Claudia_Chu.jpg
 ---
 
-I joined the Getz Lab early 2021 as an Associate Computational Biologist. I currently work on genomic analysis of leukemias (MDS/AML, CLL) and tool development for automating manual review. 
+Claudia joined the Getz Lab early 2021 as an Associate Computational Biologist. She currently works on genomic analysis of leukemias (MDS/AML, CLL) and tool development for automating manual review. 
 
-I recieved a B.S. in Computer Science and a Minor in Biology at Georgia Tech. In the future I plan to pursue graduate school to continue my studies in computational applications in biological research. 
+She recieved a B.S. in Computer Science and a Minor in Biology at Georgia Tech. In the future she plans to pursue graduate school to continue her studies in computational applications in biological research. 
 
-Outside of research, I enjoy volleyball, longboarding, and running 🏃. When I can't be outside, I also like baking 🍰, knitting, and piano 🎹.
+Outside of research, she enjoys volleyball, longboarding, and running 🏃. When she can't be outside, she also likes baking 🍰, knitting, and piano 🎹.
+
