@@ -22,12 +22,12 @@ require 'yaml'
 
 module Tools
 
-	def self.generate_data(config_file)
+	def self.generate_data(config_file, tool_category)
 
 		tool_data = {}
 
 		config = YAML.load_file(config_file)
-		tools_array = config["tools"]
+		tools_array = config[tool_category]
 
 		puts "Generating tools"
 		# create octokit client
@@ -140,5 +140,8 @@ module Tools
 
 end
 
-tool_data = Tools.generate_data("_config.yml")
-Tools.write_data(tool_data, "_data/tools.yml")
+tool_data = Tools.generate_data("_config.yml", "current_tools")
+Tools.write_data(tool_data, "_data/current_tools.yml")
+
+tool_data = Tools.generate_data("_config.yml", "retired_tools")
+Tools.write_data(tool_data, "_data/retired_tools.yml")

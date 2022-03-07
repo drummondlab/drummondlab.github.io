@@ -8,10 +8,10 @@ navorder: 4
 {% include JB/setup %}
 
 <div class="hugespacer"></div>
-<div class="bigtitle">Tools</div>
+<div class="bigtitle">Current Tools</div>
 <div class="bigspacer"></div>
 
-  {% for tool in site.data.tools %}
+  {% for tool in site.data.current_tools %}
 
     {% cycle 'add rows': '<div class="row">', '', '' %}
 		<div class="col-md-4 projectbox">
@@ -50,7 +50,51 @@ navorder: 4
     {% cycle 'close rows': '', '', '</div>' %}
 {% endfor %}
 {% cycle 'close rows': '', '</div>', '</div>' %}
-    
+
+<div class="hugespacer"></div>
+<div class="bigtitle">Retired Tools</div>
+<div class="bigspacer"></div>
+
+  {% for tool in site.data.retired_tools %}
+
+    {% cycle 'add rows': '<div class="row">', '', '' %}
+		<div class="col-md-4 projectbox">
+			<div class="head">
+				{{ tool.title }}
+			</div>
+			<div class="smallspacer"></div>
+			<div class="note">
+				{{ tool.description }}
+			</div>
+			<div class="smallspacer"></div>
+		<div class="pad-left note">
+			<i class="fa fa-github-alt fa-fw"></i>
+			<a class="off" href="https://github.com/{{ tool.repo }}">{{ tool.repo }}</a>
+		</div>		
+			<div class="smallnote">
+			  Topics: 
+			  {% for topic in tool.topics %}
+			  {{ topic }}
+			  {% if forloop.last %}{% else %},{% endif %}
+			  {% endfor %}
+			</div>  
+			<div class="smallnote">
+				Last Updated
+				<a class="off" href="{{ tool.commits.first.url }}">
+				{{ tool.commits.first.date | date: "%-d %b %Y" }}
+				</a>
+				by
+				<a class="off" href="{{ tool.commits.first.author_url }}">
+				{{ tool.commits.first.author_login }}
+				</a>
+			</div>
+			<div class="bigspacer"></div>
+			<div class="spacer"></div>
+		</div>
+    {% cycle 'close rows': '', '', '</div>' %}
+{% endfor %}
+{% cycle 'close rows': '', '</div>', '</div>' %}
+
 <!--
     {% assign author = 0 %}
     {% for member in site.categories.team %}
