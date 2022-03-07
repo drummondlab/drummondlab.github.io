@@ -1,0 +1,41 @@
+---
+- repo: getzlab/CLUMPS
+  title: CLUMPS
+  owner: getzlab
+  description:
+  url: "/tools/CLUMPS/"
+  topics: []
+  contributors:
+  - login: ajdunford
+    avatar: https://avatars.githubusercontent.com/u/4085800?v=4&s=50
+    url: https://github.com/ajdunford
+  commits:
+  - date: 2019-06-20 20:53:27.000000000 Z
+    message: adding files for GPmapping
+    url: https://github.com/getzlab/CLUMPS/commit/1fb96742114e6ec8feb2b4d9808f9f8708f0607f
+    author_login: ajdunford
+    author_url: https://github.com/ajdunford
+  - date: 2019-06-12 14:09:03.000000000 Z
+    message: adding allCancerGenes.txt file used to calculate the restricted CLUMPS
+      Q calculation
+    url: https://github.com/getzlab/CLUMPS/commit/c1856f39aab1522a97f364b4305f533dd009fb60
+    author_login: ajdunford
+    author_url: https://github.com/ajdunford
+  - date: 2019-05-15 20:30:36.000000000 Z
+    message: moving huniprot2pdb
+    url: https://github.com/getzlab/CLUMPS/commit/b7eaab714a4d1bfcbd25085156b71ce037cc7cc7
+    author_login: ''
+    author_url: ''
+  - date: 2019-05-15 20:29:11.000000000 Z
+    message: adding huniprot2pdb gz file
+    url: https://github.com/getzlab/CLUMPS/commit/4f8065fd68730b285f903f6d087805e2025b36d9
+    author_login: ''
+    author_url: ''
+  - date: 2019-05-15 20:10:12.000000000 Z
+    message: |-
+      adding pythong scripts for starting servers to load mutations and proteomemaps
+
+      git deleting hg19 2bit file I guess
+    url: https://github.com/getzlab/CLUMPS/commit/76b909408840d2b4f92653f6091f4364cd889b42
+    author_login: ''
+    author_url: ''
