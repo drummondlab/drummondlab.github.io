@@ -3,7 +3,7 @@ layout: member
 title: Chet Birger
 citation_names: Birger C, Birger CB
 category: Staff Engineer
-position: Principal Architect (part time), CGA
+position: Principal Architect (part time)
 email: birger@broadinstitute.org 
 github: cbirger
 image: /assets/images/team/Chet_Birger.jpg
