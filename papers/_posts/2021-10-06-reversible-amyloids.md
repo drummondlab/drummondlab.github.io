@@ -5,9 +5,9 @@ year: "2021"
 shortref: "Cereghetti <i>et al.</i> 2021"
 nickname: reversible-amyloids
 journal: "Nature Cell Biology"
-volume: 
+volume: 23
 issue: 
-pages: 
+pages: 1085–1094
 authors: "Cereghetti G, Wilson-Zbinden C, Kissling VM, Diether M, Arm A, Yoo H, Piazza I, Saad S, Picotti P, Drummond DA, Sauer U, Dechant R, Peter M"
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
