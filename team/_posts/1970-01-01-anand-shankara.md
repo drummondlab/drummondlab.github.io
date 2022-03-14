@@ -8,6 +8,6 @@ email: sanand@broadinstitute.org
 github:
 image: /assets/images/team/Shankara_Anand.png
 cv:
-linkedin: shankdara-anand
+linkedin: shankara-anand
 alum: true
 ---
