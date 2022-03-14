@@ -1,4 +1,3 @@
-
 ---
 layout: member
 title: Kirsten Kubler
