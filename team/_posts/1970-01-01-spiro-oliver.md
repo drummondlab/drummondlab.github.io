@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Oliver Spiro
+citation_names: Spiro O, Spiro OG
 category: Associate
 position: Associate Computational Biologist
 email: ospiro@broadinstitute.org

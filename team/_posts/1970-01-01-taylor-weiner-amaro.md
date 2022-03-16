@@ -8,6 +8,7 @@ email:
 github: amarotaylor
 image: /assets/images/team/Amaro_Taylor-Weiner.jpeg
 cv:
+linkedin: amaro-taylorweiner
 alum: true
 ---
 

@@ -3,7 +3,7 @@ layout: member
 title: Nick Sontha
 citation_names: "Sontha N"
 category: Associate
-position: Research Associate II
+position: Research Associate III
 email: nsontha@broadinstitute.org
 github:
 image: /assets/images/team/Nick_Sontha.jpg

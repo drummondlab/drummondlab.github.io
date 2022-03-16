@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Qing Zhang
+citation_names: Zhang Q
 category: Associate
 position: Associate Computational Biologist II
 email:

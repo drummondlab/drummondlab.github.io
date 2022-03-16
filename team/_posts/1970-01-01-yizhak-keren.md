@@ -3,7 +3,7 @@ layout: member
 title: Keren Yizhak
 citation_names: "Yizhak K"
 category: Postdoctoral Researcher
-position: Postdoctoral Associate
+position: Postdoctoral Fellow
 email:
 github: 
 cv:
