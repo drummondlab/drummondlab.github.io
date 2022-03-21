@@ -16,5 +16,5 @@ Elizabeth received a BSc in Biochemistry & Cell Biology from the University of C
 
 Elizabeth joined the experimental team within the Getz lab in late 2021 as a Research Associate. She is involved in the development of novel technologies for tracing phylogenetic lineages of cancer cells with the aim of applying these technologies to study the sensitivity and resistance of cancer cells to targeted therapies.
 
-When she's not in the lab, Elizabeth enjoys hiking and kayaking if temperatures are warm enough. On cold days, she likes to curl up with a good book, a cup of tea, and her cat."
+When she's not in the lab, Elizabeth enjoys hiking and kayaking if temperatures are warm enough. On cold days, she likes to curl up with a good book, a cup of tea, and her cat.
 
