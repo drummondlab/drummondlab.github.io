@@ -9,5 +9,5 @@ github:
 image: /assets/images/team/Shankara_Anand.png
 cv:
 linkedin: shankdara-anand
-alum: true
+alum: false
 ---
