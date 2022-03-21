@@ -11,3 +11,4 @@ alum: false
 ---
 
 Guang joined the Getz lab in the fall of 2020, as a graduate student in the Master of Medical Sciences in Clinical Investigation Program at Harvard Medical School of Harvard University. He is primarily focused on analyzing whole exome sequencing (WES) data to uncover mechanisms of drug resistance in cancer. 
+

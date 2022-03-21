@@ -6,7 +6,7 @@ position: Ph.D. Student, MIT - Computational and Systems Biology
 email: jezike@broadinstitute.org
 github: 
 cv:
-image: /assets/images/team/jezike_id_image_editted.png
+image: /assets/images/team/Jide_Ezike.jpeg
 alum: false
 ---
 
