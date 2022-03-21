@@ -3,6 +3,7 @@ layout: member
 title: Estelle Yao
 category: Graduate Student
 position: Masters Student, Harvard T.H.Chan School of Public Health
+image: /assets/images/team/Estelle_Yao.png
 email: eyao@broadinstitute.org
 github: 
 cv:
