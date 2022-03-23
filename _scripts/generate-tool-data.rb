@@ -29,26 +29,25 @@ module Tools
 		config = YAML.load_file(config_file)
 		tools_array = config[tool_category]
 
-		puts "Generating tools"
 		# create octokit client
 		client = Octokit::Client.new(:netrc => true, :access_token => ENV['GITHUB_TOKEN'])
 
 		tool_data = Array.new
 		if tools_array.length > 0
-			tools_array.each do |repo|
+			tools_array.each do |tool|
 
-				puts "\tGenerating #{repo}"
+				puts "\tGenerating #{tool["name"]}"
 
 				# load repo metadata
-				octokit_repo = client.repository(repo)
-				tool_title = octokit_repo.name
+				octokit_repo = client.repository(tool["repo"])
+				tool_title = tool["name"]
 				tool_owner = octokit_repo.owner.login
 				tool_description = octokit_repo.description
 				tool_url = "/tools/#{tool_title}/"
 				tool_date = octokit_repo.updated_at
 
                                 # lood repo topics
-                                octokit_topics = client.topics(repo)
+                                octokit_topics = client.topics(tool["repo"])
                                 p(octokit_topics)
                                 tool_topics = Array.new
                                 for i in 0 ... octokit_topics.names.size
@@ -58,7 +57,7 @@ module Tools
                                 p(tool_topics)
 
 				# load contributor metadata
-				octokit_contributors = client.contributors(repo)
+				octokit_contributors = client.contributors(tool["repo"])
 				tool_contributors = Array.new
 				for i in 0 ... [octokit_contributors.size, 10].min
 					contributor = octokit_contributors[i]
@@ -73,7 +72,7 @@ module Tools
 				end
 
 				# load commit metadata
-				octokit_commits = client.commits(repo)
+				octokit_commits = client.commits(tool["repo"])
 				tool_commits = Array.new
 				counter = 0
 				for i in 0 ... octokit_commits.size
@@ -110,8 +109,8 @@ module Tools
 
 				# assemble metadata
 				tool_data = tool_data.push(
-					"repo" => repo,
-					"title" => tool_title,
+					"repo" => tool["repo"],
+					"title" => tool["name"],
 					"owner" => tool_owner,
 					"description" => tool_description,
 					"url" => tool_url,
@@ -140,8 +139,10 @@ module Tools
 
 end
 
+puts "Generating data for current tools"
 tool_data = Tools.generate_data("_config.yml", "current_tools")
 Tools.write_data(tool_data, "_data/current_tools.yml")
 
+puts "Generating data for retired tools"
 tool_data = Tools.generate_data("_config.yml", "retired_tools")
 Tools.write_data(tool_data, "_data/retired_tools.yml")
