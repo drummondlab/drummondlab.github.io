@@ -218,6 +218,7 @@ Navigating to "Team" (on the top navigation bar) displays Getz Lab membership, b
 - Research and Computational Associates
 - Postdoctoral Researchers
 - Graduate Students
+- Associated Scientists
 - Alumni
 
 Clicking on a team member's name takes one to the member's personal lab webpage.  Each current member of the lab is responsible for creating and/or maintaining their personal webpage.  
@@ -239,6 +240,7 @@ The yaml front matter in a lab member page should contain the following:
 	category: Principal Investigator | Operations and Administration | Staff Scientist | Staff Engineer | Associate | Postdoctoral Researcher | Graduate Student
 	position: <position title>
 	[email: <broad email>]
+	[mask_email: false | true]
 	[twitter: <twitter handle>]
 	[github: <github userid>]
 	[linkedin: <linkedin id>]
