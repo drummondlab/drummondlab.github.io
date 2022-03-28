@@ -8,7 +8,7 @@ email:
 github: 
 cv:
 alum: true
+parting_date: 2016-06-30
 linkedin: mike-lawrence-ba98834
-current: Assistant Professor, Harvard Medical School and Massachusetts General Hospital
 ---
 

@@ -9,5 +9,6 @@ github:
 cv:
 alum: true
 linkedin: qing-zhang-a28711b7
+parting_date: 2021-10-30
 ---
 

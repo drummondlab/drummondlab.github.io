@@ -332,7 +332,7 @@ navorder: 2
 <div class="bigtitle">Alumni</div>
 <div class="bigspacer"></div>
 
-{% assign alumni = site.categories.team | where: "alum","true"%}
+{% assign alumni = site.categories.team | where: "alum","true" | sort: 'parting_date' %}
 {% assign memberindex = 0 %}
 {% for member in alumni reversed %}
 	{% assign memberindex = memberindex | plus: 1 %}

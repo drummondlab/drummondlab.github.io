@@ -8,5 +8,6 @@ github:
 cv:
 linkedin: rotem-ben-hamo-69b189a4
 alum: true
+parting_date: 2019-08-31
 ---
 

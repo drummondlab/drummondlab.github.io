@@ -8,5 +8,6 @@ email:
 github: 
 cv:
 alum: true
+parting_date: 2019-01-31
 ---
 

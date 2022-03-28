@@ -10,5 +10,6 @@ image: /assets/images/team/Amaro_Taylor-Weiner.jpeg
 cv:
 linkedin: amaro-taylorweiner
 alum: true
+parting_date: 2019-07-31
 ---
 

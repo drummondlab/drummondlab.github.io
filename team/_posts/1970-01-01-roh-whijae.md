@@ -10,5 +10,6 @@ image: /assets/images/team/Whijae_Roh.jpeg
 cv:
 linkedin: whijae
 alum: true
+parting_date: 2021-06-30
 ---
 

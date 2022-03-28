@@ -9,6 +9,6 @@ github:
 cv:
 alum: true
 linkedin: keren-yizhak-95b613126
-current: Associate Professor, Technion - Israel Institute of Technology
+parting_date: 2019-10-31
 ---
 

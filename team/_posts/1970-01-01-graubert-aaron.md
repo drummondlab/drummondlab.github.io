@@ -10,5 +10,6 @@ image: /assets/images/team/Aaron_Graubert.jpeg
 cv:
 linkedin: agraubert
 alum: true
+parting_date: 2020-07-31
 ---
 

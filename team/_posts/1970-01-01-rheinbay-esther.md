@@ -10,6 +10,6 @@ image: /assets/images/team/Esther_Rheinbay.jpeg
 cv:
 linkedin: esther-rheinbay-ba55161b6
 alum: true
-current: Assistant Professor of Medicine, Massachusetts General Hospital Cancer Center and Harvard Medical School
+parting_date: 2018-07-31
 ---
 

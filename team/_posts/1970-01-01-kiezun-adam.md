@@ -9,5 +9,6 @@ github:
 cv:
 linkedin: adamkiezun
 alum: true
+parting_date: 2014-10-22
 ---
 

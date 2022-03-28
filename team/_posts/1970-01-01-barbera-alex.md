@@ -7,4 +7,5 @@ email: abarbera@broadinstitute.org
 github:
 cv:
 alum: true
+parting_date: 2021-01-11
 ---

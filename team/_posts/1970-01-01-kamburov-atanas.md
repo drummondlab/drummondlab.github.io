@@ -10,6 +10,6 @@ image:
 cv:
 linkedin: atanas-kamburov-75a0498b
 alum: true
-current: Research Scientist, Bayer
+parting_date: 2017-05-11
 ---
 

@@ -9,5 +9,6 @@ github:
 cv:
 alum: true
 linkedin: dimitri-livitz-946aa422
+parting_date: 2018-07-30
 ---
 

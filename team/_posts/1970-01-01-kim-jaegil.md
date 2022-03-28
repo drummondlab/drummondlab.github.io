@@ -10,5 +10,6 @@ image: /assets/images/team/Jaegil_Kim.jpeg
 cv:
 linkedin: jaegil-kim-76907025
 alum: true
+parting_date: 2019-01-11
 ---
 

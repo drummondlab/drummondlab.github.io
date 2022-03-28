@@ -9,6 +9,6 @@ github:
 cv:
 alum: true
 linkedin: daniel-rosebrock-a8b73171
-current: PhD Student, Max Planck Institute for Molecular Genetics
+parting_date: 2018-07-31
 ---
 

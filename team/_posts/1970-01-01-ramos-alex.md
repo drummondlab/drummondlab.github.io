@@ -9,5 +9,6 @@ github:
 cv:
 linkedin: alex-ramos-a5030515
 alum: true
+parting_date: 2015-06-30
 ---
 

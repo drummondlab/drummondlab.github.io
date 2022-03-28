@@ -8,6 +8,8 @@ email: sfreeman@broadinstitute.org
 github: 
 image: /assets/images/team/Sam_Freeman.jpeg
 cv:
+linkedin: samuel-freeman-1a12a57a
 alum: true
+parting_date: 2021-06-30
 ---
 

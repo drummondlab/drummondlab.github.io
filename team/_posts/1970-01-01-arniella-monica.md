@@ -10,5 +10,6 @@ image: /assets/images/team/Monica_Arniella.jpeg
 linkedin: monica-arniella
 cv:
 alum: true
+parting_date: 2021-09-07
 ---
 

@@ -9,5 +9,6 @@ image:
 cv:
 alum: true
 linkedin: grace-tiao
+parting_date: 2017-07-31
 ---
 
