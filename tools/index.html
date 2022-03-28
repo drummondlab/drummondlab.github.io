@@ -8,8 +8,15 @@ navorder: 4
 {% include JB/setup %}
 
 <div class="hugespacer"></div>
+<i>
+<font color="red">
+<div class="title">Page Under Construction</div>  
+</font>
+</i>
+<div class="hugespacer"></div>
 <div class="bigtitle">Current Tools</div>
-<div class="bigspacer"></div>
+<div class="hugespacer"></div>
+  
   {% for tool in site.data.current_tools %}
 
     {% cycle 'add rows': '<div class="row">', '', '' %}
@@ -52,7 +59,7 @@ navorder: 4
 
 <div class="hugespacer"></div>
 <div class="bigtitle">Historic Tools</div>
-<div class="bigspacer"></div>
+<div class="hugespacer"></div>
 
   {% for tool in site.data.retired_tools %}
 
