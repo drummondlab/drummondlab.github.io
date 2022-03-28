@@ -5,7 +5,7 @@ category: Postdoctoral Researcher
 position: Postdoctoral Scholar, Instructor
 email: aravi@broadinstitute.org
 github: 
-image: /assets/images/team/Arvind_Ravi.jpeg
+image: /assets/images/team/Arvind_Ravi.png
 cv:
 alum: false
 ---

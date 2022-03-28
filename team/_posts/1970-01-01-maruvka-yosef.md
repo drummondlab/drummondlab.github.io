@@ -6,7 +6,7 @@ category: Associated Scientist
 position: Assistant Professor at Biotechnology & food engineering. Technion.
 email: maruvka@broadinstitute.org
 github: 
-image: /assets/images/team/Yosi_Maruvka.jpeg
+image: /assets/images/team/Yosi_Maruvka.png
 cv:
 linkedin: yosef-maruvka-a9071b21
 alum: false
