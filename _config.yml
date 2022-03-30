@@ -187,15 +187,21 @@ current_tools:
   - name: MutSig2CV
     repo:  getzlab/MutSig2CV
   - name: CLUMPS2
-    repo: getzlab/getzlab-CLUMPS2
-  - name: RNA-SeQC
+    repo: getzlab/CLUMPS2
+  - name: RNA-SeQC 2
     repo: getzlab/rnaseqc
   - name: SignatureAnalyzer
-    repo: getzlab/getzlab-SignatureAnalyzer
+    repo: getzlab/SignatureAnalyzer
   - name: MuTect1
     repo: getzlab/mutect
   - name: MSMuTect1
     repo: getzlab/MSMuTect1
+  - name: Absolute
+    repo: getzlab/ABSOLUTE
+  - name: GISTIC 2
+    repo: broadinstitute/gistic2
+  - name: MSMutSig
+    repo: getzlab/MSMutSig
 
 retired_tools:
   - name: CLUMPS
