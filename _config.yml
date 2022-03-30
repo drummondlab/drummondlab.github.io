@@ -186,16 +186,16 @@ current_tools:
     repo: getzlab/deTiN
   - name: MutSig2CV
     repo:  getzlab/MutSig2CV
-  - name: CLUMPS2
+  - name: CLUMPS 2
     repo: getzlab/CLUMPS2
   - name: RNA-SeQC 2
     repo: getzlab/rnaseqc
   - name: SignatureAnalyzer
     repo: getzlab/SignatureAnalyzer
-  - name: MuTect1
+  - name: MuTect 1
     repo: getzlab/mutect
-  - name: MSMuTect1
-    repo: getzlab/MSMuTect1
+  - name: MSMuTect 2
+    repo: getzlab/MSMuTect2
   - name: Absolute
     repo: getzlab/ABSOLUTE
   - name: GISTIC 2
@@ -206,5 +206,7 @@ current_tools:
 retired_tools:
   - name: CLUMPS
     repo: getzlab/CLUMPS
+  - name: MSMuTect1
+    repo: getzlab/MSMuTect1
 
   

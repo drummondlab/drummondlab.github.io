@@ -37,10 +37,10 @@
     author_login: hurrialice
     author_url: https://github.com/hurrialice
 - repo: getzlab/CLUMPS2
-  title: CLUMPS2
+  title: CLUMPS 2
   owner: getzlab
   description: Re-factored code for CLUMPS.
-  url: "/tools/CLUMPS2/"
+  url: "/tools/CLUMPS 2/"
   topics: []
   contributors:
   - login: shankara-a
@@ -112,35 +112,51 @@
     url: https://github.com/broadinstitute/gistic2/commit/4a8ac66605542fe6143e8649ffc008f442a0ca25
     author_login: stevenschumacher
     author_url: https://github.com/stevenschumacher
-- repo: getzlab/MSMuTect1
-  title: MSMuTect1
+- repo: getzlab/MSMuTect2
+  title: MSMuTect 2
   owner: getzlab
-  description:
-  url: "/tools/MSMuTect1/"
+  description: Accurate detection of somatic MS (microsatellite) indels.
+  url: "/tools/MSMuTect 2/"
   topics: []
   contributors:
-  - login: AvrahamKahan123
-    avatar: https://avatars.githubusercontent.com/u/68906522?v=4&s=50
-    url: https://github.com/AvrahamKahan123
+  - login: hurrialice
+    avatar: https://avatars.githubusercontent.com/u/30106174?v=4&s=50
+    url: https://github.com/hurrialice
   - login: cbirger
     avatar: https://avatars.githubusercontent.com/u/2326853?v=4&s=50
     url: https://github.com/cbirger
+  - login: AvrahamKahan123
+    avatar: https://avatars.githubusercontent.com/u/68906522?v=4&s=50
+    url: https://github.com/AvrahamKahan123
   commits:
-  - date: 2021-03-15 16:33:14.000000000 Z
-    message: added readme
-    url: https://github.com/getzlab/MSMuTect1/commit/d94eb1595e229153c9f48b918862771985bddbb7
-    author_login: AvrahamKahan123
-    author_url: https://github.com/AvrahamKahan123
-  - date: 2021-03-15 14:36:30.000000000 Z
-    message: added all msmutect1
-    url: https://github.com/getzlab/MSMuTect1/commit/529667df5c140162b9118b82a608229a8f879ce0
-    author_login: AvrahamKahan123
-    author_url: https://github.com/AvrahamKahan123
-  - date: 2021-02-24 13:21:22.000000000 Z
-    message: Initial commit
-    url: https://github.com/getzlab/MSMuTect1/commit/27be831a1fcb8f7421e9fad8f61d076d7880f619
+  - date: 2022-03-30 15:09:37.000000000 Z
+    message: |-
+      Merge pull request #1 from getzlab/add-license-1
+
+      Create LICENSE
+    url: https://github.com/getzlab/MSMuTect2/commit/f4dc13948e70291eb46401a7ed2305ea7d7db252
     author_login: cbirger
     author_url: https://github.com/cbirger
+  - date: 2022-03-30 15:09:13.000000000 Z
+    message: Create LICENSE
+    url: https://github.com/getzlab/MSMuTect2/commit/1b1b5681c35a447daa25f54e66da6ad89399b07d
+    author_login: cbirger
+    author_url: https://github.com/cbirger
+  - date: 2021-09-07 05:25:46.000000000 Z
+    message: temporal working script
+    url: https://github.com/getzlab/MSMuTect2/commit/72120a6c1e6980efd0a18f641e8b011bb2603a0e
+    author_login: hurrialice
+    author_url: https://github.com/hurrialice
+  - date: 2021-09-04 13:03:10.000000000 Z
+    message: fix typo in ref path
+    url: https://github.com/getzlab/MSMuTect2/commit/6c2e099f34652e994f0f6d33418e5c5a43e038a0
+    author_login: hurrialice
+    author_url: https://github.com/hurrialice
+  - date: 2021-08-27 19:54:49.000000000 Z
+    message: returns task obj
+    url: https://github.com/getzlab/MSMuTect2/commit/a08ea7ba5aa8d021b5539f76e37da062b1b34b12
+    author_login: hurrialice
+    author_url: https://github.com/hurrialice
 - repo: getzlab/MSMutSig
   title: MSMutSig
   owner: getzlab
@@ -172,10 +188,10 @@
     author_login: cbirger
     author_url: https://github.com/cbirger
 - repo: getzlab/mutect
-  title: MuTect1
+  title: MuTect 1
   owner: getzlab
   description: MuTect -- Accurate and sensitive cancer mutation detection
-  url: "/tools/MuTect1/"
+  url: "/tools/MuTect 1/"
   topics: []
   contributors:
   - login: kcibul
