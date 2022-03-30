@@ -1,10 +1,10 @@
 ---
 - repo: getzlab/ABSOLUTE
-  title: Absolute
+  title: ABSOLUTE
   owner: getzlab
   description: ABSOLUTE source code that works with allelic copy ratio on both hg19
     and hg38
-  url: "/tools/Absolute/"
+  url: "/tools/ABSOLUTE/"
   topics: []
   contributors:
   - login: hurrialice

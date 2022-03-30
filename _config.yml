@@ -196,7 +196,7 @@ current_tools:
     repo: getzlab/mutect
   - name: MSMuTect 2
     repo: getzlab/MSMuTect2
-  - name: Absolute
+  - name: ABSOLUTE
     repo: getzlab/ABSOLUTE
   - name: GISTIC 2
     repo: broadinstitute/gistic2
