@@ -8,24 +8,9 @@ navorder: 1
 {% include JB/setup %}
 <div class="hugespacer"></div>
 <div class="bigtitle">Research Activities</div>
-<div class="bigspacer"></div>
-
-
 <div class="hugespacer"></div>
 
 {% for project in site.categories.projects reversed %}
- <!--
-<div class='row'>
-  <div class='row'>
-    <div class="col-md-4 paperbox">
-      <div class="smallhead media-heading"><a href="{{ project.url }}" class="off">{{ project.title }}</a></div>
-    </div>
-    <div class='col-md-8'>
-      {{ project.content }}
-    </div>
-  </div>
-</div>
--->
 <div class="head">
   {{ project.title }}
 </div>
@@ -33,6 +18,55 @@ navorder: 1
 <div class="post">
   {{ project.content }}
 </div>
-<div class="hugespacer"></div>
+<div class="bigspacer"></div>
 {% endfor %}
+
+<div class="hugespacer"></div>
+<div class="bigtitle">Current and Past Funders</div>
+<div class="hugespacer"></div>
+
+<div class="head">International</div>
+<a href="https://www.cancerresearchuk.org/">Cancer Research UK (CRUK)</a>
+<div class="bigspacer"></div>
+<div class="head">Federal</div>
+<a href="https://www.cancer.gov/">National Institutes of Health, National Cancer Insitute (NIH NCI)</a>
+<br>
+<a href="https://www.defense.gov/">Department of Defense</a>
+<div class="bigspacer"></div>
+<div class="head">Foundation/Philanthropy</div>
+<a href="https://standuptocancer.org/">Stand Up To Cancer (SU2C)</a>
+<br>
+<a href="https://www.adelsonfoundation.org/AMRF/">Adelson Medical Research Foundation (AMRF)</a>
+<br>
+<a href="https://www.adelsonfoundation.org/AMRF/">Chan Zuckerberg Initiative (CZI)</a>
+<br>
+<a href="https://www.adelsonfoundation.org/AMRF/">Starr Cancer Consortium</a>
+<br>
+<a href="http://www.rogersfamilyfoundation.com/home/">Rogers Family Foundation/Lash Pilot Fund</a>
+<br>
+<a href="https://themarkfoundation.org/">Mark Foundation</a>
+<br>
+<a href="https://www.grayfoundation.org/">Gray Foundation</a>
+<br>
+<a href="https://themmrf.org/">Multiple Myeloma Research Foundation (MMRF)</a>
+<div class="bigspacer"></div>
+<div class="head">Internal Broad</div>
+<a href="">Scientific Projects to Accelerate Research and Collaboration (SPARC)</a>
+<div class="bigspacer"></div>
+<div class="head">Internal MGH</div>
+<a href="">Paul C. Zamecnik Chair in Oncology</a>
+<div class="bigspacer"></div>
+<div class="head">Industry</div>
+<a href="https://research.ibm.com/">IBM Research</a>
+<br>
+<a href="https://www.pharmacyclics.com/">Pharmacyclics</a>
+<br>
+<a href="https://www.leidos.com/">Leidos</a>
+<br>
+<a href="https://www.morphosys.com/en/home">Morphosys</a>
+<br>
+<a href="https://www.tessacell.com/">Tessa Therapeutics</a>
+<div class="bigspacer"></div>
+			
+
 
