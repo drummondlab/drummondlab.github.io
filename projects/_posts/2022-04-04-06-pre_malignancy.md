@@ -15,4 +15,4 @@ Moreover, in other efforts, we are leveraging the association between mutation d
 
 
 [Yizhak et al., Science 2019]: /papers/paper/rna-mutect
-[Kübler, Karlič, et al., bioRxiv 2019]: /papers/paper/
+[Kübler, Karlič, et al., bioRxiv 2019]: /papers/paper/mutational-landscape-premalignant-state
