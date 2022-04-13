@@ -318,13 +318,13 @@ Tools to be incorporated into the website are listed in the \_config.yml file co
 		- name: MSMuTect1
 		  repo: getzlab/MSMutect1
 
-Both lists have the same structure: a list element contains two fields: "name" and "repo".  The name field specifies the name by which the tool will be listed on the website; the repo field specifies the github repo name.  Tools within each list are presented in alphabetical order (of their respective names).  Note that if a tool is to be listed on the GetzLab website, it's github repo should (a) fall under the getzlab github organization and (b) be public. 
+Both lists have the same structure: a list element contains two fields: "name" and "repo".  The name field specifies the name by which the tool will be listed on the website; the repo field specifies the github repo name.  Tools within each list are presented in alphabetical order of their respective names, not the order in which they appear in the \_config.ymal file.  Note that if a tool is to be listed on the GetzLab website, it's github repo should (a) fall under the getzlab github organization and (b) be public. 
 
 Data is retrieved from the github tool repos via a [preprocessing ruby script](https://github.com/getzlab/getzlab.github.io/blob/master/_scripts/generate-tool-data.rb).  When run, the script reads the list of tool repositories from \_config.yml and makes a series of GitHub API calls to retrieve the desired data.  The retrieved data is written to two yml files: [current\_tools.yml](https://github.com/getzlab/getzlab.github.io/blob/master/_data/current_tools.yml) and [retired_tools.yml](https://github.com/getzlab/getzlab.github.io/blob/master/_data/retired_tools.yml).  Updates to these files, as a result of running the preprocessing script, need to be checked into to the getzlab.github.io repo.
 
 Although the repos from which data is being retrieved are public, the API calls need to be authenticated because the GitHub API rate limits unauthenticated queries.  A shell environment variable, GITHUB_TOKEN, must be set with a github access token in order to successfully run the script.    
 
-Our preprocessing script uses the [octokit](https://github.com/octokit/octokit.rb) implementation of the github API to retrieve data from each tool's repo.  In order to run the script, you will need to have Ruby installed along with the Octokit Ruby Gem.  The script is run as follows from top-most directory of the getzlab.github.io directory tree:
+Our preprocessing script uses the [octokit](https://github.com/octokit/octokit.rb) implementation of the github API to retrieve data from each tool's repo.  In order to run the script, you will need to have Ruby installed along with the Octokit Ruby Gem.  The script is run as follows from the top-most directory of the getzlab.github.io directory tree:
 
 	ruby _scripts/update-and-preprocess.rb
 	
