@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Jean-Baptiste Alberge
+citation_names: Alberge JB
 category: Postdoctoral Researcher
 position: Postdoctoral Associate
 email: jalberge@broadinstitute.org
