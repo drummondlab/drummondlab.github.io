@@ -133,9 +133,8 @@
  
 
 
-    {% if jekyll.environment == 'production' and site.analytics.google.measurement-id %}
-      {% include analytics-providers/google-gtag.html %}
-    {% endif %}
+
+    {% include analytics/google-gtag.html %}
   
     <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
     <!-- Placed at the end of the document so the pages load faster -->
