@@ -11,3 +11,6 @@ gem 'kramdown-parser-gfm'
 gem 'jekyll-twitter-plugin'
 
 gem "webrick", "~> 1.7"
+
+# Jekyll SEO Tag
+gem 'jekyll-seo-tag'

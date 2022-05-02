@@ -13,7 +13,7 @@ repository: getzlab/getzlab.github.io
 # so be sure to set them if your theme uses them.
 #
 title : Getz Lab
-tagline: Understand cancer cell evolutionand response to therapy in terms of genomics and epigenomics
+tagline: Understand cancer cell evolution and response to therapy in terms of genomics and epigenomics
 inst_broad:
   url: http://www.broadinstitute.org
   name: Broad
@@ -173,6 +173,7 @@ plugins_dir:
   
 plugins:
   - jekyll-twitter-plugin
+  - jekyll-seo-tag
 
 current_tools:
   - name: deTiN
