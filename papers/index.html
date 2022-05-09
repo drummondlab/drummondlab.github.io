@@ -61,7 +61,9 @@ navorder: 3
       {% else %}
         {% assign shortened_authors = shortened_authors | push: first_author %}
       {% endif %}
-    {% endfor %}	    
+    {% endfor %}
+
+      
     {% assign shortened_authors = shortened_authors | push: "[...]" %}
     {% for senior_author in senior_authors %}
       {% if team_citation_names contains senior_author %}	      
@@ -70,8 +72,16 @@ navorder: 3
       {% else %}
         {% assign shortened_authors = shortened_authors | push: senior_author %}
       {% endif %}
-    {% endfor %}	    
-    {% assign  shortened_authors  = shortened_authors | join: ", " %}
+    {% endfor %}
+
+    {% comment %} The following code block addresses rare situations where first author is also senior author. {% endcomment %} 
+    {% assign shortened_authors = shortened_authors | uniq %}
+    {% assign last_element = shortened_authors | last %}
+    {% if last_element == "[...]" %}
+      {% assign size_minus_one = shortened_authors.size | minus: 1 %}
+      {% assign shortened_authors = shortened_authors | slice: 0, size_minus_one %}
+    {% endif %}
+    {% assign shortened_authors = shortened_authors | join: ", " %}	    
 
     <div class="row">
 
