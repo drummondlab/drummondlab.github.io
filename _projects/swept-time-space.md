@@ -4,11 +4,11 @@ handle: swept-time-space
 image: swept-diagram.jpg
 funder: NASA
 start_year: 2015
-end_year:
+end_year: 2021
 team: [magee, awalker, kyle]
 category: project
 tags: [parallel computing, domain decomposition, CFD]
-active: true
+active: false
 summary: >
   Typical approaches to using supercomputing systems to solve large systems of
   partial differential equations, like those governing fluid flow, require

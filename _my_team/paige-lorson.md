@@ -1,6 +1,6 @@
 ---
 title: Paige Lorson
-position: PhD student
+position: MS graduate
 nickname: Paige
 handle: lorsonp
 email: lorsonp@oregonstate.edu
@@ -9,9 +9,10 @@ github: lorsonp
 scholar:
 image: /assets/images/team/paige-lorson.jpg
 cv:
-alum: false
+alum: true
 ---
-Paige is a PhD student studying the stiffness of chemical kinetics. She received her Bachelors degree in Mechanical Engineering from Penn State.
+Paige recieved her MS in Mechanical Engineering studying algorithms for simulating formation of soot particles in combustion applications.
+She now works as an Engineer at EOG Resources.
 
 
 [Oregon State University]: http://oregonstate.edu/

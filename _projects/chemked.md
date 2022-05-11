@@ -4,11 +4,11 @@ handle: chemked
 image: prometheus-logo.svg
 funder: NSF
 start_year: 2016
-end_year:
+end_year: 2018
 team: [mayer, beresford, politim, kyle]
 category: project
 tags: [open data, combustion data, reproducibility]
-active: true
+active: false
 summary: >
   The combustion community has generated many thousands of fundamental combustion
   data points using a variety of experimental apparatuses, which are extremely useful

@@ -4,11 +4,11 @@ handle: slackha
 image:
 funder: NSF
 start_year: 2013
-end_year:
+end_year: 2022
 team: [kyle, curtis, alferman, klee]
 category: project
 tags: [combustion, reactive-flow, GPU, stiff chemistry]
-active: true
+active: false
 summary: >
   Simulations of reacting fluid flows can be performed with accurate models for
   chemical kinetics by intelligently choosing and designing appropriate solvers.

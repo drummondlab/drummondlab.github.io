@@ -4,11 +4,11 @@ handle: turbulent-combustion
 image: turbulent_temp_profile.png
 funder:
 start_year: 2017
-end_year:
+end_year: 2022
 team: [fillo, kyle]
 category: project
 tags: [turbulent combustion]
-active: true
+active: false
 summary: >
   Most practical combustion phenomena are turbulent, but turbulent flames pose
   a challenging modeling problem due to the complex interactions between fluid flow,

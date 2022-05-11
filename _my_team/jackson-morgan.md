@@ -1,5 +1,5 @@
 ---
-title: Jackson P. Morgan
+title: Jackson Morgan
 position: PhD student
 nickname: Jackson
 handle: jmorgan

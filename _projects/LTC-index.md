@@ -4,11 +4,11 @@ handle: LTC-index
 image: LTC-index.png
 funder: Chevron
 start_year: 2013
-end_year:
+end_year: 2019
 team: [kyle, daly, tran]
 category: project
 tags: [combustion, internal combustion engine, low-temperature combustion, HCCI]
-active: true
+active: false
 summary: >
   This project is looking at ways to evaluate fuels for advanced combustion engines
   that operate at lower combustion temperatures than conventional gasoline or diesel
