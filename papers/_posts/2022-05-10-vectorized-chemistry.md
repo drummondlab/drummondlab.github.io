@@ -10,8 +10,8 @@ issue:
 pages: 
 authors: "Curtis, NJ, Niemeyer KE, and Sung CJ"
 image: /assets/images/papers/vectorized-chemistry.png
-arxiv: 
-eprint: 
+arxiv: "2205.05681 [physics.comp-ph]"
+eprint: https://arxiv.org/abs/2205.05681
 github: https://github.com/SLACKHA/accelerInt/tree/rewrite
 doi: 10.1016/j.cpc.2022.108409
 dryad_doi:
