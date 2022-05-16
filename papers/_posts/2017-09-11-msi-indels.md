@@ -7,7 +7,7 @@ volume: 35
 issue: 10
 pages: 951-959
 authors: "Maruvka YE, Mouw KW, Karlic R, Parasuraman P, Kamburov A, Polak P, Haradhvala NJ, Hess JM, Rheinbay E, Brody Y, Koren A, Braunstein LZ, D'Andrea A, Lawrence MS, Bass A, Bernards A, Michor F, Getz G"
-first_authors: "Maruvka, YE"
+first_authors: "Maruvka YE"
 senior_authors: "Getz G"
 corresponding_authors: "Getz G"
 fulltext:
