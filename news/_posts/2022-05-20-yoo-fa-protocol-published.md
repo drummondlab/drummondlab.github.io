@@ -10,4 +10,4 @@ tags: [paper, research, team]
 Haneul's detailed [protocol] for measuring condensate dispersal by molecular chaperones is out at [STAR Protocols]!
 
 [protocol]: /papers/paper/yoo-fa-protocol
-[Molecular Cell]: http://star-protocols.cell.com
+[STAR Protocols]: http://star-protocols.cell.com
