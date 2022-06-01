@@ -3,7 +3,7 @@ layout: member
 title: Romanos Sklavenitis-Pistofidis
 citation_names: "Sklavenitis-Pistofidis R"
 category: Postdoctoral Researcher
-position: Postdoctoral Scholar
+position: Postdoctoral Scholar, Instructor
 email: rsp@broadinstitute.org
 twitter: RomanosSP
 github: 

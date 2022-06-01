@@ -1,0 +1,107 @@
+---
+layout: default
+title: "Honors and Awards"
+description: "Recognition in the Field (Honors, Awards, Fellowships)"
+group: subnavigation
+navorder: 2
+---
+{% include JB/setup %}
+<div class="hugespacer"></div>
+<div class="bigtitle">Honors, Awards and Fellowships</div>
+<div class="hugespacer"></div>
+<h2>Honors and Awards</h2>
+<div class="member-name">Gad Getz</div>
+<ul>
+{% for recognition in site.categories.recognitions %}
+  {% if recognition.recipient == "Gad Getz" and recognition.type == "award" %}
+    <li>
+      <div class="media-body">
+	{% if recognition.link %}
+        <div class="smallhead"><a href="{{ recognition.link }}">{{ recognition.title }}</a></div>
+  {% else %}
+        <div class="smallhead">{{ recognition.title }}</div>
+	{% endif %}
+      </div>
+    </li>
+{% endif %}
+    {% endfor %}
+</ul>
+
+<div class="bigspacer"></div>
+<h2>Lab Fellowships</h2>
+<h3 style="font-weight:300">Graduate Students</h3>
+<i><h4 style="font-weight:300">Current Awards</h4></i>
+<ul>
+  <li>
+    <div class="member-name"><a href="/team/graduate student/vinyard-michael">Michael Vinyard, Doctoral Student</a></div>
+    <ul>
+      <li>
+	<div class="body">NIH F31 (2021-present)</div>
+      </li>
+    </ul>
+  </li>
+</ul>
+<i><h4 style="font-weight:300">Past Awards</h4></i>
+<ul>
+  <li>
+    <div class="member-name"><a href="/team/staff scientist/haradhvala">Nicholas Haradhvala, PhD (Current Position: Computational Biologist in Getz Lab)</a></div>
+    <ul>
+      <li>
+	<div class="body">Landry Cancer Biology Research Fellowship: (2020-2021)</div>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 style="font-weight:300">Postdoctoral Researchers</h3>
+<i><h4 style="font-weight:300">Past Awards</h4></i>
+<ul>
+  <li>
+    <div class="member-name"><a href="/team/postdoctoral researcher/eser-pinarozden">Pinar Eser, PhD</a></div>
+    <ul>
+      <li>
+	<div class="body">Harvard Biomedical Informatics and Data Science Research Training (BIRT) Fellowship (2020-2022)</div>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <div class="member-name"><a href="/team/postdoctoral researcher/knisbacher-binyamin">Binyamin Knisbacher, PhD</a></div>
+    <ul>
+      <li>
+	<div class="body">EMBO Fellowship (2018-2021)</div>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 style="font-weight:300">Instructors</h3>
+<i><h4 style="font-weight:300">Current Awards</h4></i>
+<ul>
+  <li>
+    <div class="member-name"><a href="/team/postdoctoral researcher/ravi-arvind">Arvind Ravi, MD/PhD, Instructor</a></div>
+    <ul>
+      <li>
+	<div class="body">NIH K99/R00 (2020-present)</div>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<i><h4 style="font-weight:300">Past Awards</h4></i>
+<ul>
+  <li>
+    <div class="member-name"><a href="/team/postdoctoral researcher/pistofidis-romanos">Romanos Sklavenitis-Pistofidis, MD/PhD, Instructor</a></div>
+    <ul>
+      <li>
+	<div class="body">Multiple Myeloma Research Foundation Fellowship (2020-2022)</div>
+      </li>
+      <li>
+	<div class="body">Claudia Adams Barr Award for Innovative Cancer Research (2021-2022)</div>
+      </li>
+      <li>
+	<div class="body">Robert A. Kyle Award by the International Waldenstrom’s Macroglobulinemia Foundation (2021-2022)</div>
+      </li>
+    </ul>
+  </li>
+</ul>
+
