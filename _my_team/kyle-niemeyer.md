@@ -8,13 +8,13 @@ twitter: kyleniemeyer
 github: kyleniemeyer
 scholar: dt0KRYoAAAAJ
 orcid: 0000-0003-4425-7097
-image: /assets/images/team/kyle-niemeyer-web.jpg
+image: /assets/images/team/kyle-niemeyer-B.jpg
 cv: https://www.icloud.com/iclouddrive/02apNPP_UnpD-VfQ_QD09_Uwg#KE_Niemeyer_CV
 alum: false
 ---
 
 ## Short Bio
-Kyle E. Niemeyer is an Associate Professor at the [Oregon State University] in the [School of Mechanical, Industrial, and Manufacturing Engineering]. He leads the Niemeyer Research Group, which uses computational modeling to study various phenomena involving fluid flows, including combustion and chemical kinetics, and related topics like numerical methods and parallel computing. He is also interested in open access, open source, and open science in general, and has contributed in the area of standardizing research software citation. Kyle received his Ph.D. in Mechanical Engineering from [Case Western Reserve University] in 2013, working with Jackie Sung and the [Combustion Diagnostics Laboratory] (now at the University of Connecticut). He received BS and MS degrees in Aerospace Engineering from [Case Western Reserve University] in 2009 and 2010, respectively.
+Kyle E. Niemeyer is an Associate Professor and Welty Faculty Fellow at the [Oregon State University] in the [School of Mechanical, Industrial, and Manufacturing Engineering]. He leads the Niemeyer Research Group, which uses computational modeling to study various phenomena involving fluid flows, including combustion and chemical kinetics, and related topics like numerical methods and parallel computing. He is also interested in open access, open source, and open science in general, and has contributed in the area of standardizing research software citation. Kyle received his Ph.D. in Mechanical Engineering from [Case Western Reserve University] in 2013, working with Jackie Sung and the [Combustion Diagnostics Laboratory] (now at the University of Connecticut). He received BS and MS degrees in Aerospace Engineering from [Case Western Reserve University] in 2009 and 2010, respectively.
 
 ## Academic Lineage
 
