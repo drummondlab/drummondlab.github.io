@@ -1,5 +1,5 @@
 ---
-title: Jayani Jayasuriya
+title: W. Jayani Jayasuriya
 position: PhD candidate
 nickname: Jayani
 handle: jayasuriya
