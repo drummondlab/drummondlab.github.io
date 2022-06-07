@@ -9,10 +9,10 @@ volume: 82
 issue: 14
 pages: 
 authors: "Glauninger HG, Hickernell CJW, Bard JAM, Drummond DA"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/stressful-steps-thumbnail.svg
 redirect_from: 
 fulltext: https://authors.elsevier.com/a/1fBEa3vVUPK85G
-pdflink: 
+pdflink: /assets/pdfs/glauninger-etal-stressful-steps-2022.pdf
 github: 
 pmid: 
 pmcid: 
