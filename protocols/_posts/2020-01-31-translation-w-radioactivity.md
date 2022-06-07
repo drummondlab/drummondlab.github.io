@@ -1,6 +1,6 @@
 ---
 layout: protocol
-title: "Measuring Translation in Yeast by Liquid Scintillation Counting"
+title: "Measuring translation in yeast by liquid scintillation counting"
 published: true
 category: protocol
 tags: [yeast, translation, biochemistry, radioactivity, liquid scintillation counting, translation rate]
