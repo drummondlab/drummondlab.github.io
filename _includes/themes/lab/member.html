@@ -114,14 +114,14 @@
 		</div>		
 		<div class="bigspacer"></div>			
 		{% endif %}						
-		{% if member.coi_disclosures %}
+		{% if member.disclosures %}
 		<div class="smallhead">
-			Conflict of Interest
+			Disclosures
 		</div>	
 		<div class="pad-left note">
 		        <div class="smallspacer"></div>
 			<i class="fa fa-industry fa-fw"></i>
-			<a class="off" href="{{ member.coi_disclosures }}">disclosures</a>
+			<a class="off" href="{{ member.disclosures }}" target="_blank">{{ member.title }} disclosures</a>
 		</div>		
 		<div class="bigspacer"></div>			
 		{% endif %}						
