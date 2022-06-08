@@ -144,7 +144,7 @@ Don't forget to make your changes on a personal staging branch so they can be re
 
 ## Changing look and feel
 
-Fonts, colors, spacing, and similar stylings are separate from the template pages. Like most sites, we use Cascading Style Sheets (CSS).  Much of this is borrowed from the [Alan Drummond's site](http://drummondlab.org) but may be updated over time (based on input from the web designers in the Broad's [Patterns team](https://pattern.broadinstitute.org/).
+Fonts, colors, spacing, and similar stylings are separate from the template pages. Like most sites, we use Cascading Style Sheets (CSS).  Much of this is borrowed from [Alan Drummond's lab website](http://drummondlab.org) but may be updated over time (based on input from the web designers in the Broad's [Patterns team](https://pattern.broadinstitute.org/).
 
 # Content Classes
 
@@ -220,6 +220,7 @@ Navigating to "Team" (on the top navigation bar) displays Getz Lab membership, b
 - Graduate Students
 - Associated Scientists
 - Alumni
+- Intern
 
 Clicking on a team member's name takes one to the member's personal lab webpage.  Each current member of the lab is responsible for creating and/or maintaining their personal webpage.  
 
@@ -247,6 +248,7 @@ The yaml front matter in a lab member page should contain the following:
 	[image: /assets/images/team/<image png filename>]
 	[cv: /assets/pdfs/<cv pdf filename>]
 	[scholar: <google scholar id>]
+	[disclosures: <url to lab member's disclosures statement>]
 	alum: false | true
 	[parting_date: <date left lab, YYYY-MM-DD]
 	---
@@ -254,6 +256,8 @@ The yaml front matter in a lab member page should contain the following:
 Front matter fields listed in brackets above are optional. 
 
 Your image file should have an aspect ratio of 1:1.  This ensures the rows on the team page all have the same height.
+
+The disclosures link typically points to a shared google doc that the lab member maintains.  The google doc must be public; i.e., given the link, anyone can view the document.
 
 If alum is set to true, you must also provide a parting_date field...this allows us to list alumni in descending order of the date they left the lab.
 
