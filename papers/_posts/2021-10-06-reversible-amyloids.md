@@ -11,8 +11,8 @@ pages: 1085–1094
 authors: "Cereghetti G, Wilson-Zbinden C, Kissling VM, Diether M, Arm A, Yoo H, Piazza I, Saad S, Picotti P, Drummond DA, Sauer U, Dechant R, Peter M"
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
-fulltext: assets/pdfs/cereghetti-reversible-amyloids-2021.pdf 
-pdflink: 
+fulltext:  
+pdflink: assets/pdfs/cereghetti-reversible-amyloids-2021.pdf
 github: 
 pmid: 34616026
 pmcid: PMC7611853
