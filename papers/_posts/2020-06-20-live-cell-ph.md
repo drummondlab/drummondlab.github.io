@@ -11,7 +11,7 @@ pages: e3563
 authors: "Triandafillou CG, Drummond DA"
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
-fulltext: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7842330/
+fulltext: assets/pdfs/triandafillou-ph-cytometry-protocol-2020.pdf
 pdflink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7842330/pdf/BioProtoc-10-12-3653.pdf
 github: 
 pmid: 33659323
