@@ -6,7 +6,7 @@ category: Intern
 position: Research Intern
 email: svansete@broadinstitute.org
 github: 
-image: /assets/images/team/Sammie_Van_Seters.png
+image: /assets/images/team/Sammie_Van_Seters.jpg
 cv:
 alum: false
 ---
