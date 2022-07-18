@@ -3,7 +3,7 @@ layout: member
 title: Kristy Schlueter-Kuck
 citation_names: Schlueter-Kuck KL, Schlueter-Kuck K
 category: Staff Scientist
-position: Computational Biologist
+position: Computational Biologist II
 email: kschluet@broadinstitute.org
 image: /assets/images/team/KristySchlueterKuck.jpg
 github: 

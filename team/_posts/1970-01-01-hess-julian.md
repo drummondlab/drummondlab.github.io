@@ -3,7 +3,7 @@ layout: member
 title: Julian Hess
 citation_names: Hess JM
 category: Staff Scientist
-position: Computational Biologist
+position: Computational Biologist II
 email: jhess@broadinstitute.org
 scholar: sMZ5tQwAAAAJ
 github: julianhess

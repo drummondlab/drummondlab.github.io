@@ -3,7 +3,7 @@ layout: member
 title: Conor Messer
 citation_names: Messer C, Messer CS
 category: Associate
-position: Associate Computational Biologist
+position: Associate Computational Biologist II
 email: cmesser@broadinstitute.org
 github: ConorMesser
 linkedin: conormesser

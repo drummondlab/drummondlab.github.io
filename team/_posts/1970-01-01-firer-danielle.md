@@ -2,7 +2,7 @@
 layout: member
 title: Danielle Firer
 category: Associate
-position: Associate Computational Biologist
+position: Associate Computational Biologist II
 email: dfirer@broadinstitute.org
 github: 
 cv:
