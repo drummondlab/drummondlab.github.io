@@ -96,18 +96,27 @@ with gratitude.
 			<div class="bigspacer"></div>			
 			{% endif %}
 
-			{% if page.pmid %}
+			{% if page.pmid or page.pmcid %}
 			<div class="smallhead subtle">
-				Pubmed
+				PubMed
 			</div>
+			{% if page.pmid %}
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-external-link fa-fw"></i>
 				<a class="off" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ page.pmid }}">{{ page.pmid }}</a>
 			</div>
+			{% endif %}
+			{% if page.pmcid %}
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ page.pmcid }}">{{ page.pmcid }}</a>
+			</div>
+			{% endif %}
 			<div class="bigspacer"></div>			
 			{% endif %}
-						
+	
 			{% if page.doi %}
 			<div class="smallhead subtle">
 				DOI
