@@ -14,8 +14,8 @@ redirect_from:
 fulltext: https://star-protocols.cell.com/protocols/1656
 pdflink: https://hivebench-star-protocols.s3.amazonaws.com/protocols/1656.pdf
 github: 
-pmid: 
-pmcid: 
+pmid: 35600925
+pmcid: PMC9121323
 f1000: 
 doi: "10.1016/j.xpro.2022.101409"
 dryad_doi:
