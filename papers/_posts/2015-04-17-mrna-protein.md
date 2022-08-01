@@ -14,6 +14,8 @@ image: /assets/images/papers/mrna-prot.png
 fulltext: http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005206
 pdf: 
 pdflink: http://www.plosgenetics.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pgen.1005206&representation=PDF
+pmid: 25950722
+pmcid: PMC4423881
 github: https://github.com/dad/mrna-prot
 doi: "10.1371/journal.pgen.1005206"
 f1000: 
