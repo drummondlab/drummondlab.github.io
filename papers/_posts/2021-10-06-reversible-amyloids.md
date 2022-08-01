@@ -12,7 +12,7 @@ authors: "Cereghetti G, Wilson-Zbinden C, Kissling VM, Diether M, Arm A, Yoo H, 
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
 fulltext:  
-pdflink: assets/pdfs/cereghetti-reversible-amyloids-2021.pdf
+pdflink: /assets/pdfs/cereghetti-reversible-amyloids-2021.pdf
 github: 
 pmid: 34616026
 pmcid: PMC7611853
