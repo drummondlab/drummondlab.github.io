@@ -7,7 +7,7 @@ nickname: "stressful-steps"
 journal: "Molecular Cell"
 volume: 82
 issue: 14
-pages: 
+pages: 2544–2556 
 authors: "Glauninger HG, Hickernell CJW, Bard JAM, Drummond DA"
 image: /assets/images/papers/stressful-steps-thumbnail.svg
 redirect_from: 
