@@ -19,5 +19,10 @@ category: paper
 
 Recent advances in cancer characterization have consistently revealed marked heterogeneity, impeding the completion of integrated molecular and clinical maps for each malignancy. Here, we focus on chronic lymphocytic leukemia (CLL), a B cell neoplasm with variable natural history that is conventionally categorized into two subtypes distinguished by extent of somatic mutations in the heavy-chain variable region of immunoglobulin genes (IGHV). To build the 'CLL map,' we integrated genomic, transcriptomic and epigenomic data from 1,148 patients. We identified 202 candidate genetic drivers of CLL (109 new) and refined the characterization of IGHV subtypes, which revealed distinct genomic landscapes and leukemogenic trajectories. Discovery of new gene expression subtypes further subcategorized this neoplasm and proved to be independent prognostic factors. Clinical outcomes were associated with a combination of genetic, epigenetic and gene expression features, further advancing our prognostic paradigm. Overall, this work reveals fresh insights into CLL oncogenesis and prognostication.
 
+# Project Portal
+
+[CLL-map Portal]
+
+[CLL-map Portal]:  http://www.cllmap.org
 
 
