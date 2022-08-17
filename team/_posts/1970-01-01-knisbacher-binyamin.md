@@ -3,6 +3,7 @@ layout: member
 title: Binyamin Knisbacher
 category: Postdoctoral Researcher
 position: Postdoctoral Associate
+citation_names: Knisbacher BA, Knisbacker B
 email: bknisbac@broadinstitute.org
 twitter: BKnisbacher
 github: bknisbac
