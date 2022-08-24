@@ -10,32 +10,38 @@
   - login: hurrialice
     avatar: https://avatars.githubusercontent.com/u/30106174?v=4&s=50
     url: https://github.com/hurrialice
+  - login: julianhess
+    avatar: https://avatars.githubusercontent.com/u/328077?v=4&s=50
+    url: https://github.com/julianhess
+  - login: cbirger
+    avatar: https://avatars.githubusercontent.com/u/2326853?v=4&s=50
+    url: https://github.com/cbirger
   commits:
-  - date: 2021-10-08 22:39:33.000000000 Z
-    message: add pattern
-    url: https://github.com/getzlab/ABSOLUTE/commit/1e3898b91745868e402ca5d601345066dd6df440
-    author_login: hurrialice
-    author_url: https://github.com/hurrialice
-  - date: 2021-10-08 21:35:52.000000000 Z
-    message: add extraction code
-    url: https://github.com/getzlab/ABSOLUTE/commit/00259a02f8310248bdc149743a8bdf12c2f519ba
-    author_login: hurrialice
-    author_url: https://github.com/hurrialice
-  - date: 2021-08-23 13:57:39.000000000 Z
-    message: genome-build agnostic ABSOLUTE
-    url: https://github.com/getzlab/ABSOLUTE/commit/d8d55b67c97fcbf5522f6ec96d42e8f0149ee599
-    author_login: hurrialice
-    author_url: https://github.com/hurrialice
-  - date: 2021-04-24 21:24:30.000000000 Z
-    message: py2->py3 fix; R is.na() fix
-    url: https://github.com/getzlab/ABSOLUTE/commit/535d7e68d86c44c7ea89e6fd71a1ee0527cff181
-    author_login: hurrialice
-    author_url: https://github.com/hurrialice
-  - date: 2021-04-24 19:46:21.000000000 Z
-    message: fix protein change; add new wolf task structure
-    url: https://github.com/getzlab/ABSOLUTE/commit/7ea9636d23af25e6e4a71b82899e76022a191a17
-    author_login: hurrialice
-    author_url: https://github.com/hurrialice
+  - date: 2022-04-24 22:07:32.000000000 Z
+    message: Add forcecall task
+    url: https://github.com/getzlab/ABSOLUTE/commit/cd443ec9370df98778d98227bb9a11c3e24c00cb
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2022-04-24 22:07:24.000000000 Z
+    message: Formatting
+    url: https://github.com/getzlab/ABSOLUTE/commit/e7c310f001ab688128fe60ee93530f1170daabd6
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2022-04-24 21:14:01.000000000 Z
+    message: Add extract task
+    url: https://github.com/getzlab/ABSOLUTE/commit/f5cdbd25fc5fd7fd62746ef9555cfa5cfc9c492b
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2022-04-24 21:13:55.000000000 Z
+    message: Update to new wolF syntax
+    url: https://github.com/getzlab/ABSOLUTE/commit/452398d2166c0ea9a7a92f5a8470be1d074ee6ba
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2022-04-24 15:12:40.000000000 Z
+    message: Add deploy script
+    url: https://github.com/getzlab/ABSOLUTE/commit/2817200b63704c689c1eb46abcd453273de8f168
+    author_login: julianhess
+    author_url: https://github.com/julianhess
 - repo: getzlab/CLUMPS2
   title: CLUMPS 2
   owner: getzlab
@@ -49,32 +55,38 @@
   - login: ajdunford
     avatar: https://avatars.githubusercontent.com/u/4085800?v=4&s=50
     url: https://github.com/ajdunford
+  - login: julianhess
+    avatar: https://avatars.githubusercontent.com/u/328077?v=4&s=50
+    url: https://github.com/julianhess
   commits:
-  - date: 2022-02-21 15:19:24.000000000 Z
-    message: Update README.md
-    url: https://github.com/getzlab/CLUMPS2/commit/4faabbfaa8b664f98b1f98ed72c18731796de3e0
-    author_login: shankara-a
-    author_url: https://github.com/shankara-a
-  - date: 2020-03-04 19:22:36.000000000 Z
-    message: added phospho sampler
-    url: https://github.com/getzlab/CLUMPS2/commit/bab39a368f5019ed4cfb345cc39a70021ad3c881
-    author_login: ''
-    author_url: ''
-  - date: 2019-08-14 22:45:50.000000000 Z
-    message: added gitignore
-    url: https://github.com/getzlab/CLUMPS2/commit/bdd3cae82045402c8b8e61d3d5dd361293d56a65
-    author_login: ''
-    author_url: ''
-  - date: 2019-08-14 21:34:14.000000000 Z
-    message: fixes to inputs for canine
-    url: https://github.com/getzlab/CLUMPS2/commit/6510010679a69a6e7dacea66cffcf708d077ecc0
-    author_login: ''
-    author_url: ''
-  - date: 2019-08-14 21:25:09.000000000 Z
-    message: formatting
-    url: https://github.com/getzlab/CLUMPS2/commit/8f954bf5c06d6719a74352bed769bf6ea5a32aae
+  - date: 2022-08-23 17:39:54.000000000 Z
+    message: |-
+      Merge pull request #3 from getzlab/clumps_maxtries
+
+      increasing timeout to 2hrs
+    url: https://github.com/getzlab/CLUMPS2/commit/244b9de8f479bb5d47c349da8f7ab9c861394cd4
     author_login: ajdunford
     author_url: https://github.com/ajdunford
+  - date: 2022-07-24 16:23:56.000000000 Z
+    message: Pass sampler into workflow
+    url: https://github.com/getzlab/CLUMPS2/commit/7999b3023b1dcadca4efae2cb32b96b84e34f230
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2022-07-23 16:26:41.000000000 Z
+    message: Workflow natively passes directories between tasks
+    url: https://github.com/getzlab/CLUMPS2/commit/85dcf410eb40d53d3716c85480edf40d474d0b33
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2022-07-21 22:31:01.000000000 Z
+    message: Add wolF scripts (draft)
+    url: https://github.com/getzlab/CLUMPS2/commit/d8e716ea355a7389fdec1a477cc208da4d1e7a6a
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2022-07-21 19:03:00.000000000 Z
+    message: Update to new UniProt API
+    url: https://github.com/getzlab/CLUMPS2/commit/6802389a4ffb753c945580730f2dfa3efdac03e3
+    author_login: julianhess
+    author_url: https://github.com/julianhess
 - repo: broadinstitute/gistic2
   title: GISTIC 2
   owner: broadinstitute
@@ -87,29 +99,36 @@
     avatar: https://avatars.githubusercontent.com/u/8998160?v=4&s=50
     url: https://github.com/stevenschumacher
   commits:
-  - date: 2022-03-15 18:47:13.000000000 Z
-    message: added more links to index.html
-    url: https://github.com/broadinstitute/gistic2/commit/666de91d6ae7e048cced39d2a426c938b3d5627b
+  - date: 2022-04-08 15:45:47.000000000 Z
+    message: |-
+      Update index.html
+
+      update genepattern link
+    url: https://github.com/broadinstitute/gistic2/commit/26c590bd3330aafa27618ef3eb4b8d9b301f06b7
     author_login: stevenschumacher
     author_url: https://github.com/stevenschumacher
-  - date: 2022-03-15 15:53:36.000000000 Z
-    message: Update index.html
-    url: https://github.com/broadinstitute/gistic2/commit/de0d227b395bf33c4f55910d6c4ea2f46635d3c3
+  - date: 2022-04-06 15:00:23.000000000 Z
+    message: |-
+      Update index.html
+
+      Fix link to TCGA CN portal; get rid of "you can"s in the Resources text.
+    url: https://github.com/broadinstitute/gistic2/commit/08115204c4a7313f6c09173b8229c19cb6937a32
     author_login: stevenschumacher
     author_url: https://github.com/stevenschumacher
-  - date: 2022-03-15 15:45:27.000000000 Z
-    message: Update index.html
-    url: https://github.com/broadinstitute/gistic2/commit/b944e51207315bfc796459d7097c868a781a906a
+  - date: 2022-04-05 22:57:37.000000000 Z
+    message: updated snputil submodule to include utility functions for refgene building
+    url: https://github.com/broadinstitute/gistic2/commit/96f1e1bcf18aefbca216bd05a5e69bdddcf458b1
     author_login: stevenschumacher
     author_url: https://github.com/stevenschumacher
-  - date: 2022-03-15 13:36:45.000000000 Z
-    message: add examplefiles directory to docs
-    url: https://github.com/broadinstitute/gistic2/commit/5d7f4d9cb3865cd8fb9d70d51ca51a9dca340bd4
+  - date: 2022-04-05 21:44:12.000000000 Z
+    message: Patched gencode v22 and hg38 build scripts to work with repo paths instead
+      of /xchip/gistic/variables.
+    url: https://github.com/broadinstitute/gistic2/commit/dcdf3f23cc073c6d9540b31140b62e58e7bb8e52
     author_login: stevenschumacher
     author_url: https://github.com/stevenschumacher
-  - date: 2022-03-14 18:53:16.000000000 Z
-    message: rename user_docs to docs to satisfy GitHub pages
-    url: https://github.com/broadinstitute/gistic2/commit/4a8ac66605542fe6143e8649ffc008f442a0ca25
+  - date: 2022-04-05 21:41:03.000000000 Z
+    message: removed unused input files from hg38 refgene
+    url: https://github.com/broadinstitute/gistic2/commit/1caa966f944f0824e2e06ec9ed1d1aa161a0f5d3
     author_login: stevenschumacher
     author_url: https://github.com/stevenschumacher
 - repo: getzlab/MSMuTect2
@@ -268,6 +287,56 @@
     url: https://github.com/getzlab/MutSig2CV/commit/3b36a17b52b92416ccf87e35f3ebb2d06952cf78
     author_login: julianhess
     author_url: https://github.com/julianhess
+- repo: broadinstitute/PhylogicNDT
+  title: PhylogicNDT
+  owner: broadinstitute
+  description:
+  url: "/tools/PhylogicNDT/"
+  topics: []
+  contributors:
+  - login: jcha40
+    avatar: https://avatars.githubusercontent.com/u/43419629?v=4&s=50
+    url: https://github.com/jcha40
+  - login: iglc
+    avatar: https://avatars.githubusercontent.com/u/6730948?v=4&s=50
+    url: https://github.com/iglc
+  - login: lelagina-broad
+    avatar: https://avatars.githubusercontent.com/u/31523637?v=4&s=50
+    url: https://github.com/lelagina-broad
+  commits:
+  - date: 2020-06-12 17:59:36.000000000 Z
+    message: |-
+      Merge pull request #41 from jcha40/master
+
+      MS Timing normalization & remove numba
+    url: https://github.com/broadinstitute/PhylogicNDT/commit/84d3dd2713ed989dbe038fee54fdd0cd564d1a45
+    author_login: iglc
+    author_url: https://github.com/iglc
+  - date: 2020-06-12 17:34:03.000000000 Z
+    message: Removed numba from dependencies
+    url: https://github.com/broadinstitute/PhylogicNDT/commit/991e0964d20cb0c98ec0289e87b984c3a49b7704
+    author_login: jcha40
+    author_url: https://github.com/jcha40
+  - date: 2020-06-12 17:32:24.000000000 Z
+    message: |-
+      Fixed bug in multisample timing
+      Fixed WGD overcalling
+    url: https://github.com/broadinstitute/PhylogicNDT/commit/8168dfcb664b55c0ea8fb66d3d6916fb08513f37
+    author_login: jcha40
+    author_url: https://github.com/jcha40
+  - date: 2020-05-20 04:35:59.000000000 Z
+    message: Update ShuffleMutations.py
+    url: https://github.com/broadinstitute/PhylogicNDT/commit/f1c0d1499b8307f9851eb2d088847c274c5faef2
+    author_login: iglc
+    author_url: https://github.com/iglc
+  - date: 2020-03-27 19:22:59.000000000 Z
+    message: |-
+      Merge pull request #36 from jcha40/master
+
+      Reverted to drawing from low_coverage_mutations attribute in output
+    url: https://github.com/broadinstitute/PhylogicNDT/commit/c229cec570169b6e710e9157c9e102ce37a454cd
+    author_login: iglc
+    author_url: https://github.com/iglc
 - repo: getzlab/rnaseqc
   title: RNA-SeQC 2
   owner: getzlab
@@ -288,6 +357,11 @@
     avatar: https://avatars.githubusercontent.com/u/5237151?v=4&s=50
     url: https://github.com/joshua-gould
   commits:
+  - date: 2022-05-26 06:53:13.000000000 Z
+    message: Fix for Pandas warning
+    url: https://github.com/getzlab/rnaseqc/commit/19967f36fe51b4a497606a368e5b3b657b0339a8
+    author_login: francois-a
+    author_url: https://github.com/francois-a
   - date: 2022-02-18 17:44:16.000000000 Z
     message: Update README.md
     url: https://github.com/getzlab/rnaseqc/commit/cff231b55ec4c5292213c9ab5d30b1f183956726
@@ -306,14 +380,6 @@
   - date: 2021-09-16 18:37:25.000000000 Z
     message: Fixed cloudbuild
     url: https://github.com/getzlab/rnaseqc/commit/e9ae46a20ce1346bb0a7ad78f22eb84c69f7de23
-    author_login: agraubert
-    author_url: https://github.com/agraubert
-  - date: 2021-09-16 15:42:46.000000000 Z
-    message: |-
-      Merge pull request #63 from getzlab/drop-lfs
-
-      Move testing data out of LFS
-    url: https://github.com/getzlab/rnaseqc/commit/d69f56edeeff8ce2399dc30e9b991bd7f33130f3
     author_login: agraubert
     author_url: https://github.com/agraubert
 - repo: getzlab/SignatureAnalyzer
@@ -343,6 +409,29 @@
     avatar: https://avatars.githubusercontent.com/u/328077?v=4&s=50
     url: https://github.com/julianhess
   commits:
+  - date: 2022-04-08 21:10:59.000000000 Z
+    message: |-
+      Merge pull request #44 from getzlab/reverse_complement_debug
+
+      Reverse complement debug
+    url: https://github.com/getzlab/SignatureAnalyzer/commit/19a00a73195ba011913eefb818997d98e8d7485e
+    author_login: yoakiyama
+    author_url: https://github.com/yoakiyama
+  - date: 2022-04-08 20:21:14.000000000 Z
+    message: comment supervised notebook
+    url: https://github.com/getzlab/SignatureAnalyzer/commit/dc27f9cb88ea1ada6357a1157054a75785b77d0c
+    author_login: yoakiyama
+    author_url: https://github.com/yoakiyama
+  - date: 2022-04-06 02:56:25.000000000 Z
+    message: move supervised tutorial and push cosine similarity notebook for debugging
+    url: https://github.com/getzlab/SignatureAnalyzer/commit/f8d80be401f6c9adfbc1c54e2e3262de41c7ea65
+    author_login: yoakiyama
+    author_url: https://github.com/yoakiyama
+  - date: 2022-04-05 22:20:42.000000000 Z
+    message: patch reverse complement bug and add documentation to plotting functions
+    url: https://github.com/getzlab/SignatureAnalyzer/commit/2ffadedc946c0d784b5934947d33cdf68d72d4d7
+    author_login: yoakiyama
+    author_url: https://github.com/yoakiyama
   - date: 2022-03-23 19:57:31.000000000 Z
     message: |-
       Merge pull request #42 from cchu70/master
@@ -351,26 +440,6 @@
     url: https://github.com/getzlab/SignatureAnalyzer/commit/6e7db02101f880dca47ea6d017cbfd9ca117c2aa
     author_login: yoakiyama
     author_url: https://github.com/yoakiyama
-  - date: 2022-03-23 19:55:44.000000000 Z
-    message: semi-supervised notebook example
-    url: https://github.com/getzlab/SignatureAnalyzer/commit/e83d4673b181b982775b74046ae7ad3f10301def
-    author_login: cchu70
-    author_url: https://github.com/cchu70
-  - date: 2022-03-23 17:51:15.000000000 Z
-    message: Update Supervised_HowTo.ipynb
-    url: https://github.com/getzlab/SignatureAnalyzer/commit/223f7487128eb086e8152e0b405a876bf3f900d2
-    author_login: yoakiyama
-    author_url: https://github.com/yoakiyama
-  - date: 2022-01-08 20:18:26.000000000 Z
-    message: Added gprofiler to requirements
-    url: https://github.com/getzlab/SignatureAnalyzer/commit/1a39d2d2e95a9e8f60d24a168bd85917da0ee0c5
-    author_login: francois-a
-    author_url: https://github.com/francois-a
-  - date: 2021-09-26 20:05:58.000000000 Z
-    message: Update README.md
-    url: https://github.com/getzlab/SignatureAnalyzer/commit/94c8a98209c400095862b538b843d82ea47dd8b9
-    author_login: shankara-a
-    author_url: https://github.com/shankara-a
 - repo: getzlab/deTiN
   title: deTiN
   owner: getzlab
@@ -393,10 +462,19 @@
   - login: jett-crowdis
     avatar: https://avatars.githubusercontent.com/u/43128107?v=4&s=50
     url: https://github.com/jett-crowdis
+  - login: briandiamondage-sema4
+    avatar: https://avatars.githubusercontent.com/u/56320955?v=4&s=50
+    url: https://github.com/briandiamondage-sema4
   - login: cbirger
     avatar: https://avatars.githubusercontent.com/u/2326853?v=4&s=50
     url: https://github.com/cbirger
   commits:
+  - date: 2022-05-20 12:57:43.000000000 Z
+    message: "updated py module requirements info for installer (#36)\n\n* updated
+      py module requirements info for installer\r\n\r\n* needs random2 lib as well"
+    url: https://github.com/getzlab/deTiN/commit/d296e11d6575f6d0fb7912a51fc7ecbbb4df0b10
+    author_login: briandiamondage-sema4
+    author_url: https://github.com/briandiamondage-sema4
   - date: 2020-11-12 16:41:46.000000000 Z
     message: |-
       Merge pull request #31 from jett-crowdis/master
@@ -424,8 +502,3 @@
     url: https://github.com/getzlab/deTiN/commit/ee588ed30544a77db09d7e2090a55459e3cc1040
     author_login: cbirger
     author_url: https://github.com/cbirger
-  - date: 2020-05-01 12:43:42.000000000 Z
-    message: Update deTiN.py
-    url: https://github.com/getzlab/deTiN/commit/3b0b9598894db0820d79a179b83df8b01f7174d8
-    author_login: ''
-    author_url: ''

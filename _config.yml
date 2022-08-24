@@ -197,6 +197,8 @@ current_tools:
     repo: broadinstitute/gistic2
   - name: MSMutSig
     repo: getzlab/MSMutSig
+  - name: PhylogicNDT
+    repo: broadinstitute/PhylogicNDT
 
 retired_tools:
   - name: CLUMPS
