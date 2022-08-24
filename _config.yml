@@ -177,7 +177,7 @@ plugins:
   - jekyll-sitemap
 
 current_tools:
-  - name: deTiN
+  - name: DeTiN
     repo: getzlab/deTiN
   - name: MutSig2CV
     repo:  getzlab/MutSig2CV
@@ -199,6 +199,10 @@ current_tools:
     repo: getzlab/MSMutSig
   - name: PhylogicNDT
     repo: broadinstitute/PhylogicNDT
+  - name: PHIAL
+    repo: vanallenlab/phial
+  - name: tensorQTL
+    repo: broadinstitute/tensorqtl
 
 retired_tools:
   - name: CLUMPS

@@ -87,6 +87,68 @@
     url: https://github.com/getzlab/CLUMPS2/commit/6802389a4ffb753c945580730f2dfa3efdac03e3
     author_login: julianhess
     author_url: https://github.com/julianhess
+- repo: getzlab/deTiN
+  title: DeTiN
+  owner: getzlab
+  description: DeTiN is designed to measure tumor-in-normal contamination and improve
+    somatic variant detection sensitivity when using a contaminated matched control.
+  url: "/tools/DeTiN/"
+  topics:
+  - cancer-genomics
+  - cancer-variants
+  - cancer-genome-atlas
+  - tumor
+  - detection
+  - tumor-in-normal
+  - somatic-mutations
+  - tin
+  contributors:
+  - login: amarotaylor
+    avatar: https://avatars.githubusercontent.com/u/5176213?v=4&s=50
+    url: https://github.com/amarotaylor
+  - login: jett-crowdis
+    avatar: https://avatars.githubusercontent.com/u/43128107?v=4&s=50
+    url: https://github.com/jett-crowdis
+  - login: briandiamondage-sema4
+    avatar: https://avatars.githubusercontent.com/u/56320955?v=4&s=50
+    url: https://github.com/briandiamondage-sema4
+  - login: cbirger
+    avatar: https://avatars.githubusercontent.com/u/2326853?v=4&s=50
+    url: https://github.com/cbirger
+  commits:
+  - date: 2022-05-20 12:57:43.000000000 Z
+    message: "updated py module requirements info for installer (#36)\n\n* updated
+      py module requirements info for installer\r\n\r\n* needs random2 lib as well"
+    url: https://github.com/getzlab/deTiN/commit/d296e11d6575f6d0fb7912a51fc7ecbbb4df0b10
+    author_login: briandiamondage-sema4
+    author_url: https://github.com/briandiamondage-sema4
+  - date: 2020-11-12 16:41:46.000000000 Z
+    message: |-
+      Merge pull request #31 from jett-crowdis/master
+
+      fix uninitialized variable bug when using only ssnvs
+    url: https://github.com/getzlab/deTiN/commit/47efdff8b1cbf6a0332e7571227cadcaa93a7f0c
+    author_login: amarotaylor
+    author_url: https://github.com/amarotaylor
+  - date: 2020-11-12 16:34:44.000000000 Z
+    message: fix uninitialized variable bug when using only ssnvs
+    url: https://github.com/getzlab/deTiN/commit/d226c778657cefaa65a067d175b2d0f0a3992ca3
+    author_login: jett-crowdis
+    author_url: https://github.com/jett-crowdis
+  - date: 2020-09-22 19:14:33.000000000 Z
+    message: |-
+      Merge pull request #28 from getzlab/cluster_segments_bug
+
+      Fix bug in cluster_segments found while testing on CPTAC data.  This …
+    url: https://github.com/getzlab/deTiN/commit/0f8fb0977a1c16037dafd0dfa7b56813b6798ee5
+    author_login: amarotaylor
+    author_url: https://github.com/amarotaylor
+  - date: 2020-09-22 14:50:22.000000000 Z
+    message: Fix bug in cluster_segments found while testing on CPTAC data.  This
+      problem appeared when the number of segments was less than 3.
+    url: https://github.com/getzlab/deTiN/commit/ee588ed30544a77db09d7e2090a55459e3cc1040
+    author_login: cbirger
+    author_url: https://github.com/cbirger
 - repo: broadinstitute/gistic2
   title: GISTIC 2
   owner: broadinstitute
@@ -287,6 +349,49 @@
     url: https://github.com/getzlab/MutSig2CV/commit/3b36a17b52b92416ccf87e35f3ebb2d06952cf78
     author_login: julianhess
     author_url: https://github.com/julianhess
+- repo: vanallenlab/phial
+  title: PHIAL
+  owner: vanallenlab
+  description: Precision Heuristics for Interpreting the Alteration Landscape
+  url: "/tools/PHIAL/"
+  topics: []
+  contributors:
+  - login: brendanreardon
+    avatar: https://avatars.githubusercontent.com/u/9423424?v=4&s=50
+    url: https://github.com/brendanreardon
+  commits:
+  - date: 2021-02-12 16:57:55.000000000 Z
+    message: |-
+      Create LICENSE
+
+      Updated to GPLv2 per DFCI's instructions.
+    url: https://github.com/vanallenlab/phial/commit/c7d0b8512ddc5449ff7104aaee6afdf74b55b6a9
+    author_login: brendanreardon
+    author_url: https://github.com/brendanreardon
+  - date: 2019-03-09 20:48:33.000000000 Z
+    message: Added boolean for creating report, fixed wdl
+    url: https://github.com/vanallenlab/phial/commit/c8da5fea48ddde16b5bdd659f8a9db4a0465497f
+    author_login: brendanreardon
+    author_url: https://github.com/brendanreardon
+  - date: 2019-03-08 21:02:27.000000000 Z
+    message: Added boolean to create or not create nozzle report
+    url: https://github.com/vanallenlab/phial/commit/79f93ab5a990505ffca040cfb75589ee9d9181a6
+    author_login: brendanreardon
+    author_url: https://github.com/brendanreardon
+  - date: 2018-05-14 15:09:04.000000000 Z
+    message: Added a feature to take the minimum alternate allele for DNP and ONP
+      events. Pushed this as v1.0.1 and updated the WDL. Updating the FireCloud method
+    url: https://github.com/vanallenlab/phial/commit/fd68f9dc412e544f0a9e9a1ccf8c986b8e420ee6
+    author_login: brendanreardon
+    author_url: https://github.com/brendanreardon
+  - date: 2018-02-16 21:43:09.000000000 Z
+    message: |-
+      Update README.md
+
+      Added run instructions
+    url: https://github.com/vanallenlab/phial/commit/02442dcce9082be946206c4bcc3e7a36a29a1160
+    author_login: brendanreardon
+    author_url: https://github.com/brendanreardon
 - repo: broadinstitute/PhylogicNDT
   title: PhylogicNDT
   owner: broadinstitute
@@ -440,65 +545,45 @@
     url: https://github.com/getzlab/SignatureAnalyzer/commit/6e7db02101f880dca47ea6d017cbfd9ca117c2aa
     author_login: yoakiyama
     author_url: https://github.com/yoakiyama
-- repo: getzlab/deTiN
-  title: deTiN
-  owner: getzlab
-  description: DeTiN is designed to measure tumor-in-normal contamination and improve
-    somatic variant detection sensitivity when using a contaminated matched control.
-  url: "/tools/deTiN/"
-  topics:
-  - cancer-genomics
-  - cancer-variants
-  - cancer-genome-atlas
-  - tumor
-  - detection
-  - tumor-in-normal
-  - somatic-mutations
-  - tin
+- repo: broadinstitute/tensorqtl
+  title: tensorQTL
+  owner: broadinstitute
+  description: Ultrafast GPU-based QTL mapper
+  url: "/tools/tensorQTL/"
+  topics: []
   contributors:
-  - login: amarotaylor
-    avatar: https://avatars.githubusercontent.com/u/5176213?v=4&s=50
-    url: https://github.com/amarotaylor
-  - login: jett-crowdis
-    avatar: https://avatars.githubusercontent.com/u/43128107?v=4&s=50
-    url: https://github.com/jett-crowdis
-  - login: briandiamondage-sema4
-    avatar: https://avatars.githubusercontent.com/u/56320955?v=4&s=50
-    url: https://github.com/briandiamondage-sema4
-  - login: cbirger
-    avatar: https://avatars.githubusercontent.com/u/2326853?v=4&s=50
-    url: https://github.com/cbirger
+  - login: francois-a
+    avatar: https://avatars.githubusercontent.com/u/9382463?v=4&s=50
+    url: https://github.com/francois-a
+  - login: susie-song
+    avatar: https://avatars.githubusercontent.com/u/77017011?v=4&s=50
+    url: https://github.com/susie-song
   commits:
-  - date: 2022-05-20 12:57:43.000000000 Z
-    message: "updated py module requirements info for installer (#36)\n\n* updated
-      py module requirements info for installer\r\n\r\n* needs random2 lib as well"
-    url: https://github.com/getzlab/deTiN/commit/d296e11d6575f6d0fb7912a51fc7ecbbb4df0b10
-    author_login: briandiamondage-sema4
-    author_url: https://github.com/briandiamondage-sema4
-  - date: 2020-11-12 16:41:46.000000000 Z
+  - date: 2022-08-18 06:19:25.000000000 Z
+    message: Added read_alleles* functions
+    url: https://github.com/broadinstitute/tensorqtl/commit/de17e8db83a0af312205dc3af89e13abf209fa47
+    author_login: francois-a
+    author_url: https://github.com/francois-a
+  - date: 2022-08-15 23:54:09.000000000 Z
+    message: Added support for paired covariates in calculate_replication
+    url: https://github.com/broadinstitute/tensorqtl/commit/3b2b4150e639571bb4048f15508c7ad7fbe4f368
+    author_login: francois-a
+    author_url: https://github.com/francois-a
+  - date: 2022-08-13 07:28:42.000000000 Z
+    message: dof fix for phenotype-paired covariates
+    url: https://github.com/broadinstitute/tensorqtl/commit/503f43ed6644fc8bf9839ecf732b682344d58fd0
+    author_login: francois-a
+    author_url: https://github.com/francois-a
+  - date: 2022-08-13 06:37:33.000000000 Z
+    message: Added option for phenotype-specific covariates
+    url: https://github.com/broadinstitute/tensorqtl/commit/6c83bc4edd223e609132a470aef4fed804b58c3b
+    author_login: francois-a
+    author_url: https://github.com/francois-a
+  - date: 2022-07-22 06:28:29.000000000 Z
     message: |-
-      Merge pull request #31 from jett-crowdis/master
+      Update README.md
 
-      fix uninitialized variable bug when using only ssnvs
-    url: https://github.com/getzlab/deTiN/commit/47efdff8b1cbf6a0332e7571227cadcaa93a7f0c
-    author_login: amarotaylor
-    author_url: https://github.com/amarotaylor
-  - date: 2020-11-12 16:34:44.000000000 Z
-    message: fix uninitialized variable bug when using only ssnvs
-    url: https://github.com/getzlab/deTiN/commit/d226c778657cefaa65a067d175b2d0f0a3992ca3
-    author_login: jett-crowdis
-    author_url: https://github.com/jett-crowdis
-  - date: 2020-09-22 19:14:33.000000000 Z
-    message: |-
-      Merge pull request #28 from getzlab/cluster_segments_bug
-
-      Fix bug in cluster_segments found while testing on CPTAC data.  This …
-    url: https://github.com/getzlab/deTiN/commit/0f8fb0977a1c16037dafd0dfa7b56813b6798ee5
-    author_login: amarotaylor
-    author_url: https://github.com/amarotaylor
-  - date: 2020-09-22 14:50:22.000000000 Z
-    message: Fix bug in cluster_segments found while testing on CPTAC data.  This
-      problem appeared when the number of segments was less than 3.
-    url: https://github.com/getzlab/deTiN/commit/ee588ed30544a77db09d7e2090a55459e3cc1040
-    author_login: cbirger
-    author_url: https://github.com/cbirger
+      Added pgenlib installation steps
+    url: https://github.com/broadinstitute/tensorqtl/commit/a26b7c5e798dd308d06224bf4cc27543606057f4
+    author_login: francois-a
+    author_url: https://github.com/francois-a
