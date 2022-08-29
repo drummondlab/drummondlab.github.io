@@ -8,7 +8,8 @@ email: svansete@broadinstitute.org
 github: 
 image: /assets/images/team/Sammie_Van_Seters.jpg
 cv:
-alum: false
+alum: true
+parting_date: 2022-08-17
 ---
 
 Samantha joined the Getz Lab in May 2022 as a summer intern. She is currently working on creating an interactive dashboard to integrate mutation information, phylogenetic data, copy number profiles, etc. on a patient-by-patient basis for review and annotation.
