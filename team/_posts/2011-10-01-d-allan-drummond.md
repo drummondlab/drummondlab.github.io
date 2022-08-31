@@ -8,7 +8,7 @@ email: dadrummond@uchicago.edu
 twitter: dallandrummond
 github: dad
 scholar: -YZ5mIIAAAAJ
-image: /assets/images/team/d-allan-drummond.png
+image: /assets/images/team/d-allan-drummond-2022.png
 cv: /assets/pdfs/drummond-cv.pdf
 alum: false
 ---
