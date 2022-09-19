@@ -5,7 +5,7 @@ category: Associate
 position: Associate Computational Biologist
 email: xloinaz@broadinstitute.org
 github: xaviloinaz
-image: /assets/images/team/Xavi_Loinaz.jpg
+image: /assets/images/team/Xavi_Loinaz_cropped.jpg
 cv:
 scholar: GMZLNoEAAAAJ
 alum: false
