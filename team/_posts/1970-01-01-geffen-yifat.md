@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Yifat Geffen
+citation_names: Geffen Y
 category: Postdoctoral Researcher
 position: Postdoctoral Associate
 email: ygeffen@broadinstitute.org
