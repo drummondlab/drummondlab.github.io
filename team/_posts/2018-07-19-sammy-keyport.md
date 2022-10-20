@@ -1,6 +1,6 @@
 ---
 layout: member
-title: "Sammy Keyport"
+title: "Sammy Keyport Kik"
 position: Graduate student
 nickname: Sammy
 handle: Sammy
@@ -15,9 +15,9 @@ Sammy is a graduate student in the [Genetics, Genomics and Systems Biology][1] g
 
 Sammy recevied her B.S. in  Molecular Biology in 2016 from [Loyola University Chicago]. Her undergraduate work explored [microbial community diversity] in wetlands inundated with invasive species. 
 
-Sammy's current research utilizes genetics, biochemistry, and computational biology to address the fundamental question: how do cells sense and respond to stress? Specifically, she explores biomolecular condensation as a mechanism for heat stress sensing. Sammy's work is supported by the NIH Ruth L. Kirschstein National Research Service Award (NRSA) F31 via the National Institute of Environmental Health Sciences (NIEHS).
+Sammy's research utilizes genetics, biochemistry, and computational biology to address the fundamental question: how do cells across the tree of life sense and respond to stress? Specifically, her currernt work explores stress-induced protein condensation as a conserved, adaptive, and tuned response to features of the cellular and organismal environment. Sammy's work is supported by the NIH Ruth L. Kirschstein National Research Service Award (NRSA) F31 via the National Institute of Environmental Health Sciences (NIEHS).
 
-In her free time, Sammy is an assistant editor at the [Illinois Science Council blog] and a lead volunteer at the [Field Museum]. 
+In her free time, Sammy is an assistant editor at the [Illinois Science Council blog], and she watches a lot of [soccer]. 
 
 
 [1]: http://ggsb.uchicago.edu
@@ -25,4 +25,4 @@ In her free time, Sammy is an assistant editor at the [Illinois Science Council 
 [Loyola University Chicago]: https://www.luc.edu/
 [microbial community diversity]: https://onlinelibrary.wiley.com/doi/full/10.1111/rec.12859
 [Illinois Science Council blog]: https://www.illinoisscience.org/blog/
-[Field Museum]: https://www.fieldmuseum.org/
+[soccer]: https://www.arsenal.com/
