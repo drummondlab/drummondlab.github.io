@@ -10,9 +10,8 @@ issue: 1
 pages: 1—2
 authors: "Triandafillou CG and Drummond DA"
 image: /assets/images/papers/hsf1-perspective.svg
-fulltext: http://authors.elsevier.com/a/1TKxv3vVUO~N-w
-pdf: 
-pdflink: http://authors.elsevier.com/a/1TKxv3vVUO~N-w
+fulltext: /assets/pdfs/triandafillou-hsf1-fire-chief-molcell-2016.pdf
+pdflink: https://www.cell.com/action/showPdf?pii=S1097-2765%2816%2930284-2
 github: 
 pmid: 
 pmcid: 

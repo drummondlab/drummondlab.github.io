@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Haneul Yoo"
-position: Postdoctoral scholar
+position: Former graduate student
 handle: hy
 nickname: Haneul
 email: haneul@uchicago.edu
@@ -17,7 +17,7 @@ For her [PhD thesis][3], Haneul studied how molecular chaperones remodel biomole
 
 Haneul was a graduate student advisor for the UChicago iGEM team, [GeneHackers][4]. If you are a first-year graduate student, she recommends reading the [BSD Student Mentor guide][5].
 
-Haneul won the 2022 Department of Biochemistry & Molecular Biology's Best Thesis award.
+Haneul won the 2022 Best Overall Dissertation in the Biological Sciences Division.
 
 After receiving her Ph.D., she joined [Ibrahim Cissé's group][6] at the Max Planck Institute of Immunobiology and Epigenetics as a postdoctoral scholar. 
 
