@@ -8,7 +8,7 @@ email:
 twitter: 
 github: 
 scholar: 
-image: /assets/images/team/default-member.png
+image: /assets/images/team/dana-christopher.png
 alum: false
 ---
 Dana is a [UChicago][1] undergraduate researcher focusing on the evolution and regulation of biomolecular condensation.
