@@ -11,7 +11,7 @@ pages: 1—2
 authors: "Triandafillou CG and Drummond DA"
 image: /assets/images/papers/hsf1-perspective.svg
 fulltext: https://www.cell.com/action/showPdf?pii=S1097-2765%2816%2930284-2
-pdflink: /assets/pdfs/triandafillou-hsf1-fire-chief-molcell-2016.pdf
+pdflink: /assets/pdfs/triandafillou-2016.pdf
 github: 
 pmid: 27392142
 pmcid: 
