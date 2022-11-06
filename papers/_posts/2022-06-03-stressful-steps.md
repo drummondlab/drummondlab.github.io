@@ -15,7 +15,7 @@ fulltext: https://authors.elsevier.com/a/1fBEa3vVUPK85G
 pdflink: /assets/pdfs/glauninger-etal-stressful-steps-2022.pdf
 github: 
 pmid: 35662398
-pmcid: 
+pmcid: PMC9308734
 f1000: 
 doi: "10.1016/j.molcel.2022.05.014"
 dryad_doi: 
