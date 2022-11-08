@@ -8,7 +8,7 @@ email: svansete@broadinstitute.org
 github: 
 image: /assets/images/team/Sammie_Van_Seters.jpg
 cv:
-alum: true
+alum: false
 parting_date: 2022-08-17
 ---
 
