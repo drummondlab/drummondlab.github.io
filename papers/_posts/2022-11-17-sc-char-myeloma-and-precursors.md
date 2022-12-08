@@ -2,14 +2,15 @@
 layout: paper
 title: "Single Cell Characterization of Myeloma and its Precursor Conditions Reveals Transcriptional Signatures of Early Tumorigenesis"
 year: "2022"
-journal: medRxiv
+journal: Nature Communicatiopns
 authors: Boiarsky R, Haradhvala NJ, Alberge JB, Sklavenitis-Pistofidis R, Mouhieddine TH, Zavidij O, Shih MC, Firer D, Miller M, El-Khoury A, Anand S, Aguet F, Sontag S, Ghobrial IM, Getz G
 first_authors: Boiarsky R
 senior_authors: Sontag D, Ghobrial IM, Getz G
 corresponding_authors: Sontag D, Ghobrial IM, Getz G
-fulltext: https://www.medrxiv.org/content/10.1101/2022.02.01.22270128v1
-pdflink: https://www.medrxiv.org/content/10.1101/2022.02.01.22270128v1.full.pdf
-doi: 10.1101/2022.02.01.22270128
+fulltext: https://www.nature.com/articles/s41467-022-33944-z
+pdflink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9672303/pdf/41467_2022_Article_33944.pdf
+doi: 10.1038/s41467-022-33944-z
+pmid: 36396631
 category: paper
 ---
 
