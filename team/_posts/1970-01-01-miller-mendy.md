@@ -8,7 +8,7 @@ email: mendy@broadinstitute.org
 twitter: MendySciWriter
 github: mendy335
 linkedin: a130212a
-image: /assets/images/team/mendy_miller.png
+image: /assets/images/team/mendy_miller2.jpg
 alum: false
 ---
 
