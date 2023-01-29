@@ -11,7 +11,7 @@ pages: 741–755
 authors: "Yoo H, Bard JAM, Pilipenko E, Drummond DA"
 image: /assets/images/papers/pab-chaperones.svg
 redirect_from: 
-fulltext: https://authors.elsevier.com/a/1eZX13vVUPK6wr
+fulltext: https://www.cell.com/molecular-cell/fulltext/S1097-2765(22)00005-3
 pdflink: /assets/pdfs/yoo-chaperones-mol-cell-2022.pdf
 github: https://github.com/drummondlab/sim_disagg_2021
 pmid: 35148816
