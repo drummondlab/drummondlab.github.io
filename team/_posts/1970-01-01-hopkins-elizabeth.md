@@ -3,7 +3,7 @@ layout: member
 title: Elizabeth Hopkins 
 citation_names: "Hopkins E"
 category: Associate
-position: Research Associate I
+position: Research Associate II
 email: ehopkins@broadinstitute.org
 github:
 image: /assets/images/team/elizabeth_hopkins.jpeg
