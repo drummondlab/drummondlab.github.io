@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Yo Akiyama
+citation_names: Akiyama Y
 category: Associate
 position: Associate Computational Biologist II
 email: yakiyama@broadinstitute.org

@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Arvind Ravi
+citation_names: Ravi A
 category: Postdoctoral Researcher
 position: Postdoctoral Scholar, Instructor
 email: aravi@broadinstitute.org
