@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Chris_Etienne
+title: Chris Etienne
 citation_names: Etienne C
 category: Graduate Student
 position: PhD Student, Harvard - Chemical Biology Program
