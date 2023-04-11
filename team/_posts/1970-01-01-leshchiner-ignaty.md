@@ -14,5 +14,5 @@ linkedin: ignaty-leshchiner-63809323
 alum: false
 ---
 
-Ignaty Leshchiner is an Associate Profressor in Computational Boimedicine at the Boston University School of Medicine.  His research is focused on method development and computational analysis of cancer genomic data and specifically on tumor heterogeneity, progression and treatment evasion.
+Ignaty Leshchiner is an Associate Professor in Computational Biomedicine at the Boston University School of Medicine.  His research is focused on method development and computational analysis of cancer genomic data and specifically on tumor heterogeneity, progression and treatment evasion.
 
