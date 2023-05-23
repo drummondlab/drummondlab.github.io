@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Titilayo Arowolo"
-position: Undergraduate researcher
+position: Former undergraduate researcher
 handle: titi
 nickname: Titi
 email: 

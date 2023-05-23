@@ -11,7 +11,11 @@ scholar:
 image: /assets/images/team/sammy-keyport.png
 alum: false
 ---
+<<<<<<< HEAD
 Sammy did her graduate work in the [Genetics, Genomics and Systems Biology][1] graduate program at the [University of Chicago][2]. She joined the Drummond lab in July 2018, and graduted with her PhD in June 2023. 
+=======
+Sammy is a graduate student in the [Genetics, Genomics and Systems Biology][1] graduate program at the [University of Chicago][2]. She joined the Drummond lab in July 2018, and successfully defended her Ph.D. dissertation in May 2023.
+>>>>>>> 8f9e5d95afe49f642bf875b5557073aeda1d5e32
 
 Sammy recevied her B.S. in  Molecular Biology in 2016 from [Loyola University Chicago]. Her undergraduate work explored [microbial community diversity] in wetlands inundated with invasive species. 
 
