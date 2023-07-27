@@ -23,7 +23,7 @@ figshare_doi:
 altmetric_id: 142602469
 category: paper
 # Note: 'published' is a Jekyll keyword and does not refer to whether the paper is published, but rather to whether this Markdown should be part of the rendered site.
-published: false
+published: true
 preprint: true
 embargo: false	
 peerreview: false
