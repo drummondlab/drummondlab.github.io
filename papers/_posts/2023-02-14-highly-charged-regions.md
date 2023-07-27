@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: "Pervasive, conserved secondary structure in highly charged protein regions"
-year: "2020"
+year: "2023"
 shortref: "Triandafillou, Pan et al. 2023"
 nickname: charged-regions
 journal: "bioRxiv"
@@ -11,7 +11,7 @@ pages:
 authors: "Triandafillou CG, Pan RW, Dinner AR, Drummond DA"
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
-fulltext: https://www.biorxiv.org/content/10.1101/2023.02.15.528637v1
+fulltext: https://www.biorxiv.org/content/10.1101/2023.02.15.528637v1.full
 pdflink: https://www.biorxiv.org/content/10.1101/2023.02.15.528637v1.full.pdf
 github: 
 pmid: 
