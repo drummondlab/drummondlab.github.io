@@ -1,6 +1,6 @@
 ---
 layout: news
-title: "Stress granule review published"
+title: "Conservation of condensation preprint"
 author: "D. Allan Drummond"
 author_handle: dad
 image: /assets/images/news/default-news.png
