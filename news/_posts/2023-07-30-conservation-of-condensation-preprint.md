@@ -9,5 +9,5 @@ tags: [paper, research, team]
 ---
 Our [preprint] on evolutionary conservation of biomolecular condensation is up on [bioRxiv]!
 
-[review]: /papers/paper/conserved-condensation
-[bioRxiv]: http://dx.doi.org/10.1101/2023.02.15.528637
+[preprint]: /papers/paper/conserved-condensation
+[bioRxiv]: https://doi.org/10.1101/2023.07.28.551061
