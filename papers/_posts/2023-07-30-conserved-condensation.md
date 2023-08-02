@@ -17,7 +17,7 @@ github: https://github.com/skeyport/conservation-of-condensation-2023
 pmid: 
 pmcid: 
 f1000: 
-doi: "10.1101/2023.02.15.528637"
+doi: "10.1101/2023.07.28.551061"
 dryad_doi: "10.5061/dryad.w3r2280w6"
 figshare_doi: 
 altmetric_id: 152138863
