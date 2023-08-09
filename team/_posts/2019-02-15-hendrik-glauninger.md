@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Hendrik Glauninger"
-position: Graduate student
+position: Postdoctoral scholar
 handle: hendrik
 nickname: Hendrik
 email: 
