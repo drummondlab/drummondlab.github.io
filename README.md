@@ -31,14 +31,14 @@ For most common actions---adding a lab member, paper, protocol, or news item---y
 
 For example, suppose you want to add a news item, which will appear on the front page, announcing that you have created a yeast strain capable of secreting high-quality chardonnay. Go into the `news/_posts` folder. Copy one of the existing items into a new file named with today's date (it matters!) and a brief title:
 
-	cp 2017-12-15-allan-tenure.md 2020-01-31-wine-yeast.md
+	cp 2017-12-15-allan-tenure.md 2024-01-31-wine-yeast.md
 
 The date is used by the generator; it's inelegant and perhaps there's a way to do it differently, but that's how it is for now. Now edit the new file to make the content what you want. Just open it in your favorite editor and type away. By the time you're done, hopefully you have something like this:
 
 	---
 	layout: news
 	title: "New yeast strain makes chardonnay"
-	author: "X. Obsequious Trenchant"
+	author: "X. Obsequious Trenchcoat"
 	author_handle: "xot"
 	image: /assets/images/news/default-news.png
 	category: news
@@ -48,7 +48,7 @@ The date is used by the generator; it's inelegant and perhaps there's a way to d
 
 Now add it to the repository:
 
-	git add 2020-01-31-wine-yeast.md
+	git add 2024-01-31-wine-yeast.md
 
 And, when you're happy with it, commit and push:
 
@@ -88,7 +88,7 @@ Finally, check out `staging` again so that you don't accidentally start working 
 
 ## Changing look and feel
 
-Fonts, colors, spacing, and similar stylings are separate from the template pages. Like most sites, we use Cascading Style Sheets (CSS), 
+Fonts, colors, spacing, and similar stylings are separate from the template pages. Like most sites circa 2023, we use Cascading Style Sheets (CSS).
 
 ### To-dos
 
