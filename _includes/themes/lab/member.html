@@ -39,6 +39,17 @@
 		</div>		
 		<div class="bigspacer"></div>		
 		{% endif %}	  		
+		{% if member.orcid %}		
+		<div class="smallhead">
+			ORCiD
+		</div>	
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa-brands fa-orcid fa-fw"></i>		
+			<a class="off" href="https://orcid.org/{{ member.orcid }}">{{ member.orcid }}</a>
+		</div>		
+		<div class="bigspacer"></div>		
+		{% endif %}	  		
 		{% if member.twitter %}		
 		<div class="smallhead">
 			Twitter
