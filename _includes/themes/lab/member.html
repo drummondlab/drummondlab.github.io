@@ -1,6 +1,8 @@
 
 {% assign member = page %}
 
+<script src="https://kit.fontawesome.com/8ce100ea2b.js" crossorigin="anonymous"></script>
+
 <div class="bigspacer"></div>
 
 <div class="row">
@@ -34,8 +36,19 @@
 		</div>	
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
-			<i class="fa fa-file-text-o fa-fw"></i>			
+			<i class="fa-solid fa-scroll fa-fw"></i>			
 			<a class="off" href="{{ member.cv }}">{{ member.cv | split: '/' | last }}</a>
+		</div>		
+		<div class="bigspacer"></div>		
+		{% endif %}	  		
+		{% if member.orcid %}		
+		<div class="smallhead">
+			ORCiD
+		</div>	
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa-brands fa-orcid fa-fw"></i>		
+			<a class="off" href="https://orcid.org/{{ member.orcid }}">{{ member.orcid }}</a>
 		</div>		
 		<div class="bigspacer"></div>		
 		{% endif %}	  		
@@ -56,7 +69,7 @@
 		</div>	
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
-			<i class="fa fa-github-alt fa-fw"></i>
+			<i class="fa fa-github fa-fw"></i>
 			<a class="off" href="https://github.com/{{ member.github }}">{{ member.github }}</a>
 		</div>		
 		<div class="bigspacer"></div>	
@@ -67,7 +80,7 @@
 		</div>	
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
-			<i class="fa fa-book fa-fw"></i>
+			<i class="fa fa-graduation-cap fa-fw"></i>
 			<a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }}">{{ member.title }}</a>
 		</div>		
 		<div class="bigspacer"></div>	
@@ -79,7 +92,7 @@
 		</div>	
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
-			<i class="fa fa-inbox fa-fw"></i>
+			<i class="fa fa-envelope fa-fw"></i>
 			{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
 		</div>		
 		<div class="bigspacer"></div>			
