@@ -4,9 +4,10 @@ title: "Sammy Keyport Kik"
 position: Postdoctoral Scholar
 nickname: Sammy
 handle: Sammy
-email: skeyport@uchicago.edu
-twitter: 
+email: smkeyport@gmail.com
+twitter: @sammykeyport
 github: skeyport
+orcid: 0000-0003-4095-9526
 scholar: 
 image: /assets/images/team/sammy-keyport.png
 alum: false
