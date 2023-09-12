@@ -5,10 +5,10 @@ position: Postdoctoral scholar
 nickname: Sammy
 handle: Sammy
 email: smkeyport@gmail.com
-twitter: @sammykeyport
+twitter: sammykeyport
 github: skeyport
 orcid: 0000-0003-4095-9526
-scholar: 
+scholar:
 image: /assets/images/team/sammy-keyport.png
 alum: false
 ---
