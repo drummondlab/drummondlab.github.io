@@ -12,5 +12,6 @@ image: /assets/images/team/leah-chaney.png
 alum: false
 ---
 
-Leah is a CMB graduate student co-advised by David Pincus.
+Leah is a [CMB] graduate student co-advised by David Pincus.
 
+[CMB]: https://camb.uchicago.edu/
