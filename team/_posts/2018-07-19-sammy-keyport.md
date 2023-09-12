@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Sammy Keyport Kik"
-position: Postdoctoral Scholar
+position: Postdoctoral scholar
 nickname: Sammy
 handle: Sammy
 email: smkeyport@gmail.com
