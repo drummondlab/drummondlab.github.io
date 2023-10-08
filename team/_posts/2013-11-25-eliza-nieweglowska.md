@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Eliza Nieweglowska"
-position: Undergraduate
+position: Former undergraduate researcher
 nickname: Eliza
 handle: eliza
 email: elizan@uchicago.edu

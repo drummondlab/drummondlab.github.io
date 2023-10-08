@@ -11,7 +11,7 @@ scholar:
 image: /assets/images/team/jared-bard.png
 alum: false
 ---
-Jared did his graduate work at [Berkeley][1] with [Andreas Martin][2], where he studied the [kinetics of substrate processing and degradation by the 26S proteasome][3]. He currently works on translational regulation during heat stress.
+Jared did his graduate work at [Berkeley][1] with [Andreas Martin][2], where he studied the [kinetics of substrate processing and degradation by the 26S proteasome][3]. He currently works on translational regulation during cell stress.
 
 [1]:http://www.berkeley.edu
 [2]:http://mcb.berkeley.edu/labs/martin/
