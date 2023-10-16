@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Daniel Ruttenberg"
-position: Undergraduate
+position: Former undergraduate researcher
 nickname: Daniel
 handle: daniel
 email: 
@@ -11,4 +11,4 @@ scholar:
 image: /assets/images/team/daniel-ruttenberg.png
 alum: true
 ---
-Daniel is a U.Chicago sophomore who joined the group in 2016. He is working on how stress granules stabilize mRNA.
+Daniel was a UChicago undergraduate who joined the group in 2016 and worked on how stress granules stabilize mRNA.

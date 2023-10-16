@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Joseph Park"
-position: Undergraduate
+position: Former undergraduate researcher
 nickname: Joseph
 handle: jpark
 email: 
