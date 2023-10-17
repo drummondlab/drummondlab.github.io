@@ -4,29 +4,29 @@ title: "Pervasive, conserved secondary structure in highly charged protein regio
 year: "2023"
 shortref: "Triandafillou, Pan et al. 2023"
 nickname: charged-regions
-journal: "bioRxiv"
+journal: "PLOS Computational Biology"
 volume: 
 issue: 
 pages: 
 authors: "Triandafillou CG, Pan RW, Dinner AR, Drummond DA"
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
-fulltext: https://www.biorxiv.org/content/10.1101/2023.02.15.528637v1.full
-pdflink: https://www.biorxiv.org/content/10.1101/2023.02.15.528637v1.full.pdf
-github: 
+fulltext: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011565
+pdflink: https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011565&type=printable
+github: https://github.com/drummondlab/highly-charged-regions-2022
 pmid: 
 pmcid: 
 f1000: 
-doi: "10.1101/2023.02.15.528637"
+doi: "10.1371/journal.pcbi.1011565"
 dryad_doi:
 figshare_doi: 
-altmetric_id: 142602469
+altmetric_id: 
 category: paper
 # Note: 'published' is a Jekyll keyword and does not refer to whether the paper is published, but rather to whether this Markdown should be part of the rendered site.
-published: false
-preprint: true
+published: true
+preprint: false
 embargo: false	
-peerreview: false
+peerreview: true
 review: false
 tags: [LCR, disorder, Uversky, charged region, FCR, evolution]
 ---
