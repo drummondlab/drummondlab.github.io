@@ -6,7 +6,8 @@ handle: leah
 nickname: leah
 email: 
 twitter: 
-github: 
+github: leahchaney
+orcid: 0000-0002-3783-2287
 scholar: 
 image: /assets/images/team/leah-chaney.png
 alum: false
