@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Hendrik Glauninger"
-position: Postdoctoral scholar
+position: Former graduate student
 handle: hendrik
 nickname: Hendrik
 email: 
@@ -9,9 +9,9 @@ twitter:
 github: 
 scholar: 
 image: /assets/images/team/hendrik-glauninger.png
-alum: false
+alum: true
 ---
-Hendrik was a graduate student in the [Biophysics program][1] at the [University of Chicago][2] and a medical student in the [Pritzker School of Medicine][3]. He is jointly advised by [Tobin Sosnick][4], and is studying stress-induced biomolecular condensation of mRNAs and proteins from the biophysical behavior of individual transcripts to whole-transcriptome regulatory phenomena. He successfully defended his Ph.D. dissertation in July 2023.
+Hendrik was an MSTP (Medical Scientist Training Program) student in the [Biophysics program][1] at the [University of Chicago][2] and a medical student in the [Pritzker School of Medicine][3]. He was jointly advised by [Tobin Sosnick][4], and studied stress-induced biomolecular condensation of mRNAs and proteins from the biophysical behavior of individual transcripts to whole-transcriptome regulatory phenomena. He successfully defended his Ph.D. dissertation in July 2023, and is now continuing his medical studies.
 
 [1]: http://biophysics.uchicago.edu
 [2]: http://www.uchicago.edu

@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Jakub Kucharczyk"
-position: Graduate exchange student
+position: Former graduate exchange student
 handle: kuba
 nickname: Kuba
 email: 

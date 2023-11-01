@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Pawel Laskowski"
-position: Graduate student
+position: Former graduate exchange student
 handle: pawel
 nickname: Pawel
 email: 

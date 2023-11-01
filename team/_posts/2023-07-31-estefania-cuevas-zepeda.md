@@ -13,5 +13,5 @@ image: /assets/images/team/estefania-cuevas-zepeda.png
 alum: false
 ---
 
-Estefania is a Biophysics graduate student co-advised by Tobin Sosnick.
+Estefania is a [Biophysics](http://biophysics.uchicago.edu) graduate student co-advised by Tobin Sosnick.
 
