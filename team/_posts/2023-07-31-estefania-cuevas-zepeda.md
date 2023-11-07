@@ -6,7 +6,8 @@ handle: leah
 nickname: leah
 email: 
 twitter: 
-github: 
+github: ecuevas-zepeda
+orcid: 0000-0001-8369-4850
 scholar: 
 image: /assets/images/team/estefania-cuevas-zepeda.png
 alum: false
