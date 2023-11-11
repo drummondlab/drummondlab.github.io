@@ -7,6 +7,7 @@ nickname: caitlin
 email: 
 twitter: 
 github: 
+orcid: 
 scholar: 
 image: /assets/images/team/caitlin-wong.jpg
 alum: false

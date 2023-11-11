@@ -6,9 +6,9 @@ handle: karen
 nickname: karen
 email: 
 twitter: 
-github: 
+github: "Velez-Karen"
 scholar: 
-orcid: 
+orcid: "0000-0002-9703-1684"
 image: /assets/images/team/karen-velez-v2.png
 alum: false
 ---
