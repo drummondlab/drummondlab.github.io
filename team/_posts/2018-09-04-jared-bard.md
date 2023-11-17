@@ -6,6 +6,7 @@ nickname: Jared
 handle: jared
 email: jbard@uchicago.edu
 twitter: jabard89
+orcid: 0000-0001-8357-9721
 github: jabard89
 scholar: 
 image: /assets/images/team/jared-bard.png
