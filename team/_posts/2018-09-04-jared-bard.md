@@ -10,9 +10,11 @@ orcid: 0000-0001-8357-9721
 github: jabard89
 scholar: 
 image: /assets/images/team/jared-bard.png
-alum: false
+alum: true
 ---
-Jared did his graduate work at [Berkeley][1] with [Andreas Martin][2], where he studied the [kinetics of substrate processing and degradation by the 26S proteasome][3]. He currently works on translational regulation during cell stress.
+Jared studied multiple aspects of cell stress, with a strong emphasis on translational regulation and on chaperone activity. He started his independent group at [Texas A&M](https://www.bio.tamu.edu/) as an Assistant Professor in 2024.
+
+Jared did his graduate work at [Berkeley][1] with [Andreas Martin][2], where he studied the [kinetics of substrate processing and degradation by the 26S proteasome][3]. 
 
 [1]:http://www.berkeley.edu
 [2]:http://mcb.berkeley.edu/labs/martin/

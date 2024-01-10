@@ -9,7 +9,7 @@ twitter: dallandrummond
 github: dad
 scholar: -YZ5mIIAAAAJ
 orcid: 0000-0001-7018-7059
-image: /assets/images/team/d-allan-drummond-2023.png
+image: /assets/images/team/d-allan-drummond-2024.jpg
 cv: /assets/pdfs/drummond-cv.pdf
 alum: false
 ---
