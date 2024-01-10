@@ -5,9 +5,9 @@ year: "2023"
 shortref: "Triandafillou, Pan et al. 2023"
 nickname: charged-regions
 journal: "PLOS Computational Biology"
-volume: 
-issue: 
-pages: 
+volume: 19
+issue: 10
+pages: e1011565
 authors: "Triandafillou CG, Pan RW, Dinner AR, Drummond DA"
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
