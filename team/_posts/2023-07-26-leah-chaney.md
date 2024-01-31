@@ -12,7 +12,7 @@ scholar:
 image: /assets/images/team/leah-chaney.png
 alum: false
 ---
-Leah is a [CMB] graduate student. She is investigating the extent to which environmental cues modulate sporulation in yeast. She is specifically interested in the role of heat shock induced bimolecular condensates as a signal as opposed to a stress. Leah is co-mentored by [David Pincus].
+Leah is a [CMB] graduate student. She is investigating the extent to which environmental cues modulate sporulation in yeast. Leah is specifically interested in the role of heat shock induced bimolecular condensates as a signal as opposed to a stress. She is co-mentored by [David Pincus].
 
 [CMB]: https://camb.uchicago.edu/
 [David Pincus]: https://pincuslab.uchicago.edu/
