@@ -5,9 +5,9 @@ year: "2024"
 shortref: "Chen <i>et al.</i> 2024"
 nickname: "sequential-activation"
 journal: "PNAS"
-volume: 
-issue: 
-pages: 
+volume: 121
+issue: 13
+pages: e2321606121
 authors: "Chen R, Glauninger H, Kahan D, Shangguan J, Sachleben JR, Riback JA, Drummond DA, Sosnick TR"
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
