@@ -1,7 +1,11 @@
 <!-- Twitter -->
-<i class="fa fa-twitter fa-fw"></i>
-<a class="off" href="https://twitter.com/intent?url={{ site.JB.sharing.twitter.via }}&text={{ page.shorttitle }}" data-text="{{ page.title }}" data-via="{{ site.JB.sharing.twitter.via }}" data-related="{{ site.author.twitter }}" target="_blank">tweet this page</a>
-<i class="fa fa-twitter fa-fw"></i>
+<div>
+	<i class="fa fa-twitter fa-fw"></i>
+	<a class="off" href="https://twitter.com/intent/tweet?text={{ page.title }} {{ page.url | absolute_url }}" target="_blank">tweet this page</a>
+</div>
 {% if page.fulltext %}
-	<a class="off" href="https://twitter.com/intent?url={{ page.fulltext }}" target="_blank">tweet paper</a>
+	<div>
+		<i class="fa fa-twitter fa-fw"></i>
+		<a class="off" href="https://twitter.com/intent/tweet?text=Check out this paper! {{ page.fulltext }}" target="_blank">tweet paper</a>
+	</div>
 {% endif %}
