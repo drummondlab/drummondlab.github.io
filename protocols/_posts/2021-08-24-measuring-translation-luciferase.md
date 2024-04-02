@@ -1,6 +1,6 @@
 ---
 layout: protocol
-title: "Measuring Translation in Yeast using a PEST-nanoluciferase reporter"
+title: "Measuring translation in yeast using a PEST-nanoluciferase reporter"
 published: true
 category: protocol
 author: "Jared Bard"
@@ -8,9 +8,9 @@ tags: [yeast, translation, reporter, luciferase]
 ---
 
 This protocol uses a nanoluciferase-PEST reporter to measure translation rate in the budding yeast *S. cerevisiae*.
-The reporter design is based on that of Masser et al. Yeast 2016 May; 33(5): 191-200 (https://dx.doi.org/10.1002%2Fyea.3155).
+The reporter design is based on that of [Masser _et al_. _Yeast_ 2016 May; 33(5): 191-200](https://dx.doi.org/10.1002/yea.3155).
 
-<img src="images/pJB749.png" width="400" height="400" />
+<img src="/assets/images/pJB749.png" width="400" height="400" />
 
 
 

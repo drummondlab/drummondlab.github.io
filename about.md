@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: about
 title: "About"
 description: "About us and the site"
 about: true
@@ -39,7 +39,7 @@ On the [map], GCIS, Gordon Center for Integrative Science, is the L-shaped build
 
 # Design and Implementation
 
-I was inspired by [Trevor Bedford]'s clean, elegant, and functional [site][1]. More than inspired--I've copied many aspects of his site, from visual design to conceptual organization to under-the-hood code, at Trevor's ([public]) invitation. Rather than branching his code, I started from a different boilerplate, and adopted/adapted bits of his code during customization.
+Back in 2015 I was inspired by [Trevor Bedford]'s clean, elegant, and functional [site][1]. More than inspired--I've copied many aspects of his site, from visual design to conceptual organization to under-the-hood code, at Trevor's ([public]) invitation. Rather than branching his code, I started from a different boilerplate, and adopted/adapted bits of his code during customization.
 
 The site started with [Jekyll Bootstrap], and was up and running in a weekend. The site is deployed using [GitHub Pages], which combines source-code control and hosting in a most pleasant way. Modify, test locally, push, and it's live.
 
