@@ -1,6 +1,6 @@
 # The Drummond Lab main website
 
-Our website, http://drummondlab.org, is a [GitHub Pages](https://pages.github.com/) site built with [Jekyll](https://jekyllrb.com/) and [Bootstrap](http://getboostrap.com), originally pulled from [Trevor Bedford's site](http://bedford.io) and heavily modified.
+Our website, http://drummondlab.org, is a [GitHub Pages](https://pages.github.com/) site built with [Jekyll](https://jekyllrb.com/) and [Bootstrap](http://getboostrap.com), originally pulled from [Trevor Bedford's site](http://bedford.io) in 2015 and heavily modified.
 
 # Editing the site
 
@@ -48,7 +48,7 @@ The date is used by the generator; it's inelegant and perhaps there's a way to d
 
 Now add it to the repository:
 
-	git add 2024-01-31-wine-yeast.md
+	git add 2026-01-31-wine-yeast.md
 
 And, when you're happy with it, commit and push:
 
