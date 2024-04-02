@@ -1,14 +1,8 @@
 ---
 layout: default
-title: The Drummond Lab
+title: About
 categories:
- - home
+ - misc
 ---
 {% include JB/setup %}
-{% for page in site.categories.misc %}
-{% if page.about %}
-	{% assign aboutpage = page %}
-{% endif %}
-{% endfor %}
-
-{{ aboutpage.content }}
+{% include themes/lab/about.html %}
