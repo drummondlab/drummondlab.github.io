@@ -9,7 +9,7 @@ volume: 15
 issue: 
 pages: 3127
 authors: "Keyport Kik S, Christopher D,  Glauninger H, Wong Hickernell C, Bard JAM, Lin KM, Squires AH, Ford M, Sosnick TR, Drummond DA"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/conserved-condensation.png
 redirect_from: 
 fulltext: https://www.nature.com/articles/s41467-024-47355-9
 pdflink: https://www.nature.com/articles/s41467-024-47355-9.pdf
