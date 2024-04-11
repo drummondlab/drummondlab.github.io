@@ -2,7 +2,7 @@
 layout: paper
 title: "Single-molecule fluorescence multiplexing by multi-parameter spectroscopic detection of nanostructured FRET labels"
 year: "2024"
-shortref: "Chu et al. 2024"
+shortref: "Chu <i>et al.</i> 2024"
 nickname: charged-regions
 journal: "Nature Nanotechnology (in press)"
 volume: 
