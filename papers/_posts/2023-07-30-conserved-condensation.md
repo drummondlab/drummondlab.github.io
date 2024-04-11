@@ -9,7 +9,7 @@ volume:
 issue: 
 pages: 
 authors: "Keyport Kik S, Christopher D,  Glauninger H, Wong Hickernell C, Bard JAM, Ford M, Sosnick TR, Drummond DA"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/conserved-condensation.png
 redirect_from: 
 fulltext: https://www.biorxiv.org/content/10.1101/2023.07.28.551061v1
 pdflink: https://www.biorxiv.org/content/10.1101/2023.07.28.551061v1.full.pdf
@@ -23,7 +23,7 @@ figshare_doi:
 altmetric_id: 152138863
 category: paper
 # Note: 'published' is a Jekyll keyword and does not refer to whether the paper is published, but rather to whether this Markdown should be part of the rendered site.
-published: true
+published: false
 preprint: true
 embargo: false	
 peerreview: false

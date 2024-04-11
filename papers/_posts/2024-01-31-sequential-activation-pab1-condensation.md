@@ -12,7 +12,8 @@ authors: "Chen R, Glauninger H, Kahan D, Shangguan J, Sachleben JR, Riback JA, D
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
 fulltext: https://www.pnas.org/doi/10.1073/pnas.2321606121
-pdflink: "/assets/pdfs/chen-et-al-2024-hdx-pab1.pdf"
+pdf: "/assets/pdfs/chen-et-al-2024-hdx-pab1.pdf"
+pdflink:
 github: 
 pmid: 38513106
 pmcid: 
