@@ -2,7 +2,7 @@
 layout: paper
 title: "An adaptive biomolecular condensation response is conserved across environmentally divergent species"
 year: "2024"
-shortref: "Keyport Kik _et al._ 2024"
+shortref: "Keyport Kik <i>et al.</i> 2024"
 nickname: "conserved-condensation"
 journal: "Nature Communications"
 volume: 15
