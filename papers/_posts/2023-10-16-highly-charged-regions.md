@@ -2,7 +2,7 @@
 layout: paper
 title: "Pervasive, conserved secondary structure in highly charged protein regions"
 year: "2023"
-shortref: "Triandafillou, Pan et al. 2023"
+shortref: "Triandafillou, Pan <i>et al.</i> 2023"
 nickname: charged-regions
 journal: "PLOS Computational Biology"
 volume: 19
