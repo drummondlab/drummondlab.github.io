@@ -58,6 +58,15 @@ with gratitude.
 			</div>	
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
+				{% if page.pdf %}
+					<i class="fa fa-file-pdf-o fa-fw"></i>
+					{% if page.preprint %}
+					<a class="off" href="{{ page.pdf }}">Preprint PDF</a>
+					{% else %}
+					<a class="off" href="{{ page.pdf }}">PDF</a>
+					{% endif %}
+					<br/>
+				{% endif %}
 				{% if page.pdflink %}
 					<i class="fa fa-file-pdf-o fa-fw"></i>
 					{% if page.preprint %}
@@ -67,18 +76,13 @@ with gratitude.
 					{% endif %}
 					<br/>
 				{% endif %}
-				{% if page.pdf %}
-					<i class="fa fa-file-pdf-o fa-fw"></i>
-					<a class="off" href="{{ page.pdf }}">PDF</a>
-					<br/>
-				{% endif %}
 				{% if page.fulltext %}
-				<i class="fa fa-external-link fa-fw"></i>
-				{% if page.preprint %}
-				<a class="off" href="{{ page.fulltext }}">Preprint HTML</a>
-				{% else %}
-				<a class="off" href="{{ page.fulltext }}">Journal HTML</a>
-				{% endif %}
+					<i class="fa fa-external-link fa-fw"></i>
+					{% if page.preprint %}
+					<a class="off" href="{{ page.fulltext }}">Preprint HTML</a>
+					{% else %}
+					<a class="off" href="{{ page.fulltext }}">Journal HTML</a>
+					{% endif %}
 				{% endif %}
 			</div>
 			<div class="bigspacer"></div>			

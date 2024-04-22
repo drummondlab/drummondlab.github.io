@@ -13,6 +13,7 @@ image: /assets/images/papers/conserved-condensation.png
 redirect_from: 
 fulltext: https://www.biorxiv.org/content/10.1101/2023.07.28.551061v1
 pdflink: https://www.biorxiv.org/content/10.1101/2023.07.28.551061v1.full.pdf
+pdf: "/assets/pdfs/keyportkik-conserved-condensation.pdf"
 github: https://github.com/skeyport/conservation-of-condensation-2023
 pmid: 
 pmcid: 
