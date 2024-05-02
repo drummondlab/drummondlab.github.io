@@ -11,9 +11,9 @@ pages:
 authors: "Glauninger HG<sup>*</sup>, Bard JAM<sup>*</sup>, Hickernell CJW<sup>*</sup>, Airoldi EM, Li W, Singer RH, Paul S, Fei J, Sosnick TR, Wallace EWJ, Drummond DA"
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
-fulltext: "https://www.biorxiv.org/content/10.1101/2024.04.15.589678v2"
-pdf: /assets/pdfs/rna-condensation-draft-20240419.pdf
-pdflink: "https://www.biorxiv.org/content/10.1101/2024.04.15.589678v2.pdf"
+fulltext: "https://www.biorxiv.org/content/10.1101/2024.04.15.589678v3"
+pdf: /assets/pdfs/rna-condensation-draft-20240501.pdf
+pdflink: "https://www.biorxiv.org/content/10.1101/2024.04.15.589678v3.pdf"
 github: https://github.com/jabard89/RNA_Condensation_2024
 pmid: 
 pmcid: 
