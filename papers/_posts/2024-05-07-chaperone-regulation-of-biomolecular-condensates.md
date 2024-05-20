@@ -21,7 +21,7 @@ f1000:
 doi: "10.3389/frbis.2024.1342506"
 dryad_doi: 
 figshare_doi: 
-altmetric_id: 
+altmetric_id: 163232352
 category: paper
 # Note: 'published' is a Jekyll keyword and does not refer to whether the paper is published, but rather to whether this Markdown should be part of the rendered site.
 published: true
