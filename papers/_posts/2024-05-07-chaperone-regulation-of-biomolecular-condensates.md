@@ -1,8 +1,3 @@
-
-
-: 10.3389/frbis.2024.1342506
-
-
 ---
 layout: paper
 title: "Chaperone regulation of biomolecular condensates"
