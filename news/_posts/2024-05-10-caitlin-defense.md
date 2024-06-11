@@ -7,7 +7,7 @@ image: /assets/images/news/default-news.png
 category: news
 tags: [doctorate, PhD, team, student]
 ---
-[Caitlin] successfully defended her thesis! Congratulations, Dr. Wong Hickernell, for your discoveries in [RNA condensation][/papers/rna-condensation]!
+[Caitlin] successfully defended her thesis! Congratulations, Dr. Wong Hickernell, for your discoveries in [RNA condensation](/papers/paper/rna-condensation)!
 
 
 [Caitlin]: /team/caitlin-wong
