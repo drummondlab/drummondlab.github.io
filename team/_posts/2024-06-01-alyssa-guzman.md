@@ -9,7 +9,7 @@ twitter:
 github: "alyssaguzman23"
 scholar: 
 orcid: "0009-0007-0922-3760"
-image: /assets/images/team/default-member.svg
+image: /assets/images/team/alyssa-guzman.png
 alum: false
 ---
 
