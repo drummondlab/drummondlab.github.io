@@ -16,7 +16,7 @@ pdf: "/assets/pdfs/chen-et-al-2024-hdx-pab1.pdf"
 pdflink:
 github: 
 pmid: 38513106
-pmcid: 
+pmcid: PMC10990091
 f1000: 
 doi: "10.1073/pnas.2321606121"
 dryad_doi: 

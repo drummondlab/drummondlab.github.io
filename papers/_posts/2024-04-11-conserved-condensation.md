@@ -15,8 +15,8 @@ fulltext: https://www.nature.com/articles/s41467-024-47355-9
 pdflink: https://www.nature.com/articles/s41467-024-47355-9.pdf
 pdf: "/assets/pdfs/keyportkik-conserved-condensation.pdf"
 github: https://github.com/drummondlab/conservation-of-condensation-2024
-pmid: 
-pmcid: 
+pmid: 38605014
+pmcid: PMC11009240
 f1000: 
 doi: "10.1038/s41467-024-47355-9"
 dryad_doi: "10.5061/dryad.w3r2280w6"
