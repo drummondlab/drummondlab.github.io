@@ -4,20 +4,21 @@ title: "Single-molecule fluorescence multiplexing by multi-parameter spectroscop
 year: "2024"
 shortref: "Chu <i>et al.</i> 2024"
 nickname: charged-regions
-journal: "Nature Nanotechnology (in press)"
-volume: 
+journal: "Nature Nanotechnology"
+volume: 19
 issue: 
-pages: 
+pages: 1150–1157
 authors: "Chu J, Ejaz A, Lin KM, Joseph MR, Coraor AE, Drummond DA, Squires, AH"
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
-fulltext: 
-pdflink: 
+fulltext: "https://www.nature.com/articles/s41565-024-01672-8"
+pdf: 
+pdflink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11329371/pdf/41565_2024_Article_1672.pdf"
 github: 
-pmid: 
-pmcid: 
+pmid: 38750166
+pmcid: PMC11329371
 f1000: 
-doi: 
+doi: "10.1038/s41565-024-01672-8"
 dryad_doi:
 figshare_doi: 
 altmetric_id: 
