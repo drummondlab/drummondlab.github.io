@@ -1,6 +1,6 @@
 ---
 layout: member
-title: "Leah Chaney"
+title: "Leah Chaney Winner"
 position: Graduate student
 handle: leah
 nickname: leah
