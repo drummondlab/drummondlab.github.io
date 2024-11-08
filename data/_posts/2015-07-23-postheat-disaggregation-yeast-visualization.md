@@ -14,7 +14,8 @@ Choose detected proteins by official yeast name, from [SGD](http://www.yeastgeno
 
 Cells were grown at 30&deg;C, shifted to labeled media, heat-shocked for 10 minutes at 42&deg;C, moved back to 30&deg;C for recovery, and protein in 100,000g supernatant measured. Y-axis is ratio of protein in supernatant between treated and control cells, X-axis is either time or temperature of shock. Linetype reflects isotopic label on the amino acids: solid line is arginine/lysine imported before onset of heat shock, dashed line is imported after shock.
 
-<iframe width="900" height="720" src="https://dadrummond.shinyapps.io/ratiosup_shiny/" frameborder="0"> </iframe>
+<!--<iframe width="900" height="720" src="https://dadrummond.shinyapps.io/ratiosup_shiny/" frameborder="0"> </iframe>-->
+<iframe width="1200" height="800" src="https://dadrummond.shinyapps.io/ratiosup_shiny/" frameborder="0"> </iframe>
 
 [1]: /papers/paper/endogenous-aggregates
 [2]: /data/heat-aggregation-yeast-visualization
