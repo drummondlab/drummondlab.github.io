@@ -1,8 +1,8 @@
 ---
 layout: paper
 title: "Transcriptome-wide mRNA condensation precedes stress granule formation and excludes stress-induced transcripts"
-year: "2022"
-shortref: "G/B/WH <i>et al.</i> 2022"
+year: "2024"
+shortref: "G/B/WH <i>et al.</i> 2024"
 nickname: "rna-condensation"
 journal: "bioRxiv"
 volume: 
