@@ -124,14 +124,15 @@ JB :
   # Sharing is for things like tweet, plusone, hn upvotes, like, linkedin
   # Add a tweet button    => provider : tweet
   # Add a like button     => provider : like (you also need a facebook appid)
-  # Add a plus one button   => provider : plusone
   # Add a HN button     => provider : hn
-  # Add them all (i.e. hn + tweet + plusone + like) => provider : all
+  # Add them all (i.e. hn + tweet + like) => provider : all
   # Set 'provider' to the sharing provider you want to use.
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-   provider : tweet
+   provider : bluesky
+   bluesky :
+     size :
    twitter :
      size :
      via :
@@ -142,10 +143,6 @@ JB :
      font :
      faces : false
      width : 90
-   googleplus :
-     size : medium
-     width :
-     annotation : bubble
    linkedin :
      counter : right      
     

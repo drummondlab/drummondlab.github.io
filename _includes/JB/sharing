@@ -4,7 +4,9 @@
 	{% when 'like' %}
   		{% include JB/sharing-providers/facebook %}
 	{% when 'tweet' %}
-  		{% include JB/sharing-providers/twitter %}
+  		{% include JB/sharing-providers/x %}
+	{% when 'post' %}
+  		{% include JB/sharing-providers/bluesky %}
 	{% when 'plusone' %}
   		{% include JB/sharing-providers/googleplus %}
 	{% when 'linkedin' %}
