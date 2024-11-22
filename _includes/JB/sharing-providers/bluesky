@@ -1,0 +1,11 @@
+<!-- Bluesky -->
+<div>
+	<i class="fa fa-bluesky fa-fw"></i>
+	<a class="off" href="https://bsky.app/intent/post?text={{ page.title }} {{ page.url | absolute_url }}" target="_blank">post this page</a>
+</div>
+{% if page.fulltext %}
+	<div>
+		<i class="fa fa-bluesky fa-fw"></i>
+		<a class="off" href="https://bsky.app/intent/post?text=Check out this paper! {{ page.fulltext }}" target="_blank">post paper</a>
+	</div>
+{% endif %}

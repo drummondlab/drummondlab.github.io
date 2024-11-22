@@ -5,6 +5,8 @@
   		{% include JB/sharing-providers/facebook %}
 	{% when 'tweet' %}
   		{% include JB/sharing-providers/twitter %}
+	{% when 'post' %}
+  		{% include JB/sharing-providers/bluesky %}
 	{% when 'plusone' %}
   		{% include JB/sharing-providers/googleplus %}
 	{% when 'linkedin' %}
