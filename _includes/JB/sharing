@@ -5,7 +5,7 @@
   		{% include JB/sharing-providers/facebook %}
 	{% when 'tweet' %}
   		{% include JB/sharing-providers/x %}
-	{% when 'post' %}
+	{% when 'bluesky' %}
   		{% include JB/sharing-providers/bluesky %}
 	{% when 'plusone' %}
   		{% include JB/sharing-providers/googleplus %}
