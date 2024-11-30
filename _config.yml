@@ -38,6 +38,11 @@ author :
 #
 production_url : http://drummondlab.org
 
+# The excerpt_separator can be used to define a cutoff for previewing on pages
+# like the main Blog page. Warning: it is case sensitive! Use it exactly
+# as written here.
+excerpt_separator: "<!-- more -->"
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
