@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "News"
-description: "The Drummond Lab blog"
+title: "Outreach"
+description: "Drummond Lab outreach"
 group: subnavigation
-navorder: 7
+navorder: 5
 ---
 {% include JB/setup %}
 
@@ -30,7 +30,7 @@ navorder: 7
     
 </div>
 
-{% for post in site.categories.news %}
+{% for post in site.categories.outreach %}
 
 	{% for member in site.categories.team %}
 		{% if member.handle == post.author_handle %}
@@ -42,22 +42,22 @@ navorder: 7
 	<div class="row">
 		<div class="col-md-3">
 			<div class="head">
-				{{ post.title }}
+				<a href="{{ post.url }}" class="off">{{ post.title }}</a>
 			</div>
 			<div class="smallnote">
 				{{ post.date | date_to_string }}
 				{% if author %}
-				by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
+				by <a class="off" href="{{ author.url }}">{{ author.nickname }}</a>
 				{% endif %}				
 			</div>	
 		</div>
 		<div class="col-md-8">		
 			<div style="height:5px;"></div>			
-			{% if post.image %}
+			<!--{% if post.image %}
 			<a href="{{ post.url }}"><img class="offset" src="{{ post.image }}"></a>
-			{% endif %}
+			{% endif %}-->
 			<div class="post">
-				{{ post.content }}
+				{{ post.excerpt }}
 			</div>
 		</div>			
 		<div class="col-md-1"></div>
@@ -74,6 +74,3 @@ navorder: 7
 		</a>
 	</div>
 </div>
-
-
-<div class="bigspacer"></div>
