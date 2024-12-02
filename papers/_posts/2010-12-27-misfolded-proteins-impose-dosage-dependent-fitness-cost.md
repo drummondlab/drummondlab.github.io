@@ -2,21 +2,26 @@
 layout: paper
 title: "Misfolded proteins impose a dosage-dependent fitness cost and trigger a cytosolic unfolded protein response in yeast"
 year: "2011"
+volume:108
+issue:2
+pages:680–685
 shortref: "Geiler-Samerotte <i>et al. PNAS</i> 2011"
 shorttitle: "Misfolded proteins impose a fitness cost"
 nickname: upr-cyto
-journal: "Proc. Nat'l. Acad. Sci. USA"
+journal: "PNAS"
 authors: "Geiler-Samerotte KA, Dion MF, Budnik BA, Wang SM, Hartl DL, Drummond DA"
 image: /assets/images/papers/default-paper.svg
 pdf: 
 pdflink: "http://www.pnas.org/content/108/2/680.full.pdf?with-ds=yes"
 github: 
+PMID: 21187411
+PMCID: PMC3021021
 doi: "10.1073/pnas.1017570108"
 category: paper
 peerreview: true
 review: false
 published: true
-tags: [gene expression, misfolding, aggregation, toxicity]
+tags: [gene expression, misfolding, aggregation, toxicity, HSR, Hsf1, heat shock response]
 ---
 {% include JB/setup %}
 
