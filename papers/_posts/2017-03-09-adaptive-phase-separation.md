@@ -16,7 +16,7 @@ pdf: /assets/pdfs/RibackKatanski2017-StressTriggeredPhaseSeparationIsAnAdaptiveE
 pdflink: 
 github: https://github.com/dad/pab1-phase-2017
 pmid: 28283059
-pmcid:
+pmcid: PMC5401687
 f1000: 
 doi: "10.1016/j.cell.2017.02.027"
 dryad_doi:
