@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Transcriptome-wide mRNA condensation precedes stress granule formation and excludes stress-induced transcripts"
+title: "Transcriptome-wide mRNA condensation precedes stress granule formation and excludes new mRNAs"
 year: "2024"
 shortref: "G/B/WH <i>et al.</i> 2024"
 nickname: "rna-condensation"
@@ -11,10 +11,10 @@ pages:
 authors: "Glauninger HG<sup>*</sup>, Bard JAM<sup>*</sup>, Hickernell CJW<sup>*</sup>, Airoldi EM, Li W, Singer RH, Paul S, Fei J, Sosnick TR, Wallace EWJ, Drummond DA"
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
-fulltext: "https://www.biorxiv.org/content/10.1101/2024.04.15.589678v3"
-pdf: /assets/pdfs/rna-condensation-draft-20240501.pdf
-pdflink: "https://www.biorxiv.org/content/10.1101/2024.04.15.589678v3.pdf"
-github: https://github.com/jabard89/RNA_Condensation_2024
+fulltext: "https://www.biorxiv.org/content/10.1101/2024.04.15.589678v4"
+pdf: /assets/pdfs/rna-condensation-draft-20250710.pdf
+pdflink: "https://www.biorxiv.org/content/10.1101/2024.04.15.589678v4.pdf"
+github: https://github.com/drummondlab/RNACondensation2025
 pmid: 
 pmcid: 
 f1000: 
