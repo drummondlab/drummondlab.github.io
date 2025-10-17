@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Jared Bard"
-position: Helen Hay Whitney Postdoctoral Scholar
+position: Former postdoc
 nickname: Jared
 handle: jared
 email: jbard@tamu.edu
