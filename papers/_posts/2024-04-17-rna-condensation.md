@@ -3,12 +3,12 @@ layout: paper
 title: "Transcriptome-wide mRNA condensation precedes stress granule formation and excludes new mRNAs"
 year: "2024"
 shortref: "G/B/WH <i>et al.</i> 2024"
-nickname: "rna-condensation"
+nickname: "rna-condensation-preprint"
 journal: "bioRxiv"
 volume: 
 issue: 
 pages: 
-authors: "Glauninger HG<sup>*</sup>, Bard JAM<sup>*</sup>, Hickernell CJW<sup>*</sup>, Airoldi EM, Li W, Singer RH, Paul S, Fei J, Sosnick TR, Wallace EWJ, Drummond DA"
+authors: "Glauninger HG<sup>*</sup>, Bard JAM<sup>*</sup>, Hickernell CJW<sup>*</sup>, Velez KM, Airoldi EM, Li W, Singer RH, Paul S, Fei J, Sosnick TR, Wallace EWJ, Drummond DA"
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
 fulltext: "https://www.biorxiv.org/content/10.1101/2024.04.15.589678v4"
@@ -24,10 +24,10 @@ figshare_doi:
 altmetric_id: 162571243
 category: paper
 # Note: 'published' is a Jekyll keyword and does not refer to whether the paper is published, but rather to whether this Markdown should be part of the rendered site.
-published: true
+published: false
 preprint: true
 embargo: false	
-peerreview: true
+peerreview: false
 review: false
 tags: [RNA, heat shock, azide, ethanol, stress, Hsf1, biomolecular condensation, translation, regulation]
 ---
