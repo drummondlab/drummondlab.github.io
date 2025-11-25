@@ -6,13 +6,13 @@ shortref: "G/B/WH <i>et al.</i> 2024"
 nickname: "rna-condensation"
 journal: "Molecular Cell"
 volume: 85
-issue: 
+issue: 23
 pages: 
 authors: "Glauninger HG<sup>*</sup>, Bard JAM<sup>*</sup>, Hickernell CJW<sup>*</sup>, Velez KM, Airoldi EM, Li W, Singer RH, Paul S, Fei J, Sosnick TR, Wallace EWJ†, Drummond DA†"
 image: /assets/images/papers/default-paper.svg
 redirect_from: 
 fulltext: 
-pdf: 
+pdf: /assets/pdfs/rna-condensation-inpress-molcell-2025.pdf
 pdflink: 
 github: https://github.com/drummondlab/RNACondensation2025
 pmid: 
@@ -21,7 +21,7 @@ f1000:
 doi: https://doi.org/10.1016/j.molcel.2025.11.003
 dryad_doi: 
 figshare_doi: 
-altmetric_id: 162571243
+altmetric_id: 184859498
 category: paper
 # Note: 'published' is a Jekyll keyword and does not refer to whether the paper is published, but rather to whether this Markdown should be part of the rendered site.
 published: true
