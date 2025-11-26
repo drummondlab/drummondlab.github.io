@@ -9,7 +9,7 @@ volume: 85
 issue: 23
 pages: 
 authors: "Glauninger HG<sup>*</sup>, Bard JAM<sup>*</sup>, Hickernell CJW<sup>*</sup>, Velez KM, Airoldi EM, Li W, Singer RH, Paul S, Fei J, Sosnick TR, Wallace EWJ†, Drummond DA†"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/tiic.svg
 redirect_from: 
 fulltext: https://www.sciencedirect.com/science/article/pii/S1097276525008998
 pdf: /assets/pdfs/rna-condensation-inpress-molcell-2025.pdf
