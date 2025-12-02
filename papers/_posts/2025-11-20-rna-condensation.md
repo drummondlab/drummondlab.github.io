@@ -15,8 +15,8 @@ fulltext: https://www.sciencedirect.com/science/article/pii/S1097276525008998
 pdf: /assets/pdfs/rna-condensation-inpress-molcell-2025.pdf
 pdflink: https://www.sciencedirect.com/science/article/pii/S1097276525008998/pdfft?md5=e9738516dc6a03a1ce6345718ca43dc5&pid=1-s2.0-S1097276525008998-main.pdf
 github: https://github.com/drummondlab/RNACondensation2025
-pmid: 
-pmcid: 
+pmid: "41289999"
+pmcid: "PMC12668231"
 f1000: 
 doi: 10.1016/j.molcel.2025.11.003
 dryad_doi: 
