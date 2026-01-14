@@ -1,8 +1,8 @@
 ---
 layout: paper
 title: "Transcriptome-wide mRNP condensation precedes stress granule formation and excludes new mRNAs"
-year: "2024"
-shortref: "G/B/WH <i>et al.</i> 2024"
+year: "2025"
+shortref: "G/B/WH <i>et al.</i> 2025"
 nickname: "rna-condensation"
 journal: "Molecular Cell"
 volume: 85
