@@ -16,7 +16,7 @@ pdf: /assets/pdfs/chaperone-regulation-of-biomolecular-condensates-2024.pdf
 pdflink: "https://www.frontiersin.org/articles/10.3389/frbis.2024.1342506/pdf"
 github: 
 pmid: 
-pmcid: 
+pmcid: PMC12875662 
 f1000: 
 doi: "10.3389/frbis.2024.1342506"
 dryad_doi: 
