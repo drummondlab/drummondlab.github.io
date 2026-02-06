@@ -1,38 +1,112 @@
 ---
 layout: default
 title: "Research"
-description: "Research projects in the lab"
+description: "Research in the Drummond Lab"
 group: navigation
 navorder: 1
 ---
 {% include JB/setup %}
 <div class="bigspacer"></div>
-<div class="construction">
-  <hr/>
-  We are working on this page. Stay tuned.
-  <hr/>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="smallhead">
+			Our lab asks how cells sense and respond to changes in their environment. We study <a href="#stress-response"><b>the cellular stress response</b></a>, the roles of <a href="#chaperones"><b>molecular chaperones as regulators of biomolecular condensation</b></a>, and <a href="#temperature-sensing"><b>how cells sense temperature</b></a>. Biomolecular condensation&mdash;the assembly of cellular components into concentrated, spatially organized bodies&mdash;has emerged as a unifying mechanism across all of these areas.
+		</div>
+	</div>
 </div>
-{% for project in site.categories.projects %}
-<div class='row'>
-  <!--
-  <div class='row'>
-    <div class='col-md-12'>
-    <div class="media">
-      <a class="project-image" href="{{ project.url }}">
-        <img class="media-object" src="{{ project.image }}">
-      </a>
-    </div>
-  </div>
-  -->
-  <div class='row'>
-    <div class="col-md-4 paperbox">
-      <div class="smallhead media-heading"><a href="{{ project.url }}" class="off">{{ project.title }}</a></div>
-    </div>
-    <div class='col-md-8'>
-      {{ project.content }}
-    </div>
-  </div>
+
+<div class="hugespacer"></div>
+
+<!-- ============================================================ -->
+<a id="stress-response"></a>
+<div class="head">Rethinking the cellular stress response</div>
+<div class="spacer"></div>
+
+<div class="row">
+	<div class="col-md-4">
+		<div style="background-color: #e0e0e0; height: 220px; display: flex; align-items: center; justify-content: center; border-radius: 4px;">
+			<span class="subtle">image coming soon</span>
+		</div>
+	</div>
+	<div class="col-md-8">
+		<div class="note">
+			For decades, the dominant view has been that stress damages cells and that the stress response exists to repair that damage. Our work has overturned this view, showing that many stress-triggered changes&mdash;including massive protein aggregation&mdash;are adaptive, evolved responses rather than signs of damage. We have shown that condensation of proteins and mRNAs during stress is tuned by evolution, regulated by conserved molecular machinery, and linked to cellular fitness.
+		</div>
+		<div class="spacer"></div>
+		<div class="note">
+			<b>Key papers:</b>
+			<ul>
+				<li>G/B/WH et al., <span class="journal">Mol. Cell</span> 2025 &mdash; <a href="/papers/paper/rna-condensation">Transcriptome-wide mRNP condensation precedes stress granule formation and excludes new mRNAs</a></li>
+				<li>Keyport Kik et al., <span class="journal">Nat. Commun.</span> 2024 &mdash; <a href="/papers/paper/conserved-condensation">An adaptive biomolecular condensation response is conserved across environmentally divergent species</a></li>
+				<li>Glauninger et al., <span class="journal">Mol. Cell</span> 2022 &mdash; <a href="/papers/paper/stressful-steps">Stressful steps: Progress and challenges in understanding stress-induced mRNA condensation and accumulation in stress granules</a></li>
+				<li>Triandafillou et al., <span class="journal">eLife</span> 2020 &mdash; <a href="/papers/paper/intracellular-acidification-hsf1">Transient intracellular acidification regulates the core transcriptional heat shock response</a></li>
+				<li>Riback, Katanski et al., <span class="journal">Cell</span> 2017 &mdash; <a href="/papers/paper/adaptive-phase-separation">Stress-triggered phase separation is an adaptive, evolutionarily tuned response</a></li>
+				<li>Wallace et al., <span class="journal">Cell</span> 2015 &mdash; <a href="/papers/paper/endogenous-aggregates">Reversible, specific, active aggregates of endogenous proteins assemble upon heat stress</a></li>
+			</ul>
+		</div>
+	</div>
 </div>
-{% endfor %}
+
+<div class="hugespacer"></div>
+
+<!-- ============================================================ -->
+<a id="chaperones"></a>
+<div class="head">Molecular chaperones as condensation regulators</div>
+<div class="spacer"></div>
+
+<div class="row">
+	<div class="col-md-4">
+		<div style="background-color: #e0e0e0; height: 220px; display: flex; align-items: center; justify-content: center; border-radius: 4px;">
+			<span class="subtle">image coming soon</span>
+		</div>
+	</div>
+	<div class="col-md-8">
+		<div class="note">
+			Molecular chaperones are best known for helping proteins fold. We have discovered that chaperones also play a major role in regulating biomolecular condensation. Our studies reveal that chaperones can disperse condensates, reshape their composition, and control their formation through a regulated sequence of activation steps.
+		</div>
+		<div class="spacer"></div>
+		<div class="note">
+			<b>Key papers:</b>
+			<ul>
+				<li>Bard &amp; Drummond, <span class="journal">Frontiers in Biophysics</span> 2024 &mdash; <a href="/papers/paper/chaperone-regulation-of-biomolecular-condensates">Chaperone regulation of biomolecular condensates</a></li>
+				<li>Chen et al., <span class="journal">PNAS</span> 2024 &mdash; <a href="/papers/paper/sequential-activation-pab1-condensation">HDX-MS finds that partial unfolding with sequential domain activation controls condensation of a cellular stress marker</a></li>
+				<li>Ali et al., <span class="journal">Nat. Cell Biol.</span> 2023 &mdash; <a href="/papers/paper/orphan-ribosomal-proteins">Adaptive preservation of orphan ribosomal proteins in chaperone-stirred condensates</a></li>
+				<li>Yoo et al., <span class="journal">Mol. Cell</span> 2022 &mdash; <a href="/papers/paper/chaperones-efficiently-disperse-condensates">Chaperones directly and efficiently disperse stress-triggered biomolecular condensates</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="hugespacer"></div>
+
+<!-- ============================================================ -->
+<a id="temperature-sensing"></a>
+<div class="head">How cells sense temperature</div>
+<div class="spacer"></div>
+
+<div class="row">
+	<div class="col-md-4">
+		<div style="background-color: #e0e0e0; height: 220px; display: flex; align-items: center; justify-content: center; border-radius: 4px;">
+			<span class="subtle">image coming soon</span>
+		</div>
+	</div>
+	<div class="col-md-8">
+		<div class="note">
+			Temperature affects virtually every biological process, yet how cells actually sense temperature remains poorly understood. We have found that biomolecular condensation can act as a molecular thermometer: phase-separation temperatures of key proteins are tuned to organism-specific thermal thresholds. This work connects physical chemistry to cellular decision-making and even to circadian rhythms.
+		</div>
+		<div class="spacer"></div>
+		<div class="note">
+			<b>Key papers:</b>
+			<ul>
+				<li>Keyport Kik et al., <span class="journal">Nat. Commun.</span> 2024 &mdash; <a href="/papers/paper/conserved-condensation">An adaptive biomolecular condensation response is conserved across environmentally divergent species</a></li>
+				<li>Pattanayak et al., <span class="journal">Cell Reports</span> 2020 &mdash; <a href="/papers/paper/daily-cycles-of-condensation">Daily cycles of reversible protein condensation in cyanobacteria</a></li>
+				<li>Triandafillou et al., <span class="journal">eLife</span> 2020 &mdash; <a href="/papers/paper/intracellular-acidification-hsf1">Transient intracellular acidification regulates the core transcriptional heat shock response</a></li>
+				<li>Yoo et al., <span class="journal">JBC</span> 2019 &mdash; <a href="/papers/paper/cellular-sensing-by-phase-separation">Cellular sensing by phase separation: Using the process, not just the products</a></li>
+				<li>Riback, Katanski et al., <span class="journal">Cell</span> 2017 &mdash; <a href="/papers/paper/adaptive-phase-separation">Stress-triggered phase separation is an adaptive, evolutionarily tuned response</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
 
 <div class="bigspacer"></div>
