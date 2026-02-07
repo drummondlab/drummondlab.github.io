@@ -7,7 +7,7 @@ nickname: "rna-condensation"
 journal: "Molecular Cell"
 volume: 85
 issue: 23
-pages: 4393-4409.e11
+pages: 4393–4409
 authors: "Glauninger HG<sup>*</sup>, Bard JAM<sup>*</sup>, Hickernell CJW<sup>*</sup>, Velez KM, Airoldi EM, Li W, Singer RH, Paul S, Fei J, Sosnick TR, Wallace EWJ†, Drummond DA†"
 image: /assets/images/papers/tiic.svg
 redirect_from: 
