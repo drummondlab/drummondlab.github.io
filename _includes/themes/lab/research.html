@@ -1,0 +1,49 @@
+<div class="bigspacer"></div>
+
+<div class="row">
+  <div class="col-md-10 col-md-offset-1">
+    <div class="smallhead">
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+<div class="hugespacer"></div>
+
+{% for section in page.sections %}
+<a id="{{ section.id }}"></a>
+<div class="head">{{ section.title }}</div>
+<div class="spacer"></div>
+
+<div class="row">
+  <div class="col-md-4">
+    {% if section.image %}
+    <img src="{{ section.image }}" class="resize_fit_center" />
+    {% else %}
+    <div style="background-color: #e0e0e0; height: 220px; display: flex; align-items: center; justify-content: center; border-radius: 4px;">
+      <span class="subtle">image coming soon</span>
+    </div>
+    {% endif %}
+  </div>
+  <div class="col-md-8">
+    <div class="note">
+      {{ section.description | markdownify }}
+    </div>
+    <div class="spacer"></div>
+    <div class="note">
+      <b>Key papers:</b>
+      <ul>
+        {% for paper in section.papers %}
+        <li>{{ paper.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}, <span class="journal">{{ paper.journal }}</span> {{ paper.year }} &mdash; <a href="{{ paper.url }}">{{ paper.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+{% unless forloop.last %}
+<div class="hugespacer"></div>
+{% endunless %}
+{% endfor %}
+
+<div class="bigspacer"></div>
