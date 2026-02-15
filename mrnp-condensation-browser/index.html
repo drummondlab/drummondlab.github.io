@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RNA Condensation Data Browser</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+  <header>
+    <h1>RNA Condensation Data Browser</h1>
+    <p class="subtitle">Drummond Lab — Heat-shock sedimentation data</p>
+  </header>
+
+  <div class="main-layout">
+    <!-- Left sidebar: gene list -->
+    <div class="sidebar">
+      <div class="control-group">
+        <h3>Genes &amp; Groups</h3>
+        <div class="gene-input-row">
+          <input type="text" id="gene-input"
+                 placeholder="Gene or group=(A,B,...)"
+                 autocomplete="off">
+          <button id="add-gene-btn" title="Add gene or group">+</button>
+        </div>
+        <div id="gene-suggestions" class="suggestions"></div>
+        <div class="presets">
+          <span class="preset-label">Presets:</span>
+          <button class="preset-btn" data-type="group" data-name="HSF1 targets" data-genes="SSA1,SSA4,HSP26,HSP104">HSF1 targets</button>
+          <button class="preset-btn" data-type="genes" data-genes="PMU1,ADD66">Controls</button>
+        </div>
+        <div id="gene-list-container" class="gene-list-scroll">
+          <div id="gene-list-empty" class="gene-list-empty">No genes selected. Type above or choose a preset.</div>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <h3>eSed comparison</h3>
+        <div class="radio-row">
+          <label><input type="radio" name="esed-temp" value="42C" checked> 42°C vs 30°C</label>
+          <label><input type="radio" name="esed-temp" value="46C"> 46°C vs 30°C</label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: plots -->
+    <div class="plots-area">
+      <!-- pSup panel -->
+      <div class="plot-panel" id="psup-panel">
+        <div class="panel-header">
+          <h3>pSup vs. Transcript Length</h3>
+          <button class="settings-toggle" data-panel="psup" title="Plot settings">&#9881;</button>
+        </div>
+        <div class="panel-settings" id="psup-settings" style="display:none">
+          <div class="settings-row">
+            <label>X min <input type="number" id="psup-xmin" step="any" placeholder="auto"></label>
+            <label>X max <input type="number" id="psup-xmax" step="any" placeholder="auto"></label>
+          </div>
+          <div class="settings-row">
+            <label>Y min <input type="number" id="psup-ymin" step="any" placeholder="0"></label>
+            <label>Y max <input type="number" id="psup-ymax" step="any" placeholder="1"></label>
+          </div>
+          <div class="settings-row">
+            <label>Export W (px) <input type="number" id="psup-export-w" value="700" min="200" max="2000"></label>
+            <label>Export H (px) <input type="number" id="psup-export-h" value="500" min="200" max="2000"></label>
+          </div>
+          <div class="settings-row">
+            <button class="apply-btn" data-panel="psup">Apply</button>
+            <button class="export-btn" data-panel="psup" data-fmt="png">PNG</button>
+            <button class="export-btn" data-panel="psup" data-fmt="svg">SVG</button>
+            <button class="export-btn" data-panel="psup" data-fmt="pdf">PDF</button>
+          </div>
+        </div>
+        <div class="plot-area" id="psup-plot"></div>
+      </div>
+
+      <!-- eSed panel -->
+      <div class="plot-panel" id="esed-panel">
+        <div class="panel-header">
+          <h3>eSed vs. Transcript Induction</h3>
+          <button class="settings-toggle" data-panel="esed" title="Plot settings">&#9881;</button>
+        </div>
+        <div class="panel-settings" id="esed-settings" style="display:none">
+          <div class="settings-row">
+            <label>X min <input type="number" id="esed-xmin" step="any" placeholder="auto"></label>
+            <label>X max <input type="number" id="esed-xmax" step="any" placeholder="auto"></label>
+          </div>
+          <div class="settings-row">
+            <label>Y min <input type="number" id="esed-ymin" step="any" placeholder="auto"></label>
+            <label>Y max <input type="number" id="esed-ymax" step="any" placeholder="auto"></label>
+          </div>
+          <div class="settings-row">
+            <label>Export W (px) <input type="number" id="esed-export-w" value="700" min="200" max="2000"></label>
+            <label>Export H (px) <input type="number" id="esed-export-h" value="500" min="200" max="2000"></label>
+          </div>
+          <div class="settings-row">
+            <button class="apply-btn" data-panel="esed">Apply</button>
+            <button class="export-btn" data-panel="esed" data-fmt="png">PNG</button>
+            <button class="export-btn" data-panel="esed" data-fmt="svg">SVG</button>
+            <button class="export-btn" data-panel="esed" data-fmt="pdf">PDF</button>
+          </div>
+        </div>
+        <div class="plot-area" id="esed-plot"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="tooltip" class="tooltip"></div>
+
+  <script src="app.js?v=2"></script>
+</body>
+</html>
