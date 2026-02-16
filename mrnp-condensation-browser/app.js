@@ -1,16 +1,91 @@
 // RNA Condensation Data Browser — Main application
 // ============================================================
 
-const COLORS = {
-  '30C': '#7F7F7F',
-  '42C': '#FD8D3C',
-  '46C': '#D94801'
+// Dataset configurations
+const DATASETS = {
+  ew_tspp: {
+    id: 'ew_tspp',
+    label: 'Heat Shock (WT)',
+    subtitle: 'Wild-type heat-shock sedimentation data',
+    series: ['30C', '42C', '46C'],
+    colors: { '30C': '#7F7F7F', '42C': '#FD8D3C', '46C': '#D94801' },
+    seriesLabels: { '30C': '30\u00b0C', '42C': '42\u00b0C', '46C': '46\u00b0C' },
+    esedComparisons: ['42C', '46C'],
+    esedRefLabel: '30\u00b0C',
+    labelPreferredSeries: '42C',
+    dataPath: 'data/ew_tspp'
+  },
+  eif3b_deplete: {
+    id: 'eif3b_deplete',
+    label: 'eIF3b Depletion + Heat Shock',
+    subtitle: 'eIF3b-depleted, heat-shock sedimentation data',
+    series: ['30C', '42C', '46C'],
+    colors: { '30C': '#7F7F7F', '42C': '#FD8D3C', '46C': '#D94801' },
+    seriesLabels: { '30C': '30\u00b0C', '42C': '42\u00b0C', '46C': '46\u00b0C' },
+    esedComparisons: ['42C', '46C'],
+    esedRefLabel: '30\u00b0C',
+    labelPreferredSeries: '42C',
+    dataPath: 'data/eif3b_deplete'
+  },
+  azide3: {
+    id: 'azide3',
+    label: 'Azide 0.8%',
+    subtitle: 'Sodium azide 0.8% (pH 6.8) sedimentation data',
+    series: ['mock', 'treated'],
+    colors: { 'mock': '#7F7F7F', 'treated': '#006D2C' },
+    seriesLabels: { 'mock': 'Mock', 'treated': 'Azide 0.8%' },
+    esedComparisons: ['treated'],
+    esedRefLabel: 'mock',
+    labelPreferredSeries: 'treated',
+    dataPath: 'data/azide3'
+  },
+  ethanol: {
+    id: 'ethanol',
+    label: 'Ethanol',
+    subtitle: 'Ethanol stress sedimentation data (multiple concentrations)',
+    series: ['mock', 'EtOH_5%', 'EtOH_7.5%', 'EtOH_10%', 'EtOH_15%'],
+    colors: {
+      'mock': '#7F7F7F',
+      'EtOH_5%': '#BCBDDC',
+      'EtOH_7.5%': '#807DBA',
+      'EtOH_10%': '#6A51A3',
+      'EtOH_15%': '#4A1486'
+    },
+    seriesLabels: {
+      'mock': 'Mock',
+      'EtOH_5%': '5% EtOH',
+      'EtOH_7.5%': '7.5% EtOH',
+      'EtOH_10%': '10% EtOH',
+      'EtOH_15%': '15% EtOH'
+    },
+    esedComparisons: ['EtOH_7.5%'],
+    esedRefLabel: 'mock',
+    labelPreferredSeries: 'EtOH_15%',
+    dataPath: 'data/ethanol'
+  },
+  dtt: {
+    id: 'dtt',
+    label: 'DTT 10 mM (UPR)',
+    subtitle: 'DTT 10 mM (unfolded protein response) sedimentation data',
+    series: ['mock', 'treated'],
+    colors: { 'mock': '#7F7F7F', 'treated': '#CC79A7' },
+    seriesLabels: { 'mock': 'Mock', 'treated': 'DTT 10 mM' },
+    esedComparisons: ['treated'],
+    esedRefLabel: 'mock',
+    labelPreferredSeries: 'treated',
+    dataPath: 'data/dtt'
+  }
 };
-const TEMP_LABELS = { '30C': '30°C', '42C': '42°C', '46C': '46°C' };
+
 const MARGIN = { top: 30, right: 30, bottom: 55, left: 65 };
 
-// Data
-let psupData = [], esedData = [], windowCurves = {}, geneList = [], geneMap = {};
+// Active dataset state
+let activeDatasetId = 'ew_tspp';
+let loadedDatasets = {};  // cache: { id: { psupData, esedData, windowCurves } }
+let geneList = [], geneMap = {};
+
+// Convenience accessors
+function ds() { return DATASETS[activeDatasetId]; }
 
 // Highlight entries: {id, type:'gene'|'group', name, genes:[], orf_set:Set, enabled:bool}
 let highlights = [];
@@ -23,21 +98,103 @@ const panelLimits = {
 };
 
 // ============================================================
-// Data loading
+// Data loading (lazy, per-dataset)
 // ============================================================
-async function loadData() {
-  const [psup, esed, curves, genes] = await Promise.all([
-    d3.json('data/psup_data.json'),
-    d3.json('data/esed_data.json'),
-    d3.json('data/window_curves.json'),
-    d3.json('data/gene_list.json')
+async function loadDatasetData(id) {
+  if (loadedDatasets[id]) return loadedDatasets[id];
+  const cfg = DATASETS[id];
+  const [psup, esed, curves] = await Promise.all([
+    d3.json(`${cfg.dataPath}/psup_data.json`),
+    d3.json(`${cfg.dataPath}/esed_data.json`),
+    d3.json(`${cfg.dataPath}/window_curves.json`)
   ]);
-  psupData = psup;
-  esedData = esed;
-  windowCurves = curves;
+  loadedDatasets[id] = { psupData: psup, esedData: esed, windowCurves: curves };
+  return loadedDatasets[id];
+}
+
+async function loadGeneList() {
+  const genes = await d3.json('data/gene_list.json');
   geneList = genes;
   geneMap = {};
   genes.forEach(g => { if (g.gene) geneMap[g.gene.toUpperCase()] = g; });
+}
+
+function getPsupData() { return loadedDatasets[activeDatasetId]?.psupData || []; }
+function getEsedDataRaw() { return loadedDatasets[activeDatasetId]?.esedData || []; }
+function getWindowCurves() { return loadedDatasets[activeDatasetId]?.windowCurves || {}; }
+
+// ============================================================
+// Dataset switching
+// ============================================================
+async function switchDataset(newId) {
+  activeDatasetId = newId;
+  document.getElementById('psup-plot').textContent = 'Loading\u2026';
+  document.getElementById('esed-plot').textContent = 'Loading\u2026';
+
+  try {
+    await loadDatasetData(newId);
+  } catch (e) {
+    console.error('Failed to load dataset:', e);
+    document.getElementById('psup-plot').textContent = 'Error loading data.';
+    return;
+  }
+
+  // Reset panel limits to auto
+  panelLimits.psup = { xmin: null, xmax: null, ymin: 0, ymax: 1 };
+  panelLimits.esed = { xmin: null, xmax: null, ymin: null, ymax: null };
+  // Clear limit inputs
+  ['psup', 'esed'].forEach(p => {
+    ['xmin','xmax','ymin','ymax'].forEach(k => {
+      const el = document.getElementById(`${p}-${k}`);
+      if (el) el.value = '';
+    });
+  });
+
+  updateEsedComparisonUI();
+  document.getElementById('app-subtitle').textContent =
+    `Drummond Lab \u2014 ${ds().subtitle}`;
+  renderAll();
+}
+
+// ============================================================
+// Dynamic eSed comparison UI
+// ============================================================
+function updateEsedComparisonUI() {
+  const cfg = ds();
+  const container = document.getElementById('esed-comparison-options');
+  container.innerHTML = '';
+
+  if (cfg.esedComparisons.length <= 1) {
+    const comp = cfg.esedComparisons[0];
+    const label = comp
+      ? `${cfg.seriesLabels[comp]} vs ${cfg.esedRefLabel}`
+      : 'No comparison available';
+    container.innerHTML = `<span class="esed-label">${label}</span>`;
+  } else {
+    cfg.esedComparisons.forEach((comp, i) => {
+      const lbl = document.createElement('label');
+      const radio = document.createElement('input');
+      radio.type = 'radio';
+      radio.name = 'esed-comp';
+      radio.value = comp;
+      if (i === 0) radio.checked = true;
+      radio.addEventListener('change', () => {
+        try { renderEsedPlot(); } catch(e) { console.error('renderEsedPlot:', e); }
+      });
+      lbl.appendChild(radio);
+      lbl.appendChild(document.createTextNode(
+        ` ${cfg.seriesLabels[comp]} vs ${cfg.esedRefLabel}`
+      ));
+      container.appendChild(lbl);
+    });
+  }
+}
+
+function getSelectedEsedComparison() {
+  const cfg = ds();
+  if (cfg.esedComparisons.length <= 1) return cfg.esedComparisons[0];
+  const checked = document.querySelector('input[name="esed-comp"]:checked');
+  return checked ? checked.value : cfg.esedComparisons[0];
 }
 
 // ============================================================
@@ -90,8 +247,6 @@ function getHighlightedORFs() {
   return all;
 }
 
-// Label map: orf -> display label
-// Individual gene → ALL-UPPERCASE; group → user-supplied case
 function getLabelMap() {
   const labelMap = {};
   getActiveHighlights().forEach(h => {
@@ -163,7 +318,6 @@ function median(arr) {
   return s.length % 2 ? s[mid] : (s[mid - 1] + s[mid]) / 2;
 }
 
-// Median absolute deviation
 function mad(arr) {
   const med = median(arr);
   const devs = arr.map(v => Math.abs(v - med));
@@ -175,6 +329,7 @@ function mad(arr) {
 // ============================================================
 function getPsupScales(plotW, plotH) {
   const lim = panelLimits.psup;
+  const psupData = getPsupData();
   const xExtent = d3.extent(psupData, d => d.length);
   const xMin = lim.xmin != null ? lim.xmin : Math.max(100, xExtent[0] * 0.9);
   const xMax = lim.xmax != null ? lim.xmax : xExtent[1] * 1.1;
@@ -191,10 +346,17 @@ function renderPsupPlot() {
   container.innerHTML = '';
   const W = container.clientWidth;
   const H = container.clientHeight;
+  const psupData = getPsupData();
   if (W < 100 || H < 100 || psupData.length === 0) return;
   const plotW = W - MARGIN.left - MARGIN.right;
   const plotH = H - MARGIN.top - MARGIN.bottom;
   const { xScale, yScale } = getPsupScales(plotW, plotH);
+
+  const cfg = ds();
+  const colors = cfg.colors;
+  const labels = cfg.seriesLabels;
+  const seriesList = cfg.series;
+  const windowCurves = getWindowCurves();
 
   // Canvas
   const canvas = document.createElement('canvas');
@@ -208,10 +370,10 @@ function renderPsupPlot() {
 
   const highlightedORFs = getHighlightedORFs();
 
-  ['30C', '42C', '46C'].forEach(temp => {
-    ctx.fillStyle = COLORS[temp];
+  seriesList.forEach(s => {
+    ctx.fillStyle = colors[s];
     ctx.globalAlpha = 0.15;
-    psupData.filter(d => d.temp === temp).forEach(d => {
+    psupData.filter(d => d.series === s).forEach(d => {
       if (highlightedORFs.has(d.orf)) return;
       const x = MARGIN.left + xScale(d.length);
       const y = MARGIN.top + yScale(d.pSup);
@@ -228,7 +390,6 @@ function renderPsupPlot() {
   const svg = d3.select(container).append('svg').attr('width', W).attr('height', H);
   const g = svg.append('g').attr('transform', `translate(${MARGIN.left},${MARGIN.top})`);
 
-  // Clip path
   g.append('clipPath').attr('id', 'clip-psup')
     .append('rect').attr('width', plotW).attr('height', plotH);
 
@@ -241,8 +402,8 @@ function renderPsupPlot() {
 
   // Window-mean curves
   const clipped = g.append('g').attr('clip-path', 'url(#clip-psup)');
-  ['30C', '42C', '46C'].forEach(temp => {
-    const curve = windowCurves[temp];
+  seriesList.forEach(s => {
+    const curve = windowCurves[s];
     if (!curve) return;
     const line = d3.line()
       .x(d => xScale(d.length)).y(d => yScale(d.pSupWindow))
@@ -252,11 +413,12 @@ function renderPsupPlot() {
   });
 
   // Legend
-  const legend = g.append('g').attr('transform', `translate(${plotW - 150}, 5)`);
-  ['30C', '42C', '46C'].forEach((temp, i) => {
+  const legendX = plotW - (seriesList.length > 3 ? 130 : 110);
+  const legend = g.append('g').attr('transform', `translate(${legendX}, 5)`);
+  seriesList.forEach((s, i) => {
     const lg = legend.append('g').attr('transform', `translate(0, ${i * 18})`);
-    lg.append('circle').attr('r', 5).attr('fill', COLORS[temp]);
-    lg.append('text').attr('x', 10).attr('y', 4).attr('font-size', '11px').text(TEMP_LABELS[temp]);
+    lg.append('circle').attr('r', 5).attr('fill', colors[s]);
+    lg.append('text').attr('x', 10).attr('y', 4).attr('font-size', '11px').text(labels[s]);
   });
 
   // Highlighted points & group summaries
@@ -264,11 +426,11 @@ function renderPsupPlot() {
   const actives = getActiveHighlights();
   const hlPoints = [];
 
-  ['30C', '42C', '46C'].forEach(temp => {
-    psupData.filter(d => d.temp === temp && highlightedORFs.has(d.orf)).forEach(d => {
+  seriesList.forEach(s => {
+    psupData.filter(d => d.series === s && highlightedORFs.has(d.orf)).forEach(d => {
       const x = xScale(d.length), y = yScale(d.pSup);
       if (x >= 0 && x <= plotW && y >= 0 && y <= plotH)
-        hlPoints.push({ ...d, x, y, color: COLORS[temp] });
+        hlPoints.push({ ...d, x, y, color: colors[s] });
     });
   });
 
@@ -285,13 +447,14 @@ function renderPsupPlot() {
     .on('mouseenter', (event, d) => showTooltip(event, d))
     .on('mouseleave', hideTooltip);
 
-  // Individual gene labels at 42C position
+  // Individual gene labels at preferred series position
+  const prefSeries = cfg.labelPreferredSeries;
   const labelledORFs = new Set();
   const geneLabelData = [];
   hlPoints.filter(d => geneORFs.has(d.orf)).forEach(d => {
     if (labelledORFs.has(d.orf)) return;
-    const best = hlPoints.find(p => p.orf === d.orf && p.temp === '42C')
-      || hlPoints.find(p => p.orf === d.orf && p.temp === '46C') || d;
+    const best = hlPoints.find(p => p.orf === d.orf && p.series === prefSeries)
+      || hlPoints.find(p => p.orf === d.orf) || d;
     labelledORFs.add(d.orf);
     geneLabelData.push({ x: best.x, y: best.y, label: labelMap[d.orf] || d.gene });
   });
@@ -302,13 +465,12 @@ function renderPsupPlot() {
     .attr('stroke', '#fff').attr('stroke-width', 3).attr('paint-order', 'stroke')
     .text(d => d.label);
 
-  // Group summaries: median crosshair + MAD bars per temperature
+  // Group summaries: median crosshair + MAD bars per series
   const groupHighlights = actives.filter(h => h.type === 'group');
   groupHighlights.forEach(h => {
-    ['30C', '42C', '46C'].forEach(temp => {
-      const pts = hlPoints.filter(d => h.orf_set.has(d.orf) && d.temp === temp);
+    seriesList.forEach(s => {
+      const pts = hlPoints.filter(d => h.orf_set.has(d.orf) && d.series === s);
       if (pts.length < 2) {
-        // Just draw the single point if only 1
         pts.forEach(d => {
           clipped.append('circle').attr('class', 'highlight-point')
             .attr('cx', d.x).attr('cy', d.y).attr('r', 4.5)
@@ -322,7 +484,6 @@ function renderPsupPlot() {
       const medX = median(xs), medY = median(ys);
       const madX = mad(xs), madY = mad(ys);
 
-      // Draw all individual points (smaller, semi-transparent)
       pts.forEach(d => {
         clipped.append('circle')
           .attr('cx', d.x).attr('cy', d.y).attr('r', 3)
@@ -330,25 +491,21 @@ function renderPsupPlot() {
           .attr('stroke', '#333').attr('stroke-width', 0.5);
       });
 
-      // MAD crosshair lines
-      const col = COLORS[temp];
-      // Horizontal MAD bar
+      const col = colors[s];
       clipped.append('line')
         .attr('x1', medX - madX).attr('x2', medX + madX)
         .attr('y1', medY).attr('y2', medY)
         .attr('stroke', col).attr('stroke-width', 2).attr('stroke-opacity', 0.85);
-      // Vertical MAD bar
       clipped.append('line')
         .attr('x1', medX).attr('x2', medX)
         .attr('y1', medY - madY).attr('y2', medY + madY)
         .attr('stroke', col).attr('stroke-width', 2).attr('stroke-opacity', 0.85);
-      // Median dot
       clipped.append('circle').attr('class', 'group-crosshair')
         .attr('cx', medX).attr('cy', medY).attr('r', 5)
         .attr('fill', col).attr('stroke', '#333').attr('stroke-width', 1.2)
         .on('mouseenter', (event) => {
           showTooltipText(event,
-            `${h.name} (${TEMP_LABELS[temp]})\n` +
+            `${h.name} (${labels[s]})\n` +
             `n = ${pts.length}\n` +
             `median pSup: ${invScaleY(medY, yScale).toFixed(3)}\n` +
             `MAD pSup: ${madFromPixels(madY, yScale).toFixed(3)}\n` +
@@ -357,13 +514,12 @@ function renderPsupPlot() {
         .on('mouseleave', hideTooltip);
     });
 
-    // Group label at 42C median position
-    const pts42 = hlPoints.filter(d => h.orf_set.has(d.orf) && d.temp === '42C');
-    const pts46 = hlPoints.filter(d => h.orf_set.has(d.orf) && d.temp === '46C');
-    const ptsLabel = pts42.length ? pts42 : pts46.length ? pts46 : hlPoints.filter(d => h.orf_set.has(d.orf));
-    if (ptsLabel.length > 0) {
-      const mx = median(ptsLabel.map(p => p.x));
-      const my = median(ptsLabel.map(p => p.y));
+    // Group label at preferred series median position
+    const ptsLabel = hlPoints.filter(d => h.orf_set.has(d.orf) && d.series === prefSeries);
+    const ptsFallback = ptsLabel.length ? ptsLabel : hlPoints.filter(d => h.orf_set.has(d.orf));
+    if (ptsFallback.length > 0) {
+      const mx = median(ptsFallback.map(p => p.x));
+      const my = median(ptsFallback.map(p => p.y));
       clipped.append('text')
         .attr('x', mx + 8).attr('y', my - 8)
         .attr('font-size', '11px').attr('font-weight', '600').attr('fill', '#333')
@@ -377,7 +533,6 @@ function renderPsupPlot() {
 function invScaleY(py, yScale) { return yScale.invert(py); }
 function invScaleX(px, xScale) { return xScale.invert(px); }
 function madFromPixels(madPx, yScale) {
-  // Convert pixel MAD back to data units
   const y0 = yScale.invert(0);
   const y1 = yScale.invert(madPx);
   return Math.abs(y0 - y1);
@@ -387,12 +542,12 @@ function madFromPixels(madPx, yScale) {
 // Plotting: eSed vs Transcript Induction
 // ============================================================
 function getEsedData() {
-  const selectedTemp = document.querySelector('input[name="esed-temp"]:checked').value;
-  const data = esedData.filter(d => d.temp === selectedTemp);
+  const selectedComp = getSelectedEsedComparison();
+  const esedData = getEsedDataRaw();
+  const data = esedData.filter(d => d.series === selectedComp);
   return {
-    selectedTemp,
-    dataWithFC: data
-      .filter(d => d.fc > 0 && isFinite(d.fc))
+    selectedComp,
+    dataWithFC: data.filter(d => d.fc > 0 && isFinite(d.fc))
   };
 }
 
@@ -415,11 +570,21 @@ function renderEsedPlot() {
   const container = document.getElementById('esed-plot');
   container.innerHTML = '';
   const W = container.clientWidth, H = container.clientHeight;
-  if (W < 100 || H < 100 || esedData.length === 0) return;
+  const esedDataRaw = getEsedDataRaw();
+  if (W < 100 || H < 100 || esedDataRaw.length === 0) return;
   const plotW = W - MARGIN.left - MARGIN.right;
   const plotH = H - MARGIN.top - MARGIN.bottom;
-  const { selectedTemp, dataWithFC } = getEsedData();
+  const { selectedComp, dataWithFC } = getEsedData();
+  if (dataWithFC.length === 0) {
+    container.textContent = 'No fold-change data for this comparison.';
+    return;
+  }
   const { xScale, yScale } = getEsedScales(plotW, plotH, dataWithFC);
+
+  const cfg = ds();
+  const compColor = cfg.colors[selectedComp] || '#888';
+  const compLabel = cfg.seriesLabels[selectedComp] || selectedComp;
+  const refLabel = cfg.esedRefLabel;
 
   const canvas = document.createElement('canvas');
   canvas.width = W * devicePixelRatio; canvas.height = H * devicePixelRatio;
@@ -457,12 +622,12 @@ function renderEsedPlot() {
       .attr('stroke', '#ccc').attr('stroke-dasharray', '3,3');
 
   g.append('text').attr('x', plotW / 2).attr('y', plotH + 42).attr('text-anchor', 'middle').attr('font-size', '12px')
-    .text(`Fold-change (${TEMP_LABELS[selectedTemp]} vs 30°C)`);
+    .text(`Fold-change (${compLabel} vs ${refLabel})`);
   g.append('text').attr('transform', 'rotate(-90)').attr('x', -plotH / 2).attr('y', -48)
     .attr('text-anchor', 'middle').attr('font-size', '12px').text('Escape from sedimentation, eSed (SDs)');
   g.append('text').attr('x', plotW - 5).attr('y', 15).attr('text-anchor', 'end')
-    .attr('font-size', '13px').attr('font-weight', '600').attr('fill', COLORS[selectedTemp])
-    .text(`${TEMP_LABELS[selectedTemp]} vs 30°C`);
+    .attr('font-size', '13px').attr('font-weight', '600').attr('fill', compColor)
+    .text(`${compLabel} vs ${refLabel}`);
 
   const clipped = g.append('g').attr('clip-path', 'url(#clip-esed)');
   const labelMap = getLabelMap();
@@ -481,7 +646,7 @@ function renderEsedPlot() {
     .data(allHL.filter(d => geneORFs.has(d.orf)))
     .join('circle').attr('class', 'highlight-point')
     .attr('cx', d => d.x).attr('cy', d => d.y).attr('r', 4.5)
-    .attr('fill', COLORS[selectedTemp]).attr('stroke', '#333').attr('stroke-width', 1)
+    .attr('fill', compColor).attr('stroke', '#333').attr('stroke-width', 1)
     .on('mouseenter', (event, d) => showTooltip(event, d)).on('mouseleave', hideTooltip);
 
   // Individual gene labels
@@ -500,11 +665,10 @@ function renderEsedPlot() {
     const pts = allHL.filter(d => h.orf_set.has(d.orf));
     if (pts.length === 0) return;
 
-    // Draw individual points (smaller)
     pts.forEach(d => {
       clipped.append('circle')
         .attr('cx', d.x).attr('cy', d.y).attr('r', 3)
-        .attr('fill', COLORS[selectedTemp]).attr('fill-opacity', 0.6)
+        .attr('fill', compColor).attr('fill-opacity', 0.6)
         .attr('stroke', '#333').attr('stroke-width', 0.5);
     });
 
@@ -515,16 +679,16 @@ function renderEsedPlot() {
 
       clipped.append('line')
         .attr('x1', medX - madX).attr('x2', medX + madX).attr('y1', medY).attr('y2', medY)
-        .attr('stroke', COLORS[selectedTemp]).attr('stroke-width', 2).attr('stroke-opacity', 0.85);
+        .attr('stroke', compColor).attr('stroke-width', 2).attr('stroke-opacity', 0.85);
       clipped.append('line')
         .attr('x1', medX).attr('x2', medX).attr('y1', medY - madY).attr('y2', medY + madY)
-        .attr('stroke', COLORS[selectedTemp]).attr('stroke-width', 2).attr('stroke-opacity', 0.85);
+        .attr('stroke', compColor).attr('stroke-width', 2).attr('stroke-opacity', 0.85);
       clipped.append('circle').attr('class', 'group-crosshair')
         .attr('cx', medX).attr('cy', medY).attr('r', 5)
-        .attr('fill', COLORS[selectedTemp]).attr('stroke', '#333').attr('stroke-width', 1.2)
+        .attr('fill', compColor).attr('stroke', '#333').attr('stroke-width', 1.2)
         .on('mouseenter', (event) => {
           showTooltipText(event,
-            `${h.name} (${TEMP_LABELS[selectedTemp]})\n` +
+            `${h.name} (${compLabel})\n` +
             `n = ${pts.length}\n` +
             `median eSed: ${yScale.invert(medY).toFixed(3)} SDs\n` +
             `MAD eSed: ${Math.abs(yScale.invert(0) - yScale.invert(madY)).toFixed(3)} SDs\n` +
@@ -538,7 +702,6 @@ function renderEsedPlot() {
         .attr('stroke', '#fff').attr('stroke-width', 3).attr('paint-order', 'stroke')
         .text(h.name);
     } else {
-      // Single point in group — label it
       const d = pts[0];
       clipped.append('text')
         .attr('x', d.x + 6).attr('y', d.y - 6)
@@ -553,9 +716,10 @@ function renderEsedPlot() {
 // Tooltip
 // ============================================================
 function showTooltip(event, d) {
+  const cfg = ds();
   let text = `${(d.gene || d.orf).toUpperCase()} (${d.orf})\n`;
   if (d.pSup !== undefined) {
-    text += `pSup: ${d.pSup.toFixed(3)}\nLength: ${d.length} nt\nTemp: ${TEMP_LABELS[d.temp]}`;
+    text += `pSup: ${d.pSup.toFixed(3)}\nLength: ${d.length} nt\n${cfg.seriesLabels[d.series] || d.series}`;
   } else if (d.eSed !== undefined) {
     text += `eSed: ${d.eSed.toFixed(3)} SDs\nFC: ${d.fc.toFixed(2)}`;
   }
@@ -691,11 +855,16 @@ function renderPsupPlotSVG(gEl, W, H) {
   const ns = 'http://www.w3.org/2000/svg';
   const { xScale, yScale } = getPsupScales(plotW, plotH);
 
+  const cfg = ds();
+  const colors = cfg.colors;
+  const seriesList = cfg.series;
+  const psupData = getPsupData();
+  const windowCurves = getWindowCurves();
+
   const inner = document.createElementNS(ns, 'g');
   inner.setAttribute('transform', `translate(${MARGIN.left},${MARGIN.top})`);
   gEl.appendChild(inner);
 
-  // Clip
   const defs = document.createElementNS(ns, 'defs');
   const cp = document.createElementNS(ns, 'clipPath');
   cp.setAttribute('id', 'clip-psup-export');
@@ -710,21 +879,21 @@ function renderPsupPlotSVG(gEl, W, H) {
   const highlightedORFs = getHighlightedORFs();
 
   // Background points
-  ['30C', '42C', '46C'].forEach(temp => {
-    psupData.filter(d => d.temp === temp && !highlightedORFs.has(d.orf)).forEach(d => {
+  seriesList.forEach(s => {
+    psupData.filter(d => d.series === s && !highlightedORFs.has(d.orf)).forEach(d => {
       const cx = xScale(d.length), cy = yScale(d.pSup);
       if (cx >= 0 && cx <= plotW && cy >= 0 && cy <= plotH) {
         const c = document.createElementNS(ns, 'circle');
         c.setAttribute('cx', cx); c.setAttribute('cy', cy); c.setAttribute('r', 1.5);
-        c.setAttribute('fill', COLORS[temp]); c.setAttribute('opacity', 0.15);
+        c.setAttribute('fill', colors[s]); c.setAttribute('opacity', 0.15);
         clipped.appendChild(c);
       }
     });
   });
 
   // Window curves
-  ['30C', '42C', '46C'].forEach(temp => {
-    const curve = windowCurves[temp];
+  seriesList.forEach(s => {
+    const curve = windowCurves[s];
     if (!curve) return;
     const pts = curve.filter(d => d.length >= xScale.domain()[0] && d.length <= xScale.domain()[1])
       .map(d => `${xScale(d.length)},${yScale(d.pSupWindow)}`);
@@ -741,11 +910,13 @@ function renderPsupPlotSVG(gEl, W, H) {
   const actives = getActiveHighlights();
   const labelMap = getLabelMap();
   const hlPoints = [];
-  ['30C', '42C', '46C'].forEach(temp => {
-    psupData.filter(d => d.temp === temp && highlightedORFs.has(d.orf)).forEach(d => {
+  const prefSeries = cfg.labelPreferredSeries;
+
+  seriesList.forEach(s => {
+    psupData.filter(d => d.series === s && highlightedORFs.has(d.orf)).forEach(d => {
       const cx = xScale(d.length), cy = yScale(d.pSup);
       if (cx >= 0 && cx <= plotW && cy >= 0 && cy <= plotH)
-        hlPoints.push({ ...d, x: cx, y: cy, color: COLORS[temp] });
+        hlPoints.push({ ...d, x: cx, y: cy, color: colors[s] });
     });
   });
 
@@ -759,28 +930,28 @@ function renderPsupPlotSVG(gEl, W, H) {
   hlPoints.filter(d => geneORFs.has(d.orf)).forEach(d => {
     if (labelledORFs.has(d.orf)) return;
     labelledORFs.add(d.orf);
-    const best = hlPoints.find(p => p.orf === d.orf && p.temp === '42C')
-      || hlPoints.find(p => p.orf === d.orf && p.temp === '46C') || d;
+    const best = hlPoints.find(p => p.orf === d.orf && p.series === prefSeries)
+      || hlPoints.find(p => p.orf === d.orf) || d;
     appendText(clipped, ns, best.x + 6, best.y - 6, labelMap[d.orf] || d.gene, '10px', '600');
   });
 
   // Groups
   actives.filter(h => h.type === 'group').forEach(h => {
-    ['30C', '42C', '46C'].forEach(temp => {
-      const pts = hlPoints.filter(d => h.orf_set.has(d.orf) && d.temp === temp);
+    seriesList.forEach(s => {
+      const pts = hlPoints.filter(d => h.orf_set.has(d.orf) && d.series === s);
       pts.forEach(d => appendCircle(clipped, ns, d.x, d.y, 2.5, d.color, '#333', 0.5, 0.6));
       if (pts.length >= 2) {
         const xs = pts.map(p => p.x), ys = pts.map(p => p.y);
         const mx = median(xs), my = median(ys), madx = mad(xs), mady = mad(ys);
-        appendLine(clipped, ns, mx - madx, my, mx + madx, my, COLORS[temp], 2, 0.85);
-        appendLine(clipped, ns, mx, my - mady, mx, my + mady, COLORS[temp], 2, 0.85);
-        appendCircle(clipped, ns, mx, my, 5, COLORS[temp], '#333', 1.2);
+        appendLine(clipped, ns, mx - madx, my, mx + madx, my, colors[s], 2, 0.85);
+        appendLine(clipped, ns, mx, my - mady, mx, my + mady, colors[s], 2, 0.85);
+        appendCircle(clipped, ns, mx, my, 5, colors[s], '#333', 1.2);
       }
     });
-    const pts42 = hlPoints.filter(d => h.orf_set.has(d.orf) && d.temp === '42C');
-    const ptsL = pts42.length ? pts42 : hlPoints.filter(d => h.orf_set.has(d.orf));
-    if (ptsL.length) {
-      const mx = median(ptsL.map(p => p.x)), my = median(ptsL.map(p => p.y));
+    const ptsL = hlPoints.filter(d => h.orf_set.has(d.orf) && d.series === prefSeries);
+    const ptsFallback = ptsL.length ? ptsL : hlPoints.filter(d => h.orf_set.has(d.orf));
+    if (ptsFallback.length) {
+      const mx = median(ptsFallback.map(p => p.x)), my = median(ptsFallback.map(p => p.y));
       appendText(clipped, ns, mx + 8, my - 8, h.name, '10px', '600');
     }
   });
@@ -792,8 +963,13 @@ function renderEsedPlotSVG(gEl, W, H) {
   const plotW = W - MARGIN.left - MARGIN.right;
   const plotH = H - MARGIN.top - MARGIN.bottom;
   const ns = 'http://www.w3.org/2000/svg';
-  const { selectedTemp, dataWithFC } = getEsedData();
+  const { selectedComp, dataWithFC } = getEsedData();
   const { xScale, yScale } = getEsedScales(plotW, plotH, dataWithFC);
+
+  const cfg = ds();
+  const compColor = cfg.colors[selectedComp] || '#888';
+  const compLabel = cfg.seriesLabels[selectedComp] || selectedComp;
+  const refLabel = cfg.esedRefLabel;
 
   const inner = document.createElementNS(ns, 'g');
   inner.setAttribute('transform', `translate(${MARGIN.left},${MARGIN.top})`);
@@ -827,7 +1003,7 @@ function renderEsedPlotSVG(gEl, W, H) {
   const geneORFs = new Set();
   actives.filter(h => h.type === 'gene').forEach(h => h.orf_set.forEach(o => geneORFs.add(o)));
   allHL.filter(d => geneORFs.has(d.orf)).forEach(d => {
-    appendCircle(clipped, ns, d.x, d.y, 4, COLORS[selectedTemp], '#333', 0.8);
+    appendCircle(clipped, ns, d.x, d.y, 4, compColor, '#333', 0.8);
   });
   const seen = new Set();
   allHL.filter(d => geneORFs.has(d.orf)).forEach(d => {
@@ -837,13 +1013,13 @@ function renderEsedPlotSVG(gEl, W, H) {
 
   actives.filter(h => h.type === 'group').forEach(h => {
     const pts = allHL.filter(d => h.orf_set.has(d.orf));
-    pts.forEach(d => appendCircle(clipped, ns, d.x, d.y, 2.5, COLORS[selectedTemp], '#333', 0.5, 0.6));
+    pts.forEach(d => appendCircle(clipped, ns, d.x, d.y, 2.5, compColor, '#333', 0.5, 0.6));
     if (pts.length >= 2) {
       const xs = pts.map(p => p.x), ys = pts.map(p => p.y);
       const mx = median(xs), my = median(ys), madx = mad(xs), mady = mad(ys);
-      appendLine(clipped, ns, mx - madx, my, mx + madx, my, COLORS[selectedTemp], 2, 0.85);
-      appendLine(clipped, ns, mx, my - mady, mx, my + mady, COLORS[selectedTemp], 2, 0.85);
-      appendCircle(clipped, ns, mx, my, 5, COLORS[selectedTemp], '#333', 1.2);
+      appendLine(clipped, ns, mx - madx, my, mx + madx, my, compColor, 2, 0.85);
+      appendLine(clipped, ns, mx, my - mady, mx, my + mady, compColor, 2, 0.85);
+      appendCircle(clipped, ns, mx, my, 5, compColor, '#333', 1.2);
       appendText(clipped, ns, mx + 8, my - 8, h.name, '10px', '600');
     } else if (pts.length === 1) {
       appendText(clipped, ns, pts[0].x + 6, pts[0].y - 6, h.name, '10px', '600');
@@ -851,7 +1027,7 @@ function renderEsedPlotSVG(gEl, W, H) {
   });
 
   addSVGAxes(inner, ns, xScale, yScale, plotW, plotH,
-    `Fold-change (${TEMP_LABELS[selectedTemp]} vs 30°C)`, 'eSed (SDs)', true);
+    `Fold-change (${compLabel} vs ${refLabel})`, 'eSed (SDs)', true);
 }
 
 // ============================================================
@@ -974,9 +1150,12 @@ function renderAll() {
 // Init & event wiring
 // ============================================================
 async function init() {
-  // Wire up all UI event handlers first, before data load,
-  // so buttons work even if data loading is slow
+  // Dataset selector
+  document.getElementById('dataset-select').addEventListener('change', (e) => {
+    switchDataset(e.target.value);
+  });
 
+  // Gene input
   document.getElementById('add-gene-btn').addEventListener('click', addFromInput);
 
   // Settings toggles
@@ -1004,16 +1183,18 @@ async function init() {
     });
   });
 
-  // eSed temperature toggle
-  document.querySelectorAll('input[name="esed-temp"]').forEach(r => {
-    r.addEventListener('change', () => renderEsedPlot());
-  });
-
   window.addEventListener('resize', debounce(renderAll, 200));
 
-  // Load data
+  // Load gene list (shared)
   try {
-    await loadData();
+    await loadGeneList();
+  } catch (e) {
+    console.error('Failed to load gene list:', e);
+  }
+
+  // Load default dataset
+  try {
+    await loadDatasetData('ew_tspp');
   } catch (e) {
     console.error('Failed to load data:', e);
     document.getElementById('psup-plot').textContent = 'Error loading data. Check console.';
@@ -1021,6 +1202,7 @@ async function init() {
   }
 
   setupAutocomplete();
+  updateEsedComparisonUI();
 
   // Presets
   document.querySelectorAll('.preset-btn').forEach(btn => {

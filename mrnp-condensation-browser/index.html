@@ -6,17 +6,28 @@
   <title>RNA Condensation Data Browser</title>
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="style.css?v=3">
+  <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
   <header>
     <h1>RNA Condensation Data Browser</h1>
-    <p class="subtitle">Drummond Lab — Heat-shock sedimentation data</p>
+    <p class="subtitle" id="app-subtitle">Drummond Lab — Wild-type heat-shock sedimentation data</p>
   </header>
 
   <div class="main-layout">
     <!-- Left sidebar: gene list -->
     <div class="sidebar">
+      <div class="control-group">
+        <h3>Dataset</h3>
+        <select id="dataset-select">
+          <option value="ew_tspp">Heat Shock (WT)</option>
+          <option value="eif3b_deplete">eIF3b Depletion + Heat Shock</option>
+          <option value="azide3">Azide 0.8%</option>
+          <option value="ethanol">Ethanol</option>
+          <option value="dtt">DTT 10 mM (UPR)</option>
+        </select>
+      </div>
+
       <div class="control-group">
         <h3>Genes &amp; Groups</h3>
         <div class="gene-input-row">
@@ -36,11 +47,10 @@
         </div>
       </div>
 
-      <div class="control-group">
+      <div class="control-group" id="esed-comparison-group">
         <h3>eSed comparison</h3>
-        <div class="radio-row">
-          <label><input type="radio" name="esed-temp" value="42C" checked> 42°C vs 30°C</label>
-          <label><input type="radio" name="esed-temp" value="46C"> 46°C vs 30°C</label>
+        <div id="esed-comparison-options" class="radio-row">
+          <!-- Dynamically populated based on dataset -->
         </div>
       </div>
     </div>
@@ -109,6 +119,6 @@
 
   <div id="tooltip" class="tooltip"></div>
 
-  <script src="app.js?v=3"></script>
+  <script src="app.js?v=4"></script>
 </body>
 </html>

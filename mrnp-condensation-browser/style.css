@@ -198,6 +198,23 @@ header h1 {
 }
 .radio-row label { cursor: pointer; }
 
+/* ---- Dataset selector ---- */
+#dataset-select {
+  width: 100%;
+  padding: 0.35rem 0.45rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  background: #fff;
+  cursor: pointer;
+}
+.esed-label {
+  font-size: 0.85rem;
+  color: #555;
+  padding: 0.2rem 0;
+  display: block;
+}
+
 /* ---- Plot panels ---- */
 .plot-panel {
   flex: 1;
