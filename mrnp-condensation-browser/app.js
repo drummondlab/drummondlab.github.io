@@ -1120,6 +1120,118 @@ function downloadBlob(blob, filename) {
 }
 
 // ============================================================
+// Download highlighted data as TSV
+// ============================================================
+function getCategoryMap() {
+  // Map ORF → category name: group name for group members, NA for individual genes
+  const catMap = {};
+  getActiveHighlights().forEach(h => {
+    h.orf_set.forEach(orf => {
+      catMap[orf] = h.type === 'group' ? h.name : 'NA';
+    });
+  });
+  return catMap;
+}
+
+function downloadHighlightedData(panel) {
+  const actives = getActiveHighlights();
+  if (actives.length === 0) {
+    alert('No genes or groups are selected. Add genes first, then download.');
+    return;
+  }
+  const highlightedORFs = getHighlightedORFs();
+  const catMap = getCategoryMap();
+  const cfg = ds();
+  const now = new Date();
+  const timestamp = now.toISOString().replace('T', ' ').replace(/\.\d+Z$/, ' UTC');
+  const browserURL = window.location.href;
+
+  let columns, rows, panelLabel;
+
+  if (panel === 'psup') {
+    panelLabel = 'pSup';
+    columns = ['orf', 'gene', 'category', 'series', 'series_label', 'length', 'pSup'];
+    const data = getPsupData();
+    rows = data
+      .filter(d => highlightedORFs.has(d.orf))
+      .map(d => [
+        d.orf,
+        d.gene || '',
+        catMap[d.orf] || 'NA',
+        d.series,
+        cfg.seriesLabels[d.series] || d.series,
+        d.length,
+        d.pSup
+      ]);
+  } else {
+    panelLabel = 'eSed';
+    const selectedComp = getSelectedEsedComparison();
+    const compLabel = cfg.seriesLabels[selectedComp] || selectedComp;
+    const refLabel = cfg.esedRefLabel;
+    columns = ['orf', 'gene', 'category', 'series', 'series_label', 'length', 'eSed', 'fc', 'padj'];
+    const data = getEsedDataRaw();
+    rows = data
+      .filter(d => highlightedORFs.has(d.orf) && d.series === selectedComp)
+      .map(d => [
+        d.orf,
+        d.gene || '',
+        catMap[d.orf] || 'NA',
+        d.series,
+        cfg.seriesLabels[d.series] || d.series,
+        d.length,
+        d.eSed,
+        d.fc,
+        d.padj != null ? d.padj : 'NA'
+      ]);
+  }
+
+  if (rows.length === 0) {
+    alert('No data found for the selected genes in this dataset/comparison.');
+    return;
+  }
+
+  // Build commented header
+  const header = [];
+  header.push(`# RNA Condensation Data Browser — ${panelLabel} data export`);
+  header.push(`# Dataset: ${cfg.label} (${cfg.id})`);
+  header.push(`# URL: ${browserURL}`);
+  header.push(`# Downloaded: ${timestamp}`);
+  header.push('#');
+  header.push('# Column descriptions:');
+  header.push('#   orf            Systematic ORF name (e.g. YAL001C)');
+  header.push('#   gene           Standard gene name');
+  header.push('#   category       User-defined group name, or NA for individually selected genes');
+  if (panel === 'psup') {
+    header.push('#   series         Series identifier in the data (e.g. 30C, mock, treated)');
+    header.push('#   series_label   Human-readable series label (e.g. 30°C, Mock, Azide 0.8%)');
+    header.push('#   length         mRNA length in nucleotides');
+    header.push('#   pSup           Proportion of mRNA remaining in supernatant after sedimentation');
+  } else {
+    const selectedComp = getSelectedEsedComparison();
+    const compLabel = cfg.seriesLabels[selectedComp] || selectedComp;
+    const refLabel = cfg.esedRefLabel;
+    header.push('#   series         Series identifier for the comparison condition');
+    header.push('#   series_label   Human-readable series label');
+    header.push('#   length         mRNA length in nucleotides');
+    header.push('#   eSed           Escape from sedimentation (standard deviations)');
+    header.push(`#   fc             Fold-change in mRNA abundance (${compLabel} vs ${refLabel})`);
+    header.push('#   padj           Adjusted p-value from DESeq2 differential expression');
+  }
+  header.push('#');
+
+  const tsvLines = [
+    ...header,
+    columns.join('\t'),
+    ...rows.map(r => r.join('\t'))
+  ];
+  const tsv = tsvLines.join('\n') + '\n';
+
+  const datasetTag = cfg.id;
+  const filename = `${datasetTag}_${panel}_selected.tsv`;
+  downloadBlob(new Blob([tsv], { type: 'text/tab-separated-values' }), filename);
+}
+
+// ============================================================
 // Panel settings
 // ============================================================
 function readPanelLimits(panel) {
@@ -1180,6 +1292,13 @@ async function init() {
     btn.addEventListener('click', () => {
       readPanelLimits(btn.dataset.panel);
       exportPanel(btn.dataset.panel, btn.dataset.fmt);
+    });
+  });
+
+  // Download-data buttons
+  document.querySelectorAll('.download-data-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      downloadHighlightedData(btn.dataset.panel);
     });
   });
 

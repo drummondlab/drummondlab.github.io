@@ -287,6 +287,25 @@ header h1 {
 .apply-btn:hover, .export-btn:hover { background: #eee; }
 .apply-btn { font-weight: 600; }
 
+.download-row {
+  margin-top: 0.2rem;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 0.4rem;
+}
+.download-data-btn {
+  padding: 0.3rem 0.6rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  background: #f0f4f8;
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: #444;
+  width: 100%;
+  text-align: center;
+}
+.download-data-btn:hover { background: #e2e8f0; }
+
 /* ---- Plot area ---- */
 .plot-area {
   position: relative;

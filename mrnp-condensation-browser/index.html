@@ -6,7 +6,7 @@
   <title>RNA Condensation Data Browser</title>
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="style.css?v=4">
+  <link rel="stylesheet" href="style.css?v=5">
 </head>
 <body>
   <header>
@@ -82,6 +82,9 @@
             <button class="export-btn" data-panel="psup" data-fmt="svg">SVG</button>
             <button class="export-btn" data-panel="psup" data-fmt="pdf">PDF</button>
           </div>
+          <div class="settings-row download-row">
+            <button class="download-data-btn" data-panel="psup">⬇ Download selected data (TSV)</button>
+          </div>
         </div>
         <div class="plot-area" id="psup-plot"></div>
       </div>
@@ -111,6 +114,9 @@
             <button class="export-btn" data-panel="esed" data-fmt="svg">SVG</button>
             <button class="export-btn" data-panel="esed" data-fmt="pdf">PDF</button>
           </div>
+          <div class="settings-row download-row">
+            <button class="download-data-btn" data-panel="esed">⬇ Download selected data (TSV)</button>
+          </div>
         </div>
         <div class="plot-area" id="esed-plot"></div>
       </div>
@@ -119,6 +125,6 @@
 
   <div id="tooltip" class="tooltip"></div>
 
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=5"></script>
 </body>
 </html>
