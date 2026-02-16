@@ -391,21 +391,19 @@ function getEsedData() {
   const data = esedData.filter(d => d.temp === selectedTemp);
   return {
     selectedTemp,
-    dataWithLog2FC: data
-      .map(d => ({ ...d, log2fc: d.fc > 0 ? Math.log2(d.fc) : null }))
-      .filter(d => d.log2fc != null && isFinite(d.log2fc))
+    dataWithFC: data
+      .filter(d => d.fc > 0 && isFinite(d.fc))
   };
 }
 
-function getEsedScales(plotW, plotH, dataWithLog2FC) {
+function getEsedScales(plotW, plotH, dataWithFC) {
   const lim = panelLimits.esed;
-  const xExt = d3.extent(dataWithLog2FC, d => d.log2fc);
-  const xPad = (xExt[1] - xExt[0]) * 0.05;
-  const yExt = d3.extent(dataWithLog2FC, d => d.eSed);
+  const xExt = d3.extent(dataWithFC, d => d.fc);
+  const yExt = d3.extent(dataWithFC, d => d.eSed);
   const yPad = (yExt[1] - yExt[0]) * 0.05;
   return {
-    xScale: d3.scaleLinear()
-      .domain([lim.xmin != null ? lim.xmin : xExt[0] - xPad, lim.xmax != null ? lim.xmax : xExt[1] + xPad])
+    xScale: d3.scaleLog()
+      .domain([lim.xmin != null ? lim.xmin : xExt[0] * 0.9, lim.xmax != null ? lim.xmax : xExt[1] * 1.1])
       .range([0, plotW]),
     yScale: d3.scaleLinear()
       .domain([lim.ymin != null ? lim.ymin : yExt[0] - yPad, lim.ymax != null ? lim.ymax : yExt[1] + yPad])
@@ -420,8 +418,8 @@ function renderEsedPlot() {
   if (W < 100 || H < 100 || esedData.length === 0) return;
   const plotW = W - MARGIN.left - MARGIN.right;
   const plotH = H - MARGIN.top - MARGIN.bottom;
-  const { selectedTemp, dataWithLog2FC } = getEsedData();
-  const { xScale, yScale } = getEsedScales(plotW, plotH, dataWithLog2FC);
+  const { selectedTemp, dataWithFC } = getEsedData();
+  const { xScale, yScale } = getEsedScales(plotW, plotH, dataWithFC);
 
   const canvas = document.createElement('canvas');
   canvas.width = W * devicePixelRatio; canvas.height = H * devicePixelRatio;
@@ -432,9 +430,9 @@ function renderEsedPlot() {
 
   const highlightedORFs = getHighlightedORFs();
   ctx.fillStyle = '#888'; ctx.globalAlpha = 0.2;
-  dataWithLog2FC.forEach(d => {
+  dataWithFC.forEach(d => {
     if (highlightedORFs.has(d.orf)) return;
-    const x = MARGIN.left + xScale(d.log2fc), y = MARGIN.top + yScale(d.eSed);
+    const x = MARGIN.left + xScale(d.fc), y = MARGIN.top + yScale(d.eSed);
     if (x >= MARGIN.left && x <= W - MARGIN.right && y >= MARGIN.top && y <= H - MARGIN.bottom) {
       ctx.beginPath(); ctx.arc(x, y, 2, 0, Math.PI * 2); ctx.fill();
     }
@@ -446,19 +444,20 @@ function renderEsedPlot() {
   g.append('clipPath').attr('id', 'clip-esed')
     .append('rect').attr('width', plotW).attr('height', plotH);
 
-  g.append('g').attr('transform', `translate(0,${plotH})`).call(d3.axisBottom(xScale).ticks(8));
+  g.append('g').attr('transform', `translate(0,${plotH})`)
+    .call(d3.axisBottom(xScale).ticks(8, '~g'));
   g.append('g').call(d3.axisLeft(yScale).ticks(8));
 
-  // Zero lines
-  if (xScale.domain()[0] < 0 && xScale.domain()[1] > 0)
-    g.append('line').attr('x1', xScale(0)).attr('x2', xScale(0)).attr('y1', 0).attr('y2', plotH)
+  // Reference line at FC = 1 (no change)
+  if (xScale.domain()[0] < 1 && xScale.domain()[1] > 1)
+    g.append('line').attr('x1', xScale(1)).attr('x2', xScale(1)).attr('y1', 0).attr('y2', plotH)
       .attr('stroke', '#ccc').attr('stroke-dasharray', '3,3');
   if (yScale.domain()[0] < 0 && yScale.domain()[1] > 0)
     g.append('line').attr('x1', 0).attr('x2', plotW).attr('y1', yScale(0)).attr('y2', yScale(0))
       .attr('stroke', '#ccc').attr('stroke-dasharray', '3,3');
 
   g.append('text').attr('x', plotW / 2).attr('y', plotH + 42).attr('text-anchor', 'middle').attr('font-size', '12px')
-    .text(`log\u2082(fold-change ${TEMP_LABELS[selectedTemp]} vs 30°C)`);
+    .text(`Fold-change (${TEMP_LABELS[selectedTemp]} vs 30°C)`);
   g.append('text').attr('transform', 'rotate(-90)').attr('x', -plotH / 2).attr('y', -48)
     .attr('text-anchor', 'middle').attr('font-size', '12px').text('Escape from sedimentation, eSed (SDs)');
   g.append('text').attr('x', plotW - 5).attr('y', 15).attr('text-anchor', 'end')
@@ -469,9 +468,9 @@ function renderEsedPlot() {
   const labelMap = getLabelMap();
   const actives = getActiveHighlights();
 
-  const allHL = dataWithLog2FC
+  const allHL = dataWithFC
     .filter(d => highlightedORFs.has(d.orf))
-    .map(d => ({ ...d, x: xScale(d.log2fc), y: yScale(d.eSed) }))
+    .map(d => ({ ...d, x: xScale(d.fc), y: yScale(d.eSed) }))
     .filter(d => d.x >= 0 && d.x <= plotW && d.y >= 0 && d.y <= plotH);
 
   // Individual gene entries
@@ -529,7 +528,7 @@ function renderEsedPlot() {
             `n = ${pts.length}\n` +
             `median eSed: ${yScale.invert(medY).toFixed(3)} SDs\n` +
             `MAD eSed: ${Math.abs(yScale.invert(0) - yScale.invert(madY)).toFixed(3)} SDs\n` +
-            `median log\u2082FC: ${xScale.invert(medX).toFixed(2)}`);
+            `median FC: ${xScale.invert(medX).toFixed(2)}`);
         })
         .on('mouseleave', hideTooltip);
 
@@ -558,7 +557,7 @@ function showTooltip(event, d) {
   if (d.pSup !== undefined) {
     text += `pSup: ${d.pSup.toFixed(3)}\nLength: ${d.length} nt\nTemp: ${TEMP_LABELS[d.temp]}`;
   } else if (d.eSed !== undefined) {
-    text += `eSed: ${d.eSed.toFixed(3)} SDs\nlog\u2082FC: ${d.log2fc.toFixed(2)}\nFC: ${d.fc.toFixed(2)}`;
+    text += `eSed: ${d.eSed.toFixed(3)} SDs\nFC: ${d.fc.toFixed(2)}`;
   }
   showTooltipText(event, text);
 }
@@ -793,8 +792,8 @@ function renderEsedPlotSVG(gEl, W, H) {
   const plotW = W - MARGIN.left - MARGIN.right;
   const plotH = H - MARGIN.top - MARGIN.bottom;
   const ns = 'http://www.w3.org/2000/svg';
-  const { selectedTemp, dataWithLog2FC } = getEsedData();
-  const { xScale, yScale } = getEsedScales(plotW, plotH, dataWithLog2FC);
+  const { selectedTemp, dataWithFC } = getEsedData();
+  const { xScale, yScale } = getEsedScales(plotW, plotH, dataWithFC);
 
   const inner = document.createElementNS(ns, 'g');
   inner.setAttribute('transform', `translate(${MARGIN.left},${MARGIN.top})`);
@@ -813,16 +812,16 @@ function renderEsedPlotSVG(gEl, W, H) {
 
   const highlightedORFs = getHighlightedORFs();
 
-  dataWithLog2FC.filter(d => !highlightedORFs.has(d.orf)).forEach(d => {
-    const cx = xScale(d.log2fc), cy = yScale(d.eSed);
+  dataWithFC.filter(d => !highlightedORFs.has(d.orf)).forEach(d => {
+    const cx = xScale(d.fc), cy = yScale(d.eSed);
     if (cx >= 0 && cx <= plotW && cy >= 0 && cy <= plotH)
       appendCircle(clipped, ns, cx, cy, 1.5, '#888', null, null, 0.2);
   });
 
   const actives = getActiveHighlights();
   const labelMap = getLabelMap();
-  const allHL = dataWithLog2FC.filter(d => highlightedORFs.has(d.orf))
-    .map(d => ({ ...d, x: xScale(d.log2fc), y: yScale(d.eSed) }))
+  const allHL = dataWithFC.filter(d => highlightedORFs.has(d.orf))
+    .map(d => ({ ...d, x: xScale(d.fc), y: yScale(d.eSed) }))
     .filter(d => d.x >= 0 && d.x <= plotW && d.y >= 0 && d.y <= plotH);
 
   const geneORFs = new Set();
@@ -852,7 +851,7 @@ function renderEsedPlotSVG(gEl, W, H) {
   });
 
   addSVGAxes(inner, ns, xScale, yScale, plotW, plotH,
-    `log\u2082(FC ${TEMP_LABELS[selectedTemp]} vs 30°C)`, 'eSed (SDs)', false);
+    `Fold-change (${TEMP_LABELS[selectedTemp]} vs 30°C)`, 'eSed (SDs)', true);
 }
 
 // ============================================================
@@ -897,7 +896,7 @@ function addSVGAxes(g, ns, xScale, yScale, plotW, plotH, xLabel, yLabel, logX) {
   (logX ? xScale.ticks(5) : xScale.ticks(8)).forEach(v => {
     const x = xScale(v);
     appendLine(g, ns, x, plotH, x, plotH + 5, '#333', 1);
-    const t = appendText(g, ns, x, plotH + 16, logX ? d3.format('~s')(v) : v.toFixed(1), '9px', 'normal');
+    const t = appendText(g, ns, x, plotH + 16, logX ? d3.format('~g')(v) : v.toFixed(1), '9px', 'normal');
     t.setAttribute('text-anchor', 'middle');
   });
 
