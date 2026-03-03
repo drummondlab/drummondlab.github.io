@@ -4,7 +4,7 @@ title: "Karen Velez"
 position: Graduate student
 handle: karen
 nickname: karen
-email: 
+email: "velezk at uchicago.edu"
 twitter: 
 github: "Velez-Karen"
 scholar: 
