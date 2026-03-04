@@ -7,7 +7,7 @@ nickname: karen
 email: "velezk at uchicago.edu"
 twitter: 
 github: "Velez-Karen"
-scholar: 
+scholar: 9_tCPvQAAAAJ
 orcid: "0000-0002-9703-1684"
 image: /assets/images/team/karen-velez-v2.png
 alum: false
