@@ -12,7 +12,6 @@ orcid: ""
 image: /assets/images/team/default-member.png
 alum: false
 ---
-
 Sean is a [CMB] graduate student.
 
 [BCMB]: https://camb.uchicago.edu/
