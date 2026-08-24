@@ -9,8 +9,8 @@ twitter:
 github: 
 scholar: 
 image: /assets/images/team/madison-nelson.jpg
-alum: false
+alum: true
 ---
-Madison is a [UChicago][1] undergraduate researcher focusing on identifying primary temperature sensor proteins responsible for inducing the heat shock response.
+Madison was a [UChicago][1] undergraduate researcher focusing on identifying primary temperature sensor proteins responsible for inducing the heat shock response.
 
 [1]: http://www.uchicago.edu
